@@ -1,0 +1,1626 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{Aghion2011}{book}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=7c80c989fdd0b446cc5cdac1d9584afe}{%
+           family={Aghion},
+           familyi={A\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=3bdc4e7cc6fb143a8b4131aa5ededceb}{%
+           family={Boulanger},
+           familyi={B\bibinitperiod},
+           given={Julian},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=7ec278824aa0757f28a8e17ee62ca184}{%
+           family={Cohen},
+           familyi={C\bibinitperiod},
+           given={Elie},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Bruegel Brussels}%
+      }
+      \strng{namehash}{e90c812e5137178b703c1b0a5ba01e94}
+      \strng{fullhash}{e90c812e5137178b703c1b0a5ba01e94}
+      \strng{bibnamehash}{e90c812e5137178b703c1b0a5ba01e94}
+      \strng{authorbibnamehash}{e90c812e5137178b703c1b0a5ba01e94}
+      \strng{authornamehash}{e90c812e5137178b703c1b0a5ba01e94}
+      \strng{authorfullhash}{e90c812e5137178b703c1b0a5ba01e94}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Rethinking industrial policy}
+      \field{year}{2011}
+      \keyw{Basico}
+    \endentry
+    \entry{Almeida2013a}{inbook}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=4e0c987a2067ea40416aecc89f5433b5}{%
+           family={Almeida},
+           familyi={A\bibinitperiod},
+           given={Mansueto\bibnamedelima de},
+           giveni={M\bibinitperiod\bibinitdelim d\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4e0c987a2067ea40416aecc89f5433b5}
+      \strng{fullhash}{4e0c987a2067ea40416aecc89f5433b5}
+      \strng{bibnamehash}{4e0c987a2067ea40416aecc89f5433b5}
+      \strng{authorbibnamehash}{4e0c987a2067ea40416aecc89f5433b5}
+      \strng{authornamehash}{4e0c987a2067ea40416aecc89f5433b5}
+      \strng{authorfullhash}{4e0c987a2067ea40416aecc89f5433b5}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{O futuro da ind{ú}stria no Brasil: desindustrializa{ç}{ã}o em debate}
+      \field{journaltitle}{O futuro da ind{ú}stria no Brasil: desindustrializa{ç}{ã}o em debate. Rio de Janeiro: Civiliza{ç}{ã}o Brasileira}
+      \field{title}{Padr{õ}es de pol{ı́}tica industrial: a velha, a nova e a brasileira}
+      \field{year}{2013}
+      \field{pages}{273\bibrangedash 93}
+      \range{pages}{21}
+      \keyw{Basico}
+    \endentry
+    \entry{Arestis2009a}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=82908e43a46fbf8e3d195f15d8cca66e}{%
+           family={Arestis},
+           familyi={A\bibinitperiod},
+           given={P},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{2}{%
+        {Cambridge Centre for Economic}%
+        {Public Policy}%
+      }
+      \strng{namehash}{82908e43a46fbf8e3d195f15d8cca66e}
+      \strng{fullhash}{82908e43a46fbf8e3d195f15d8cca66e}
+      \strng{bibnamehash}{82908e43a46fbf8e3d195f15d8cca66e}
+      \strng{authorbibnamehash}{82908e43a46fbf8e3d195f15d8cca66e}
+      \strng{authornamehash}{82908e43a46fbf8e3d195f15d8cca66e}
+      \strng{authorfullhash}{82908e43a46fbf8e3d195f15d8cca66e}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cambridge Centre for Economic and Public Policy}
+      \field{title}{New consensus macroeconomics: A critical appraisal}
+      \field{year}{2009}
+      \keyw{Basico}
+    \endentry
+    \entry{Arestis2007a}{inbook}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=82908e43a46fbf8e3d195f15d8cca66e}{%
+           family={Arestis},
+           familyi={A\bibinitperiod},
+           given={P},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{82908e43a46fbf8e3d195f15d8cca66e}
+      \strng{fullhash}{82908e43a46fbf8e3d195f15d8cca66e}
+      \strng{bibnamehash}{82908e43a46fbf8e3d195f15d8cca66e}
+      \strng{authorbibnamehash}{82908e43a46fbf8e3d195f15d8cca66e}
+      \strng{authornamehash}{82908e43a46fbf8e3d195f15d8cca66e}
+      \strng{authorfullhash}{82908e43a46fbf8e3d195f15d8cca66e}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{There a new Consensus in Macroeconomics?}
+      \field{journaltitle}{Is There a New Consensus in Macroeconomics}
+      \field{title}{What is the New Consensus in Macroeconomics?}
+      \field{year}{2007}
+      \keyw{Basico}
+    \endentry
+    \entry{Arestis2009}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=2,uniquepart=given,hash=75499a30114e2f80e2490b9e90512b74}{%
+           family={Arestis},
+           familyi={A\bibinitperiod},
+           given={Philip},
+           giveni={P\bibinitperiod},
+           givenun=2}}%
+      }
+      \strng{namehash}{75499a30114e2f80e2490b9e90512b74}
+      \strng{fullhash}{75499a30114e2f80e2490b9e90512b74}
+      \strng{bibnamehash}{75499a30114e2f80e2490b9e90512b74}
+      \strng{authorbibnamehash}{75499a30114e2f80e2490b9e90512b74}
+      \strng{authornamehash}{75499a30114e2f80e2490b9e90512b74}
+      \strng{authorfullhash}{75499a30114e2f80e2490b9e90512b74}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Macroeconomic Policies on Shaky Foundations--Whither Mainstream Economics}
+      \field{title}{New Consensus macroeconomics and Keynesian critique}
+      \field{year}{2009}
+      \keyw{Basico}
+    \endentry
+    \entry{Arestis_1999}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=2,uniquepart=given,hash=75499a30114e2f80e2490b9e90512b74}{%
+           family={Arestis},
+           familyi={A\bibinitperiod},
+           given={Philip},
+           giveni={P\bibinitperiod},
+           givenun=2}}%
+        {{uniquename=0,uniquepart=base,hash=6e70ba5c6bc39ba81881f90b8ce2b27a}{%
+           family={Dunn},
+           familyi={D\bibinitperiod},
+           given={Stephen\bibnamedelima P.},
+           giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=7e778bdc6edfe2818314ab4a26e21d27}{%
+           family={Sawyer},
+           familyi={S\bibinitperiod},
+           given={Malcolm},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Informa {UK} Limited}%
+      }
+      \strng{namehash}{8af1b8522dada7323f319b2cbbbb89a8}
+      \strng{fullhash}{8af1b8522dada7323f319b2cbbbb89a8}
+      \strng{bibnamehash}{8af1b8522dada7323f319b2cbbbb89a8}
+      \strng{authorbibnamehash}{8af1b8522dada7323f319b2cbbbb89a8}
+      \strng{authornamehash}{8af1b8522dada7323f319b2cbbbb89a8}
+      \strng{authorfullhash}{8af1b8522dada7323f319b2cbbbb89a8}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Post Keynesian Economics}
+      \field{month}{7}
+      \field{number}{4}
+      \field{title}{Post Keynesian Economics and Its Critics}
+      \field{volume}{21}
+      \field{year}{1999}
+      \field{pages}{527\bibrangedash 549}
+      \range{pages}{23}
+      \keyw{Basico}
+    \endentry
+    \entry{Arestis2008}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=2,uniquepart=given,hash=75499a30114e2f80e2490b9e90512b74}{%
+           family={Arestis},
+           familyi={A\bibinitperiod},
+           given={Philip},
+           giveni={P\bibinitperiod},
+           givenun=2}}%
+        {{uniquename=0,uniquepart=base,hash=7e778bdc6edfe2818314ab4a26e21d27}{%
+           family={Sawyer},
+           familyi={S\bibinitperiod},
+           given={Malcolm},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {SciELO Brasil}%
+      }
+      \strng{namehash}{5d4506334fbd3ea303c2410179c1994d}
+      \strng{fullhash}{5d4506334fbd3ea303c2410179c1994d}
+      \strng{bibnamehash}{5d4506334fbd3ea303c2410179c1994d}
+      \strng{authorbibnamehash}{5d4506334fbd3ea303c2410179c1994d}
+      \strng{authornamehash}{5d4506334fbd3ea303c2410179c1994d}
+      \strng{authorfullhash}{5d4506334fbd3ea303c2410179c1994d}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Economia e Sociedade}
+      \field{number}{SPE}
+      \field{title}{New consensus macroeconomics and inflation targeting: Keynesian critique}
+      \field{volume}{17}
+      \field{year}{2008}
+      \field{pages}{629\bibrangedash 653}
+      \range{pages}{25}
+      \keyw{Basico}
+    \endentry
+    \entry{Bacha2013}{inbook}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=f4ee3ecba18eab4c6be2f231476cba69}{%
+           family={Bacha},
+           familyi={B\bibinitperiod},
+           given={Edmar},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f4ee3ecba18eab4c6be2f231476cba69}
+      \strng{fullhash}{f4ee3ecba18eab4c6be2f231476cba69}
+      \strng{bibnamehash}{f4ee3ecba18eab4c6be2f231476cba69}
+      \strng{authorbibnamehash}{f4ee3ecba18eab4c6be2f231476cba69}
+      \strng{authornamehash}{f4ee3ecba18eab4c6be2f231476cba69}
+      \strng{authorfullhash}{f4ee3ecba18eab4c6be2f231476cba69}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{O futuro da ind{ú}stria no Brasil: desindustrializa{ç}{ã}o em debate}
+      \field{journaltitle}{O futuro da ind{ú}stria no Brasil: desindustrializa{ç}{ã}o em debate. Rio de Janeiro: Civiliza{ç}{ã}o Brasileira}
+      \field{title}{Bonan{ç}a externa e desindustrializa{ç}{ã}o: uma an{á}lise do per{ı́}odo 2005-2011}
+      \field{year}{2013}
+      \field{pages}{97\bibrangedash 120}
+      \range{pages}{24}
+      \keyw{Basico}
+    \endentry
+    \entry{Baltar2015}{report}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=f1898ef9531947e2be08566483c15779}{%
+           family={Baltar},
+           familyi={B\bibinitperiod},
+           given={Paulo},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Instituto de Pesquisa Econ{Ù}mica Aplicada (IPEA)}%
+      }
+      \strng{namehash}{f1898ef9531947e2be08566483c15779}
+      \strng{fullhash}{f1898ef9531947e2be08566483c15779}
+      \strng{bibnamehash}{f1898ef9531947e2be08566483c15779}
+      \strng{authorbibnamehash}{f1898ef9531947e2be08566483c15779}
+      \strng{authornamehash}{f1898ef9531947e2be08566483c15779}
+      \strng{authorfullhash}{f1898ef9531947e2be08566483c15779}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Crescimento da economia e mercado de trabalho no Brasil}
+      \field{type}{techreport}
+      \field{year}{2015}
+      \keyw{Basico}
+    \endentry
+    \entry{biancarelli2014era}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=7e1e14fa12e7e1bf9c3fee3a49d64f32}{%
+           family={Biancarelli},
+           familyi={B\bibinitperiod},
+           given={Andr{é}\bibnamedelima M},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7e1e14fa12e7e1bf9c3fee3a49d64f32}
+      \strng{fullhash}{7e1e14fa12e7e1bf9c3fee3a49d64f32}
+      \strng{bibnamehash}{7e1e14fa12e7e1bf9c3fee3a49d64f32}
+      \strng{authorbibnamehash}{7e1e14fa12e7e1bf9c3fee3a49d64f32}
+      \strng{authornamehash}{7e1e14fa12e7e1bf9c3fee3a49d64f32}
+      \strng{authorfullhash}{7e1e14fa12e7e1bf9c3fee3a49d64f32}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Revista do Instituto de estudos Brasileiros}
+      \field{number}{58}
+      \field{title}{A Era Lula e sua quest{ã}o econ{ô}mica principal crescimento, mercado interno e distribui{ç}{ã}o de renda}
+      \field{year}{2014}
+      \field{pages}{263\bibrangedash 288}
+      \range{pages}{26}
+      \keyw{Basico}
+    \endentry
+    \entry{BIANCARELLI2012}{report}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=7e1e14fa12e7e1bf9c3fee3a49d64f32}{%
+           family={Biancarelli},
+           familyi={B\bibinitperiod},
+           given={Andr{é}\bibnamedelima M},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Rede desenvolvimentista}%
+      }
+      \strng{namehash}{7e1e14fa12e7e1bf9c3fee3a49d64f32}
+      \strng{fullhash}{7e1e14fa12e7e1bf9c3fee3a49d64f32}
+      \strng{bibnamehash}{7e1e14fa12e7e1bf9c3fee3a49d64f32}
+      \strng{authorbibnamehash}{7e1e14fa12e7e1bf9c3fee3a49d64f32}
+      \strng{authornamehash}{7e1e14fa12e7e1bf9c3fee3a49d64f32}
+      \strng{authorfullhash}{7e1e14fa12e7e1bf9c3fee3a49d64f32}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Texto para Discuss{ã}o n{º} 13}
+      \field{title}{Uma nova realidade do setor externo brasileiro, em meio {à} crise internacional}
+      \field{type}{techreport}
+      \field{volume}{13}
+      \field{year}{2012}
+      \keyw{Basico}
+    \endentry
+    \entry{bielschowsky2013estrategia}{report}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=1c0802b6c3870fef0d8990ebb5873853}{%
+           family={Bielschowsky},
+           familyi={B\bibinitperiod},
+           given={Ricardo},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Texto para Discuss{ã}o, Instituto de Pesquisa Econ{ô}mica Aplicada (IPEA)}%
+      }
+      \strng{namehash}{1c0802b6c3870fef0d8990ebb5873853}
+      \strng{fullhash}{1c0802b6c3870fef0d8990ebb5873853}
+      \strng{bibnamehash}{1c0802b6c3870fef0d8990ebb5873853}
+      \strng{authorbibnamehash}{1c0802b6c3870fef0d8990ebb5873853}
+      \strng{authornamehash}{1c0802b6c3870fef0d8990ebb5873853}
+      \strng{authorfullhash}{1c0802b6c3870fef0d8990ebb5873853}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Estrat{é}gia de desenvolvimento e as tr{ê}s frentes de expans{ã}o no Brasil: um desenho conceitual}
+      \field{type}{techreport}
+      \field{year}{2013}
+      \keyw{Basico}
+    \endentry
+    \entry{blanchard1991sustainability}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=d59d5ba3f20a60d09d502a7444d190f9}{%
+           family={Blanchard},
+           familyi={B\bibinitperiod},
+           given={Olivier\bibnamedelima J},
+           giveni={O\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=107faf75bf4cdc8294383c88724bdaad}{%
+           family={Chouraqui},
+           familyi={C\bibinitperiod},
+           given={Jean-Claude},
+           giveni={J\bibinithyphendelim C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=244172a3f337835da1380c4b41864d17}{%
+           family={Hagemann},
+           familyi={H\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=d5b07ac61ff98f1ac6b6cb292c11e690}{%
+           family={Sartor},
+           familyi={S\bibinitperiod},
+           given={Nicola},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f0554d6b4b8ca7d581f16e8a39dc6bf8}
+      \strng{fullhash}{252946500226a68f10378df8ce1e5489}
+      \strng{bibnamehash}{f0554d6b4b8ca7d581f16e8a39dc6bf8}
+      \strng{authorbibnamehash}{f0554d6b4b8ca7d581f16e8a39dc6bf8}
+      \strng{authornamehash}{f0554d6b4b8ca7d581f16e8a39dc6bf8}
+      \strng{authorfullhash}{252946500226a68f10378df8ce1e5489}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{NBER Working Paper No. 1547}
+      \field{title}{The sustainability of fiscal policy: New answers to an old question}
+      \field{year}{1991}
+      \keyw{Basico}
+    \endentry
+    \entry{carneiro2017navegando}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=bfe991e02bbad46a99c7c02752995450}{%
+           family={Carneiro},
+           familyi={C\bibinitperiod},
+           given={Ricardo},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{bfe991e02bbad46a99c7c02752995450}
+      \strng{fullhash}{bfe991e02bbad46a99c7c02752995450}
+      \strng{bibnamehash}{bfe991e02bbad46a99c7c02752995450}
+      \strng{authorbibnamehash}{bfe991e02bbad46a99c7c02752995450}
+      \strng{authornamehash}{bfe991e02bbad46a99c7c02752995450}
+      \strng{authorfullhash}{bfe991e02bbad46a99c7c02752995450}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0103-9466}
+      \field{journaltitle}{Texto para discussão}
+      \field{month}{3}
+      \field{number}{289}
+      \field{title}{Navegando a contravento: (Uma reflexão sobre o experimento desenvolvimentista do Governo Dilma Rousseff)}
+      \field{year}{2017}
+      \keyw{Basico}
+    \endentry
+    \entry{de1988fundamentos}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=1d0944cd5389b2f37872ade9f8ac037b}{%
+           family={Carvalho},
+           familyi={C\bibinitperiod},
+           given={Fernando\bibnamedelima J},
+           giveni={F\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0,
+           prefix={de},
+           prefixi={d\bibinitperiod},
+           prefixun=0}}%
+      }
+      \strng{namehash}{1d0944cd5389b2f37872ade9f8ac037b}
+      \strng{fullhash}{1d0944cd5389b2f37872ade9f8ac037b}
+      \strng{bibnamehash}{1d0944cd5389b2f37872ade9f8ac037b}
+      \strng{authorbibnamehash}{1d0944cd5389b2f37872ade9f8ac037b}
+      \strng{authornamehash}{1d0944cd5389b2f37872ade9f8ac037b}
+      \strng{authorfullhash}{1d0944cd5389b2f37872ade9f8ac037b}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Fundamentos da escola p{ó}s-keynesiana: a teoria de uma economia monet{á}ria}
+      \field{year}{1988}
+      \keyw{Basico}
+    \endentry
+    \entry{caverzasi2013stock}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=e3fc2af895d5bd72c1d9c2b13737de83}{%
+           family={Caverzasi},
+           familyi={C\bibinitperiod},
+           given={Eugenio},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=ae8bd78526c5612bde41aa298b833071}{%
+           family={Godin},
+           familyi={G\bibinitperiod},
+           given={Antoine},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{46bf30d8a3ab221fbb2b7f6f01919fdc}
+      \strng{fullhash}{46bf30d8a3ab221fbb2b7f6f01919fdc}
+      \strng{bibnamehash}{46bf30d8a3ab221fbb2b7f6f01919fdc}
+      \strng{authorbibnamehash}{46bf30d8a3ab221fbb2b7f6f01919fdc}
+      \strng{authornamehash}{46bf30d8a3ab221fbb2b7f6f01919fdc}
+      \strng{authorfullhash}{46bf30d8a3ab221fbb2b7f6f01919fdc}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Levy Economics Institute of Bard College Working Paper}
+      \field{number}{745}
+      \field{title}{Stock-flow consistent modeling through the ages}
+      \field{year}{2013}
+      \keyw{Basico}
+    \endentry
+    \entry{chick1995there}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=89ac8ca9ea53aa52aa353a8945a52812}{%
+           family={Chick},
+           familyi={C\bibinitperiod},
+           given={Victoria},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{89ac8ca9ea53aa52aa353a8945a52812}
+      \strng{fullhash}{89ac8ca9ea53aa52aa353a8945a52812}
+      \strng{bibnamehash}{89ac8ca9ea53aa52aa353a8945a52812}
+      \strng{authorbibnamehash}{89ac8ca9ea53aa52aa353a8945a52812}
+      \strng{authornamehash}{89ac8ca9ea53aa52aa353a8945a52812}
+      \strng{authorfullhash}{89ac8ca9ea53aa52aa353a8945a52812}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scottish Journal of Political Economy}
+      \field{number}{1}
+      \field{title}{Is there a case for Post Keynesian Economics?}
+      \field{volume}{42}
+      \field{year}{1995}
+      \field{pages}{20\bibrangedash 36}
+      \range{pages}{17}
+      \keyw{Basico}
+    \endentry
+    \entry{CINTRA2015}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=b43895dac94d38a9a50835c5535da27d}{%
+           family={Cintra},
+           familyi={C\bibinitperiod},
+           given={Marco\bibnamedelimb Antônio\bibnamedelima Macedo},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b43895dac94d38a9a50835c5535da27d}
+      \strng{fullhash}{b43895dac94d38a9a50835c5535da27d}
+      \strng{bibnamehash}{b43895dac94d38a9a50835c5535da27d}
+      \strng{authorbibnamehash}{b43895dac94d38a9a50835c5535da27d}
+      \strng{authornamehash}{b43895dac94d38a9a50835c5535da27d}
+      \strng{authorfullhash}{b43895dac94d38a9a50835c5535da27d}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Din{â}mica macrossetorial brasileira. Bras{ı́}lia: Ipea}
+      \field{title}{O financiamento das contas externas brasileiras: 1995-2014}
+      \field{year}{2015}
+      \field{pages}{131\bibrangedash 178}
+      \range{pages}{48}
+      \keyw{Basico}
+    \endentry
+    \entry{Crotty2002a}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=c09f30c6cdacdf6d6b6d0236c83a5e58}{%
+           family={Crotty},
+           familyi={C\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c09f30c6cdacdf6d6b6d0236c83a5e58}
+      \strng{fullhash}{c09f30c6cdacdf6d6b6d0236c83a5e58}
+      \strng{bibnamehash}{c09f30c6cdacdf6d6b6d0236c83a5e58}
+      \strng{authorbibnamehash}{c09f30c6cdacdf6d6b6d0236c83a5e58}
+      \strng{authornamehash}{c09f30c6cdacdf6d6b6d0236c83a5e58}
+      \strng{authorfullhash}{c09f30c6cdacdf6d6b6d0236c83a5e58}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{PERI Working Paper No. 44}
+      \field{title}{The effects of increased product market competition and changes in financial markets on the performance of nonfinancial corporations in the neoliberal era}
+      \field{year}{2002}
+      \keyw{Basico}
+    \endentry
+    \entry{Dequech2007}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=332edf1cff37f435955cf554308f9ffc}{%
+           family={Dequech},
+           familyi={D\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{332edf1cff37f435955cf554308f9ffc}
+      \strng{fullhash}{332edf1cff37f435955cf554308f9ffc}
+      \strng{bibnamehash}{332edf1cff37f435955cf554308f9ffc}
+      \strng{authorbibnamehash}{332edf1cff37f435955cf554308f9ffc}
+      \strng{authornamehash}{332edf1cff37f435955cf554308f9ffc}
+      \strng{authorfullhash}{332edf1cff37f435955cf554308f9ffc}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Post Keynesian Economics}
+      \field{number}{2}
+      \field{title}{Neoclassical, mainstream, orthodox, and heterodox economics}
+      \field{volume}{30}
+      \field{year}{2007}
+      \field{pages}{279\bibrangedash 302}
+      \range{pages}{24}
+      \keyw{Basico}
+    \endentry
+    \entry{DoencaBrDiegues}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=609b0109c196cb859990979d0446389f}{%
+           family={Diegues},
+           familyi={D\bibinitperiod},
+           given={Antônio\bibnamedelima Carlos},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{609b0109c196cb859990979d0446389f}
+      \strng{fullhash}{609b0109c196cb859990979d0446389f}
+      \strng{bibnamehash}{609b0109c196cb859990979d0446389f}
+      \strng{authorbibnamehash}{609b0109c196cb859990979d0446389f}
+      \strng{authornamehash}{609b0109c196cb859990979d0446389f}
+      \strng{authorfullhash}{609b0109c196cb859990979d0446389f}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{http://www.vermelho.org.br/noticia/269034-1}
+      \field{title}{Desindustrialização e ``Doença Brasileira''}
+      \field{urlday}{26}
+      \field{urlmonth}{12}
+      \field{urlyear}{2017}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://www.vermelho.org.br/noticia/269034-1
+      \endverb
+      \verb{url}
+      \verb http://www.vermelho.org.br/noticia/269034-1
+      \endverb
+      \keyw{Basico}
+    \endentry
+    \entry{dos2006keynesian}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=2,uniquepart=given,hash=b958bc2b0a39bfae110b1496f447071e}{%
+           family={Dos{\bibnamedelimb }Santos},
+           familyi={D\bibinitperiod},
+           given={Claudio\bibnamedelima H},
+           giveni={C\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=2}}%
+      }
+      \list{publisher}{1}{%
+        {CPES}%
+      }
+      \strng{namehash}{b958bc2b0a39bfae110b1496f447071e}
+      \strng{fullhash}{b958bc2b0a39bfae110b1496f447071e}
+      \strng{bibnamehash}{b958bc2b0a39bfae110b1496f447071e}
+      \strng{authorbibnamehash}{b958bc2b0a39bfae110b1496f447071e}
+      \strng{authornamehash}{b958bc2b0a39bfae110b1496f447071e}
+      \strng{authorfullhash}{b958bc2b0a39bfae110b1496f447071e}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cambridge Journal of Economics}
+      \field{number}{4}
+      \field{title}{Keynesian theorising during hard times: stock-flow consistent models as an unexplored ‘frontier’of Keynesian macroeconomics}
+      \field{volume}{30}
+      \field{year}{2006}
+      \field{pages}{541\bibrangedash 565}
+      \range{pages}{25}
+      \keyw{Basico}
+    \endentry
+    \entry{forstater1998toward}{report}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=999b1672ed9fa71726a5c3646c7ef912}{%
+           family={Forstater},
+           familyi={F\bibinitperiod},
+           given={Mathew},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Levy Institute or Bard College}%
+      }
+      \list{publisher}{1}{%
+        {Levy Economics Institute Working Paper}%
+      }
+      \strng{namehash}{999b1672ed9fa71726a5c3646c7ef912}
+      \strng{fullhash}{999b1672ed9fa71726a5c3646c7ef912}
+      \strng{bibnamehash}{999b1672ed9fa71726a5c3646c7ef912}
+      \strng{authorbibnamehash}{999b1672ed9fa71726a5c3646c7ef912}
+      \strng{authornamehash}{999b1672ed9fa71726a5c3646c7ef912}
+      \strng{authorfullhash}{999b1672ed9fa71726a5c3646c7ef912}
+      \field{sortinit}{F}
+      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Levy Economics Institute of Bard College}
+      \field{title}{Toward a New Instrumental Macroeconomics: Abba Lerner and Adolph Lowe on Economic Method, Theory, History, and Policy}
+      \field{type}{techreport}
+      \field{year}{1998}
+      \keyw{Basico}
+    \endentry
+    \entry{godley2012monetary}{book}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=f6bfabc3bb1587ddfc005f7ede21614c}{%
+           family={Godley},
+           familyi={G\bibinitperiod},
+           given={Wynne},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=dcd7b0a6002af14d170a5a19365c27f2}{%
+           family={Lavoie},
+           familyi={L\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{f441e789606878aa4ec4a6387dfbee0c}
+      \strng{fullhash}{f441e789606878aa4ec4a6387dfbee0c}
+      \strng{bibnamehash}{f441e789606878aa4ec4a6387dfbee0c}
+      \strng{authorbibnamehash}{f441e789606878aa4ec4a6387dfbee0c}
+      \strng{authornamehash}{f441e789606878aa4ec4a6387dfbee0c}
+      \strng{authorfullhash}{f441e789606878aa4ec4a6387dfbee0c}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Monetary economics: an integrated approach to credit, money, income, production and wealth}
+      \field{year}{2012}
+      \keyw{Basico}
+    \endentry
+    \entry{HIRATUKA2017}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=da444560534943d52d609ae0d15786f4}{%
+           family={HIRATUKA},
+           familyi={H\bibinitperiod},
+           given={Célio},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=94c0f5c5de1d8297202e9d7d709bee05}{%
+           family={SARTI},
+           familyi={S\bibinitperiod},
+           given={Fernando},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {pt}%
+      }
+      \list{publisher}{1}{%
+        {scielo}%
+      }
+      \strng{namehash}{6c258486265635f9e1c66b160d32e364}
+      \strng{fullhash}{6c258486265635f9e1c66b160d32e364}
+      \strng{bibnamehash}{6c258486265635f9e1c66b160d32e364}
+      \strng{authorbibnamehash}{6c258486265635f9e1c66b160d32e364}
+      \strng{authornamehash}{6c258486265635f9e1c66b160d32e364}
+      \strng{authorfullhash}{6c258486265635f9e1c66b160d32e364}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0101-3157}
+      \field{journaltitle}{{Brazilian Journal of Political Economy}}
+      \field{month}{03}
+      \field{title}{Transformações na estrutura produtiva global, desindustrialização e desenvolvimento industrial no Brasil}
+      \field{volume}{37}
+      \field{year}{2017}
+      \field{pages}{189\bibrangedash 207}
+      \range{pages}{19}
+      \verb{urlraw}
+      \verb http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0101-31572017000100189&nrm=iso
+      \endverb
+      \verb{url}
+      \verb http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0101-31572017000100189&nrm=iso
+      \endverb
+      \keyw{Basico}
+    \endentry
+    \entry{Keynes1982}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=aa540260b7ac58aa9b89b66bc63a94d1}{%
+           family={Keynes},
+           familyi={K\bibinitperiod},
+           given={John\bibnamedelima Maynard},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Atlas S{ã}o Paulo}%
+      }
+      \strng{namehash}{aa540260b7ac58aa9b89b66bc63a94d1}
+      \strng{fullhash}{aa540260b7ac58aa9b89b66bc63a94d1}
+      \strng{bibnamehash}{aa540260b7ac58aa9b89b66bc63a94d1}
+      \strng{authorbibnamehash}{aa540260b7ac58aa9b89b66bc63a94d1}
+      \strng{authornamehash}{aa540260b7ac58aa9b89b66bc63a94d1}
+      \strng{authorfullhash}{aa540260b7ac58aa9b89b66bc63a94d1}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A teoria geral do emprego, do juro e da moeda}
+      \field{year}{1982}
+      \keyw{Basico}
+    \endentry
+    \entry{9781847204837}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=dcd7b0a6002af14d170a5a19365c27f2}{%
+           family={Lavoie},
+           familyi={L\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Edward Elgar Pub}%
+      }
+      \strng{namehash}{dcd7b0a6002af14d170a5a19365c27f2}
+      \strng{fullhash}{dcd7b0a6002af14d170a5a19365c27f2}
+      \strng{bibnamehash}{dcd7b0a6002af14d170a5a19365c27f2}
+      \strng{authorbibnamehash}{dcd7b0a6002af14d170a5a19365c27f2}
+      \strng{authornamehash}{dcd7b0a6002af14d170a5a19365c27f2}
+      \strng{authorfullhash}{dcd7b0a6002af14d170a5a19365c27f2}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9781847204837}
+      \field{title}{Post-Keynesian Economics: New Foundations}
+      \field{year}{2014}
+      \keyw{Basico}
+    \endentry
+    \entry{lerner1943functional}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=f735b018122810807ce1bc4a32bc314e}{%
+           family={Lerner},
+           familyi={L\bibinitperiod},
+           given={Abba\bibnamedelima P},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {JSTOR}%
+      }
+      \strng{namehash}{f735b018122810807ce1bc4a32bc314e}
+      \strng{fullhash}{f735b018122810807ce1bc4a32bc314e}
+      \strng{bibnamehash}{f735b018122810807ce1bc4a32bc314e}
+      \strng{authorbibnamehash}{f735b018122810807ce1bc4a32bc314e}
+      \strng{authornamehash}{f735b018122810807ce1bc4a32bc314e}
+      \strng{authorfullhash}{f735b018122810807ce1bc4a32bc314e}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Social research}
+      \field{title}{Functional finance and the federal debt}
+      \field{year}{1943}
+      \field{pages}{38\bibrangedash 51}
+      \range{pages}{14}
+      \keyw{Basico}
+    \endentry
+    \entry{Lin2011}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=2ad10a592236685f9d916749579c92ee}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Justin\bibnamedelima Yifu},
+           giveni={J\bibinitperiod\bibinitdelim Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{2ad10a592236685f9d916749579c92ee}
+      \strng{fullhash}{2ad10a592236685f9d916749579c92ee}
+      \strng{bibnamehash}{2ad10a592236685f9d916749579c92ee}
+      \strng{authorbibnamehash}{2ad10a592236685f9d916749579c92ee}
+      \strng{authornamehash}{2ad10a592236685f9d916749579c92ee}
+      \strng{authorfullhash}{2ad10a592236685f9d916749579c92ee}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The World Bank Research Observer}
+      \field{number}{2}
+      \field{title}{New Structural Economics: A Framework for Rethinking Development 1}
+      \field{volume}{26}
+      \field{year}{2011}
+      \field{pages}{193\bibrangedash 221}
+      \range{pages}{29}
+      \keyw{Basico}
+    \endentry
+    \entry{9788539304608}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=1,uniquepart=given,hash=0e20fd53833b801c0e17595f92217308}{%
+           family={Lopreato},
+           familyi={L\bibinitperiod},
+           given={Francisco},
+           giveni={F\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{publisher}{1}{%
+        {Editora Unesp}%
+      }
+      \strng{namehash}{0e20fd53833b801c0e17595f92217308}
+      \strng{fullhash}{0e20fd53833b801c0e17595f92217308}
+      \strng{bibnamehash}{0e20fd53833b801c0e17595f92217308}
+      \strng{authorbibnamehash}{0e20fd53833b801c0e17595f92217308}
+      \strng{authornamehash}{0e20fd53833b801c0e17595f92217308}
+      \strng{authorfullhash}{0e20fd53833b801c0e17595f92217308}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Caminhos Da Política Fiscal No Brasil}
+      \field{year}{2013}
+      \field{pages}{7\bibrangedash 62}
+      \range{pages}{56}
+      \keyw{Basico}
+    \endentry
+    \entry{macedo2008keynesian}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=fbae18abe1b20cc12b37b98b9aa52804}{%
+           family={Macedo{\bibnamedelimb }e{\bibnamedelimb }Silva},
+           familyi={M\bibinitperiod},
+           given={A.\bibnamedelimi C.},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=2,uniquepart=given,hash=56f0fde83e45545ac222999096b045e3}{%
+           family={Dos{\bibnamedelimb }Santos},
+           familyi={D\bibinitperiod},
+           given={C.\bibnamedelimi H.},
+           giveni={C\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=2}}%
+      }
+      \strng{namehash}{50a46ca40c261f272768fbb0ca94930c}
+      \strng{fullhash}{50a46ca40c261f272768fbb0ca94930c}
+      \strng{bibnamehash}{50a46ca40c261f272768fbb0ca94930c}
+      \strng{authorbibnamehash}{50a46ca40c261f272768fbb0ca94930c}
+      \strng{authornamehash}{50a46ca40c261f272768fbb0ca94930c}
+      \strng{authorfullhash}{50a46ca40c261f272768fbb0ca94930c}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cambridge Journal of Economics}
+      \field{title}{The Keynesian Roots of Stock-flow Consistent Macroeconomic Models: Peering Over the Edge of the Short Period}
+      \field{year}{2011}
+      \keyw{Basico}
+    \endentry
+    \entry{MAIOR2015}{report}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=beba314005ac9fb396cc5c9f7322f348}{%
+           family={MAIOR},
+           familyi={M\bibinitperiod},
+           given={PLANO\bibnamedelima BRASIL},
+           giveni={P\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{beba314005ac9fb396cc5c9f7322f348}
+      \strng{fullhash}{beba314005ac9fb396cc5c9f7322f348}
+      \strng{bibnamehash}{beba314005ac9fb396cc5c9f7322f348}
+      \strng{authorbibnamehash}{beba314005ac9fb396cc5c9f7322f348}
+      \strng{authornamehash}{beba314005ac9fb396cc5c9f7322f348}
+      \strng{authorfullhash}{beba314005ac9fb396cc5c9f7322f348}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Competir para crescer. Bras{ı́}lia, DF. Dispon{ı́}vel em:. Acesso em}
+      \field{title}{Plano Brasil maior: inovar para competir}
+      \field{volume}{25}
+      \field{year}{2015}
+      \keyw{Basico}
+    \endentry
+    \entry{martins2016desalavancagem}{thesis}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=b765b27906674374991999a78f400642}{%
+           family={Martins},
+           familyi={M\bibinitperiod},
+           given={{Í}talo\bibnamedelimb Pedrosa\bibnamedelima Gomes},
+           giveni={Í\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Unicamp}%
+      }
+      \strng{namehash}{b765b27906674374991999a78f400642}
+      \strng{fullhash}{b765b27906674374991999a78f400642}
+      \strng{bibnamehash}{b765b27906674374991999a78f400642}
+      \strng{authorbibnamehash}{b765b27906674374991999a78f400642}
+      \strng{authornamehash}{b765b27906674374991999a78f400642}
+      \strng{authorfullhash}{b765b27906674374991999a78f400642}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{bookpagination}{sheet}
+      \field{journaltitle}{Rio de Janeiro: Banco Nacional de Desenvolvimento Econ{ô}mico e Social}
+      \field{title}{Desalavancagem e pol{ı́}tica fiscal em um modelo de consist{ê}ncia entre fluxos e estoques (SFC)}
+      \field{type}{mathesis}
+      \field{year}{2016}
+      \keyw{Basico}
+    \endentry
+    \entry{Mazzucato2013}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=2519deb3fdabfea790009fcee150fa94}{%
+           family={Mazzucato},
+           familyi={M\bibinitperiod},
+           given={Mariana},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2519deb3fdabfea790009fcee150fa94}
+      \strng{fullhash}{2519deb3fdabfea790009fcee150fa94}
+      \strng{bibnamehash}{2519deb3fdabfea790009fcee150fa94}
+      \strng{authorbibnamehash}{2519deb3fdabfea790009fcee150fa94}
+      \strng{authornamehash}{2519deb3fdabfea790009fcee150fa94}
+      \strng{authorfullhash}{2519deb3fdabfea790009fcee150fa94}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Anthem, London}
+      \field{title}{The Entrepreneurial State: debunking private vs. public sector myths}
+      \field{year}{2013}
+      \keyw{Basico}
+    \endentry
+    \entry{Morais2010}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=b8f3d7456d0c7e31ebf58a0779f4dcbb}{%
+           family={Morais},
+           familyi={M\bibinitperiod},
+           given={Jos{é}\bibnamedelimb Micaelson\bibnamedelima Lacerda},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=6e11abb2238837b0d14ce59360ffaf2d}{%
+           family={O’de\bibnamedelimb Lima\bibnamedelima J{ú}nior},
+           familyi={O\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim J\bibinitperiod},
+           given={Francisco},
+           giveni={F\bibinitperiod},
+           givenun=0,
+           prefix={do},
+           prefixi={d\bibinitperiod},
+           prefixun=0}}%
+      }
+      \strng{namehash}{1d50a1b4478fb649b236da3f33586270}
+      \strng{fullhash}{1d50a1b4478fb649b236da3f33586270}
+      \strng{bibnamehash}{1d50a1b4478fb649b236da3f33586270}
+      \strng{authorbibnamehash}{1d50a1b4478fb649b236da3f33586270}
+      \strng{authornamehash}{1d50a1b4478fb649b236da3f33586270}
+      \strng{authorfullhash}{1d50a1b4478fb649b236da3f33586270}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Encontro Regional de Economia}
+      \field{number}{2010}
+      \field{title}{Pol{ı́}tica industrial do Governo Lula: desenvolvimentista ou corretiva de falhas de mercado}
+      \field{volume}{15}
+      \field{year}{2010}
+      \field{pages}{1\bibrangedash 20}
+      \range{pages}{20}
+      \keyw{Basico}
+    \endentry
+    \entry{NASSIF2015}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=23d56d9bf8e6b34317b1a7c53ef469ac}{%
+           family={Nassif},
+           familyi={N\bibinitperiod},
+           given={André},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {{FapUNIFESP} ({SciELO})}%
+      }
+      \strng{namehash}{23d56d9bf8e6b34317b1a7c53ef469ac}
+      \strng{fullhash}{23d56d9bf8e6b34317b1a7c53ef469ac}
+      \strng{bibnamehash}{23d56d9bf8e6b34317b1a7c53ef469ac}
+      \strng{authorbibnamehash}{23d56d9bf8e6b34317b1a7c53ef469ac}
+      \strng{authornamehash}{23d56d9bf8e6b34317b1a7c53ef469ac}
+      \strng{authorfullhash}{23d56d9bf8e6b34317b1a7c53ef469ac}
+      \field{sortinit}{N}
+      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Revista de Economia Pol{ı́}tica}
+      \field{month}{9}
+      \field{number}{3}
+      \field{title}{As armadilhas do trip{é} da pol{ı́}tica macroecon{ô}mica brasileira}
+      \field{volume}{35}
+      \field{year}{2015}
+      \field{pages}{426\bibrangedash 443}
+      \range{pages}{18}
+      \keyw{Basico}
+    \endentry
+    \entry{Nelson2008}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=1926712a68bb7ee22ca82a61e3b23305}{%
+           family={Nelson},
+           familyi={N\bibinitperiod},
+           given={Richard\bibnamedelima R},
+           giveni={R\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{1926712a68bb7ee22ca82a61e3b23305}
+      \strng{fullhash}{1926712a68bb7ee22ca82a61e3b23305}
+      \strng{bibnamehash}{1926712a68bb7ee22ca82a61e3b23305}
+      \strng{authorbibnamehash}{1926712a68bb7ee22ca82a61e3b23305}
+      \strng{authornamehash}{1926712a68bb7ee22ca82a61e3b23305}
+      \strng{authorfullhash}{1926712a68bb7ee22ca82a61e3b23305}
+      \field{sortinit}{N}
+      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Research Policy}
+      \field{number}{1}
+      \field{title}{What enables rapid economic progress: What are the needed institutions?}
+      \field{volume}{37}
+      \field{year}{2008}
+      \field{pages}{1\bibrangedash 11}
+      \range{pages}{11}
+      \keyw{Basico}
+    \endentry
+    \entry{PRADO2001}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=a1c8fd496ad30a282afc299e8243be95}{%
+           family={Prado},
+           familyi={P\bibinitperiod},
+           given={Eleut{é}rio},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a1c8fd496ad30a282afc299e8243be95}
+      \strng{fullhash}{a1c8fd496ad30a282afc299e8243be95}
+      \strng{bibnamehash}{a1c8fd496ad30a282afc299e8243be95}
+      \strng{authorbibnamehash}{a1c8fd496ad30a282afc299e8243be95}
+      \strng{authornamehash}{a1c8fd496ad30a282afc299e8243be95}
+      \strng{authorfullhash}{a1c8fd496ad30a282afc299e8243be95}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Revista da Sociedade Brasileira de Economia Pol{ı́}tica}
+      \field{number}{9}
+      \field{title}{A constru{ç}{ã}o das diferen{ç}as entre os economistas}
+      \field{year}{2001}
+      \field{pages}{5\bibrangedash 23}
+      \range{pages}{19}
+      \keyw{Basico}
+    \endentry
+    \entry{Reinhart2010}{report}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=01d2959912236bd15928ba117acee95e}{%
+           family={Reinhart},
+           familyi={R\bibinitperiod},
+           given={Carmen},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=dfacefa9dbd5b7bedeeb1764cc5fd084}{%
+           family={Rogoff},
+           familyi={R\bibinitperiod},
+           given={Kenneth},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {IMF}%
+      }
+      \list{publisher}{1}{%
+        {National Bureau of Economic Research}%
+      }
+      \strng{namehash}{722f1ad8cdddfdc3d2a1bace03a4e0f6}
+      \strng{fullhash}{722f1ad8cdddfdc3d2a1bace03a4e0f6}
+      \strng{bibnamehash}{722f1ad8cdddfdc3d2a1bace03a4e0f6}
+      \strng{authorbibnamehash}{722f1ad8cdddfdc3d2a1bace03a4e0f6}
+      \strng{authornamehash}{722f1ad8cdddfdc3d2a1bace03a4e0f6}
+      \strng{authorfullhash}{722f1ad8cdddfdc3d2a1bace03a4e0f6}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{1}
+      \field{title}{Growth in a Time of Debt}
+      \field{type}{techreport}
+      \field{year}{2010}
+      \keyw{Basico}
+    \endentry
+    \entry{Rodrik2008}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=838c73523715fb8fdf83d1d7a57cc6bd}{%
+           family={Rodrik},
+           familyi={R\bibinitperiod},
+           given={Dani},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {International Bank for Reconstruction}%
+        {Development/The World Bank}%
+      }
+      \strng{namehash}{838c73523715fb8fdf83d1d7a57cc6bd}
+      \strng{fullhash}{838c73523715fb8fdf83d1d7a57cc6bd}
+      \strng{bibnamehash}{838c73523715fb8fdf83d1d7a57cc6bd}
+      \strng{authorbibnamehash}{838c73523715fb8fdf83d1d7a57cc6bd}
+      \strng{authornamehash}{838c73523715fb8fdf83d1d7a57cc6bd}
+      \strng{authorfullhash}{838c73523715fb8fdf83d1d7a57cc6bd}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Normalizing industrial policy}
+      \field{year}{2008}
+      \keyw{Basico}
+    \endentry
+    \entry{dos2016novo}{report}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=91b28cff704b144fd32e36b56da15081}{%
+           family={Santos},
+           familyi={S\bibinitperiod},
+           given={Fl{á}vio\bibnamedelima Arantes},
+           giveni={F\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0,
+           prefix={dos},
+           prefixi={d\bibinitperiod},
+           prefixun=0}}%
+        {{uniquename=1,uniquepart=given,hash=e686b349e85f002c73c8cb9e12e787f3}{%
+           family={Lopreato},
+           familyi={L\bibinitperiod},
+           given={Francisco\bibnamedelimb Luiz\bibnamedelima Cazeiro},
+           giveni={F\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{institution}{1}{%
+        {Instituto de Economia - Unicamp}%
+      }
+      \strng{namehash}{61558da9f11557db7304daa70a964a29}
+      \strng{fullhash}{61558da9f11557db7304daa70a964a29}
+      \strng{bibnamehash}{61558da9f11557db7304daa70a964a29}
+      \strng{authorbibnamehash}{61558da9f11557db7304daa70a964a29}
+      \strng{authornamehash}{61558da9f11557db7304daa70a964a29}
+      \strng{authorfullhash}{61558da9f11557db7304daa70a964a29}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Texto para discussão 267}
+      \field{month}{4}
+      \field{title}{O novo consenso em macroeconomia no Brasil: a pol{ı́}tica fiscal do Plano Real ao segundo Governo Lula}
+      \field{type}{techreport}
+      \field{year}{2016}
+      \keyw{Basico}
+    \endentry
+    \entry{Sarti2017}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=c2b6557c3a8379a25eeb7cb34492857b}{%
+           family={Sarti},
+           familyi={S\bibinitperiod},
+           given={Fernando},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=aed313c1ac2d52cb821410cc1862e534}{%
+           family={Hiratuka},
+           familyi={H\bibinitperiod},
+           given={C{é}lio},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3f237735619f13d2472bcde495550589}
+      \strng{fullhash}{3f237735619f13d2472bcde495550589}
+      \strng{bibnamehash}{3f237735619f13d2472bcde495550589}
+      \strng{authorbibnamehash}{3f237735619f13d2472bcde495550589}
+      \strng{authornamehash}{3f237735619f13d2472bcde495550589}
+      \strng{authorfullhash}{3f237735619f13d2472bcde495550589}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Instituto de Economia Unicamp: Texto para discussão}
+      \field{number}{209}
+      \field{title}{Desempenho recente da ind{ú}stria brasileira no contexto de mudan{ç}as estruturais dom{é}sticas e globais}
+      \field{year}{2017}
+      \keyw{Basico}
+    \endentry
+    \entry{serrano2012desaceleraccao}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=8df1ed774cbbdbac66d3fc8dafb0bcd5}{%
+           family={Serrano},
+           familyi={S\bibinitperiod},
+           given={Franklin},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=157db2b74ae6c855de546e21f03b1e97}{%
+           family={Summa},
+           familyi={S\bibinitperiod},
+           given={Ricardo},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2edcdb588425ecd1097c9d327baea06a}
+      \strng{fullhash}{2edcdb588425ecd1097c9d327baea06a}
+      \strng{bibnamehash}{2edcdb588425ecd1097c9d327baea06a}
+      \strng{authorbibnamehash}{2edcdb588425ecd1097c9d327baea06a}
+      \strng{authornamehash}{2edcdb588425ecd1097c9d327baea06a}
+      \strng{authorfullhash}{2edcdb588425ecd1097c9d327baea06a}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{OIKOS (Rio de Janeiro)}
+      \field{number}{2}
+      \field{title}{A desacelera{ç}{ã}o rudimentar da economia brasileira desde 2011}
+      \field{volume}{11}
+      \field{year}{2012}
+      \keyw{Basico}
+    \endentry
+    \entry{Silva2013}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=9212c45e5aa0f452c2ebd26a0b23280b}{%
+           family={Silva},
+           familyi={S\bibinitperiod},
+           given={Jose\bibnamedelima Alderir},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9212c45e5aa0f452c2ebd26a0b23280b}
+      \strng{fullhash}{9212c45e5aa0f452c2ebd26a0b23280b}
+      \strng{bibnamehash}{9212c45e5aa0f452c2ebd26a0b23280b}
+      \strng{authorbibnamehash}{9212c45e5aa0f452c2ebd26a0b23280b}
+      \strng{authornamehash}{9212c45e5aa0f452c2ebd26a0b23280b}
+      \strng{authorfullhash}{9212c45e5aa0f452c2ebd26a0b23280b}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Indicadores Econ{ô}micos FEE}
+      \field{number}{2}
+      \field{title}{O futuro da ind{ú}stria no Brasil: desindustrializa{ç}{ã}o em debate.}
+      \field{volume}{41}
+      \field{year}{2013}
+      \keyw{Basico}
+    \endentry
+    \entry{singer2015cutucando}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=0d99ea9e7d750e71450397904167e5b6}{%
+           family={Singer},
+           familyi={S\bibinitperiod},
+           given={Andr{é}},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Centro Brasileiro de Analise e Planejamento}%
+      }
+      \strng{namehash}{0d99ea9e7d750e71450397904167e5b6}
+      \strng{fullhash}{0d99ea9e7d750e71450397904167e5b6}
+      \strng{bibnamehash}{0d99ea9e7d750e71450397904167e5b6}
+      \strng{authorbibnamehash}{0d99ea9e7d750e71450397904167e5b6}
+      \strng{authornamehash}{0d99ea9e7d750e71450397904167e5b6}
+      \strng{authorfullhash}{0d99ea9e7d750e71450397904167e5b6}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Novos estudos}
+      \field{number}{102}
+      \field{title}{CUTUCANDO ON{Ç}AS COM VARAS CURTAS O ensaio desenvolvimentista no primeiro mandato de Dilma Rousseff (2011-2014)}
+      \field{year}{2015}
+      \field{pages}{43}
+      \range{pages}{1}
+      \keyw{Basico}
+    \endentry
+    \entry{Stiglitz2013}{incollection}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=f345bf592588ee4bb4bf9d5a6096072a}{%
+           family={Stiglitz},
+           familyi={S\bibinitperiod},
+           given={Joseph\bibnamedelima E},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=2ad10a592236685f9d916749579c92ee}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Justin\bibnamedelima Yifu},
+           giveni={J\bibinitperiod\bibinitdelim Y\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=f530a196beede70e224fac3bf419d751}{%
+           family={Monga},
+           familyi={M\bibinitperiod},
+           given={Celestin},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{6133acc41f0588665fd7bce8e23df70d}
+      \strng{fullhash}{6133acc41f0588665fd7bce8e23df70d}
+      \strng{bibnamehash}{6133acc41f0588665fd7bce8e23df70d}
+      \strng{authorbibnamehash}{6133acc41f0588665fd7bce8e23df70d}
+      \strng{authornamehash}{6133acc41f0588665fd7bce8e23df70d}
+      \strng{authorfullhash}{6133acc41f0588665fd7bce8e23df70d}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{The Industrial Policy Revolution I}
+      \field{title}{Introduction: the rejuvenation of industrial policy}
+      \field{year}{2013}
+      \field{pages}{1\bibrangedash 15}
+      \range{pages}{15}
+      \keyw{Basico}
+    \endentry
+    \entry{RSoftware}{manual}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=d7689b212ec7da4731c41e0b675e468e}{%
+           family={Team},
+           familyi={T\bibinitperiod},
+           given={R\bibnamedelima Core},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Vienna, Austria}%
+      }
+      \list{organization}{1}{%
+        {R Foundation for Statistical Computing}%
+      }
+      \strng{namehash}{d7689b212ec7da4731c41e0b675e468e}
+      \strng{fullhash}{d7689b212ec7da4731c41e0b675e468e}
+      \strng{bibnamehash}{d7689b212ec7da4731c41e0b675e468e}
+      \strng{authorbibnamehash}{d7689b212ec7da4731c41e0b675e468e}
+      \strng{authornamehash}{d7689b212ec7da4731c41e0b675e468e}
+      \strng{authorfullhash}{d7689b212ec7da4731c41e0b675e468e}
+      \field{sortinit}{T}
+      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{R: A Language and Environment for Statistical Computing}
+      \field{year}{2014}
+      \verb{urlraw}
+      \verb http://www.R-project.org/
+      \endverb
+      \verb{url}
+      \verb http://www.R-project.org/
+      \endverb
+      \keyw{Referenciado}
+    \endentry
+    \entry{VERGNHANINI2013}{thesis}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=ae241fc79f6dd1ab9d73df7b80921f50}{%
+           family={Vergnhanini},
+           familyi={V\bibinitperiod},
+           given={Rodrigo},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Universidade Federal do Rio de janeiro-UFRJ. Rio de janeiro}%
+      }
+      \strng{namehash}{ae241fc79f6dd1ab9d73df7b80921f50}
+      \strng{fullhash}{ae241fc79f6dd1ab9d73df7b80921f50}
+      \strng{bibnamehash}{ae241fc79f6dd1ab9d73df7b80921f50}
+      \strng{authorbibnamehash}{ae241fc79f6dd1ab9d73df7b80921f50}
+      \strng{authornamehash}{ae241fc79f6dd1ab9d73df7b80921f50}
+      \strng{authorfullhash}{ae241fc79f6dd1ab9d73df7b80921f50}
+      \field{sortinit}{V}
+      \field{sortinithash}{75dd7385c90b2252c3ae853a80ca853b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{bookpagination}{sheet}
+      \field{title}{O debate sobre a mudan{ç}a estrutural da economia brasileira nos anos 2000}
+      \field{type}{phdthesis}
+      \field{year}{2013}
+      \keyw{Basico}
+    \endentry
+    \entry{wren2016general2}{report}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=cdbf02e866bec292772b9bf5034d7bbf}{%
+           family={Wren-Lewis},
+           familyi={W\bibinithyphendelim L\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {BSG Working Paper Series, University of Oxford}%
+      }
+      \strng{namehash}{cdbf02e866bec292772b9bf5034d7bbf}
+      \strng{fullhash}{cdbf02e866bec292772b9bf5034d7bbf}
+      \strng{bibnamehash}{cdbf02e866bec292772b9bf5034d7bbf}
+      \strng{authorbibnamehash}{cdbf02e866bec292772b9bf5034d7bbf}
+      \strng{authornamehash}{cdbf02e866bec292772b9bf5034d7bbf}
+      \strng{authorfullhash}{cdbf02e866bec292772b9bf5034d7bbf}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A general theory of austerity}
+      \field{type}{techreport}
+      \field{year}{2016}
+      \keyw{Basico}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

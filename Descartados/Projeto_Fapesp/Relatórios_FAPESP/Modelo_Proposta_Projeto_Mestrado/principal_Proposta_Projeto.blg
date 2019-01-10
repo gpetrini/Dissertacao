@@ -1,0 +1,20 @@
+[0] Config.pm:302> INFO - This is Biber 2.10
+[0] Config.pm:305> INFO - Logfile is 'principal_Proposta_Projeto.blg'
+[27] biber-MSWIN64:313> INFO - === 
+[49] Biber.pm:371> INFO - Reading 'principal_Proposta_Projeto.bcf'
+[135] Biber.pm:854> INFO - Using all citekeys in bib section 0
+[148] Biber.pm:3976> INFO - Processing section 0
+[161] Biber.pm:4136> INFO - Looking for bibtex format file 'Bibliografia_Mestrado_FAPESP.bib' for section 0
+[165] bibtex.pm:1490> INFO - LaTeX decoding ...
+[234] bibtex.pm:1306> INFO - Found BibTeX data source 'Bibliografia_Mestrado_FAPESP.bib'
+[241] Utils.pm:193> WARN - Duplicate entry key: 'HIRATUKA2017' in file 'Bibliografia_Mestrado_FAPESP.bib', skipping ...
+[306] Utils.pm:193> WARN - month field 'sep' in entry 'NASSIF2015' is not an integer - this will probably not sort properly.
+[354] Utils.pm:193> WARN - month field 'jan' in entry 'Reinhart2010' is not an integer - this will probably not sort properly.
+[427] Utils.pm:193> WARN - month field 'jul' in entry 'Arestis_1999' is not an integer - this will probably not sort properly.
+[526] UCollate.pm:68> INFO - Overriding locale 'pt-PT' defaults 'variable = shifted' with 'variable = non-ignorable'
+[526] UCollate.pm:68> INFO - Overriding locale 'pt-PT' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[526] Biber.pm:3804> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'pt-PT'
+[526] Biber.pm:3810> INFO - No sort tailoring available for locale 'pt-PT'
+[574] bbl.pm:617> INFO - Writing 'principal_Proposta_Projeto.bbl' with encoding 'UTF-8'
+[599] bbl.pm:720> INFO - Output to principal_Proposta_Projeto.bbl
+[599] Biber.pm:110> INFO - WARNINGS: 4

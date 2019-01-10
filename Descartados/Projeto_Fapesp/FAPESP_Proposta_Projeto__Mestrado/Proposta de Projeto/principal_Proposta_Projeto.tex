@@ -1,0 +1,190 @@
+% Last update/Última versão: 11/Sep/2016
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%=====================================================================
+% 							Pacotes Fundamentais
+%=====================================================================
+\documentclass[
+% -- op\c{c}\~{o}es da classe memoir --
+12pt,				% tamanho da fonte
+openright,			% cap\'{\i}tulos come\c{c}am em p\'{a}g \'{\i}mpar (insere p\'{a}gina vazia caso preciso)
+oneside,			% para impress\~{a}o em verso e anverso. Oposto a oneside
+a4paper,		% tamanho do papel.
+% -- op\c{c}\~{o}es da classe abntex2 --
+%chapter=TITLE,		% t\'{\i}tulos de cap\'{\i}tulos convertidos em letras mai\'{u}sculas
+%section=TITLE,		% t\'{\i}tulos de se\c{c}\~{o}es convertidos em letras mai\'{u}sculas
+%subsection=TITLE,	% t\'{\i}tulos de subse\c{c}\~{o}es convertidos em letras mai\'{u}sculas
+%subsubsection=TITLE,% t\'{\i}tulos de subsubse\c{c}\~{o}es convertidos em letras mai\'{u}sculas
+% -- op\c{c}\~{o}es do pacote babel --
+english,			% idioma adicional para hifeniza\c{c}\~{a}o
+%french,			% idioma adicional para hifeniza\c{c}\~{a}o
+%spanish,			% idioma adicional para hifeniza\c{c}\~{a}o
+brazil,				% o \'{u}ltimo idioma \'{e} o principal do documento
+%sumario=tradicional,
+]{article}
+\usepackage[a4paper, right = 1.5cm, left = 3.5cm, top = 3 cm, bottom = 2cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[english,portuguese]{babel}
+\usepackage[myheadings]{fullpage}
+\usepackage[T1]{fontenc}
+\usepackage{fancyhdr}
+\usepackage{graphicx, setspace}
+\usepackage{sectsty}
+\usepackage{url}
+\usepackage{mathptmx} %% Para times
+\usepackage{comment}
+\usepackage{multirow}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{enumitem}
+\usepackage{blindtext}
+\usepackage{float}
+\usepackage[bottom]{footmisc}
+\usepackage{pdfpages}
+\usepackage{caption}
+\usepackage{csquotes}
+
+
+%=====================================================================
+% 							Pacotes Bibliográficos
+%=====================================================================
+
+\usepackage[backend=biber,
+	style = abnt,%
+	noslsn, %
+	extrayear, %
+	uniquename=init,% 
+	giveninits, %
+	justify, %
+	sccite,% 
+	scbib, %
+	repeattitles, %
+	maxcitenames=3]{biblatex}
+\addbibresource{Bib_FAPESP_Mestrado.bib}
+
+
+%=====================================================================
+% 							Comandos específicos da FAPESP
+%=====================================================================
+\input{comandos}
+%=====================================================================
+% 							Outros Pacotes
+%=====================================================================
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage{subfigure}
+\usepackage{setspace}
+
+%=====================================================================
+% 							Página de título e folha de rosto
+%=====================================================================
+%-----
+% Página de título
+% Observação: As definições que aparecem a seguir comporão a
+%             página de título e a folha de rosto.
+%-----
+%% Define o nome da universidade onde o projeto foi desenvolvido.
+\universidade{Universidade Estadual de Campinas}
+%
+%% Define o nome da faculdade onde o projeto foi desenvolvido.
+\faculdade{Instituto de Economia}
+%
+%% Define o título do projeto.
+\titulo{Distribuição de renda, crédito e crescimento: 
+	Uma análise a partir da teoria monetária da distribuição 
+	para o caso brasileiro recente (2003-2014)}
+%
+%% Define o tipo de relatório Anual ou Final.
+% \tipoRelatorio{Final}
+%
+%% Define o autor do relatório.
+\autor{Gabriel Petrini da Silveira}
+%
+%% Define o número do projeto.
+%\numFAPESP{NÚMERO}
+%
+%% Define o período da vigência do Projeto.
+%\periodoVigencia{01/agosto/2018 a 01/janeiro/2020}
+%
+%% Define o período coberto pelo relatório.
+%\periodoRelatorio{01/junho/2015 a 30/maio/2017}
+%
+%% Define a cidade onde o projeto foi desenvolvido.
+\cidade{Campinas}
+
+\begin{document}
+%=====================================================================
+% 							Numeração pré-textual
+%=====================================================================
+\pagenumbering{roman}
+%=====================================================================
+% 							Folha de título
+%=====================================================================
+\geraTitulo
+%=====================================================================
+% 							Folha de rosto
+%=====================================================================
+% Gera a folha de rosto.
+\folhaDeRosto
+%=====================================================================
+% 							Resumo
+%=====================================================================
+\begin{abstract}
+	em português aqui
+\end{abstract}
+%=====================================================================
+% 							Abstract
+%=====================================================================
+\folhaDeRostoEN
+
+{
+	\selectlanguage{english}
+	\begin{abstract}
+		insert here
+	\end{abstract}
+}
+\clearpage
+%=====================================================================
+% 							Sumário
+%=====================================================================
+%\tableofcontents
+%\thispagestyle{empty}
+%\clearpage
+%=====================================================================
+% 							Numeração textual
+%=====================================================================
+\pagenumbering{arabic}
+
+%=====================================================================
+% 							Formatação título seção
+%=====================================================================
+\sectionfont{\scshape}
+
+%=====================================================================
+% 							Corpo de texto
+%=====================================================================
+%\listoftodos
+\doublespacing
+\begingroup
+\let\clearpage\relax
+\include{Introducao}
+\include{Objetivos}
+\include{Justificativa}
+\include{Rev_Bibliografica}
+\include{Metodologia}
+\include{Cronograma}
+\include{Resultados}
+\include{Relevantes}
+\endgroup
+%=====================================================================
+% 							Bibliografia
+%=====================================================================
+%{\let\clearpage\relax \chapter{Bibliografia}}
+%-----
+
+\section*{Bibliografia}
+
+{\let\clearpage\relax\printbibliography[title = {Referências Bibliográficas}]}
+
+
+%=====================================================================
+% 							Fim do Documento
+%=====================================================================
+\end{document}

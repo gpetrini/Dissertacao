@@ -1,0 +1,19 @@
+[0] Config.pm:302> INFO - This is Biber 2.11
+[0] Config.pm:305> INFO - Logfile is 'principal_Proposta_Projeto.blg'
+[20] biber:313> INFO - === seg jul  9, 2018, 17:28:15
+[36] Biber.pm:371> INFO - Reading 'principal_Proposta_Projeto.bcf'
+[88] Biber.pm:857> INFO - Found 13 citekeys in bib section 0
+[98] Biber.pm:3976> INFO - Processing section 0
+[105] Biber.pm:4136> INFO - Looking for bibtex format file 'Bib_FAPESP_Mestrado.bib' for section 0
+[138] bibtex.pm:1500> INFO - LaTeX decoding ...
+[291] bibtex.pm:1316> INFO - Found BibTeX data source 'Bib_FAPESP_Mestrado.bib'
+[314] Utils.pm:193> WARN - ISBN '978-3-319-79074-9 978-3-319-79075-6' in entry 'grossmann-wirth_role_2018' is invalid - run biber with '--validate_datamodel' for details.
+[355] Utils.pm:193> WARN - I didn't find a database entry for 'godley_seven_1999' (section 0)
+[355] Utils.pm:193> WARN - I didn't find a database entry for 'fontenelle_isleide_a._alcances_2016' (section 0)
+[373] UCollate.pm:68> INFO - Overriding locale 'pt-PT' defaults 'variable = shifted' with 'variable = non-ignorable'
+[373] UCollate.pm:68> INFO - Overriding locale 'pt-PT' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[373] Biber.pm:3804> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'pt-PT'
+[373] Biber.pm:3810> INFO - No sort tailoring available for locale 'pt-PT'
+[386] bbl.pm:617> INFO - Writing 'principal_Proposta_Projeto.bbl' with encoding 'UTF-8'
+[393] bbl.pm:720> INFO - Output to principal_Proposta_Projeto.bbl
+[393] Biber.pm:110> INFO - WARNINGS: 3

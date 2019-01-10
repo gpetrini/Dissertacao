@@ -1,0 +1,1031 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{afonso_irpf_2014}{report}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=e8eb85febd93bba91aa5f2e7b05a8cce}{%
+           family={Afonso},
+           familyi={A\bibinitperiod},
+           given={José\bibnamedelimb Roberto\bibnamedelima R},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {{FGV} {IBRE}}%
+      }
+      \list{location}{1}{%
+        {Rio de Janeiro}%
+      }
+      \strng{namehash}{e8eb85febd93bba91aa5f2e7b05a8cce}
+      \strng{fullhash}{e8eb85febd93bba91aa5f2e7b05a8cce}
+      \strng{bibnamehash}{e8eb85febd93bba91aa5f2e7b05a8cce}
+      \strng{authorbibnamehash}{e8eb85febd93bba91aa5f2e7b05a8cce}
+      \strng{authornamehash}{e8eb85febd93bba91aa5f2e7b05a8cce}
+      \strng{authorfullhash}{e8eb85febd93bba91aa5f2e7b05a8cce}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{portuguese}
+      \field{month}{8}
+      \field{title}{{IRPF} e desiguldade em debate no Brasil: O já revelado e o por revelar}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{pages}{49}
+      \range{pages}{1}
+      \verb{file}
+      \verb Afonso - IRPF E DESIGUALDADE EM DEBATE NO BRASIL.pdf:/home/gabriel/Zotero/storage/38XS7R3T/Afonso - IRPF E DESIGUALDADE EM DEBATE NO BRASIL.pdf:application/pdf
+      \endverb
+      \keyw{{REVISTO},{METADATA}}
+    \endentry
+    \entry{bacha_saida_2017}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=f4ee3ecba18eab4c6be2f231476cba69}{%
+           family={Bacha},
+           familyi={B\bibinitperiod},
+           given={Edmar},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f4ee3ecba18eab4c6be2f231476cba69}
+      \strng{fullhash}{f4ee3ecba18eab4c6be2f231476cba69}
+      \strng{bibnamehash}{f4ee3ecba18eab4c6be2f231476cba69}
+      \strng{authorbibnamehash}{f4ee3ecba18eab4c6be2f231476cba69}
+      \strng{authornamehash}{f4ee3ecba18eab4c6be2f231476cba69}
+      \strng{authorfullhash}{f4ee3ecba18eab4c6be2f231476cba69}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Resumo A atual recessão preocupa, mas preocupa ainda mais o lento crescimento da economia brasileira há 35 anos. As causas são múltiplas, mas uma frequentemente ignorada é aqui enfatizada: a baixíssima participação do Brasil no comércio internacional. Propõe-se um programa de integração do país às cadeias produtivas internacionais, com base em três pilares: redução do custo Brasil, troca de tarifas por câmbio e acordos comerciais.}
+      \field{journaltitle}{Estudos Avançados}
+      \field{month}{4}
+      \field{number}{89}
+      \field{title}{Saída para a crise tem mão dupla}
+      \field{volume}{31}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{pages}{23\bibrangedash 27}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1590/s0103-40142017.31890003
+      \endverb
+      \verb{file}
+      \verb Bacha_2017_Saída para a crise tem mão dupla:/home/gabriel/Zotero/storage/ZTW349X7/Bacha_2017_Saída para a crise tem mão dupla.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{barba_rising_2009}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=6cc478dc77e77e82070c7186ba574d89}{%
+           family={Barba},
+           familyi={B\bibinitperiod},
+           given={Aldo},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=c6c42785bfd3878a69c0f34188571d19}{%
+           family={Pivetti},
+           familyi={P\bibinitperiod},
+           given={Massimo},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5c6dcaef368cfd1a4f488db817757099}
+      \strng{fullhash}{5c6dcaef368cfd1a4f488db817757099}
+      \strng{bibnamehash}{5c6dcaef368cfd1a4f488db817757099}
+      \strng{authorbibnamehash}{5c6dcaef368cfd1a4f488db817757099}
+      \strng{authornamehash}{5c6dcaef368cfd1a4f488db817757099}
+      \strng{authorfullhash}{5c6dcaef368cfd1a4f488db817757099}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The article analyses the rise in household indebtedness from the point of view of its causes and long-run macroeconomic implications. The analysis is focussed on the {US} case. Differently from life-cycle interpretations of the phenomenon, and from interpretations in terms of erratic deviations of current income flows from their long-run trend, the rising household debt is viewed as the outcome of persistent changes in income distribution and growing income inequalities. Through household debt, low wages appear to have been brought to coexist with relatively high levels of aggregate demand, thus providing the solution to the contradiction between the necessity of high and rising consumption levels, for the growth of the system's actual output, and a framework of antagonistic conditions of distribution which keeps within limits the real income of the vast majority of society. The question of the long-run sustainability of this substitution of loans for wages is finally discussed. Reprinted by permission of Oxford University Press}
+      \field{journaltitle}{Cambridge Journal of Economics}
+      \field{title}{Rising household debt: Its causes and macroeconomic implications - A long-period analysis}
+      \field{year}{2009}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.1093/cje/ben030
+      \endverb
+      \verb{file}
+      \verb Barba, Pivetti_2009_Rising household debt Its causes and macroeconomic implications - A long-period analysis:/home/gabriel/Zotero/storage/VUS4HDUH/Barba, Pivetti_2009_Rising household debt Its causes and macroeconomic implications - A long-period analysis.pdf:application/pdf
+      \endverb
+      \keyw{Aggregate consumption,Household debt,Income distribution,{METADATA},Principal,{REVISTO}}
+    \endentry
+    \entry{barbosa_filho_crise_2017}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=8f6f1b7dd45fd431e53c19a51a7b7e9a}{%
+           family={Barbosa\bibnamedelima Filho},
+           familyi={B\bibinitperiod\bibinitdelim F\bibinitperiod},
+           given={Fernando\bibnamedelimb de\bibnamedelima Holanda},
+           giveni={F\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8f6f1b7dd45fd431e53c19a51a7b7e9a}
+      \strng{fullhash}{8f6f1b7dd45fd431e53c19a51a7b7e9a}
+      \strng{bibnamehash}{8f6f1b7dd45fd431e53c19a51a7b7e9a}
+      \strng{authorbibnamehash}{8f6f1b7dd45fd431e53c19a51a7b7e9a}
+      \strng{authornamehash}{8f6f1b7dd45fd431e53c19a51a7b7e9a}
+      \strng{authorfullhash}{8f6f1b7dd45fd431e53c19a51a7b7e9a}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Resumo Este artigo mostra que a crise de 2014/2017 é fruto de uma combinação de choques de oferta e demanda resultado de erros de política econômica. Esses choques produziram uma redução da capacidade de crescimento da economia brasileira e risco de insolvência das finanças públicas. A solução da crise fiscal, através da {PEC} do teto dos gastos, fará que o país retome o crescimento econômico a partir de 2017, utilizando a capacidade ociosa da economia. No entanto, a taxa de crescimento do produto potencial não recuperará o ritmo anterior devido aos efeitos duradouros das políticas da Nova Matriz Econômica ({NME}) que reduziram o produto potencial nacional. Recomenda-se, portanto, a adoção de políticas que induzam uma recuperação da produtividade da economia brasileira.}
+      \field{journaltitle}{Estudos Avançados}
+      \field{month}{4}
+      \field{number}{89}
+      \field{title}{A crise econômica de 2014/2017}
+      \field{volume}{31}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{pages}{51\bibrangedash 60}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1590/s0103-40142017.31890006
+      \endverb
+      \verb{file}
+      \verb Barbosa Filho_2017_A crise econômica de 20142017:/home/gabriel/Zotero/storage/T6MCD72A/Barbosa Filho_2017_A crise econômica de 20142017.pdf:application/pdf
+      \endverb
+      \keyw{{METADATA},Principal,{REVISTO}}
+    \endentry
+    \entry{brochier_endogenous_2018}{thesis}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=6c985c4582d2e81fc97ab017f38c2c89}{%
+           family={Brochier},
+           familyi={B\bibinitperiod},
+           given={Lídia},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Universidade Estadual de Campinas/Instituto de Economia}%
+      }
+      \list{location}{1}{%
+        {Campinas}%
+      }
+      \strng{namehash}{6c985c4582d2e81fc97ab017f38c2c89}
+      \strng{fullhash}{6c985c4582d2e81fc97ab017f38c2c89}
+      \strng{bibnamehash}{6c985c4582d2e81fc97ab017f38c2c89}
+      \strng{authorbibnamehash}{6c985c4582d2e81fc97ab017f38c2c89}
+      \strng{authornamehash}{6c985c4582d2e81fc97ab017f38c2c89}
+      \strng{authorfullhash}{6c985c4582d2e81fc97ab017f38c2c89}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Resumo: O modelo supermultiplicador (Serrano, 1995; Bortis, 1997) tem ganhado espaço no debate pós-keynesiano. Na sua versão mais recente, o modelo combina o gasto autônomo, que cresce a uma taxa dada exogenamente, com o comportamento harrodiano das firmas (Freitas, 2015; Allain, 2015; Lavoie, 2016). Isso permite que a capacidade se ajuste à demanda no longo prazo, com o grau de utilização retornando ao seu nível considerado normal. O pressuposto de que o crescimento do gasto autônomo é exógeno exclui, quase que por definição, a possibilidade de que alterações na distribuição de renda e nos gastos induzidos (nas propensões a gastar) tenham efeitos permanentes de crescimento. Além disso, tais modelos são, em sua maioria, modelos de fluxo que omitem os determinantes financeiros do gasto autônomo e as implicações das interações entre fluxos e estoques na economia. Levando isso em consideração, a tese se propõe a avaliar os resultados do modelo supermultiplicador quando o pressuposto original - de que o crescimento do componente autônomo de demanda é completamente exógeno - é relaxado. A tese ainda busca analisar as características do modelo supermultiplicador quando estendido a uma estrutura financeira mais complexa, que considere não apenas os fluxos e o estoque de capital, mas também os estoques financeiros. Adota-se para tal a metodologia Stock-Flow Consistent, que permite conciliar ambos objetivos. Procura-se mostrar que a endogeneização do gasto autônomo altera alguns resultados de longo prazo do modelo original. Isso significa que, assim como nos modelos neo-kaleckianos, é possível que, no modelo supermultiplicador, mudanças na distribuição de renda, assim como a expansão da demanda via propensões a gastar, tenham efeitos permanentes de crescimento. Os efeitos de crescimento são ainda reavaliados em uma estrutura que incorpora (a) o conflito distributivo entre trabalhadores e capitalistas, o crescimento endógeno da produtividade do trabalho e o emprego; (b) a interação entre duas economias semelhantes sob diferentes regimes cambiais. No capítulo dois, A Supermultiplier Stock-Flow Consistent model: the ''return'' of the paradoxes of thrift and costs in the long run?, o gasto autônomo é endogeneizado (consumo a partir da riqueza) e os paradoxos da poupança e dos custos são avaliados no longo prazo. Os resultados das simulações numéricas indicam que o paradoxo da poupança permanece válido e que uma parcela de lucros mais baixa pode estar associada a taxas mais elevadas de acumulação de capital, embora com taxas de lucro mais baixas. No capítulo três, Conficting-claims and labour market concerns in a Supermultiplier model, o modelo do capítulo dois é estendido para dar conta da dinâmica do mercado de trabalho. A inflação é incorporada no modelo via conflito distributivo entre trabalhadores e capitalistas e o crescimento endógeno da produtividade do trabalho é introduzido, configurando a endogeneização da distribuição de renda. No capítulo quatro, Growth and distribution in a Two-Country Supermultiplier Stock-Flow Consistent model, o modelo do capítulo 1 é estendido para um sistema de dois países com características semelhantes. Os resultados das simulações numéricas indicam que tanto uma redução no mark-up das firmas quanto o aumento na propensão a consumir a partir da renda têm efeito positivo de crescimento sobre as duas economias em ambos os regimes de câmbio, fixo e flutuante. Além disso, se a condição de Marshall-Lerner for válida, a economia que expande sua demanda doméstica ganha relativamente mais do que a economia parceira (aumenta a sua participação no estoque de capital do sistema). O regime de câmbio ainda influencia, além da distribuição de renda, a distribuição de riqueza entre as economias. Por fim, um estímulo coordenado à demanda faz ambas economias crescerem a uma taxa mais elevada em comparação a um choque isolado à demanda em uma das economias}
+      \field{bookpagination}{sheet}
+      \field{pagetotal}{132}
+      \field{shorttitle}{Endogenous autonomous expenditures in a Supermultiplier Stock-Flow Consistent model}
+      \field{title}{Endogenous autonomous expenditures in a Supermultiplier Stock-Flow Consistent model : an appraisal of growth and distribution effects}
+      \field{type}{Tese (Doutorado)}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb Brochier_2018_Endogenous autonomous expenditures in a Supermultiplier Stock-Flow Consistent.pdf:/home/gabriel/Zotero/storage/KYVIF4XY/Brochier_2018_Endogenous autonomous expenditures in a Supermultiplier Stock-Flow Consistent.pdf:application/pdf;Snapshot:/home/gabriel/Zotero/storage/8ZDMSMQR/331696.html:text/html
+      \endverb
+      \keyw{{METADATA},{REVISTO}}
+    \endentry
+    \entry{brochier_macroeconomics_2017}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=6c985c4582d2e81fc97ab017f38c2c89}{%
+           family={Brochier},
+           familyi={B\bibinitperiod},
+           given={Lídia},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=fab3204909b9d29108e04c08b0a2c379}{%
+           family={Macedo\bibnamedelimb e\bibnamedelima Silva},
+           familyi={M\bibinitperiod\bibinitdelim e\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Antonio\bibnamedelima Carlos},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6b397cf42c6115bc6cb18ec1aad02e69}
+      \strng{fullhash}{6b397cf42c6115bc6cb18ec1aad02e69}
+      \strng{bibnamehash}{6b397cf42c6115bc6cb18ec1aad02e69}
+      \strng{authorbibnamehash}{6b397cf42c6115bc6cb18ec1aad02e69}
+      \strng{authornamehash}{6b397cf42c6115bc6cb18ec1aad02e69}
+      \strng{authorfullhash}{6b397cf42c6115bc6cb18ec1aad02e69}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The recent {US} economic scenario has motivated a series of heterodox papers concerned with household indebtedness and consumption. Though discussing autonomous consumption, most of the theoretical papers rely on private investment-led growth models. An alternative approach is the so-called Sraffian supermultipler model, which treats long-run investment as induced, allowing for the possibility that other final demand components – including consumption – may lead long-run growth. We suggest that the dialogue between these approaches is not only possible but may prove to be quite fruitful.}
+      \field{day}{5}
+      \field{issue}{especial}
+      \field{journaltitle}{Análise Econômica}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{title}{The macroeconomics implications of consumption: state-of-art and prospects for the heterodox future research}
+      \field{volume}{35}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.22456/2176-5456.65689
+      \endverb
+      \verb{file}
+      \verb Brochier_Silva_2017_THE MACROECONOMIC IMPLICATIONS OF CONSUMPTION.pdf:/home/gabriel/Zotero/storage/EBDGTL4Z/Brochier_Silva_2017_THE MACROECONOMIC IMPLICATIONS OF CONSUMPTION.pdf:application/pdf
+      \endverb
+      \keyw{{METADATA},{REVISTO}}
+    \endentry
+    \entry{carneiro_economia_2017}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=bfe991e02bbad46a99c7c02752995450}{%
+           family={Carneiro},
+           familyi={C\bibinitperiod},
+           given={Ricardo},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{bfe991e02bbad46a99c7c02752995450}
+      \strng{fullhash}{bfe991e02bbad46a99c7c02752995450}
+      \strng{bibnamehash}{bfe991e02bbad46a99c7c02752995450}
+      \strng{authorbibnamehash}{bfe991e02bbad46a99c7c02752995450}
+      \strng{authornamehash}{bfe991e02bbad46a99c7c02752995450}
+      \strng{authorfullhash}{bfe991e02bbad46a99c7c02752995450}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{{ESTUDOS} {AVANÇADOS} 31 (89), 2017 61 ara analisar a crise que se instala na economia brasileira após 2015, este texto adota a tese de que a política econômica e sua operacionalização são condicionadas por um contexto mais amplo no qual, além das relações de classe, há, no âmbito econômico, aspectos estruturais e cíclicos, conformando um pano de fundo sob o qual as decisões de política econômica são tomadas e produzem seus resultados. No plano estrutural, desde os anos 1990, ocorre a crescente integração da economia brasileira a uma economia financeirizada nos países desenvolvidos, marcada por recorrentes bolhas de preços de ativos e por uma crise financeira de grandes proporções em 2008. Medidas de política econômica para lidar com essa crise, nos países centrais, fundadas na política monetária não convencional, exacerbaram os ciclos de liquidez, subjacentes às bolhas. No âmbito produtivo, observou-se a constituição de cadeias globais de valor com a fragmentação das etapas produtivas, originando uma intensificação da concorrência fundada na redução de preços, acentuada após a crise em razão do aparecimento de capaci-dade ociosa generalizada, mormente na China. No plano doméstico, a economia brasileira assistiu no período 2003/2010 a uma aceleração do crescimento impulsionado, inicialmente, pelos preços das commodities e, posteriormente, pelo rápido crescimento do consumo, e por fim, mas não por último, pelo investimento, induzido por ambos. Esse ciclo, embora peculiar por se acompanhar da melhoria da distribuição da renda, perdeu pro-gressivamente dinamismo. Em parte, pela perda de velocidade da melhoria da distribuição fundada em mecanismos salariais, mas principalmente pelos limites ao endividamento das famílias. Ademais, os programas públicos de transferência de renda, muito relevantes para explicar a melhoria da distribuição, alcançaram um limite no quadro fiscal prevalecente. O investimento, por sua vez, teve seu dinamismo atenuado pelo vazamento de parte da demanda de máquinas e equi-pamentos e insumos intermediários para o exterior, em razão da especialização regressiva. O arrefecimento do ciclo de 2003/2010 impunha a busca de um novo modelo de crescimento. Para tanto, a escolha recaiu na diversificação da estrutu-ra produtiva, para suplantar a especialização regressiva, e na ampliação da infra-estrutura, em parte sobreutilizada, em parte sucateada, por anos de baixo inves-timento. A força motriz principal seria, nesse caso, o investimento autônomo, A economia política do ensaio desenvolvimentista {RICARDO} {CARNEIRO} I P 10.1590/s0103-40142017.31890007}
+      \field{journaltitle}{Estudos Avançados}
+      \field{number}{89}
+      \field{title}{A economia política do ensaio desenvolvimentista}
+      \field{volume}{31}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{pages}{61\bibrangedash 66}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1590/s0103-40142017.31890007
+      \endverb
+      \verb{file}
+      \verb Carneiro_2017_A economia política do ensaio desenvolvimentista:/home/gabriel/Zotero/storage/B27NJN5J/Carneiro_2017_A economia política do ensaio desenvolvimentista.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{center_for_open_science_osfhome_nodate}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=de1d1836215360656614f2e35ca5ee02}{%
+           family={{Center for Open Science}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{de1d1836215360656614f2e35ca5ee02}
+      \strng{fullhash}{de1d1836215360656614f2e35ca5ee02}
+      \strng{bibnamehash}{de1d1836215360656614f2e35ca5ee02}
+      \strng{authorbibnamehash}{de1d1836215360656614f2e35ca5ee02}
+      \strng{authornamehash}{de1d1836215360656614f2e35ca5ee02}
+      \strng{authorfullhash}{de1d1836215360656614f2e35ca5ee02}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{OSFHOME}}
+      \field{urlday}{5}
+      \field{urlmonth}{7}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Center for Open Science - OSFHOME.html:/home/gabriel/Zotero/storage/Z2GZIGL5/Center for Open Science - OSFHOME.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://osf.io/
+      \endverb
+      \verb{url}
+      \verb https://osf.io/
+      \endverb
+      \keyw{Principal,{REVER},{ATENÇÃO}}
+    \endentry
+    \entry{dowbor_era_2017}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=868f43226a3c3440ca03dfea09d91002}{%
+           family={Dowbor},
+           familyi={D\bibinitperiod},
+           given={Ladislau},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {São Paulo}%
+      }
+      \list{publisher}{1}{%
+        {Outras palavras \& Autonomia Literária}%
+      }
+      \strng{namehash}{868f43226a3c3440ca03dfea09d91002}
+      \strng{fullhash}{868f43226a3c3440ca03dfea09d91002}
+      \strng{bibnamehash}{868f43226a3c3440ca03dfea09d91002}
+      \strng{authorbibnamehash}{868f43226a3c3440ca03dfea09d91002}
+      \strng{authornamehash}{868f43226a3c3440ca03dfea09d91002}
+      \strng{authorfullhash}{868f43226a3c3440ca03dfea09d91002}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2a Impress}
+      \field{pagetotal}{320}
+      \field{title}{A era do capital improdutivo}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb Dowbor_2017_A era do capital improdutivo:/home/gabriel/Zotero/storage/D7YMEPIA/Dowbor_2017_A era do capital improdutivo.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{fontenelle_alcances_2016}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=1561a242be167937d5570a6dfbe93390}{%
+           family={Fontenelle},
+           familyi={F\bibinitperiod},
+           given={Isleide\bibnamedelima A.},
+           giveni={I\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1561a242be167937d5570a6dfbe93390}
+      \strng{fullhash}{1561a242be167937d5570a6dfbe93390}
+      \strng{bibnamehash}{1561a242be167937d5570a6dfbe93390}
+      \strng{authorbibnamehash}{1561a242be167937d5570a6dfbe93390}
+      \strng{authornamehash}{1561a242be167937d5570a6dfbe93390}
+      \strng{authorfullhash}{1561a242be167937d5570a6dfbe93390}
+      \field{sortinit}{F}
+      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Estudos Avançados}
+      \field{langid}{portuguese}
+      \field{month}{8}
+      \field{number}{87}
+      \field{title}{Alcances e limites da crítica no contexto da cultura política do consumo}
+      \field{volume}{30}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{pages}{255\bibrangedash 278}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10.1590/S0103-40142016.30870015
+      \endverb
+      \verb{file}
+      \verb Fontenelle - 2016 - Alcances e limites da crítica no contexto da cultu.pdf:/home/gabriel/Zotero/storage/3AYTDHUU/Fontenelle - 2016 - Alcances e limites da crítica no contexto da cultu.pdf:application/pdf
+      \endverb
+      \keyw{Brasil,Classes,Consumo,Principal,{REVISTO}}
+    \endentry
+    \entry{godley_seven_1999}{report}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=f6bfabc3bb1587ddfc005f7ede21614c}{%
+           family={Godley},
+           familyi={G\bibinitperiod},
+           given={Wynne},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Levy Economics Institute}%
+      }
+      \list{location}{1}{%
+        {Annandale-On-Hudson}%
+      }
+      \strng{namehash}{f6bfabc3bb1587ddfc005f7ede21614c}
+      \strng{fullhash}{f6bfabc3bb1587ddfc005f7ede21614c}
+      \strng{bibnamehash}{f6bfabc3bb1587ddfc005f7ede21614c}
+      \strng{authorbibnamehash}{f6bfabc3bb1587ddfc005f7ede21614c}
+      \strng{authornamehash}{f6bfabc3bb1587ddfc005f7ede21614c}
+      \strng{authorfullhash}{f6bfabc3bb1587ddfc005f7ede21614c}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The purpose of the paper is not to make short-term predictions about the life expectancy of the current economic expansion in the United States, but to determine if the present stance of fiscal and trade policy is appropriate looking to the medium turn. The expansion has been generated by economic processes that are unsustainable--processes in private saving, private borrowing, and asset prices that have fueled the growth of demand against a negative impetus both from fiscal policy and from net export demand. Given unchanged fiscal policy and the consensus forecast for growth in the rest of the world, continued expansion requires that private expenditure continue to expand relative to income on a record and growing scale, and it seems impossible that this source of growth can be forthcoming indefinitely, although it may well continue into next year. When private demand falters, it will be necessary to bring about a substantial relaxation of fiscal policy and to ensure that there is a structural improvement in the United States's balance of payments.}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{number}{99-10}
+      \field{shorttitle}{Seven Unsustainable Processes}
+      \field{title}{Seven Unsustainable Processes: Medium-Term Prospects and Policies for the United States and the World}
+      \field{year}{1999}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb Godley_1999_Seven Unsustainable Processes.pdf:/home/gabriel/Zotero/storage/NDGALVZX/Godley_1999_Seven Unsustainable Processes.pdf:application/pdf;Snapshot:/home/gabriel/Zotero/storage/VSPSWAI7/99-10.html:text/html
+      \endverb
+      \keyw{{REVISTO},{CITAR} (apenas)}
+    \endentry
+    \entry{grossmann-wirth_role_2018}{incollection}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=e44c7de409bcc8ba48fe05f9711c4504}{%
+           family={Grossmann-Wirth},
+           familyi={G\bibinithyphendelim W\bibinitperiod},
+           given={Vincent},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=7f5d1c95a25a43c5824fdde0634aa642}{%
+           family={Marsilli},
+           familyi={M\bibinitperiod},
+           given={Clément},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Basileia}%
+      }
+      \list{publisher}{1}{%
+        {Springer, Cham}%
+      }
+      \strng{namehash}{043ec77595e30656df092612fa24df8f}
+      \strng{fullhash}{043ec77595e30656df092612fa24df8f}
+      \strng{bibnamehash}{043ec77595e30656df092612fa24df8f}
+      \strng{authorbibnamehash}{043ec77595e30656df092612fa24df8f}
+      \strng{authornamehash}{043ec77595e30656df092612fa24df8f}
+      \strng{authorfullhash}{043ec77595e30656df092612fa24df8f}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This chapter documents why {US} private consumption, while remaining the key engine of {US} growth, slowed after the financial crisis. To this purpose, we estimate an error-correction model for {US} consumption, accounting for the role of household debt flows before and after the crisis. Contrary to an analysis carried out in terms of net wealth, a decomposition of households’ assets and liabilities shows how the pre-crisis period was characterized by an excessive indebtedness, which was both a source of short-term growth and of financial instability. In the current “new normal” situation, private consumption cannot rely on debt flows as much as before the crisis. This is, therefore, an important “demand-side” explanation for the much-debated low growth recovery.}
+      \field{booktitle}{International Macroeconomics in the Wake of the Global Financial Crisis}
+      \field{series}{Financial and Monetary Policy Studies}
+      \field{title}{The Role of Debt Dynamics in {US} Household Consumption}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{pages}{115\bibrangedash 128}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1007/978-3-319-79075-6_7
+      \endverb
+      \verb{file}
+      \verb Grossmann-Wirth_Marsilli_2018_The Role of Debt Dynamics in US Household Consumption.pdf:/home/gabriel/Zotero/storage/TGCYHMIA/Grossmann-Wirth_Marsilli_2018_The Role of Debt Dynamics in US Household Consumption.pdf:application/pdf;Snapshot:/home/gabriel/Zotero/storage/JPWBPGZE/978-3-319-79075-6_7.html:text/html
+      \endverb
+      \keyw{Principal,{REVISTO},{METADATA}}
+    \endentry
+    \entry{medeiros_upper_2015}{article}{}
+      \name{author}{6}{}{%
+        {{uniquename=0,uniquepart=base,hash=34018f871a35a9997b20185bcd31be2f}{%
+           family={Medeiros},
+           familyi={M\bibinitperiod},
+           given={Marcelo},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=b3a7a61f6c9259dd2cdf5937d3d066c8}{%
+           family={Souza},
+           familyi={S\bibinitperiod},
+           given={Pedro\bibnamedelimb H.\bibnamedelimi G.\bibnamedelimi Ferreira\bibnamedelima de},
+           giveni={P\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim d\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=a928ecbd07c4e921a244607d476ef484}{%
+           family={Castro},
+           familyi={C\bibinitperiod},
+           given={Fábio\bibnamedelimb Avila\bibnamedelima de},
+           giveni={F\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim d\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=34018f871a35a9997b20185bcd31be2f}{%
+           family={Medeiros},
+           familyi={M\bibinitperiod},
+           given={Marcelo},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=b3a7a61f6c9259dd2cdf5937d3d066c8}{%
+           family={Souza},
+           familyi={S\bibinitperiod},
+           given={Pedro\bibnamedelimb H.\bibnamedelimi G.\bibnamedelimi Ferreira\bibnamedelima de},
+           giveni={P\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim d\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=a928ecbd07c4e921a244607d476ef484}{%
+           family={Castro},
+           familyi={C\bibinitperiod},
+           given={Fábio\bibnamedelimb Avila\bibnamedelima de},
+           giveni={F\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim d\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7f4b1a5e2e044e94ce6296f2ac6c351c}
+      \strng{fullhash}{99e86dcad6a3d460d1afd95da36dc36c}
+      \strng{bibnamehash}{7f4b1a5e2e044e94ce6296f2ac6c351c}
+      \strng{authorbibnamehash}{7f4b1a5e2e044e94ce6296f2ac6c351c}
+      \strng{authornamehash}{7f4b1a5e2e044e94ce6296f2ac6c351c}
+      \strng{authorfullhash}{99e86dcad6a3d460d1afd95da36dc36c}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Este artigo apresenta a primeira estimativa da concentração de renda entre osmais ricos no Brasil calculada com base nas declarações de Imposto de Renda {dePessoas} Físicas para os anos de 2006 a 2012. As principais medidas dedesigualdade são as frações da renda total apropriada pelos 0,1\%, 1\% e 5\% maisricos. Os resultados são testados e comparados com os das pesquisas domiciliaresbrasileiras. O artigo conclui que os dados tributários revelam uma concentraçãono topo substancialmente maior do que as outras fontes e, em termos gerais, elapermanece estável no período analisado.Palavras-Chave: desigualdade de renda; altos rendimentos; ricos; imposto de renda}
+      \field{issn}{0011-5258}
+      \field{journaltitle}{Dados - Revista de Ciências Sociais}
+      \field{month}{3}
+      \field{number}{1}
+      \field{title}{The Upper Tip of Income Distribution in Brazil: First Estimates with Income Data and a Comparison with Household Surveys (2006-2012)}
+      \field{volume}{58}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{pages}{7\bibrangedash 36}
+      \range{pages}{30}
+      \verb{doi}
+      \verb 10.1590/00115258201537
+      \endverb
+      \verb{file}
+      \verb Medeiros et al_2015_The Upper Tip of Income Distribution in Brazil.pdf:/home/gabriel/Zotero/storage/8YCRJKQU/Medeiros et al_2015_The Upper Tip of Income Distribution in Brazil.pdf:application/pdf;Snapshot:/home/gabriel/Zotero/storage/KH96B3MC/scielo.html:text/html
+      \endverb
+      \keyw{{METADATA},Rever revista}
+    \endentry
+    \entry{paulani_nao_2017}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=5b1426fb5c70379c06aca36fd5504779}{%
+           family={Paulani},
+           familyi={P\bibinitperiod},
+           given={Leda\bibnamedelima Maria},
+           giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5b1426fb5c70379c06aca36fd5504779}
+      \strng{fullhash}{5b1426fb5c70379c06aca36fd5504779}
+      \strng{bibnamehash}{5b1426fb5c70379c06aca36fd5504779}
+      \strng{authorbibnamehash}{5b1426fb5c70379c06aca36fd5504779}
+      \strng{authornamehash}{5b1426fb5c70379c06aca36fd5504779}
+      \strng{authorfullhash}{5b1426fb5c70379c06aca36fd5504779}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Introdução este momento da história brasileira, falar de saídas para a crise econô-mica implica considerar duas ordens de fatores que se colocam como pressupostos, a primeira de ordem mais geral, e a segunda mais atinente à questão econômica ou socioeconômica propriamente dita. Farei rápida men-ção à primeira nesta introdução e, na sequência, tratarei de modo mais acurado, ainda que brevemente, da segunda. A consumação do golpe de Estado que destituiu a presidenta eleita Dilma Rousseff em agosto de 2016 agregou à crise econômica e social já em curso uma crise político-institucional de largas proporções, com seguidos conflitos e bate-cabeças entre os poderes constituídos. Àquelas alturas, já estávamos com o sexto trimestre seguido de queda no {PIB}, com o desemprego se elevando em velocidade escalar e com tensões sociais crescentes decorrentes não só da insegurança de renda, que passa a atingir parcela substantiva da população, mas também das dificuldades orçamentárias de estados e municípios, com salários de servidores em atraso e colapso dos serviços públicos. A destituição da presidenta sem efetivo crime de responsabilidade, vis-ta como golpe por boa parte do mundo, inclusive pela imprensa internacional conservadora, explicitou a ilegitimidade dos novos donos do poder, de pronto associada às seguidas e reiteradas denúncias de corrupção envolvendo não só o mandatário mor, como praticamente todo o primeiro escalão do governo. Diante esse quadro, a tese de que o impeachment seria a varinha mágica capaz de restaurar expectativas, recuperar o investimento e fazer renascer o cres-cimento econômico, tese em si bastante discutível, foi rapidamente desmentida, em meio a um cenário de elevada rotatividade dos mais altos quadros governa-mentais, desobediência a ordens judiciais e disputas sobre quem legisla, quem manda e quem julga. Não é preciso grande esforço para perceber que, nesse cenário de degradação, com o grau de incerteza que arrasta consigo, o inves-timento privado não retomaria de imediato por força da mera substituição da chefe do executivo (substituição, de resto, apoiada indistintamente por todas as elites do país, incluindo-se aí a elite econômica, produtiva e/ou rentista). 1 Instalado o caos, a crise política passa a contar como elemento adicional de deterioração do quadro econômico, que, por sua vez, agrava ainda mais a tensão e a desordem político-institucional, num círculo vicioso digno do inferno Não há saída sem a reversão da financeirização {LEDA} {MARIA} {PAULANI} I N 10.1590/s0103-40142017.31890004 {ESTUDOS} {AVANÇADOS} 31 (89), 2017 30 de Dante. Isso posto, parece evidente que uma " resolução " da crise econômica, qualquer que ela seja, passa inexoravelmente pela necessidade de desatar esse nó. Mantidas as atuais condições, ainda que alguma recuperação aconteça por força da natureza cíclica da economia capitalista, 2 ela não passará de um resultado medíocre e insustentável.}
+      \field{journaltitle}{Estudos Avançados}
+      \field{number}{89}
+      \field{title}{Não há saída sem a reversão da financeirização}
+      \field{volume}{31}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{pages}{29\bibrangedash 35}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1590/s0103-40142017.31890004
+      \endverb
+      \verb{file}
+      \verb Paulani_2017_Não há saída sem a reversão da financeirização:/home/gabriel/Zotero/storage/PYYDJR6H/Paulani_2017_Não há saída sem a reversão da financeirização.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{piketty_o_2014}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=125a3a980ec7ff459f2e77e8e82118b6}{%
+           family={Piketty},
+           familyi={P\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Rio de Janeiro}%
+      }
+      \list{publisher}{1}{%
+        {Intrínseca}%
+      }
+      \strng{namehash}{125a3a980ec7ff459f2e77e8e82118b6}
+      \strng{fullhash}{125a3a980ec7ff459f2e77e8e82118b6}
+      \strng{bibnamehash}{125a3a980ec7ff459f2e77e8e82118b6}
+      \strng{authorbibnamehash}{125a3a980ec7ff459f2e77e8e82118b6}
+      \strng{authornamehash}{125a3a980ec7ff459f2e77e8e82118b6}
+      \strng{authorfullhash}{125a3a980ec7ff459f2e77e8e82118b6}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{O capital no século {XXI}}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb Piketty - 2014 - O capital no século XXI.pdf:/home/gabriel/Zotero/storage/PG9ZQJ58/Piketty - 2014 - O capital no século XXI.pdf:application/pdf
+      \endverb
+      \keyw{{REVISTO}}
+    \endentry
+    \entry{pivetti_essay_1992}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=c6c42785bfd3878a69c0f34188571d19}{%
+           family={Pivetti},
+           familyi={P\bibinitperiod},
+           given={Massimo},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=29aa2aa548869020037993e95d79cf8c}{%
+           family={Giugni},
+           familyi={G\bibinitperiod},
+           given={Marco},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {London}%
+      }
+      \list{publisher}{1}{%
+        {Palgrave Macmillan {UK}}%
+      }
+      \strng{namehash}{c6c42785bfd3878a69c0f34188571d19}
+      \strng{fullhash}{c6c42785bfd3878a69c0f34188571d19}
+      \strng{bibnamehash}{c6c42785bfd3878a69c0f34188571d19}
+      \strng{authorbibnamehash}{c6c42785bfd3878a69c0f34188571d19}
+      \strng{authornamehash}{c6c42785bfd3878a69c0f34188571d19}
+      \strng{authorfullhash}{c6c42785bfd3878a69c0f34188571d19}
+      \strng{editorbibnamehash}{29aa2aa548869020037993e95d79cf8c}
+      \strng{editornamehash}{29aa2aa548869020037993e95d79cf8c}
+      \strng{editorfullhash}{29aa2aa548869020037993e95d79cf8c}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{1}
+      \field{pagetotal}{{VIII}, 148}
+      \field{title}{An essay on the monetary theory of distribution}
+      \field{year}{1992}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb Pivetti_1992_An essay on the monetary theory of distribution:/home/gabriel/Zotero/storage/NHTHAVWC/Pivetti_1992_An essay on the monetary theory of distribution.pdf:application/pdf
+      \endverb
+      \keyw{Principal,{REVISTO}}
+    \endentry
+    \entry{ribeiro_o_2016}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=7700189ae62a5d28da9e17a520771885}{%
+           family={Ribeiro},
+           familyi={R\bibinitperiod},
+           given={Rodrigo\bibnamedelima Fernandes},
+           giveni={R\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=d71116d78362b16ac3dae484ff7408ad}{%
+           family={Lara},
+           familyi={L\bibinitperiod},
+           given={Ricardo},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{aaf18e2315743fca17fad6d16e1e7869}
+      \strng{fullhash}{aaf18e2315743fca17fad6d16e1e7869}
+      \strng{bibnamehash}{aaf18e2315743fca17fad6d16e1e7869}
+      \strng{authorbibnamehash}{aaf18e2315743fca17fad6d16e1e7869}
+      \strng{authornamehash}{aaf18e2315743fca17fad6d16e1e7869}
+      \strng{authorfullhash}{aaf18e2315743fca17fad6d16e1e7869}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Resumo O artigo tem como objetivo abordar o endividamento dos trabalhadores no Brasil e a proposta da "educação financeira". Os números do endividamento são impactantes se comparados com as estatísticas do fim do século passado. O Relatório de Estabilidade Financeira ({REF}), publicação semestral do Banco Central do Brasil (Bacen), apresentou em 2014 o índice de endividamento das famílias em 45,5\%, referente a dezembro de 2013. A "educação financeira" surge como ideologia estratégica do capital financeiro, com o objetivo de manipular o consumo e controlar os riscos de inadimplência.}
+      \field{journaltitle}{Serviço Social \& Sociedade}
+      \field{month}{6}
+      \field{number}{126}
+      \field{title}{O endividamento da classe trabalhadora no Brasil e o capitalismo manipulatório}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{pages}{340\bibrangedash 359}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1590/0101-6628.072
+      \endverb
+      \verb{file}
+      \verb Ribeiro, Lara_2016_O endividamento da classe trabalhadora no Brasil e o capitalismo manipulatório:/home/gabriel/Zotero/storage/F2EDXS6H/Ribeiro, Lara_2016_O endividamento da classe trabalhadora no Brasil e o capitalismo manipulatório.pdf:application/pdf
+      \endverb
+      \keyw{Principal,{REVISTO}}
+    \endentry
+    \entry{serrano_trabajadores_2008}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=8df1ed774cbbdbac66d3fc8dafb0bcd5}{%
+           family={Serrano},
+           familyi={S\bibinitperiod},
+           given={Franklin},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8df1ed774cbbdbac66d3fc8dafb0bcd5}
+      \strng{fullhash}{8df1ed774cbbdbac66d3fc8dafb0bcd5}
+      \strng{bibnamehash}{8df1ed774cbbdbac66d3fc8dafb0bcd5}
+      \strng{authorbibnamehash}{8df1ed774cbbdbac66d3fc8dafb0bcd5}
+      \strng{authornamehash}{8df1ed774cbbdbac66d3fc8dafb0bcd5}
+      \strng{authorfullhash}{8df1ed774cbbdbac66d3fc8dafb0bcd5}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{El objetivo de este trabajo es discutir algunos aspectos de la teoría de la de-manda efectiva de Kalecki (1971) a partir del análisis del crecimiento de la economía americana en las últimas décadas y particularmente en los años 2000. A lo largo de este período hubo en los Estados Unidos un proceso de creciente concentración de la riqueza y del ingreso funcional y personal. Al mismo tiem-po el consumo agregado crece tanto como proporción del producto ({PIB}) como en relación a la ingreso disponible de «las familias» de modo tal que cada vez es mayor el coro de los que se preocupan con la baja y descendente tasa de ahorro de la economía americana. ¿Será que esto significa que tanto la idea de Keynes, de que los ricos tienen mayor propensión marginal a ahorrar, como la idea ka-leckiana (que viene de Marx) de que la propensión marginal a ahorrar de los trabajadores es bastante menor que la de los capitalistas está equivocada? En este trabajo vamos a avalar la visión de Kalecki sobre este y otros temas anali-zando el crecimiento de la economía americana en este período a partir de una visión sraffiana de crecimiento liderado por la demanda y utilizando en particu-lar la interpretación de Barba \& Pivetti (2008) para la evolución del consumo agregado en Estados Unidos. Además de esta introducción, el trabajo se divide en siete secciones. En la sección {II} hacemos brevísimas consideraciones gene-rales sobre la compatibilidad de la visión de Kalecki y el enfoque sraffiano. En la sección {III} presentamos un análisis de la realización de la masa agregada de ganancias en Kalecki llamando la atención sobre el posible papel del crédito al consumidor y de la inversión residencial. Luego analizamos la evolución de la {LOS} {TRABAJADORES} {GASTAN} {LO} {QUE} {NO} {GANAN}}
+      \field{journaltitle}{Circus}
+      \field{number}{1}
+      \field{title}{Los trabajadores gastan lo que ganan: Kalecki y la economía americana en los años 2000}
+      \field{volume}{3}
+      \field{year}{2008}
+      \field{dateera}{ce}
+      \field{pages}{7\bibrangedash 24}
+      \range{pages}{18}
+      \verb{file}
+      \verb Serrano_2008_Los trabajadores gastan lo que ganan Kalecki y la economía americana en los años 2000:/home/gabriel/Zotero/storage/5UW588FV/Serrano_2008_Los trabajadores gastan lo que ganan Kalecki y la economía americana en los años 2000.pdf:application/pdf
+      \endverb
+      \keyw{Principal,{REVISTO}}
+    \endentry
+    \entry{serrano_conflito_2018}{report}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=8df1ed774cbbdbac66d3fc8dafb0bcd5}{%
+           family={Serrano},
+           familyi={S\bibinitperiod},
+           given={Franklin},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=157db2b74ae6c855de546e21f03b1e97}{%
+           family={Summa},
+           familyi={S\bibinitperiod},
+           given={Ricardo},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Instituto de Economia, Universidade Federal do Rio de Janeiro ({IE}-{UFRJ})}%
+      }
+      \list{location}{1}{%
+        {Rio de Janeiro}%
+      }
+      \strng{namehash}{2edcdb588425ecd1097c9d327baea06a}
+      \strng{fullhash}{2edcdb588425ecd1097c9d327baea06a}
+      \strng{bibnamehash}{2edcdb588425ecd1097c9d327baea06a}
+      \strng{authorbibnamehash}{2edcdb588425ecd1097c9d327baea06a}
+      \strng{authornamehash}{2edcdb588425ecd1097c9d327baea06a}
+      \strng{authorfullhash}{2edcdb588425ecd1097c9d327baea06a}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{O objetivo deste trabalho é discutir as causas principais da interrupção, a partir de 2015,do processo de crescimento com inclusão social que ocorreu na economia brasileira a partir de meados dos anos 2000, processo que chamaremos de “Breve Era de Ouro” da economia brasileira em alusão ao processo semelhante, porém bem mais longo e intenso, que ocorreu nos países centrais depois da Segunda Guerra Mundial até o inicio da década de 70 do século passado.}
+      \field{langid}{brazil}
+      \field{title}{Conflito Distributivo e o Fim da “Breve Era de Ouro” da Economia Brasileira}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{pages}{20}
+      \range{pages}{1}
+      \verb{file}
+      \verb Serrano, Franklin e Summa, Ricardo - 2018 - Conflito Distributivo e o Fim da “Breve Era de Our.pdf:/home/gabriel/Zotero/storage/LJ7XMYID/Serrano, Franklin e Summa, Ricardo - 2018 - Conflito Distributivo e o Fim da “Breve Era de Our.pdf:application/pdf
+      \endverb
+      \keyw{Principal,{REVER} {AUTORES},Publi\_Futura}
+    \endentry
+    \entry{serrano_demanda_2015}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=8df1ed774cbbdbac66d3fc8dafb0bcd5}{%
+           family={Serrano},
+           familyi={S\bibinitperiod},
+           given={Franklin},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=157db2b74ae6c855de546e21f03b1e97}{%
+           family={Summa},
+           familyi={S\bibinitperiod},
+           given={Ricardo},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2edcdb588425ecd1097c9d327baea06a}
+      \strng{fullhash}{2edcdb588425ecd1097c9d327baea06a}
+      \strng{bibnamehash}{2edcdb588425ecd1097c9d327baea06a}
+      \strng{authorbibnamehash}{2edcdb588425ecd1097c9d327baea06a}
+      \strng{authornamehash}{2edcdb588425ecd1097c9d327baea06a}
+      \strng{authorfullhash}{2edcdb588425ecd1097c9d327baea06a}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Center for economic and policy research}
+      \field{title}{Demanda agregada e a desaceleração do crescimento econômico brasileiro de 2011 a 2014}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{pages}{1\bibrangedash 42}
+      \range{pages}{42}
+      \verb{file}
+      \verb Serrano, Summa_2015_Demanda agregada e a desaceleração do crescimento econômico brasileiro de 2011 a 2014:/home/gabriel/Zotero/storage/WCJE8NBW/Serrano, Summa_2015_Demanda agregada e a desaceleração do crescimento econômico brasileiro de 2011 a 2014.pdf:application/pdf;Serrano, Summa_2015_Demanda agregada e a desaceleração do crescimento econômico brasileiro de 2011 a 2014(2):/home/gabriel/Zotero/storage/N49V99XR/Serrano, Summa_2015_Demanda agregada e a desaceleração do crescimento econômico brasileiro de 2011 a 2014(2).pdf:application/pdf
+      \endverb
+      \keyw{Principal,{REVISTO}}
+    \endentry
+    \entry{souza_distribuicao_2015}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=9764a98f533e38995364ae56988a8bc4}{%
+           family={Souza},
+           familyi={S\bibinitperiod},
+           given={Pedro\bibnamedelimb Herculano\bibnamedelimb Guimarães\bibnamedelimb Ferreira\bibnamedelima de},
+           giveni={P\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim d\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9764a98f533e38995364ae56988a8bc4}
+      \strng{fullhash}{9764a98f533e38995364ae56988a8bc4}
+      \strng{bibnamehash}{9764a98f533e38995364ae56988a8bc4}
+      \strng{authorbibnamehash}{9764a98f533e38995364ae56988a8bc4}
+      \strng{authornamehash}{9764a98f533e38995364ae56988a8bc4}
+      \strng{authorfullhash}{9764a98f533e38995364ae56988a8bc4}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Revista Brasileira de Estudos de População}
+      \field{month}{4}
+      \field{number}{1}
+      \field{title}{A distribuição de renda nas pesquisas domiciliares brasileiras: harmonização e comparação entre Censos, {PNADs} e {POFs}}
+      \field{volume}{32}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{pages}{165\bibrangedash 188}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10.1590/S0102-30982015000000009
+      \endverb
+      \verb{file}
+      \verb Snapshot:/home/gabriel/Zotero/storage/KFFBH576/scielo.html:text/html;Souza_2015_A distribuição de renda nas pesquisas domiciliares brasileiras.pdf:/home/gabriel/Zotero/storage/EP9Z7FSL/Souza_2015_A distribuição de renda nas pesquisas domiciliares brasileiras.pdf:application/pdf
+      \endverb
+      \keyw{{REVISTO}}
+    \endentry
+    \entry{stockhammer_rising_2015}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=4a9dcd2d346549adb569eca71d4f9403}{%
+           family={Stockhammer},
+           familyi={S\bibinitperiod},
+           given={Engelbert},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4a9dcd2d346549adb569eca71d4f9403}
+      \strng{fullhash}{4a9dcd2d346549adb569eca71d4f9403}
+      \strng{bibnamehash}{4a9dcd2d346549adb569eca71d4f9403}
+      \strng{authorbibnamehash}{4a9dcd2d346549adb569eca71d4f9403}
+      \strng{authornamehash}{4a9dcd2d346549adb569eca71d4f9403}
+      \strng{authorfullhash}{4a9dcd2d346549adb569eca71d4f9403}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cambridge Journal of Economics}
+      \field{month}{5}
+      \field{number}{3}
+      \field{title}{Rising inequality as a cause of the present crisis}
+      \field{volume}{39}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{pages}{935\bibrangedash 958}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10.1093/cje/bet052
+      \endverb
+      \keyw{Principal,{REVISTO},{METADATA}}
+    \endentry
+    \entry{streeck_citizens_2012}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=dd6207b2d53edc29b31a211b48abf24b}{%
+           family={Streeck},
+           familyi={S\bibinitperiod},
+           given={Wolfgang},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{dd6207b2d53edc29b31a211b48abf24b}
+      \strng{fullhash}{dd6207b2d53edc29b31a211b48abf24b}
+      \strng{bibnamehash}{dd6207b2d53edc29b31a211b48abf24b}
+      \strng{authorbibnamehash}{dd6207b2d53edc29b31a211b48abf24b}
+      \strng{authornamehash}{dd6207b2d53edc29b31a211b48abf24b}
+      \strng{authorfullhash}{dd6207b2d53edc29b31a211b48abf24b}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{New Left Review (76)}
+      \field{langid}{english}
+      \field{title}{Citizens as Customers: Considerations on the New Politics of Consumption}
+      \field{year}{2012}
+      \field{dateera}{ce}
+      \field{pages}{27\bibrangedash 47}
+      \range{pages}{21}
+      \verb{file}
+      \verb O cidadão como consumidor.html:/home/gabriel/Zotero/storage/Q5EAGC7F/O cidadão como consumidor.html:text/html;Streeck - Citizens as Customers.pdf:/home/gabriel/Zotero/storage/5KSTIEBB/Streeck - Citizens as Customers.pdf:application/pdf
+      \endverb
+      \keyw{Complementar,{REVISTO}}
+    \endentry
+    \entry{szymborska_household_2018}{report}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=c8d74b7e605d11391b089e97201c89c1}{%
+           family={Szymborska},
+           familyi={S\bibinitperiod},
+           given={Hanna},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Post Keynesian Economics Society ({PKES})}%
+      }
+      \list{location}{1}{%
+        {The Open University}%
+      }
+      \strng{namehash}{c8d74b7e605d11391b089e97201c89c1}
+      \strng{fullhash}{c8d74b7e605d11391b089e97201c89c1}
+      \strng{bibnamehash}{c8d74b7e605d11391b089e97201c89c1}
+      \strng{authorbibnamehash}{c8d74b7e605d11391b089e97201c89c1}
+      \strng{authornamehash}{c8d74b7e605d11391b089e97201c89c1}
+      \strng{authorfullhash}{c8d74b7e605d11391b089e97201c89c1}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper empirically investigates the relationship between household wealth composition and income inequality in the {USA} between 1989-2013. Interactions between wealth accumulation and income are a vital driver of inequality in capitalist economies. But not enough is known about which types of wealth are more conducive to sustained improvements in household’s position in the income distribution. This paper contributes to the literature by estimating how accumulation of different forms of wealth influences income inequality. Using linear regression analysis and non-parametric median slope estimation with data from the U.S. Survey of Consumer Finances between 1989-2013, we find a statistically significant relationship between household balance sheet composition and position in the distribution of income relative to the median. Greater share of primary residence and low- yielding transaction accounts in total asset portfolio, and higher contribution of unsecured debt to overall debt holdings are found to push households away from the median towards the bottom of the income distribution. Higher relative accumulation of business equity, high-yielding financial investment assets, secured debt, retirement and insurance assets, and other property are found to pull households further away from the median towards the top of the income distribution. The latter effects are found not to be shared equally across gender, racial, and intergenerational groups.}
+      \field{title}{Household wealth structures and position in the income distribution – econometric analysis for the {USA}, 1989-2013}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{pages}{1989\bibrangedash 2013}
+      \range{pages}{25}
+      \verb{file}
+      \verb Szymborska_2018_Household wealth structures and position in the income distribution – econometric analysis for the USA, 1989-2013:/home/gabriel/Zotero/storage/2MXLGH9G/Szymborska_2018_Household wealth structures and position in the income distribution – econometric analysis for the USA, 1989-2013.pdf:application/pdf
+      \endverb
+      \keyw{Complementar,{REVISTO},{METADATA}}
+    \endentry
+    \entry{veblen_teoria_1965}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=82725d24e0c2f38a6a736eef255a4921}{%
+           family={Veblen},
+           familyi={V\bibinitperiod},
+           given={Thorstein},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {São Paulo}%
+      }
+      \list{publisher}{1}{%
+        {Pioneira}%
+      }
+      \strng{namehash}{82725d24e0c2f38a6a736eef255a4921}
+      \strng{fullhash}{82725d24e0c2f38a6a736eef255a4921}
+      \strng{bibnamehash}{82725d24e0c2f38a6a736eef255a4921}
+      \strng{authorbibnamehash}{82725d24e0c2f38a6a736eef255a4921}
+      \strng{authornamehash}{82725d24e0c2f38a6a736eef255a4921}
+      \strng{authorfullhash}{82725d24e0c2f38a6a736eef255a4921}
+      \field{sortinit}{V}
+      \field{sortinithash}{75dd7385c90b2252c3ae853a80ca853b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{note}{{OCLC}: 683349119}
+      \field{shorttitle}{A teoria da classe ociosa}
+      \field{title}{A teoria da classe ociosa: um estudo econômico das instituições}
+      \field{year}{1965}
+      \field{dateera}{ce}
+      \keyw{{REVISTO}}
+    \endentry
+  \enddatalist
+  \missing{mila_income_2015}
+\endrefsection
+\endinput
+

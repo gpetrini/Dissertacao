@@ -1,0 +1,281 @@
+---
+title: "Esqueleto Projeto Mestrado"
+author: Gabriel Petrini da Silveira
+date: "`r Sys.Date()`"
+output:
+  rmdformats::readthedown:
+    highlight: kate
+---
+
+
+```{r knitr_init, echo=FALSE, cache=FALSE}
+library(knitr)
+library(rmdformats)
+
+## Global options
+options(max.print="75")
+opts_chunk$set(echo=FALSE,
+	             cache=TRUE,
+               prompt=FALSE,
+               tidy=TRUE,
+               comment=NA,
+               message=FALSE,
+               warning=FALSE)
+opts_knit$set(width=75)
+```
+
+# Passos a serem feitos primeiro (na ordem)
+
+- Escrever uma linha em cada parágrafo com respectivos "títulos"
+- Caçar citações e referências com as páginas
+- Apresentar os casos que serão trabalhados
+- Estruturar seções
+- Introdução
+  - O que será feito na dissertação
+  - O porquê desta pesquisa ser importante
+
+# Como deve estar no projeto
+
+- Introdução
+- Seções
+  - Paragrafos
+    - Primeira frase
+    - Citações
+    - Exemplos
+-  Checar o fluxo das ideias
+
+# Estruturação do projeto FAPESP 
+
+## Capa
+
+- **Título:**
+  - Depende das demais seções
+  - **Preliminar:** Os limites do padrão de crescimento brasileiro recente: uma prosposta de análise a partir da metodologia de Consistência entre Fluxos e Estoques Pós-Keynesiana
+    - Está presente:
+      - [x] Metodologia
+      - [x] Recorte teórico
+      - [?] Recorte temporal
+      - [x] Tema/Problema
+
+
+## Resumo
+
+- Será feito por último
+
+## Introdução
+
+- Será uma das últimas seções a ser desenvolvida
+
+
+## Objetivos
+
+### Qual a **pergunta** a ser respondida?
+
+**Esboço 1:** Quais foram os limites do padrão de crescimento desenvolvimentista?
+
+
+- **Pontas soltas:**
+  - Que tipos de limites?
+    - Os limites foram atingidos?
+  - O que seria o "Padrão de crescimento desenvolvimentista"?
+    - Ganhos salariais reais
+    - Inclusão financeira
+    - Consumo doméstico de massas
+    - Avanços sócio-econômicos
+      - Distribuição de renda
+
+- **Palpites:**
+  - Não avançou no desenvolvimentismo ao mesmo tempo que abandonou o lado produtivo
+    - Modernização da demanda com escoamento da produção
+
+
+## Justificativa
+
+### **Por que** ela deve ser respondida?
+
+A justificativa se dá em duas frentes:
+
+- **Compreensão teória**
+  - Definição e rastreamento dos limites de um padrão de crescimento desenvolvimentista dentro do debate acadêmico
+- **Contexto conjuntural**
+  - Superação dos limites e constituição de uma novo padrão de crescimento
+
+## Metodologia
+
+### **Como** ela será respondida?
+
+A resposta à essa pergunta deve contemplar algumas dimensões, são elas:
+
+- **Mudanças Estruturais**
+  - Pós-crise
+  - China
+  - Alterações organizacionais
+  - Financeirização
+- **Características institucionais**
+  - Regime de Metas para a Inflação
+  - Lei de responsabilidade fiscal (LRF)
+  - Restrições da ossatura do Estado
+    - Navegando à contravento
+- **Lado da oferta**
+  - Produtividade
+  - Competitividade
+- **Lado da demanda**
+  - Ganhos salariais reais
+  - Inclusão financeira
+  - Distribuição de renda
+
+**Nota:** Não se faz necessário abordar todos os elementos acima elencados de forma exaustiva. No entando, são fundamentais para compor a análise a ser realizada.
+
+Cada uma das dimensões tratadas serão arroladas contrapondo duas frentes de análise distintas:
+
+- Ortodoxa
+  - Foco principalmente nos temas relacionados ao lado da **oferta**
+- Heterodoxa
+  - **Pós-Keynesiana:** Desemboca na metodologia SFC-PK para analisar os componentes do lado da **demanda** diante de um ambiente institucional regido pelo regime de Metas para a Inflação
+
+
+
+#### Esboço 1
+
+1. Ortodoxia
+2. Heterodoxia
+3. Minha leitura
+
+- **Prós:**
+  - Fácil de delimitar os temas dos capítulos
+- **Contras:**
+  - Capítulos "Soltos"
+  - Dificuldade do capítulo "Minha Leitura"
+  - "Ousado"
+
+**OBS:** Descartado
+
+#### Esboço 2
+
+1. Mudanças estruturais
+2. Características institucionais
+3. Lado da oferta
+4. Lado da demanda
+5. Modelos
+
+**Nota:** Possibilidade de junção de "Lado da Oferta" com "Lado da Demanda"
+
+- **Prós:**
+  - Abrangência
+  - Interdisciplinaridade
+  - Capítulos expressam a _Big Picture_ da tese
+  - Argumentos e tese explicitados
+  - Possibilidade dos temas dos debates serem os títulos das seções
+- **Contras:**
+  - Complexidade e extensão
+  - Dificuldade em contrastar os recortes teóricos
+  - "Engessado", não passível de rearranjos
+
+**OBS:** Até agora o mais adequado.
+
+  
+
+#### Esboço 3
+
+1.
+
+- **Prós:**
+- **Contras:**
+  
+
+### Estrutura dos capítulos 
+
+||**Tópico**| **Estrutura 1**| **Estrutura 2**| |
+|---:|----:|----:|----:| ---:|
+||**Introdução**|Apresentar modelo de crescimento desenvolvimentista | ¯\_(ツ)_/¯ | |
+|**Parte I: Discussão Limites do padrão de crescimento**| **Capítulo 1**| Mudanças estruturais| Apresentar modelo de crescimento desenvolvimentista|**Parte I: Discutir modelo de crescimento**|
+| | **Capítulos 2**| Características institucionais| Limites do Modelo de crescimento desenvolvimentista | |
+| | **Capítulos 3**| Limites do lado da oferta e demanda | Discussão sobre padrões de crescimento| **Parte II: Modelos Macro**|
+| **Parte II: SFC** | Capítulo 4| Apresentar meu SFC| Apresentar modelos macro + SFC| |
+|| **Conclusão**| Fazer reflexão sobre as possibilidades para a economia brasileira| Fazer reflexão sobre as possibilidades para a economia brasileira| |
+
+
+
+
+#### Estrutura 1
+
+
+##### Parte I 
+  - Mudanças estruturais
+    - Debate teórico
+        - Ortodoxia
+        - Heterodoxia
+    - Brasil
+  - Características institucionais
+    - Debate teórico
+      - Ortodoxia
+      - Heterodoxia
+    - Brasil
+  - Lado da oferta e da demanda
+    - Debate teórico
+      - Ortodoxia
+      - Heterodoxia
+    - Brasil
+  
+##### Parte II
+  - Proposta de análise
+    - Construção do meu modelo SFC
+     - Crédito
+     - Regra de Taylor
+     - Classes socio-econômicas
+    
+    
+
+**Estado:** Feito primeiro esboço no projeto
+
+- Sem revisão
+
+
+
+
+
+## Análise e coleta dos dados e construção do modelo proposto (?)
+
+### Análise e coleta dos dados
+
+Fonte dos dados:
+
+- Não especificado
+
+
+
+### Construção do Modelo
+
+- **Ferramenta Computacional:** R e/ou Python
+- **Base teórica:** Livro Godley & Lavoie
+
+
+
+## Cronograma
+
+- **Estado:** Parcialmente concluído
+  - **Pendência:** Revisão
+
+
+## Bibliografia fundamental
+
+
+A revisão bibliográfica e, por consequência, os textos-base serão divididos de acordo com as frentes de análise.
+
+### Bibliografia Preliminar
+
+- **Teoria**
+  - SFC
+
+- **Brasil**
+  - Indústria
+    - [Doença Brasileira](https://drive.google.com/open?id=13NZBfpfkHy9SawRZ2oHaV47tO3nCLyjW) - (Diegues, 2017)
+      - [x] JabRef
+    - [Desempenho recente](https://drive.google.com/open?id=13N-FYxfxVn0FVP-8UFdxOfu21G4777iL) - (Sarti & Hiratuka, 2017)
+      - [x] JabRef
+
+
+
+## Referências Bibliográficas
+
+- **Nota:** Será gerado automaticamente pelo LaTeX. Resta atualizar o JabRef.

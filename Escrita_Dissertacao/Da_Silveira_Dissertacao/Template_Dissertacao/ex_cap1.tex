@@ -1,0 +1,246 @@
+\chapter{Título 1}
+Esse é o primeiro capítulo da sua tese.
+
+\section{Seção 1.1}
+Essa é uma seção da sua tese.
+
+\subsection{Subseção 1.1.1}
+
+Essa é uma subseção da sua tese.
+
+\subsection{Subseção 1.1.2}
+
+Essa é outra subseção da sua tese.
+
+\section{Equações matemáticas}
+Para equações matemáticas está sendo utilizado os seguintes
+pacotes:
+\begin{itemize}
+  \item amsmath,
+  \item amsfonts,
+  \item amssymb,
+  \item amsthm,
+  \item breqn.
+\end{itemize}
+
+Um exemplo de equação na mesma linha: 
+$ 1 + 1 + 1 + 1 + 1 + 1 = 6$, 
+que é trivial\index{trivial} de ser verificada.
+
+Equações na mesma linha são quebradas automaticamente:
+$ 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 = 12$. 
+
+Ao utilizar equações na mesma linha deve-se tomar o cuidado de manter a
+legibilidade da equação e não modificar a altura da linha. É
+errado utilizar $\frac{1}{2} + \frac{1}{2} = 1$ ou $\frac{\partial}{\partial x}
+(y^2 + 2xy + x^2) = 2y + 2x$, devendo ser utilizado $(1/2) + (1/2) = 1$ ou
+$\partial (y^2 + 2 x y + x^2) / \partial x = 2 y + 2 x$.
+
+Além de equações na mesma linha, também é possível
+utilizar equações em destaque:
+\begin{equation}
+  1 + 1 + 1 + 1 + 1 + 1 = 6
+\end{equation}
+ou
+\begin{equation*}
+  1 + 1 + 1 + 1 + 1 + 1 = 6.
+\end{equation*}
+Ao utilizar equações matemáticas em destaque, não esqueça da pontuação nas
+equações.
+
+Recomenda-se utilizar os ambientes
+\begin{itemize}
+  \item dmath(*) e
+  \item dgroup(*)
+\end{itemize}
+disponibilizados pelo pacote breqn ao invés dos ambientes
+\begin{itemize}
+  \item equation(*,)
+  \item align(*),
+  \item multiline(*) e
+  \item split
+\end{itemize}
+pois os primeiros quebram e alinham automaticamente as equações em destaque.
+Veja a seguir a ``equivalência'' entre os ambientes:
+\begin{description}
+  \item[dmath]
+    \begin{dmath}
+      1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1
+      + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 = 30
+    \end{dmath}
+  \item[equation] 
+    \begin{equation}
+      1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1
+      + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 = 30
+    \end{equation}
+  \item[equation com split] 
+    \begin{equation}
+      \begin{split}
+        1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 \\
+        + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 = 30 
+      \end{split}
+    \end{equation}
+  \item[align] 
+    \begin{align}
+      1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 \\
+      + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 = 30 
+    \end{align}
+  \item[align com quebra de linha] 
+    \begin{align}
+      1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 \\
+      + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 = 30 
+    \end{align}
+\end{description}
+
+No caso do desenvolvimento/simplificação de uma expressão
+matemática também é recomendado utilizar os ambientes
+disponibilizados pelo pacote breqn.
+\begin{description}
+  \item[dmath]
+    \begin{dmath}
+      f(x) = 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 +
+      1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1
+      = 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2
+      = 4 + 4 + 4 + 4 + 4 + 4 + 4 + 2
+      = 8 + 8 + 8 + 6
+      = 16 + 14
+      = 30
+    \end{dmath}
+  \item[equation com split] 
+    \begin{equation}
+      \begin{split}
+        f(x) &= 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 \\
+        &\quad {}+ 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 \\
+        &= 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 \\
+        &= 4 + 4 + 4 + 4 + 4 + 4 + 4 + 2 \\
+        &= 8 + 8 + 8 + 6 \\
+        &= 16 + 14 \\
+        &= 30
+      \end{split}
+    \end{equation}
+  \item[align com quebra de linha] 
+    \begin{align}
+        f(x) &= 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 \\
+        &\quad {}+ 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 \\
+        &= 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 \\
+        &= 4 + 4 + 4 + 4 + 4 + 4 + 4 + 2 \\
+        &= 8 + 8 + 8 + 6 \\
+        &= 16 + 14 \\
+        &= 30
+    \end{align}
+\end{description}
+
+Para o caso de equações relacionadas e que devem ser agrupadas,
+temos
+\begin{description}
+  \item[dgroup com dmath]
+    \begin{dgroup}
+      \begin{dmath}
+        f(x) = 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1
+        + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1
+        = 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2
+        = 4 + 4 + 4 + 4 + 4 + 4 + 4 + 2
+        = 8 + 8 + 8 + 6
+        = 16 + 14
+        = 30
+      \end{dmath}
+      \begin{dmath}
+        g(x) = 2 + 2 + 2 + 2
+        = 4 + 4
+        = 8
+      \end{dmath}
+    \end{dgroup}
+  \item[subequations com equation com split] 
+    \begin{subequations}
+      \begin{equation}
+        \begin{split}
+          f(x) &= 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 \\
+          &\quad {}+ 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 \\
+          &= 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 \\
+          &= 4 + 4 + 4 + 4 + 4 + 4 + 4 + 2 \\
+          &= 8 + 8 + 8 + 6 \\
+          &= 16 + 14 \\
+          &= 30
+        \end{split}
+      \end{equation}
+      \begin{equation}
+        \begin{split}
+          g(x) &= 2 + 2 + 2 + 2 \\
+          &= 4 + 4 \\
+          &= 8
+        \end{split}
+      \end{equation}
+    \end{subequations}
+  \item[align com split] 
+    \begin{align}
+      \begin{split}
+        f(x) &= 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 \\
+        &\quad {}+ 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 \\
+        &= 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 \\
+        &= 4 + 4 + 4 + 4 + 4 + 4 + 4 + 2 \\
+        &= 8 + 8 + 8 + 6 \\
+        &= 16 + 14 \\
+        &= 30
+      \end{split} \\
+      \begin{split}
+        g(x) &= 2 + 2 + 2 + 2 \\
+        &= 4 + 4 \\
+        &= 8
+      \end{split}
+    \end{align}
+\end{description}
+
+\subsection{Referência cruzada}
+Parte das equações anteriores encontram-se numeradas. Esse número pode ser
+facilmente acessado se junto da equação tiver sido utilizando o comando label:
+\begin{dmath}
+  c^2 = a^2 + b^2. \label{eq:exem_pitagoras}
+\end{dmath}
+E para acessar o número utiliza o comando eqref, \eqref{eq:exem_pitagoras}.
+
+Além de numerar equações também é possível nomeá-las utilizando o comando
+tag\footnote{O pacote breqn não possue suporte ao comando tag.}:
+\begin{align}
+  c^2 &= a^2 + b^2 - 2 a b \cos\theta 
+  \label{eq:exem_pitagoras_generalizado}
+  \tag{GTP}
+\end{align}
+E para acessar o nome utiliza-se o comando eqref,
+\eqref{eq:exem_pitagoras_generalizado}.
+
+Para que no pdf não apareça o parâmetro dos comandos label é preciso remover o
+pacote showlabels do arquivo pacotes.tex.
+
+\section{Definições}
+Vários ambientes já estão definidos como: Teorema, Conjectura, Corolário,
+Definição, \ldots
+
+\begin{thm}
+  Teorema, Teorema, Teorema, Teorema.
+\end{thm}
+\begin{proof}
+  Demostração do Teorema.
+\end{proof}
+
+\begin{con}
+  Conjectura, Conjecture, Conjectura, Conjectura.
+\end{con}
+\begin{proof}
+  Demostração do Conjectura.
+\end{proof}
+
+\begin{cor}
+  Corolário, Corolário, Corolário, Corolário.
+\end{cor}
+\begin{proof}
+  Demostração do Corolário.
+\end{proof}
+
+\begin{dfn}
+  Definição, Definição, Definição.
+\end{dfn}
+\begin{proof}
+  Demostração da Definição.
+\end{proof}
+
+Use esses ambientes de maneira sábia.

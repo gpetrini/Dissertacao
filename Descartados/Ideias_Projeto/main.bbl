@@ -1,0 +1,81 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{Fontana}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=61aef811f82fcd6bd6bf4b50976618bf}{%
+           family={Fontana},
+           familyi={F\bibinitperiod},
+           given={Guisepe},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{61aef811f82fcd6bd6bf4b50976618bf}
+      \strng{fullhash}{61aef811f82fcd6bd6bf4b50976618bf}
+      \strng{bibnamehash}{61aef811f82fcd6bd6bf4b50976618bf}
+      \strng{authorbibnamehash}{61aef811f82fcd6bd6bf4b50976618bf}
+      \strng{authornamehash}{61aef811f82fcd6bd6bf4b50976618bf}
+      \strng{authorfullhash}{61aef811f82fcd6bd6bf4b50976618bf}
+      \field{sortinit}{F}
+      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Whither New Consensus Macroeconomics? The Role of Government and Fiscal Policy in Modern Macroeconomics}
+      \field{year}{2009}
+    \endentry
+    \entry{Mono_Gabriel}{thesis}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=b5df76af4e2c964098411076a805479a}{%
+           family={Silveira},
+           familyi={S\bibinitperiod},
+           given={Gabriel\bibnamedelima Petrini},
+           giveni={G\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0,
+           prefix={da},
+           prefixi={d\bibinitperiod},
+           prefixun=0}}%
+      }
+      \list{institution}{1}{%
+        {IE-Unicamp}%
+      }
+      \strng{namehash}{b5df76af4e2c964098411076a805479a}
+      \strng{fullhash}{b5df76af4e2c964098411076a805479a}
+      \strng{bibnamehash}{b5df76af4e2c964098411076a805479a}
+      \strng{authorbibnamehash}{b5df76af4e2c964098411076a805479a}
+      \strng{authornamehash}{b5df76af4e2c964098411076a805479a}
+      \strng{authorfullhash}{b5df76af4e2c964098411076a805479a}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{bookpagination}{sheet}
+      \field{title}{Política Fiscal e(m) Grande Recessão: uma análise com Consistência entre Fluxos e Estoques}
+      \field{type}{mathesis}
+      \field{year}{2017}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
