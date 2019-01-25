@@ -1,0 +1,377 @@
+\documentclass[]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\hypersetup{unicode=true,
+            pdftitle={Dúvidas e impressões},
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+%%% Use protect on footnotes to avoid problems with footnotes in titles
+\let\rmarkdownfootnote\footnote%
+\def\footnote{\protect\rmarkdownfootnote}
+
+%%% Change title format to be more compact
+\usepackage{titling}
+
+% Create subtitle command for use in maketitle
+\newcommand{\subtitle}[1]{
+  \posttitle{
+    \begin{center}\large#1\end{center}
+    }
+}
+
+\setlength{\droptitle}{-2em}
+
+  \title{Dúvidas e impressões}
+    \pretitle{\vspace{\droptitle}\centering\huge}
+  \posttitle{\par}
+    \author{}
+    \preauthor{}\postauthor{}
+    \date{}
+    \predate{}\postdate{}
+ 
+\usepackage{color,soul}
+\usepackage[dvipsnames]{xcolor}
+
+
+
+\begin{document}
+\maketitle
+\newcommand{\open}{$\square$}
+\newcommand{\done}{$\boxtimes$}
+
+{
+\setcounter{tocdepth}{2}
+\tableofcontents
+}
+\section{Teoria Sraffiana}\label{teoria-sraffiana}
+
+\begin{itemize}
+\tightlist
+\item
+  [\done] Seguindo o raciocínio de Amadeo (1986), fora do pleno-emprego,
+  a economia não está operando sob a curva salário-lucro. Se isso
+  estiver correto, para o modelo do supermultiplicador permitir que a
+  distribuição seja determinada exogenamente por uma teoria sraffiana,
+  se faz necessário que \(u_n = 1\) ou para \(u_n \neq 1\) (ex:
+  \(u_n = 0.8\)) isso ainda é válido?
+
+  \begin{quote}
+    \textbf{Lucas:} O Amadeo não está correto nesse ponto. Para
+    operar sobre a curva salário-lucro é necessário que o \underline{grau de
+    utilização seja normal}. No modelo do supermultiplicador, esse grau
+    ocorre independente de haver ou não pleno emprego.
+    
+    Além disso, para a distribuição (entendida como wage-share e profit-share) ser determinada exogenamente não é necessário estar na curva-salário lucro. A curva salário lucro representa uma relação entre salário real e taxa real de lucro.  Um exemplo disso, é o modelo kaleckiano. As parcelas distributivas são exógenas (determinadas pelo mark-up), mas a economia não opera em cima da curva salário-lucro, pq a \underline{taxa de lucro é endógena} (e qualquer uma, determinada pelos \hl{gastos dos capitalitas}). 
+    
+    Esse é o tema daquela aula do curso de macro que compara os diferente fechamentos. Uma boa bibliografia para isso é a dissertação de mestrado do Franklin (já te passei?)
+    \end{quote}
+    \begin{itemize}
+     \item[]
+        \begin{itemize}
+        \item[] \textbf{Gabriel:} Me interessei, irei ler.
+        \end{itemize}
+    \end{itemize}
+\item
+  [\done] Pelo pouco que li sobre a teoria de Sraffa, o lucro é a
+  variável independente que não é determinada pelos preços relativos nem
+  pela esfera da produção, mas sim por outros determinantes tal como a
+  taxa de juros. Se isso estiver correto, a negação do paradoxo dos
+  custos (entendido como uma redução do \emph{mark-up} gerar aumento na \underline{massa de lucro}) é uma consequência lógica se adotar uma abordagem sraffiana?
+  Em outras palavras, se a determinação dos lucros não depender dos
+  preços, o paradoxo dos custos deixa de ser paradoxal?
+\end{itemize}
+
+\begin{quote}
+    \textbf{Lucas:} Essa é uma das interpretações da teoria do Sraffa, seguida pelo Pivetti, Garegnani e Franklin. Existem outras interpretações. 
+    
+Dito isso, não entendi muito bem o seu ponto. O que vc quer dizer por “aumento nos lucros”? é a \textbf{massa}, a taxa ou a margem de lucro? Além disso, vc está pensando nessa discussão em \textbf{nível} ou em taxa de crescimento?
+\end{quote}
+
+\begin{itemize}
+ \item[]
+    \begin{itemize}
+        \item[] \textbf{Gabriel:} Estava pensando em aumentos na \textbf{massa} de lucros para uma economia em nível. Ficou mais claro que o paradoxo dos custos se mantém em nível para ambos. 
+    \end{itemize}
+\end{itemize}
+
+\begin{quote}
+Se estamos falando da economia em nível (determinação do nível de renda, modelo keynesiano simples, por exemplo), tanto para sraffiano como para kaleckianos vale o “paradoxo dos custos”: aumento do salário real (queda do mark-up) geral aumento do nível do produto. Note que se a prdonesão marginal a consumir dos trabalhadores for 1 e a dos capitalistas for zero, a massa e a taxa de lucros não se altera. 
+
+Em uma economia em crescimento, os kaleckianos dizem que existe também esse paradoxo dos custos. Nessa situação, o paradoxo dos custo ocorre quando um aumento do salário real gera aumento da taxa de crescimento da economia. Isso só ocorre nos modelos neo-kaleckianos por conta de uma característica específica da \underline{função investimento} deles, que é dependente do grau de utilização. Se o investimento fosse plenamente exógeno, mudanças distributivas não afetariam a taxa de crescimento. Ou seja, \underline{não precisamos do super para negar o paradoxo dos custos}. 
+\end{quote}
+
+\section{Capítulo teórico}\label{capitulo-teorico}
+
+\subsection{Modelos Neo-Kaleckianos}\label{modelos-neo-kaleckianos}
+
+\begin{itemize}
+\tightlist
+\item
+  [\done] No \emph{Steady State} em que a taxa de crescimento do estoque
+  de capital e taxa de crescimento do produto se igualam, qual a taxa de
+  crescimento do grau de utilização da capacidade?
+
+  \begin{itemize}
+  \tightlist
+  \item
+    [\done] Se nula, este grau de utilização de longo prazo equivale ao
+    normal?
+  \item[\done] Se não for nulo, a economia \textbf{não} estará no \emph{Steady
+    State} (Corrigido)
+  \end{itemize}
+\item
+  [\done] Se esses modelos baseiam a distribuição funcional da renda à
+  uma estrutura de mercado oligopolizada (\emph{mark-up} não-nulo)
+  então, no limite:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    [\done] Em uma economia concorrencial, a participação dos lucros na
+    renda é nula? O conflito distributivo é amenizado na medida em que
+    estruturas de mercado não-concorrenciais são reguladas?
+  \item
+    [\done] O argumento sempre recai sobre o poder
+    de barganha ao longo das negociações entre os entes institucionais? Não há margem para o conflito distributivo ser internalizado na
+    política econômica?
+    \item \textbf{Atenção:} Não confundir economia concorrencial com concorrência perfeita.
+  \item
+    [\done]  Modelo de Steindl (1979): Se, no curto prazo, a
+    participação dos lucros na renda depende do grau de utilização, o
+    que a determina no longo prazo?
+  \item
+    [\done]
+  \end{itemize}
+\item
+  [\done] A taxa de crescimento da economia é determinado pelos gastos
+  autônomos, seja o componente autônomo do investimento, sejam gastos
+  que não criam capacidade produtiva. Desse modo:
+\end{itemize}
+
+\begin{equation}
+g = g_I
+\end{equation}
+
+\begin{itemize}
+\tightlist
+\item
+  Ao normalizar o investimento pelo estoque de capital, (\(I/K\)),
+  obtém-se (por definição!) a taxa de crescimento do estoque de capital,
+  logo, fazer:
+\end{itemize}
+
+\begin{equation}
+\frac{I}{K} = g
+\end{equation}
+
+\begin{itemize}
+\tightlist
+\item
+  É incorrer em um erro contábil que implica dizer que a poupança é
+  determinada pelo investimento via mudanças na capacidade produtiva
+  sendo que só é verdade na presença de gastos autônomos que não criam
+  capacidade.
+\end{itemize}
+
+\subsection{Supermultiplicador}\label{supermultiplicador}
+
+\begin{itemize}
+\item
+  [\done] Como a prova da estabilidade do modelo de Harrod implica na
+  validade da Lei de Say no longo prazo?
+\item
+  [\done] \(\Uparrow s \Rightarrow \Uparrow g\)? Isso é consequência da
+  Lei de Say?
+  \begin{itemize}
+      \item \textbf{Não}, e sim a prdoneção à \underline{gastar} ser igual à 1.
+  \end{itemize}
+\item
+  [\open] Como deduzir a Equação (16) \(z=\frac{h}{v}u\) a partir do
+  crescimento do investimento?
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Se for a taxa de crescimento do estoque de capital, a dedução é
+    direta e o mesmo vale para \(g_I \to g_K\)
+  \item
+    Os autores queriam dizer a partir do crescimento do estoque de
+    capital?
+  \end{itemize}
+\item
+  [\open] Jacobiano para demonstrar estabilidade também é válida para
+  tempo discreto?
+
+  \begin{itemize}
+  \tightlist
+  \item
+    [\open] \textbf{Checar:} O ferramental para tempo contínuo é
+    aplicável ao tempo discreto, mas o inverso não é válido
+  \end{itemize}
+\item
+  [\done] Como a hipótese de que o investimento é autônomo implicou na
+  superação do problema da instabilidade de Harrod nos modelos
+  heterodoxos?
+\item
+  [\done] Como os gastos autônomos, ao crescerem à uma taxa exógena,
+  garantem que a taxa de crescimento da capacidade produtiva reagirá
+  mais do que a demanda?
+  \begin{itemize}
+      \item \textbf{Gabriel:} Ficou mais claro. 
+  \end{itemize}
+\end{itemize}
+
+\subsection{Proposta de apresentação simplificada dos modelos de
+crescimento}\label{proposta-de-apresentacao-simplificada-dos-modelos-de-crescimento}
+
+Seja \(u\) o grau de utilização definido como:
+
+\begin{equation}
+\label{Comum}
+u = \frac{Y}{Y^*}
+\end{equation}
+
+em que \(Y\) é o produto e \(Y^*\) o produto potencial utilizado como
+\emph{proxy} para a capacidade produtiva. Enquanto \(v\) é a relação
+técnica capital produto definida por: \begin{equation}
+v = \frac{K}{Y^*}
+\end{equation} A equação \ref{Comum} pode ser reescrita como: \begin{equation}
+Y = uY^* 
+\end{equation} Tomando a diferença: \begin{equation}
+\Delta Y = \Delta uY^* + u\Delta Y^*
+\end{equation} Dividindo pelo produto: \begin{equation}
+g_Y = g_u + g_{Y^*}
+\end{equation} Com a equação acima, pretende-se apresentar um denominador comum às
+teorias de crescimento heterodoxas em que:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Cambridge:} economia opera no pleno-emprego (Kaldor (1957)) ou
+  grau de utilização converge ao normal (Robinson (1962)). Além disso, o
+  sistema econômico não é restringido pelo lado da demanda, mas sim pela
+  oferta. Assim
+\end{itemize}
+
+\begin{equation}
+g_Y \stackrel{\leftharpoonup}{=} g_{Y^*}
+\end{equation}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Neo-Kaleckiano:} Economia não opera no pleno-emprego e, nos
+  modelos convencionais, grau de utilização não converge ao normal e
+  acomoda as mudanças no nível de atividade dada mudanças residuais na
+  capacidade produtiva:
+\end{itemize}
+
+\begin{equation}
+g_u \stackrel{\leftharpoonup}{=} g_Y - g_{Y^*}
+\end{equation}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Supermultiplicador Sraffiano:} Grau de utilização converge ao
+  normal no longo prazo e capacidade produtiva se ajusta à demanda
+  efetiva dada a existência de gastos autônomos não criadores de
+  capacidade:
+\end{itemize}
+
+\begin{equation}
+g_{Y^*} \stackrel{\leftharpoonup}{=} g_Y
+\end{equation}
+
+\textbf{Dúvida:} Alguma passagem incorreta?
+
+\textbf{Dúvida:} \(v\) precisa ser definido em termos do estoque de
+capital com defasagem?
+
+\textbf{Dúvida:} É correto afirmar que nos modelos de crescimento
+neo-Kaleckianos a capacidade produtiva tem uma dinâmica residual? 
+\begin{itemize}
+    \item \textbf{Gabriel:} Vou pensar em como reformular. De todo modo, percebi que estava errado.
+\end{itemize}
+
+\section{Capítulo Fatos Estilizados}\label{capitulo-fatos-estilizados}
+
+\section{Capítulo Modelo}\label{capitulo-modelo}
+
+\begin{itemize}
+\item
+  [\open] Como incorporar investimento residencial no balanço das
+  famílias? Semelhante à conta capital das firmas?
+\item
+  [\open] Robinson (1962) não trata de investimento residencial por se
+  tratar de uma concomitância entre poupança e gasto, como tratar
+  investimento residencial? O que seria essa concomitância
+  (\emph{border-line})?
+\item
+  Em Serrano et al (2015) em que são apresentadas as condições de
+  estabilidade estática e dinâmica do modelo, os autores afirma que se
+  próximo de \(u=u_n\) a prdonesão marginal à gastar superar a unidade,
+  a economia apresentará uma trajetória cíclica com limites superiores e
+  inferiores. Esta pode ser uma forma de incluir não-linearidade ao
+  modelo para simular o ciclo econômico. Ao longo da investigação dos
+  fatos estilizados, pesquisarei se existem evidências para incorporar a
+  não linearidade dessa forma, caso contrário, por ser uma postura
+  \emph{ad hoc}, não irei adotá-la.
+  \begin{itemize}
+      \item \textbf{Gabriel} Lerei Hicks (1950)
+  \end{itemize}
+\end{itemize}
+
+
+\end{document}

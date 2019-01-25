@@ -1,0 +1,7 @@
+\contentsline {section}{\numberline {1}Teoria Sraffiana}{1}{section.1}% 
+\contentsline {section}{\numberline {2}Cap\IeC {\'\i }tulo te\IeC {\'o}rico}{2}{section.2}% 
+\contentsline {subsection}{\numberline {2.1}Modelos Neo-Kaleckianos}{2}{subsection.2.1}% 
+\contentsline {subsection}{\numberline {2.2}Supermultiplicador}{3}{subsection.2.2}% 
+\contentsline {subsection}{\numberline {2.3}Proposta de apresenta\IeC {\c c}\IeC {\~a}o simplificada dos modelos de crescimento}{3}{subsection.2.3}% 
+\contentsline {section}{\numberline {3}Cap\IeC {\'\i }tulo Fatos Estilizados}{4}{section.3}% 
+\contentsline {section}{\numberline {4}Cap\IeC {\'\i }tulo Modelo}{4}{section.4}% 
