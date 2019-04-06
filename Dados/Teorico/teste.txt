@@ -1,0 +1,1122 @@
+Cambridge Journal of Economics 1990, 14,375-393
+
+Bhaduri, Amit. and Stephen
+Economics, 14.
+
+Marglin
+
+(1990) Cambridge ./ournal
+
+Unemployment and the real wage: the
+economic basis for contesting politicaI
+ideologies
+Amit Bhaduri* and Stephen Marglin*
+
+1.Introduction
+Variations in wages have their rwo-sided role in industrial capitalism. Higher wages mean
+higher costs of manufacturing, but by providing more purchasing power to the workers
+they also stimulate demando ln its contradictory roles as the main element of (variable)
+production cost and as a major source of demand, movement in the wage rate has a
+complex, even arnbiguous, effect on the leveI of employment and output. This accounts
+for the existence of contesting points of view on the relationship between wages and
+unemployment and, at the sarne time, also provides an economic basis for sustaining
+different politicaI ideologies regarding the management of the capitalist economy. The
+central objective of this paper is to develop a macroeconomic frarnework in terms of which
+the issue of the relationship between wages and unemployment can be analysed with
+reference to these contesting politicaI ideologies.
+Our analysis is conducted from a broad Keynesian perspective which recognises the
+central importance of effective demando We reformulate Hicks' well known apparatus of
+the IS-curve (Hicks, 1937) to trace out the locus of aggregate demand through equality
+between investment and saving by posrulating exogenous variations in the real wage rate.
+This differs from the models of the closed economy postulated by Keynes (1936) or
+by Kalecki (1939, 1971). ln the model of The General Theory, the real wage rate is an
+endogenous variable: autonomous investment determines effective demand through the
+multiplier mechanism; effective demand determines the levei of output and the leveI
+of output determines the real wage rate, in so far as the marginal product of labour at
+that particular leveI of output has to equal the real wage rate in order to satisfy profit
+maximising firms (Keynes, 1936, pp. 5, 17, 29, 23). Since the real wage rate is codetermined with, but is not a determinant of, the leveI of output and employment, it
+makes no sense to treat the real wage rate as an exogenous, policy variable in the model
+Manuscript received 8 May 1989; final version received 8 Decernber 1989.
+*Indian Institute of Management, Calcutta and Harvard Universiry respectively. This work is part of a
+research programme at the World Institute of Development Economics Research (WIDER), Helsinki. Our
+paper in S. A. Marglin (ed.), 1990 covers similar ground with emphasis.on recent history. We would like to
+record our intellectual debt to ali the participants in the project and also to Robert Blecker, Jaime Ros, Stefano
+Zamagni and LalJayawardena, Director of the Institute, without implicating them or WIDER in our views or
+errors. We are also grateful to the referees of this Journal who provided very helpful comments on an earlier
+draft.
+0309-166X{90{040375+ 19 103.00{0
+
+© 1990 Academic Press Limited
+
+0/
+
+376
+
+A. Bhaduri and S. Marglin
+
+underlying The General Theory (e.g. Solow, 1987). Similarly, Kalecki's cost-determined
+prices leave little scope for exogenous variations in the real wage rate, in so far as the price
+levei and the money wage levei maintain a roughly proportional relationship, through the
+postulate of what Hicks (1974) called 'the wage theorem'.
+ln this paper, we depart from this tradition of treating the real wage rate as an
+endogenous variable for two reasons. First, in order to examine the connection between
+real wage and unemployment it is necessary to perform at least 'thought experiments'
+based on exogenous variations in the real wage rate. Second, as we shalllater argue (in
+Section 3), in an open economy exogenous variations in the real wage rate may become
+feasible through such policies as adjustment in the exchange rate. Thus, in Section 2 of
+this paper, we set out the basic model of exogenous real wage variation in the context of a
+closed economy. Section 3 extends this .model to the more plausible context of an open
+economy. The final Section 4 provides some concluding comments and observations
+on both the limitations and the potentialities of the present analysis in the course of
+summarising the main argumento
+
+2. The closed economy
+ln an economy without significant foreign trade and economic activity by the govemment,
+private final expenditure on consumption and on investment are the two main components
+of aggregate demando Consequently, there are two distinct ways to expand aggregate
+demand and output-through
+expanding private consumption and by stimulating
+private investment. The 'underconsumptionist'
+view, which predates even Marx,
+emphasised the need to maintain adequate private consumption expenditure through a
+policy ofhigh (real) wages.'
+Keynes (1936) distanced himselffrom the strictly underconsumptionist
+position in so
+far as he recognised that stirnulating investment, especially public investment, could
+provide an altemative method of expanding aggregate demand and output. Contrasting
+his own views from those of the earlier underconsumptionists
+like Malthus and Sismondi,
+hewrites:
+Practically I only differ from these schools of thought in thínking that they may lay a little too much
+emphasis on increased consumption at a time when there is still much social advantage to be obtained
+from increased investment. Theoretically, however, they are open to the criticism ofneglecting the
+fact that there are two ways to expand output (Keynes, 1936, p. 325; emphasis in original).
+
+Our first analytical task in this paper is to show how these 'two ways to expand output'
+emerge quite naturally through a reconstruction of the IS-curve, if exogenous variations
+in the real wage are permitted. The algebraic argument is kept simple by assuming that a
+constant fraction C 1 > s > O) of profit and no wage is saved. ln this primitive model workers
+own no property and the entire property income goes to the capitalists in the form of
+We give one example, a resolution of 1817 by Leicester framework-knitters, predating the publication of
+Marx's fust volume of Capital (1867) by fifty years: 'That in proportion as the Reduction of Wages
+makes the great Body of People poor and wretched, in the same proportion must the consumption of our
+manufacturers be lessened.
+That ifliberal wages were given to the Mechanics in general throughout the Country, the Home Consumption of our Manufacturers would be immediately more than doubled and consequently every hand would soon
+find full employment.
+That to Reduce the Wage of the Mechanic of the Country 50 Iow that he cannot Iive by his labour, in order to
+undersell Foreign ManufactUrers in a Foreign Market, is to gain one customer abroad and lose two at home
+... ' (quoted in Thompson, 1963, p. 206).
+I
+
+Unemployment and the real wage
+
+377
+
+profit.' These assumptions permit us to capture the underconsumptionist
+argument in a
+simple manner; any redistribution of income from profit to wage through higher real wage
+increases consumption and decreases saving according to the formula
+S = sR =s(R/ Y)( Y/ Y*) y*
+where, R = profit, Y = income (output) and, y* = full-capacity potential income (output).
+Since full-capacity output (Y*) can be treated as constant in each short period, we
+normalise saving as well as alI other relevant variables as proportions of full-capacity
+output. Hence, setting y* = 1, the normalised value of saving becomes
+
+S=shz, Y*= 1
+
+(1)
+
+where, H = RI Y = share of profit, 1> h > Oand z = YI y* = degree of capacity utilisation,
+l>z>O.2
+ln the closed economy alI purchases and sales of intermediate raw materials cancel out,
+and we can think of the representative firm as vertically integrated using directly and
+indirectlya constant amount of labour per unit of final output." However, this assumption of constant labour input per unit of output has two implications. First, it rules out all
+complexities of the labour process at the levei of the firm, e.g. considerations of 'efficiency
+wage' where labour productivity itself may be influenced by the level of real wage (see
+Bowles, 1985). lt also ignores the problem of 'permanent' administrative staff in the
+labour force in so far as such permanent staff constitutes a part of the firm's overhead
+cost. Thus, average labour productivity rises as more output is produced through higher
+capacity utilisation with the same levei of permanent staff (cf. Baran and Sweezy, 1966;
+Kalecki, 1971; Rowthorn, 1981). Instead, we assume that all workers are 'operatives', i.e.
+their number varies directly with the levei of output. This means that both marginal and
+average (variable) cost are constant at any given money wage rate, so long as labour is the
+only variable input (directly and indirectly) required in production. Assuming firms set a
+given profit margin on their constant marginal and average (variable) cost, the mark-up
+price equation is written as
+. p=(1 +m)bw
+
+(2)
+
+I Although this model is cast in the framework ofthe 'classical' savings function, it could be extended to the
+case of 'corporate capitalism', e.g. 's' can be interpreted as the constant fraction of corporate profit retained,
+and all distributed profit and wages would be assumed to be consumed by households. However, such
+'extensions' would be trivial unless the financial determinants of corporate investments, especially the
+influence of the stock exchange market 00 investment, are also introduced into the analysis. lo the present
+paper, we deliberately abstract from all such financial complications, including the rate of interest, because
+this is not our immediate purpose.
+2 The measure of capacity utilisation-actual
+output as a fraction of potential output-is a problematic
+concept. For those accustomed to thinking in terms of the production function and factor substitution leading
+to rising marginal cost, z is well defined so long as the elasticity of substitution is less than unity. Although the
+simplest assumption is to postulate constam labour productivity up to full-capacity output, this requires us to
+abandon either the notion of a competitive product rnarket or profit-maximising equilibrium (Kalecki, 1971).
+The time-intensity of use of the capital stock, measured by the fraction of hours per period over which the
+equipment is in use, could provide a practical index of capacity utilisation, as proposed by Marris (1964) and
+used by Lucas (1970).
+3 See Pasinetti
+(1981, eh. 6) on the link between inter-industry and vertically integrated analysis.
+The reader may be reminded here that the method works only so long as raw materiaIs are also produced
+(processed) within the inter-industrial structure, but are not primary commodities or exhaustible natural
+resources with 'demand-determined' prices (Kalecki, 1971).
+
+378
+
+A. Bhaduri and S. Marglin
+
+where, p = price level, w = money wage rate, b = labour (directly and indirectly) needed per
+unit offinal output, i.e. l/b is labour productivity and m is profit margin as percentage
+mark-up on unit labour (prime) cost.
+Equation (2) implies, on the one hand a positive functional relation between profit
+margin and profit share;' i.e.
+h=m/(l
+
++m), dh/dm> O
+
+On the other, it exhibits the distributional
+wage at given labour productivity, i.e.
+
+(3)
+
+conflict between profit margin/share and real
+
+(1 +m)(w/p)=(l-h)-l(w/p)={l/b)
+
+(4)
+
+Any increase in real wage rate, depressing profit margin and profit share (equation 4),
+must decrease savings (equation 1) and increase consumption to validate the underconsumptionist thesis in our model. NevertheIess, aggregate demand (C + I) may still rise
+or falI depending on what impact that lower profit margin/share has on investment. Since
+it is plausible to argue that, other things being equal, a lower profit margin/share would
+weaken the incentive to invest, the contradictory effects of any exogenous variation in the
+real wage on the leveI of aggregate demand become apparent. A higher real wage increases
+consumption but reduces investment, in so far as investment depends on the profit
+margino More formally, assuming the level of investrnent (as a proportion of full-capacity
+output due to normalisation, y* = 1) to be an increasing function of profit margin/share
+(see equation 3), i.e.
+l=l(h),
+
+Y*=1
+
+(5)
+
+the equality between saving and investment from (1) and (5) implies,
+shz= l(h)
+and the local slope ofthe IS-curve is given as
+(6)
+Sincethe denominator on the righthand side of(6) is positive, the slope ofthe IS-curve
+is negative or positive depending on whether sz is greater or less than I" i.e. whether
+I With permanent staffincorporated
+in the analysis and assuming a uniform wage rate for all workers, profit
+share can be derived (cf. Rowthom, 1981) as h = (mz - f)f z(1 + m), instead of (3) in the text where,j = the ratio
+of (a constant number of) permanent staff to operative workers at full capacity output. Hence, unlike in the
+simpler case of the text (equation 3), profit share increases with capacity utilisation, i.e. (oh/oz) > O, but in
+conformity with equation (3), the profit share increases with the profit margin, i.e. (ohfiJm) > O, other things
+remaining the same.
+
+Unemployment and the real wage
+
+379
+
+savings responds more or less strongly than investment with respect to changes in the
+profit share (and margin).
+Equation (6), describing the (local) properties of the IS-curve, explains why the underconsumptionist thesis may or may not be validated in a closed economy. When investment
+responds relatively weakly to changes in the profit margin/share (i.e. lh < sz), the decrease
+in consumption demand due to a lower real wage and higher profit share (see equation 4) is
+not compensated entirely by the increase in investment demando Consequently, aggregate
+demand (C + I) decreases as the real wage rate decreases (i.e. the profit share increases),
+resulting in an inverse reIation between the profit share (h) and the degree of capacity
+utilisation (z). The under-consurnptionist
+view that a lower real wage decreases the
+levei of economic activity by reducing aggregate demand is valid in this case of mass
+consumption-based,
+wage-Ied expansion. However, exactly the opposite argument holds
+when investment responds relatively strongly to variations in the profit share (i.e. lh > sz).
+The fali in consumption due to a lower real wage (and hígher profit share) is overcompensated by the increase in investment in this case of ínvestment-based,
+profit-led expansion
+to invalidate the underconsumptionist
+thesis. The 'two ways to expand output' suggested
+by Keynes become analytically línked in our model through exogenous variation in the
+real wage and distributíon
+of income between the classes.
+Two observations are in order regardíng the foregoing analysís. First, the conventional
+result of an inverse relation between the level of output (i.e. capacity utílisation, z) and the
+real wage rate, prepounded by Keynes in The General Theory (pp. 5, 17-18,42,289,301)
+and also by neo-classical economists, is obtained only in the particular case of profit-led
+expansion. However, our result is obtained through a different route which does not
+depend on the assumption of profit maximisation, but recognises the centrality of effectíve
+demando Output expands at a lower real wage in this profit-led case simply because
+aggregate demand is higher owing to the strong response of investment to the higher profit
+margin/share brought about by a lower real wage rate. Thís is also the reason why we can
+obtain precisely the opposite result which contradicts the neo-classical Keynesian case.
+This is the case of wage-Ied expansion where a lower real wage leads to a contraction in the
+level of output owíng to the relatively weak response of investment to a higher profit
+margin/share .1
+Second, the investment demand function in equatíon (5) may be consídered (rightly) to
+be implausible in so far as the rate of profit, and not the profit margin, is normally assumed
+to be a crucial determinant of investment. Given the accountants' book vai ue of capítal in
+the short períod, the average rate ofprofit (r) depends definitionally, on both the profit
+margin/share and the degree of capacíty utilisation, i.e.
+r=R/K=(R/Y)(Y/Y*)(Y*/K)=hza
+
+(7)
+
+where, K = accountants' book value of capital, assumed given in the short period, and,
+(Y*/K)=a=output
+capital ratio at full capacity, assumed gíven in the short period.
+Equatíon (7) shows how both profit share/margin and the degree of capacity utilisation
+(i.e. the 'acceleration'
+effect) enter jointly as arguments in the investment function
+through their influence on the rate of profit. However, although it has been a common
+1 While in the profit-led case, the real wage rate would behave contra-cyclically, in the wage-led case, the
+real wage would move pro-cyclically. This issue has been debated empirically for the last fifty years, since
+the publication of The General Theory. Schor (1985) provides an excellent survey with an analysis ofrecent
+(1955-1980) evidence.
+
+380
+
+A. Bhaduri and S. Marglin
+
+practice to make the rate of investment depend simply on the rate of profit (e.g. Robinson,
+1962; Marglin, 1984), this is theoretically unsatisfactory, because it does not go behind the
+rate of profit to its individual constituents. For instance, it is simply assumed that a given
+rate of profit will produce the sarne leveI of investment as results from high capacity
+utilisation and a low profit margin or from low capacity utilisation and a high profit
+margino An investment function which depends simply on the rate of profit is insensitive
+to the inftuence of the existing degree of capacity utilisation, e.g. it neglects the possibility
+that, despite a high profit margin, investors may not be inclined to invest in additional
+capacity if massive excess capaciry already exists.'
+Observe that this influence of existing capacity on investment cannot be captured
+satisfactorily by simply introducing a term for capacity utilisation (z) along with the rate
+of profit (r) as the arguments in the investment function (see Rowthorn, 1981; Dutt,
+1984; Taylor, 1985). The problem with this procedure is that it imposes unwarranted
+restrictions on the relative response ofinvestment to the two constituents of the profit rate,
+h and z, with the result that the possibility of profit-Ied expansion is ruled out (why this
+is so is discussed in Appendix A). These problems are avoidable by treating profit share/
+margin and capa city utilisation as independent and separate arguments in an investment
+function, i.e. in place of our earlier equation (5) we have
+l=l(h,z);
+
+Y*= 1;
+
+(8)
+
+The investment behaviour in (8) may be imagined to be based on static expectations
+where, current average profitability (m and h) and average degree of capacity utilisation (z)
+are used by investors as predictors of marginal profitability on new investment and the
+future state of demand respectively.
+Although no investment function can be defended beyond a point, the investment
+function in (8) has the analytical advantage of clearly separating the 'demand side' impact
+on investment operating through the acceIeration effect ofhigher capa city utilisation from
+the 'supply side' impact operating through the cost-reducing effect of a lower real wage
+and higher profit margin/share, Since these two variables, z and h, also enter in determining the rate of saving in (1), we can capture the dual effects of real wage variation
+through a reconstruction of IS-curve. Equating saving in (1) with investment in (8), the
+IS-curve is generated in the (z, h) space as
+shz=l(h,z)
+
+(9)
+
+which has the (local) slope,
+(lO)
+Again, the slope ofthe IS-curve in (10) can be negative or positive, depending on the
+relative response of investment and saving to profit share in the numerator and to capacity
+utilisation in the denominator.
+
+I
+
+This may infíuence the shape of the IS-curve, as discussed further in Appendix B.
+
+Unemployment and the real wage
+
+381
+
+.§
+
+g
+
+Za
+
+::>
+
+.~
+o
+o
+a.
+o
+o
+
+o
+
+Prof it share (h)
+
+Fig. 1. The stagnationist regime [with (I IS) or unthout (I,S,) cooperation betwcm la60ur and capital, depenJj~
+m uihether elasticity in absolute ualue at the initial point P (h., zo) isgreate« (iII I/S/) Dr leu (in I,S,) than amity I.
+
+The standard textbook assumption, that at the margin saving is more responsive than
+investment to changes in capacity utilisation for making the Keynesian income adjustment process stable, imposes a sign restriction on the denominator in equation (10)
+namely,
+(11)
+Since the expression in the numerator for the slope of the IS-curve remains unchanged
+in (6) and (10), our previous economic interpretation holds (in view of inequality 11).
+With relatively weak response of investment to profitability (i.e. 110< sz), consumption
+necessarily assumes the dominant role in effective demando ln this case of wage-led
+expansion, a lower profit share or equivalently, a higher real wage rate leads to higher
+aggregate demand as well as capacity utilization. This is shown in Fig. 1 as the stagnationist
+
+regime.
+An antithesis to this stagnationist regime emerges when the capitalist class is energetic
+and private investment responds vigorously to a higher profit margin/share. This means
+:bat the coefficient 110is sufficiently large to ensure lh>sz which, in coniunction with (11),
+.nakes the IS-curve positively sloped.' ln this case, profit and investment play the
+Recall that inequality (11) makes the slope of Hicks's traditional IS-curve unambiguously negative
+a higher interest rate decreases both consumption and investment, so that
+iggregate demand is always lower at a higher interest rate. The variable comparable to the interest rate in our
+oresent construction is the real wage rate which is inversely related to the profit marginfshare through (4). The
+unbiguity of the slope of our IS-curve stems from the contradictory effects of the real wage on consumption
+md on investment. The former increases (see 1) but the latter decreases (see 8) at a higher real wage rate.
+These contradictory effects also underlie part of the difficulty in justifying analytically stability condition (11),
+fboth z and h adjust in a general dynamic model, as emphasised at the end ofthe paper.
+I
+
+oecause in his construction
+
+382
+
+A. Bhaduri and S. Marglin
+
+-;:;;
+
+-
+
+I
+
+c:
+
+.9
+
+/
+
+__....-14
+
+C
+
+~
+
+Zo
+
+::>
+.~
+
+u
+
+c
+Q_
+c
+
+u
+
+Õ
+Q)
+Q)
+
+o,
+Q)
+
+O
+
+Prof iI shore ( h )
+
+Fig. 2. The exhilaranonist regime [unth (IJSJ)or unthout (I.S.) cooperation beuoeen labour and capital, depending
+on uihether elasticity at the inicial point P(ho'zo) isgreater (in I,SJ) or less(in I.S.) than the relatiue share of profit to
+wage, h.(l- ho) at P 7.
+
+dominant role in expanding aggregate demand in so far as any reduction in consumption
+due to a lower real wage is more than compensated for by the enthusiastic response of
+private investment to that lower real wage. Counterposed against the stagnationist regime
+ofFig. 1, this is shown as the exhilarationist regime in Fig. 2.
+The distinction between the stagnationist and the exhilarationist regimes brings into
+sharp focus the possibility that economic expansion may benefit the two classes very
+differently. Everywhere along the negatively sloped IS-curve of the stagnationist regime,
+a higher real wage rate produces higher capacity utilisation and higher employment. This
+means an unambiguous gain to the working class in terms of both a higher real wage rate
+and a higher real wage bill. Nevertheless, a fundamental tenet of the social democratic
+ideology, articulated with considerable intellectual force by the 'left Keynesians', has been
+to stress that such ali round gain to the workers need not imply unarnbiguous loss to the
+capitalists. Capitalism is not necessarily a zero-sum game. Despite a higher real wage rate
+and a lower profit margin/share, capitalists may continue to make a higher total profit in
+the stagnationist regime so long as they more than recoup on the volume of sales what they
+lose on profit margin per unit of sale. Given the accountants'
+book value of capital in
+the short period, a higher total profit would also mean a higher profit rate despite the
+lower profit margin/share. Therefore, the criticai analytical condition for the successful
+working of this model of cooperatioe capitalism is that the normalised value of total profit,
+(R/Y*)=(R/Y)(YjY)=hz,
+must decrease as the real wage rate decreases and the profit
+share correspondingly
+increases, i.e.
+d(hz) /dh<O
+
+or,
+
+-(hjz)(dzjdh)>
+
+ln other words, a cooperative relationship can be established
+labour in the stagnationist regime if the negatively sloped IS-curve
+
+1
+
+(12)
+between capital and
+is elastic, as shown by
+
+Unemployment and the real wage
+
+383
+
+II SI in Fig. 1. Note that, by virtue of (1O)and (11), this elasticity condition (12) is ensured
+if
+(13)
+which implies that the investors must respond more strongly (measured by respective
+elasticities) to a variation in capacity utilisation than in profit margin/share.
+Economic cooperation between the classes envisaged in the social democratic ideology
+becomes problematic even in the stagnationist regime as condition (12) or equivalently
+(13) faits. A decline in the profit share brings about a small increase in capa ciry utilisation
+along an inelastic IS-curve, shown by l2S2 in Fig. 1, which is insufficient to compensate
+for the decline in profit margin per unit of sale. Consequently, both the total and the rate of
+profit decline as the real wage rate increases. The resulting model of profit squeeze (Glyn
+and Sutcliff, 1972; Goodwin, 1967) indicates the limit to cooperation in the stagnationist
+regime, despite the stimulating effect of a higher real wage on economic activity.
+A profit squeeze due to a higher real wage rate is essentially a reinterpretation of
+the underconsumptionist
+argument from a radical point of view. Empirically, it is an
+appealing argument in the light of the experience of some OECD countries during the
+1970s (Armstrong, Glyn and Harrison, 1984; Glyn, Hughes, Lipietz and Singh, 1988).
+lts analytical attraction lies in reconciling apparently incompatible theories. The left
+Keynesian social democratic position takes its clue from the underconsumptionist
+argument that a high real wage is good for both labour and capital because it keeps effective
+demand buoyant. This can be reconciled with the radical Marxist view that class interests
+are necessarily conflictual, when a higher real wage fails to stimulate aggregate demand
+and capacity utilisation sufficiently to accommodate the interests of both the classes
+(i.e. condition 12 and equivalently, condition 13 are violated). The resulting squeeze on
+profits manifests conflictual class interests despite accepting the Keynesian logic of
+demand-determined output (Marglin and Bhaduri, 1990).
+The limit to coopera tive capitalism based on a high wage policy in the stagnationist
+regime may manifest itself in two rather different ways. ln the short run, the squeeze on
+total profits could result in a lack of cohesion of economic interests within the capitalist
+class itself, especially if the loss in profit is very unevenly distributed, e.g. some sections of
+capitalists lose disproportionately while others may even eam higher profits. The politicaI
+difficulty of pursuing a high wage policy may then lie not so much in attaining cooperation
+between capital and labour, as between the capitalists themselves.
+ln the longer run, maintaining economic expansion and higher capacity utilisation
+through higher consumption and a lower profit margin/share in the stagnationist regime
+could breed trouble for social democratic cooperative economic policies. There is the
+danger that wage-Ied growth willlead to an inadequate rate of expansion in productive
+capacity over time. A 'crisis of underaccumulation'
+may occur if productive capacity
+persistently fails to keep pace with growth in the labour force. This would show up in
+structural unemployment which arises from a disproportionately large labour force in
+relation to existing capacity, rather than Keynesian deficiency of aggregate demand.'
+From this longer term perspective, even the social democratic strategy of wage-Ied
+expansion would require some restraint on the rate of growth of the real wage rate (in
+relation to labour productivity growth) so as to generate the required growth in productive
+I Malinvaud (1982) provides an alternative analysis of how a high real wage could lead to such structural
+unemployment, through a slower pace of accumulation as well as through factor substitution against labour,
+resulting in what we describe as the crisis of underaccumulation (plus over-rnechanisation induced by a high
+real wage).
+
+384
+
+A. Bhaduri and S. Marglin
+
+capacity over time. lt may indeed be argued that the 'social democratic consensus' rested
+historically on the double-edged assumption that, while the real wage should grow fast
+enough to keep up with the growth in productive capacity, it should not grow so fast as
+to endanger the required growth in productive capacity (Rowthorn, 1981). However,
+systematic analysis of these longer-term implications of wage-Ied economic expansion
+lies outside the scope of the present paper. Our focus here is entirely on the short
+period.
+The stagnationist regime has its mirror image in the exhilarationist regime. Along
+the positively sloped IS-curve of the exhilarationist regime (Fig. 2) capitalists gain
+unarnbiguously in terms ofboth a higher profit margin/share as well as a higher total profit
+at higher capacity utilisation. Contrary to the underconsumptionist
+argument and in
+conformity with 'supply-side' logic, a higher leveI of capacity utilisation and employment
+becomes possible only at a lower real wage rate. But despite a lower real wage rate, the
+working class as a whole would gain a higher real wage bill through higher capacity
+utilisation and employment if
+d(W/Y*) j dh=d(l-h)z
+
+j dh>O,
+
+Y*=1
+
+that is, ifthe (positive) elasticity ofthe IS-curve in the exhilarationist
+relative share of profit to wage,
+(hlz)(dzjdh)> hj(l-h)
+
+regime exceeds the
+
+(14)
+
+Under condition (14), a given decrease (increase) in the real wage rate (profit share)
+stimulates the leveI of demand and capacity utilisation sufficiently to increase aggregate
+employment and the wage bill. as shown by l3S3 in Fig. 2. This provides favourable
+ground for cooperation between the two classes in the exhilarationist regime. Nevertheless, since the increase in aggregate employment and the wage bill is achieved through
+lowering the real wage rate ofthe already employed (typically unionised 'inside' workers)
+this may also generate tensions within the working class, between the already employed
+'insiders' and the newly employed 'outsiders'. However, even without condition (14)
+being satisfied, a reduction in the real wage rate of the 'insiders' would increase employment opportunities for the 'outsiders', albeit to a somewhat lesser extent along a relatively
+flat positively sloped l4S4 curve in Fig. 2. The exhilarationist regime is therefore not
+merelya situation of conflict between the capitalists and the 'inside' trade union members
+over distributive shares; it may be beset with intra-working class tension, which could
+help the capitalists to 'divide and rule'.
+ln the longer run, a sustained high rate of expansion of productive capacity through a
+high rate (and share) of investment required for maintaining adequate effective demand in
+the exhilarationist regime may create the opposite type of disproportionality. A 'erisis of
+overaccumulation' may develop gradually, as the productive capacity of the economy
+becomes disproportionately large in relation to the existing labour force. Structural excess
+capacity which does not originate in the Keynesian problem of deficient effective demand
+could become inereasingly pervasive to heighten intra-capitalist rivalry. However, like
+the erisis of underaccumulation in the stagnationist regime, this overaccumulation crisis
+of the exhilarationist regime is a long-run problem, lying beyond the focus of this
+paper.
+
+Unemployment and the real wage
+
+385
+
+3. The open economy
+The preceding analysis assumes greater relevance in the context of an open economy for
+two quite different reasons. First, we assumed in the context of a closed economy that a
+lower real wage rate would depress consumption but stimulate investment by raising the
+profit margin/share within the short period. However, this is problematic in so far as
+investment, particularly in long-lived fixed capital equipment, is likely to respond more
+cautiously to a change in profit margin/share compared to consumption. Thus, the
+depressing effect of a lower real wage rate on consumption may be felt within the short
+period without its stimulating effect on investment materialising within the sarne period,
+owing to the widely different 'speeds of adjustment' of the two relevant variables. To
+the extent that exports and imports have faster speeds of adjustment (to price changes)
+compared to investment, the static short-term IS-curve analysis presented in this paper
+may be less misleading in the context of an open economy. 1
+Second, the assumption of exogenous variation in profit share, h, through exchange rate
+variation is easier to justify in an open economy (cf. Kalecki, 1939, eh. 3). Depreciation of
+the home currency would reduce the profit margin by increasing the cost of imported raw
+materiais, while increasing the price of imported consumption goods would increase the
+cost-of-living index ofdomestic workers. As a result, there would be upward pressure
+on both prices and money wages. However, depending on the extent to which an open
+economy is subject to international price discipline, the proportional link between the
+money wage rate and the price leveI may become weakened (cf. Glyn and Sutcliff, 1972).
+For maintaining price competitiveness in the world market, a price-taker, 'small' open
+economy may not raise its export (and domestic) price levei in proportion to the increase
+in domes ti c money wage rate with the result that the domestic profit margin/share is
+squeezed owing to a rising money wage as well as the higher cost of imported raw
+materiais. ln this way, an exogenous squeeze ofthe profit margin/share through devaluation becomes more easily justifiable in an open economy which is subject to international
+price discipline. However, this may be countered by raising the price leveI in home
+currency without 'spoiling' the foreign market significantly, as devaluation also makes
+home goods cheaper. More formally, international price competitiveness may be denoted
+by B,
+(15)
+
+and
+(de/e)
+
+= (dv/v)-
+
+(dp/p)
+
+(16)
+
+where, v = the rate of exchange of domestic currency per unit of foreign currency,
+PJ= price level of finished goods in foreign currency of the trade rivais which is assumed
+
+constant, and p = domestic as well as export price levei of finished goods.
+Thus, so long as devaluation in proportional terms, de/e, exceeds the domestic rate of
+price increase, dp/p (given PJ)' the international price competitiveness of the domestic
+economy would be enhanced. However, whether this enhanced price competitiveness
+I The familiar J-curve
+phenomenon in the balance of trade associated with the depreciation of currency
+arises precisely when exports andfor irnports have relatively slow speeds of adjustment and low price
+elasticities in the short period. But, even in this case, they are likely to have faster speeds of adjustment
+compared to investment in fixed capital.
+
+386
+
+A. Bhaduri and S. Marglin
+
+can improve the home country's trade balance will depend on the responsiveness of the
+volume of export and import to prices, measured by the usual 'trade elasticities'.
+If some raw materiaIs are imported, the price equation (2) for an open economy
+becomes
+(17)
+where, k = imported raw material per unit of output, assumed constant in the short period,
+and
+= imported price of raw material in foreign currency, also assumed constant.
+Profit share, net of imported material cost is given as
+
+p;
+
+which implies from (17), h = ml(1 + m) as in equation (3). This ensures that profit margin
+(m) and net profit share (h) move in the sarne direction. Total differentiation of equation
+(17) yields on simplification the variation in total profit share as
+dh=(1-h)[(dPlp)-Ã.(dwlw)-(I-Ã.)(dv/v)]
+
+(18)
+
+where, Ã.=(bw)/(bw+kp;v),
+i.e., the share of wage cost in unit prime cost. Thus, the
+impact of devaluation on international price competitiveness and profit share are captured
+by equations (16) and (18) respectively.
+Export and import expenditure in domes ti c currency, again normalised as proportions
+of full capacity income (y* = 1), are given as
+(19)
+
+where, 1>1=constant average international price levei of imported raw materiais (P;) and
+finished goods (PI).l
+The volume of export
+has (total) elasticity with respect to international price
+e)
+competitiveness, defined as
+
+eX
+
+(20)
+
+The volume of import (Xm), consisting of both raw materiais and finished goods,
+depends both on international price competitiveness and on the activity levei (z) of the
+domestic economy, i.e.
+(21)
+
+with the corresponding
+
+(partial) elasticities of the volume of import given as
+(22)
+
+1 The import price index (]i,) is a weighted average of imported raw material price (Pj) and price of finished
+product (P,), which changes owing to changes in the composition of raw material to finished product importo
+This 'composition effect' is ignored here by assuming the import composition to be roughly constant in the
+short period.
+
+Unemployment and the real wage
+
+387
+
+Assuming for algebraic simplicity an initial trade balance CEo = Mo), manipulation of
+equations (19) to (22) yield the familiar formula combining the 'price effect' with the
+'income effect' of devaluation on marginal trade balance, i.e.
+(dE-dM)=zg(n,+nm-l)(d9/9)-ugdz
+
+(23)
+
+where g = initial share of import and export in income.
+The balance between income and expenditure in an open economy is restated from (1),
+(8) and (19) as
+shz+M=I(h,z)+E
+
+(24)
+
+TotalIy differentiating (24) and substituting (23), the effect of devaluation on capacity
+utilisation is obtained as
+(25)
+where the positiviry of D = (gu + sh -I z) is sufficiently guaranteed by (11).
+The first square-bracketed term on the right hand side of (25) shows how devaluation
+affects capacity utilisation through changes in profit share h and thus corresponds directly
+to the case of the closed economy (see 10). The second square-bracketed term is the
+familiar effect of devaIuation on the trade balance through changes in intemational price
+competitiveness. If intemational price competitiveness increases as a result of the rate of
+devaluation exceeding domestic inflation rate in percentage terms (equation 16), the overalI 'trade effect' would be positive so long as the combined trade elasticities exceed unity,
+n. + nm > 1, to satisfy the Marshall-Lerner condition.
+However, the 'income distribution effect' of devaluation operating through changes in
+profit share captured by the first square-bracketed term of (25) remains arnbiguous.
+Devaluation may or may not increase the profit share, h, depending on the relative increase
+of domestic price and money wage, as shown by (18). Nevertheless, if devaluation results
+in improved intemational price competitiveness (d9 > O), as welI as a higher profit share
+(dh > O), then (16) and (18) together would imply (dv/v)> (dp/p)> (dw/w), i.e. a lower real
+wage rate as a result of devaluation.' ln this case, a direct analogy with the c/osed
+economy is easy to draw.
+Devaluation resulting in a lower real wage and higher profit margin would raise the
+degree of capacity utilisation by stimulating effective demand at home in the exhilarationist regime. This would make the first square-bracketed term on the right-hand side
+of (25) positive. The second term capturing the trade effect is also positive so long as the
+Marshall-Lemer
+condition is satisfied. Therefore, a strategy of lowering the real wage
+through devaluation to increase international price competitiveness (9) and profit share (h)
+can stimulate capacity utilisation unambiguously if the economy is in the exhilarationist
+regime. Otherwise, in a stagnationist regime the effect of this strategy on domestic activity
+remains arnbiguous.
+Nevertheless, the greater the trade 'openness' of the economy, indicated by a higher
+initial share of trade in income (g) as well as larger (absolute) values of the trade elasticities
+ne and nm, the more important the trade effect becomes. And if the positive trade effect
+
+Co
+mp
+
+I
+
+From (18), (d9f9»0
+implies (dvfv»(dpfp).
+Since, by definition, 1>Â>O,
+
+[(dvfv)-(dwfw)].
+
+From (16) and (18), dh>O implies Â> [(dvfv)-(dpfp)]
+it is easy to see, (dpfp)> (dwfw).
+
+f
+
+388
+
+A. Bhaduri and S. Marglin
+
+dominates quantitatively the negative term in the first square bracket of (25) in a
+stagnationist regime, the open economy assumes an exhilarationist character.
+ln other words, a dominant trade effect tends to make the stagnationist logic increasingly irrelevant in a world characterised by high trade interdependence. The left social
+democratic emphasis on wage-led expansion derived from the stagnationist logic may be
+given up in the pursuit of export surplus by following restrictive macroeconomic policies
+to keep down real wages (and inflation) for greater intemational price competitiveness.
+Further, so long as successful export performance maintains a high enough levei of
+employment to overcompensate a reIatively low real wage rate, cooperation between
+labour and capital may continue to be feasible (condition 14). The only problem with this
+strategy is that it is impossible for all countries to achieve a trade surplus simultaneously.
+And yet, the lure of this impossibility has contributed substantially to the disintegration of
+the traditional social democratic ideology without any coherent alternative taking its
+place.
+
+4. Summary
+
+and concluding observations
+
+This paper has been motivated by our attempt to demonstrate that the Keynesian theory,
+which emphasises the centrality of effective demand rather than 'supply-side' problems,
+has a far wider theoretical as well as politicaI range than is usually recognised. Particular
+models such as that of 'cooperative capitalism' enunciated by the left Keynesian social
+democrats, the Marxian model of 'profit squeeze' or even the conservative model relying
+on 'supply-side' stimulus through high profitability and a low real wage, fit into the more
+general Keynesian theoretical scheme. They become particular oariants of the theoretical
+framework presented here.
+The framework is developed by counterposing the underconsumptionist
+idea that a
+high real wage is beneficial as it generates high effective demand against the orthodox view
+that high labour cost discourages production. ln order to assign central importance to
+effective demand in determining the leveI of economic activity (z), we reconstructed the
+farniliar IS-curve, showing different commodity market-clearing levels of economic
+activity at a different real wage rate (which is inversely related to profit margin and share h,
+see equation 4). This resulted in the emergence of two economic regimes, depending on
+the sign of the (local) slope of the IS-curve (equation 10). When the IS-schedule is
+downward-sloping
+in the (zh) space, the underconsumptionist
+idea emphasising the
+beneficial 'demand effect' of a higher real wage is validated in what was described as
+the stagnationist regime of mass-consumption-based,
+wage-Ied expansion (Fig. 1).
+Obversely, if the IS-schedule is upward-sloping in that sarne space, an investment-based,
+profit-led exhilarationist regime obtains (Fig. 2). The latter regime conrradicts the
+underconsumptionist
+view to lend support to the orthodox position that the 'cost effect'
+of a high real wage rate depresses economic activity.
+ln contrast to the sign of the slope of the IS-curve which is criticaI for characterising the
+two regimes, its elasticity in absolute value is an indicator of the limits to cooperation
+between capital and labour. This can be summarised by imagining an IS-curve (linear for
+simplicity) which rotates gradually from the vertical position 10So to the horizontal
+position I' S' in Fig. 3. The anti-clockwise and clockwise rotation of Ir/' in the neighbourhood of the initial configuration (ho' zo) represented by point P spans the stagnationist and
+the exhilarationist regime respectively. So long as the elasticity of the IS-curve in absolute
+value exceeds unity in its anti-clockwise rotation from the vertical position 10P, a higher
+
+Unemployment and the real wage
+
+389
+
+lo
+
+-;;;
+
+c
+
+I
+
+A
+
+.2
+Õ
+
+~
+
+:;
+
+J!'
+
+'ü
+
+I: Stognotionist
+
+o
+a.
+o
+
+-.,e
+
+J:
+
+<>
+
+s'
+
+conflict
+
+II
+
+o
+
+~I.'!
+oSI;('.
+
+.,'"
+
+IIy
+011:>
+
+o
+
+~""I
+
+ho
+Profit
+
+shore (h)
+
+Fig. 3. Zones of cooperation and conflict in the two regimes [zone I"PA = S"p A' = stagnatiomst cooperatum
+(condition 12 satisfied); zone APl' = A' PS' = stagnationist amfiict (condition 12 fails); zone I"pE' = S"pB =
+exhilaratiomst cooperation (condition 14 satisfied); zone E'PS'= BPI' = exbilaratiomst confiict (condition 14
+fails)J.
+
+total as well as a higher rate of profit despite a higher real wage rate makes cooperative
+capitalism feasible in the stagnationist regime (conditions 12 and 13). Similarly, clockwise
+rotation of lJ> from its vertical position, until the critical value of its elasticity h/(l- h) is
+reached, spans a zone of feasible cooperation in the exhilarationist regime as employment
+and the total wage bill expand in spite of a lower real wage rate (condition 14). Cooperation
+gives way to conflict when these elasticity conditions (12) and (14) are violated in the
+stagnationist and in the exhilarationist regime respectively. 1t also needs emphasis that in
+either regime the feasibilicy of cooperation between the two contending classes does not
+rule out the possibility of intra-class con1lict over the distribution of the total profit arnong
+the capitalists or ofthe total wage between the already employed 'insiders' and the newly
+employed 'outsiders'.
+By showing that inter-class cooperation (or con1lict) is possible in either regime, our
+analysis dispels a common misconception that the coopera tive view of capitalism derives
+exclusively from the stagnationist logic of underconsumption.
+This observation becomes
+especially relevant in an open economy which is high1y dependent on foreign trade and is
+sensitive to intemational price competition. Any positive 'demand effect' of a higher
+domes ti c real wage envisaged in the stagnationist logic tends to be outweighed by its
+
+390
+
+A. Bhaduri and S. Marglin
+
+negative 'cost effect' on international price competitiveness owing to greater reliance on
+the foreign market. Therefore, in its search for export surplus, an open economy could be
+driven increasingly towards the conservative, exhilarationist logic emphasising the desirability of low labour costs. However, cooperation between the classes is still possible if a
+large enough export surplus is achieved to keep employment and the wage bill high despite
+the relatively low domestic real wage rate. Nevertheless, the impossibility of alI countries
+achieving export surplus simultaneously makes this strategy inherently flawed.
+For maintaining a direct analogy with the traditional (Hicksian) IS-curve analysis as
+well as for expositional simplicity, our discussion was focused mainly on the short period,
+with only casual excursions into the longer-run problems of 'disproportionality'
+arising
+from under- or over-accumulation.
+Lack of space also forced us to ignore all dynamic
+consíderations.'
+Nevertheless,
+two central problems
+concerning
+dynarnic analysis
+deserves comment for appreciating the limitation of our present static framework. First, a
+word of caution: the familiar 'stability condition' of inequality (11) turns out to be less
+compelling in a more general dynamic frarnework in which both capacity utilisation
+(quantity) and profit share/real wage (price) are endogenously
+adjustable variables.ê
+The familiar one-variable 'stability condition' (11) turns out to be neither necessary nor
+sufficient in the more general dynamic analysis, involving simultaneously adjustments in
+quantity and price variables. Note also that the stability properties could be affected by the
+non-linearity ofthe IS-schedule (unlike in Figs. 1-3). Even assuming (11), the value of its
+slope is only locally defined from (10) by the response of investment to the profit marginf
+share, lho lt is plausible that lh is influenced by the existingdegree of capacity utilisation (z)
+to make the slope of the IS-curve different at different values of z (this is discussed in
+greater detail in Appendix B). This could introduce significant non-linearity
+into the
+IS-curve to make local stability analysis, based on linear approximation, an insufficient
+or even misleading guide to the actual stability properties of the system.
+The recognition that quantities (capacity utilisation) and prices (the real wage) may
+adjust simultaneously in a more general dynarnic model raises a deeper conceptual issue
+regarding the interpretation ofthe IS-curve itself. lt can be treated either as the locus of
+stationary capacity utilisation, i.e., z=O, as has been implicitly assumed in our (and
+Hicks') analysis, or as the locus of stationary price levei, i.e.,p = 0, as we believe, is implied
+in Keynes' General Theory (especially pp. 17-18,289,301). Ultimately it boils down to
+one of the most important unsettled questions of modem macroeconomics:
+does excess
+demand for commodities lead primarily to quantity or to price adjustment? We cannot
+pretend to have an answer; but dynamic analysis cannot be undertaken without addressing
+this important, and as yet unsettled, questiono
+
+Bibliography
+Armstrong, P., Glyn, A. andHarrison, J. 1984. Capitalism since World War II, London, Fontana
+Baran, P. and Sweezy, P. 1966. Monopoly Capital, New York, Monthly Review Press
+Bowles, S. 1985. The production process in a competitive economy: Walrasian, neo-Hobbesian and
+Marxian models, American Economic Review, vol. 75, March
+Dutt, A. K. 1984. Stagnation, income distribution and monopoly power, Cambridge Journal of
+Economics, vol. 8, no. 1
+1 Marglin and Bhaduri (1986)provides some preliminary dynamic analysis (in terms of local stability)
+of a rangeof modelsonly someof which have been discussed here. However, see Appendix B which indicates
+why local analysismay be misleading.
+2 For this reason,webeganby showingthe essentialeconomiclogicof the two regimesin the simpler caseof
+equation (6) which does not involvecondition (11).
+
+Unemployment and the real wage
+
+391
+
+Glyn, A. and Sutcliff, R. 1972. British Capitalism, Workers and the Profit Squeeze, Harmondsworth,
+Penguin
+Glyn, A., Hughes, A., Lipietz, A. and Singh, A. 1990. The rise and fali of the Golden Age, in
+Marglin, S. A. (ed.), The Golden Age of Capitalism: Reinterpreting the Post War Experience,
+Oxford, Clarendon Press
+Goodwin, R. M. 1967. Growth cyeles, in Feinstein, C. H. (ed.), Socialism, Capitalism and Economic
+Growth, Essays presented to Maurice Dobb, Cambridge, CUP
+Hicks, J. R. 1937. Mr Keynes and the Classics: a suggested interpretation,
+Econometrica, vol. 5,
+April
+Hicks, J. R. 1974. The Crisis in Keynesian Economics, Oxford, Basil Blackwell
+Kalecki, M. 1939. Essays in the Theory of Economic Fluctuations, London, George Allen & Unwin
+Kalecki, M. 1971. Selected Essays on the Dynamics ofthe Capitalist Economy, Cambridge, CUP
+Keynes, J. M. 1936. The General Theory of Employment, Interest and Money, London, Macmillan
+Lucas, R. E. 1970. Capacity, overtime and empirical production functions, American Economic
+Review, vol. 60, March
+Malinvaud, E. 1982. Wages and unemployment,
+Economic Journal, vol. 92, no. 1, March
+Marglin, S. A. 1984. Grounh, Distribution and Prices, Cambridge, Mass., Harvard University Press.
+Marglin, S. A. and Bhaduri, A. 1986. 'Distribution,
+Capacity Utilisation and Growth', WIDER/
+Harvard (rnimeo)
+Marglin, S. A. and Bhaduri, A. 1990. Profit squeeze and keynesian theory, in Marglin, S. A. (ed.),
+The Golden Age of Capitalism: Reinterpreting the Postwar Experience, Oxford, Clarendon Press
+Marris, R. 1964. The Economics of Capital Utilization, Cambridge, CUP
+Nicolis, G. and Prigogine, L 1977. Self Organization in Nonequilibrium Systems, New York, John
+Wiley
+Pasinetti, L. L. 1981. Structural Change and Economic Grounh, Cambridge, CUP
+Robinson, J. 1962. Essays in the Theory of Economic Grounh, London, Macmillan
+Rowthom, R. 1981. Demand, real wages and economic growth, Thames Papers in Politicai Economy,
+Autumn
+Schor, J. B. 1985. Changes in the cyelical panem of real wages: evidence from nine countries,
+1955-80, Economicjournal, vol. 95, no. 2, June
+Solow, R. M. 1987. Unemployment:
+getting the questions right, Economica, (supplement special
+issue on unemployment),
+vol. 53
+Taylor, L. 1985. A stagnationist model of econornic growth, Cambridge Journal of Economics, vol. 9,
+no. 4
+Thompson, E. P. 1963. The Making of the English Working Class, New York, Vintage Books
+
+AppendixA
+The definition of the average rate of profit r in (7) permits investment
+
+function (8) to be rewrinen
+
+as,
+
+1= I(z,h) =I(z,r/za)
+I ts total differentiation
+
+at a constant rate of profit r = r yields,
+(AI)
+
+Note that the left hand si de of (AI) is simply the partial deriva tive of investment with respect to
+capacity utilisation at a constant rate of profit. Therefore, when the investment function (8) of the
+text is replaced by an investment function with specifications,
+
+I =F(r,z), F,>O and F.>O
+
+(A2)
+
+it implies from (AI) and (A2),
+(A3)
+
+392
+
+A. Bhaduri and S. Marglin
+
+or,
+
+which is exactly inequality (13) in the text, characterising the cooperative zone in the stagnationist
+regime. Therefore, assuming investment function (A2) is tantamount to assuming a cooperative
+stagnationist regime.
+
+AppendixB
+ln defence ofthe investment function (8) in the text, it was pointed out that the rate of profit, r, is a
+problematic concept as an argument entering the investment function, because, by definition (7), the
+two constituents of r-h and z- can move in opposite directions to maintain the same profit rate.
+(This results in restrictions on the investment function, already examined in Appendix A.) Since the
+same rate of profit can be associated with either a low profit margin/share (h) coupled with a high
+degree of capacity utilisation (z) and vice versa, it neglects the important economic possibiliry that
+the response of investment to profit marginf share, captured by the magnitude of the coefficient Ih'
+may be influenced significantly by the existing degree of capacity utilisation. For instance, if existing
+capacities are heavily underutilised, it is probable that the lure of a higher profit margin would fail to
+induce much fresh investment in creating additional capacity, implying a low value of Ih' This could
+make
+
+sz> Ih at 'low' initial values of z
+
+(Bl)
+
+resulting in the stagnationist regime (see 6 or 10).
+Contriwise, at high rates of utilisation of existing capacities, investors may respond enthusiastically to a higher profit margin to make feasible the emergence of the exhilarationist regime, i.e.
+Ih > sz at 'high' initial values of z
+
+Degree of copocity
+
+utilisotion
+
+(z)
+
+......
+::J
+
+"O
+
+>
+o
+o
+
+:;:
+
+~
+
+hlftin
+Profit
+
+shore (h)
+
+Fig. Bl. Non-linear, IS-schedule with both stagnationist and exhilarationist regimes.
+
+(B2)
+
+Unemployment and the real wage
+
+393
+
+Condition (Bl) suggests that the stagnationist regime is more likely when the prevalent economic
+situation is recessionary with low capacity utilisation; whereas condition (B2) suggests the possibility of an exhilarationist regime being ushered in by an economic boom.
+The combination ofthese two conditions result in a non-linear IS-schedule which is downwardsloping (stagnationist) at relatively low values of z, but upward-sloping
+(exhilarationist) at
+relatively high values of z. This could be represented by the C-shaped IS-curve in Fig. Bl (various
+other shapes are plausible though; see Marglin and Bhaduri, 1986 and 1988). It may not be
+altogether premature to conjecture that non-linear IS-curves traversing both the regimes have
+complex and interesting possibilities of sudden regime change due to bifurcation and/or hysteresis
+(cf. Nicois and Prigogine, 1977, especially pp. 170-178).
+
+
