@@ -1,0 +1,405 @@
+
+\section{Instabilidade de Harrod: princípios e provocações}\label{SecHarrod}
+
+%=============== Inicio: Ligação Harrod ============
+
+As origens da teoria macrodinâmica devem, em grande parte, às contribuições de \textcite{harrod_essay_1939}. Tal modelo impôs importantes questões: Existe estabilidade do crescimento no longo pra\-zo? É possível equacionar o crescimento da demanda com o crescimento da capacidade produtiva? Se sim, qual variável acomoda essa adequação? A capacidade produtiva se ajusta à demanda ou o inverso? Os modelos de Cambridge, Oxford e do Supermultiplicador Sraffiano responderam essas provocações de formas distintas e serão analisados ao longo desta seção.
+
+%Antes de prosseguir para a Equação Fundamental de Harrod, é importante retomar dois conceitos: (i) Efeito multiplicador e (ii) Princípio Acelerador. O primeiro indica que a renda é um múltiplo dos gastos autônomos enquanto o segundo estabelece que a determinação do investimento decorre das alterações na demanda (efetiva). Argumenta-se que a junção destes dois conceitos permite tratar o Princípio da Demanda Efetiva de forma dinâmica. 
+
+Para evitar redundâncias, são apresentadas as hipóteses que permeiam as famílias de modelos aqui avaliadas. 
+A presente exposição prioriza a parcimônia e, portanto, trata-se de uma economia sem relações externas e sem governo em que tanto progresso tecnológico quanto retornos crescentes de escala estão ausentes. Além do PDE, o que torna os modelos em questão consistentes
+é o abandono da substitutibilidade entre capital e trabalho e, portanto, adota-se uma função de produção
+\textit{à la} Leontief em que existem dois produtos potenciais: plena capacidade ($Y_K$) e pleno emprego ($Y_L$) de modo que o produto potencial ($Y_{FC}$) é determinado por:
+
+\begin{equation}
+    Y_{FC} = \min (v\cdot Y_K, b\cdot Y_L)
+\end{equation}
+em que $v$  e $b$ são a relação técnica capital-produto e trabalho-produto respectivamente. Seguindo a literatura, em que o capital é o fator escasso,
+
+\begin{equation}
+\label{Oferta}
+    Y_{FC} = v\cdot Y_K
+\end{equation}
+
+Considerando as hipóteses anteriores, a determinação do produto pelos componentes da demanda é obtida pela soma do consumo e investimento. Supõe-se nesta seção que o consumo é totalmente induzido ($C = f(Y)$, $C = C(Y)$ para simplificar) enquanto o investimento das firmas possui uma parcela autônoma ($\overline I$) e outra induzida ($I(Y)$)\footnote{Como será visto com mais detalhes adiante, a principal diferença entre os modelos apresentados será evidenciada principalmente pelo grau de autonomia do investimento das firmas.}. Em outros termos,
+
+\begin{equation}
+\label{Demanda}
+    Y = C(Y) + [\overline I + I(Y)]
+\end{equation}
+
+A questão que permeia os modelos analisados são as condições para que exista um crescimento equilibrado da demanda (Eq. \ref{Demanda}) e da capacidade produtiva (Eq. \ref{Oferta}). Por ora, a preocupação não recairá sobre a forma funcional de cada uma dessas variáveis, mas sim sobre suas implicações dinâmicas. A equação acima pode ser rearranjada para apresentar o efeito multiplicador ($\alpha$) em que o nível do produto é um múltiplo dos gastos autônomos (adiante denotados por Z) que neste caso mais simplificado é idêntico a $\overline I$:
+
+\begin{equation}
+    Y = \alpha\cdot Z (\equiv \overline I)
+\end{equation}
+O princípio acelerador\footnote{Neste caso, trata-se do acelerador rígido, tal como utilizado por \textcite{harrod_essay_1939}.}, por sua vez, estabelece que a determinação da parcela induzida do investimento decorre das alterações na demanda (efetiva), ou seja, decorre do princípio de ajuste do estoque de capital:
+$$
+K = v\cdot Y
+$$
+\begin{equation}
+    I = v\Delta Y
+\end{equation}
+Argumenta-se que a junção destes dois conceitos permite tratar o Princípio da Demanda Efetiva de forma dinâmica e que esta é a essência do modelo de Harrod cuja Equação fundamental pode ser deduzida da identidade entre poupança ($S$) e investimento\footnote{Para o caso mais genérico em que, para uma dada propensão marginal a consumir ($c$), o consumo é induzido e considerando uma relação técnica desejada $v_w$, tem-se:
+$$
+Y = c\cdot Y + v_w\cdot \Delta Y
+$$
+rearranjando, obtém-se:
+$$
+\frac{\Delta Y}{Y} = g = \frac{1 - c}{v_w} = \frac{s}{v_w}
+$$
+que equivalhe à equação fundamental de Harrod deduzida adiante.
+}:
+
+$$
+s\cdot Y = S \equiv I
+$$
+Neste ponto, fica evidente que neste modelo a propensão marginal à poupar ($s$) é igual a propensão média à poupar ($S/Y$)\footnote{ As implicações desta igualdade será analisada mais detidamente ao tratar do supermultiplicador sraffiano.}. Em seguida, basta normalizar esta identidade pelo estoque de capital,
+$$
+\frac{I}{K} = s\frac{Y}{K}
+$$
+neste caso, em que a relação técnica capital-produto é constante, a capacidade produtiva ($Y_K$) pode ser utilizada como \textit{proxy} do estoque de capital ($K$), logo
+$$
+\frac{I}{K} = s\frac{Y}{v\cdot Y_K} \Rightarrow \frac{s}{v}u
+$$
+em que $u$ é o grau de utilização da capacidade e é igual a unidade no longo prazo se normalizado pelo grau de utilização desejado. Finalmente, supondo que o crescimento do estoque de capital seja uma \textit{proxy} para a taxa de crescimento da economia\footnote{A razão para este aparente preciosismo é que, na ausência de gastos autônomos que não criam capacidade, a taxa de crescimento do produto ($g$) nesse modelo é idêntica à taxa de crescimento do investimento ($g_I$).}, obtém-se a equação fundamental de Harrod:
+
+\begin{equation}
+    \label{Fundamental}
+    g_w = \frac{s}{v_w}
+\end{equation}
+em que $v_w$ é a relação técnica capital-produto desejada enquanto $g_w$ é a taxa de crescimento que garante que a demanda e capacidade produtiva cresçam dinamicamente equilibradas\footnote{\textcite[p,~22]{harrod_essay_1939} pondera que  optou por não chamar esta taxa de crescimento como taxa de equilíbrio uma vez que neste modelo tal equilíbrio é instável: ``\textit{A departure from equilibrium, instead of of being self—righting, will be self-aggravating. Gw represents a moving equilibrium,but a highly unstable one.}''.}. Além disso, pelo grau de utilização estar em seu nível desejado, esta taxa corresponde àquela que os empresários estariam satisfeitos e não haveriam razões para alterar seu comportamento e/ou planos de investimento. 
+
+Neste modelo, a taxa de crescimento efetiva se afasta da taxa desejada em função da reação do investimento à variações no nível de atividade. Seguindo o princípio acelerador nos moldes de \textcite{harrod_essay_1939}, a resposta a uma sobreutilização da capacidade ($u>1$) é o aumento da taxa de acumulação que, pelo efeito multiplicador gera  demanda, reforçando o mecanismo de descolamento, para então ampliar a capacidade produtiva\footnote{\textcite{harrod_essay_1939} também destaca um aparente paradoxo entre os movimentos opostos da taxa de crescimento corrente e efetiva em que, por exemplo, aumentos na taxa de investimento de longo prazo estimulam a expansão mas também reduzem a taxa de crescimento desejada, ampliando o diferencial de ambas.} \cite[p.~12]{serrano_trouble_2017}. Em outras palavras, quando $v\neq v_w$,  a taxa de crescimento efetiva é diferente da desejada assim como o grau de utilização se difere do normal. No entanto, esta instabilidade do modelo faz com que mesmo se essas taxas sejam iguais, nada garante que permaneçam iguais.
+
+
+% =============== Instabilidade fundamental Serrano et all ==========
+
+Tendo em vista que neste modelo o princípio do acelerador é o principal determinante da trajetória, \textcite[p.~26--28]{harrod_essay_1939} procura reduzir tais efeitos incluindo frações do investimento que não estão diretamente relacionados com a renda corrente. Grosso modo,  reconhece que uma parcela significante dos planos de investimento estão relacionadas com decisões de longo prazo e que sua Equação Fundamental dá muita ênfase aos fatores de curto-prazo. Tal constatação introduz a possibilidade de que exista um componente autônomo do investimento que não é afetado pelo mecanismo de ajuste do estoque de capital no longo prazo e, portanto, permite que a instabilidade harrodiana seja amenizada\footnote{No entanto, Harrod afirma que a estabilidade é possível em algumas fases do ciclo apenas.}:
+
+\begin{citacao}
+Now, it is probably the case that in any period not the whole of the new capital is destined to look after the increment of output of consumers' goods. There may be  long-range plans of capital development or a transformation  of the method of  producing  the pre-existent level of output. \cite[p.~17]{harrod_essay_1939}
+\end{citacao}
+adiante
+\begin{citacao}
+The force  of this  argument [Princípio da instabilidade], however, is somewhat \textbf{weakened} when long-range  capital outlay is taken into account.
+\cite[p.~26, grifos adicionados]{harrod_essay_1939}
+\end{citacao}
+Tal possibilidade, como será discutido adiante, sugere que a instabilidade harrodiana não decorre do princípio de ajuste do estoque de capital, mas sim, da especificação da propensão marginal (e média) a poupar. Isso implica que um modelo em que o investimento é induzido pelo princípio acelerador não é necessariamente instável.
+
+Revisitando a instabilidade de Harrod, \textcite{allain_macroeconomic_2014} destaca que foi tratada majoritariamente de duas formas. A primeira delas é eliminar o comportamento  ``\textit{knife-edge}'' do investimento de modo que a taxa garantida se adeque à taxa de crescimento efetiva. Como será discutido a seguir, o modelo de Cambridge é um exemplo de tal mecanismo em que a distribuição de renda assume esse papel. Nos modelos Kaleckianos, por outro lado, tal eliminação  se dá pela endogeinização do grau de utilização\footnote{Uma outra maneira descrita pelo autor é por meio das características do ciclo econômico nos moldes de \textcite{hicks_contribution_1972} em que gastos autônomos determinam limites inferiores e superiores, abstraindo a instabilidade.}. 
+
+
+
+A segunda via de solução é por meio de modelos do tipo supermultiplicador que introduzem gastos autônomos que não criam capacidade\footnote{Vale destacar que a inclusão de gastos autônomos que não criam capacidade produtiva não é suficiente para que um modelo seja qualificado enquanto um supermultiplicador, mas sim, o princípio do ajuste do estoque de capital. A importância desses gasto recai sobre a estabilidade do modelo.} em que, principalmente, o investimento é determinado pelo princípio de ajuste do estoque de capital \cites{serrano_long_1995}{serrano_sraffian_1995}{bortis_institutions_1996}\footnote{\textcite[p.~7]{allain_macroeconomic_2014} afirma que o modelo de \textcite{serrano_long_1995} elimina a instabilidade de Harrod por hipótese uma vez que as firmas preveem corretamente a trajetória da demanda efetiva. Argumenta-se que esta interpretação não está alinhada com o supermultiplicador proposto por \textcite{serrano_sraffian_1995} e, ao final deste capítulo, mostra-se que tal problema foi solucionado por meio de: (i) existência de gastos autônomos não criadores de capacidade e (ii) investimento induzido (princípio do ajuste de estoque de capital). O argumento aqui defendido é que o componente expectacional desempenha maior importância nos modelos Kaleckianos com gastos autônomos não criadores de capacidade. Mais detalhes na seção \ref{debate}}.
+Ao apresentarem o modelo do Supermultiplicador Sraffiano em comparação ao modelo de \textcite{harrod_essay_1939}, \textcite{serrano_trouble_2017} argumentam que este é estaticamente instável enquanto o modelo do Supermultiplicador Sraffiano é fundamentalmente estável mas dinamicamente instável à depender da intensidade do ajuste da capacidade produtiva decorrente dos parâmetros do modelo\footnote{Para isso, retomam a definição de instabilidade de \textcite{hicks_contribution_1972} em que considera um modelo estaticamente estável quando não se afasta do equilíbrio enquanto a estabilidade dinâmica depende da intensidade. Destacam ainda que a estabilidade estática (direção) é condição necessária mas não suficiente para gerar estabilidade dinâmica.}.
+
+Uma observação importante é que apesar de \textcite[p.~23]{harrod_essay_1939} afirmar que existe uma única taxa de crescimento garantida, \textcite{robinson_model_1962} alerta que isso não implica que o processo de acumulação % Usado como sinônimo de crescimento
+deve se adequar à propensão marginal à poupar. Desse modo, os modelos liderados pela demanda devem ser avaliados pelas respectivas funções de investimento uma vez que o Princípio da Demanda Efetiva é o denominador comum entre eles e, portanto, devem ser classificados, dadas as hipóteses compartilhadas, tanto de acordo com as respectivas variáveis de ajuste (fechamentos\footnote{Entende-se por fechamento como variável que assume valores economicamente relevantes de tal forma a tornar determinada relação (e.g. taxa de lucro) válida. Em outras palavras, trata-se da última variável que é resolvida endogenamente. Desse modo, dizer que o fechamento de um modelo é estabelecido por uma variável (digamos, $j$) implica em dizer que $j$ é endógena. Além disso, por se tratar de um modelo generalizante de crescimento, dizer que distribuição de renda é exógena significa em ausência de simultaneidade entre distribuição e acumulação.}) quanto na forma que o investimento é induzido. Para isso, a equação fundamental de Harrod é rearranjada para explicitar algumas relações.
+
+%%%% Importante
+%TODO
+% Fazendo uma alusão à terminologia de \textcite{kaldor_model_1957}, denomina-se aqui de \textbf{Hipótese Pós-Keynesiana} como a manutenção da autonomia do investimento criador de capacidade no longo prazo e será.
+
+As hipóteses enunciadas anteriormente são preservadas para evitar repetições desnecessárias. Adicionalmente, inclui-se a possibilidade de existência de gastos autônomos não criadores de capacidade produtiva para garantir a comparação entre os modelos analisados. Com essa hipótese adicional, a propensão média à poupar torna-se uma função tanto dos gastos autônomos ($Z$) quanto do produto:
+
+$$
+    \frac{S}{Y} = s - \frac{Z}{Y}
+$$
+Dito isso, a propensão média a poupar será explicitada como:
+
+\begin{equation}
+  s = 
+  \begin{cases}
+  s \,\,\,\text{  se  } Z = 0\\
+  s(Z) \,\,\,\text{  se  } Z > 0
+  \end{cases}
+  \end{equation}
+  Adiante, decompõe-se a taxa de lucro ($r$) nos termos de \textcite{weisskopf_marxian_1979}:
+  $$
+  r = \frac{P}{K} = \frac{P}{Y}\frac{Y}{Y_{FC}}\frac{Y_{FC}}{K} = (1-\omega)\cdot u \cdot R
+  $$
+  
+  \begin{equation}
+  \label{Decomposicao_Lucro}
+    r = r(u, \omega)  
+  \end{equation}
+  em que $P$ é a massa de lucros, $R$ é a taxa de lucro máxima e o inverso da relação técnica capital produto e $\omega$ o \textit{wage-share}. Substituindo na equação \ref{Fundamental},
+  
+$$
+  g = s(Z)\cdot u \cdot R\\
+$$
+em seguida, rearranjando com a equação \ref{Decomposicao_Lucro},
+\begin{equation}
+g = \frac{r(u, \omega)\cdot s(Z)}{1-\omega}
+\end{equation}
+uma vez que todas as variáveis em questão dependem do \textit{wage-share}, é possível apresentar de forma ainda mais sintética :
+
+\begin{equation}
+\label{sintetica}
+    g = g\left(\frac{r(u)\cdot s(Z)}{1 - \omega}, \omega \right)
+\end{equation}
+A equação acima permite comparar os modelos analisados\footnote{Por padrão, as variáveis/parâmetros exógenos serão, $j$ por exemplo, serão denotados como $\overline j$.}, a começar pelo de Cambridge.
+
+%%% Revisado até aqui
+
+\subsection{Modelo de Cambridge}
+
+
+Originalmente desenvolvido por \textcite{kaldor_model_1957}\footnote{Vale aqui uma menção à pluralidade do pensamento de Kaldor que pode ser vista em maiores detalhes em \textcite{setterfield_kaldor_2010}.}, \textcites{robinson_model_1962}{pasinetti_rate_1962}
+tinha entre seus objetivos estender as implicações do princípio da demanda efetiva para o longo prazo\footnote{Para uma análise mais detalhada das origens e extensões do modelo de Cambridge, ver \textcite{baranzini_cambridge_2013}.}. Para tanto, lançavam mão das seguintes hipóteses (além das hipóteses compartilhadas): (i) os preços são mais flexíveis do que os salários no longo prazo; (ii) economia opera ao nível normal da capacidade; (iii) investimento depende tanto da taxa de lucro quanto do \textit{animal spirits}\footnote{Esse componente autônomo do investimento produtivo será levado adiante pelos modelos Kaleckianos.}. Neste ponto, vale destacar que a hipótese (iii) implica que o investimento possui um componente autônomo no longo prazo que será analisado em maior detalhe na seção \ref{Literatura}. Dito isso, resta analisar como tais autores lidaram com o problema levantado por Harrod.
+
+Em um primeiro momento, é possível estabelecer vínculos entre tais modelos e a taxa garantida. \textcite{robinson_model_1962} afirma que quando a composição do estoque de capital está adequada com a taxa de crescimento desejada e quando as expectativas das firmas estão de acordo com o desempenho corrente da economia, então o modelo está sob uma taxa de equilíbrio interna. Grosso modo, isso implica que as firmas estão operando sob o grau de utilização normal ($u_N$)\footnote{\textcite{kaldor_model_1957}, por outro lado, afirma que a metodologia por ele utilizada se assemelha à de \textcite{harrod_essay_1939}, mas tem diferenças, tais como: (i) Crescimento é limitado pela disponibilidade de recursos e não pela insuficiência de demanda efeitva; (ii) Não distingue mudanças técnicas decorrentes de maior acumulação de capital daquelas resultantes de inovações; (iii) Estoque de capital em termos reais é medido pela quantidade de ferro incorporada; (iv) O crescimento econômico decorre tanto da rapidez na absorção de mudanças tecnológicas quanto da propensão à investir; (v) Autoridade monetária é passiva de modo que a taxa de juros de longo prazo é igual à taxa de lucro.}. 
+
+Em linha com a formalização de \textcite[Cap. 6]{lavoie_post-keynesian_2015}, o raciocínio acima é estendido para a determinação da taxa de acumulação ($g_K$) que depende positivamente ($\gamma_r$) da taxa de lucro ($r$) e dos \textit{animal spirits} ($\gamma$)\footnote{Dentre os critérios para adequar um modelo, \textcite{robinson_model_1962} escolhe aquele que é compatível com os determinantes do comportamento humano em uma economia capitalista (\textit{animal spirit}). Além disso, a autora realça algumas características que considera fundamental em uma economia capitalista, tais como: produção é organizada por firmas (economia monetária de produção) e o consumo é destinado às famílias que, por sua vez, podem ser rentistas ou trabalhadoras. Alguns dos elementos citados anteriormente comporiam o centro da teoria pós-Keynesiana e que mereceriam uma análise mais detalhada. No entanto, dados os objetivos desta investigação, a ênfase recairá sobre a importância da autonomia do investimento.}:
+
+\begin{equation}
+    \frac{I}{K} = g_K = \gamma + \gamma_r r
+\end{equation}
+Esse raciocínio pode ser traduzido em termos da equação \ref{sintetica}\footnote{A versão proposta por \textcite{pasinetti_rate_1962} explicita as condições de \textit{stedy state} em que a taxa de juros e lucros precisam ser iguais no longo prazo. \textcite[p.~101]{kurz_post-keynesian_2010} destacam que a função poupança de Kaldor só é possível no longo prazo se a taxa de juros não exceder a taxa de lucros. Além disso, a exclusão da propensão marginal à poupar dos trabalhadores é decorrência do ``Teorema de Pasinetti'' em que a taxa de lucro independe da poupança dos trabalhadores.
+}:
+
+$$
+\frac{r(u \to u_N)\cdot s(Z=0)}{1-\omega} = g = g_K = \overline \gamma + \overline \gamma_r\cdot r
+$$
+
+$$
+r = \overline \gamma\cdot \left(\frac{s}{1-\omega} - \overline \gamma_r\right)^{-1}
+$$
+
+\begin{equation}
+\label{Cambridge}
+\therefore r = r(\overline u, \overline s, \underset{(-)}{\omega}) \Rightarrow g = g(\underset{(-)}{\omega})
+\end{equation}
+As equações acima\footnote{Adicionalmente, \textcite{kaldor_model_1957} inclui uma relação positiva entre crescimento e progresso tecnológico que futuramente é denominada de lei de Kaldor-Verdoorn.} explicitam que neste modelo a distribuição funcional da renda é a variável de fechamento. Portanto, no modelo de Cambrigde, existe uma relação simultânea entre crescimento e distribuição. A proposta desse modelo pode ser resumida nos seguintes termos:
+
+\begin{citacao}
+The main message of the Cambridge
+equation is that the warranted growth rate is determined by the rate of capital
+accumulation gk that results from the investment decisions of entrepreneurs; this
+determines the long-period (or normal) income distribution, which thereby
+becomes endogenous and subordinated to the rate of accumulation \cite[p.~158]{cesaratto_neo-kaleckian_2015}
+\end{citacao}
+Os lucros, portanto, precisam estar em um nível suficiente para gerar investimento que, por sua vez, determina a taxa de poupança e a distribuição de renda. Esse resultado decorre dos microfundamentos relacionados com a teoria gerencialista da firma em que maiores taxas de crescimento requerem maiores taxas de lucro, implicando em maiores \textit{mark-ups} e em uma barreira inflacionária \cite[p.~353]{lavoie_post-keynesian_2015} \footnote{Parte considerável das críticas dizem respeito à função de poupança nesta família de modelos uma vez que está associada com os lucros retidos das firmas. Para maiores detalhes, ver  \textcites[Seção III]{skott_kaldoriansaving_1981}{marglin_foundation_1984}{skott_kaldors_1989}.}. 
+%MAIS REFERÊNCIAS
+
+Desse modo, obtém-se uma relação positiva entre poupança e crescimento no longo prazo ou ainda uma relação negativa entre salários reais e lucros (como explicitado na Eq. \ref{Cambridge}). Consequentemente, quanto maior parcela da renda destinada ao consumo, menor a taxa de crescimento no longo prazo. A importância de explicitar esta causalidade em termos do consumo é que destaca a importância do mecanismo de preços no modelo e a respectiva resolução da instabilidade de Harrod. 
+
+Como mencionado anteriormente, os preços são mais flexíveis do que os salários por hipótese. Assim, se a taxa crescimento da economia estiver acima da taxa garantida (ou seja, existência de sobreutilização da capacidade), instaura-se um aumento dos preços acima dos salários. O resultado é uma redução dos salários reais e, por definição, aumento da participação dos lucros na renda. Dessa forma, opera-se um mecanismo de poupança forçada que garante o retorno do grau de utilização ao nível normal. Neste modelo, portanto, é a taxa de crescimento garantida que se ajusta à efetiva por meio da endogeinização da distribuição de renda e mudanças na propensão média a poupar:
+
+$$
+\Delta g_w = \frac{\Delta s(\Delta \omega, Z = 0)}{v_w} = g
+$$
+%Vale acrescentar que tal modelo é liderado pela demanda, mas possui restrições de oferta, seja pela hipótese de plena-capacidade (tal como em \textcite{robinson_model_1962} ou de pleno emprego (\textcite{kaldor_model_1957}). Por fim, a forma pela qual essas restrições determinam a adequação da demanda se dá pela flexibilização do \textit{mark-up} no longo prazo. 
+
+Por mais que tal modelo consiga reproduzir o fato estilizado de que capacidade produtiva e demanda se equilibram no longo prazo, é incompatível com o comportamento das firmas e, portanto, deve ser rejeitada\footnote{Tal constatação decorre possibilidade de flexibilização dos preços dadas reduções na demanda agregada que não é razoável seja no nível micro ou macroeconômico. Para maiores detalhes, ver discussão em \textcites[p.~104--5, n. 17]{serrano_teoria_1988}[Original de 1986]{ciccone_2017}.}. \textcite[p.~158]{cesaratto_neo-kaleckian_2015}, por sua vez, destaca a falta de robustez na relação entre taxas de crescimento mais elevadas e mudanças na distribuição de renda a favor dos lucros.
+Tais limitações do modelo de Cambridge não devem ser entendidas como uma impossibilidade de um padrão de crescimento estritamente \textit{demand-led}. Argumenta-se aqui que a adequação da capacidade produtiva à demanda não precisa lançar mão de tais hipóteses. 
+
+Na tentativa de responder à instabilidade de Harrod, parte da literatura abandona a hipótese de endogeneidade da distribuição de renda por meio da existência de uma estrutura de mercado oligopolista\footnote{\textcite{serrano_sraffian_1995} contra-argumenta afirmando que a negação da flexibilização do \textit{mark-up} no longo prazo independe da estrutura de mercado uma vez que os preços são predominantemente \textit{fix-price}. Desse modo, a distribuição de renda pode ser exógena mesmo em uma economia concorrencial. Portanto, o argumento Kaleckiano não é necessário para impor tal exogeneidade.}. A título de exemplo, \textcite{steindl_maturity_1952} possui um raciocínio semelhante ao de Kaldor para o caso de estrutura de mercado competitiva em que tanto as taxas de lucro quanto o grau de utilização estariam em seu nível normal no longo prazo. No entanto, quando revisita essa ideia, afirma que tal análise da distribuição não é adequada para uma economia oligopolizada  em que quedas na taxa de crescimento não acirram a concorrência\footnote{Argumenta em uma economia concorrencial, uma menor taxa de crescimento geraria maior concorrência enquanto uma maior taxa, ampliando o mercado, permitiria uma competição menos acirrada.} e que o ajuste seria acomodado pelo menor grau de utilização da capacidade que, por sua vez, afeta negativamente o investimento. Esta proposta será analisada na seção seguinte.
+
+
+
+
+\subsection{Modelo Kaleckiano}
+
+Os modelos de Cambridge analisados anteriormente discutiam as razões da estagnação de economia maduras.
+\textcite{steindl_stagnation_1979}, por sua vez, define maturidade como a inadequação da função de lucros diante da taxa de crescimento da economia em que o menor grau de utilização da capacidade em uma estrutura de mercado oligopolista acomoda essa menor taxa de investimento, explicando a estagnação\footnote{Além disso, afirma que o modelo de \textcite{harrod_essay_1939} pode ser visto como um teorema da maturidade. Para isso, reapresenta este modelo nos seguintes termos:
+
+$$
+g = g_u + \overbrace{\frac{s}{v}u}^{\text{Garantida}} + d' - d(r_{})
+$$
+em que $d'$ é a depreciação e $d(r_{})$ a taxa de reposição. Grosso modo, essa representação é uma estendida da Equação Fundamental de Harrod que indica a taxa de crescimento da demanda para posições diferentes da plena utilização da capacidade. Em outras palavras, em equilíbrio, temos $d' = d(r_{})$ assim como $g_u = 0$.}. 
+
+Inspirados em grande parte pelas contribuições de \textcite{steindl_stagnation_1979}, surgem os modelos Kaleckianos\footnote{Por conveniência, os modelos Neo-Kaleckianos e pós-Kaleckianos são referenciados como Kaleckianos.} \cites{rowthorn_demand_1981}{dutt_stagnation_1984}{taylor_stagnationist_1985}{amadeo_role_1986}{bhaduri_unemployment_1990}. Seguindo a caracterização de \textcite[p.~790]{lavoie_kaleckian_1995}, tais modelos apresentam os seguintes elementos em comum: (i) o investimento é parcialmente induzido; (ii) os preços são definidos em relação aos custos diretos do trabalho (\textit{markup}, $\theta$); (iii) custos marginais constantes abaixo da plena utilização da capacidade; (iv) existe capacidade ociosa e grau de utilização é a variável de fechamento e; (v) não existem restrições no mercado de trabalho\footnote{Cabe aqui a menção de críticas a esta última hipótese em que a literatura tenta incorporar elementos da ofetar na análise, especialmente no que diz respeito ao mercado de trabalho. Para uma primeira aproximação do segundo problema de Harrod utilizando um aparato Kaleckiano com gastos autônomos, ver \textcite{allain_demographic_2018}.}. 
+
+A hipótese adicional (ii) sobre determinação dos preços implica que a participação dos lucros na renda ($1-\omega$) é definida por:
+
+$$
+1- \omega = \frac{\theta}{1+\theta}
+$$
+logo, a distribuição de renda é exogenamente determinada por microfundamentos relacionados à estrutura de mercado. Dito isso e considerando os objetivos desta seção, a caracterização (iv) é apresentada em maiores detalhes.
+
+Nesta família de modelos, o investimento\footnote{Vale destacar que a função poupança não difere nesses modelos, mas pode ser modificada para permitir uma primeira aproximação  da distribuição pessoal da renda \cites{carvalho_personal_2016}{palley_wage-_2017}. A essência do modelo, como mencionado, está contida na função investimento \ref{InvestoKalecki}.} é determinado por:
+
+\begin{equation}
+    \label{InvestoKalecki}
+    \frac{I}{K} = \gamma + \gamma_u\cdot u \,\,[+ \gamma_{\pi}\pi] = g_I
+\end{equation}
+em que $\gamma$ é a parcela autônoma do investimento, $\gamma_u$ representa a sensibilidade do investimento à mudanças no grau de utilização e $\gamma_{\pi}$ em relação ao \textit{profit-share}\footnote{Esse último termo é destacado para evidenciar a crítica de \textcite{bhaduri_unemployment_1990} que inaugura os modelos pós-Kaleckianos. Argumenta-se a inclusão deste componente não altera o mecanismo de funcionamento do modelo, mas amplia os resultados possíveis.}. Partindo da versão mais simplificada em que o investimento induzido depende apenas do grau de utilização ($\gamma_{\pi} = 0$),  a equação \ref{InvestoKalecki} pode ser tratada em termos da equação \ref{sintetica}:
+
+$$
+\frac{r(u, \overline{\omega})\cdot s(\overline{\omega})}{1 - \overline{\omega}} = g = g_I = \overline{\gamma} + \overline{\gamma_u}\cdot u
+$$
+rearranjando:
+$$
+r = \left(\overline{\gamma} + \overline{\gamma_u}\cdot u \right)\frac{1-\overline{\omega}}{\overline{s}}
+$$
+\begin{equation}
+\label{FechKalecki}
+    \therefore r = r(u) \Rightarrow g = g(u, \overline{\omega}, Z = 0)
+\end{equation}
+
+Nesses termos, a equação \ref{FechKalecki} explicita que o grau de utilização é a variável de fechamento do modelo e, portanto, determina a taxa de crescimento assim como inverso também é válido. Grosso modo, tal exposição permite explicitar que quando a taxa de crescimento não for igual à garantida, o grau de utilização da capacidade necessariamente irá variar para adequar o equilíbrio dinâmico entre demanda e capacidade produtiva\footnote{Isso pode ser indicado a partir da equação que define o grau de utilização:
+$$
+u = \frac{Y}{Y_{FC}}
+$$
+calculando o diferencial total, obtém-se:
+$$
+\Delta u = \Delta Y\cdot Y_{FC} - \frac{Y}{\Delta Y_{FC}}
+$$
+dividindo por $u$ de modo a obter a taxa de crescimento do grau de utilização ($g_u$):
+$$
+g_u = g - g_{Y_{FC}}
+$$
+Como indicado no texto, quando a demanda e capacidade produtiva crescerem à taxas distintar ($g \neq g_{Y_{FC}}$), o grau de utilização irá necessariamente variar ($g_u \neq 0$).
+}.
+
+Antes de prosseguir para a análise do supermultiplicador sraffiano, é oportuno apresentar este modelo em sua forma ampliada (\textit{à la} \textcite{bhaduri_unemployment_1990}) para ilustrar como a literatura empírica trata de algumas questões. Partindo da identidade entre poupança e investimento e seguindo a formalização de \textcite[Cap, 6]{lavoie_post-keynesian_2015}, obtém-se o grau de utilização que fecha o modelo no curto prazo:
+
+\begin{equation}
+\label{KaleckiSR}
+    u^{*} = \frac{\gamma + \gamma_{\pi}(1-\omega)}{s\cdot (1-\omega) - v\gamma_u}
+\end{equation}
+em que $\frac{s(1-\omega)}{v} - \gamma_u$ indica a condição de estabilidade (Keynesiana) do modelo em que o investimento precisa ser menos sensível do que a poupança à mudanças no nível de atividade\footnote{Para uma crítica à ausência de relações entre crescimento e distribuição assim como às limitações do debate \textit{wage/profit-led} em um aparato
+Harrodiano, 
+ver 
+\textcite{skott_weaknesses_2017}.}.
+
+Dito isso, é necessário uma  caracterização adicional. O grau de utilização pode reagir de formas distintas à mudanças na distribuição funcional da renda. Deste modelo, emergem regimes de acumulação a depender da relações (unidirecionais) entre distribuição de renda e crescimento. Utilizando a terminologia convencional, se um aumento da participação dos lucros na renda implicar em maiores taxas de crescimento, tal economia apresenta uma dinâmica \textit{profit-led} enquanto um regime \textit{wage-led} é caracterizado pelo inverso\footnote{Já se um regime é estagnacionista ou não deve ser avaliada em termos das relações entre distribuição e grau de utilização.}. Esquematicamente:
+
+\begin{center}
+$$
+\begin{cases}
+\gamma_u > \gamma_{\pi}:\frac{dg}{d\omega} > 0\hspace{2cm} \text{\textit{Wage-led}}\\
+\gamma_u < \gamma_{\pi}:\frac{dg}{d\omega} < 0 \hspace{2cm} \text{          \textit{Profit-led}}
+\end{cases}
+$$
+\end{center}
+para que aumentos na participação dos salários na renda gerem efeitos positivos sobre a taxa de crescimento, é preciso que o investimento seja mais sensível à mudanças no grau de utilização do que à participação dos lucros, configurando um regime \textit{wage-led}\footnote{
+Partindo de um modelo sensivelmente diferente do apresentado, \textcite{dutt_stagnation_1984} argumenta que dada uma estrutura de mercado oligopolista, há uma relação positiva entre taxa de crescimento e melhora distributiva. Nesses termos, afirma que a estagnação da economia indiana pode ser explicada como resultado de uma piora na distribuição de renda assim como maior concentração industrial.}.  Caso prevaleça o inverso, diz-se que é um regime de acumulação \textit{profit-led}\footnote{\textcite{bhaduri_unemployment_1990} incluem ramificações destas duas possibilidades que não serão exploradas em maior detalhe por não alterarem o mecanismo do modelo.}.
+
+A qualificação anterior trata dos efeitos sobre a taxa de acumulação, que podem ser positivos ou negativos a depender da sensibilidade do investimento ao \textit{profit-share} ($\gamma_{\pi}$), resta analisar os efeitos sobre o grau de utilização. Nesses modelos, existe sempre uma relação negativa entre participação dos lucros na renda e nível de atividade/taxa de lucros (ver equação \ref{Decomposicao_Lucro}). Resumidamente, a taxa de lucro depende negativamente da participação dos lucros enquanto a relação entre taxa de acumulação e participação dos lucros não é definida \textit{à priori}, como sugere \textcite{bhaduri_unemployment_1990}, mas depende de parâmetros estruturais e isso faz com que surja uma vasta literatura Kaleckiana empírica\footnote{\textcite{pariboni_autonomous_2015} ressalta que a convergência para uma discussão empírica na literatura kaleckiana sugere que as questão teóricas tornem-se de uma magnitude menor. Este capítulo, em linha com este autor, pretende fazer uma discussão essencialmente teórica e este tema será endereçado em maiores detalhes na seção \ref{Literatura}.}.
+
+Não cabe à essa seção elencar se a literatura heterodoxa (majoritariamente Kaleckiana) categoriza as economias como \textit{wage-} ou \textit{profit-led}\footnote{Ver \textcites{blecker_distribution_2002}{onaran_is_2013} para um  \textit{survey} sobre o tema e \textcite{blecker_wage-led_2016} para uma discussão sobre a importância da temporalidade do regime de crescimento enquanto \textcite{lavoie_origins_2017} apresenta as origens deste debate.} e sim ressaltar algumas  características essenciais dessa família de modelos. Grosso modo, mudanças na distribuição funcional da renda têm impactos \textbf{persistentes} sobre a taxa de crescimento. Nas versões mais convencionais, tais modelos defendem que não existem razões para que o grau de utilização convirja ao normal\footnote{Como será analisado em mais detalhes na seção \ref{debate}, a literatura Kaleckiana tem feito esforços para destacar que mesmo se o grau de utilização convergir ao normal, as características essenciais desses modelos ainda são preservadas.}. Esses são dois pontos de conflito entre o modelo Kaleckiano tradicional e o supermultiplicador sraffiano. A subseção seguinte aborda esta outra proposta à instabilidade de Harrod.
+
+\subsection{Supermultiplicador Sraffiano}
+
+Os modelos anteriormente analisados possuem a hipótese compartilhada de que o investimento criador de capacidade preserva sua autonomia no longo prazo\footnote{Vale aqui pontuar que, coerentemente com o PDE, negar a autonomia do investimento criador de capacidade no longo prazo não implica em aceitar que a poupança o determina.}.  Destaca-se ainda a incapacidade desses modelos reproduzirem alguns fatos estilizados \cite[p.~5]{fagundes_role_2017}: (i) grau de utilização acompanha o nível normal apesar de sua volatilidade elevada; (ii) relação positiva entre crescimento do produto e participação do investimento na renda.  Além disso, a ausência de gastos autônomos não criadores de capacidade implica que a propensão marginal e média a poupar são idênticas e, portanto, a taxa de poupança ($S/Y$) é exogenamente determinada. Nos modelos apresentados, mudanças no investimento não são capazes de alterar a taxa de investimento ($I/Y$), consequentemente, a capacidade produtiva torna-se pré-determinada de forma que se, e somente se, a demanda se ajustar a ela ambas estarão dinamicamente equilibradas \cite[p.~84 REVER PÁGINA]{serrano_sraffian_2017}\footnote{Uma crítica endereçada especificamente aos modelos Kaleckianos diz respeito a razoabilidade do grau de utilização estar \textbf{persistentemente} em níveis (arbitrários) diferentes do desejado no logo prazo. Tal discussão ficará a cargo da seção \ref{debate}.}.
+
+
+O Supermultiplicador Sraffiano desenvolvido por \textcite{serrano_sraffian_1995} (e paralelamente por \textcite{bortis_institutions_1996}) pretendia prosseguir com a agenda de pesquisa iniciada por \textcite[Original de 1962]{garegnani_problem_2015} em que o PDE fosse validado no longo prazo.  Grosso modo, tal modelo avança em direção ao ajuste da capacidade produtiva à demanda e não o inverso.
+Partindo do fato estilizado de que, no longo-prazo, demanda agregada e capacidade produtiva estão equilibradas, argumenta-se que, diferentemente da teoria ortodoxa, é possível que a economia seja estritamente \textit{demand-led}. Para tanto, existem duas condições: (i) propensão marginal a gastar (consumir e investir) é menor que a unidade e; (ii) existem gastos autônomos no longo prazo ($Z > 0$).
+
+Caso a primeira condição seja violada, obtém-se um modelo que valida a lei de Say uma vez que todo gasto é induzido pela produção \cite[p.~ 75]{serrano_sraffian_1995}. Vale mencionar que \textcite{serrano_trouble_2017} argumentam que o modelo de Harrod apresenta tal característica\footnote{Partindo da Eq fundamental (\ref{Fundamental}), é possível indicar este raciocínio:
+
+$$
+g = \frac{s}{v} \Leftrightarrow g\cdot v = s \Rightarrow s - g\cdot v = 0
+$$
+
+$$
+\therefore c + g\cdot v = 1
+$$
+em que $g\cdot v$ pode ser entendido como propensão marginal a investir que somada à propensão marginal a consumir ($c$), obtém-se a propensão marginal a gastar que, como demonstrado, é idêntica à unidade.}. \textcite{serrano_long_1995} também afirma que partindo do fluxo circular da renda, o investimento é considerado autônomo enquanto o consumo é induzido. No entanto, quando adicionado o caráter dual do investimento\footnote{Aqui entendido  como a possibilidade (não simultânea) do investimento gerar tanto demanda quanto capacidade produtiva} e o princípio do ajuste do estoque de capital, o investimento se ajusta à demanda efetiva e passa a ser induzido:
+
+\begin{citacao}
+Note that from our definition of capacity generating investment expenditures, it follows that when this type of investment is induced, productive capacity is necessarily a consequence of the evolution of effective demand. On the other hand, when capacity generating investment is autonomous it is productive capacity that emerges as a necessary consequence of (autonomous) investment. […] Indeed, the view that capacity of each sector is adjusted to normal level of eflectual demand in every long-period position, necessary implies treating the long-period level of capacity generating investment as an endogenous magnitude. \cite[p.~77]{serrano_sraffian_1995}
+\end{citacao}
+Fica, portanto, explicitada a importância do investimento induzido para que demanda agregada e capacidade produtiva cresçam dinamicamente equilibradas. Além disso, com o grau de utilização em seu nível normal, o investimento torna-se necessariamente induzido. Nesses termos, a indução do investimento é uma implicação lógica do princípio do ajuste do estoque de capital que, por sua vez, faz com que a capacidade produtiva acompanhe a demanda efetiva.
+
+Em outras palavras, o modelo do supermultiplicador sraffiano se baseia no Princípio Acelerador (tal como \textcite{harrod_essay_1939}) com a hipótese adicional que existem gastos autônomos que não criam capacidade produtiva. Como explicitado anteriormente, a existência deste tipo de gasto faz com que propensão marginal e média a poupar sejam distintas. Em linhas gerais, a relevância desta diferença é que a propensão média passa a depender do nível de produto, reestabelecendo a relação de causalidade keynesiana.  Uma das implicações é que na medida que a economia cresce, a participação dos gastos autônomos na renda diminuiu enquanto a participação do investimento aumenta, gerando um fluxo necessário para determinar a poupança. Portanto, a existência de gastos autônomos é condição suficiente para que a propensão média a poupar se torne uma variável endógena\footnote{Como alertam \textcite{serrano_sraffian_2017}, esse resultado não decorre de uma espeficicação da função investimento.}.
+
+Isso pode ser expresso em termos da Equação \ref{sintetica}. Seja $h$ a propensão marginal à investir, o investimento (induzido) é definido nos seguintes termos:
+$$
+I = h\cdot Y
+$$
+Considerando que a parcela induzida do consumo é determinada pela propensão marginal a consumir\footnote{Neste caso que existem gastos autônomos não criadores de capacidade, o consumo pode não ser totalmente induzido. Além disso, vale a menção de que o componente autônomo $Z$ não se restringe ao consumo e pode ser estendido ao investimento das famílias cujas implicações são analisadas no capitulo \ref{CapModelo}. Por fim, considerando as diversas formas que $Z$ pode assumir, optou-se por introduzi-lo em sua forma mais genérica possível para permitir comparação entre os modelos.}, o produto determinado pela demanda torna-se:
+\begin{equation}
+\label{PIBSuper}
+    Y = c\cdot Y + h\cdot Y + Z
+\end{equation}
+o que implica:
+\begin{equation}
+\label{Supermultiplicador}
+Y = \left(\frac{1}{1 - c - h}\right)Z
+\end{equation}
+cujo termo destacado em parênteses é o supermultiplicador sraffiano. Tal como no multiplicador convencional, o produto é determinado pelos gastos autônomos. A principal diferença, portanto, consiste na indução do investimento. Para explicitar o fechamento deste modelo, a taxa de crescimento do estoque de capital ($g_K$) pode ser escrita nos seguintes termos\footnote{Cabe aqui o esclarecimento que esta forma não é exclusiva do supermultiplicador sraffiano, mas sim comum a todos os modelos apresentados. A razão pela qual optou-se expor a taxa de acumulação nestes termos é meramente convencional dado o destaque a taxa de investimento.}:
+$$
+g_K = \frac{I}{K} = \frac{I}{Y}\frac{Y}{Y_{FC}}\frac{Y_{FC}}{K}
+$$
+$$
+\therefore g_K = \frac{h\cdot u}{v}
+$$
+Igualando à taxa de crescimento da Eq. \ref{sintetica}:
+
+\begin{equation}
+\label{SuperEtapa}
+\frac{r\cdot s(Z)}{1 - \omega} = g_K = \frac{h\cdot u}{v}    
+\end{equation}
+A equação \ref{SuperEtapa} contém os elementos para apresentar o fechamento do modelo, mas carece das hipóteses adicionais do supermultiplicador sraffiano e serão expostas a seguir. \textcite{freitas_growth_2015} supõem que, seguindo o princípio do estoque de capital, a propensão marginal a investir se ajusta a desvios do grau de utilização em relação ao normal de forma lenta e gradual indicado pelo parâmetro $\gamma_u$ positivo e suficientemente pequeno:
+
+$$
+\frac{\Delta h}{h_{-1}} = \gamma_u (u - u_N)
+$$
+Assim, esse mecanismo permite que o grau de utilização convirja ao desejado no longo prazo. Desse modo,
+$$
+u \to u_N
+$$
+$$
+r = \overline r(u_N)
+$$
+
+Vale mencionar que neste modelo, os microfundamentos são baseados na teoria sraffiana que permitem tanto contemplar elementos da teoria macroeconômica keynesiana quanto tornar a distribuição funcional da renda exogenamente determinada\footnote{Para uma discussão sobre as diferentes determinações da taxa de lucro, ver \textcite{serrano_teoria_1988}.}, ou seja,
+$$
+\omega = \overline \omega
+$$
+
+Dito isso e rearranjando a equação \ref{SuperEtapa}, 
+
+$$
+s(Z) = \frac{h\cdot \overline u_N}{\overline v}\cdot \frac{1-\overline \omega}{\overline r} \Rightarrow h\cdot \overbrace{\frac{\overline u_N}{\overline v}\cdot \frac{1-\overline \omega}{\overline r}}^{1}
+$$
+simplificando, obtém-se o fechamento deste modelo:
+\begin{equation}
+\label{FechamentoSuper}
+    s(Z) = h
+\end{equation}
+
+A equação \ref{FechamentoSuper} indica que, na presença de gastos autônomos, a propensão \textbf{média} a poupar é determinada pela propensão marginal a investir\footnote{A propensão \textbf{marginal} poupar, determinada exogenamente, é tão somente um limite superior que a propensão média pode assumir. \textcite[p.~51--52]{serrano_o_2000} esclarecem a diferença entre essas duas taxas.}. Em outras palavras, o investimento gera o fluxo monetário em que a poupança se ajusta endogenamente, reestabelecendo a causalidade Keynesiana destacada por \textcite[Original de 1962]{garegnani_problem_2015}. 
+
+Compreendido o fechamento do modelo, é possível seguir para a exposição das conclusões em termos de crescimento. Tomando a diferença total da equação \ref{PIBSuper}, tem-se:
+$$
+g = c\cdot g + h\cdot g + \Delta h + \frac{Z}{Y}\cdot \overline g_Z
+$$
+em que $Z/Y$ é o inverso do supermultiplicador como definido em \ref{Supermultiplicador} e $g_Z$ é a taxa de crescimento dos gastos autônomos determinada exogenamente. Rearrajando, 
+\begin{equation}
+\label{crescimentosuper}
+g = \frac{\Delta h}{1 - c - h} + \overline g_Z
+\end{equation}
+uma vez esgotado o mecanismo de ajuste do estoque de capital, ou seja, quando o grau de utilização é igual o desejado, não há razões para que a propensão marginal a poupar se altere ($\Delta h = 0$). Desse modo, conclui-se que na posição de completo ajuste ($u = u_N$) a taxa de crescimento do produto tende à taxa de crescimento dos gastos autônomos:
+
+$$
+u \to u_N : g_I \to g_K \to g \to \overline g_Z
+$$
+
+Portanto, nesse modelo, a taxa de acumulação responde aos movimentos da demanda efetiva que são determinadas pelos gastos autônomos não criadores de capacidade produtiva. Além disso, a existência de gastos autônomos que crescem a uma taxa exógena e o investimento produtivo induzido garantem a resolução do problema imposto por Harrod\footnote{A equação a seguir, extraída de \textcite{serrano_sraffian_2017}, indica que a propensão marginal a investir é capaz de se ajustar à taxa de crescimento dos gastos autônomos:
+$$
+h = \frac{v}{u_N}g_z
+$$
+}. Isso pode ser verificado ao considerar que a taxa de investimento ($I/Y$, regida pela propensão marginal à investir) se adapta à desvios entre a taxa de crescimento efetiva e à taxa dos gastos autônomos na direção correta\footnote{\textcite{cesaratto_neo-kaleckian_2015} chama atenção para a resolução da singularidade da taxa garantida. Grosso modo, tal como no modelo de Cambridge, é a taxa garantida que se ajusta à efetiva.}. 
+É nesse sentido que o Supermultiplicador é fundamentalmente estável\footnote{
+Como pontuado anteriormente, no modelo de \textcite{harrod_essay_1939}, quando a taxa de crescimento corrente excede a taxa garantida ($g > g_w$), há sobreutilização da capacidade uma vez que não existem gastos autônomos. No supermultiplicador, por outro lado, quando a taxa de crescimento corrente excede a taxa de crescimento dos gastos autônomos ($g > z$), haverá \textbf{subutilização}}:
+
+\begin{citacao}
+The crucial point is that the process of growth led by the expansion of autonomous consumption is thus fundamentally or statically stable because the reaction of \textbf{induced investment} to the initial imbalance between capacity and demand has, at some point during the adjustment disequilibrium process, a \textbf{greater impact} on the rate of growth of productive capacity than on the rate of growth of demand. \cite[p.~19, grifos adicionados]{serrano_trouble_2017}
+\end{citacao}
+
+Vale ressaltar que apesar do Supermultiplicador ser fundamentalmente estável, pode ser dinamicamente instável a depender dos parâmetros que dizem respeito ao ajuste da capacidade produtiva. Desse modo, não é a existência de gastos autônomos que garante a possibilidade de um regime de crescimento liderado pela demanda, mas sim o ajuste gradual da propensão marginal a investir. No entanto, basta que a propensão marginal a gastar seja menor que a unidade para que o sistema seja dinamicamente estável. Assim, atendidas essas condições, a capacidade produtiva irá se ajustar à demanda:
+$$
+ \frac{u_N}{v}K = Y_{FC} = Y = \frac{1}{1 - c - h}Z
+$$
+A equação acima evidencia que a capacidade produtiva se ajusta à demanda que, como indicado anteriormente, cresce à taxa tendencial dos gastos autônomos.
+
+Com isso, conclui-se os objetivos pretendidos por esta seção, qual seja: expor o modelos de crescimento liderados pela demanda frente à problemática imposta por \textcite{harrod_essay_1939}. Antes de prosseguir para a discussão sobre a convergência do grau de utilização, é necessário pontuar uma qualificação quanto o papel das expectativas no supermultiplicador. \textcite[p.~87]{serrano_long_1995} reconhece que o grau de utilização pode não convergir ao normal, mas tal resultado decorre de formulações \textbf{persistentemente} erradas sobre a evolução da demanda efetiva. Em resposta à esse argumento, \textcites{allain_macroeconomic_2014}{palley_economics_2018} afirmam que a instabilidade harrodiana é eliminada no Supermultiplicador por hipótese.
+
+Vale notar que a exposição anterior permitiu apresentar a resolução desse problema sem recorrer à suposições sobre a formulação das expectativas. Desse modo, dizer que o Supermultiplicador Sraffiano resolve a instabilidade Harrodiana por meio de hipóteses expectacionais não contempla de forma adequada o papel desempenhado pelo investimento induzido e dão muita ênfase à existência de gastos autônomos. Uma implicação dessa incompreensão é o esforço da literatura Kaleckiana em garantir os resultados do modelo canônico na presença de gastos autônomos sem abandonar a ideia de que o investimento produtivo é autônomo no longo prazo. Tal discussão é endereçada parcialmente na seção seguinte.
