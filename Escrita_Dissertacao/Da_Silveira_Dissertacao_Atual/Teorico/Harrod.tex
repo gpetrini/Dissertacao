@@ -1,0 +1,129 @@
+
+\section{Instabilidade de Harrod: princípios e provocações}\label{SecHarrod}
+
+%=============== Inicio: Ligação Harrod ============
+
+As origens da teoria macrodinâmica devem, em grande parte, às contribuições de \textcite{harrod_essay_1939}. Tal modelo impôs importantes questões: Existe estabilidade do crescimento no longo pra\-zo? É possível equacionar o crescimento da demanda com o crescimento da capacidade produtiva? Se sim, qual variável acomoda essa adequação? A capacidade produtiva se ajusta à demanda ou o inverso? Os modelos de Cambridge, Oxford e do Supermultiplicador Sraffiano responderam essas provocações de formas distintas e serão analisados ao longo desta seção.
+
+%Antes de prosseguir para a Equação Fundamental de Harrod, é importante retomar dois conceitos: (i) Efeito multiplicador e (ii) Princípio Acelerador. O primeiro indica que a renda é um múltiplo dos gastos autônomos enquanto o segundo estabelece que a determinação do investimento decorre das alterações na demanda (efetiva). Argumenta-se que a junção destes dois conceitos permite tratar o Princípio da Demanda Efetiva de forma dinâmica. 
+
+Para evitar redundâncias, são apresentadas as hipóteses que permeiam as famílias de modelos aqui avaliadas. 
+A presente exposição prioriza a parcimônia e, portanto, trata-se de uma economia sem relações externas e sem governo em que tanto progresso tecnológico quanto retornos crescentes de escala estão ausentes. Além do PDE, o que torna os modelos em questão consistentes
+é o abandono da substitutibilidade entre capital e trabalho e, portanto, adota-se uma função de produção
+\textit{à la} Leontief em que existem dois produtos potenciais: plena capacidade ($Y_K$) e pleno emprego ($Y_L$) de modo que o produto potencial ($Y_{FC}$) é determinado por:
+
+\begin{equation}
+    Y_{FC} = \min (Y_K, Y_L)
+\end{equation}
+Seguindo a literatura, em que o estoque capital ($K$) é o fator escasso,
+\begin{equation}
+\label{Oferta}
+    Y_{FC} = \cdot Y_K = \frac{1}{v}K_{-1}
+\end{equation}
+em que $v$ é a relação técnica capital-produto. 
+
+
+Considerando as hipóteses anteriores, a determinação do produto pelos componentes da demanda é obtida pela soma do consumo e investimento. Supõe-se neste capítulo que o consumo é totalmente induzido ($C$), o investimento criador de capacidade produtiva ao setor privado ($I$) possui uma parcela autônoma ($\overline I$) e outra induzida, e $Z$ sendo os componentes da demanda agregada que independem da renda corrente e que não geram capacidade produtiva. Em outros termos,
+
+\begin{equation}
+\label{Demanda}
+    Y = C + I + Z
+\end{equation}
+
+A questão que permeia os modelos analisados são as condições para que exista um crescimento equilibrado da demanda (Eq. \ref{Demanda}) e da capacidade produtiva (Eq. \ref{Oferta}). Por ora, a preocupação não recairá sobre a forma funcional de cada uma dessas variáveis, mas sim sobre suas implicações dinâmicas. A equação acima pode ser rearranjada para apresentar o efeito multiplicador ($\alpha$) em que o nível do produto é um múltiplo dos gastos autônomos ($\overline I$ e $Z$) que neste caso mais simplificado é:
+
+\begin{equation}
+    Y = \alpha\cdot (Z + \overline I)
+\end{equation}
+O princípio acelerador\footnote{Neste caso, trata-se do acelerador rígido, tal como utilizado por \textcite{harrod_essay_1939}.}, por sua vez, estabelece que a determinação da parcela induzida do investimento decorre das alterações na demanda (efetiva), ou seja, decorre do princípio de ajuste do estoque de capital:
+$$
+K = v\cdot Y
+$$
+\begin{equation}
+    I = v\Delta Y
+\end{equation}
+Argumenta-se que a junção destes dois conceitos permite tratar o Princípio da Demanda Efetiva de forma dinâmica e que esta é a essência do modelo de Harrod cuja Equação fundamental pode ser deduzida da identidade entre poupança ($S$) e investimento\footnote{Para o caso com acelerador rígido e uma dada propensão marginal a consumir ($c$), o consumo é induzido, tem-se:
+$$
+Y = c\cdot Y + v\cdot \Delta Y
+$$
+rearranjando, obtém-se:
+$$
+\frac{\Delta Y}{Y} = g = \frac{1 - c}{v} = \frac{s}{v}
+$$
+que equivalhe à equação fundamental de Harrod deduzida adiante.
+}:
+
+$$
+s\cdot Y = S \equiv I
+$$
+Neste ponto, fica evidente que neste modelo a propensão marginal à poupar ($s$) é igual a propensão média à poupar ($S/Y$)\footnote{As implicações desta igualdade será analisada mais detidamente ao tratar do supermultiplicador sraffiano.}. Em seguida, basta normalizar esta identidade pelo estoque de capital,
+$$
+\frac{I}{K} = s\frac{Y}{K}
+$$
+$$
+\frac{I}{K} = s\frac{Y}{v\cdot Y_K}
+$$
+\begin{equation}
+    g_K = \frac{s}{v}u
+\end{equation}
+em que $g_K$ é a taxa de acumulação e $u$ é o grau de utilização da capacidade e é igual a unidade se normalizado pelo grau de utilização desejado ($u_N$). Finalmente, supondo que o crescimento do estoque de capital seja uma \textit{proxy} para a taxa de crescimento da economia\footnote{A razão para este aparente preciosismo é que, na ausência de gastos autônomos que não criam capacidade, a taxa de crescimento do produto ($g$) nesse modelo é idêntica à taxa de crescimento do investimento ($g_I$). Além disso, para que o grau de utilização se estabilize, é preciso que, no \textit{steady state}, produto e capacidade produtiva cresçam a uma mesma taxa.}, obtém-se a equação fundamental de Harrod:
+
+\begin{equation}
+    \label{Fundamental}
+    g_w = \frac{s}{v}(u - u_N)
+\end{equation}
+em que $g_w$ é a taxa de crescimento que garante que a demanda e capacidade produtiva cresçam dinamicamente equilibradas\footnote{\textcite[p,~22]{harrod_essay_1939} pondera que  optou por não chamar esta taxa de crescimento como taxa de equilíbrio uma vez que neste modelo tal equilíbrio é instável: ``\textit{A departure from equilibrium, instead of of being self—righting, will be self-aggravating. Gw represents a moving equilibrium,but a highly unstable one.}''.}. Além disso, pelo grau de utilização estar em seu nível desejado, esta taxa corresponde àquela que os empresários estariam satisfeitos e não haveriam razões para alterar seu comportamento e/ou planos de investimento. 
+
+Neste modelo, a taxa de crescimento efetiva se afasta da taxa desejada em função da reação do investimento à variações no nível de atividade. Seguindo o princípio acelerador nos moldes de \textcite{harrod_essay_1939}, a resposta a uma sobreutilização da capacidade ($u>1$) é o aumento da taxa de acumulação que, pelo efeito multiplicador gera  demanda, reforçando o mecanismo de descolamento, para então ampliar a capacidade produtiva \cite[p.~12]{serrano_trouble_2017}. Em outras palavras, quando $u\neq u_N$,  a taxa de crescimento efetiva é diferente da desejada. No entanto, uma vez que essas são diferentes, não há um mecanismo de convergência entre elas.
+
+
+% =============== Instabilidade fundamental Serrano et all ==========
+
+Tendo em vista que neste modelo o princípio do acelerador é o principal determinante da trajetória, \textcite[p.~26--28]{harrod_essay_1939} procura reduzir tais efeitos incluindo frações do investimento que não estão diretamente relacionados com a renda corrente. Grosso modo,  reconhece que uma parcela significante dos planos de investimento estão relacionadas com decisões de longo prazo e que sua Equação Fundamental dá muita ênfase aos fatores de curto-prazo. Tal constatação introduz a possibilidade de que exista um componente autônomo do investimento que não é afetado pelo mecanismo de ajuste do estoque de capital no longo prazo e, portanto, permite que a instabilidade harrodiana seja amenizada\footnote{No entanto, \textcite[p.~28]{harrod_essay_1939} afirma que a estabilidade é possível em algumas fases do ciclo apenas.}:
+
+\begin{citacao}
+Now, it is probably the case that in any period not the whole of the new capital is destined to look after the increment of output of consumers' goods. There may be  long-range plans of capital development or a transformation  of the method of  producing  the pre-existent level of output. \cite[p.~17]{harrod_essay_1939}
+\end{citacao}
+adiante
+\begin{citacao}
+The force  of this  argument [Princípio da instabilidade], however, is somewhat \textbf{weakened} when long-range  capital outlay is taken into account.
+\cite[p.~26, grifos adicionados]{harrod_essay_1939}
+\end{citacao}
+Tal possibilidade, como será discutido adiante, sugere que a instabilidade harrodiana não decorre do princípio de ajuste do estoque de capital, mas sim, da especificação da propensão marginal (e média) a poupar. Isso implica que um modelo em que o investimento é induzido pelo princípio acelerador não é necessariamente instável.
+
+Revisitando a instabilidade de Harrod, \textcite{allain_macroeconomic_2014} destaca que foi tratada majoritariamente de duas formas. A primeira delas é eliminar o comportamento  ``\textit{knife-edge}'' do investimento tornando-o autônomo de modo que a taxa garantida se adeque à taxa de crescimento efetiva. No entanto, tal categorização não permite captar as distinções entre esses modelos e, por conta disso, serão discutido através dos fechamentos. No modelo de Cambridge, por exemplo, é a distribuição de renda que elimina a instabilidade harrodiana. Nos modelos Kaleckianos, por outro lado, tal eliminação  se dá pela endogeinização do grau de utilização\footnote{Uma outra maneira descrita pelo autor é por meio das características do ciclo econômico nos moldes de \textcite{hicks_contribution_1972} em que gastos autônomos determinam o limite inferior enquanto o pleno-emprego determina o superior, abstraindo a instabilidade.}. 
+
+
+
+A segunda via de solução, ainda na categorização de \textcite{allain_macroeconomic_2014}, é por meio de modelos do tipo supermultiplicador que introduzem gastos autônomos que não criam capacidade\footnote{Vale destacar que a inclusão de gastos autônomos que não criam capacidade produtiva não é suficiente para que um modelo seja qualificado enquanto um supermultiplicador, mas sim, o princípio do ajuste do estoque de capital. A importância desses gasto recai sobre a estabilidade do modelo.} em que o investimento é determinado pelo princípio de ajuste do estoque de capital \cites{serrano_long_1995}{serrano_sraffian_1995}{bortis_institutions_1996}\footnote{\textcite[p.~7]{allain_macroeconomic_2014} afirma que o modelo de \textcite{serrano_long_1995} elimina a instabilidade de Harrod por hipótese uma vez que as firmas preveem corretamente a trajetória da demanda efetiva. Argumenta-se que esta interpretação não está alinhada com o supermultiplicador proposto por \textcite{serrano_sraffian_1995} e, ao final deste capítulo, mostra-se que tal problema foi solucionado por meio de: (i) existência de gastos autônomos não criadores de capacidade e (ii) investimento induzido (princípio do ajuste de estoque de capital). No supermultiplicador sraffiano, portanto, a instabilidade não é eliminada por hipótese. Mais detalhes na seção \ref{Literatura}}.
+Ao apresentarem o modelo do Supermultiplicador Sraffiano em comparação ao modelo de \textcite{harrod_essay_1939}, \textcite{serrano_trouble_2017} argumentam que este é estaticamente instável enquanto o modelo do Supermultiplicador Sraffiano é fundamentalmente estável mas dinamicamente instável à depender da intensidade do ajuste da capacidade produtiva decorrente dos parâmetros do modelo\footnote{Para isso, retomam a definição de instabilidade de \textcite{hicks_contribution_1972} em que considera um modelo estaticamente estável quando não se afasta do equilíbrio enquanto a estabilidade dinâmica depende da intensidade. Destacam ainda que a estabilidade estática (direção) é condição necessária mas não suficiente para gerar estabilidade dinâmica.}.
+
+Uma observação importante é que apesar de \textcite[p.~23]{harrod_essay_1939} afirmar que existe uma única taxa de crescimento garantida, \textcite[p.~83]{robinson_model_1962} alerta que isso não implica que o investimento % Usado como sinônimo de crescimento
+deve se adequar a propensão marginal a poupar determinada \textit{a priori}. Argumenta que os modelos liderados pela demanda devem ser avaliados pelas respectivas formas de induzir o investimento uma vez que o Princípio da Demanda Efetiva é o denominador comum entre eles. Portanto, dadas as hipóteses compartilhadas, os respectivos  fechamentos\footnote{Entende-se por fechamento como variável que assume valores economicamente relevantes de tal forma a tornar determinada relação (e.g. taxa de lucro) válida. Em outras palavras, trata-se da última variável que é resolvida endogenamente. Desse modo, dizer que o fechamento de um modelo é estabelecido por uma variável (digamos, $j$) implica em dizer que $j$ é endógena. Além disso, por se tratar de um modelo generalizante de crescimento, dizer que distribuição de renda é exógena significa em ausência de simultaneidade entre distribuição e acumulação.} permitem uma análise comparativa mais apropriada do que a categorização de \textcite{allain_macroeconomic_2014} e por isso será adotada adiante. Para isso, a equação fundamental de Harrod é rearranjada para explicitar algumas relações.
+
+%%%% Importante
+%TODO
+% Fazendo uma alusão à terminologia de \textcite{kaldor_model_1957}, denomina-se aqui de \textbf{Hipótese Pós-Keynesiana} como a manutenção da autonomia do investimento criador de capacidade no longo prazo e será.
+
+As hipóteses enunciadas anteriormente são preservadas para evitar repetições desnecessárias. Adicionalmente, inclui-se a possibilidade de existência de gastos autônomos não criadores de capacidade produtiva para garantir a comparação entre os modelos analisados. Com essa hipótese adicional, a propensão média à poupar torna-se uma função tanto dos gastos autônomos ($Z$) quanto do produto:
+
+\begin{equation}
+\label{Poupanca_Super}
+    \frac{S}{Y} = s - \frac{Z}{Y}
+\end{equation}
+Seguindo a notação de \textcite{serrano_sraffian_1995}, seja $f$ a relação entre propensão média e marginal a poupar
+$$
+f = \frac{\frac{S}{Y}}{s}
+$$
+de modo que será igual a unidade quando forem idênticas. Nesses termos, a equação \ref{Fundamental} pode ser reescrita como:
+
+\begin{equation}
+ \label{Sintetica}   
+g_K = g_w = f\frac{s\cdot u}{\overline v}
+\end{equation}
+
+A equação acima permite comparar os modelos\footnote{Por padrão, as variáveis/parâmetros exógenos serão, $j$ por exemplo, serão denotados como $\overline j$.} analisados de modo a destacar a variável que garanta, 
+$$
+g_K = g
+$$
+a começar pelo de Cambridge.

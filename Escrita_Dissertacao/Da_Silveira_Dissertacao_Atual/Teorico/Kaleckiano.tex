@@ -1,0 +1,82 @@
+\subsection{Modelo kaleckiano}
+
+Os modelos de Cambridge analisados anteriormente discutiam as razões da estagnação de economia maduras.
+\textcite{steindl_stagnation_1979}, por sua vez, define maturidade como a inadequação da função de lucros diante da taxa de crescimento da economia em que o menor grau de utilização da capacidade em uma estrutura de mercado oligopolista (como em \textcite{kalecki_theory_1954}) acomoda essa menor taxa de investimento, explicando a estagnação. 
+
+Inspirados em grande parte pelas contribuições de \textcite{steindl_stagnation_1979}, surgem os modelos kaleckianos\footnote{Por conveniência, os modelos Neo-kaleckianos e pós-kaleckianos são referenciados como kaleckianos.} \cites{rowthorn_demand_1981}{dutt_stagnation_1984}{taylor_stagnationist_1985}{amadeo_role_1986}{bhaduri_unemployment_1990}. Seguindo a caracterização de \textcite[p.~790]{lavoie_kaleckian_1995}, tais modelos apresentam os seguintes elementos em comum: (i) o investimento é parcialmente induzido; (ii) os preços são definidos em relação aos custos diretos do trabalho (\textit{markup}, $\theta$); (iii) custos marginais constantes abaixo da plena utilização da capacidade; (iv) existe capacidade ociosa e grau de utilização é a variável de fechamento e; (v) não existem restrições no mercado de trabalho\footnote{Cabe aqui a menção de críticas a esta última hipótese em que a literatura tenta incorporar elementos da ofetar na análise, especialmente no que diz respeito ao mercado de trabalho. Para uma primeira aproximação do segundo problema de Harrod utilizando um aparato kaleckiano com gastos autônomos, ver \textcite{allain_demographic_2018}.}. 
+
+A hipótese adicional (ii) sobre determinação dos preços implica que a participação dos lucros na renda ($1-\omega$) é definida por:
+
+$$
+1- \omega = \frac{\theta}{1+\theta}
+$$
+logo, a distribuição de renda é exogenamente determinada por microfundamentos relacionados à estrutura de mercado. Dito isso e considerando os objetivos desta seção, a caracterização (iv) é apresentada em maiores detalhes.
+
+Nesta família de modelos, o investimento\footnote{Vale destacar que a função poupança não difere nesses modelos, mas pode ser modificada para permitir uma primeira aproximação  da distribuição pessoal da renda \cites{carvalho_personal_2016}{palley_wage-_2017}. A essência do modelo, como mencionado, está contida na função investimento \ref{InvestoKalecki}.} é determinado por:
+
+\begin{equation}
+    \label{InvestoKalecki}
+    \frac{I}{K} = \gamma + \gamma_u\cdot u + \gamma_{\pi}\pi = g
+\end{equation}
+em que $\gamma$ é a parcela autônoma do investimento, $\gamma_u$ representa a sensibilidade do investimento à mudanças no grau de utilização e $\gamma_{\pi}$ em relação ao \textit{profit-share}\footnote{Esse último termo é destacado para evidenciar a crítica de \textcite{bhaduri_unemployment_1990} que inaugura os modelos pós-kaleckianos. Argumenta-se a inclusão deste componente não altera o mecanismo de funcionamento do modelo, mas amplia os resultados possíveis.}. Partindo da versão mais simplificada em que o investimento induzido depende apenas do grau de utilização ($\gamma_{\pi} = 0$),  a equação \ref{InvestoKalecki} pode ser tratada em termos da equação \ref{Sintetica}:
+
+$$
+\gamma + \gamma_u\cdot u = \mybox{g = g_K} = f\frac{s u}{\overline v}
+$$
+Tal como no modelo de Cambridge, supõe-se que o componente autônomo do investimento seja exógeno ($\gamma = \overline \gamma$) e que a propensão marginal a poupar é definida exogenamente e idêntica a propensão média ($f=1$), ou seja
+
+$$
+\gamma_u\cdot u = \frac{\overline s u}{\overline v} - \overline \gamma
+$$
+rearranjando:
+$$
+u = \left(\frac{\overline s u}{\overline v} - \overline \gamma\right)\frac{1}{\gamma_u}
+$$
+
+\begin{equation}
+\label{FechKalecki}
+    \therefore u =  \left(\frac{\overline \gamma\cdot v}{\overline s - \gamma_u}\right)
+\end{equation}
+
+Nesses termos, a equação \ref{FechKalecki} explicita que o grau de utilização é a variável de fechamento do modelo. Grosso modo, tal exposição permite explicitar que quando a taxa de crescimento não for igual à garantida, o grau de utilização da capacidade necessariamente irá variar para adequar o equilíbrio dinâmico entre demanda e capacidade produtiva\footnote{Isso pode ser indicado a partir da equação que define o grau de utilização:
+$$
+u = \frac{Y}{Y_{FC}}
+$$
+calculando o diferencial total, obtém-se:
+$$
+\Delta u = \Delta Y\cdot Y_{FC} - \frac{Y}{\Delta Y_{FC}}
+$$
+dividindo por $u$ de modo a obter a taxa de crescimento do grau de utilização ($g_u$):
+$$
+g_u = g - g_{Y_{FC}}
+$$
+Como indicado no texto, quando a demanda e capacidade produtiva crescerem à taxas distintas ($g \neq g_{Y_{FC}}$), o grau de utilização irá necessariamente variar ($g_u \neq 0$).
+}.
+
+Antes de prosseguir para a análise do supermultiplicador sraffiano, é oportuno apresentar este modelo em sua forma ampliada (\textit{à la} \textcite{bhaduri_unemployment_1990}) para ilustrar como a literatura empírica trata de algumas questões. Partindo da identidade entre poupança e investimento e seguindo a formalização de \textcite[Cap, 6]{lavoie_post-keynesian_2015}, obtém-se o grau de utilização que fecha o modelo no curto prazo:
+
+\begin{equation}
+\label{KaleckiSR}
+    u^{*} = \frac{\gamma + \gamma_{\pi}(1-\omega)}{s\cdot (1-\omega) - v\gamma_u}
+\end{equation}
+em que $\frac{s(1-\omega)}{v} - \gamma_u$ indica a condição de estabilidade (Keynesiana) do modelo em que o investimento precisa ser menos sensível do que a poupança à mudanças no nível de atividade\footnote{Para uma crítica à ausência de relações entre crescimento e distribuição assim como às limitações do debate \textit{wage/profit-led} em um aparato
+Harrodiano, 
+ver 
+\textcite{skott_weaknesses_2017}.}.
+
+Dito isso, é necessário uma  caracterização adicional. O grau de utilização pode reagir de formas distintas à mudanças na distribuição funcional da renda. Deste modelo, emergem regimes de acumulação a depender da relações (unidirecionais) entre distribuição de renda e crescimento. Utilizando a terminologia convencional, se um aumento da participação dos lucros na renda implicar em maiores taxas de crescimento, tal economia apresenta uma dinâmica \textit{profit-led} enquanto um regime \textit{wage-led} é caracterizado pelo inverso. Esquematicamente:
+
+\begin{center}
+$$
+\begin{cases}
+\gamma_u > \gamma_{\pi}:\frac{dg}{d\omega} > 0\hspace{2cm} \text{\textit{Wage-led}}\\
+\gamma_u < \gamma_{\pi}:\frac{dg}{d\omega} < 0 \hspace{2cm} \text{          \textit{Profit-led}}
+\end{cases}
+$$
+\end{center}
+para que aumentos na participação dos salários na renda gerem efeitos positivos sobre a taxa de crescimento, é preciso que o investimento seja mais sensível à mudanças no grau de utilização do que à participação dos lucros, configurando um regime \textit{wage-led}\footnote{
+Partindo de um modelo sensivelmente diferente do apresentado, \textcite{dutt_stagnation_1984} argumenta que dada uma estrutura de mercado oligopolista, há uma relação positiva entre taxa de crescimento e melhora distributiva. Nesses termos, afirma que a estagnação da economia indiana pode ser explicada como resultado de uma piora na distribuição de renda assim como maior concentração industrial. No entanto, por não incluir o parâmetro $\gamma_\pi$ só é possível que o regime seja \textit{wage-led}.}.  Caso prevaleça o inverso, diz-se que é um regime de acumulação \textit{profit-led}\footnote{\textcite{bhaduri_unemployment_1990} incluem ramificações destas duas possibilidades que não serão exploradas em maior detalhe por não alterarem o mecanismo do modelo.}.
+
+A qualificação anterior trata dos efeitos sobre a taxa de acumulação, que podem ser positivos ou negativos a depender da sensibilidade do investimento ao \textit{profit-share} ($\gamma_{\pi}$), resta analisar os efeitos sobre o grau de utilização. Nesses modelos, existe sempre uma relação negativa entre participação dos lucros na renda e nível de atividade/taxa de lucros (ver equação \ref{Decomposicao_Lucro}). Resumidamente, a taxa de lucro depende negativamente da participação dos lucros enquanto a relação entre taxa de acumulação e participação dos lucros não é definida \textit{à priori}, como sugere \textcite{bhaduri_unemployment_1990}, mas depende de parâmetros estruturais e isso faz com que surja uma vasta literatura kaleckiana empírica\footnote{\textcite{pariboni_autonomous_2015} ressalta que a convergência para uma discussão empírica na literatura kaleckiana sugere que as questão teóricas tornem-se de uma magnitude menor. Este capítulo, em linha com este autor, pretende fazer uma discussão essencialmente teórica e este tema será endereçado em maiores detalhes na seção \ref{Literatura}.}.
+
+Não cabe à essa seção elencar se a literatura heterodoxa (majoritariamente kaleckiana) categoriza as economias como \textit{wage} ou \textit{profit-led}\footnote{Ver \textcites{blecker_distribution_2002}{onaran_is_2013} para um  \textit{survey} sobre o tema e \textcite{blecker_wage_led_2016} para uma discussão sobre a importância da temporalidade do regime de crescimento enquanto \textcite{lavoie_origins_2017} apresenta as origens deste debate.} e sim ressaltar algumas  características essenciais dessa família de modelos. Grosso modo, mudanças na distribuição funcional da renda têm impactos \textbf{persistentes} sobre a taxa de crescimento. Nas versões mais convencionais, tais modelos defendem que não existem razões para que o grau de utilização convirja ao normal\footnote{Como será analisado em mais detalhes na seção \ref{debate}, a literatura kaleckiana tem feito esforços para destacar que mesmo se o grau de utilização convergir ao normal, as características essenciais desses modelos ainda são preservadas.}. Esses são dois pontos de conflito entre o modelo kaleckiano tradicional e o supermultiplicador sraffiano. A subseção seguinte aborda esta outra proposta à instabilidade de Harrod.

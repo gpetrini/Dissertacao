@@ -1,0 +1,350 @@
+% FIXME Ao final, deixe descomentada a linha correspondente ao numero de paginas
+% que a sua defesa possui.
+\documentclass[
+% -- op\c{c}\~{o}es da classe memoir --
+12pt,				% tamanho da fonte
+openright,			% cap\'{\i}tulos come\c{c}am em p\'{a}g \'{\i}mpar (insere p\'{a}gina vazia caso preciso)
+oneside,			% para impress\~{a}o em verso e anverso. Oposto a oneside
+a4paper,		% tamanho do papel.
+% -- op\c{c}\~{o}es da classe abntex2 --
+%chapter=TITLE,		% t\'{\i}tulos de cap\'{\i}tulos convertidos em letras mai\'{u}sculas
+%section=TITLE,		% t\'{\i}tulos de se\c{c}\~{o}es convertidos em letras mai\'{u}sculas
+%subsection=TITLE,	% t\'{\i}tulos de subse\c{c}\~{o}es convertidos em letras mai\'{u}sculas
+%subsubsection=TITLE,% t\'{\i}tulos de subsubse\c{c}\~{o}es convertidos em letras mai\'{u}sculas
+% -- op\c{c}\~{o}es do pacote babel --
+english,			% idioma adicional para hifeniza\c{c}\~{a}o
+%french,			% idioma adicional para hifeniza\c{c}\~{a}o
+%spanish,			% idioma adicional para hifeniza\c{c}\~{a}o
+brazil,				% o \'{u}ltimo idioma \'{e} o principal do documento
+sumario=tradicional,
+]{abntex2}
+%==================================================================================================
+%                                   PACOTES
+%==================================================================================================
+\input{Interno/Dissertacao_pacotes.tex}  % Arquivo com os pacotes.
+%==================================================================================================
+%                                   DADOS PESSOAIS
+%==================================================================================================
+% FIXME Substituir 'Nome completo do aluno' pelo seu nome.
+\autor{Gabriel Petrini da Silveira}
+
+
+% FIXME Substituir 'Título da defesa' pelo título da defesa.
+%\titulo{Título da defesa}
+% FIXME Se estiver no programa de mestrado, descomente a linha a seguir.
+%\def\mestrado{}
+% FIXME Deixe descomente apenas a linha referente ao departamento.
+% \def\matematica{}
+%\def\aplicada{}
+% \def\estatistica{}
+% TODO Definir Instituto de Economia.
+%\def\economia{}
+
+% FIXME Substituir 'Nome completo do orientador' pelo nome completo do seu
+% orientador.
+\orientador{Lucas Azeredo da Silva Teixeira}
+
+% TODO Definir Nome Co-orientador.
+% FIXME Substituir 'Nome completo do coorientador' pelo nome completo do seu
+% coorientador. Caso não tenha coorientador, comente a linha a seguir.
+%\newcommand{\coorientador}{Franklin Leon Peres Serrano}
+% FIXME Se for coorientado por uma mulher, descomente a linha a seguir.
+% \def\femaleCoorientador{}
+
+% Warning Pode mudar.
+% FIXME Substituir 'Ano' pelo ano em que ocorreu sua defesa.
+%\newcommand{\ano}{2019}
+
+%==================================================================================================
+%                                   CONFIGURAÇÕES DA DISSERTAÇÃO
+%==================================================================================================
+%%%%%%%%%%%%%%%%%%%%%%%%%%% Configuração: definições %%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{Interno/Dissertacao_configuracao}  % Arquivo com algumas configurações.
+% ---- compila o \'{\i}ndice  ----
+\makeindex
+%\makeglossaries
+% ---
+
+%==================================================================================================
+%                                   INÍCIO DA DISSERTAÇÃO
+%==================================================================================================
+\begin{document}	
+% Retira espa\c{c}o extra obsoleto entre as frases.
+\frenchspacing
+	
+% ---- ELEMENTOS PR\'{E}-TEXTUAIS ----
+\frontmatter
+\pagenumbering{roman}
+%\setcounter{page}{}
+%==================================================================================================
+%                                   CAPA DA DISSERTAÇÃO
+%==================================================================================================
+\imprimircapa
+%==================================================================================================
+%                                   FOLHA DE ROSTO
+%==================================================================================================
+% WARNING A folha de rosto precisa ser assinada pelos orientadores.
+% FIXME Substitua arquivo folha-de-rosto.pdf por uma copia escaneada, comente
+% esta linha e descomente a próxima.
+% TODO Escanear Folha de rosto e mudar nome do arquivo.
+%\input{Dissertacao_folha-de-rosto}
+% \includepdf{folha-de-rosto.pdf}
+%
+
+\imprimirfolhaderosto
+
+%==================================================================================================
+%                                   FICHA CATALOGRÁFICA
+%==================================================================================================
+% WARNING A ficha catalográfica deve estar no verso da folha de rosto.
+% FIXME O arquivo ficha-catalografica.pdf deve ser sobrescrito com uma cópia
+% do arquivo pdf que a biblioteca lhe enviar.
+% TODO Pedir Ficha Catalográfica e mudar nome do arquivo.
+%\includepdf{Dissertacao_ficha-catalografica}
+% ---
+
+% --- Inserir a ficha catalogr\'{a}fica ---
+%\includepdf{ficha_catalografica.pdf}
+
+% --- Para a vers\~{a}o final, delete as linhas abaixo e insira a linha do \includepdf
+\begin{fichacatalografica}
+	\vspace*{\fill}
+	\begin{center}
+		\textsc{Inclua aqui o pdf com a ficha catalogr\'{a}fica fornecida pela BAE.}
+	\end{center}
+\vspace*{\fill}
+	% --- --- ---
+	%\includepdf{ficha-catalografica.pdf}
+\end{fichacatalografica}
+%==================================================================================================
+%                                   FOLHA DE APROVAÇÃO
+%==================================================================================================
+% WARNING A folha de aprovação deve ser assinada pelos membros da banca apos a
+% defesa.
+% TODO Incluir folha de aprovação escaneada e alterar nome do arquivo.
+% FIXME Substitua o arquivo folha-de-aprovacao.pdf por uma copia escaneada.
+%\includepdf{Dissertacao_folha-de-aprovacao}
+	
+	% --- Inserir folha de aprova\c{c}\~{a}o ---
+	%\includepdf{folha_de_assinaturas_oficial.pdf}
+	
+	% Isto \'{e} um exemplo de Folha de aprova\c{c}\~{a}o, elemento obrigat\'{o}rio da NBR
+	% 14724/2011 (se\c{c}\~{a}o 4.2.1.3). Voc\^{e} pode utilizar este modelo at\'{e} a aprova\c{c}\~{a}o
+	% do trabalho. Ap\'{o}s isso, substitua todo o conte\'{u}do deste arquivo por uma
+	% imagem da p\'{a}gina assinada pela banca com o comando abaixo:
+	
+	% --- Na vers\~{a}o final, exclua essas linhas e insira o \includepdf
+%==================================================================================================
+%                                   FOLHA DE ASSINATURAS
+%==================================================================================================
+\newpage
+\vspace*{\fill}
+\begin{center}
+	\textsc{Inclua aqui a folha de assinaturas.}
+\end{center}
+\vspace*{\fill}
+\newpage
+% --- --- ---
+%\includepdf[pagecommand={\thispagestyle{plain}}]{folha-assinaturas.pdf}	
+%\cleardoublepage
+\newpage
+
+%==================================================================================================
+%                                   DEDICATÓRIA
+%==================================================================================================
+% FIXME Se não for incluir a dedicatória, comentar a linha abaixo.
+%\input{Dissertacao_dedicatoria}
+%
+% ---
+
+%% --- Dedicat\'{o}ria ---
+\begin{dedicatoria}
+	\vspace*{\fill}
+	\centering
+	\noindent
+	\textit{Dedico esta tese \`{a} todo mundo.}
+	\vspace*{\fill}
+\end{dedicatoria}
+%\setcounter{page}{}
+%% ---
+%==================================================================================================
+%                                   AGRADECIMENTOS
+%==================================================================================================
+% FIXME Se não for incluir os agradecimentos, comentar a linha abaixo.
+%\input{Dissertacao_agradecimentos}
+%% --- Agradecimentos ---
+\begin{agradecimentos}
+	Escreva seus agradecimentos.
+	
+	
+	\lipsum[1-3]
+\end{agradecimentos}
+
+%
+
+%==================================================================================================
+%                                   RESUMOS E ABSTRACT
+%==================================================================================================
+\begin{resumo}
+
+Insira seu resumo.
+
+\lipsum[1]
+
+\vspace{\onelineskip}
+
+\noindent\textbf{Palavras-chaves}: palavra-chave 1; palavra-chave 2; palavra-chave 3.
+
+\vspace{\onelineskip}
+\vspace{\onelineskip}
+\begin{otherlanguage*}{english}
+	\begin{center}{\ABNTEXchapterfont\huge Abstract}\end{center}
+	
+	This thesis analyses the dynamics of household investment and the impacts of credit crunch using a Sraffian Supermultiplier Stock-Flow Consistent (SSM-SFC) model based on the U.S. economy (1980-2000). The first chapter presents a brief review of recent literature of heterodox growth models focusing on the neo-Kaleckian and sraffian supermultiplier models. The second chapter highlights stylezed facts for the American economy which support the idea that non‐capacity generating expenditures, mainly household investment, led the economic growth. In the third chapter, a SSM-SFC model with asset price bubbles is simulated to analyse the effects of some shocks such as  changes in income distribution, house prices dynamics,  and interest rate of loans.     
+	
+	\vspace{\onelineskip}
+	
+	\noindent\textbf{Keywords}: keyword 1; keyword 2; keyword 3. 
+	
+\end{otherlanguage*}
+\end{resumo}
+%==================================================================================================
+%                                   EPÍGRAFE
+%==================================================================================================
+
+%% --- Ep\'{\i}grafe  ---
+\begin{epigrafe}
+	\vspace*{\fill}
+	\begin{flushright}
+		\textit{``Não está ao meu alcance criar uma sociedade ideal. Contudo, está ao meu alcance descrever o que, na sociedade existente, não é ideal para nenhuma espécie de existência humana em sociedade.''\\
+			(Florestan Fernandes)}
+	\end{flushright}
+\end{epigrafe}
+%\cleardoublepage
+\newpage
+%% ---
+
+%==================================================================================================
+%                                   ÍNDICE
+%==================================================================================================
+\tableofcontents*
+%\cleardoublepage
+\newpage
+%
+%
+%
+%==================================================================================================
+%                                   LISTA DE ILUSTRAÇÕES
+%==================================================================================================
+\pdfbookmark[0]{\listfigurename}{lof}
+\listoffigures*
+\addcontentsline{toc}{chapter}{Lista de Ilustrações}
+%\cleardoublepage
+\newpage
+%% ---
+%
+%==================================================================================================
+%                                   LISTA DE TABELAS
+%==================================================================================================
+\pdfbookmark[0]{\listtablename}{lot}
+\listoftables*
+\addcontentsline{toc}{chapter}{Lista de Tabelas}
+%\cleardoublepage
+\newpage
+%% ---
+%
+%==================================================================================================
+%                                   LISTA DE VARIÁVEIS
+%==================================================================================================
+\input{Interno/Dissertacao_Variaveis}
+\addcontentsline{toc}{chapter}{Lista de Variáveis}
+
+%==================================================================================================
+%                                   ABREVIAÇÕES
+%==================================================================================================
+% FIXME Comentar a linha abaixo de não for apresentar as
+% abreviações e siglas utilizadas.
+\input{Interno/Dissertacao_abreviacoes}
+\addcontentsline{toc}{chapter}{Lista de Abreviaturas e Siglas}
+%\cleardoublepage
+\newpage
+%
+%==================================================================================================
+%                                   SÍMBOLOS
+%==================================================================================================
+% FIXME Comentar a linha abaixo se não for apresentar os
+% símbolos utilizados.
+%\input{Dissertacao_simbolos}
+%==================================================================================================
+%                                   ALGORITMOS
+%==================================================================================================
+% FIXME Comentar a linha abaixo se não desejar listar os algoritmos
+% apresentados.
+%\listofalgorithms
+%==================================================================================================
+%                                   CÓDIGO
+%==================================================================================================
+% FIXME Comentar a linha abaixo se não desejar listar os trechos de código
+% apresentados.
+%\lstlistoflistings
+%==================================================================================================
+%                                   NUMERAÇÃO
+%==================================================================================================
+% As paginas com o conteúdo da tese são numeradas com algoritmos arábicos.
+%\mainmatter
+% TODO Corrigir numeração romana antes da dissertação
+%
+%==================================================================================================
+%                                   CAPÍTULOS DA DISSERTAÇÃO
+%==================================================================================================
+% ---- ELEMENTOS TEXTUAIS ----
+\mainmatter
+\cleardoublepage\pagenumbering{arabic}
+\setcounter{page}{14}
+\input{Introducao/Quali.tex}
+\input{Teorico/Teorico.tex}
+%\input{Fatos_Estilizados/Fatos.tex}
+%\input{Modelo/Modelo.tex}
+\input{Modelo/ModeloSimples.tex}
+
+
+%==================================================================================================
+%                                   REFERÊNCIAS DA DISSERTAÇÃO
+%==================================================================================================
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{chapter}
+
+\printbibliography{}
+%
+
+%==================================================================================================
+%                                   APÊNDICES DA DISSERTAÇÃO
+%==================================================================================================
+\newpage
+\appendix
+\input{Modelo/Apendice_Fraction.tex}
+%==================================================================================================
+%                                   ANEXOS DA DISSERTAÇÃO
+%==================================================================================================
+% TODO Se não for utilizar anexos nem uma licença Creative Commons, comentar a linha abaixo.
+\annex
+
+%==================================================================================================
+%                                   TIPO DE LICENÇA DA DISSERTAÇÃO
+%==================================================================================================
+% TODO Especificar tipo de licença.
+% FIXME Escolher, opcionalmente, uma das licença Creative Commons abaixo.
+% Para isso remova a linha correspondente a licença não desejada.
+%\input{cc-by}  % Creative Commons Atribuição 3.0 Não Adaptada
+\input{cc-by-sa}  % Creative Commons AtribuiçãoCompartilhaIgual 3.0 Não Adaptada
+%
+%==================================================================================================
+%                                  ÍNDICE REMISSIVO DA DISSERTAÇÃO
+%==================================================================================================
+\clearpage
+\backmatter
+\phantomsection
+\addcontentsline{toc}{chapter}{Índice Remissivo}
+\printindex
+\end{document}

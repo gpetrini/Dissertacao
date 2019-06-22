@@ -1,0 +1,69 @@
+\section{Solução analítica}
+
+Apresentada a estrutura do modelo, resta expor a solução analítica de modo que fiquem explicitadas as condições de estabilidade bem como as relações dinâmicas entre as variáveis. Para obter o nível da renda de longo prazo, basta substituir \ref{_C}, \ref{_It} em \ref{_Y} para então substituir \ref{_W}, \ref{_If} e considerar $I_h = Z$ como em \ref{_Z}:
+\begin{equation}
+    \label{AnaliticaNivel}
+    Y = \left(\frac{1}{1-\omega - h}\right)Z
+\end{equation}
+cujo termo em parênteses além de ser o supermultplicador, fornece as condições para que o modelo seja estável:
+\begin{equation}
+    \label{EstabilidadeNivel}
+     \omega + h < 1
+\end{equation}
+A condição \ref{EstabilidadeNivel}, como em \textcite{freitas_growth_2015}, significa que a propensão marginal a gasta (consumir e investir) seja menor que a unidade, caso contrário, vigora-se a lei de Say. Outra condição presente na equação \ref{AnaliticaNivel} é
+$$
+Z > 0
+$$
+e, portanto, não admite solução assintótica como a de \textcite{allain_macroeconomic_2014}.
+
+Dito isso, resta apresentar o modelo em termos de crescimento. Partindo contribuição dos componentes da demanda para a variação da renda e resolvendo para a taxa de crescimento, obtém-se
+$$
+g = g\cdot \omega + \Delta h + g\cdot h + g_Z\cdot \frac{Z}{Y}
+$$
+\begin{equation}
+    g = \frac{\Delta h}{1 - \omega - h} + g_Z
+\end{equation}
+Como indicado anteriormente, a propensão marginal a investir se ajusta de acordo com o princípio do estoque de capital e, dessa forma, quando o grau de utilização convergir ao normal, a taxa de crescimento da economia tende a taxa de crescimento dos gastos autônomos (neste caso, investimento residencial) definida exogenamente. Dito isso, a propensão marginal a investir necessária é
+$$
+h = \overline g_Z\frac{\overline v}{\overline u_N}
+$$
+que, como mostram \textcite{fagundes_role_2017}, explicita a relação positiva entre taxa de investimento das firmas e crescimento. 
+
+%%%%%%%%%%%%%%%%%% Ponte para apêndice
+
+Tal exposição, no entanto, não se distingue da apresentada por \textcite{freitas_growth_2015} uma vez que formalização é semelhante em que o investimento residencial assume o papel dos gastos autônomos. A principal diferença é que este gasto autônomo também forma o estoque de capital da economia que, diferentemente do capital das firmas, não cria capacidade produtiva. Resta, portanto, explicitar a dinâmica entre este dois estoques de capital distintos, captados por $\theta$. A equação que define o grau de utilização da capacidade pode ser reescrita como
+
+\begin{equation}
+\label{_uAltern}
+    u = \frac{Y\cdot v}{K \cdot k}
+\end{equation}
+enquanto a renda normalizada pelo estoque de capital das \textit{famílias} é
+$$
+\frac{Y}{(1-k)\cdot K}
+$$
+e multiplicando pela relação técnica capital-produto,
+$$
+\frac{Y}{(1-k)\cdot K}\cdot v 
+$$
+$$
+\frac{Y\cdot v}{K}\cdot \left(\frac{1}{1-k}\right)
+$$
+multiplicando tanto o numerador quanto o denominador por $k$, obtém-se a relação entre os imóveis e grau de utilização
+$$
+\frac{Y\cdot v}{K\cdot k}\cdot \left(\frac{k}{1-k}\right) = u \cdot \left(\frac{k}{1-k}\right)
+$$
+Portanto,
+$$
+Y\frac{v}{K_h} =  u \cdot \left(\frac{k}{1-k}\right)
+$$
+
+Por fim, partindo da definição alternativa do grau de utilização (Eq. \ref{_uAltern}), ou seja, dividindo a equação \ref{AnaliticaNivel} pelo estoque de capital das famílias e multiplicando pela relação técnica capital produto,
+$$
+u = \frac{g_Z v (1-k)}{k (1 - \alpha \omega - h)}
+$$
+é possível explicitar a relação entre ambos os estoques de capital:
+\begin{equation}
+    \label{AnaliticaTau}
+    \frac{k}{1-k} = \frac{g_Z v}{u (1-\alpha \omega - h)}
+\end{equation}
+Esta solução analítica mostra que a participação do estoque de capital criador de capacidade no total depende positivamente do multiplicador e da taxa de crescimento dos gastos autônomos e negativamente do grau de utilização da capacidade. Tais resultados, no entanto, estão em linha com o supermultiplicador sraffiano uma vez que quanto maior $g_Z$, menor será a participação dos gastos autônomos na renda e que mudanças na distribuição (isto é, alterações no multiplicador) terão efeito nível apenas. Por fim, quanto maior o grau de utilização, menor será a propensão marginal a investir dada a convergência da taxa de crescimento da economia a taxa de crescimento dos gastos autônomos de modo que tal aumento em $u$ é transitório. Compreendidas as relações entre as variáveis através da solução analítica, cabe a seção seguinte simular o modelo.

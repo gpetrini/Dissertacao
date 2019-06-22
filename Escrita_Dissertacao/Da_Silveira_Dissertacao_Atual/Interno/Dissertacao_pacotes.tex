@@ -1,0 +1,176 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Pacotes: básicos %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+\usepackage{cmap}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{indentfirst}
+
+\usepackage{collectbox}
+
+\makeatletter
+\newcommand{\mybox}{%
+    \collectbox{%
+        \setlength{\fboxsep}{1pt}%
+        \fbox{\BOXCONTENT}%
+    }%
+}
+\makeatother
+
+
+\usepackage[top=3cm,bottom=3cm,right=2cm,left=2cm]{geometry}
+% Para corrigir 'babel/polyglossia' detected but 'csquotes' missing.
+\usepackage{csquotes}
+% Para corrigir:  '<namepart>inits' conflicts with 'uniquename=full'. - uniquename=init
+\usepackage[backend=biber,%
+	style = abnt,%
+	noslsn, %
+	isbn = false,
+	url = false,
+	extrayear, %
+	uniquename=init,% 
+	giveninits, %
+	justify, %
+	sccite,% 
+	scbib, %
+	sorting=nyt,
+	repeattitles, %
+	maxcitenames=3]{biblatex}
+\addbibresource{Bibliografia_Dissertacao/Bibliografia_Dissertacao.bib}
+
+
+%%%%%%%%%%%%%%%%%% Usar cites
+\makeatletter
+\renewbibmacro*{cite:init}{%
+  \ifnumless{\value{multicitecount}}{2}%
+    {\global\boolfalse{cbx:parens}%
+     \global\undef\cbx@lasthash%
+     \global\undef\cbx@lastyear}%
+    {}}%
+\makeatother
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Pacotes: layoyt %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{etoolbox}  % É preciso para mudar o layout do frontmatter
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Pacotes: links %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{url}
+%\usepackage{breakurl} %Pacote incompatível
+\usepackage{hyperref}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Pacotes: ams %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{breqn}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Pacotes: tabelas %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{booktabs}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Pacotes: cores %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+\usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Pacotes: figuras %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+\usepackage{pdfpages}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{calc,trees,positioning,arrows,chains,shapes.geometric,%
+    decorations.pathreplacing,decorations.pathmorphing,shapes,%
+    matrix,shapes.symbols,through}
+
+\usetikzlibrary{fit}
+\usepackage{wrapfig}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Pacotes: algoritmos %%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+\usepackage{algorithmic}
+\usepackage[chapter]{algorithm}
+\floatname{algorithm}{Algoritmo}
+\renewcommand{\listalgorithmname}{Lista de Algoritmos}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Pacotes: códigos %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+\usepackage{textcomp}
+\usepackage{listings}
+\renewcommand\lstlistingname{Código}
+\renewcommand\lstlistlistingname{Lista de Códigos}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Pacotes: index %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+\usepackage{makeidx}
+\makeindex
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Pacotes: fontes %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+\usepackage{lmodern} \normalfont
+\DeclareFontShape{T1}{lmr}{bx}{sc} { <-> ssub * cmr/bx/sc }{}
+\usepackage{mathrsfs}
+
+
+% TODO Inserir pacotes adicionais aqui.
+%==================================================================================================
+%                                   OUTROS PACOTES
+%====================================================================================
+%\usepackage[english, brazil]{babel}
+\usepackage{lastpage}			      % Usado pela Ficha catalogr\'{a}fica
+\usepackage{color}				      % Controle das cores
+\usepackage{epstopdf}           % Pacote que converte as figuras em eps para pdf
+\usepackage{lipsum}             % Pacote que gera texto dummy
+\usepackage{blindtext}          % Pacote que gera texto dummy
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{multirow}
+\usepackage{longtable}
+\usepackage{lscape}
+\usepackage{array}
+\usepackage{tikz}
+\usepackage{venndiagram}
+\usepackage[bottom]{footmisc} % Para nota de rodapé no fim da página
+\usepackage{chngcntr}
+\counterwithin{equation}{section}
+
+%customiza\c{c}\~{a}o do negrito em ambientes matem\'{a}ticos
+\newcommand{\mb}[1]{\mathbf{#1}}
+\newcommand{\abs}[1]{\left|#1\right|}
+\newcommand{\norm}[1]{\left\|#1\right\|}
+\newcommand{\partialorder}{\cdot \geq}
+\newcommand{\h}{\mathrm{h}}
+\newcommand{\x}{\mathrm{x}}
+\newcommand{\z}{\mathrm{z}}
+\newcommand{\entropia}[1]{H{(#1)}}
+%customiza\c{c}\~{a}o de teoremas
+\newtheorem{mydef}{Defini\c{c}\~{a}o}[chapter]
+\newtheorem{lemm}{Lema}[chapter]
+\newtheorem{theorem}{Teorema}[chapter]
+%Fontes em times
+\setlength{\parskip}{\onelineskip}
+\usepackage{mathptmx}
+\renewcommand{\ABNTEXchapterfont}{\rmfamily\bfseries}
+%\usepackage[nottoc]{tocbibind} % Evita auto-referencia do sumário %Solução: \tableofcontents*
+
+
+
+
+%==================================================================================================
+%                                   CUSTOMIZAÇÃO UNICAMP
+%====================================================================================
+\usepackage{unicamp}
+% ---
+% Espa\c{c}amentos entre linhas e par\'{a}grafos
+% ---
+\linespread{1.3}
+
+% O tamanho do par\'{a}grafo \'{e} dado por:
+\setlength{\parindent}{2.0cm}
+
+% Controle do espa\c{c}amento entre um par\'{a}grafo e outro:
+\setlength{\parskip}{0.2cm}  % tente tamb\'{e}m \onelineskip
+
+

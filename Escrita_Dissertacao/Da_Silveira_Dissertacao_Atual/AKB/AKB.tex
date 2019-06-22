@@ -1,0 +1,176 @@
+\documentclass[
+% -- opções da classe memoir --
+article,			% indica que é um artigo acadêmico
+12pt,				% tamanho da fonte
+a4paper,			% tamanho do papel. 
+hidelinks,
+oneside,
+% -- opções da classe abntex2 --
+%chapter=TITLE,		% títulos de capítulos convertidos em letras maiúsculas
+%section=TITLE,		% títulos de seções convertidos em letras maiúsculas
+%subsection=TITLE,	% títulos de subseções convertidos em letras maiúsculas
+%subsubsection=TITLE % títulos de subsubseções convertidos em letras maiúsculas
+% -- opções do pacote babel --
+english,			% idioma adicional para hifenização
+brazil				% o último idioma é o principal do documento
+]{abntex2}
+
+\usepackage[brazil]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}%deve ser usado utf8 ao invés de latin1
+\usepackage{mathptmx}
+\usepackage[top=3cm, bottom=2cm, right=3cm,left=2cm ]{geometry}
+\usepackage{setspace}
+\usepackage{float}
+
+\usepackage{url}            % simple URL typesetting
+\usepackage{caption}
+\usepackage{graphicx}
+\usepackage{indentfirst}
+\usepackage{csquotes}
+\usepackage[title]{appendix}
+\usepackage[raggedright]{titlesec}
+
+\titleformat{\paragraph}[hang]{\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}
+\titlespacing*{\paragraph}{0pt}{3.25ex plus 1ex minus .2ex}{0.5em}
+
+
+\usepackage[backend=biber,%
+	style = abnt,%
+	bftitles,
+	noslsn, %
+	%extrayear, %
+	uniquename=init,% 
+	giveninits, %
+	%justify, %
+	%sccite,% 
+	%scbib, %
+	sorting=nyt,
+	repeattitles, %
+	doi=false,
+	isbn=false,
+	url=false,
+	maxcitenames=3]{biblatex}
+\addbibresource{../Bibliografia_Dissertacao/Bibliografia_Dissertacao.bib}
+
+
+\makeatletter
+\renewbibmacro*{cite:init}{%
+  \ifnumless{\value{multicitecount}}{2}%
+    {\global\boolfalse{cbx:parens}%
+     \global\undef\cbx@lasthash%
+     \global\undef\cbx@lastyear}%
+    {}}%
+\makeatother
+
+\titulo{Artigo AKB 2019}
+
+\autor{
+ Gabriel Petrini da Silveira\thanks{Mestrando em Economia.
+  Instituto de Economia - Unicamp. E-mail: \url{gpetrinidasilveira@gmail.com}} \\ 
+  \And
+  Lucas Azeredo da Silva Teixeira\thanks{Instituto de Economia - Unicamp.}}
+  
+\date{28 a 30 de Agosto de 2019}
+
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+\begin{SingleSpace}
+RESUMO
+\end{SingleSpace}
+\end{abstract}
+
+\hfill \break
+
+\noindent\textbf{Palavras-Chave:} 1; 2; 3.
+
+\hfill \break
+
+\noindent\textbf{JEL:}  1; 2
+
+\selectlanguage{english} 
+\begin{abstract}
+\begin{SingleSpace}
+This article analyses the dynamics of household investment using a SSM-SFC  model  based  on  the  U.S.  economy (1980-2000). 
+From the literature review, we highlight the negligence regarding the treatment given to residential investment. With this gap in mind, a SSM-Stock-Flow Consistent (thereafter SSM-SFC) is modeled to initiate a research area towards the endogeinization of this autonomous expenditure. Considering this objectives,  the article proceeds as follows.
+The first section highlights stylezed facts for the American economy which support the idea that non-capacity generating expenditures, mainly household investment, led the economic growth and determinates the cycle.
+The second section presents a review of heterodox growth models.  Finally, a SSM-SFC model with two sorts of capital stock is simulated to analyse the effects of changes in income distribution, interest rates and autonomous growth rate. The results are: (i) changes in income distribuition affect the growth rate only during the tranverse; (ii) increases in interest rates  do not have an affect on the long run; (iii) house stock ratio decreases as a result of the overall increase in productive capacity; (iv) long-run growth rate is affected only by autonomous expenditures (household investment).  Therefore, this model introduces housing on sraffian supermultiplier agenda and extends the range of autonomous expenditures alternatives.
+\end{SingleSpace}
+\end{abstract}
+\selectlanguage{brazil} 
+
+\hfill \break
+
+\noindent\textbf{Palavras-Chave:} 1; 2; 3.
+
+\singlespace
+\textual
+
+\input{AKB/AKB_Intro.tex}
+\input{AKB/Empiria.tex}
+\input{AKB/AKB_Teorico.tex}
+\input{../Modelo/ModeloSimples.tex}
+\input{AKB/AKB_Conclusao.tex}
+
+\printbibliography{}
+
+\begin{appendices}
+\section{Anexo}
+\label{append}
+
+
+
+\begin{figure}[htb]
+    \centering
+    \label{choque_2}
+    \caption{Efeito da variação da distribuição de renda a favor dos salários}
+    \includegraphics{Modelo/Shock_2.png}
+    \caption*{\textbf{Fonte:} Elaboração própria}
+\end{figure}
+
+
+
+\begin{figure}[htb]
+    \centering
+    \label{choque_3}
+    \caption{Efeito de um aumento na taxa de juros dos depósitos}
+    \includegraphics{Modelo/Shock_3.png}
+    \caption*{\textbf{Fonte:} Elaboração própria}
+\end{figure}
+
+
+\begin{table}[htb]
+\tiny
+    \centering
+    \caption{Resumo das simulações}
+    \label{Resumo_Simulacao}
+         \begin{tabular}{ccccc}
+\toprule
+{} &  Base scenario &  $\Delta g_Z$ &  $\Delta \omega$ &  $\Delta rm$ \\
+\midrule
+\textbf{$\alpha$    } &          1,000 &         1,000 &            1,000 &        1,000 \\
+\textbf{$g_Ih$     } &          0,050 &         0,060 &            0,050 &        0,050 \\
+\textbf{$\gamma_F$  } &          0,400 &         0,400 &            0,400 &        0,400 \\
+\textbf{$\gamma_u$  }\footnote{Vale mencionar que o valor deste parâmetro é fundamental para garantir a estabilidade do modelo. Os resultados obtidos com as simulações retornaram que valores maiores que 0.07, mantendo os demais parâmetros fixos, impedem que o modelo não colapse.}
+                      &          0,010 &         0,010 &            0,010 &        0,010 \\
+\textbf{$g_k$       } &          0,050 &         0,060 &            0,050 &        0,050 \\
+\textbf{$g_Z$       } &          0,050 &         0,060 &            0,050 &        0,050 \\
+\textbf{$h$        } &          0,156 &         0,187 &            0,156 &        0,156 \\
+\textbf{$\omega$    } &          0,500 &         0,500 &            0,510 &        0,500 \\
+\textbf{$r_m$       } &          0,020 &         0,020 &            0,020 &        0,025 \\
+\textbf{$\tau$      } &          0,313 &         0,375 &            0,319 &        0,312 \\
+\textbf{$u$        } &          0,800 &         0,800 &            0,800 &        0,800 \\
+\textbf{$u_N$       } &          0,800 &         0,800 &            0,800 &        0,800 \\
+\textbf{$v$        } &          2,500 &         2,500 &            2,500 &        2,500 \\
+\bottomrule
+\end{tabular}
+    \label{Summary_Simplest}
+    \caption*{\textbf{Fonte:} Elaboração própria}
+\end{table}
+
+\end{appendices}
+
+\end{document}
