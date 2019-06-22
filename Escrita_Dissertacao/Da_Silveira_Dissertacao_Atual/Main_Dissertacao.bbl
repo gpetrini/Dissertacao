@@ -45,7 +45,6 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{Post-Keynesian economists have quite recently begun to draw attention to the consumer debt. However, as they omit the principal payment, they implicitly assimilate this debt as perpetual loans. The goal of this article is mainly methodological. We first develop a ‘Keynesian’ overlapping generations framework assuming that people borrow when they are young and service their debt (interests and principal) in the following periods. Defaults on the principal are also taken into account. We then analyze the theoretical properties of the equilibriums (multiplier effect, stability conditions) resulting from the introduction of this framework in three types of models that differ in regard of who are the debtors and who are the creditors: workers can borrow from capitalists (essay 1) or from their peer (essay 2); capitalists can borrow from their peer (essay 3).}
-      \field{month}{12}
       \field{shorttitle}{Macroeconomic effects of consumer debt}
       \field{title}{Macroeconomic effects of consumer debt: three theoretical essays}
       \field{urlday}{28}
@@ -90,7 +89,6 @@
       \field{labeltitlesource}{shorttitle}
       \field{issn}{0309-166X, 1464-3545}
       \field{journaltitle}{Cambridge Journal of Economics}
-      \field{month}{9}
       \field{number}{5}
       \field{shorttitle}{Tackling the instability of growth}
       \field{title}{Tackling the instability of growth: a {Kaleckian}-{Harrodian} model with an autonomous expenditure component}
@@ -143,7 +141,6 @@
       \field{abstract}{Our model is based on a Kaleckian basis, which is enriched by three simple, intuitive hypotheses. Firstly, an unemployment benefits system organizes the distribution of the wage bill between employed and unemployed workers, the latter receiving an amount of money corresponding to the subsistence level. Secondly, only individuals with an income above the subsistence level build savings. The combination of these two hypotheses gives rise to an autonomous consumption expenditure whose rate of growth is given by the demographic rate of growth. As a consequence, the rate of capital accumulation spontaneously converges towards the demographic rate of growth (supermultiplier effect), a dynamics that gives a solution to one of the two Harrodian instability problems. The third hypothesis corresponds to the entrepreneurs’ attempts to adjust investment in order to restore the normal rate of capacity utilization. Whereas such assumption usually generates knife-edge instability, we show here that this instability can be eliminated by the stabilizing properties of the supermultiplier. Moreover, the attempts to adjust investment enable to restore the normal rate of capacity utilization. In summary, the model offers a simple, simultaneous solution to the two Harrodian instability problems.}
       \field{issn}{0309-166X, 1464-3545}
       \field{journaltitle}{Cambridge Journal of Economics}
-      \field{month}{2}
       \field{title}{Demographic growth, {Harrodian} (in)stability and the supermultiplier}
       \field{urlday}{28}
       \field{urlmonth}{12}
@@ -270,7 +267,6 @@
       \field{abstract}{Abstract. This paper questions the practice of representing the endogenous money supply by means of a ‘horizontal’ money supply curve, implicity contrasted wit}
       \field{issn}{0309-166X}
       \field{journaltitle}{Cambridge Journal of Economics}
-      \field{month}{9}
       \field{number}{5}
       \field{shorttitle}{Theoretical reflections on endogenous money}
       \field{title}{Theoretical reflections on endogenous money: the problem with ‘convenience lending’}
@@ -358,7 +354,6 @@
       \field{abstract}{A. Asimakopulos; Kalečki and Keynes on finance, investment and saving, Cambridge Journal of Economics, Volume 7, Issue 3-4, 1 September 1983, Pages 221–233, ht}
       \field{issn}{0309-166X}
       \field{journaltitle}{Cambridge Journal of Economics}
-      \field{month}{9}
       \field{number}{3-4}
       \field{title}{Kalečki and {Keynes} on finance, investment and saving}
       \field{urlday}{19}
@@ -428,7 +423,6 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{The {Oxford} {Handbook} of {Post}-{Keynesian} {Economics}, {Volume} 1: {Theory} and {Origins}}
-      \field{month}{9}
       \field{title}{The {Cambridge} {Post}-{Keynesian} {School} of {Income} and {Wealth} {Distribution}}
       \field{urlday}{8}
       \field{urlmonth}{1}
@@ -536,12 +530,9 @@
         {{uniquename=0,uniquepart=base,hash=823c4abb55c0ba0e641480e9aaa0b5b9}{%
            family={Blecker},
            familyi={B\bibinitperiod},
-           given={Robert\bibnamedelima A.},
+           given={Robert\bibnamedelima A},
            giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
            givenun=0}}%
-      }
-      \list{language}{1}{%
-        {en\_US}%
       }
       \list{publisher}{1}{%
         {Edward Elgar Publishing}%
@@ -558,25 +549,9 @@
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{isbn}{978-1-84376-532-5}
-      \field{month}{6}
-      \field{shorttitle}{Distribution, {Demand} and {Growth} in {Neo}-{Kaleckian} {Macro}-{Models}}
-      \field{title}{Distribution, {Demand} and {Growth} in {Neo}-{Kaleckian} {Macro}-{Models}: {Challenging} the {Supply}-side {Vision} of the {Long} {Run}}
-      \field{urlday}{12}
-      \field{urlmonth}{4}
-      \field{urlyear}{2019}
+      \field{labeltitlesource}{title}
+      \field{title}{Distribution, Demand and Growth in Neo-Kaleckian Macro-Models: Challenging the Supply-side Vision of the Long Run}
       \field{year}{2002}
-      \field{urldateera}{ce}
-      \verb{file}
-      \verb Snapshot:/home/gpetrini/Zotero/storage/T9UUQDJA/1840641770.00017.html:text/html
-      \endverb
-      \verb{urlraw}
-      \verb https://www.elgaronline.com/view/1840641770.00017.xml
-      \endverb
-      \verb{url}
-      \verb https://www.elgaronline.com/view/1840641770.00017.xml
-      \endverb
     \endentry
     \entry{blecker_wage_led_2016}{article}{}
       \name{author}{1}{}{%
@@ -603,9 +578,7 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
-      \field{issn}{20495323, 20495331}
       \field{journaltitle}{Review of Keynesian Economics}
-      \field{month}{10}
       \field{number}{4}
       \field{shorttitle}{Wage-led versus profit-led demand regimes}
       \field{title}{Wage-led versus profit-led demand regimes: the long and the short of it}
@@ -619,15 +592,6 @@
       \range{pages}{18}
       \verb{doi}
       \verb 10.4337/roke.2016.04.02
-      \endverb
-      \verb{file}
-      \verb Blecker - 2016 - Wage-led versus profit-led demand regimes the lon.pdf:/home/gpetrini/Zotero/storage/8EJRWBFJ/Blecker - 2016 - Wage-led versus profit-led demand regimes the lon.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb http://www.elgaronline.com/view/journals/roke/4-4/roke.2016.04.02.xml
-      \endverb
-      \verb{url}
-      \verb http://www.elgaronline.com/view/journals/roke/4-4/roke.2016.04.02.xml
       \endverb
     \endentry
     \entry{bortis_institutions_1996}{book}{}
@@ -662,7 +626,6 @@
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{The failure of centrally planned socialism and the serious problems arising with the capitalist system requires a middle way between both doctrines. In this book it is argued that a synthesis of Classical and Keynesian economic theory provides the basis for this intermediate system. A monetary production economy is primarily considered. The author sets up a system of linking political economy with other social sciences, i.e. sociology, law and politics in the traditional sense, thus establishing the unity of the social sciences.}
       \field{isbn}{978-0-521-57055-8}
-      \field{month}{11}
       \field{shorttitle}{Institutions, {Behaviour} and {Economic} {Theory}}
       \field{title}{Institutions, {Behaviour} and {Economic} {Theory}: {A} {Contribution} to {Classical}-{Keynesian} {Political} {Economy}}
       \field{year}{1997}
@@ -783,7 +746,6 @@
       \field{abstract}{Abstract. This paper presents a theoretical and empirical investigation of how changes in the size distribution of income can affect aggregate demand and the d}
       \field{issn}{0309-166X}
       \field{journaltitle}{Cambridge Journal of Economics}
-      \field{month}{3}
       \field{number}{2}
       \field{title}{Personal income inequality and aggregate demand}
       \field{urlday}{30}
@@ -884,7 +846,6 @@
       \field{labeltitlesource}{title}
       \field{issn}{0953-8259, 1465-3982}
       \field{journaltitle}{Review of Political Economy}
-      \field{month}{4}
       \field{number}{2}
       \field{title}{Neo-{Kaleckian} and {Sraffian} {Controversies} on the {Theory} of {Accumulation}}
       \field{urlday}{24}
@@ -947,7 +908,6 @@
       \field{labeltitlesource}{title}
       \field{issn}{0953-8259, 1465-3982}
       \field{journaltitle}{Review of Political Economy}
-      \field{month}{1}
       \field{number}{1}
       \field{title}{Technical {Change}, {Effective} {Demand} and {Employment}}
       \field{urlday}{20}
@@ -1013,7 +973,6 @@
       \field{booktitle}{Essays on {Piero} {Sraffa}: {Critical} {Perspectives} on the {Revival} of {Classical} {Theory}}
       \field{edition}{1}
       \field{isbn}{978-1-315-38694-2}
-      \field{month}{2}
       \field{title}{Accumulation and {Capacity} {Utilization}: {Some} {Critical} {Considerations} on {Joan} {Robinson}'s {Theory} of {Distribution}}
       \field{urlday}{10}
       \field{urlmonth}{2}
@@ -1197,7 +1156,6 @@
       \field{labeltitlesource}{shorttitle}
       \field{issn}{0967-2567, 1469-5936}
       \field{journaltitle}{The European Journal of the History of Economic Thought}
-      \field{month}{3}
       \field{number}{2}
       \field{shorttitle}{Hidden links in the warranted rate of growth}
       \field{title}{Hidden links in the warranted rate of growth: the supermultiplier way out}
@@ -1351,7 +1309,6 @@
       \field{abstract}{Abstract. This article offers a critique of the horizontalist view of money that banks are passive in the face of credit demand. It is argued that banks' liqui}
       \field{issn}{0309-166X}
       \field{journaltitle}{Cambridge Journal of Economics}
-      \field{month}{7}
       \field{number}{4}
       \field{shorttitle}{Horizontalism}
       \field{title}{Horizontalism: a critique}
@@ -1570,7 +1527,6 @@
       \field{abstract}{This paper offers some theoretical and methodological observations on a model of growth and distribution, recently developed by Franklin Serrano and others and called the Sraffian supermultiplier model, in which the growth of autonomous capitalist consumption demand and distribution are exogenously given and capacity utilization is at an exogenously given “normal” level in long‐run equilibrium. First, it provides a simple long‐run equilibrium version and dynamic formulation of the model, and compares it to other models of growth and distribution using a common framework and focusing on the effect of a change in income distribution on growth. Second, it shows that the model can be modified to examine other components of autonomous demand growth, including government spending, exports, consumption by workers, and investment and technical change, and to simultaneous multiple sources of autonomous demand growth. Finally, it comments on some methodological issues concerning the model, and on its implications for the notion of longrun equilibrium.}
       \field{issn}{00261386}
       \field{journaltitle}{Metroeconomica}
-      \field{month}{12}
       \field{shorttitle}{Some observations on models of growth and distribution with autonomous demand growth}
       \field{title}{Some observations on models of growth and distribution with autonomous demand growth: {XXXX}}
       \field{urlday}{24}
@@ -1699,7 +1655,6 @@
       \field{labeltitlesource}{shorttitle}
       \field{issn}{0309-166X, 1464-3545}
       \field{journaltitle}{Cambridge Journal of Economics}
-      \field{month}{1}
       \field{number}{1}
       \field{shorttitle}{Semi-autonomous household expenditures as the causa causans of postwar {US} business cycles}
       \field{title}{Semi-autonomous household expenditures as the causa causans of postwar {US} business cycles: the stability and instability of {Luxemburg}-type external markets}
@@ -1890,7 +1845,6 @@
       \field{labeltitlesource}{title}
       \field{issn}{0953-8259, 1465-3982}
       \field{journaltitle}{Review of Political Economy}
-      \field{month}{7}
       \field{number}{3}
       \field{title}{Growth {Rate} and {Level} {Effects}, the {Stability} of the {Adjustment} of {Capacity} to {Demand} and the {Sraffian} {Supermultiplier}}
       \field{urlday}{12}
@@ -2011,7 +1965,6 @@
       \field{labeltitlesource}{shorttitle}
       \field{issn}{0953-8259, 1465-3982}
       \field{journaltitle}{Review of Political Economy}
-      \field{month}{4}
       \field{number}{2}
       \field{shorttitle}{The {Problem} of {Effective} {Demand} in {Italian} {Economic} {Development}}
       \field{title}{The {Problem} of {Effective} {Demand} in {Italian} {Economic} {Development}: {On} the {Factors} that {Determine} the {Volume} of {Investment}}
@@ -2066,7 +2019,6 @@
       \field{labeltitlesource}{shorttitle}
       \field{issn}{0953-8259, 1465-3982}
       \field{journaltitle}{Review of Political Economy}
-      \field{month}{10}
       \field{number}{4}
       \field{shorttitle}{Long-run {Effective} {Demand} in the {US} {Economy}}
       \field{title}{Long-run {Effective} {Demand} in the {US} {Economy}: {An} {Empirical} {Test} of the {Sraffian} {Supermultiplier} {Model}}
@@ -2224,7 +2176,6 @@
       \field{abstract}{Abstract. This paper integrates the theory of money and credit derived ultimately from Wicksell into the Keynesian theory of income determination, with assets}
       \field{issn}{0309-166X}
       \field{journaltitle}{Cambridge Journal of Economics}
-      \field{month}{7}
       \field{number}{4}
       \field{title}{Money and credit in a {Keynesian} model of income determination}
       \field{urlday}{17}
@@ -2278,7 +2229,6 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Post Keynesian Economics}
-      \field{month}{10}
       \field{number}{1}
       \field{title}{Fiscal policy in a stock-flow consistent ({SFC}) model}
       \field{volume}{30}
@@ -2368,7 +2318,6 @@
       \field{abstract}{Abstract. This paper presents a Keynesian model which describes three countries trading merchandise and financial assets with one another. It is initially assu}
       \field{issn}{0309-166X}
       \field{journaltitle}{Cambridge Journal of Economics}
-      \field{month}{1}
       \field{number}{1}
       \field{shorttitle}{A simple model of three economies with two currencies}
       \field{title}{A simple model of three economies with two currencies: the eurozone and the {USA}}
@@ -2419,7 +2368,6 @@
       \field{labeltitlesource}{title}
       \field{issn}{00130133}
       \field{journaltitle}{The Economic Journal}
-      \field{month}{3}
       \field{number}{193}
       \field{title}{An {Essay} in {Dynamic} {Theory}}
       \field{urlday}{28}
@@ -2475,7 +2423,6 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{In a Kaleckian distribution and growth model with workers’ debt we examine the short and long run effects of three stylized facts of “finance-dominated capitalism”: a fall in animal spirits of the firm sector with respect to real investment in capital stock, re-distribution of income at the expense of the wage share, and increasing lending of rentiers to workers for consumption purposes. In particular, we specify the conditions for long-run stability of the workers’ debt-capital ratio. We thus identify the threshold for this ratio to turn unstable causing increasing financial fragility and finally financial crisis due to systemic stock-flow or stock-stock dynamics.}
-      \field{month}{1}
       \field{number}{ID 2513788}
       \field{title}{Finance-{Dominated} {Capitalism}, {Re}-{Distribution}, {Household} {Debt} and {Financial} {Fragility} in a {Kaleckian} {Distribution} and {Growth} {Model}}
       \field{type}{{SSRN} {Scholarly} {Paper}}
@@ -2522,7 +2469,6 @@
       \field{labeltitlesource}{title}
       \field{issn}{0160-3477, 1557-7821}
       \field{journaltitle}{Journal of Post Keynesian Economics}
-      \field{month}{4}
       \field{number}{2}
       \field{title}{Autonomous government expenditure growth, deficits, debt, and distribution in a neo-{Kaleckian} growth model}
       \field{urlday}{24}
@@ -2587,7 +2533,6 @@
       \field{labeltitlesource}{shorttitle}
       \field{issn}{00261386}
       \field{journaltitle}{Metroeconomica}
-      \field{month}{2}
       \field{number}{1}
       \field{shorttitle}{{HARRODIAN} {INSTABILITY} {AND} {THE} ‘{NORMAL} {RATE}’ {OF} {CAPACITY} {UTILIZATION} {IN} {KALECKIAN} {MODELS} {OF} {DISTRIBUTION} {AND} {GROWTH}-{A} {SURVEY}}
       \field{title}{{HARRODIAN} {INSTABILITY} {AND} {THE} ‘{NORMAL} {RATE}’ {OF} {CAPACITY} {UTILIZATION} {IN} {KALECKIAN} {MODELS} {OF} {DISTRIBUTION} {AND} {GROWTH}-{A} {SURVEY}: {Harrodian} {Instability} in {Kaleckian} {Models}}
@@ -2681,7 +2626,6 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{This paper unveils a new resource for macroeconomic research: a long-run dataset covering disaggregated bank credit for 17 advanced economies since 1870. The new data show that the share of mortgages on banks' balance sheets doubled in the course of the 20th century, driven by a sharp rise of mortgage lending to households. Household debt to asset ratios have risen substantially in many countries. Financial stability risks have been increasingly linked to real estate lending booms which are typically followed by deeper recessions and slower recoveries. Housing finance has come to play a central role in the modern macroeconomy.}
-      \field{month}{9}
       \field{number}{20501}
       \field{shorttitle}{The {Great} {Mortgaging}}
       \field{title}{The {Great} {Mortgaging}: {Housing} {Finance}, {Crises}, and {Business} {Cycles}}
@@ -2731,13 +2675,14 @@
       \field{labeltitlesource}{title}
       \field{issn}{00346527}
       \field{journaltitle}{The Review of Economic Studies}
+      \field{note}{[1956]}
       \field{number}{2}
       \field{title}{Alternative {Theories} of {Distribution}}
       \field{urlday}{31}
       \field{urlmonth}{5}
       \field{urlyear}{2019}
       \field{volume}{23}
-      \field{year}{1955-56}
+      \field{year}{1955}
       \field{urldateera}{ce}
       \field{pages}{83}
       \range{pages}{1}
@@ -2941,7 +2886,6 @@
       \field{abstract}{Abstract. The purpose of this note is to reconsider the puzzle arising from a theory of endogenous credit-money: if the supply of bank credit is the source of}
       \field{issn}{0309-166X}
       \field{journaltitle}{Cambridge Journal of Economics}
-      \field{month}{1}
       \field{number}{1}
       \field{shorttitle}{Note and comment. {The} credit-led supply of deposits and the demand for money}
       \field{title}{Note and comment. {The} credit-led supply of deposits and the demand for money: {Kaldor}'s reflux mechanism as previously endorsed by {Joan} {Robinson}}
@@ -2994,7 +2938,6 @@
       \field{abstract}{Abstract. This paper analyses the newer Kaleckian models of growth and distribution and the criticisms that have been addressed to them by neo-Marxian and neo-}
       \field{issn}{0309-166X}
       \field{journaltitle}{Cambridge Journal of Economics}
-      \field{month}{12}
       \field{number}{6}
       \field{title}{The {Kaleckian} model of growth and distribution and its neo-{Ricardian} and neo-{Marxian} critiques}
       \field{urlday}{22}
@@ -3086,7 +3029,6 @@
       \field{abstract}{Neo-Kaleckian models of growth and distribution have been highly popular among heterodox economists. Two drawbacks of these models have, however, been underlined in the literature: first, the models do not usually converge to their normal rate of capacity utilization; second, the models do not include the Harrodian principle of dynamic instability. Some Sraffian economists have long been arguing that the presence of non-capacity creating autonomous expenditures provides a mechanism that brings back the model to normal rates of capacity utilization, while safeguarding the main Keynesian message and without going back to classical conclusions. The present article provides a very simple proof of this, showing within a neo-Kaleckian model that the Harrodian principle of dynamic instability gets tamed by the presence of autonomous consumer expenditures.}
       \field{issn}{1467-999X}
       \field{journaltitle}{Metroeconomica}
-      \field{month}{2}
       \field{number}{1}
       \field{shorttitle}{Convergence {Towards} the {Normal} {Rate} of {Capacity} {Utilization} in {Neo}-{Kaleckian} {Models}}
       \field{title}{Convergence {Towards} the {Normal} {Rate} of {Capacity} {Utilization} in {Neo}-{Kaleckian} {Models}: {The} {Role} of {Non}-{Capacity} {Creating} {Autonomous} {Expenditures}}
@@ -3136,7 +3078,6 @@
       \field{labeltitlesource}{title}
       \field{issn}{20527764, 20527772}
       \field{journaltitle}{European Journal of Economics and Economic Policies: Intervention}
-      \field{month}{9}
       \field{number}{2}
       \field{title}{The origins and evolution of the debate on wage-led and profit-led regimes}
       \field{urlday}{4}
@@ -3185,7 +3126,6 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Of the components of GDP, residential investment offers by far the best early warning sign of an oncoming recession. Since World War II we have had eight recessions preceded by substantial problems in housing and consumer durables. Housing did not give an early warning of the Department of Defense Downturn after the Korean Armistice in 1953 or the Internet Comeuppance in 2001, nor should it have. By virtue of its prominence in our recessions, it makes sense for housing to play a prominent role in the conduct of monetary policy. A modified Taylor Rule would depend on a long-term measure of inflation having little to do with the phase in the cycle, and, in place of Taylor's output gap, housing starts and the change in housing starts, which together form the best forward-looking indicator of the cycle of which I am aware. This would create pre-emptive anti-inflation policy in the middle of the expansions when housing is not so sensitive to interest rates, making it less likely that anti-inflation policies would be needed near the ends of expansions when housing is very interest rate sensitive, thus making our recessions less frequent and/or less severe.}
-      \field{month}{9}
       \field{number}{13428}
       \field{title}{Housing {IS} the {Business} {Cycle}}
       \field{type}{Working {Paper}}
@@ -3240,7 +3180,6 @@
       \field{abstract}{Abstract. This paper develops a post-Keynesian dynamic model of capacity utilisation and growth, in which the supply of credit-money is endogenous and firms' d}
       \field{issn}{0309-166X}
       \field{journaltitle}{Cambridge Journal of Economics}
-      \field{month}{7}
       \field{number}{4}
       \field{title}{Macrodynamics of debt regimes, financial instability and growth}
       \field{urlday}{19}
@@ -3297,7 +3236,6 @@
       \field{abstract}{Abstract. This work argues that institutionally rich stock-flow consistent models—i.e. models in which economic agents are identified with the main social cate}
       \field{issn}{0309-166X}
       \field{journaltitle}{Cambridge Journal of Economics}
-      \field{month}{1}
       \field{number}{1}
       \field{shorttitle}{Peering over the edge of the short period?}
       \field{title}{Peering over the edge of the short period? {The} {Keynesian} roots of stock-flow consistent macroeconomic models}
@@ -3422,7 +3360,6 @@
       \field{abstract}{Marcello Messori; Financing in Kalecki's theory, Cambridge Journal of Economics, Volume 15, Issue 3, 1 September 1991, Pages 301–313, https://doi.org/10.1093/o}
       \field{issn}{0309-166X}
       \field{journaltitle}{Cambridge Journal of Economics}
-      \field{month}{9}
       \field{number}{3}
       \field{title}{Financing in {Kalecki}'s theory}
       \field{urlday}{19}
@@ -3519,7 +3456,6 @@
       \field{abstract}{This study combines a neo-Kaleckian growth and distribution model with a sort of Sraffian supermultiplier mechanism in which autonomous demand is driven by foreign exports. Short-, medium- and long-run equilibria are considered. In the long-run case, the expectations of sales growth governing investment change adaptively, and this, combined with the autonomous growth rate of exports, produces convergence of the actual rate of capacity utilization to its normal rate. It is demonstrated that some aspects of the main Kaleckian results can be preserved not only in the short or medium run but also in the long run, in the sense that both (1) a decrease in the propensity to save, and (2) a change in income distribution favoring labor, bring about higher average rates of production growth and capital accumulation. However, the impact of a change in the profit share is shown to be subjected to the condition that the responsiveness of the real exchange rate with respect to the profit share has to be bounded from above, confirming that the scope for wage-led demand or wage-led growth can be limited by open-economy considerations, even within the supermultiplier context.}
       \field{issn}{0160-3477}
       \field{journaltitle}{Journal of Post Keynesian Economics}
-      \field{month}{4}
       \field{number}{2}
       \field{title}{Long-run convergence in a neo-{Kaleckian} open-economy model with autonomous export growth}
       \field{urlday}{17}
@@ -3578,7 +3514,6 @@
       \field{abstract}{This paper incorporates the role of an independently growing autonomous demand component into a neo-Kaleckian model of growth and distribution where the distribution of income reacts to changes in the employment rate. A peculiar feature of these autonomous expenditures is that in contrast to investment they are non-capacity creating. The model combines the Sraffian multiplier, a conflicting-claims theory of inflation, a Harrodian instability mechanism and effects tied to the size of the reserve army of labor. The long-run version of the model converges conditionally to stable rates of employment and inflation, at the normal rate of capacity utilization. The model vindicates some of the main Keynesian or Kaleckian tenets, in the sense that an increase in the marginal propensity to save out of profits or in the bargaining power of firms generate lower average rates of capital accumulation and capacity utilization during the traverse.}
       \field{issn}{0954349X}
       \field{journaltitle}{Structural Change and Economic Dynamics}
-      \field{month}{2}
       \field{title}{The role of autonomous demand growth in a neo-{Kaleckian} conflicting-claims framework’}
       \field{urlday}{8}
       \field{urlmonth}{5}
@@ -3628,7 +3563,6 @@
       \field{abstract}{Abstract. This paper examines the ‘utilisation controversy’ around the Kaleckian model of growth and distribution. We show that the Federal Reserve data on cap}
       \field{issn}{0309-166X}
       \field{journaltitle}{Cambridge Journal of Economics}
-      \field{month}{3}
       \field{note}{Primeira edição de 2012}
       \field{number}{2}
       \field{shorttitle}{On the ‘utilisation controversy’}
@@ -3751,11 +3685,11 @@
     \endentry
     \entry{onaran_is_2013}{incollection}{}
       \name{author}{2}{}{%
-        {{uniquename=0,uniquepart=base,hash=5dea929fe39d85383022397669087307}{%
+        {{uniquename=0,uniquepart=base,hash=a073bbea1f4197c11a9c4a1c951a4d89}{%
            family={Onaran},
            familyi={O\bibinitperiod},
-           given={Özlem},
-           giveni={Ö\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod},
            givenun=0}}%
         {{uniquename=0,uniquepart=base,hash=0058606c5279ef7afd44fba386405a2b}{%
            family={Galanis},
@@ -3785,12 +3719,12 @@
       \list{publisher}{1}{%
         {Palgrave Macmillan UK}%
       }
-      \strng{namehash}{da5b5b8fefbf59db12fbe921673725f1}
-      \strng{fullhash}{da5b5b8fefbf59db12fbe921673725f1}
-      \strng{bibnamehash}{da5b5b8fefbf59db12fbe921673725f1}
-      \strng{authorbibnamehash}{da5b5b8fefbf59db12fbe921673725f1}
-      \strng{authornamehash}{da5b5b8fefbf59db12fbe921673725f1}
-      \strng{authorfullhash}{da5b5b8fefbf59db12fbe921673725f1}
+      \strng{namehash}{9f000e9c164fac43330f06393b708214}
+      \strng{fullhash}{9f000e9c164fac43330f06393b708214}
+      \strng{bibnamehash}{9f000e9c164fac43330f06393b708214}
+      \strng{authorbibnamehash}{9f000e9c164fac43330f06393b708214}
+      \strng{authornamehash}{9f000e9c164fac43330f06393b708214}
+      \strng{authorfullhash}{9f000e9c164fac43330f06393b708214}
       \strng{editorbibnamehash}{9e44856cc73822ba9809a11133009da3}
       \strng{editornamehash}{9e44856cc73822ba9809a11133009da3}
       \strng{editorfullhash}{9e44856cc73822ba9809a11133009da3}
@@ -3800,9 +3734,7 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
-      \field{abstract}{There has been a significant decline in the wage share in both the developed and developing world which has coincided with the introduction of neoliberal policy reforms since the 1980s. The promise of these reforms was to stimulate private investment and exports, which was expected in turn to generate higher growth, more jobs and trickledown effects. The reasons for this fall have recently been the subject of a growing amount of literature that has tried to pin down the effects of technology, globalization, and changes in labour market institutions (see, inter alia, IMF, 2007; OECD, 2007; EC, 2007; ILO/IILS, 2011; Rodrik, 1997; Diwan, 2001; Harrison, 2002; Onaran, 2009; Rodriguez and Jayadev, 2010; Stockhammer, 2011). This chapter offers a theoretical and empirical assessment of the effects of this pro-capital redistribution of income on growth at both national and global levels.}
       \field{booktitle}{Wage-led {Growth}: {An} {Equitable} {Strategy} for {Economic} {Recovery}}
-      \field{isbn}{978-1-137-35793-9}
       \field{series}{Advances in {Labour} {Studies}}
       \field{shorttitle}{Is {Aggregate} {Demand} {Wage}-led or {Profit}-led?}
       \field{title}{Is {Aggregate} {Demand} {Wage}-led or {Profit}-led? {A} {Global} {Model}}
@@ -3815,9 +3747,6 @@
       \range{pages}{29}
       \verb{doi}
       \verb 10.1057/9781137357939_4
-      \endverb
-      \verb{file}
-      \verb Onaran e Galanis - 2013 - Is Aggregate Demand Wage-led or Profit-led A Glob.pdf:/home/gpetrini/Zotero/storage/ZA72EU45/Onaran e Galanis - 2013 - Is Aggregate Demand Wage-led or Profit-led A Glob.pdf:application/pdf
       \endverb
       \verb{urlraw}
       \verb https://doi.org/10.1057/9781137357939_4
@@ -3897,7 +3826,6 @@
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{This paper links the super‐multiplier to Keynesian macroeconomics, showing it to be the most Keynesian of growth perspectives. Next, the paper shows that the super‐multiplier is a micro‐economically coherent theory of investment and capital accumulation. Firms’ decisions regarding capital accumulation coordinate demand and supply growth in goods markets. The paper then explores the implications of incorporating the super‐multiplier in the neo‐Kaleckian and Cambridge growth models. Lastly, it shows how labor markets and unemployment can be added into super‐multiplier models to provide a comprehensive growth model that addresses Solow's (1956, Journal of Economics, 70, 65–94) labor market knife‐edge problem. Incorporating labor markets does not change the fundamental super‐multiplier result that growth is determined by the growth of autonomous demand.}
       \field{journaltitle}{Metroeconomica}
-      \field{month}{10}
       \field{shorttitle}{The economics of the super‐multiplier}
       \field{title}{The economics of the super‐multiplier: {A} comprehensive treatment with labor markets}
       \field{year}{2018}
@@ -3933,7 +3861,6 @@
       \field{abstract}{Abstract. This paper presents a Kaleckian model of aggregate demand with inside debt and a generational structure. The model shows how worker borrowing and pop}
       \field{issn}{0309-166X}
       \field{journaltitle}{Cambridge Journal of Economics}
-      \field{month}{7}
       \field{number}{4}
       \field{title}{Inside debt, aggregate demand, and the {Cambridge} theory of distribution}
       \field{urlday}{19}
@@ -3985,7 +3912,6 @@
       \field{abstract}{Abstract. This paper extends the Cambridge theory of income distribution to a monetary economy, and explores the implications of fiscal deficits that are money}
       \field{issn}{0309-166X}
       \field{journaltitle}{Cambridge Journal of Economics}
-      \field{month}{9}
       \field{number}{5}
       \field{title}{Money, fiscal policy and the {Cambridge} theorem}
       \field{urlday}{19}
@@ -4037,7 +3963,6 @@
       \field{abstract}{Abstract. This paper shows how the Cambridge theory of distribution is affected by the nature of financial intermediation. When credit markets are akin to loan}
       \field{issn}{0309-166X}
       \field{journaltitle}{Cambridge Journal of Economics}
-      \field{month}{3}
       \field{number}{2}
       \field{title}{Financial institutions and the {Cambridge} theory of distribution}
       \field{urlday}{19}
@@ -4088,7 +4013,6 @@
       \field{abstract}{Abstract. The wage- versus profit-led distinction is a cornerstone of post-Keynesian growth theory. However, the existing theoretical literature focuses on the}
       \field{issn}{0309-166X}
       \field{journaltitle}{Cambridge Journal of Economics}
-      \field{month}{1}
       \field{number}{1}
       \field{shorttitle}{Wage- vs. profit-led growth}
       \field{title}{Wage- vs. profit-led growth: the role of the distribution of wages in determining regime character}
@@ -4145,7 +4069,6 @@
       \field{labeltitlesource}{title}
       \field{issn}{0967-2567, 1469-5936}
       \field{journaltitle}{The European Journal of the History of Economic Thought}
-      \field{month}{4}
       \field{number}{1}
       \field{title}{Growth without normal capacity utilization}
       \field{urlday}{8}
@@ -4198,7 +4121,6 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{Within Post-Keynesian macroeconomic theory, the contribution by Marglin and Bhaduri (Marglin and Bhaduri, 1990; Bhaduri and Marglin, 1990) on the relationship between income distribution and growth has progressively asserted itself as a benchmark model, a reference point that has originated and still gives rise to plenty of theoretical and empirical works. Given this popularity, in the related literature it is often claimed that the only open question left is an empirical one - to assess econometrically whether a particular economy is wage or profit-led. In this essay, I will argue that some theoretical issues, related to this model and to the literature inspired by it, can nonetheless be raised. In particular, the treatment of investment appears to be the least convincing aspect of the approach a là Marglin-Bhaduri. More specifically, it seems possible to raise some doubts about an independent long-run influence of the profit rate or of the profit share on investment, influence that is not in general justified or explained in detail by this literature and that to some extent is simply taken for granted. It will be shown that, if the Marglin-Bhaduri model is integrated with an explicit consideration of the autonomous components of demand, income distribution does not exert any permanent influence on the rate of growth of the economy and on the rate of accumulation. Matching this result with the usual assumption, made in Post-Keynesian models of growth and distribution, that capacity utilization is the adjusting variable in equilibrating investment and savings leads to paradoxical results that question the plausibility of an accumulation function like the one used in the Marglin-Bhaduri model.}
-      \field{month}{8}
       \field{number}{715}
       \field{shorttitle}{Autonomous demand and the {Marglin}-{Bhaduri} model}
       \field{title}{Autonomous demand and the {Marglin}-{Bhaduri} model: a critical note}
@@ -4251,7 +4173,6 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{The paper provides a simple theoretical framework to assess the macroeconomic implications of debt-fuelled consumption. In particular, the analysis is conducted through an extended super-multiplier model with endogenous credit money, which highlights the role of the autonomous components of demand, and in particular autonomous consumption, as the main drivers of economic growth. The author sketches a comparison with alternative heterodox formulations. He argues that, unlike the neo-Kaleckian models, in the model proposed here output growth adjusts to the path of debt-financed consumption. Having treated investment as fully induced, it follows that also the rate of capital accumulation adjusts to the rate of growth, which is itself determined by the evolution of autonomous demand. Finally, it is shown that the stability of the ratio of debt to debtors’ income is affected, among other things, by the growth differential between workers’ autonomous consumption (and debt) and the other autonomous components of demand, i.e. public expenditure and capitalists’ autonomous consumption.}
-      \field{month}{9}
       \field{number}{ID 3100768}
       \field{shorttitle}{Household {Consumer} {Debt}, {Endogenous} {Money} and {Growth}}
       \field{title}{Household {Consumer} {Debt}, {Endogenous} {Money} and {Growth}: {A} {Supermultiplier}-{Based} {Analysis}}
@@ -4757,7 +4678,6 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{We develop a generic Kalecki-Robinson model of growth that, subject to different closures, illustrates the different channels through which the economy can adjust to a change in demand conditions in the long run. The closures are shown to have different implications for the behaviour of the rate of capacity utilization and hence whether and how the economy achieves a “fully-adjusted position” (equalization of the actual and normal rates of capacity utilization). Assuming that the normal rate of capacity utilization is exogenously fixed, it is then shown that variation in the actual capacity utilization rate can nevertheless occur – at least within limits – without triggering “Harrodian instability”. This result emanates from a discontinuity in the investment function that is grounded in Harrod’s own macrodynamics, so that it is ultimately the combination of Harrodian and Kaleckian dynamics that gives rise to long-run variations in the actual rate of capacity utilization in the presence of a fixed normal rate. Aggregate and industry-level US capacity utilization data are then used to calculate possible bands within which the rate of capacity utilization may vary without triggering Harrodian instability. A key finding is that the conditions necessary for the latter appear to be relatively rare.}
-      \field{month}{2}
       \field{number}{1704}
       \field{title}{Long-run variation in capacity utilization in the presence of a fixed normal rate}
       \field{type}{techreport}
@@ -4868,7 +4788,6 @@
       \field{abstract}{Peter Skott; Finance, saving and accumulation, Cambridge Journal of Economics, Volume 12, Issue 3, 1 September 1988, Pages 339–354, https://doi.org/10.1093/oxf}
       \field{issn}{0309-166X}
       \field{journaltitle}{Cambridge Journal of Economics}
-      \field{month}{9}
       \field{number}{3}
       \field{title}{Finance, saving and accumulation}
       \field{urlday}{19}
@@ -4951,7 +4870,6 @@
       \field{labeltitlesource}{shorttitle}
       \field{issn}{00261386}
       \field{journaltitle}{Metroeconomica}
-      \field{month}{2}
       \field{number}{1}
       \field{shorttitle}{{THEORETICAL} {AND} {EMPIRICAL} {SHORTCOMINGS} {OF} {THE} {KALECKIAN} {INVESTMENT} {FUNCTION}}
       \field{title}{Theoretical {And} {Empirical} {Shortcomings} {Of} {The} {Kaleckian} {Investment} {Function}: {Shortcomings} {Of} {The} {Kaleckian} {Investment} {Function}}
@@ -5000,7 +4918,6 @@
       \field{labeltitlesource}{title}
       \field{abstract}{The emphasis in post-Keynesian macroeconomics on wage- versus profit-led growth may not have been helpful. The profit share is not an exogenous variable, and the correlations between the profit share and economic growth can be positive for some exogenous shocks but negative for others. The terminology, second, suggests a unidirectional causality from distribution to aggregate demand while in fact distribution can itself be directly affected by shifts in aggregate demand. The reduced form correlations, third, depend on interactions with the labor market, and a focus on the goods market can be misleading. If, fourth, empirical estimates are taken at face value, the support for wage-led conclusions is much weaker than suggested by the literature. A focus on the growth benefits of a reduction in inequality, finally, makes for an impoverished policy discussion.}
       \field{journaltitle}{Review of Keynesian Economics}
-      \field{month}{7}
       \field{number}{3}
       \field{title}{Weaknesses of `wage-led growth'}
       \field{urlday}{12}
@@ -5229,7 +5146,6 @@
       \field{labeltitlesource}{title}
       \field{abstract}{Este artigo discute as origens do processo que mais chamou atenção na economia norte-americana, antes da eclosão da crise do subprime: o crescente endividamento do consumidor. Segundo a hipótese adotada neste trabalho, são causas deste endividamento a mudança na distribuição de renda (aumento da concentração) e as desregulamentações e inovações financeiras, que se desenvolvem a partir do fim dos anos 1970. Tendo em vista que este aspecto vem sendo bem explorado na literatura especializada, o presente trabalho concentra sua explicação na mudança no padrão de distribuição de renda. Analisando por este prisma, chega-se à conclusão adicional de que não se trata de endividamento das famílias, ou dos consumidores, em geral, e sim, mais especificamente, de uma parcela destes, os trabalhadores norte-americanos, que se endividaram para financiar seus gastos, em um contexto de salários reais estagnados. Por fim, os rumos da economia norte-americana pós-crise são brevemente avaliados.}
       \field{journaltitle}{http://www.ipea.gov.br}
-      \field{month}{12}
       \field{title}{Uma {Investigação} sobre a desigualdade na distribuição de renda e o endividamento dos trabalhadores norte-americanos dos anos 1980 aos anos 2000}
       \field{urlday}{28}
       \field{urlmonth}{12}
@@ -5343,7 +5259,6 @@
       \field{abstract}{Thomas E. Weisskopf; Marxian crisis theory and the rate of profit in the postwar U.S. economy, Cambridge Journal of Economics, Volume 3, Issue 4, 1 December 19}
       \field{issn}{0309-166X}
       \field{journaltitle}{Cambridge Journal of Economics}
-      \field{month}{12}
       \field{number}{4}
       \field{title}{Marxian crisis theory and the rate of profit in the postwar {U}.{S}. economy}
       \field{urlday}{15}
@@ -5394,7 +5309,6 @@
       \field{abstract}{Abstract. The essence of Irving Fisher's debt-deflation theory was an interactive process whereby falling commodity prices increased the debt burden of borrowe}
       \field{issn}{0309-166X}
       \field{journaltitle}{Cambridge Journal of Economics}
-      \field{month}{5}
       \field{number}{3}
       \field{shorttitle}{Irving {Fisher}'s debt-deflation theory}
       \field{title}{Irving {Fisher}'s debt-deflation theory: its relevance to current conditions}
@@ -5442,7 +5356,6 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Post Keynesian Economics}
-      \field{month}{4}
       \field{number}{3}
       \field{title}{U.{S}. growth, the housing market, and the distribution of income}
       \field{urlday}{13}
@@ -5518,7 +5431,6 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{booktitle}{The {Financial} {Crisis}}
-      \field{isbn}{978-1-349-32267-1 978-0-230-30394-2}
       \field{shorttitle}{Income {Distribution} and {Borrowing}}
       \field{title}{Income {Distribution} and {Borrowing}: {Growth} and {Financial} {Balances} in the {US} {Economy}}
       \field{urlday}{29}
@@ -5575,7 +5487,6 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{While the literature on theoretical macroeconomic models adopting the stock-flow-consistent (SFC) approach is flourishing, few contributions cover the methodology for building a SFC empirical model for a whole country. Most contributions simply try to feed national accounting data into a theoretical model inspired by Wynne Godley and Marc Lavoie (2007), albeit with different degrees of complexity. In this paper we argue instead that the structure of an empirical SFC model should start from a careful analysis of the specificities of a country's sectoral balance sheets and flow of funds data, given the relevant research question to be addressed. We illustrate our arguments with examples for Greece, Italy, and Ecuador. We also provide some suggestions on how to consistently use the financial and nonfinancial accounts of institutional sectors, showing the link between SFC accounting structures and national accounting rules.}
-      \field{month}{1}
       \field{number}{wp\_919}
       \field{title}{On the {Design} of {Empirical} {Stock}-{Flow}-{Consistent} {Models}}
       \field{type}{techreport}

@@ -42,4 +42,10 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.4.2}Aumento da participa\IeC {\c c}\IeC {\~a}o dos sal\IeC {\'a}rios na renda}{71}{subsection.3.4.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Refer\^encias}{74}{section*.28}% 
+\contentsline {subsection}{\numberline {3.4.3}Aumento da taxa de juros}{72}{subsection.3.4.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.5}Conclus\IeC {\~o}es preliminares}{73}{section.3.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Refer\^encias}{75}{section*.23}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {appendix}{\chapternumberline {A}\textit {Fraction} e o investimento residencial}{84}{appendix.A}% 
