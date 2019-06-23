@@ -1,5 +1,0 @@
-[0] Config.pm:304> INFO - This is Biber 2.12
-[0] Config.pm:307> INFO - Logfile is 'Bibliografia_Dissertacao.blg'
-[22] biber:315> INFO - === sáb jun 22, 2019, 17:52:58
-[45] Utils.pm:209> ERROR - Cannot find control file 'Bibliografia_Dissertacao.bcf'! - Did latex run successfully on your .tex file before you ran biber?
-[45] Biber.pm:114> INFO - ERRORS: 1

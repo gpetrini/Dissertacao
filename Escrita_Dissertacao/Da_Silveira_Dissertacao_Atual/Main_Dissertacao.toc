@@ -48,4 +48,16 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{Refer\^encias}{75}{section*.23}% 
 \defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Ap\IeC {\^e}ndices}{84}{section*.23}% 
+\defcounter {refsection}{0}\relax 
 \contentsline {appendix}{\chapternumberline {A}\textit {Fraction} e o investimento residencial}{84}{appendix.A}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.1}Gastos ``despoupadores''}{84}{section.A.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.2}Investimento residencial}{85}{section.A.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Anexos}{87}{equation.A.2.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {appendix}{\chapternumberline {I}Licen\IeC {\c c}a}{87}{appendix.A}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {I.1}Sobre a licen\IeC {\c c}a dessa obra}{87}{section.A.1}% 

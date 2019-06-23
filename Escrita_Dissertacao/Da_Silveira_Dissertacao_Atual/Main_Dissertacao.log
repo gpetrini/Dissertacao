@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.6.22)  22 JUN 2019 19:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.6.22)  22 JUN 2019 22:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2578,7 +2578,7 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
 
 ] (./Main_Dissertacao.toc
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <12> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 51.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 53.
 ) [8
 
 ]
@@ -2592,14 +2592,14 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <12> not available
 
 
 ] [15]
-<Introducao/InvtResiden_PIB.png, id=244, 1961.3275pt x 1187.43625pt>
+<Introducao/InvtResiden_PIB.png, id=253, 1961.3275pt x 1187.43625pt>
 File: Introducao/InvtResiden_PIB.png Graphic file (type png)
 <use Introducao/InvtResiden_PIB.png>
 Package pdftex.def Info: Introducao/InvtResiden_PIB.png  used on input line 35.
 
 (pdftex.def)             Requested size: 338.58632pt x 204.97792pt.
  [16 <./Introducao/InvtResiden_PIB.png>]
-<Introducao/Empiria_AKB.png, id=257, 875.27pt x 484.81125pt>
+<Introducao/Empiria_AKB.png, id=266, 875.27pt x 484.81125pt>
 File: Introducao/Empiria_AKB.png Graphic file (type png)
 <use Introducao/Empiria_AKB.png>
 Package pdftex.def Info: Introducao/Empiria_AKB.png  used on input line 46.
@@ -2656,7 +2656,7 @@ File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [58
 
 ] [59]
-<Modelo/Caverzassi_Heatmap.png, id=1369, 1178.4025pt x 654.445pt>
+<Modelo/Caverzassi_Heatmap.png, id=1378, 1178.4025pt x 654.445pt>
 File: Modelo/Caverzassi_Heatmap.png Graphic file (type png)
 <use Modelo/Caverzassi_Heatmap.png>
 Package pdftex.def Info: Modelo/Caverzassi_Heatmap.png  used on input line 86.
@@ -2668,17 +2668,17 @@ LaTeX Warning: Reference `CapFatos' on page 64 undefined on input line 161.
 
 [64] [65] [66] [67]) (./Modelo/Analitica.tex [68] [69]) (./Modelo/Choques.tex
 [70] [71]
-<Modelo/Shock_1.png, id=1523, 433.62pt x 289.08pt>
+<Modelo/Shock_1.png, id=1532, 433.62pt x 289.08pt>
 File: Modelo/Shock_1.png Graphic file (type png)
 <use Modelo/Shock_1.png>
 Package pdftex.def Info: Modelo/Shock_1.png  used on input line 42.
 (pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
-<Modelo/Shock_2.png, id=1524, 433.62pt x 289.08pt>
+<Modelo/Shock_2.png, id=1533, 433.62pt x 289.08pt>
 File: Modelo/Shock_2.png Graphic file (type png)
 <use Modelo/Shock_2.png>
 Package pdftex.def Info: Modelo/Shock_2.png  used on input line 54.
 (pdftex.def)             Requested size: 217.66211pt x 145.10866pt.
-<Modelo/Shock_3.png, id=1525, 433.62pt x 289.08pt>
+<Modelo/Shock_3.png, id=1534, 433.62pt x 289.08pt>
 File: Modelo/Shock_3.png Graphic file (type png)
 <use Modelo/Shock_3.png>
 Package pdftex.def Info: Modelo/Shock_3.png  used on input line 61.
@@ -2721,28 +2721,38 @@ ckian conflicting-claims fra-mework'.
 
 [80] [81] [82] [83] (./Modelo/Apendice_Fraction.tex
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <24.88> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 3.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 2.
+ [84
 
-Overfull \hbox (6.28192pt too wide) in paragraph at lines 3--3
-|[]\T1/ptm/b/it/24.88 Fraction \T1/ptm/b/n/24.88 e o in-ves-ti-mento re-si-den-
 
- []
-
-[84
-
-] [85]) (./cc-by-sa.tex [86]
-<cc-by-sa.png, id=1683, 97.0827pt x 33.9669pt>
+] [85]) [86]
+(./cc-by-sa.texpdfTeX warning (ext4): destination with the same identifier (nam
+e{appendix.A}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1 \chapter{Licença}
+                      
+<cc-by-sa.png, id=1691, 97.0827pt x 33.9669pt>
 File: cc-by-sa.png Graphic file (type png)
 <use cc-by-sa.png>
-Package pdftex.def Info: cc-by-sa.png  used on input line 12.
+Package pdftex.def Info: cc-by-sa.png  used on input line 10.
 (pdftex.def)             Requested size: 97.08244pt x 33.96681pt.
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 28.
+pdfTeX warning (ext4): destination with the same identifier (name{section.A.1})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.19 \section{Sobre a licença dessa obra}
+                                          
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 25.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )) [87
 
- <./cc-by-sa.png>] (./Main_Dissertacao.ind) 
+
+ <./cc-by-sa.png>]
+No file Main_Dissertacao.ind.
+
 AED: lastpage setting LastPage
 \tf@toc=\write8
 \openout8 = `Main_Dissertacao.toc'.
@@ -2753,11 +2763,11 @@ AED: lastpage setting LastPage
 \tf@lot=\write10
 \openout10 = `Main_Dissertacao.lot'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 352.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 352.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 356.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 356.
 (./Main_Dissertacao.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 352.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 352.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 356.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 356.
 
 
 LaTeX Warning: There were undefined references.
@@ -2765,17 +2775,17 @@ LaTeX Warning: There were undefined references.
 Package logreq Info: Writing requests to 'Main_Dissertacao.run.xml'.
 \openout1 = `Main_Dissertacao.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 352.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 356.
  ) 
 Here is how much of TeX's memory you used:
- 50535 strings out of 492609
- 956553 string characters out of 6129033
- 1736943 words of memory out of 5000000
- 53039 multiletter control sequences out of 15000+600000
+ 50537 strings out of 492609
+ 956488 string characters out of 6129033
+ 1736911 words of memory out of 5000000
+ 53043 multiletter control sequences out of 15000+600000
  649986 words of font info for 182 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  78i,18n,117p,2568b,4147s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{section*.27} has been referenced but does not exi
+pdfTeX warning (dest): name{section*.25} has been referenced but does not exi
 st, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.95} has been referenced but does not exis
@@ -3078,10 +3088,10 @@ usr/local/texlive/2019/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/
 texlive/2019/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2
 019/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2019/texmf-
 dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Main_Dissertacao.pdf (87 pages, 1416892 bytes).
+Output written on Main_Dissertacao.pdf (87 pages, 1418583 bytes).
 PDF statistics:
- 1934 PDF objects out of 2073 (max. 8388607)
- 1789 compressed objects within 18 object streams
+ 1959 PDF objects out of 2073 (max. 8388607)
+ 1813 compressed objects within 19 object streams
  428 named destinations out of 1000 (max. 500000)
- 329 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 377 words of extra memory for PDF output out of 10000 (max. 10000000)
 
