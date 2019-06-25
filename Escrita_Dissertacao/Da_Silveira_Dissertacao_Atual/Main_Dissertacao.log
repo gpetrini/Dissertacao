@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.6.22)  23 JUN 2019 11:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.6.22)  25 JUN 2019 15:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2685,13 +2685,13 @@ Package pdftex.def Info: Modelo/Shock_3.png  used on input line 61.
 (pdftex.def)             Requested size: 217.66211pt x 145.10866pt.
 ) (./Modelo/Conclusao.tex [72 <./Modelo/Shock_1.png>] [73 <./Modelo/Shock_2.png
 > <./Modelo/Shock_3.png>])) [74]
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 318.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 321.
 
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Overfull \hbox (4.54219pt too wide) in paragraph at lines 318--318
+Overfull \hbox (4.54219pt too wide) in paragraph at lines 321--321
 [][]\T1/ptm/m/sc/12 bortis\T1/ptm/m/n/12 , \T1/ptm/m/sc/12 h. \T1/ptm/b/n/12 In
 s-ti-tu-ti-ons, Beha-vi-our and Eco-no-mic The-ory: A Con-tri-bu-tion to Classi
 cal-Keynesian
@@ -2701,20 +2701,20 @@ cal-Keynesian
 
 
 ] [76]
-Overfull \hbox (0.17998pt too wide) in paragraph at lines 318--318
+Overfull \hbox (0.17998pt too wide) in paragraph at lines 321--321
 [][]$[]$\T1/ptm/m/n/12 . Some ob-ser-va-ti-ons on mo-dels of growth and dis-tri
 -bu-tion with au-to-no-mous de-mand growth:
  []
 
 [77]
-Overfull \hbox (12.56004pt too wide) in paragraph at lines 318--318
+Overfull \hbox (12.56004pt too wide) in paragraph at lines 321--321
 [][]\T1/ptm/m/sc/12 hein\T1/ptm/m/n/12 , \T1/ptm/m/sc/12 e. \T1/ptm/m/n/12 Au-t
 o-no-mous go-vern-ment ex-pen-di-ture growth, de-fi-cits, debt, and dis-tri-bu-
 tion in a neo-Kaleckian
  []
 
 [78] [79]
-Overfull \hbox (0.5758pt too wide) in paragraph at lines 318--318
+Overfull \hbox (0.5758pt too wide) in paragraph at lines 321--321
 [][]$[]$\T1/ptm/m/n/12 . The role of au-to-no-mous de-mand growth in a neo-Kale
 ckian conflicting-claims fra-mework'.
  []
@@ -2763,11 +2763,11 @@ AED: lastpage setting LastPage
 \tf@lot=\write10
 \openout10 = `Main_Dissertacao.lot'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 356.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 356.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 359.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 359.
 (./Main_Dissertacao.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 356.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 356.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 359.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 359.
 
 
 LaTeX Warning: There were undefined references.
@@ -2775,12 +2775,12 @@ LaTeX Warning: There were undefined references.
 Package logreq Info: Writing requests to 'Main_Dissertacao.run.xml'.
 \openout1 = `Main_Dissertacao.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 356.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 359.
  ) 
 Here is how much of TeX's memory you used:
  50537 strings out of 492609
  956488 string characters out of 6129033
- 1736911 words of memory out of 5000000
+ 1736780 words of memory out of 5000000
  53043 multiletter control sequences out of 15000+600000
  649986 words of font info for 182 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -3088,7 +3088,7 @@ usr/local/texlive/2019/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/
 texlive/2019/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2
 019/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2019/texmf-
 dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Main_Dissertacao.pdf (87 pages, 1418583 bytes).
+Output written on Main_Dissertacao.pdf (87 pages, 1418806 bytes).
 PDF statistics:
  1959 PDF objects out of 2073 (max. 8388607)
  1813 compressed objects within 19 object streams
