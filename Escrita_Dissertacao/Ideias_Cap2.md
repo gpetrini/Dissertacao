@@ -9,6 +9,7 @@
 ##  Iniciar com importância do investimento residencial: Fatos estilizados
 
 - Curva de concentração (Tracy e Schneider)
+- Fiebger
 
 
 
