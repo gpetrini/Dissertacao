@@ -7,18 +7,19 @@
    - Existem diferenças significativas entre US e Ger?
 2. Seria este processo geral financeirização ou hipotecarização? (Muito aberto)
 3. Como incluir o investimento residencial na dinâmica da financeirização? (bem ruim)
+4. Quais as consequências econômicas da hipotecarização e como modelá-las?
 
 **Introdução:** Inicial com investimento residencial e debate sobre desenvolvimento
 
-- Solow e “gasto absorvedor”
-  - Ponte para supermultiplicador
+- Investimento residencial no antes e pós crise. 
+  - Solow e “gasto absorvedor” e Ponte para supermultiplicador
     - Gastos autônomos $\Rightarrow$ crescimento
     - Ausência tratamento financeiro $\Rightarrow$ SFC
       - Mencionar que será abordado na seção de metodologia
-- Financeirização e discussão sobre hipotecarização
+- Discussão sobre hipotecarização
   - Base de dados Jordá: Diferenças entre USA e Ger
 
-**Justificativa:** Apresentar Fiebiger e Leamer
+**Justificativa:** Apresentar Fiebiger, Leamer e Aresitis
 
 **Objetivo:** Investigar hipótese da hipotecarização
 
@@ -30,10 +31,10 @@
 
 - Apresentar SFC
   - Taxa própria
-- Dados em painel
+- Dados em painel dinâmico
 
 **Estrutura:** Para além da introdução e conclusão
 
-- <u>Capítulo teórico:</u> Financeirização x Hipotecarização?
+- <u>Capítulo teórico:</u> Hipotecarização e relevância do investimento residencial
 - <u>Capítulo empírico:</u> Dados em painel e estatística descritiva
 - <u>Capítulo modelo:</u> Investimento residencial em SFC com taxa própria e comparação US e Ger
