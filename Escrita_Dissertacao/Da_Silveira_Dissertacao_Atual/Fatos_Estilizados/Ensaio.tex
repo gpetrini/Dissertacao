@@ -1,0 +1,118 @@
+\documentclass[
+% -- opções da classe memoir --
+article,			% indica que é um artigo acadêmico
+12pt,				% tamanho da fonte
+a4paper,			% tamanho do papel. 
+hidelinks,
+english,			% idioma adicional para hifenização
+brazil,				% o último idioma é o principal do documento
+sumario=tradicional,
+twoside
+]{abntex2}
+
+\usepackage{subcaption}
+\usepackage{subfloat}
+\usepackage[bottom]{footmisc}
+
+
+\usepackage[brazil]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}%deve ser usado utf8 ao invés de latin1
+\usepackage[top=2.5cm, bottom=2.5cm, right=3cm,left=3cm ]{geometry}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{cmap}				% Mapear caracteres especiais no PDF
+\usepackage{lmodern}			% Usa a fonte Latin Modern			
+\usepackage[T1]{fontenc}		% Selecao de codigos de fonte.
+\usepackage[utf8]{inputenc}		% Codificacao do documento (convers\~{a}o autom\'{a}tica dos acentos)
+\usepackage{indentfirst}
+\usepackage{caption}
+\usepackage{tikz}
+\usepackage{float}
+\usepackage{hyperref}
+\urlstyle{same}
+
+
+\usepackage{tikz}
+\usetikzlibrary{arrows,shapes,positioning,shadows,trees}
+
+\usepackage{lettrine} % Para deixar primeira letra caligrafada
+\usepackage[normalem]{ulem}
+\usepackage{multirow}
+\useunder{\uline}{\ul}{}
+\usepackage{longtable}
+\usepackage{booktabs}
+
+
+
+% Bibliografia
+\usepackage[backend=biber, style = abnt, noslsn, extrayear, giveninits, justify, sccite, scbib, repeattitles, maxcitenames=2, doi=false,isbn=false,url=false]{biblatex}
+\addbibresource{Biblio.bib}
+
+
+\autor{Gabriel Petrini da Silveira\thanks{E-mail: \url{ gpetrinidasilveira@gmail.com}} \\ Instituto de Economia, Unicamp}
+\titulo{%
+Investimento residencial e taxa própria de juros dos imóveis \\
+\large{Uma investigação a partir de um VECM}
+}
+\data{}
+\instituicao{Instituto de Economia - Unicamp}
+
+
+\setlength{\parskip}{\onelineskip}
+\usepackage{mathptmx}
+\usepackage{longtable}
+\usepackage{lscape}
+%\usepackage{newpxtext} 
+%\usepackage[euler-digits]{eulervm}
+\renewcommand{\ABNTEXchapterfont}{\rmfamily\bfseries}
+\usepackage{titlesec, blindtext, color}
+
+\definecolor{gray75}{gray}{0.75}
+\newcommand{\hsp}{\hspace{20pt}}
+\titleformat{\section}[hang]{\Large\bfseries}{\thesection\hsp\textcolor{gray75}{|}\hsp}{0pt}{\Large\bfseries}
+
+
+
+
+\SingleSpacing
+
+
+
+\begin{document}
+\maketitle
+
+
+
+\begin{resumo}
+Este ensaio tem por objetivo contribuir para a discussão dos gastos autônomos
+
+\vspace{\onelineskip}
+\noindent\textbf{Palavras-chaves}: Supermultiplicador Sraffiano, Investimento residencial, Taxa própria de juros.
+\end{resumo}
+
+\OnehalfSpacing
+
+\input{Intro.tex}
+\input{Autonomos.tex}
+\input{Residencial.tex}
+\input{Modelo.tex}
+\input{Conclusao.tex}
+
+%=====================================================================
+% 							Bibliografia
+%=====================================================================
+%{\let\clearpage\relax \chapter{Bibliografia}}
+%-----
+
+\SingleSpacing
+
+{\let\clearpage\relax\printbibliography}
+\input{AnexoA.tex}
+%\input{AnexoB.tex}
+
+
+
+\end{document}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.6.22)  25 JUN 2019 15:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.6.22)  20 JUL 2019 21:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1027,6 +1027,10 @@ Package biblatex Info: ... file 'biblatex.cfg' found.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
 ))
+
+Package biblatex Warning: Macro 'date+extradate' undefined.
+(biblatex)                Using \newbibmacro on input line 55.
+
 (/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2018/12/01 v2.17b AMS math features
 \@mathmargin=\skip286
@@ -1999,7 +2003,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
 )
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 116.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 151.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -2318,7 +2322,14 @@ Package biblatex Info: ... file 'english.lbx' found.
 (/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
 ))
-(./Main_Dissertacao.aux)
+(./Main_Dissertacao.aux
+
+LaTeX Warning: Label `Investo_Resid' multiply defined.
+
+
+LaTeX Warning: Label `fevd' multiply defined.
+
+)
 \openout1 = `Main_Dissertacao.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 71.
@@ -2337,8 +2348,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 71.
 LaTeX Font Info:    ... okay on input line 71.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 71.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 71.
-
-(/usr/local/texlive/2019/texmf-dist/tex/latex/base/ts1cmr.fd
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 71.
@@ -2578,28 +2588,28 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
 
 ] (./Main_Dissertacao.toc
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <12> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 53.
-) [8
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 63.
+ [8
 
-]
-(./Main_Dissertacao.lof) [9] (./Main_Dissertacao.lot) [10]
+]) [9]
+(./Main_Dissertacao.lof) [10] (./Main_Dissertacao.lot) [11]
 (./Interno/Dissertacao_Variaveis.tex) (./Interno/Dissertacao_abreviacoes.tex
-[11
+[12
 
-]) [12
+]) [13
 
 ] (./Introducao/Quali.tex [14
 
 
 ] [15]
-<Introducao/InvtResiden_PIB.png, id=253, 1961.3275pt x 1187.43625pt>
+<Introducao/InvtResiden_PIB.png, id=293, 1961.3275pt x 1187.43625pt>
 File: Introducao/InvtResiden_PIB.png Graphic file (type png)
 <use Introducao/InvtResiden_PIB.png>
 Package pdftex.def Info: Introducao/InvtResiden_PIB.png  used on input line 35.
 
 (pdftex.def)             Requested size: 338.58632pt x 204.97792pt.
  [16 <./Introducao/InvtResiden_PIB.png>]
-<Introducao/Empiria_AKB.png, id=266, 875.27pt x 484.81125pt>
+<Introducao/Empiria_AKB.png, id=306, 875.27pt x 484.81125pt>
 File: Introducao/Empiria_AKB.png Graphic file (type png)
 <use Introducao/Empiria_AKB.png>
 Package pdftex.def Info: Introducao/Empiria_AKB.png  used on input line 46.
@@ -2630,11 +2640,8 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
  [22] [23])
 (./Teorico/Cambridge.tex [24] [25] [26]) (./Teorico/Kaleckiano.tex [27]
 [28] [29]) (./Teorico/Super.tex [30] [31] [32] [33] [34] [35]))
-(./Teorico/Teorico_Sec2.tex [36] [37] [38] [39] [40] [41] [42]
-
-LaTeX Warning: Reference `CapFatos' on page 43 undefined on input line 184.
-
-[43]) (./Teorico/Teorico_Sec3.tex [44] [45] [46] [47] [48] [49])
+(./Teorico/Teorico_Sec2.tex [36] [37] [38] [39] [40] [41] [42] [43])
+(./Teorico/Teorico_Sec3.tex [44] [45] [46] [47] [48] [49])
 (./Teorico/Teorico_Conclusao.tex [50] [51] [52] [53] [54] [55pdfTeX warning (ex
 t4): destination with the same identifier (name{equation.2.4.1}) has been alrea
 dy used, duplicate ignored
@@ -2648,91 +2655,165 @@ n.2.4.1}) has been already used, duplicate ignored
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.108 
-      ] [56])) (./Modelo/ModeloSimples.tex [57] (./Modelo/Intro.tex
+      ] [56])) (./Fatos_Estilizados/Fatos.tex [57]
+(./Fatos_Estilizados/Introducao.tex [58
+
+]) (./Fatos_Estilizados/Autonomos.tex
+[59]) (./Fatos_Estilizados/Residencial.tex [60] [61]
+<Fatos_Estilizados/Figs/Empiria.png, id=1507, 495.5313pt x 300.1614pt>
+File: Fatos_Estilizados/Figs/Empiria.png Graphic file (type png)
+<use Fatos_Estilizados/Figs/Empiria.png>
+Package pdftex.def Info: Fatos_Estilizados/Figs/Empiria.png  used on input line
+ 35.
+(pdftex.def)             Requested size: 483.69687pt x 293.00656pt.
+ [62]
+<Fatos_Estilizados/Figs/Recuperacao.png, id=1520, 721.2546pt x 383.031pt>
+File: Fatos_Estilizados/Figs/Recuperacao.png Graphic file (type png)
+<use Fatos_Estilizados/Figs/Recuperacao.png>
+Package pdftex.def Info: Fatos_Estilizados/Figs/Recuperacao.png  used on input 
+line 45.
+(pdftex.def)             Requested size: 483.69687pt x 256.86906pt.
+ [63 <./Fatos_Estilizados/Figs/Empiria.png>] [64 <./Fatos_Estilizados/Figs/Recu
+peracao.png>] [65]
+<Fatos_Estilizados/Figs/TxPropria_Investo.png, id=1626, 500.1084pt x 314.8563pt
+>
+File: Fatos_Estilizados/Figs/TxPropria_Investo.png Graphic file (type png)
+<use Fatos_Estilizados/Figs/TxPropria_Investo.png>
+Package pdftex.def Info: Fatos_Estilizados/Figs/TxPropria_Investo.png  used on 
+input line 95.
+(pdftex.def)             Requested size: 362.77264pt x 228.39708pt.
+)
+(./Fatos_Estilizados/VECM.tex [66]
+<Fatos_Estilizados/Figs/Meses_contrucao.png, id=1652, 1145.4795pt x 709.9323pt>
+
+File: Fatos_Estilizados/Figs/Meses_contrucao.png Graphic file (type png)
+<use Fatos_Estilizados/Figs/Meses_contrucao.png>
+Package pdftex.def Info: Fatos_Estilizados/Figs/Meses_contrucao.png  used on in
+put line 13.
+(pdftex.def)             Requested size: 483.69687pt x 299.77277pt.
+ [67 <./Fatos_Estilizados/Figs/TxPropria_Investo.png>]
+<Fatos_Estilizados/Figs/Scatter_VECM.png, id=1665, 963.8409pt x 332.442pt>
+File: Fatos_Estilizados/Figs/Scatter_VECM.png Graphic file (type png)
+<use Fatos_Estilizados/Figs/Scatter_VECM.png>
+Package pdftex.def Info: Fatos_Estilizados/Figs/Scatter_VECM.png  used on input
+ line 24.
+(pdftex.def)             Requested size: 483.69687pt x 166.83437pt.
+<Fatos_Estilizados/Figs/Residuos_4VECM.png, id=1666, 370.0224pt x 364.4817pt>
+File: Fatos_Estilizados/Figs/Residuos_4VECM.png Graphic file (type png)
+<use Fatos_Estilizados/Figs/Residuos_4VECM.png>
+Package pdftex.def Info: Fatos_Estilizados/Figs/Residuos_4VECM.png  used on inp
+ut line 34.
+(pdftex.def)             Requested size: 273.83485pt x 269.72801pt.
+ [68 <./Fatos_Estilizados/Figs/Meses_contrucao.png>]
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 89.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+<Fatos_Estilizados/Figs/FEVD_VECM.png, id=1676, 1144.7568pt x 710.8959pt>
+File: Fatos_Estilizados/Figs/FEVD_VECM.png Graphic file (type png)
+<use Fatos_Estilizados/Figs/FEVD_VECM.png>
+Package pdftex.def Info: Fatos_Estilizados/Figs/FEVD_VECM.png  used on input li
+ne 95.
+(pdftex.def)             Requested size: 483.69687pt x 300.37491pt.
+
+Overfull \hbox (1.87415pt too wide) in paragraph at lines 99--102
+[]\T1/ptm/m/n/12 Adiante, È apre-sen-tado o gr·-fico da fun-Á„o im-pulso res-po
+sta or-to-go-na-li-zada. Grosso modo,
+ []
+
+[69 <./Fatos_Estilizados/Figs/Scatter_VECM.png>]
+<Fatos_Estilizados/Figs/Impulso_VECM.png, id=1684, 699.8145pt x 693.5511pt>
+File: Fatos_Estilizados/Figs/Impulso_VECM.png Graphic file (type png)
+<use Fatos_Estilizados/Figs/Impulso_VECM.png>
+Package pdftex.def Info: Fatos_Estilizados/Figs/Impulso_VECM.png  used on input
+ line 109.
+(pdftex.def)             Requested size: 483.69687pt x 479.36563pt.
+<Fatos_Estilizados/Figs/Previsao_VECM.png, id=1686, 1210.5225pt x 1178.4025pt>
+File: Fatos_Estilizados/Figs/Previsao_VECM.png Graphic file (type png)
+<use Fatos_Estilizados/Figs/Previsao_VECM.png>
+Package pdftex.def Info: Fatos_Estilizados/Figs/Previsao_VECM.png  used on inpu
+t line 119.
+(pdftex.def)             Requested size: 483.69687pt x 470.86717pt.
+ [70 <./Fatos_Estilizados/Figs/Residuos_4VECM.png>]) (./Fatos_Estilizados/Concl
+usao.tex [71] [72 <./Fatos_Estilizados/Figs/FEVD_VECM.png>] [73 <./Fatos_Estili
+zados/Figs/Impulso_VECM.png>]
+[74 <./Fatos_Estilizados/Figs/Previsao_VECM.png>])) (./Modelo/ModeloSimples.tex
+[75] (./Modelo/Intro.tex
 LaTeX Font Info:    Try loading font information for T1+lmss on input line 19.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [58
+) [76
 
-] [59]
-<Modelo/Caverzassi_Heatmap.png, id=1378, 1178.4025pt x 654.445pt>
+] [77]
+<Modelo/Caverzassi_Heatmap.png, id=1910, 1178.4025pt x 654.445pt>
 File: Modelo/Caverzassi_Heatmap.png Graphic file (type png)
 <use Modelo/Caverzassi_Heatmap.png>
 Package pdftex.def Info: Modelo/Caverzassi_Heatmap.png  used on input line 86.
 (pdftex.def)             Requested size: 435.32422pt x 241.76138pt.
 )
-(./Modelo/Modelo.tex [60 <./Modelo/Caverzassi_Heatmap.png>] [61] [62] [63]
-
-LaTeX Warning: Reference `CapFatos' on page 64 undefined on input line 161.
-
-[64] [65] [66] [67]) (./Modelo/Analitica.tex [68] [69]) (./Modelo/Choques.tex
-[70] [71]
-<Modelo/Shock_1.png, id=1532, 433.62pt x 289.08pt>
+(./Modelo/Modelo.tex [78 <./Modelo/Caverzassi_Heatmap.png>] [79] [80] [81]
+[82] [83] [84] [85]) (./Modelo/Analitica.tex [86] [87]) (./Modelo/Choques.tex
+[88] [89]
+<Modelo/Shock_1.png, id=2065, 433.62pt x 289.08pt>
 File: Modelo/Shock_1.png Graphic file (type png)
 <use Modelo/Shock_1.png>
 Package pdftex.def Info: Modelo/Shock_1.png  used on input line 42.
 (pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
-<Modelo/Shock_2.png, id=1533, 433.62pt x 289.08pt>
+<Modelo/Shock_2.png, id=2066, 433.62pt x 289.08pt>
 File: Modelo/Shock_2.png Graphic file (type png)
 <use Modelo/Shock_2.png>
 Package pdftex.def Info: Modelo/Shock_2.png  used on input line 54.
 (pdftex.def)             Requested size: 217.66211pt x 145.10866pt.
-<Modelo/Shock_3.png, id=1534, 433.62pt x 289.08pt>
+<Modelo/Shock_3.png, id=2067, 433.62pt x 289.08pt>
 File: Modelo/Shock_3.png Graphic file (type png)
 <use Modelo/Shock_3.png>
 Package pdftex.def Info: Modelo/Shock_3.png  used on input line 61.
 (pdftex.def)             Requested size: 217.66211pt x 145.10866pt.
-) (./Modelo/Conclusao.tex [72 <./Modelo/Shock_1.png>] [73 <./Modelo/Shock_2.png
-> <./Modelo/Shock_3.png>])) [74]
+) (./Modelo/Conclusao.tex [90 <./Modelo/Shock_1.png>] [91 <./Modelo/Shock_2.png
+> <./Modelo/Shock_3.png>])) [92]
 LaTeX Font Info:    Try loading font information for T1+lmtt on input line 321.
 
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
+) [93
+
+
+] [94]
 Overfull \hbox (4.54219pt too wide) in paragraph at lines 321--321
 [][]\T1/ptm/m/sc/12 bortis\T1/ptm/m/n/12 , \T1/ptm/m/sc/12 h. \T1/ptm/b/n/12 In
 s-ti-tu-ti-ons, Beha-vi-our and Eco-no-mic The-ory: A Con-tri-bu-tion to Classi
 cal-Keynesian
  []
 
-[75
-
-
-] [76]
+[95] [96]
 Overfull \hbox (0.17998pt too wide) in paragraph at lines 321--321
 [][]$[]$\T1/ptm/m/n/12 . Some ob-ser-va-ti-ons on mo-dels of growth and dis-tri
 -bu-tion with au-to-no-mous de-mand growth:
  []
 
-[77]
-Overfull \hbox (12.56004pt too wide) in paragraph at lines 321--321
-[][]\T1/ptm/m/sc/12 hein\T1/ptm/m/n/12 , \T1/ptm/m/sc/12 e. \T1/ptm/m/n/12 Au-t
-o-no-mous go-vern-ment ex-pen-di-ture growth, de-fi-cits, debt, and dis-tri-bu-
-tion in a neo-Kaleckian
- []
-
-[78] [79]
+[97] [98] [99] [100] [101]
 Overfull \hbox (0.5758pt too wide) in paragraph at lines 321--321
 [][]$[]$\T1/ptm/m/n/12 . The role of au-to-no-mous de-mand growth in a neo-Kale
 ckian conflicting-claims fra-mework'.
  []
 
-[80] [81] [82] [83] (./Modelo/Apendice_Fraction.tex
+[102] [103] [104] [105] [106] (./Modelo/Apendice_Fraction.tex
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <24.88> not available
 (Font)              Font shape `T1/ptm/b/it' tried instead on input line 2.
- [84
+ [107
 
 
-] [85]) [86]
-(./cc-by-sa.texpdfTeX warning (ext4): destination with the same identifier (nam
-e{appendix.A}) has been already used, duplicate ignored
+] [108])
+[109] (./cc-by-sa.texpdfTeX warning (ext4): destination with the same identifie
+r (name{appendix.A}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.1 \chapter{Licen√ßa}
                       
-<cc-by-sa.png, id=1691, 97.0827pt x 33.9669pt>
+<cc-by-sa.png, id=2286, 97.0827pt x 33.9669pt>
 File: cc-by-sa.png Graphic file (type png)
 <use cc-by-sa.png>
 Package pdftex.def Info: cc-by-sa.png  used on input line 10.
@@ -2742,12 +2823,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{section.A.1})
 <to be read again> 
                    \relax 
 l.19 \section{Sobre a licen√ßa dessa obra}
-                                          
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 25.
-
-(/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)) [87
+                                          ) [110
 
 
  <./cc-by-sa.png>]
@@ -2770,7 +2846,11 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 359.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 359.
 
 
-LaTeX Warning: There were undefined references.
+LaTeX Warning: There were multiply-defined labels.
+
+
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
 
 Package logreq Info: Writing requests to 'Main_Dissertacao.run.xml'.
 \openout1 = `Main_Dissertacao.run.xml'.
@@ -2778,15 +2858,81 @@ Package logreq Info: Writing requests to 'Main_Dissertacao.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 359.
  ) 
 Here is how much of TeX's memory you used:
- 50537 strings out of 492609
- 956488 string characters out of 6129033
- 1736780 words of memory out of 5000000
- 53043 multiletter control sequences out of 15000+600000
+ 51168 strings out of 492609
+ 973516 string characters out of 6129033
+ 1872342 words of memory out of 5000000
+ 53516 multiletter control sequences out of 15000+600000
  649986 words of font info for 182 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  78i,18n,117p,2568b,4147s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{section*.25} has been referenced but does not exi
+pdfTeX warning (dest): name{section*.36} has been referenced but does not exi
 st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.117} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.116} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.115} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.114} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.113} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.112} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.111} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.110} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.109} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.108} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.107} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.106} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.105} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.104} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.103} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.102} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.101} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.100} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.99} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.98} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.97} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.96} has been referenced but does not exis
+t, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.95} has been referenced but does not exis
 t, replaced by a fixed one
@@ -3088,10 +3234,10 @@ usr/local/texlive/2019/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/
 texlive/2019/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2
 019/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2019/texmf-
 dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Main_Dissertacao.pdf (87 pages, 1418806 bytes).
+Output written on Main_Dissertacao.pdf (111 pages, 3240366 bytes).
 PDF statistics:
- 1959 PDF objects out of 2073 (max. 8388607)
- 1813 compressed objects within 19 object streams
- 428 named destinations out of 1000 (max. 500000)
- 377 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2597 PDF objects out of 2984 (max. 8388607)
+ 2403 compressed objects within 25 object streams
+ 558 named destinations out of 1000 (max. 500000)
+ 462 words of extra memory for PDF output out of 10000 (max. 10000000)
 

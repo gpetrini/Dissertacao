@@ -2,13 +2,13 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {brazil}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Lista de Ilustra\IeC {\c c}\IeC {\~o}es}{ix}{section*.6}% 
+\contentsline {chapter}{Lista de Ilustra\IeC {\c c}\IeC {\~o}es}{x}{section*.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Lista de Tabelas}{x}{section*.6}% 
+\contentsline {chapter}{Lista de Tabelas}{xi}{section*.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Lista de Vari\IeC {\'a}veis}{xi}{chapter*.7}% 
+\contentsline {chapter}{Lista de Vari\IeC {\'a}veis}{xii}{chapter*.7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Lista de Abreviaturas e Siglas}{xii}{chapter*.8}% 
+\contentsline {chapter}{Lista de Abreviaturas e Siglas}{xiii}{chapter*.8}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\chapternumberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{14}{chapter.1}% 
 \defcounter {refsection}{0}\relax 
@@ -28,36 +28,46 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.4}Princ\IeC {\'\i }pio da demanda efetiva no m\IeC {\'e}dio prazo e a estabilidade fundamental}{51}{section.2.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\chapternumberline {3}Modelo Simplificado}{58}{chapter.3}% 
+\contentsline {chapter}{\chapternumberline {3}Investimento residencial e taxa pr\IeC {\'o}pria de juros dos im\IeC {\'o}veis: Uma investiga\IeC {\c c}\IeC {\~a}o a partir de um VECM}{58}{chapter.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Metodologia SFC: Uma breve introdu\IeC {\c c}\IeC {\~a}o}{58}{section.3.1}% 
+\contentsline {section}{\numberline {3.1}Modelos de crescimento e os gastos aut\IeC {\^o}nomos: uma revis\IeC {\~a}o emp\IeC {\'\i }rica}{59}{section.3.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Modelo}{61}{section.3.2}% 
+\contentsline {section}{\numberline {3.2}Investimento residencial e a lacuna heterodoxa}{61}{section.3.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Solu\IeC {\c c}\IeC {\~a}o anal\IeC {\'\i }tica}{68}{section.3.3}% 
+\contentsline {section}{\numberline {3.3}Modelo}{66}{section.3.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Simula\IeC {\c c}\IeC {\~a}o e choques}{71}{section.3.4}% 
+\contentsline {section}{\numberline {3.4}Considera\IeC {\c c}\IeC {\~o}es finais: Da taxa pr\IeC {\'o}rpia a infla\IeC {\c c}\IeC {\~a}o de ativos}{71}{section.3.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.1}Aumento na taxa de crescimento do investimento residencial}{71}{subsection.3.4.1}% 
+\contentsline {chapter}{\chapternumberline {4}Modelo Simplificado}{76}{chapter.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.2}Aumento da participa\IeC {\c c}\IeC {\~a}o dos sal\IeC {\'a}rios na renda}{71}{subsection.3.4.2}% 
+\contentsline {section}{\numberline {4.1}Metodologia SFC: Uma breve introdu\IeC {\c c}\IeC {\~a}o}{76}{section.4.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.3}Aumento da taxa de juros}{72}{subsection.3.4.3}% 
+\contentsline {section}{\numberline {4.2}Modelo}{79}{section.4.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.5}Conclus\IeC {\~o}es preliminares}{73}{section.3.5}% 
+\contentsline {section}{\numberline {4.3}Solu\IeC {\c c}\IeC {\~a}o anal\IeC {\'\i }tica}{86}{section.4.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Refer\^encias}{75}{section*.23}% 
+\contentsline {section}{\numberline {4.4}Simula\IeC {\c c}\IeC {\~a}o e choques}{89}{section.4.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Ap\IeC {\^e}ndices}{84}{section*.23}% 
+\contentsline {subsection}{\numberline {4.4.1}Aumento na taxa de crescimento do investimento residencial}{89}{subsection.4.4.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {appendix}{\chapternumberline {A}\textit {Fraction} e o investimento residencial}{84}{appendix.A}% 
+\contentsline {subsection}{\numberline {4.4.2}Aumento da participa\IeC {\c c}\IeC {\~a}o dos sal\IeC {\'a}rios na renda}{89}{subsection.4.4.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Gastos ``despoupadores''}{84}{section.A.1}% 
+\contentsline {subsection}{\numberline {4.4.3}Aumento da taxa de juros}{90}{subsection.4.4.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}Investimento residencial}{85}{section.A.2}% 
+\contentsline {section}{\numberline {4.5}Conclus\IeC {\~o}es preliminares}{91}{section.4.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Anexos}{87}{equation.A.2.2}% 
+\contentsline {chapter}{Refer\^encias}{93}{section*.34}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {appendix}{\chapternumberline {I}Licen\IeC {\c c}a}{87}{appendix.A}% 
+\contentsline {chapter}{Ap\IeC {\^e}ndices}{107}{section*.34}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {I.1}Sobre a licen\IeC {\c c}a dessa obra}{87}{section.A.1}% 
+\contentsline {appendix}{\chapternumberline {A}\textit {Fraction} e o investimento residencial}{107}{appendix.A}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.1}Gastos ``despoupadores''}{107}{section.A.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.2}Investimento residencial}{108}{section.A.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Anexos}{110}{equation.A.2.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {appendix}{\chapternumberline {I}Licen\IeC {\c c}a}{110}{appendix.A}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {I.1}Sobre a licen\IeC {\c c}a dessa obra}{110}{section.A.1}% 

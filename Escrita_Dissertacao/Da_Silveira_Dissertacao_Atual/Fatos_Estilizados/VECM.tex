@@ -1,0 +1,121 @@
+\section{Modelo}
+\label{Modelo_empirico}
+
+O modelo a ser estimado pretende testar se a taxa própria de juros dos imóveis contribui para explicar a dinâmica do investimento residencial tal como proposto por \textcite{teixeira_crescimento_2015}\footnote{Vale pontuar que tal como no modelo do supermultiplicador sraffiano, a distribuição de renda é determinada por fatores socio-históricos e institucionais e, portanto, não será estimada de modo a manter a consistência teórica.}. Por se tratar de taxas de crescimento com ampla volatilidade, aplicou-se a transformação de \textcite{yeo_new_2000} para conter a amplitude das séries decorrente da crise imobiliária. A razão de se utilizar tal procedimento e não a transformação de \textcite{box_analysis_1964} é por não se restringir a valores não-negativos. Em seguida, foram realizados testes de cointegração de \textcite{engle_co-integration_1987} bem como o procedimento de \textcite{johansen_estimation_1991} e, a um nível de significância de 5\%, conclui-se que as séries são cointegradas e, portanto, é possível estimar um modelo vetor de correção de erros (VECM)\footnote{Os resultados de todos os testes realizados bem como as rotinas utilizadas estão disponíveis sob solicitação.}.
+
+Dito isso, resta determinar a defasagem utilizada. Pelos critérios de informação, tanto para o segundo (trimestre) quanto para o quinto \textit{lag} são elegíveis. Apesar de parcimonioso, a escolha da segunda defasagem não é possui respaldo teórico e isso pode ser visualizado pelo gráfico \ref{meses}. Se considerar o tempo médio de construção de imóveis desde a aprovação até a conclusão, verifica-se que deve-se incluir \textit{ao menos} o segundo \textit{lag} para incorporar as residências construídas para a venda uma vez que tal motivação só é realizada se concluída a construção. 
+
+
+\begin{figure}[htb]
+	\centering
+	\caption{Tempo médio de construção (aprovação a conclusão) de imóveis para uma unidade familiar por propósito de construção exceto casas pré-fabricadas (1976-2018)}
+	\label{meses}
+	\includegraphics[width=\textwidth]{Fatos_Estilizados/Figs/Meses_contrucao.png}
+	\caption*{\textbf{Fonte:} Survey of Construction (SOC), elaboração própria}
+\end{figure}
+Tal procedimento, no entanto, não é suficiente para determinar a seleção do \textit{lag} a ser utilizado. Dado que o fluxo de novos imóveis é significativamente inferior ao estoque existente, o efeito da variação dos preços se verifica mesmo com as construções não concluídas, ou seja, impacto decorre das residências concluídas anteriormente. Desse modo, a justificativa mais razoável é por meio do comportamento \textit{forward looking} reportado por \textcite{green_follow_1997}, ou seja, o processo decisório para iniciar a construção de um novo imóvel depende de componentes expectacionais. Tal elemento é captado pela taxa própria \textit{esperada}. 
+
+De forma a ilustrar tal relação, o gráfico \ref{defasagens} apresenta as variáveis de interesse frente ao \textit{lag} que minimiza os critério AIC e FPE. Esse procedimento permite visualizar se existe alguma relação entre a taxa própria esperada (taxa efetiva defasada) e taxa de crescimento dos imóveis\footnote{De modo a dar conta de não-linearidades, é apresentada a regressão quadrática entre ambas as variáveis (e o mesmo foi realizado para o gráfico inverso).}. Já a relação inversa, qual seja, da taxa de crescimento para a taxa própria não se verifica uma vez que, como visto, o fluxo de novos imóveis é bastante inferior o estoque de imóveis existente e, portanto, é esperado que tal relação não esteja presente. Em outras palavras, a especulação com o \textit{estoque}  de imóveis gera inflação desses ativos que, por conseguinte, afeta a construção de novos imóveis (\textit{fluxo}) e não o inverso. Essa inspeção, portanto, ilustra de forma bastante grosseira tal componente expectacional.  Dito isso,  estima-se um VECM de ordem 5 cujos resíduos são apresentados no gráfico \ref{residuos}\footnote{Nota-se que tal defasagem, além de ser teoricamente justificada também gera resíduos não heterocedásticos, normalmente distribuídos e sem correlação serial.}.
+
+\begin{figure}[htb]
+	\centering
+	\caption{Dispersão entre taxa própria e crescimento do investimento residencial: defasagens selecionadas a partir dos critérios de informação}
+	\label{defasagens}
+	\includegraphics[width=\textwidth]{Fatos_Estilizados/Figs/Scatter_VECM.png}
+	\caption*{\textbf{Fonte:} Elaboração própria}
+\end{figure}
+%TODO Adicionar gráficos com defasagem 2
+
+
+\begin{figure}[htb]
+	\centering
+	\caption{Inspeção dos resíduos da estimação}
+	\label{residuos}
+	\includegraphics[height=.4\textheight]{Fatos_Estilizados/Figs/Residuos_4VECM.png}
+	\caption*{\textbf{Fonte:} Elaboração própria}
+\end{figure}
+
+
+
+\begin{center}
+	\begin{table}[htb]
+		\centering
+		\caption{Parâmetros para a equação da Taxa Própria}
+	\begin{tabular}{lccclcc}
+		\toprule
+		\textbf{Equação:} Taxa Prórpia & \textbf{coef} & \textbf{std err} & \textbf{z} & \textbf{P$> |$z$|$} & \textbf{[0.025} & \textbf{0.975]}  \\
+		\midrule
+		\textbf{$L^1 $ Taxa Própria} &       0.9320  &        0.089     &    10.511  &         0.000***        &        0.758    &        1.106     \\
+		\textbf{$L^1 $ gZ}           &      -0.0545  &        0.014     &    -3.786  &         0.000***        &       -0.083    &       -0.026     \\
+		\textbf{$L^2 $ Taxa Própria} &      -0.2810  &        0.122     &    -2.305  &         0.021**        &       -0.520    &       -0.042     \\
+		\textbf{$L^2 $ gZ}           &       0.0040  &        0.013     &     0.309  &         0.758        &       -0.021    &        0.029     \\
+		\textbf{$L^3 $ Taxa Própria} &       0.0043  &        0.127     &     0.034  &         0.973        &       -0.245    &        0.253     \\
+		\textbf{$L^3 $ gZ}           &      -0.0132  &        0.012     &    -1.058  &         0.290        &       -0.038    &        0.011     \\
+		\textbf{$L^4 $ Taxa Própria} &      -0.0626  &        0.126     &    -0.497  &         0.619        &       -0.309    &        0.184     \\
+		\textbf{$L^4 $ gZ}           &      -0.0030  &        0.012     &    -0.242  &         0.809        &       -0.027    &        0.021     \\
+		\textbf{$L^5 $ Taxa Própria} &       0.0144  &        0.093     &     0.156  &         0.876        &       -0.167    &        0.196     \\
+		\textbf{EC1} &      -0.0099  &        0.007     &    -1.339  &         0.181        &       -0.024    &        0.005     \\
+		\textbf{$\beta_1$ } &       1.0000  &            0     &         0  &         0.000***        &        1.000    &        1.000     \\\bottomrule
+	\end{tabular}
+\caption*{\textbf{Fonte:} Elaboração própria}
+\end{table}
+\end{center}
+	
+	\begin{table}[htb]
+		\begin{center}
+		\caption{Parâmetros para a equação da $g_Z$}	
+	\begin{tabular}{lccclcc}
+		\toprule
+		\textbf{Equação:} $g_Z$ & \textbf{coef} & \textbf{std err} & \textbf{z} & \textbf{P$> |$z$|$} & \textbf{[0.025} & \textbf{0.975]}  \\
+		\midrule
+		\textbf{$L^1 $ Taxa Própria} &      -0.8392  &        0.553     &    -1.517  &         0.129        &       -1.924    &        0.245     \\
+		\textbf{$L^1 $ gZ}           &       0.1290  &        0.090     &     1.435  &         0.151        &       -0.047    &        0.305     \\
+		\textbf{$L^2 $ Taxa Própria} &      -1.6629  &        0.761     &    -2.186  &         0.029**        &       -3.154    &       -0.172     \\
+		\textbf{$L^2 $ gZ}           &      -0.0663  &        0.081     &    -0.817  &         0.414        &       -0.225    &        0.093     \\
+		\textbf{$L^3 $ Taxa Própria} &       1.5635  &        0.793     &     1.972  &         0.049**        &        0.009    &        3.118     \\
+		\textbf{$L^3 $ gZ}           &       0.1092  &        0.078     &     1.407  &         0.159        &       -0.043    &        0.261     \\
+		\textbf{$L^4 $ Taxa Própria} &      -0.5929  &        0.785     &    -0.755  &         0.450        &       -2.132    &        0.946     \\
+		\textbf{$L^4 $ gZ}           &      -0.4590  &        0.078     &    -5.895  &         0.000***        &       -0.612    &       -0.306     \\
+		\textbf{$L^5 $ Taxa Própria} &      -0.3158  &        0.577     &    -0.547  &         0.584        &       -1.447    &        0.816     \\
+		\textbf{$L^5 $ gZ}           &       0.0265  &        0.089     &     0.299  &         0.765        &       -0.147    &        0.200     \\
+		\textbf{EC1} &       0.1388  &        0.046     &     3.021  &         0.003**        &        0.049    &        0.229     \\
+		\textbf{$\beta_2$ } &      -0.4833  &        0.230     &    -2.099  &         0.036**        &       -0.934    &       -0.032     \\\bottomrule
+	\end{tabular}
+\caption*{\textbf{Fonte:} Elaboração própria}
+\end{center}
+\end{table}
+Adotando um nível de significância de 5\%, verifica-se que o parâmetro de correção de erro (referente ao curto prazo) é estatisticamente significante para a equação da taxa de crescimento do investimento residencial enquanto o vetor de cointegração (referente ao longo prazo) é estatisticamente significante para ambas as equações. Seguindo a proposição de \textcite{teixeira_crescimento_2015}, espera-se que os coeficientes da equação $g_Z$ para a taxa própria sejam negativos e este não é o caso apenas para uma das defasagens. Além disso, espera-se que não exista uma relação de curto prazo entre a taxa própria e $g_Z$, ou seja, taxa própria seja fracamente exógena e isso também é verificado. Portanto, os resultados obtidos estão em linha com os esperados. 
+
+Outra forma de verificar a capacidade explicativa da taxa própria para $g_Z$ é por meio da decomposição da variância da previsão (FEVD) como no gráfico \ref{fevd}. Verifica-se que desde o primeiro trimestre a taxa própria contribui para $g_Z$ enquanto o inverso não é válido. Adicionalmente, é notável que tal contribuição é crescente e maior que 50\% para além do 8º trimestre. Portanto, a taxa própria é explicada principalmente por ela mesma e explica $g_Z$ consideravelmente.
+
+\begin{figure}[htb]
+	\centering
+	\caption{Decomposição da variância da previsão}
+	\label{fevd}
+	\includegraphics[width=\textwidth]{Fatos_Estilizados/Figs/FEVD_VECM.png}
+	\caption*{\textbf{Fonte:} Elaboração própria}
+\end{figure}
+
+Adiante, é apresentado o gráfico da função impulso resposta ortogonalizada. Grosso modo, as conclusões da FEVD se estendem para os choques. Os efeitos do aumento da taxa própria é positivo sobre ela mesma e se amortece ao longo do tempo, evidenciando um sistema estável e o mesmo vale para os efeitos do aumento de $g_Z$ sobre $g_Z$. Já os efeitos de $g_Z$ sobre a taxa própria é negativo no curto prazo mas se dissipa para além do 5º trimestre uma vez que passa a pertencer ao intervalo de confiança. A explicação desse resultado decorre dos efeitos de $g_Z$ sobre o preço dos imóveis (diminuição da Taxa Própria) uma vez que a taxa de juros das hipotecas é mantida constante. Por fim, e este é o resultado relevante, dados os objetivos, é o efeito negativo considerável e duradouro (6 trimestres) da taxa própria sobre $g_Z$, confirmando a tese de \textcite{teixeira_crescimento_2015}, e que se torna positivo em um horizonte mais longo podendo estar associado a construção de novos imóveis por motivos não-especulativos decorrentes da redução da inflação imobiliária (aumento da taxa própria).
+%alinhado com os resultados de \textcite{huang_is_2018} para o longo prazo.
+%podendo estar associado aos gastos com aprimoramento residencial uma vez encerradas as construções (também contabilizado como investimento residencial).
+
+%TODO Rever efeito positivo no longo prazo
+
+\begin{figure}[htb]
+	\centering
+	\caption{Função impulso resposta ortogonalizada}
+	\label{fevd}
+	\includegraphics[width=\textwidth]{Fatos_Estilizados/Figs/Impulso_VECM.png}
+	\caption*{\textbf{Fonte:} Elaboração própria}
+\end{figure}
+
+Dos resultados apresentados acima, verifica-se que a taxa própria de juros dos imóveis tem uma capacidade explicativa significativa. Vale destacar que apesar de amplitude das defasagens selecionadas, o modelo estimado é bastante parcimonioso em termos das variáveis utilizadas. Desse modo, considerando o grau de parcimônia e a robustez dos resultados, conclui-se que é um modelo satisfatório para explicar a taxa de crescimento dos imóveis. Diante da qualidade do ajuste, o gráfico \ref{previsao} apresenta a previsão do modelo 4 passos a frente. Avaliando o últimos resultados disponíveis das contas nacionais e estimativas da taxa própria, verifica-se uma previsão satisfatória uma vez que tanto $g_Z$ reduz quanto a taxa própria aumenta.
+
+\begin{figure}[htb]
+	\centering
+	\caption{Previsão 4 passos a frente}
+	\label{previsao}
+	\includegraphics[width=\textwidth]{Fatos_Estilizados/Figs/Previsao_VECM.png}
+	\caption*{\textbf{Fonte:} Elaboração própria}
+\end{figure}
