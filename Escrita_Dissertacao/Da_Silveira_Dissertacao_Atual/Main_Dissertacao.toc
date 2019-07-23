@@ -44,30 +44,30 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.2}Modelo}{79}{section.4.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Solu\IeC {\c c}\IeC {\~a}o anal\IeC {\'\i }tica}{86}{section.4.3}% 
+\contentsline {section}{\numberline {4.3}Solu\IeC {\c c}\IeC {\~a}o anal\IeC {\'\i }tica}{87}{section.4.3}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.4}Simula\IeC {\c c}\IeC {\~a}o e choques}{89}{section.4.4}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.4.1}Aumento na taxa de crescimento do investimento residencial}{89}{subsection.4.4.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.2}Aumento da participa\IeC {\c c}\IeC {\~a}o dos sal\IeC {\'a}rios na renda}{89}{subsection.4.4.2}% 
+\contentsline {subsection}{\numberline {4.4.2}Aumento da participa\IeC {\c c}\IeC {\~a}o dos sal\IeC {\'a}rios na renda}{90}{subsection.4.4.2}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.4.3}Aumento da taxa de juros}{90}{subsection.4.4.3}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.5}Conclus\IeC {\~o}es preliminares}{91}{section.4.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Refer\^encias}{93}{section*.34}% 
+\contentsline {chapter}{Refer\^encias}{94}{section*.34}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Ap\IeC {\^e}ndices}{107}{section*.34}% 
+\contentsline {chapter}{Ap\IeC {\^e}ndices}{108}{section*.34}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {appendix}{\chapternumberline {A}\textit {Fraction} e o investimento residencial}{107}{appendix.A}% 
+\contentsline {appendix}{\chapternumberline {A}\textit {Fraction} e o investimento residencial}{108}{appendix.A}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Gastos ``despoupadores''}{107}{section.A.1}% 
+\contentsline {section}{\numberline {A.1}Gastos ``despoupadores''}{108}{section.A.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}Investimento residencial}{108}{section.A.2}% 
+\contentsline {section}{\numberline {A.2}Investimento residencial}{109}{section.A.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Anexos}{110}{equation.A.2.2}% 
+\contentsline {chapter}{Anexos}{111}{equation.A.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {appendix}{\chapternumberline {I}Licen\IeC {\c c}a}{110}{appendix.A}% 
+\contentsline {appendix}{\chapternumberline {I}Licen\IeC {\c c}a}{111}{appendix.A}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {I.1}Sobre a licen\IeC {\c c}a dessa obra}{110}{section.A.1}% 
+\contentsline {section}{\numberline {I.1}Sobre a licen\IeC {\c c}a dessa obra}{111}{section.A.1}% 

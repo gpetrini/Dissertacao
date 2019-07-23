@@ -2593,6 +2593,58 @@
       \verb http://www.ssrn.com/abstract=1605152
       \endverb
     \endentry
+    \entry{dos_santos_keynesian_2006}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=7dbe6ce67499f23f90bc0e3124f545e5}{%
+           family={Dos\bibnamedelima Santos},
+           familyi={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Cláudio\bibnamedelima Hamilton},
+           giveni={C\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{7dbe6ce67499f23f90bc0e3124f545e5}
+      \strng{fullhash}{7dbe6ce67499f23f90bc0e3124f545e5}
+      \strng{bibnamehash}{7dbe6ce67499f23f90bc0e3124f545e5}
+      \strng{authorbibnamehash}{7dbe6ce67499f23f90bc0e3124f545e5}
+      \strng{authornamehash}{7dbe6ce67499f23f90bc0e3124f545e5}
+      \strng{authorfullhash}{7dbe6ce67499f23f90bc0e3124f545e5}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Abstract. This paper argues that the stock-flow consistent approach to macroeconomic modelling (SFCA) is a natural outcome of the path taken by Keynesian macro}
+      \field{issn}{0309-166X}
+      \field{journaltitle}{Cambridge Journal of Economics}
+      \field{month}{7}
+      \field{number}{4}
+      \field{shorttitle}{Keynesian theorising during hard times}
+      \field{title}{Keynesian theorising during hard times: stock-flow consistent models as an unexplored ‘frontier’ of {Keynesian} macroeconomics}
+      \field{urlday}{15}
+      \field{urlmonth}{4}
+      \field{urlyear}{2019}
+      \field{volume}{30}
+      \field{year}{2006}
+      \field{urldateera}{ce}
+      \field{pages}{541\bibrangedash 565}
+      \range{pages}{25}
+      \verb{doi}
+      \verb 10.1093/cje/bei069
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/gpetrini/Zotero/storage/ZAXTLK7P/Santos e H - 2006 - Keynesian theorising during hard times stock-flow.pdf:application/pdf;Snapshot:/home/gpetrini/Zotero/storage/H5E79KFX/1713644.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://academic.oup.com/cje/article/30/4/541/1713644
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/cje/article/30/4/541/1713644
+      \endverb
+    \endentry
     \entry{dow_horizontalism:_1996}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=a3b7b5e47faa6dfdbed8b895f70cdfae}{%
@@ -4122,6 +4174,53 @@
       \endverb
       \verb{url}
       \verb https://academic.oup.com/cje/article/31/1/1/1691636
+      \endverb
+    \endentry
+    \entry{godley_monetary_2007}{book}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=f6bfabc3bb1587ddfc005f7ede21614c}{%
+           family={Godley},
+           familyi={G\bibinitperiod},
+           given={Wynne},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=dcd7b0a6002af14d170a5a19365c27f2}{%
+           family={Lavoie},
+           familyi={L\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f441e789606878aa4ec4a6387dfbee0c}
+      \strng{fullhash}{f441e789606878aa4ec4a6387dfbee0c}
+      \strng{bibnamehash}{f441e789606878aa4ec4a6387dfbee0c}
+      \strng{authorbibnamehash}{f441e789606878aa4ec4a6387dfbee0c}
+      \strng{authornamehash}{f441e789606878aa4ec4a6387dfbee0c}
+      \strng{authorfullhash}{f441e789606878aa4ec4a6387dfbee0c}
+      \field{extraname}{3}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradate}{3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{isbn}{978-0-230-50055-6}
+      \field{shorttitle}{Monetary {Economics}}
+      \field{title}{Monetary {Economics}: {An} {Integrated} {Approach} to {Credit}, {Money}, {Income}, {Production} and {Wealth}}
+      \field{urlday}{4}
+      \field{urlmonth}{2}
+      \field{urlyear}{2019}
+      \field{year}{2007}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Monetary Economics - An Integrated Approach to Cre.pdf:/home/gpetrini/Zotero/storage/5NFILQ4H/Monetary Economics - An Integrated Approach to Cre.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://gen.lib.rus.ec/book/index.php?md5=47127BE46E2805B86ED39606F46DE670
+      \endverb
+      \verb{url}
+      \verb http://gen.lib.rus.ec/book/index.php?md5=47127BE46E2805B86ED39606F46DE670
       \endverb
     \endentry
     \entry{goes_supermultiplier_2018}{inproceedings}{}

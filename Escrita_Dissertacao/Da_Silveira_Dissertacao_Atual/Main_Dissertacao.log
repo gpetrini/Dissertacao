@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.6.22)  20 JUL 2019 21:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.6.22)  22 JUL 2019 17:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2740,80 +2740,81 @@ usao.tex [71] [72 <./Fatos_Estilizados/Figs/FEVD_VECM.png>] [73 <./Fatos_Estili
 zados/Figs/Impulso_VECM.png>]
 [74 <./Fatos_Estilizados/Figs/Previsao_VECM.png>])) (./Modelo/ModeloSimples.tex
 [75] (./Modelo/Intro.tex
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 19.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 21.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [76
 
 ] [77]
-<Modelo/Caverzassi_Heatmap.png, id=1910, 1178.4025pt x 654.445pt>
+<Modelo/Caverzassi_Heatmap.png, id=1920, 1178.4025pt x 654.445pt>
 File: Modelo/Caverzassi_Heatmap.png Graphic file (type png)
 <use Modelo/Caverzassi_Heatmap.png>
-Package pdftex.def Info: Modelo/Caverzassi_Heatmap.png  used on input line 86.
+Package pdftex.def Info: Modelo/Caverzassi_Heatmap.png  used on input line 88.
 (pdftex.def)             Requested size: 435.32422pt x 241.76138pt.
 )
-(./Modelo/Modelo.tex [78 <./Modelo/Caverzassi_Heatmap.png>] [79] [80] [81]
-[82] [83] [84] [85]) (./Modelo/Analitica.tex [86] [87]) (./Modelo/Choques.tex
-[88] [89]
-<Modelo/Shock_1.png, id=2065, 433.62pt x 289.08pt>
+(./Modelo/Modelo.tex [78] [79 <./Modelo/Caverzassi_Heatmap.png>] [80] [81]
+[82] [83] [84] [85] [86]) (./Modelo/Analitica.tex [87] [88])
+(./Modelo/Choques.tex [89]
+<Modelo/Shock_1.png, id=2087, 433.62pt x 289.08pt>
 File: Modelo/Shock_1.png Graphic file (type png)
 <use Modelo/Shock_1.png>
-Package pdftex.def Info: Modelo/Shock_1.png  used on input line 42.
+Package pdftex.def Info: Modelo/Shock_1.png  used on input line 43.
 (pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
-<Modelo/Shock_2.png, id=2066, 433.62pt x 289.08pt>
+ [90]
+<Modelo/Shock_2.png, id=2095, 433.62pt x 289.08pt>
 File: Modelo/Shock_2.png Graphic file (type png)
 <use Modelo/Shock_2.png>
-Package pdftex.def Info: Modelo/Shock_2.png  used on input line 54.
+Package pdftex.def Info: Modelo/Shock_2.png  used on input line 55.
 (pdftex.def)             Requested size: 217.66211pt x 145.10866pt.
-<Modelo/Shock_3.png, id=2067, 433.62pt x 289.08pt>
+<Modelo/Shock_3.png, id=2096, 433.62pt x 289.08pt>
 File: Modelo/Shock_3.png Graphic file (type png)
 <use Modelo/Shock_3.png>
-Package pdftex.def Info: Modelo/Shock_3.png  used on input line 61.
+Package pdftex.def Info: Modelo/Shock_3.png  used on input line 62.
 (pdftex.def)             Requested size: 217.66211pt x 145.10866pt.
-) (./Modelo/Conclusao.tex [90 <./Modelo/Shock_1.png>] [91 <./Modelo/Shock_2.png
-> <./Modelo/Shock_3.png>])) [92]
+) (./Modelo/Conclusao.tex [91 <./Modelo/Shock_1.png>] [92 <./Modelo/Shock_2.png
+> <./Modelo/Shock_3.png>])) [93]
 LaTeX Font Info:    Try loading font information for T1+lmtt on input line 321.
 
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [93
+) [94
 
 
-] [94]
+] [95]
 Overfull \hbox (4.54219pt too wide) in paragraph at lines 321--321
 [][]\T1/ptm/m/sc/12 bortis\T1/ptm/m/n/12 , \T1/ptm/m/sc/12 h. \T1/ptm/b/n/12 In
 s-ti-tu-ti-ons, Beha-vi-our and Eco-no-mic The-ory: A Con-tri-bu-tion to Classi
 cal-Keynesian
  []
 
-[95] [96]
+[96] [97]
 Overfull \hbox (0.17998pt too wide) in paragraph at lines 321--321
 [][]$[]$\T1/ptm/m/n/12 . Some ob-ser-va-ti-ons on mo-dels of growth and dis-tri
 -bu-tion with au-to-no-mous de-mand growth:
  []
 
-[97] [98] [99] [100] [101]
+[98] [99] [100] [101] [102]
 Overfull \hbox (0.5758pt too wide) in paragraph at lines 321--321
 [][]$[]$\T1/ptm/m/n/12 . The role of au-to-no-mous de-mand growth in a neo-Kale
 ckian conflicting-claims fra-mework'.
  []
 
-[102] [103] [104] [105] [106] (./Modelo/Apendice_Fraction.tex
+[103] [104] [105] [106] [107] (./Modelo/Apendice_Fraction.tex
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <24.88> not available
 (Font)              Font shape `T1/ptm/b/it' tried instead on input line 2.
- [107
+ [108
 
 
-] [108])
-[109] (./cc-by-sa.texpdfTeX warning (ext4): destination with the same identifie
+] [109])
+[110] (./cc-by-sa.texpdfTeX warning (ext4): destination with the same identifie
 r (name{appendix.A}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.1 \chapter{Licença}
                       
-<cc-by-sa.png, id=2286, 97.0827pt x 33.9669pt>
+<cc-by-sa.png, id=2313, 97.0827pt x 33.9669pt>
 File: cc-by-sa.png Graphic file (type png)
 <use cc-by-sa.png>
 Package pdftex.def Info: cc-by-sa.png  used on input line 10.
@@ -2823,7 +2824,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{section.A.1})
 <to be read again> 
                    \relax 
 l.19 \section{Sobre a licença dessa obra}
-                                          ) [110
+                                          ) [111
 
 
  <./cc-by-sa.png>]
@@ -2848,20 +2849,16 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 359.
 
 LaTeX Warning: There were multiply-defined labels.
 
-
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
-
 Package logreq Info: Writing requests to 'Main_Dissertacao.run.xml'.
 \openout1 = `Main_Dissertacao.run.xml'.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 359.
  ) 
 Here is how much of TeX's memory you used:
- 51168 strings out of 492609
- 973516 string characters out of 6129033
- 1872342 words of memory out of 5000000
- 53516 multiletter control sequences out of 15000+600000
+ 51189 strings out of 492609
+ 973984 string characters out of 6129033
+ 1874671 words of memory out of 5000000
+ 53531 multiletter control sequences out of 15000+600000
  649986 words of font info for 182 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  78i,18n,117p,2568b,4147s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3234,10 +3231,10 @@ usr/local/texlive/2019/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/
 texlive/2019/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2
 019/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2019/texmf-
 dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Main_Dissertacao.pdf (111 pages, 3240366 bytes).
+Output written on Main_Dissertacao.pdf (112 pages, 3244454 bytes).
 PDF statistics:
- 2597 PDF objects out of 2984 (max. 8388607)
- 2403 compressed objects within 25 object streams
- 558 named destinations out of 1000 (max. 500000)
+ 2625 PDF objects out of 2984 (max. 8388607)
+ 2430 compressed objects within 25 object streams
+ 564 named destinations out of 1000 (max. 500000)
  462 words of extra memory for PDF output out of 10000 (max. 10000000)
 
