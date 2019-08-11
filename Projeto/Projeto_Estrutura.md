@@ -25,7 +25,8 @@
 
 - <u>Objetivos específicos</u>:
   - Modelo SFC
-  - Comparação US e Ger
+  - Modelo de dados em painel
+  - Comparação US e Ger (QCA)
 
 **Metodologia:**
 
