@@ -56,18 +56,18 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.5}Conclus\IeC {\~o}es preliminares}{91}{section.4.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Refer\^encias}{94}{section*.34}% 
+\contentsline {chapter}{Refer\^encias}{95}{section*.35}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Ap\IeC {\^e}ndices}{108}{section*.34}% 
+\contentsline {chapter}{Ap\IeC {\^e}ndices}{109}{section*.35}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {appendix}{\chapternumberline {A}\textit {Fraction} e o investimento residencial}{108}{appendix.A}% 
+\contentsline {appendix}{\chapternumberline {A}\textit {Fraction} e o investimento residencial}{109}{appendix.A}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Gastos ``despoupadores''}{108}{section.A.1}% 
+\contentsline {section}{\numberline {A.1}Gastos ``despoupadores''}{109}{section.A.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}Investimento residencial}{109}{section.A.2}% 
+\contentsline {section}{\numberline {A.2}Investimento residencial}{110}{section.A.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Anexos}{111}{equation.A.2.2}% 
+\contentsline {chapter}{Anexos}{112}{equation.A.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {appendix}{\chapternumberline {I}Licen\IeC {\c c}a}{111}{appendix.A}% 
+\contentsline {appendix}{\chapternumberline {I}Licen\IeC {\c c}a}{112}{appendix.A}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {I.1}Sobre a licen\IeC {\c c}a dessa obra}{111}{section.A.1}% 
+\contentsline {section}{\numberline {I.1}Sobre a licen\IeC {\c c}a dessa obra}{112}{section.A.1}% 
