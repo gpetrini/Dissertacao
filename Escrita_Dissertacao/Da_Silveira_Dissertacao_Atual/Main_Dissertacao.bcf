@@ -2839,21 +2839,17 @@
     <bcf:citekey order="759">nikiforos_utilization_2016</bcf:citekey>
     <bcf:citekey order="760">dutt_observations_2018</bcf:citekey>
     <bcf:citekey order="761">dutt_observations_2018</bcf:citekey>
-    <bcf:citekey order="762">leamer_housing_2007</bcf:citekey>
-    <bcf:citekey order="763">leamer_housing_2007</bcf:citekey>
-    <bcf:citekey order="764">dos_santos_revisiting_2010</bcf:citekey>
-    <bcf:citekey order="765">teixeira_crescimento_2015</bcf:citekey>
-    <bcf:citekey order="766">teixeira_crescimento_2015</bcf:citekey>
-    <bcf:citekey order="767">leamer_housing_2007</bcf:citekey>
-    <bcf:citekey order="768">leamer_housing_2007</bcf:citekey>
+    <bcf:citekey order="762">dos_santos_revisiting_2010</bcf:citekey>
+    <bcf:citekey order="763">teixeira_crescimento_2015</bcf:citekey>
+    <bcf:citekey order="764">teixeira_crescimento_2015</bcf:citekey>
+    <bcf:citekey order="765">fagundes_role_2017</bcf:citekey>
+    <bcf:citekey order="766">fagundes_role_2017</bcf:citekey>
+    <bcf:citekey order="767">freitas_growth_2015</bcf:citekey>
+    <bcf:citekey order="768">freitas_growth_2015</bcf:citekey>
     <bcf:citekey order="769">freitas_growth_2015</bcf:citekey>
     <bcf:citekey order="770">freitas_growth_2015</bcf:citekey>
-    <bcf:citekey order="771">allain_macroeconomic_2014</bcf:citekey>
-    <bcf:citekey order="772">allain_macroeconomic_2014</bcf:citekey>
-    <bcf:citekey order="773">fagundes_role_2017</bcf:citekey>
-    <bcf:citekey order="774">fagundes_role_2017</bcf:citekey>
-    <bcf:citekey order="775">freitas_growth_2015</bcf:citekey>
-    <bcf:citekey order="776">freitas_growth_2015</bcf:citekey>
+    <bcf:citekey order="771">freitas_growth_2015</bcf:citekey>
+    <bcf:citekey order="772">freitas_growth_2015</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">

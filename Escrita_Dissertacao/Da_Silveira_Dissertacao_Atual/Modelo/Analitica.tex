@@ -6,65 +6,141 @@ Apresentada a estrutura do modelo, resta expor a solução analítica de modo qu
     \label{AnaliticaNivel}
     Y = \left(\frac{1}{1-\omega - h}\right)Z
 \end{equation}
-cujo termo em parênteses além de ser o supermultplicador, fornece as condições para que o modelo seja estável:
-\begin{equation}
-    \label{EstabilidadeNivel}
-     \omega + h < 1
-\end{equation}
-A condição \ref{EstabilidadeNivel}, como em \textcite{freitas_growth_2015}, significa que a propensão marginal a gasta (consumir e investir) seja menor que a unidade, caso contrário, vigora-se a lei de Say. Outra condição presente na equação \ref{AnaliticaNivel} é
-$$
-Z > 0
-$$
-e, portanto, não admite solução assintótica como a de \textcite{allain_macroeconomic_2014}.
-
 Dito isso, resta apresentar o modelo em termos de crescimento. Partindo contribuição dos componentes da demanda para a variação da renda e resolvendo para a taxa de crescimento, obtém-se
 $$
-g = g\cdot \omega + \Delta h + g\cdot h + g_Z\cdot \frac{Z}{Y}
+g = g\cdot \omega + \Delta h + g\cdot h + g_z\cdot \frac{Z}{Y}
 $$
 \begin{equation}
-    g = \frac{\Delta h}{1 - \omega - h} + g_Z
+\label{gLP}
+    g = \frac{\Delta h}{1 - \omega - h} + g_z
 \end{equation}
-Como indicado anteriormente, a propensão marginal a investir se ajusta de acordo com o princípio do estoque de capital e, dessa forma, quando o grau de utilização convergir ao normal, a taxa de crescimento da economia tende a taxa de crescimento dos gastos autônomos (neste caso, investimento residencial) definida exogenamente. Dito isso, a propensão marginal a investir necessária é
+Como indicado anteriormente, a propensão marginal a investir se ajusta de acordo com o princípio do estoque de capital e, dessa forma, quando o grau de utilização convergir ao normal, a taxa de crescimento da economia tende a taxa de crescimento dos gastos autônomos (neste caso, investimento residencial) definida exogenamente. 
+\begin{equation}
+u \to u_N \Leftrightarrow g \to g_z
+\end{equation}
+De modo que a propensão marginal a investir necessária é
+\begin{equation}
+\label{hLP}
+h = \overline g_z\frac{\overline v}{\overline u_N}
+\end{equation}
+que, como mostram \textcite{fagundes_role_2017}, explicita a relação positiva entre taxa de investimento das firmas e crescimento. Com isso, substituindo \ref{gLP} nas equações \ref{hLP} e \ref{Aux} é possível construir o seguinte sistema de equações:
+
 $$
-h = \overline g_Z\frac{\overline v}{\overline u_N}
+\begin{cases}
+\dot u = \left(\frac{\Delta h}{1 - \omega - h} + g_z - \frac{h{\left(t \right)} u{\left(t \right)}}{v}\right) u{\left(t \right)}\\
+\dot h = \gamma_{u} \left(- un + u{\left(t \right)}\right) h{\left(t \right)}
+\end{cases}
 $$
-que, como mostram \textcite{fagundes_role_2017}, explicita a relação positiva entre taxa de investimento das firmas e crescimento. 
+
+Para fins de simplificação, supões temporariamente um sistema para o tempo contínuo de modo que seja possível construir o seguinte jacobiano em torno do equilíbrio ($u = u_N$ e $h = h^*$):
+
+$$
+J = 
+\left[\begin{matrix}
+\frac{\partial \dot h}{\partial h} & \frac{\partial \dot h}{\partial u}\\
+\frac{\partial \dot u}{\partial h} & \frac{\partial \dot u}{\partial u}
+\end{matrix}\right]
+$$
+
+\begin{equation}
+J = 
+\label{Jacobiano}
+\left[\begin{matrix}0 & \frac{g_Z \gamma_{u} v}{un}\\- \frac{un^{2}}{v} & - g_Z\end{matrix}\right]
+\end{equation}
+Seguindo os procedimentos de GANDOLFO, para que um sistema de duas equações seja estável, basta que o determinante de \ref{Jacobiano} seja positivo enquanto o traço seja negativo:
+
+$$
+Det(J) = g_Z \gamma_{u} u_N > 0
+$$
+
+$$
+Tr(J) = -g_Z < 0
+$$
+uma vez que $\gamma_u$ e $u_N$ são necessariamente positivos, basta que a condição do traço seja atendida. Diferente de \textcite{freitas_growth_2015}, tal condição não é uma das hipóteses iniciais do modelo e, portanto, requer que a taxa própria obedeça a seguinte desigualdade:
+
+\begin{equation}
+own < \frac{\phi_0}{\phi_1}
+\end{equation}
+
+Além disso, se o sistema é estável em torno do equilíbrio de longo prazo, o grau de utilização deve convergir. Partindo da Eq. \ref{Aux}, é preciso que a seguinte condição seja atentida:
+$$
+\frac{\partial g}{\partial u} < \frac{\partial g_K}{\partial u}
+$$
+
+$$
+- \frac{g_Z \gamma_{u} v}{\alpha \omega un + g_Z v - un} < \frac{g_Z}{un}
+$$
+reescrevendo, obtém-se
+\begin{equation}
+\alpha \omega + \frac{g_Z v}{u_N} + \gamma_u\cdot v
+\end{equation}
+Portanto, além do termo em parêntese da Eq. \ref{AnaliticaNivel} ser o supermultplicador, fornece as condições para que o modelo seja estável: 
+A condição anterior, como em \textcite{freitas_growth_2015}, significa que a propensão marginal a gasta (consumir e investir) seja menor que a unidade, caso contrário, vigora-se a lei de Say.
+
 
 %%%%%%%%%%%%%%%%%% Ponte para apêndice
 
-Tal exposição, no entanto, não se distingue da apresentada por \textcite{freitas_growth_2015} uma vez que formalização é semelhante em que o investimento residencial assume o papel dos gastos autônomos. A principal diferença é que este gasto autônomo também forma o estoque de capital da economia que, diferentemente do capital das firmas, não cria capacidade produtiva. Resta, portanto, explicitar a dinâmica entre este dois estoques de capital distintos, captados por $\theta$. A equação que define o grau de utilização da capacidade pode ser reescrita como
+Tal exposição, no entanto, não se distingue da apresentada por \textcite{freitas_growth_2015} uma vez que formalização é semelhante em que o investimento residencial assume o papel dos gastos autônomos. A principal diferença é que este gasto autônomo também forma o estoque de capital da economia que, diferentemente do capital das firmas, não cria capacidade produtiva. Resta, portanto, explicitar a dinâmica entre este dois estoques de capital distintos, captados por $K_k$. A equação que define o grau de utilização da capacidade pode ser reescrita como
 
-\begin{equation}
-\label{_uAltern}
-    u = \frac{Y\cdot v}{K \cdot k}
-\end{equation}
-enquanto a renda normalizada pelo estoque de capital das \textit{famílias} é
 $$
-\frac{Y}{(1-k)\cdot K}
+u = \frac{Y\cdot v}{K \cdot (1-K_k)}
 $$
-e multiplicando pela relação técnica capital-produto,
+Dessa forma, dividir o produto pelo estoque de imóveis é o mesmo que
 $$
-\frac{Y}{(1-k)\cdot K}\cdot v 
+\frac{Y}{K_k\cdot K}
 $$
+multiplicando pela relação técnica ($v$)
 $$
-\frac{Y\cdot v}{K}\cdot \left(\frac{1}{1-k}\right)
+\frac{Y}{K_k\cdot K}\cdot v = \frac{Y\cdot v}{K}\cdot \left(\frac{1}{K_k}\right)
 $$
-multiplicando tanto o numerador quanto o denominador por $k$, obtém-se a relação entre os imóveis e grau de utilização
+e multiplicando e dividindo por $1-K_k$ obtém-se a seguinte relação com o grau de utilização:
 $$
-\frac{Y\cdot v}{K\cdot k}\cdot \left(\frac{k}{1-k}\right) = u \cdot \left(\frac{k}{1-k}\right)
+\frac{Y\cdot v}{K\cdot (1-K_k)}\cdot \left(\frac{1-K_k}{K_k}\right) = u \cdot \left(\frac{1-K_k}{K_k}\right)
 $$
 Portanto,
 $$
-Y\frac{v}{K_h} =  u \cdot \left(\frac{k}{1-k}\right)
+Y\frac{v}{K_h} =  u \cdot \left(\frac{1-K_k}{K_k}\right)
+$$
+$$
+u = Y\frac{v}{K_h} \cdot \left(\frac{K_k}{1-K_k}\right)
+$$
+Substituindo as variáveis endógenas de modo a explicitar apenas em termos de parâmetros e variáveis exógenas,
+$$
+u{\left(t \right)} = - \frac{K_{k} v \left(\phi_{0} - \phi_{1} \left(-1 + \frac{rm + spread_{mo} + 1}{infla + 1}\right)\right)}{\left(1 - K_{k}\right) \left(\alpha \omega - 1 + \frac{v \left(\phi_{0} - \phi_{1} \left(-1 + \frac{rm + spread_{mo} + 1}{infla + 1}\right)\right)}{un}\right)}
+$$
+e resolvendo para o longo prazo
+$$
+\frac{K_{k}}{1 - K_{k}} = \frac{un \left(- \alpha \omega \left(infla + 1\right) + infla + 1\right) - v \left(\phi_{0} \left(infla + 1\right) - \phi_{1} \left(- infla + rm + spread_{mo}\right)\right)}{v \left(\phi_{0} \left(infla + 1\right) - \phi_{1} \left(- infla + rm + spread_{mo}\right)\right)}
+$$
+Por fim, resolvendo para $K_k$:
+$$
+K_{k} = \frac{un \left(- \alpha \omega \left(infla + 1\right) + infla + 1\right) - v \left(\phi_{0} \left(infla + 1\right) - \phi_{1} \left(- infla + rm + spread_{mo}\right)\right)}{un \left(- \alpha \omega \left(infla + 1\right) + infla + 1\right)}
+$$
+\begin{equation}
+\label{kAnali}
+K_{k} = 1 - \frac{v \left(\phi_{0} - \phi_{1} \left(-1 + \frac{rm + spread_{mo} + 1}{infla + 1}\right)\right)}{un \left(- \alpha \omega + 1\right)}
+\end{equation}
+Cuja forma simplificada é\footnote{As etapas realizadas podem estão no \textit{script} utilizado.}:
+$$
+K_k = 1 - \frac{h^*}{(1 - \alpha\cdot\omega)}
 $$
 
-Por fim, partindo da definição alternativa do grau de utilização (Eq. \ref{_uAltern}), ou seja, dividindo a equação \ref{AnaliticaNivel} pelo estoque de capital das famílias e multiplicando pela relação técnica capital produto,
-$$
-u = \frac{g_Z v (1-k)}{k (1 - \alpha \omega - h)}
-$$
-é possível explicitar a relação entre ambos os estoques de capital:
+A equação \ref{kAnali} mostra que a participação dos imóveis no estoque de capital total depende 
+positivamente do \textit{spread} bancário da taxa de juros das hipotecas e 
+negativamente do componente autônomo de $g_z$ ($\phi_0$), da inflação de ativos ($infla$) e da distribuição dos salários na renda ($\omega$). Formalmente:
 \begin{equation}
-    \label{AnaliticaTau}
-    \frac{k}{1-k} = \frac{g_Z v}{u (1-\alpha \omega - h)}
+\frac{\partial K_k}{\partial \phi_0} = \frac{v}{un \left(\alpha \omega - 1\right)} < 0
 \end{equation}
-Esta solução analítica mostra que a participação do estoque de capital criador de capacidade no total depende positivamente do multiplicador e da taxa de crescimento dos gastos autônomos e negativamente do grau de utilização da capacidade. Tais resultados, no entanto, estão em linha com o supermultiplicador sraffiano uma vez que quanto maior $g_Z$, menor será a participação dos gastos autônomos na renda e que mudanças na distribuição (isto é, alterações no multiplicador) terão efeito nível apenas. Por fim, quanto maior o grau de utilização, menor será a propensão marginal a investir dada a convergência da taxa de crescimento da economia a taxa de crescimento dos gastos autônomos de modo que tal aumento em $u$ é transitório. Compreendidas as relações entre as variáveis através da solução analítica, cabe a seção seguinte simular o modelo.
+\begin{equation}
+\frac{\partial K_k}{\partial infla} = \frac{\phi_{1} v \left(rm + spread_{mo} + 1\right)}{un \left(infla + 1\right)^{2} \left(\alpha \omega - 1\right)} < 0
+\end{equation}
+\begin{equation}
+\frac{\partial K_k}{\partial \omega} = - \frac{\alpha v \left(\phi_{0} \left(infla + 1\right) - \phi_{1} \left(- infla + rm + spread_{mo}\right)\right)}{un \left(infla + 1\right) \left(\alpha \omega - 1\right)^{2}} < 0
+\end{equation}
+\begin{equation}
+\frac{\partial K_k}{\partial spread_{mo}} = - \frac{\phi_{1} v}{un \left(infla + 1\right) \left(\alpha \omega - 1\right)} > 0
+\end{equation}
+Tais resultados, apesar de contra intuitivos, estão em linha com o supermultiplicador sraffiano uma vez que quanto maior $g_z$, menor será a participação dos gastos autônomos na renda e que mudanças na distribuição (isto é, alterações no multiplicador) terão efeito nível, alterando apenas a composição dos diferentes tipos de estoque de capital. 
+
+
+
