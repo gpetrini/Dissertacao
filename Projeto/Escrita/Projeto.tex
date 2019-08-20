@@ -1,0 +1,183 @@
+% Last update/Última versão: 11/Sep/2016
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%=====================================================================
+% 							Pacotes Fundamentais
+%=====================================================================
+\documentclass[
+% -- op\c{c}\~{o}es da classe memoir --
+12pt,				% tamanho da fonte
+openright,			% cap\'{\i}tulos come\c{c}am em p\'{a}g \'{\i}mpar (insere p\'{a}gina vazia caso preciso)
+oneside,			% para impress\~{a}o em verso e anverso. Oposto a oneside
+a4paper,		% tamanho do papel.
+% -- op\c{c}\~{o}es da classe abntex2 --
+%chapter=TITLE,		% t\'{\i}tulos de cap\'{\i}tulos convertidos em letras mai\'{u}sculas
+%section=TITLE,		% t\'{\i}tulos de se\c{c}\~{o}es convertidos em letras mai\'{u}sculas
+%subsection=TITLE,	% t\'{\i}tulos de subse\c{c}\~{o}es convertidos em letras mai\'{u}sculas
+%subsubsection=TITLE,% t\'{\i}tulos de subsubse\c{c}\~{o}es convertidos em letras mai\'{u}sculas
+% -- op\c{c}\~{o}es do pacote babel --
+english,			% idioma adicional para hifeniza\c{c}\~{a}o
+%french,			% idioma adicional para hifeniza\c{c}\~{a}o
+%spanish,			% idioma adicional para hifeniza\c{c}\~{a}o
+brazil,				% o \'{u}ltimo idioma \'{e} o principal do documento
+%sumario=tradicional,
+]{article}
+\usepackage[a4paper, right = 1.5cm, left = 3.5cm, top = 2cm, bottom = 2cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[english,portuguese]{babel}
+%\usepackage[myheadings]{fullpage}
+\usepackage[T1]{fontenc}
+%\usepackage{fancyhdr}
+\usepackage{graphicx, setspace}
+\usepackage{sectsty}
+\usepackage{url}
+\usepackage{mathptmx} %% Para times
+\usepackage{comment}
+\usepackage{multirow}
+\usepackage{graphicx}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{enumitem}
+\usepackage{blindtext}
+\usepackage{float}
+\usepackage[bottom]{footmisc}
+\usepackage{pdfpages}
+\usepackage{caption}
+\usepackage{csquotes}
+\usepackage{footnote}
+
+
+%=====================================================================
+% 							Pacotes Bibliográficos
+%=====================================================================
+
+\usepackage[backend=biber,
+	style = abnt,%
+	noslsn, %
+	extrayear, %
+	uniquename=init,% 
+	giveninits, %
+	justify, %
+	sccite,% 
+	scbib, %
+	repeattitles, %
+	maxcitenames=3]{biblatex}
+\addbibresource{../../Escrita_Dissertacao/Da_Silveira_Dissertacao_Atual/Bibliografia_Dissertacao/Bibliografia_Dissertacao.bib}
+
+
+%=====================================================================
+% 							Comandos específicos da FAPESP
+%=====================================================================
+\input{comandos}
+%=====================================================================
+% 							Outros Pacotes
+%=====================================================================
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage{subfigure}
+\usepackage{setspace}
+\usepackage{lipsum}  
+\usepackage{amsmath} % Para cases
+%=====================================================================
+% 							Página de título e folha de rosto
+%=====================================================================
+%-----
+% Página de título
+% Observação: As definições que aparecem a seguir comporão a
+%             página de título e a folha de rosto.
+%-----
+%% Define o nome da universidade onde o projeto foi desenvolvido.
+\universidade{Universidade Estadual de Campinas}
+%
+%% Define o nome da faculdade onde o projeto foi desenvolvido.
+\faculdade{Instituto de Economia}
+%
+%% Define o título do projeto.
+\titulo{Título}
+%
+%
+%% Define o autor do relatório.
+\autor{}
+\cidade{Campinas}
+
+
+\begin{document}
+%=====================================================================
+% 							Numeração pré-textual
+%=====================================================================
+\pagenumbering{roman}
+%=====================================================================
+% 							Folha de título
+%=====================================================================
+%\geraTitulo
+%=====================================================================
+% 							Folha de rosto
+%=====================================================================
+% Gera a folha de rosto.
+%\folhaDeRosto
+%=====================================================================
+% 							Título
+%=====================================================================
+\begin{center}
+\rule{\textwidth}{1.2pt}
+	Projeto Preliminar de Tese para Doutorado em Ciência Econômica\\
+	\textbf{Título}
+\rule{\textwidth}{1.2pt}
+\end{center}
+%=====================================================================
+% 							Resumo
+%=====================================================================
+\Resumo{
+\lipsum[57]
+\lipsum[57]
+\lipsum[57]
+\lipsum[57]\\
+\textbf{Palavras-chave:} Palavra 1, Palavra 2, Palavra 3, Palavra 4, Palavra 5.
+}
+%=====================================================================
+% 							Abstract
+%=====================================================================
+\begin{comment}
+Habilitar caso seja necessário um abstract em outra página
+
+\Abstract{
+teste in english
+}
+\end{comment}
+%=====================================================================
+% 							Sumário
+%=====================================================================
+%\tableofcontents
+%\thispagestyle{empty}
+%\clearpage
+%=====================================================================
+% 							Numeração textual
+%=====================================================================
+\pagenumbering{arabic}
+
+%=====================================================================
+% 							Formatação título seção
+%=====================================================================
+\sectionfont{\scshape}
+
+%=====================================================================
+% 							Corpo de texto
+%=====================================================================
+\doublespacing
+\begingroup
+\let\clearpage\relax
+\input{Introducao_Just}
+\input{Objetivos}
+\input{Metodologia.tex}
+\input{Resultados} % Resultados esperados temporariamente desativados
+\input{Plano_Trabalho}
+\endgroup
+
+%=====================================================================
+% 							Bibliografia
+%=====================================================================
+%{\let\clearpage\relax \chapter{Bibliografia}}
+%-----
+
+{\let\clearpage\relax\printbibliography}
+%=====================================================================
+% 							Fim do Documento
+%=====================================================================
+\end{document}
