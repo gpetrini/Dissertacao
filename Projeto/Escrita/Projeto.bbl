@@ -16,5 +16,2882 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{aalbers_financialization_2008}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=f0c57a50d6f6bd06b0b2184b0f9684f8}{%
+           family={Aalbers},
+           familyi={A\bibinitperiod},
+           given={Manuel\bibnamedelima B.},
+           giveni={M\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{f0c57a50d6f6bd06b0b2184b0f9684f8}
+      \strng{fullhash}{f0c57a50d6f6bd06b0b2184b0f9684f8}
+      \strng{bibnamehash}{f0c57a50d6f6bd06b0b2184b0f9684f8}
+      \strng{authorbibnamehash}{f0c57a50d6f6bd06b0b2184b0f9684f8}
+      \strng{authornamehash}{f0c57a50d6f6bd06b0b2184b0f9684f8}
+      \strng{authorfullhash}{f0c57a50d6f6bd06b0b2184b0f9684f8}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Financialization can be characterized as capital switching from the primary, secondary or tertiary circuit to the quaternary circuit of capital. Housing is a central aspect of financialization. The financialization of mortgage markets demands that not just homes but also homeowners become viewed as financially exploitable. It is exemplified by the securitization of mortgage loans, but also by the use of credit scoring and risk-based pricing. In the past century, mortgage markets were transformed from being a ‘facilitating market’ for homeowners in need of credit to one increasingly facilitating global investment. Since mortgage markets are both local consumer markets and global investment markets, the dynamics of financialization and globalization directly relate homeowners to global investors thereby increasing the volatility in mortgage markets, as the current crisis shows all too well.}
+      \field{issn}{1024-5294}
+      \field{journaltitle}{Competition \& Change}
+      \field{number}{2}
+      \field{title}{The {Financialization} of {Home} and the {Mortgage} {Market} {Crisis}}
+      \field{urlday}{26}
+      \field{urlmonth}{5}
+      \field{urlyear}{2019}
+      \field{volume}{12}
+      \field{year}{2008}
+      \field{urldateera}{ce}
+      \field{pages}{148\bibrangedash 166}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1179/102452908X289802
+      \endverb
+      \verb{urlraw}
+      \verb https://journals.sagepub.com/doi/abs/10.1179/102452908X289802
+      \endverb
+      \verb{url}
+      \verb https://journals.sagepub.com/doi/abs/10.1179/102452908X289802
+      \endverb
+    \endentry
+    \entry{alhowaish_causality_2015}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=d9bd274ba2477ea56e0882b676336fda}{%
+           family={Alhowaish},
+           familyi={A\bibinitperiod},
+           given={Albdulkarim\bibnamedelima K},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{d9bd274ba2477ea56e0882b676336fda}
+      \strng{fullhash}{d9bd274ba2477ea56e0882b676336fda}
+      \strng{bibnamehash}{d9bd274ba2477ea56e0882b676336fda}
+      \strng{authorbibnamehash}{d9bd274ba2477ea56e0882b676336fda}
+      \strng{authornamehash}{d9bd274ba2477ea56e0882b676336fda}
+      \strng{authorfullhash}{d9bd274ba2477ea56e0882b676336fda}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Real Estate Review}
+      \field{title}{Causality between the {Construction} {Sector} and {Economic} {Growth}: {The} {Case} of {Saudi} {Arabia}}
+      \field{year}{2015}
+      \field{pages}{17}
+      \range{pages}{1}
+      \verb{file}
+      \verb Alhowaish - Causality between the Construction Sector and Econ.pdf:/home/gpetrini/Zotero/storage/ICIENA3J/Alhowaish - Causality between the Construction Sector and Econ.pdf:application/pdf
+      \endverb
+      \keyw{Fichado}
+    \endentry
+    \entry{alvarez_does_2010}{incollection}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=2d7a6e05a090c2b81a10ebf03434a4d7}{%
+           family={Álvarez},
+           familyi={Á\bibinitperiod},
+           given={Luis\bibnamedelima J.},
+           giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=7d862bdf8a9f651d32d53fcf3e91c48a}{%
+           family={Cabrero},
+           familyi={C\bibinitperiod},
+           given={Alberto},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{4}{}{%
+        {{hash=0c4828d2896c6d8205f3c9d08e7f2663}{%
+           family={Bandt},
+           familyi={B\bibinitperiod},
+           given={Olivier},
+           giveni={O\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=e68f233df3e4add7fc514353fba0362a}{%
+           family={Knetsch},
+           familyi={K\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=73aec283476198a992592d9f0b080ab3}{%
+           family={Peñalosa},
+           familyi={P\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a71a99343fc2c1c06e181342c43eedcc}{%
+           family={Zollino},
+           familyi={Z\bibinitperiod},
+           given={Francesco},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \strng{namehash}{59fa524537cf9eac79a2b8d5b3232d38}
+      \strng{fullhash}{59fa524537cf9eac79a2b8d5b3232d38}
+      \strng{bibnamehash}{59fa524537cf9eac79a2b8d5b3232d38}
+      \strng{authorbibnamehash}{59fa524537cf9eac79a2b8d5b3232d38}
+      \strng{authornamehash}{59fa524537cf9eac79a2b8d5b3232d38}
+      \strng{authorfullhash}{59fa524537cf9eac79a2b8d5b3232d38}
+      \strng{editorbibnamehash}{92c8d0a6720b30141ace0a6f1d50d3c6}
+      \strng{editornamehash}{92c8d0a6720b30141ace0a6f1d50d3c6}
+      \strng{editorfullhash}{bbdda415d208cdce86dd66282e2106ea}
+      \field{sortinit}{Á}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The aim of this paper is to characterize the cyclical properties of Spanish real and nominal housing related variables. Our three main results are: first, housing appears to lead the business cycle. Second, fluctuations in home prices are positively related to those of residential investment, suggesting the dominant role of demand factors over supply ones. Third, there are interesting asymmetries in cyclical fluctuations: contractions in GDP appear to be briefer than expansions.}
+      \field{booktitle}{Housing {Markets} in {Europe}: {A} {Macroeconomic} {Perspective}}
+      \field{isbn}{978-3-642-15340-2}
+      \field{title}{Does {Housing} {Really} {Lead} the {Business} {Cycle} in {Spain}?}
+      \field{urlday}{19}
+      \field{urlmonth}{7}
+      \field{urlyear}{2019}
+      \field{year}{2010}
+      \field{urldateera}{ce}
+      \field{pages}{61\bibrangedash 84}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10.1007/978-3-642-15340-2_4
+      \endverb
+      \verb{file}
+      \verb Springer Full Text PDF:/home/gpetrini/Zotero/storage/RPWNPBBE/Álvarez e Cabrero - 2010 - Does Housing Really Lead the Business Cycle in Spa.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/978-3-642-15340-2_4
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/978-3-642-15340-2_4
+      \endverb
+      \keyw{business cycles,filtering,Housing}
+    \endentry
+    \entry{arestis_residential_2015}{report}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=75499a30114e2f80e2490b9e90512b74}{%
+           family={Arestis},
+           familyi={A\bibinitperiod},
+           given={Philip},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=fb16c58d5f47bf2341b856e33a5cf2ec}{%
+           family={González‐Martínez},
+           familyi={G\bibinitperiod},
+           given={Ana\bibnamedelima Rosa},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Social Science Research Network}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{location}{1}{%
+        {Rochester, NY}%
+      }
+      \strng{namehash}{e16d1e52fc2f2987e71832fbe7ae1240}
+      \strng{fullhash}{e16d1e52fc2f2987e71832fbe7ae1240}
+      \strng{bibnamehash}{e16d1e52fc2f2987e71832fbe7ae1240}
+      \strng{authorbibnamehash}{e16d1e52fc2f2987e71832fbe7ae1240}
+      \strng{authornamehash}{e16d1e52fc2f2987e71832fbe7ae1240}
+      \strng{authorfullhash}{e16d1e52fc2f2987e71832fbe7ae1240}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Six years after the burst of the housing bubble in some of the main world economies, the recovery does not follow a homogeneous pattern among them. In this context, it is necessary to pay attention to the evolution of residential investment, which traditionally has played an important role in the revival of the economy after previous episodes of bubbles in the housing market. In the second stage of our study, we test our conceptual framework by means of a sample of 17 OECD countries which spans the period 1970 to 2013.}
+      \field{number}{ID 2614198}
+      \field{title}{Residential {Construction} {Activity} in {OECD} {Economies}}
+      \field{type}{{SSRN} {Scholarly} {Paper}}
+      \field{urlday}{15}
+      \field{urlmonth}{7}
+      \field{urlyear}{2019}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Arestis e González‐Martínez - 2015 - Residential Construction Activity in OECD Economie.pdf:/home/gpetrini/Zotero/storage/XYA4APFH/Arestis e González‐Martínez - 2015 - Residential Construction Activity in OECD Economie.pdf:application/pdf;Snapshot:/home/gpetrini/Zotero/storage/6J38YWS6/papers.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://papers.ssrn.com/abstract=2614198
+      \endverb
+      \verb{url}
+      \verb https://papers.ssrn.com/abstract=2614198
+      \endverb
+      \keyw{SSRN,Ana Rosa González‐Martínez,Philip Arestis,Residential Construction Activity in OECD Economies}
+    \endentry
+    \entry{arestis_theoretical_1996}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=75499a30114e2f80e2490b9e90512b74}{%
+           family={Arestis},
+           familyi={A\bibinitperiod},
+           given={Philip},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=2dcf56924a97c2bef89d3925a3ba62d5}{%
+           family={Howells},
+           familyi={H\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{7d18d60f00e222949d6f44b682338066}
+      \strng{fullhash}{7d18d60f00e222949d6f44b682338066}
+      \strng{bibnamehash}{7d18d60f00e222949d6f44b682338066}
+      \strng{authorbibnamehash}{7d18d60f00e222949d6f44b682338066}
+      \strng{authornamehash}{7d18d60f00e222949d6f44b682338066}
+      \strng{authorfullhash}{7d18d60f00e222949d6f44b682338066}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Abstract. This paper questions the practice of representing the endogenous money supply by means of a ‘horizontal’ money supply curve, implicity contrasted wit}
+      \field{issn}{0309-166X}
+      \field{journaltitle}{Cambridge Journal of Economics}
+      \field{number}{5}
+      \field{shorttitle}{Theoretical reflections on endogenous money}
+      \field{title}{Theoretical reflections on endogenous money: the problem with ‘convenience lending’}
+      \field{urlday}{19}
+      \field{urlmonth}{6}
+      \field{urlyear}{2019}
+      \field{volume}{20}
+      \field{year}{1996}
+      \field{urldateera}{ce}
+      \field{pages}{539\bibrangedash 551}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1093/oxfordjournals.cje.a013633
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/gpetrini/Zotero/storage/RVUV928Y/Arestis e Howells - 1996 - Theoretical reflections on endogenous money the p.pdf:application/pdf;Snapshot:/home/gpetrini/Zotero/storage/LYBCAKB7/1676084.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://academic.oup.com/cje/article/20/5/539/1676084
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/cje/article/20/5/539/1676084
+      \endverb
+    \endentry
+    \entry{arku_housing_2006}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=9fa131f614b15f8a6dce63fd27bc90ad}{%
+           family={Arku},
+           familyi={A\bibinitperiod},
+           given={Godwin},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{9fa131f614b15f8a6dce63fd27bc90ad}
+      \strng{fullhash}{9fa131f614b15f8a6dce63fd27bc90ad}
+      \strng{bibnamehash}{9fa131f614b15f8a6dce63fd27bc90ad}
+      \strng{authorbibnamehash}{9fa131f614b15f8a6dce63fd27bc90ad}
+      \strng{authornamehash}{9fa131f614b15f8a6dce63fd27bc90ad}
+      \strng{authorfullhash}{9fa131f614b15f8a6dce63fd27bc90ad}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Should housing improvement be part of economic development strategies? Must housing improvement wait until high-economic growth is attained? How much priority should be given to housing in view of the limited resources in less-developed countries? What are housing benefits in economic development vis-à-vis other economic investments? These questions have generated heated debates, both in the literature on development problems and in planning and practice in the 1950s and 1960s. This paper draws on the accumulated body of knowledge resulting from past experiences in research and policy to revisit the earlier debates, survey the main lines of argument and reassess the economic potential of housing. It then attempts to generate broad policy considerations. The main contention of this paper is that in light of past and present evidence, the housing sector needs to be given serious consideration in economic growth strategies.}
+      \field{issn}{1573-7772}
+      \field{journaltitle}{Journal of Housing and the Built Environment}
+      \field{number}{4}
+      \field{shorttitle}{The housing and economic development debate revisited}
+      \field{title}{The housing and economic development debate revisited: economic significance of housing in developing countries}
+      \field{urlday}{4}
+      \field{urlmonth}{7}
+      \field{urlyear}{2019}
+      \field{volume}{21}
+      \field{year}{2006}
+      \field{urldateera}{ce}
+      \field{pages}{377\bibrangedash 395}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1007/s10901-006-9056-3
+      \endverb
+      \verb{file}
+      \verb Springer Full Text PDF:/home/gpetrini/Zotero/storage/SSGZB95K/Arku - 2006 - The housing and economic development debate revisi.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s10901-006-9056-3
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s10901-006-9056-3
+      \endverb
+      \keyw{Developing countries,Economic development,Housing,Pendente}
+    \endentry
+    \entry{arrondel_housing_2010}{incollection}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=ec086fec1d4dfc6e802c42d7386afd35}{%
+           family={Arrondel},
+           familyi={A\bibinitperiod},
+           given={Luc},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=4ac47b8a7cd9597fffd9ca97c341fab3}{%
+           family={Savignac},
+           familyi={S\bibinitperiod},
+           given={Frédérique},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{4}{}{%
+        {{hash=0c4828d2896c6d8205f3c9d08e7f2663}{%
+           family={Bandt},
+           familyi={B\bibinitperiod},
+           given={Olivier},
+           giveni={O\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=e68f233df3e4add7fc514353fba0362a}{%
+           family={Knetsch},
+           familyi={K\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=73aec283476198a992592d9f0b080ab3}{%
+           family={Peñalosa},
+           familyi={P\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a71a99343fc2c1c06e181342c43eedcc}{%
+           family={Zollino},
+           familyi={Z\bibinitperiod},
+           given={Francesco},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \strng{namehash}{e7cd9655a5039e9f2e37c236db6603be}
+      \strng{fullhash}{e7cd9655a5039e9f2e37c236db6603be}
+      \strng{bibnamehash}{e7cd9655a5039e9f2e37c236db6603be}
+      \strng{authorbibnamehash}{e7cd9655a5039e9f2e37c236db6603be}
+      \strng{authornamehash}{e7cd9655a5039e9f2e37c236db6603be}
+      \strng{authorfullhash}{e7cd9655a5039e9f2e37c236db6603be}
+      \strng{editorbibnamehash}{92c8d0a6720b30141ace0a6f1d50d3c6}
+      \strng{editornamehash}{92c8d0a6720b30141ace0a6f1d50d3c6}
+      \strng{editorfullhash}{bbdda415d208cdce86dd66282e2106ea}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this paper,we focus on the interactions between housing wealth and the composition of households’ financial portfolio.We use a very survey among French households (Enquête Patrimoine, Insee) to describe the composition of housing and financial wealth of French households.We estimate the main determinants of housing wealth (as primary, secondary residences as well as investments in real estate). We study the impact of the exposure to real estate risk on stock demand. We find that, besides information and transaction costs and risk aversion, housing wealth is a key determinant of stockownership: households facing real estate risk tend to moderate their investments in stocks. This behaviour, called ”temperance”,may thus contribute to explain why people own so few stocks, in particular in France (stock participation puzzle).}
+      \field{booktitle}{Housing {Markets} in {Europe}: {A} {Macroeconomic} {Perspective}}
+      \field{isbn}{978-3-642-15340-2}
+      \field{title}{Housing and {Portfolio} {Choices} in {France}}
+      \field{urlday}{19}
+      \field{urlmonth}{7}
+      \field{urlyear}{2019}
+      \field{year}{2010}
+      \field{urldateera}{ce}
+      \field{pages}{337\bibrangedash 356}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1007/978-3-642-15340-2_15
+      \endverb
+      \verb{file}
+      \verb Springer Full Text PDF:/home/gpetrini/Zotero/storage/Q4QUNIV9/Arrondel e Savignac - 2010 - Housing and Portfolio Choices in France.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/978-3-642-15340-2_15
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/978-3-642-15340-2_15
+      \endverb
+      \keyw{background risks,housing demand,life-cycle model,Portfolio choice}
+    \endentry
+    \entry{asimakopulos_kalecki_1983}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=457de0ec6512ff6e21417c2040d788b0}{%
+           family={Asimakopulos},
+           familyi={A\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{457de0ec6512ff6e21417c2040d788b0}
+      \strng{fullhash}{457de0ec6512ff6e21417c2040d788b0}
+      \strng{bibnamehash}{457de0ec6512ff6e21417c2040d788b0}
+      \strng{authorbibnamehash}{457de0ec6512ff6e21417c2040d788b0}
+      \strng{authornamehash}{457de0ec6512ff6e21417c2040d788b0}
+      \strng{authorfullhash}{457de0ec6512ff6e21417c2040d788b0}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A. Asimakopulos; Kalečki and Keynes on finance, investment and saving, Cambridge Journal of Economics, Volume 7, Issue 3-4, 1 September 1983, Pages 221–233, ht}
+      \field{issn}{0309-166X}
+      \field{journaltitle}{Cambridge Journal of Economics}
+      \field{number}{3-4}
+      \field{title}{Kalečki and {Keynes} on finance, investment and saving}
+      \field{urlday}{19}
+      \field{urlmonth}{6}
+      \field{urlyear}{2019}
+      \field{volume}{7}
+      \field{year}{1983}
+      \field{urldateera}{ce}
+      \field{pages}{221\bibrangedash 233}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1093/cje/7.3-4.221
+      \endverb
+      \verb{file}
+      \verb Snapshot:/home/gpetrini/Zotero/storage/NC3ZTUNW/1686649.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://academic.oup.com/cje/article/7/3-4/221/1686649
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/cje/article/7/3-4/221/1686649
+      \endverb
+    \endentry
+    \entry{bassanetti_effects_2010}{incollection}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=cd8065f7cd7becdbc4a578d7adf65ebe}{%
+           family={Bassanetti},
+           familyi={B\bibinitperiod},
+           given={Antonio},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=a71a99343fc2c1c06e181342c43eedcc}{%
+           family={Zollino},
+           familyi={Z\bibinitperiod},
+           given={Francesco},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{4}{}{%
+        {{hash=0c4828d2896c6d8205f3c9d08e7f2663}{%
+           family={Bandt},
+           familyi={B\bibinitperiod},
+           given={Olivier},
+           giveni={O\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=e68f233df3e4add7fc514353fba0362a}{%
+           family={Knetsch},
+           familyi={K\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=73aec283476198a992592d9f0b080ab3}{%
+           family={Peñalosa},
+           familyi={P\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a71a99343fc2c1c06e181342c43eedcc}{%
+           family={Zollino},
+           familyi={Z\bibinitperiod},
+           given={Francesco},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \strng{namehash}{59d275d16a09e14c0981f0a04594fd62}
+      \strng{fullhash}{59d275d16a09e14c0981f0a04594fd62}
+      \strng{bibnamehash}{59d275d16a09e14c0981f0a04594fd62}
+      \strng{authorbibnamehash}{59d275d16a09e14c0981f0a04594fd62}
+      \strng{authornamehash}{59d275d16a09e14c0981f0a04594fd62}
+      \strng{authorfullhash}{59d275d16a09e14c0981f0a04594fd62}
+      \strng{editorbibnamehash}{92c8d0a6720b30141ace0a6f1d50d3c6}
+      \strng{editornamehash}{92c8d0a6720b30141ace0a6f1d50d3c6}
+      \strng{editorfullhash}{bbdda415d208cdce86dd66282e2106ea}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{In this paper we focus on Italian aggregate quarterly time series covering the 1980-2008 sample period and test the presence and size of wealth effects on consumption, taking separately account of financial assets and residential property on the basis of new stock measures. We find sound evidence in favour of a cointegrating relation, in which both wealth components display the expected, positive effect on households‘ consumption. In particular, our results point to a lower marginal propensity to consume out of housing than out of non housing net worth, with a respective size laying in the range of 1.5-2 and 4-6 cents. Following the estimate of a vector error correction model, we discuss the role played by transitory and permanent shocks in driving changes in the variables we consider. We have found that both consumption and wealth respond almost exclusively to permanent shocks, which are the sole determinants of the common stochastic trend in our theoretical set-up. As a result, we are confident that our estimates of wealth coefficients in the cointegrating vector match very closely the true long run marginal propensity to consume for Italian households.}
+      \field{booktitle}{Housing {Markets} in {Europe}: {A} {Macroeconomic} {Perspective}}
+      \field{isbn}{978-3-642-15340-2}
+      \field{shorttitle}{The {Effects} of {Housing} and {Financial} {Wealth} on {Personal} {Consumption}}
+      \field{title}{The {Effects} of {Housing} and {Financial} {Wealth} on {Personal} {Consumption}: {Aggregate} {Evidence} for {Italian} {Households}}
+      \field{urlday}{19}
+      \field{urlmonth}{7}
+      \field{urlyear}{2019}
+      \field{year}{2010}
+      \field{urldateera}{ce}
+      \field{pages}{307\bibrangedash 336}
+      \range{pages}{30}
+      \verb{doi}
+      \verb 10.1007/978-3-642-15340-2_14
+      \endverb
+      \verb{file}
+      \verb Springer Full Text PDF:/home/gpetrini/Zotero/storage/EZ2U5D6G/Bassanetti e Zollino - 2010 - The Effects of Housing and Financial Wealth on Per.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/978-3-642-15340-2_14
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/978-3-642-15340-2_14
+      \endverb
+      \keyw{consumption,housing,wealth effects}
+    \endentry
+    \entry{bibow_financialization_2010}{report}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=86ee8ef2e1029e969001e7167bb70a0a}{%
+           family={Bibow},
+           familyi={B\bibinitperiod},
+           given={Jörg},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {IMK Study}%
+      }
+      \strng{namehash}{86ee8ef2e1029e969001e7167bb70a0a}
+      \strng{fullhash}{86ee8ef2e1029e969001e7167bb70a0a}
+      \strng{bibnamehash}{86ee8ef2e1029e969001e7167bb70a0a}
+      \strng{authorbibnamehash}{86ee8ef2e1029e969001e7167bb70a0a}
+      \strng{authornamehash}{86ee8ef2e1029e969001e7167bb70a0a}
+      \strng{authorfullhash}{86ee8ef2e1029e969001e7167bb70a0a}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{shorttitle}{Financialization of the {US} household sector}
+      \field{title}{Financialization of the {US} household sector: {The}" subprime mortgage crisis" in {US} and global perspective}
+      \field{type}{techreport}
+      \field{year}{2010}
+      \verb{file}
+      \verb Bibow - 2010 - Financialization of the US household sector The .pdf:/home/gpetrini/Zotero/storage/FMZQ2UUR/Bibow - 2010 - Financialization of the US household sector The .pdf:application/pdf;Snapshot:/home/gpetrini/Zotero/storage/YN4VS86A/106233.html:text/html
+      \endverb
+    \endentry
+    \entry{brochier_supermultiplier_2018}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=6c985c4582d2e81fc97ab017f38c2c89}{%
+           family={Brochier},
+           familyi={B\bibinitperiod},
+           given={Lídia},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=c973d7d3fe02c9d149ed00104a235d82}{%
+           family={{Macedo e Silva}},
+           familyi={M\bibinitperiod},
+           given={Antonio\bibnamedelima Carlos},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{78170541ab24487433f4b219cb9ff0d5}
+      \strng{fullhash}{78170541ab24487433f4b219cb9ff0d5}
+      \strng{bibnamehash}{78170541ab24487433f4b219cb9ff0d5}
+      \strng{authorbibnamehash}{78170541ab24487433f4b219cb9ff0d5}
+      \strng{authornamehash}{78170541ab24487433f4b219cb9ff0d5}
+      \strng{authorfullhash}{78170541ab24487433f4b219cb9ff0d5}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Abstract. Supermultiplier models have been recently brought to the post-Keynesian debate. Yet these models still rely on quite simple economic assumptions, bei}
+      \field{journaltitle}{Cambridge Journal of Economics}
+      \field{shorttitle}{A supermultiplier {Stock}-{Flow} {Consistent} model}
+      \field{title}{A supermultiplier {Stock}-{Flow} {Consistent} model: the ``return'' of the paradoxes of thrift and costs in the long run?}
+      \field{urlday}{15}
+      \field{urlmonth}{11}
+      \field{urlyear}{2018}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1093/cje/bey008
+      \endverb
+      \verb{file}
+      \verb Brochier_Silva_A supermultiplier Stock-Flow Consistent model.pdf:/home/gpetrini/Zotero/storage/JBUV4YSY/Brochier_Silva_A supermultiplier Stock-Flow Consistent model.pdf:application/pdf;Snapshot:/home/gpetrini/Zotero/storage/UM4L9M4P/5033971.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://academic.oup.com/cje/advance-article/doi/10.1093/cje/bey008/5033971
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/cje/advance-article/doi/10.1093/cje/bey008/5033971
+      \endverb
+    \endentry
+    \entry{caverzasi_stock-flow_2013}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=e3fc2af895d5bd72c1d9c2b13737de83}{%
+           family={Caverzasi},
+           familyi={C\bibinitperiod},
+           given={Eugenio},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=ae8bd78526c5612bde41aa298b833071}{%
+           family={Godin},
+           familyi={G\bibinitperiod},
+           given={Antoine},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{46bf30d8a3ab221fbb2b7f6f01919fdc}
+      \strng{fullhash}{46bf30d8a3ab221fbb2b7f6f01919fdc}
+      \strng{bibnamehash}{46bf30d8a3ab221fbb2b7f6f01919fdc}
+      \strng{authorbibnamehash}{46bf30d8a3ab221fbb2b7f6f01919fdc}
+      \strng{authornamehash}{46bf30d8a3ab221fbb2b7f6f01919fdc}
+      \strng{authorfullhash}{46bf30d8a3ab221fbb2b7f6f01919fdc}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1556-5068}
+      \field{journaltitle}{SSRN Electronic Journal}
+      \field{title}{Stock-{Flow} {Consistent} {Modeling} {Through} the {Ages}}
+      \field{urlday}{20}
+      \field{urlmonth}{12}
+      \field{urlyear}{2018}
+      \field{year}{2013}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.2139/ssrn.2196498
+      \endverb
+      \verb{file}
+      \verb Caverzasi e Godin - 2013 - Stock-Flow Consistent Modeling Through the Ages.pdf:/home/gpetrini/Zotero/storage/Q65HTSSE/Caverzasi e Godin - 2013 - Stock-Flow Consistent Modeling Through the Ages.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://www.ssrn.com/abstract=2196498
+      \endverb
+      \verb{url}
+      \verb http://www.ssrn.com/abstract=2196498
+      \endverb
+    \endentry
+    \entry{chauvin_wealth_2010}{incollection}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=0c17633bf5d8e70e754f6cac6a2a3d6f}{%
+           family={Chauvin},
+           familyi={C\bibinitperiod},
+           given={Valerie},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=491963d203fa748a49e0f88ac47333dd}{%
+           family={Damette},
+           familyi={D\bibinitperiod},
+           given={Olivier},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{4}{}{%
+        {{hash=0c4828d2896c6d8205f3c9d08e7f2663}{%
+           family={Bandt},
+           familyi={B\bibinitperiod},
+           given={Olivier},
+           giveni={O\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=e68f233df3e4add7fc514353fba0362a}{%
+           family={Knetsch},
+           familyi={K\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=73aec283476198a992592d9f0b080ab3}{%
+           family={Peñalosa},
+           familyi={P\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a71a99343fc2c1c06e181342c43eedcc}{%
+           family={Zollino},
+           familyi={Z\bibinitperiod},
+           given={Francesco},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \strng{namehash}{d835f7dfd60c92d88bb891d9c660ef27}
+      \strng{fullhash}{d835f7dfd60c92d88bb891d9c660ef27}
+      \strng{bibnamehash}{d835f7dfd60c92d88bb891d9c660ef27}
+      \strng{authorbibnamehash}{d835f7dfd60c92d88bb891d9c660ef27}
+      \strng{authornamehash}{d835f7dfd60c92d88bb891d9c660ef27}
+      \strng{authorfullhash}{d835f7dfd60c92d88bb891d9c660ef27}
+      \strng{editorbibnamehash}{92c8d0a6720b30141ace0a6f1d50d3c6}
+      \strng{editornamehash}{92c8d0a6720b30141ace0a6f1d50d3c6}
+      \strng{editorfullhash}{bbdda415d208cdce86dd66282e2106ea}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{This paper studies the relationship between consumption and wealth based on the concept of cointegration. The analysis focuses on French data over the 1987 - 2006 period. This relationship is expressed in two ways: in terms of Marginal Propensity to Consume out of wealth (MPC) and in terms of Elasticity of consumption to wealth. Three concepts of consumption are investigated: total households consumption expenditure, consumption excluding financial services and consumption excluding durable goods. Different estimators are also considered. Based on the MPC approach, when considered as permanent by households, an increase (decrease) in total wealth of one euro would lead to an increase (decrease) of 1 cent in total consumption. In terms of elasticity, an increase (decrease) of 10\% in wealth would imply also a relatively small impact of 0.8 to 1.1\% on consumption depending on the concept of consumption considered. In most cases, the effect of a change in financial wealth is bigger than of a change in housing wealth. The results indicate that the wealth effects in France are smaller than in the UK and US but close to what is observed in Italy. In addition, any deviation of the variables from their common trends is corrected at first by adjustments in disposable income in line with what has been uncovered by studies on Germany and consistent with the ”saving for the rainy days” approach of Campbell (1987). But our results contrast with the seminal study of Lettau and Ludvigson (2004) in the US where asset prices make the bulk of the adjustment.}
+      \field{booktitle}{Housing {Markets} in {Europe}: {A} {Macroeconomic} {Perspective}}
+      \field{isbn}{978-3-642-15340-2}
+      \field{shorttitle}{Wealth {Effects} on {Private} {Consumption}}
+      \field{title}{Wealth {Effects} on {Private} {Consumption}: the {French} {Case}}
+      \field{urlday}{19}
+      \field{urlmonth}{7}
+      \field{urlyear}{2019}
+      \field{year}{2010}
+      \field{urldateera}{ce}
+      \field{pages}{263\bibrangedash 282}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1007/978-3-642-15340-2_12
+      \endverb
+      \verb{file}
+      \verb Springer Full Text PDF:/home/gpetrini/Zotero/storage/GMG6YDX6/Chauvin e Damette - 2010 - Wealth Effects on Private Consumption the French .pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/978-3-642-15340-2_12
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/978-3-642-15340-2_12
+      \endverb
+      \keyw{consumption,France,wealth effect}
+    \endentry
+    \entry{da_silveira_politica_2017}{monography}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=730d0f121445d449d4fbeb99b9c4bd72}{%
+           family={Da\bibnamedelima Silveira},
+           familyi={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Gabriel\bibnamedelima Petrini},
+           giveni={G\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Unicamp}%
+      }
+      \list{location}{1}{%
+        {Campinas - SP}%
+      }
+      \strng{namehash}{730d0f121445d449d4fbeb99b9c4bd72}
+      \strng{fullhash}{730d0f121445d449d4fbeb99b9c4bd72}
+      \strng{bibnamehash}{730d0f121445d449d4fbeb99b9c4bd72}
+      \strng{authorbibnamehash}{730d0f121445d449d4fbeb99b9c4bd72}
+      \strng{authornamehash}{730d0f121445d449d4fbeb99b9c4bd72}
+      \strng{authorfullhash}{730d0f121445d449d4fbeb99b9c4bd72}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{bookpagination}{sheet}
+      \field{note}{Monografia}
+      \field{title}{Política fiscal e(m) {Grande} {Recessão}: uma análise com {Consistência} entre {Fluxos} e {Estoques}}
+      \field{year}{2017}
+      \verb{file}
+      \verb Da Silveira - 2017 - Política fiscal e(m) Grande Recessão uma análise .pdf:/home/gpetrini/Zotero/storage/J9ZN58MA/Da Silveira - 2017 - Política fiscal e(m) Grande Recessão uma análise .pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{da_silveira_investimento_2019}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=730d0f121445d449d4fbeb99b9c4bd72}{%
+           family={Da\bibnamedelima Silveira},
+           familyi={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Gabriel\bibnamedelima Petrini},
+           giveni={G\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=f8060ec2dd02eb198cf7c54ef058a7bc}{%
+           family={Teixeira},
+           familyi={T\bibinitperiod},
+           given={Lucas},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Campinas}%
+      }
+      \strng{namehash}{e8833596fc7a7fb9d14137e260d290f6}
+      \strng{fullhash}{e8833596fc7a7fb9d14137e260d290f6}
+      \strng{bibnamehash}{e8833596fc7a7fb9d14137e260d290f6}
+      \strng{authorbibnamehash}{e8833596fc7a7fb9d14137e260d290f6}
+      \strng{authornamehash}{e8833596fc7a7fb9d14137e260d290f6}
+      \strng{authorfullhash}{e8833596fc7a7fb9d14137e260d290f6}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Este artigo apresenta um modelo baseado no supermultiplicador sraffiano num arcabouço contábil de consistência entre fluxos e estoques (SSM-SFC) cujo motor do crescimento é o investimento residencial. A motivação empírica é baseada no papel central deste gasto para explicar a tendência e os ciclos econômicos, conforme apontado por trabalhos recentes. No campo teórico, percebe-se que o investimento residencial costuma ser negligenciado na literatura de modelos de crescimento. O modelo aqui apresentado é o mais parcimonioso possível. Trata-se de uma economia fechada e sem governo, com bancos, empresas produtivas e famílias. Nessa economia, existem dois ativos reais: o capital produtivo, fruto do investimento das firmas, e os imóveis, resultado do investi- mento residencial feito pelas famílias. O modelo é simulado para analisar os efeitos de mudanças na distribuição, na taxa de juros e na taxa de crescimento dos gastos autônomos. Os resultados são: (i) mudanças na distribuição afetam a taxa de crescimento apenas temporariamente; (ii) au- mento na taxa de juros não afeta a taxa de crescimento; (iii) a participação do estoque de imóveis no capital total reduz como resultado de uma maior taxa de crescimento do investimento residen- cial; (iv) taxa de crescimento de steady state é determinada pela taxa de crescimento dos gastos autônomos; (v) grau de utilização da capacidade produtiva converge para o grau normal.}
+      \field{booktitle}{{XII} {Encontro} {Internacional} da {AKB}}
+      \field{title}{Investimento residencial em um modelo {Stock}-{Flow} {Consistent} com supermultiplicador sraffiano}
+      \field{year}{2019}
+      \verb{file}
+      \verb Da Silveira e Teixeira - 2019 - Investimento residencial em um modelo Stock-Flow C.pdf:/home/gpetrini/Zotero/storage/RP7HGWCR/Da Silveira e Teixeira - 2019 - Investimento residencial em um modelo Stock-Flow C.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{dos_santos_revisiting_2009}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=1634fc01eac3b46d9ec1ffde5a46ccd6}{%
+           family={Dos\bibnamedelima Santos},
+           familyi={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Claudio\bibnamedelima H.},
+           giveni={C\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=3558083b07934ace6d710536bd0bbf42}{%
+           family={Macedo\bibnamedelimb e\bibnamedelima Silva},
+           familyi={M\bibinitperiod\bibinitdelim e\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Antônio\bibnamedelima Carlos},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{938c41a7aa1226f886ae258dd946758e}
+      \strng{fullhash}{938c41a7aa1226f886ae258dd946758e}
+      \strng{bibnamehash}{938c41a7aa1226f886ae258dd946758e}
+      \strng{authorbibnamehash}{938c41a7aa1226f886ae258dd946758e}
+      \strng{authornamehash}{938c41a7aa1226f886ae258dd946758e}
+      \strng{authorfullhash}{938c41a7aa1226f886ae258dd946758e}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{SSRN Electronic Journal}
+      \field{shorttitle}{Revisiting (and Connecting) Marglin-Bhaduri and Minsky}
+      \field{title}{Revisiting (and Connecting) Marglin-Bhaduri and Minsky: An SFC Look at Financialization and Profit-Led Growth}
+      \field{urlday}{20}
+      \field{urlmonth}{12}
+      \field{urlyear}{2018}
+      \field{year}{2009}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.2139/ssrn.1420769
+      \endverb
+      \verb{file}
+      \verb Dos Santos e Macedo e Silva - 2009 - Revisiting (and Connecting) Marglin-Bhaduri and Mi.pdf:/home/gpetrini/Zotero/storage/BMBVI4VK/Dos Santos e Macedo e Silva - 2009 - Revisiting (and Connecting) Marglin-Bhaduri and Mi.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://www.ssrn.com/abstract=1420769
+      \endverb
+      \verb{url}
+      \verb http://www.ssrn.com/abstract=1420769
+      \endverb
+    \endentry
+    \entry{dos_santos_keynesian_2006}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=7dbe6ce67499f23f90bc0e3124f545e5}{%
+           family={Dos\bibnamedelima Santos},
+           familyi={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Cláudio\bibnamedelima Hamilton},
+           giveni={C\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{7dbe6ce67499f23f90bc0e3124f545e5}
+      \strng{fullhash}{7dbe6ce67499f23f90bc0e3124f545e5}
+      \strng{bibnamehash}{7dbe6ce67499f23f90bc0e3124f545e5}
+      \strng{authorbibnamehash}{7dbe6ce67499f23f90bc0e3124f545e5}
+      \strng{authornamehash}{7dbe6ce67499f23f90bc0e3124f545e5}
+      \strng{authorfullhash}{7dbe6ce67499f23f90bc0e3124f545e5}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Abstract. This paper argues that the stock-flow consistent approach to macroeconomic modelling (SFCA) is a natural outcome of the path taken by Keynesian macro}
+      \field{issn}{0309-166X}
+      \field{journaltitle}{Cambridge Journal of Economics}
+      \field{month}{7}
+      \field{number}{4}
+      \field{shorttitle}{Keynesian theorising during hard times}
+      \field{title}{Keynesian theorising during hard times: stock-flow consistent models as an unexplored ‘frontier’ of {Keynesian} macroeconomics}
+      \field{urlday}{15}
+      \field{urlmonth}{4}
+      \field{urlyear}{2019}
+      \field{volume}{30}
+      \field{year}{2006}
+      \field{urldateera}{ce}
+      \field{pages}{541\bibrangedash 565}
+      \range{pages}{25}
+      \verb{doi}
+      \verb 10.1093/cje/bei069
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/gpetrini/Zotero/storage/ZAXTLK7P/Santos e H - 2006 - Keynesian theorising during hard times stock-flow.pdf:application/pdf;Snapshot:/home/gpetrini/Zotero/storage/H5E79KFX/1713644.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://academic.oup.com/cje/article/30/4/541/1713644
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/cje/article/30/4/541/1713644
+      \endverb
+    \endentry
+    \entry{dow_horizontalism:_1996}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=a3b7b5e47faa6dfdbed8b895f70cdfae}{%
+           family={Dow},
+           familyi={D\bibinitperiod},
+           given={Sheila\bibnamedelima C.},
+           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{a3b7b5e47faa6dfdbed8b895f70cdfae}
+      \strng{fullhash}{a3b7b5e47faa6dfdbed8b895f70cdfae}
+      \strng{bibnamehash}{a3b7b5e47faa6dfdbed8b895f70cdfae}
+      \strng{authorbibnamehash}{a3b7b5e47faa6dfdbed8b895f70cdfae}
+      \strng{authornamehash}{a3b7b5e47faa6dfdbed8b895f70cdfae}
+      \strng{authorfullhash}{a3b7b5e47faa6dfdbed8b895f70cdfae}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Abstract. This article offers a critique of the horizontalist view of money that banks are passive in the face of credit demand. It is argued that banks' liqui}
+      \field{issn}{0309-166X}
+      \field{journaltitle}{Cambridge Journal of Economics}
+      \field{number}{4}
+      \field{shorttitle}{Horizontalism}
+      \field{title}{Horizontalism: a critique}
+      \field{urlday}{19}
+      \field{urlmonth}{6}
+      \field{urlyear}{2019}
+      \field{volume}{20}
+      \field{year}{1996}
+      \field{urldateera}{ce}
+      \field{pages}{497\bibrangedash 508}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1093/oxfordjournals.cje.a013629
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/gpetrini/Zotero/storage/NHCP6CXD/Dow - 1996 - Horizontalism a critique.pdf:application/pdf;Snapshot:/home/gpetrini/Zotero/storage/KW7V27BA/1729745.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://academic.oup.com/cje/article/20/4/497/1729745
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/cje/article/20/4/497/1729745
+      \endverb
+    \endentry
+    \entry{ferrara_common_2010}{incollection}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=6b85cd2145dcf8149531ccf2d6ccab9c}{%
+           family={Ferrara},
+           familyi={F\bibinitperiod},
+           given={Laurent},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=21f365c12bd59fa8a7120260bd39f1fc}{%
+           family={Koopman},
+           familyi={K\bibinitperiod},
+           given={Siem\bibnamedelima Jan},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{4}{}{%
+        {{hash=0c4828d2896c6d8205f3c9d08e7f2663}{%
+           family={Bandt},
+           familyi={B\bibinitperiod},
+           given={Olivier},
+           giveni={O\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=e68f233df3e4add7fc514353fba0362a}{%
+           family={Knetsch},
+           familyi={K\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=73aec283476198a992592d9f0b080ab3}{%
+           family={Peñalosa},
+           familyi={P\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a71a99343fc2c1c06e181342c43eedcc}{%
+           family={Zollino},
+           familyi={Z\bibinitperiod},
+           given={Francesco},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \strng{namehash}{fd835cfefc2ce2a28e2508e9fdabd856}
+      \strng{fullhash}{fd835cfefc2ce2a28e2508e9fdabd856}
+      \strng{bibnamehash}{fd835cfefc2ce2a28e2508e9fdabd856}
+      \strng{authorbibnamehash}{fd835cfefc2ce2a28e2508e9fdabd856}
+      \strng{authornamehash}{fd835cfefc2ce2a28e2508e9fdabd856}
+      \strng{authorfullhash}{fd835cfefc2ce2a28e2508e9fdabd856}
+      \strng{editorbibnamehash}{92c8d0a6720b30141ace0a6f1d50d3c6}
+      \strng{editornamehash}{92c8d0a6720b30141ace0a6f1d50d3c6}
+      \strng{editorfullhash}{bbdda415d208cdce86dd66282e2106ea}
+      \field{sortinit}{F}
+      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The 2007 sub-prime crisis in the United States, prolonged by a severe economic recession spread over many countries around the world, has led many researchers to focus on the recent fluctuations in housing prices and their relationships with macroeconomics and monetary policies. The existence of common housing cycles among the countries of the euro zone could lead the European Central Bank to integrate more specifically the evolution of such asset prices in its assessment. In this paper, we implement a multivariate unobserved component model on housing market variables in order to assess the common euro area housing cycle and to evaluate its relationship with the economic cycle. Among the general class of multivariate unobserved component models, we implement the band-pass filter based on the trend plus cycle decomposition model and we allow the existence of two cycles of different periods. The dataset consists of gross domestic product and real house prices series for four main euro area countries (Germany, France, Italy and Spain). Empirical results show a strong relationship for business cycles in France, Italy and Spain. Moreover, French and Spanish house prices cycles appear to be strongly related, while the German one possesses its own dynamics. Finally, we find that GDP and house prices cycles are related in the medium-term for fluctuations between 4 and 8 years, while the housing market contributes to the long-termeconomic growth only in Spain and Germany}
+      \field{booktitle}{Housing {Markets} in {Europe}: {A} {Macroeconomic} {Perspective}}
+      \field{isbn}{978-3-642-15340-2}
+      \field{title}{Common {Business} and {Housing} {Market} {Cyles} in the {Euro} {Area} from a {Multivariate} {Decomposition}}
+      \field{urlday}{19}
+      \field{urlmonth}{7}
+      \field{urlyear}{2019}
+      \field{year}{2010}
+      \field{urldateera}{ce}
+      \field{pages}{105\bibrangedash 128}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10.1007/978-3-642-15340-2_6
+      \endverb
+      \verb{file}
+      \verb Springer Full Text PDF:/home/gpetrini/Zotero/storage/NDW9GJUY/Ferrara e Koopman - 2010 - Common Business and Housing Market Cyles in the Eu.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/978-3-642-15340-2_6
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/978-3-642-15340-2_6
+      \endverb
+      \keyw{Business cycles,Euro area,House prices,Unobserved components model}
+    \endentry
+    \entry{ferrara_cyclical_2010}{incollection}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=6b85cd2145dcf8149531ccf2d6ccab9c}{%
+           family={Ferrara},
+           familyi={F\bibinitperiod},
+           given={Laurent},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=a9368315133e64684477e1c4b2b9cfbe}{%
+           family={Vigna},
+           familyi={V\bibinitperiod},
+           given={Olivier},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{4}{}{%
+        {{hash=0c4828d2896c6d8205f3c9d08e7f2663}{%
+           family={Bandt},
+           familyi={B\bibinitperiod},
+           given={Olivier},
+           giveni={O\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=e68f233df3e4add7fc514353fba0362a}{%
+           family={Knetsch},
+           familyi={K\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=73aec283476198a992592d9f0b080ab3}{%
+           family={Peñalosa},
+           familyi={P\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a71a99343fc2c1c06e181342c43eedcc}{%
+           family={Zollino},
+           familyi={Z\bibinitperiod},
+           given={Francesco},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \strng{namehash}{c739bc7dc0ff660fcc8a44c7c928c9ea}
+      \strng{fullhash}{c739bc7dc0ff660fcc8a44c7c928c9ea}
+      \strng{bibnamehash}{c739bc7dc0ff660fcc8a44c7c928c9ea}
+      \strng{authorbibnamehash}{c739bc7dc0ff660fcc8a44c7c928c9ea}
+      \strng{authornamehash}{c739bc7dc0ff660fcc8a44c7c928c9ea}
+      \strng{authorfullhash}{c739bc7dc0ff660fcc8a44c7c928c9ea}
+      \strng{editorbibnamehash}{92c8d0a6720b30141ace0a6f1d50d3c6}
+      \strng{editornamehash}{92c8d0a6720b30141ace0a6f1d50d3c6}
+      \strng{editorfullhash}{bbdda415d208cdce86dd66282e2106ea}
+      \field{sortinit}{F}
+      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{In this paper we focus on cycles and trends of some macroeconomic and housing market variables representative of the French economy. In a first part, we empirically show that cycles in the housing sector, measured by housing prices, housing starts, building permits, sales or residential investment, are strongly correlated to GDP cycles with a lead lying between of one and four quarters, suggesting thus that a monitoring of housing fluctuations could bring useful information for macroeconomic forecasting. Interestingly, this result is robust to the various considered approaches. Moreover, it seems that the housing sector long-term trend possesses its own dynamics, quite different from the aggregate French economic activity. Thus, in a second part, we review various structural factors that could drive housing market developments in France in the future.}
+      \field{booktitle}{Housing {Markets} in {Europe}: {A} {Macroeconomic} {Perspective}}
+      \field{isbn}{978-3-642-15340-2}
+      \field{shorttitle}{Cyclical {Relationships} {Between} {GDP} and {Housing} {Market} in {France}}
+      \field{title}{Cyclical {Relationships} {Between} {GDP} and {Housing} {Market} in {France}: {Facts} and {Factors} at {Play}}
+      \field{urlday}{19}
+      \field{urlmonth}{7}
+      \field{urlyear}{2019}
+      \field{year}{2010}
+      \field{urldateera}{ce}
+      \field{pages}{39\bibrangedash 60}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1007/978-3-642-15340-2_3
+      \endverb
+      \verb{file}
+      \verb Springer Full Text PDF:/home/gpetrini/Zotero/storage/CPFY6TU3/Ferrara e Vigna - 2010 - Cyclical Relationships Between GDP and Housing Mar.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/978-3-642-15340-2_3
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/978-3-642-15340-2_3
+      \endverb
+      \keyw{Economic cycles,France,Housing market}
+    \endentry
+    \entry{fiebiger_trend_2017}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=73761fcb674946585afcbf504430394f}{%
+           family={Fiebiger},
+           familyi={F\bibinitperiod},
+           given={Brett},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=dcd7b0a6002af14d170a5a19365c27f2}{%
+           family={Lavoie},
+           familyi={L\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{a43507ab9e5010e3c25f930ec9139706}
+      \strng{fullhash}{a43507ab9e5010e3c25f930ec9139706}
+      \strng{bibnamehash}{a43507ab9e5010e3c25f930ec9139706}
+      \strng{authorbibnamehash}{a43507ab9e5010e3c25f930ec9139706}
+      \strng{authornamehash}{a43507ab9e5010e3c25f930ec9139706}
+      \strng{authorfullhash}{a43507ab9e5010e3c25f930ec9139706}
+      \field{sortinit}{F}
+      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The Global Financial Crisis has underlined the importance of developments in the household sector to explaining macro patterns. Some recent papers have discussed the role of non-capacity generating semi-autonomous expenditures in growth theory. This literature ties together several aspects of heterodox thought: growth and distribution; the Sraffian supermultiplier; Duesenberry's relative income hypothesis; the endogenous money approach and Kalecki–Luxemburg external markets. The basic message is that non-wage sources of effective demand, based on mortgage and consumer credit, can play a key role in inducing capacity investment and driving long-run output growth. This article gives a broad overview of the role of financed-induced semi-autonomous expenditures in growth, cycles and crises, and thus criticizes some of the previous approaches that claim to mimic actual cycles while abstracting from these crucial determinants of economic activity.}
+      \field{issn}{1467-999X}
+      \field{journaltitle}{Metroeconomica}
+      \field{shorttitle}{Trend and business cycles with external markets}
+      \field{title}{Trend and business cycles with external markets: {Non}-capacity generating semi-autonomous expenditures and effective demand}
+      \field{urlday}{28}
+      \field{urlmonth}{12}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1111/meca.12192
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/gpetrini/Zotero/storage/KSTQEFRL/Fiebiger e Lavoie - Trend and business cycles with external markets N.pdf:application/pdf;Snapshot:/home/gpetrini/Zotero/storage/IQ5AJIHT/meca.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/meca.12192
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/meca.12192
+      \endverb
+    \endentry
+    \entry{godley_money_1999}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=4e149b959c67e5bb39e2707bc01d071e}{%
+           family={Godley},
+           familyi={G\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{4e149b959c67e5bb39e2707bc01d071e}
+      \strng{fullhash}{4e149b959c67e5bb39e2707bc01d071e}
+      \strng{bibnamehash}{4e149b959c67e5bb39e2707bc01d071e}
+      \strng{authorbibnamehash}{4e149b959c67e5bb39e2707bc01d071e}
+      \strng{authornamehash}{4e149b959c67e5bb39e2707bc01d071e}
+      \strng{authorfullhash}{4e149b959c67e5bb39e2707bc01d071e}
+      \field{extraname}{1}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract. This paper integrates the theory of money and credit derived ultimately from Wicksell into the Keynesian theory of income determination, with assets}
+      \field{issn}{0309-166X}
+      \field{journaltitle}{Cambridge Journal of Economics}
+      \field{number}{4}
+      \field{title}{Money and credit in a {Keynesian} model of income determination}
+      \field{urlday}{17}
+      \field{urlmonth}{6}
+      \field{urlyear}{2019}
+      \field{volume}{23}
+      \field{year}{1999}
+      \field{urldateera}{ce}
+      \field{pages}{393\bibrangedash 411}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1093/cje/23.4.393
+      \endverb
+      \verb{file}
+      \verb Godley - 1999 - Money and credit in a Keynesian model of income de.pdf:/home/gpetrini/Zotero/storage/JRRX9MZH/Godley - 1999 - Money and credit in a Keynesian model of income de.pdf:application/pdf;Snapshot:/home/gpetrini/Zotero/storage/LH9LHRDP/1719681.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://academic.oup.com/cje/article/23/4/393/1719681
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/cje/article/23/4/393/1719681
+      \endverb
+    \endentry
+    \entry{godley_fiscal_2007}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=4e149b959c67e5bb39e2707bc01d071e}{%
+           family={Godley},
+           familyi={G\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=2f7a0a4459884b037e0375a1afa79c16}{%
+           family={Lavoie},
+           familyi={L\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f2ad7f0256e75b5084b80204d96fd9f6}
+      \strng{fullhash}{f2ad7f0256e75b5084b80204d96fd9f6}
+      \strng{bibnamehash}{f2ad7f0256e75b5084b80204d96fd9f6}
+      \strng{authorbibnamehash}{f2ad7f0256e75b5084b80204d96fd9f6}
+      \strng{authornamehash}{f2ad7f0256e75b5084b80204d96fd9f6}
+      \strng{authorfullhash}{f2ad7f0256e75b5084b80204d96fd9f6}
+      \field{extraname}{1}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Post Keynesian Economics}
+      \field{number}{1}
+      \field{title}{Fiscal policy in a stock-flow consistent ({SFC}) model}
+      \field{volume}{30}
+      \field{year}{2007}
+      \field{pages}{79\bibrangedash 100}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.2753/pke0160-3477300104
+      \endverb
+    \endentry
+    \entry{godley_seven_1999}{report}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=f6bfabc3bb1587ddfc005f7ede21614c}{%
+           family={Godley},
+           familyi={G\bibinitperiod},
+           given={Wynne},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Levy Economics Institute}%
+      }
+      \strng{namehash}{f6bfabc3bb1587ddfc005f7ede21614c}
+      \strng{fullhash}{f6bfabc3bb1587ddfc005f7ede21614c}
+      \strng{bibnamehash}{f6bfabc3bb1587ddfc005f7ede21614c}
+      \strng{authorbibnamehash}{f6bfabc3bb1587ddfc005f7ede21614c}
+      \strng{authornamehash}{f6bfabc3bb1587ddfc005f7ede21614c}
+      \strng{authorfullhash}{f6bfabc3bb1587ddfc005f7ede21614c}
+      \field{extraname}{2}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The Levy Economics Institute of Bard College is a non-profit, nonpartisan, public policy think tank}
+      \field{title}{Seven {Unsustainable} {Processes}}
+      \field{type}{techreport}
+      \field{urlday}{19}
+      \field{urlmonth}{6}
+      \field{urlyear}{2019}
+      \field{year}{1999}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:/home/gpetrini/Zotero/storage/TRWDYRK4/seven-unsustainable-processes.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb http://www.levyinstitue.org/publications/seven-unsustainable-processes
+      \endverb
+      \verb{url}
+      \verb http://www.levyinstitue.org/publications/seven-unsustainable-processes
+      \endverb
+    \endentry
+    \entry{godley_macroeconomics_1983}{book}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=f6bfabc3bb1587ddfc005f7ede21614c}{%
+           family={Godley},
+           familyi={G\bibinitperiod},
+           given={Wynne},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=84ca5cbf5fc4c907f02bf3b4e31b50bf}{%
+           family={Cripps},
+           familyi={C\bibinitperiod},
+           given={Francis},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{9c8ef4d7dc781ccf853f3ff0ba7ca24e}
+      \strng{fullhash}{9c8ef4d7dc781ccf853f3ff0ba7ca24e}
+      \strng{bibnamehash}{9c8ef4d7dc781ccf853f3ff0ba7ca24e}
+      \strng{authorbibnamehash}{9c8ef4d7dc781ccf853f3ff0ba7ca24e}
+      \strng{authornamehash}{9c8ef4d7dc781ccf853f3ff0ba7ca24e}
+      \strng{authorfullhash}{9c8ef4d7dc781ccf853f3ff0ba7ca24e}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Macroeconomics}
+      \field{year}{1983}
+    \endentry
+    \entry{godley_simple_2007}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=f6bfabc3bb1587ddfc005f7ede21614c}{%
+           family={Godley},
+           familyi={G\bibinitperiod},
+           given={Wynne},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=dcd7b0a6002af14d170a5a19365c27f2}{%
+           family={Lavoie},
+           familyi={L\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{f441e789606878aa4ec4a6387dfbee0c}
+      \strng{fullhash}{f441e789606878aa4ec4a6387dfbee0c}
+      \strng{bibnamehash}{f441e789606878aa4ec4a6387dfbee0c}
+      \strng{authorbibnamehash}{f441e789606878aa4ec4a6387dfbee0c}
+      \strng{authornamehash}{f441e789606878aa4ec4a6387dfbee0c}
+      \strng{authorfullhash}{f441e789606878aa4ec4a6387dfbee0c}
+      \field{extraname}{2}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Abstract. This paper presents a Keynesian model which describes three countries trading merchandise and financial assets with one another. It is initially assu}
+      \field{issn}{0309-166X}
+      \field{journaltitle}{Cambridge Journal of Economics}
+      \field{number}{1}
+      \field{shorttitle}{A simple model of three economies with two currencies}
+      \field{title}{A simple model of three economies with two currencies: the eurozone and the {USA}}
+      \field{urlday}{19}
+      \field{urlmonth}{6}
+      \field{urlyear}{2019}
+      \field{volume}{31}
+      \field{year}{2007}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 23}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.1093/cje/bel010
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/gpetrini/Zotero/storage/GBTWH7LN/Godley e Lavoie - 2007 - A simple model of three economies with two currenc.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://academic.oup.com/cje/article/31/1/1/1691636
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/cje/article/31/1/1/1691636
+      \endverb
+    \endentry
+    \entry{green_follow_1997}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=5600b83cf822b20354346e7bbc084f15}{%
+           family={Green},
+           familyi={G\bibinitperiod},
+           given={{Richard K.}},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{5600b83cf822b20354346e7bbc084f15}
+      \strng{fullhash}{5600b83cf822b20354346e7bbc084f15}
+      \strng{bibnamehash}{5600b83cf822b20354346e7bbc084f15}
+      \strng{authorbibnamehash}{5600b83cf822b20354346e7bbc084f15}
+      \strng{authornamehash}{5600b83cf822b20354346e7bbc084f15}
+      \strng{authorfullhash}{5600b83cf822b20354346e7bbc084f15}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{This paper examines the effect of different kinds of investments on the business cycle. Specifically, it examines whether residential and non-residential investment Granger cause GDP, and whether GDP Granger causes each of these types of investments. The paper uses quarterly National Income and Products Data for the period 1959 to 1992. Under a wide variety of time-series specifications, residential investment causes, but is not caused by GDP, while non-residential investment does not cause, but is caused by GDP. Thus, housing leads and other types of investment lag the business cycle. The results also suggest that policies designed to funnel capital away from housing into plant and equipment could produce severe short-run dislocations. Copyright American Real Estate and Urban Economics Association.}
+      \field{journaltitle}{Real Estate Economics}
+      \field{number}{2}
+      \field{shorttitle}{Follow the {Leader}}
+      \field{title}{Follow the {Leader}: {How} {Changes} in {Residential} and {Non}-residential {Investment} {Predict} {Changes} in {GDP}}
+      \field{urlday}{5}
+      \field{urlmonth}{7}
+      \field{urlyear}{2019}
+      \field{volume}{25}
+      \field{year}{1997}
+      \field{urldateera}{ce}
+      \field{pages}{253\bibrangedash 270}
+      \range{pages}{18}
+      \verb{file}
+      \verb Green - 1997 - Follow the Leader How Changes in Residential and .pdf:/home/gpetrini/Zotero/storage/J6WSUTGY/Green - 1997 - Follow the Leader How Changes in Residential and .pdf:application/pdf;Snapshot:/home/gpetrini/Zotero/storage/KSDSR2E6/v25y1997i2p253-270.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://ideas.repec.org/a/bla/reesec/v25y1997i2p253-270.html
+      \endverb
+      \verb{url}
+      \verb https://ideas.repec.org/a/bla/reesec/v25y1997i2p253-270.html
+      \endverb
+    \endentry
+    \entry{hein_finance-dominated_2012}{report}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=e721b26e3ecd4db48eee14a48259416f}{%
+           family={Hein},
+           familyi={H\bibinitperiod},
+           given={Eckhard},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Social Science Research Network}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{location}{1}{%
+        {Rochester, NY}%
+      }
+      \strng{namehash}{e721b26e3ecd4db48eee14a48259416f}
+      \strng{fullhash}{e721b26e3ecd4db48eee14a48259416f}
+      \strng{bibnamehash}{e721b26e3ecd4db48eee14a48259416f}
+      \strng{authorbibnamehash}{e721b26e3ecd4db48eee14a48259416f}
+      \strng{authornamehash}{e721b26e3ecd4db48eee14a48259416f}
+      \strng{authorfullhash}{e721b26e3ecd4db48eee14a48259416f}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In a Kaleckian distribution and growth model with workers’ debt we examine the short and long run effects of three stylized facts of “finance-dominated capitalism”: a fall in animal spirits of the firm sector with respect to real investment in capital stock, re-distribution of income at the expense of the wage share, and increasing lending of rentiers to workers for consumption purposes. In particular, we specify the conditions for long-run stability of the workers’ debt-capital ratio. We thus identify the threshold for this ratio to turn unstable causing increasing financial fragility and finally financial crisis due to systemic stock-flow or stock-stock dynamics.}
+      \field{number}{ID 2513788}
+      \field{title}{Finance-{Dominated} {Capitalism}, {Re}-{Distribution}, {Household} {Debt} and {Financial} {Fragility} in a {Kaleckian} {Distribution} and {Growth} {Model}}
+      \field{type}{{SSRN} {Scholarly} {Paper}}
+      \field{urlday}{23}
+      \field{urlmonth}{5}
+      \field{urlyear}{2019}
+      \field{year}{2012}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Full Text PDF:/home/gpetrini/Zotero/storage/5VNIGEJ5/Hein - 2012 - Finance-Dominated Capitalism, Re-Distribution, Hou.pdf:application/pdf;Snapshot:/home/gpetrini/Zotero/storage/Q9XSEL7X/papers.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://papers.ssrn.com/abstract=2513788
+      \endverb
+      \verb{url}
+      \verb https://papers.ssrn.com/abstract=2513788
+      \endverb
+      \keyw{distribution,Finance-dominated capitalism,financial fragility,growth,household debt,Kaleckian model}
+    \endentry
+    \entry{huang_is_2018}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=588d31121311facee378c2df49409106}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Yuting},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=f495cdda14989886bcfdb65c02b7a19d}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Qiang},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=b28c36fbdb9eae324459c9394f8a76a7}{%
+           family={Liow},
+           familyi={L\bibinitperiod},
+           given={Kim\bibnamedelima Hiang},
+           giveni={K\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=6f9bf13df2a49ec91f9fbd8ac7c65912}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Xiaoxia},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{cedbeb05f5e086ba0c1afb51dbdb647d}
+      \strng{fullhash}{bc688a31b8e8ad939226e1928f54e378}
+      \strng{bibnamehash}{cedbeb05f5e086ba0c1afb51dbdb647d}
+      \strng{authorbibnamehash}{cedbeb05f5e086ba0c1afb51dbdb647d}
+      \strng{authornamehash}{cedbeb05f5e086ba0c1afb51dbdb647d}
+      \strng{authorfullhash}{bc688a31b8e8ad939226e1928f54e378}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Fluctuations in the housing market have long been recognized by academics and practitioners as leading indicators of general economic activities. Recently, Leamer (2007, 2015) claims that housing activities both predict and cause national business cycles in the US. We investigate his claims for a larger set of countries. We also examine the predictive relationship in multiple resolutions or time scales, namely shortrun and long-run variations of business cycles. Structural vector auto-regression (SVAR) models are estimated to test his more contentious causal claim. Our results show that: (1) housing indicators lead business cycles in most countries; (2) such leading relationship is the most prominent in the long-run. In addition, our SVAR results for the US indicate that housing factors are likely independent drivers of business cycles. Housing starts predict short-run variations in business cycles, while housing prices predict long-run variations better. The cross-country evidences are less certain. Generally, our findings on timescale based relationships between housing and macro economy put restrictions on future models of monetary transmissions.}
+      \field{note}{No prelo}
+      \field{title}{Is {Housing} the {Business} {Cycle}? {A} {Multi}-resolution {Analysis} for {OECD} {Countries}}
+      \field{year}{2018}
+      \field{pages}{49}
+      \range{pages}{1}
+      \verb{file}
+      \verb Huang et al. - Is Housing the Business Cycle A Multi-resolution .pdf:/home/gpetrini/Zotero/storage/4WA8ZJMA/Huang et al. - Is Housing the Business Cycle A Multi-resolution .pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{iacoviello_housing_2010}{incollection}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=acea90ed4b11d5b6a53225c00869ef09}{%
+           family={Iacoviello},
+           familyi={I\bibinitperiod},
+           given={Matteo},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{4}{}{%
+        {{hash=0c4828d2896c6d8205f3c9d08e7f2663}{%
+           family={Bandt},
+           familyi={B\bibinitperiod},
+           given={Olivier},
+           giveni={O\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=e68f233df3e4add7fc514353fba0362a}{%
+           family={Knetsch},
+           familyi={K\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=73aec283476198a992592d9f0b080ab3}{%
+           family={Peñalosa},
+           familyi={P\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a71a99343fc2c1c06e181342c43eedcc}{%
+           family={Zollino},
+           familyi={Z\bibinitperiod},
+           given={Francesco},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \strng{namehash}{acea90ed4b11d5b6a53225c00869ef09}
+      \strng{fullhash}{acea90ed4b11d5b6a53225c00869ef09}
+      \strng{bibnamehash}{acea90ed4b11d5b6a53225c00869ef09}
+      \strng{authorbibnamehash}{acea90ed4b11d5b6a53225c00869ef09}
+      \strng{authornamehash}{acea90ed4b11d5b6a53225c00869ef09}
+      \strng{authorfullhash}{acea90ed4b11d5b6a53225c00869ef09}
+      \strng{editorbibnamehash}{92c8d0a6720b30141ace0a6f1d50d3c6}
+      \strng{editornamehash}{92c8d0a6720b30141ace0a6f1d50d3c6}
+      \strng{editorfullhash}{bbdda415d208cdce86dd66282e2106ea}
+      \field{sortinit}{I}
+      \field{sortinithash}{320bc8fe8101b9376f9f21cd507de0e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The goal of this chapter is to make the case that it is time for macroeconomists to restore the imbalance between the practical and empirical relevance of housing for macroeconomics on the one hand, and the treatment that macroeconomic models devote to housing on the other. After discussing a few stylized facts regarding the macroeconomic importance of housing markets, the chapter presents key results from the Iacoviello and Neri’s (2010) DSGE model with housing, a model that is increasingly used in quantitative monetary policy analysis. Directions for further research are then suggested, focusing on the role of financial intermediation, the determinants of house prices and their persistence, the role of economic policy to stabilize house prices and the link between housing and labour markets.}
+      \field{booktitle}{Housing {Markets} in {Europe}: {A} {Macroeconomic} {Perspective}}
+      \field{isbn}{978-3-642-15340-2}
+      \field{shorttitle}{Housing in {DSGE} {Models}}
+      \field{title}{Housing in {DSGE} {Models}: {Findings} and {New} {Directions}}
+      \field{urlday}{19}
+      \field{urlmonth}{7}
+      \field{urlyear}{2019}
+      \field{year}{2010}
+      \field{urldateera}{ce}
+      \field{pages}{3\bibrangedash 16}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1007/978-3-642-15340-2_1
+      \endverb
+      \verb{file}
+      \verb Springer Full Text PDF:/home/gpetrini/Zotero/storage/CA34CSET/Iacoviello - 2010 - Housing in DSGE Models Findings and New Direction.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/978-3-642-15340-2_1
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/978-3-642-15340-2_1
+      \endverb
+      \keyw{Bayesian estimation,DSGE models,Housing markets,housing prices}
+    \endentry
+    \entry{jackman_investigating_2010}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=adcd64e6a37fdb120d0b3a1a86bdbb55}{%
+           family={Jackman},
+           familyi={J\bibinitperiod},
+           given={Mahalia},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{adcd64e6a37fdb120d0b3a1a86bdbb55}
+      \strng{fullhash}{adcd64e6a37fdb120d0b3a1a86bdbb55}
+      \strng{bibnamehash}{adcd64e6a37fdb120d0b3a1a86bdbb55}
+      \strng{authorbibnamehash}{adcd64e6a37fdb120d0b3a1a86bdbb55}
+      \strng{authornamehash}{adcd64e6a37fdb120d0b3a1a86bdbb55}
+      \strng{authorfullhash}{adcd64e6a37fdb120d0b3a1a86bdbb55}
+      \field{sortinit}{J}
+      \field{sortinithash}{fce5f8d0bd05e8d93f3dbe21c78897ca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Real Estate Review}
+      \field{title}{Investigating the {Relationship} between {Residential} {Construction} and {Economic} {Growth} in a {Small} {Developing} {Country}: {The} {Case} of {Barbados}}
+      \field{year}{2010}
+      \field{pages}{8}
+      \range{pages}{1}
+      \verb{file}
+      \verb Jackman - Investigating the Relationship between Residential.pdf:/home/gpetrini/Zotero/storage/IHM39NUD/Jackman - Investigating the Relationship between Residential.pdf:application/pdf
+      \endverb
+      \keyw{Fichado}
+    \endentry
+    \entry{jorda_great_2014}{report}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=3e5c33a3778b8b654ea5cbde29d38d07}{%
+           family={Jordà},
+           familyi={J\bibinitperiod},
+           given={Òscar},
+           giveni={Ò\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=dc12ac05e0a4892e79e306169bf6da64}{%
+           family={Schularick},
+           familyi={S\bibinitperiod},
+           given={Moritz},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=810c6df15faaa9bc8e8020d1cc34a9c3}{%
+           family={Taylor},
+           familyi={T\bibinitperiod},
+           given={Alan\bibnamedelima M},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {National Bureau of Economic Research}%
+      }
+      \strng{namehash}{48eb3b63c473697f1c17416284fb695c}
+      \strng{fullhash}{48eb3b63c473697f1c17416284fb695c}
+      \strng{bibnamehash}{48eb3b63c473697f1c17416284fb695c}
+      \strng{authorbibnamehash}{48eb3b63c473697f1c17416284fb695c}
+      \strng{authornamehash}{48eb3b63c473697f1c17416284fb695c}
+      \strng{authorfullhash}{48eb3b63c473697f1c17416284fb695c}
+      \field{sortinit}{J}
+      \field{sortinithash}{fce5f8d0bd05e8d93f3dbe21c78897ca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{This paper unveils a new resource for macroeconomic research: a long-run dataset covering disaggregated bank credit for 17 advanced economies since 1870. The new data show that the share of mortgages on banks' balance sheets doubled in the course of the 20th century, driven by a sharp rise of mortgage lending to households. Household debt to asset ratios have risen substantially in many countries. Financial stability risks have been increasingly linked to real estate lending booms which are typically followed by deeper recessions and slower recoveries. Housing finance has come to play a central role in the modern macroeconomy.}
+      \field{number}{20501}
+      \field{shorttitle}{The {Great} {Mortgaging}}
+      \field{title}{The {Great} {Mortgaging}: {Housing} {Finance}, {Crises}, and {Business} {Cycles}}
+      \field{type}{Working {Paper}}
+      \field{urlday}{26}
+      \field{urlmonth}{5}
+      \field{urlyear}{2019}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.3386/w20501
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/gpetrini/Zotero/storage/D2EPCKJ8/Jordà et al. - 2014 - The Great Mortgaging Housing Finance, Crises, and.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://www.nber.org/papers/w20501
+      \endverb
+      \verb{url}
+      \verb http://www.nber.org/papers/w20501
+      \endverb
+    \endentry
+    \entry{lavoie_note_1999}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=2f7a0a4459884b037e0375a1afa79c16}{%
+           family={Lavoie},
+           familyi={L\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{2f7a0a4459884b037e0375a1afa79c16}
+      \strng{fullhash}{2f7a0a4459884b037e0375a1afa79c16}
+      \strng{bibnamehash}{2f7a0a4459884b037e0375a1afa79c16}
+      \strng{authorbibnamehash}{2f7a0a4459884b037e0375a1afa79c16}
+      \strng{authornamehash}{2f7a0a4459884b037e0375a1afa79c16}
+      \strng{authorfullhash}{2f7a0a4459884b037e0375a1afa79c16}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Abstract. The purpose of this note is to reconsider the puzzle arising from a theory of endogenous credit-money: if the supply of bank credit is the source of}
+      \field{issn}{0309-166X}
+      \field{journaltitle}{Cambridge Journal of Economics}
+      \field{number}{1}
+      \field{shorttitle}{Note and comment. {The} credit-led supply of deposits and the demand for money}
+      \field{title}{Note and comment. {The} credit-led supply of deposits and the demand for money: {Kaldor}'s reflux mechanism as previously endorsed by {Joan} {Robinson}}
+      \field{urlday}{19}
+      \field{urlmonth}{6}
+      \field{urlyear}{2019}
+      \field{volume}{23}
+      \field{year}{1999}
+      \field{urldateera}{ce}
+      \field{pages}{103\bibrangedash 113}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1093/cje/23.1.103
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/gpetrini/Zotero/storage/XQQVNCRI/Lavoie - 1999 - Note and comment. The credit-led supply of deposit.pdf:application/pdf;Snapshot:/home/gpetrini/Zotero/storage/N9VYK9K2/1701873.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://academic.oup.com/cje/article/23/1/103/1701873
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/cje/article/23/1/103/1701873
+      \endverb
+    \endentry
+    \entry{leamer_housing_2007}{report}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=4d9a98a238742fa73876309ee34012ae}{%
+           family={Leamer},
+           familyi={L\bibinitperiod},
+           given={Edward\bibnamedelima E},
+           giveni={E\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {National Bureau of Economic Research}%
+      }
+      \strng{namehash}{4d9a98a238742fa73876309ee34012ae}
+      \strng{fullhash}{4d9a98a238742fa73876309ee34012ae}
+      \strng{bibnamehash}{4d9a98a238742fa73876309ee34012ae}
+      \strng{authorbibnamehash}{4d9a98a238742fa73876309ee34012ae}
+      \strng{authornamehash}{4d9a98a238742fa73876309ee34012ae}
+      \strng{authorfullhash}{4d9a98a238742fa73876309ee34012ae}
+      \field{extraname}{1}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Of the components of GDP, residential investment offers by far the best early warning sign of an oncoming recession. Since World War II we have had eight recessions preceded by substantial problems in housing and consumer durables. Housing did not give an early warning of the Department of Defense Downturn after the Korean Armistice in 1953 or the Internet Comeuppance in 2001, nor should it have. By virtue of its prominence in our recessions, it makes sense for housing to play a prominent role in the conduct of monetary policy. A modified Taylor Rule would depend on a long-term measure of inflation having little to do with the phase in the cycle, and, in place of Taylor's output gap, housing starts and the change in housing starts, which together form the best forward-looking indicator of the cycle of which I am aware. This would create pre-emptive anti-inflation policy in the middle of the expansions when housing is not so sensitive to interest rates, making it less likely that anti-inflation policies would be needed near the ends of expansions when housing is very interest rate sensitive, thus making our recessions less frequent and/or less severe.}
+      \field{number}{13428}
+      \field{title}{Housing {IS} the {Business} {Cycle}}
+      \field{type}{Working {Paper}}
+      \field{urlday}{20}
+      \field{urlmonth}{12}
+      \field{urlyear}{2018}
+      \field{year}{2007}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.3386/w13428
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/gpetrini/Zotero/storage/2ZMSFV3J/Leamer - 2007 - Housing IS the Business Cycle.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://www.nber.org/papers/w13428
+      \endverb
+      \verb{url}
+      \verb http://www.nber.org/papers/w13428
+      \endverb
+    \endentry
+    \entry{leamer_housing_2015}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=4d9a98a238742fa73876309ee34012ae}{%
+           family={Leamer},
+           familyi={L\bibinitperiod},
+           given={Edward\bibnamedelima E.},
+           giveni={E\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{4d9a98a238742fa73876309ee34012ae}
+      \strng{fullhash}{4d9a98a238742fa73876309ee34012ae}
+      \strng{bibnamehash}{4d9a98a238742fa73876309ee34012ae}
+      \strng{authorbibnamehash}{4d9a98a238742fa73876309ee34012ae}
+      \strng{authornamehash}{4d9a98a238742fa73876309ee34012ae}
+      \strng{authorfullhash}{4d9a98a238742fa73876309ee34012ae}
+      \field{extraname}{2}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The downturn of 2008–09 has confirmed that: (i) housing is the single most critical part of the U.S. business cycle, (ii) the proper conduct of monetary policy needs to be cognizant that choices made at one point in time affect the options later, and (iii) the best time to intervene in the housing cycle is when the volume of building is above normal and growing more so. What was different this time was the rapid and substantial decline in home prices.}
+      \field{journaltitle}{Journal of Money, Credit and Banking}
+      \field{number}{S1}
+      \field{shorttitle}{Housing {Really} {Is} the {Business} {Cycle}}
+      \field{title}{Housing {Really} {Is} the {Business} {Cycle}: {What} {Survives} the {Lessons} of 2008–09?}
+      \field{urlday}{5}
+      \field{urlmonth}{7}
+      \field{urlyear}{2019}
+      \field{volume}{47}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \field{pages}{43\bibrangedash 50}
+      \range{pages}{8}
+      \verb{file}
+      \verb Snapshot:/home/gpetrini/Zotero/storage/YCZSV8DZ/v47y2015is1p43-50.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://ideas.repec.org/a/wly/jmoncb/v47y2015is1p43-50.html
+      \endverb
+      \verb{url}
+      \verb https://ideas.repec.org/a/wly/jmoncb/v47y2015is1p43-50.html
+      \endverb
+    \endentry
+    \entry{lima_macrodynamics_2007}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=b268ed449040b498be15c5fac1248a12}{%
+           family={Lima},
+           familyi={L\bibinitperiod},
+           given={{Gilberto Tadeu}},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=08fb247ebc6fa365cce1c97f24e807ef}{%
+           family={Meirelles},
+           familyi={M\bibinitperiod},
+           given={{Antonio J. A.}},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{983d2ba5cffe3aa1cad02658273f197a}
+      \strng{fullhash}{983d2ba5cffe3aa1cad02658273f197a}
+      \strng{bibnamehash}{983d2ba5cffe3aa1cad02658273f197a}
+      \strng{authorbibnamehash}{983d2ba5cffe3aa1cad02658273f197a}
+      \strng{authornamehash}{983d2ba5cffe3aa1cad02658273f197a}
+      \strng{authorfullhash}{983d2ba5cffe3aa1cad02658273f197a}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract. This paper develops a post-Keynesian dynamic model of capacity utilisation and growth, in which the supply of credit-money is endogenous and firms' d}
+      \field{issn}{0309-166X}
+      \field{journaltitle}{Cambridge Journal of Economics}
+      \field{number}{4}
+      \field{title}{Macrodynamics of debt regimes, financial instability and growth}
+      \field{urlday}{19}
+      \field{urlmonth}{6}
+      \field{urlyear}{2019}
+      \field{volume}{31}
+      \field{year}{2007}
+      \field{urldateera}{ce}
+      \field{pages}{563\bibrangedash 580}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1093/cje/bel042
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/gpetrini/Zotero/storage/7JP3NYRW/Lima e Meirelles - 2007 - Macrodynamics of debt regimes, financial instabili.pdf:application/pdf;Snapshot:/home/gpetrini/Zotero/storage/URYXE9Z6/1684515.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://academic.oup.com/cje/article/31/4/563/1684515
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/cje/article/31/4/563/1684515
+      \endverb
+    \endentry
+    \entry{macedo_e_silva_peering_2011}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=3558083b07934ace6d710536bd0bbf42}{%
+           family={Macedo\bibnamedelimb e\bibnamedelima Silva},
+           familyi={M\bibinitperiod\bibinitdelim e\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Antônio\bibnamedelima Carlos},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=1634fc01eac3b46d9ec1ffde5a46ccd6}{%
+           family={Dos\bibnamedelima Santos},
+           familyi={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Claudio\bibnamedelima H.},
+           giveni={C\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{119e9d0bd02f94ca8b9db36396f18ac3}
+      \strng{fullhash}{119e9d0bd02f94ca8b9db36396f18ac3}
+      \strng{bibnamehash}{119e9d0bd02f94ca8b9db36396f18ac3}
+      \strng{authorbibnamehash}{119e9d0bd02f94ca8b9db36396f18ac3}
+      \strng{authornamehash}{119e9d0bd02f94ca8b9db36396f18ac3}
+      \strng{authorfullhash}{119e9d0bd02f94ca8b9db36396f18ac3}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Abstract. This work argues that institutionally rich stock-flow consistent models—i.e. models in which economic agents are identified with the main social cate}
+      \field{issn}{0309-166X}
+      \field{journaltitle}{Cambridge Journal of Economics}
+      \field{number}{1}
+      \field{shorttitle}{Peering over the edge of the short period?}
+      \field{title}{Peering over the edge of the short period? {The} {Keynesian} roots of stock-flow consistent macroeconomic models}
+      \field{urlday}{15}
+      \field{urlmonth}{4}
+      \field{urlyear}{2019}
+      \field{volume}{35}
+      \field{year}{2011}
+      \field{urldateera}{ce}
+      \field{pages}{105\bibrangedash 124}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1093/cje/bep083
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/gpetrini/Zotero/storage/SPFILLYH/e Silva e Santos - 2011 - Peering over the edge of the short period The Key.pdf:application/pdf;Snapshot:/home/gpetrini/Zotero/storage/IBKDWVQK/1732189.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://academic.oup.com/cje/article/35/1/105/1732189
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/cje/article/35/1/105/1732189
+      \endverb
+    \endentry
+    \entry{messori_financing_1991}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=8e8b14680f4352b8b58f747d7f1588c4}{%
+           family={Messori},
+           familyi={M\bibinitperiod},
+           given={Marcello},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{8e8b14680f4352b8b58f747d7f1588c4}
+      \strng{fullhash}{8e8b14680f4352b8b58f747d7f1588c4}
+      \strng{bibnamehash}{8e8b14680f4352b8b58f747d7f1588c4}
+      \strng{authorbibnamehash}{8e8b14680f4352b8b58f747d7f1588c4}
+      \strng{authornamehash}{8e8b14680f4352b8b58f747d7f1588c4}
+      \strng{authorfullhash}{8e8b14680f4352b8b58f747d7f1588c4}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Marcello Messori; Financing in Kalecki's theory, Cambridge Journal of Economics, Volume 15, Issue 3, 1 September 1991, Pages 301–313, https://doi.org/10.1093/o}
+      \field{issn}{0309-166X}
+      \field{journaltitle}{Cambridge Journal of Economics}
+      \field{number}{3}
+      \field{title}{Financing in {Kalecki}'s theory}
+      \field{urlday}{19}
+      \field{urlmonth}{6}
+      \field{urlyear}{2019}
+      \field{volume}{15}
+      \field{year}{1991}
+      \field{urldateera}{ce}
+      \field{pages}{301\bibrangedash 313}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1093/oxfordjournals.cje.a035172
+      \endverb
+      \verb{file}
+      \verb Snapshot:/home/gpetrini/Zotero/storage/BWWQ5YF9/1735086.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://academic.oup.com/cje/article/15/3/301/1735086
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/cje/article/15/3/301/1735086
+      \endverb
+    \endentry
+    \entry{mills_has_1987}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=45956b73d7ceb6645d2d2f167c289840}{%
+           family={Mills},
+           familyi={M\bibinitperiod},
+           given={Edwin\bibnamedelima S.},
+           giveni={E\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{45956b73d7ceb6645d2d2f167c289840}
+      \strng{fullhash}{45956b73d7ceb6645d2d2f167c289840}
+      \strng{bibnamehash}{45956b73d7ceb6645d2d2f167c289840}
+      \strng{authorbibnamehash}{45956b73d7ceb6645d2d2f167c289840}
+      \strng{authornamehash}{45956b73d7ceb6645d2d2f167c289840}
+      \strng{authorfullhash}{45956b73d7ceb6645d2d2f167c289840}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Several economists have concluded that housing investment has been excessive relative to industrial investment in the U.S. Most blame provisions of the federal income tax that favor owner-occupied housing. This paper poses the question within a two-sector neoclassical growth model which permits the social return to housing to differ from that to non-housing. The model is estimated using national income accounts and capital stock data from 1929 to 1983. The conclusion is that the return to housing capital is about half that to non-housing capital and that the housing stock should be about 75\% of its 1983 volume.}
+      \field{journaltitle}{Real Estate Economics}
+      \field{number}{1}
+      \field{title}{Has the {United} {States} {Overinvested} in {Housing}?}
+      \field{urlday}{11}
+      \field{urlmonth}{7}
+      \field{urlyear}{2019}
+      \field{volume}{15}
+      \field{year}{1987}
+      \field{urldateera}{ce}
+      \field{pages}{601\bibrangedash 616}
+      \range{pages}{16}
+      \verb{file}
+      \verb Snapshot:/home/gpetrini/Zotero/storage/CUPXLNNX/1540-6229.html:text/html
+      \endverb
+    \endentry
+    \entry{ofori_testing_2003}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=0047f367ad04ef94d805746063c420b1}{%
+           family={Ofori},
+           familyi={O\bibinitperiod},
+           given={George},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=d9ac6966a854b6f9e8e55ce1f2593a9e}{%
+           family={Han},
+           familyi={H\bibinitperiod},
+           given={Sun\bibnamedelima Sheng},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{85e429a28ee050b214634f925e0c86f8}
+      \strng{fullhash}{85e429a28ee050b214634f925e0c86f8}
+      \strng{bibnamehash}{85e429a28ee050b214634f925e0c86f8}
+      \strng{authorbibnamehash}{85e429a28ee050b214634f925e0c86f8}
+      \strng{authornamehash}{85e429a28ee050b214634f925e0c86f8}
+      \strng{authorfullhash}{85e429a28ee050b214634f925e0c86f8}
+      \field{sortinit}{O}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper examines the relationship between construction activity and economic development at the provincial level in the Peoples’ Republic of China. It also examines variations in the mix of construction outputs among the provinces as they achieve increasing levels of development. It is argued that the analysis of provincial construction outputs and levels of economic development provides additional insights into the debate on the wider relationship between construction activity and economic development as posited by Turin in his seminal studies during the 1960s and 1970s. Since these seminal works many researchers have also sought to explain the relationship between construction activity and economic development. Turin's model is of this relationship and although some studies only provide qualified support for this hypothesis, it is generally agreed that there is a causal link between construction activity and economic development within countries as they develop their economies. Most of these studies have been based on the use of international cross-sectional data from countries at different stages of development to infer an assumed relationship within an individual country over time. In this study, similar data are analyzed to examine these relationships at the provincial level within a large country, each of these provinces being at significantly differing levels of development. Since it adopted policies of economic reform in the late 1970s, China has realized considerable economic progress. However, this has varied significantly among the provinces and regions. Consequently, data demonstrating developments in China's wider economy and its construction activity at the provincial level can be used to test the applicability of the Turin hypothesis within a country that has undergone significant developments over such a short period of time.}
+      \field{issn}{0197-3975}
+      \field{journaltitle}{Habitat International}
+      \field{number}{1}
+      \field{title}{Testing hypotheses on construction and development using data on {China}'s provinces, 1990–2000}
+      \field{urlday}{12}
+      \field{urlmonth}{7}
+      \field{urlyear}{2019}
+      \field{volume}{27}
+      \field{year}{2003}
+      \field{urldateera}{ce}
+      \field{pages}{37\bibrangedash 62}
+      \range{pages}{26}
+      \verb{doi}
+      \verb 10.1016/S0197-3975(02)00034-6
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Snapshot:/home/gpetrini/Zotero/storage/CY3J9AIB/S0197397502000346.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb http://www.sciencedirect.com/science/article/pii/S0197397502000346
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0197397502000346
+      \endverb
+      \keyw{China,Construction,Economic development,Employment,Turin model}
+    \endentry
+    \entry{palley_inside_2010}{incollection}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=1d5c10b853cf8e0c03b1c84ff20bb837}{%
+           family={Palley},
+           familyi={P\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Edward Elgar Publishing}%
+      }
+      \strng{namehash}{1d5c10b853cf8e0c03b1c84ff20bb837}
+      \strng{fullhash}{1d5c10b853cf8e0c03b1c84ff20bb837}
+      \strng{bibnamehash}{1d5c10b853cf8e0c03b1c84ff20bb837}
+      \strng{authorbibnamehash}{1d5c10b853cf8e0c03b1c84ff20bb837}
+      \strng{authornamehash}{1d5c10b853cf8e0c03b1c84ff20bb837}
+      \strng{authorfullhash}{1d5c10b853cf8e0c03b1c84ff20bb837}
+      \field{extraname}{1}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{booktitle}{Handbook of {Alternative} {Theories} of {Economic} {Growth}}
+      \field{shorttitle}{Inside {Debt} and {Economic} {Growth}}
+      \field{title}{Inside {Debt} and {Economic} {Growth}: {A} {Neo}-{Kaleckian} {Analysis}}
+      \field{urlday}{23}
+      \field{urlmonth}{5}
+      \field{urlyear}{2019}
+      \field{year}{2010}
+      \field{urldateera}{ce}
+      \field{pages}{293\bibrangedash 308}
+      \range{pages}{16}
+      \verb{file}
+      \verb RePEc Snapshot:/home/gpetrini/Zotero/storage/BDXPUQXY/12814_5f14.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://econpapers.repec.org/bookchap/elgeechap/12814_5f14.htm
+      \endverb
+      \verb{url}
+      \verb https://econpapers.repec.org/bookchap/elgeechap/12814_5f14.htm
+      \endverb
+      \keyw{Economics and Finance}
+    \endentry
+    \entry{palley_financial_2002}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=d8beed570cc6438dfa9447dc88fcb98e}{%
+           family={Palley},
+           familyi={P\bibinitperiod},
+           given={{Thomas I.}},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{d8beed570cc6438dfa9447dc88fcb98e}
+      \strng{fullhash}{d8beed570cc6438dfa9447dc88fcb98e}
+      \strng{bibnamehash}{d8beed570cc6438dfa9447dc88fcb98e}
+      \strng{authorbibnamehash}{d8beed570cc6438dfa9447dc88fcb98e}
+      \strng{authornamehash}{d8beed570cc6438dfa9447dc88fcb98e}
+      \strng{authorfullhash}{d8beed570cc6438dfa9447dc88fcb98e}
+      \field{extraname}{2}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract. This paper shows how the Cambridge theory of distribution is affected by the nature of financial intermediation. When credit markets are akin to loan}
+      \field{issn}{0309-166X}
+      \field{journaltitle}{Cambridge Journal of Economics}
+      \field{number}{2}
+      \field{title}{Financial institutions and the {Cambridge} theory of distribution}
+      \field{urlday}{19}
+      \field{urlmonth}{6}
+      \field{urlyear}{2019}
+      \field{volume}{26}
+      \field{year}{2002}
+      \field{urldateera}{ce}
+      \field{pages}{275\bibrangedash 277}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1093/cje/26.2.275
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/gpetrini/Zotero/storage/WWS5XYBB/Palley - 2002 - Financial institutions and the Cambridge theory of.pdf:application/pdf;Snapshot:/home/gpetrini/Zotero/storage/SNE5JCIV/1684567.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://academic.oup.com/cje/article/26/2/275/1684567
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/cje/article/26/2/275/1684567
+      \endverb
+    \endentry
+    \entry{palley_inside_1996}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=d8beed570cc6438dfa9447dc88fcb98e}{%
+           family={Palley},
+           familyi={P\bibinitperiod},
+           given={{Thomas I.}},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{d8beed570cc6438dfa9447dc88fcb98e}
+      \strng{fullhash}{d8beed570cc6438dfa9447dc88fcb98e}
+      \strng{bibnamehash}{d8beed570cc6438dfa9447dc88fcb98e}
+      \strng{authorbibnamehash}{d8beed570cc6438dfa9447dc88fcb98e}
+      \strng{authornamehash}{d8beed570cc6438dfa9447dc88fcb98e}
+      \strng{authorfullhash}{d8beed570cc6438dfa9447dc88fcb98e}
+      \field{extraname}{3}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract. This paper presents a Kaleckian model of aggregate demand with inside debt and a generational structure. The model shows how worker borrowing and pop}
+      \field{issn}{0309-166X}
+      \field{journaltitle}{Cambridge Journal of Economics}
+      \field{number}{4}
+      \field{title}{Inside debt, aggregate demand, and the {Cambridge} theory of distribution}
+      \field{urlday}{19}
+      \field{urlmonth}{6}
+      \field{urlyear}{2019}
+      \field{volume}{20}
+      \field{year}{1996}
+      \field{urldateera}{ce}
+      \field{pages}{465\bibrangedash 474}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1093/oxfordjournals.cje.a013627
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/gpetrini/Zotero/storage/36MLLMI7/Palley - 1996 - Inside debt, aggregate demand, and the Cambridge t.pdf:application/pdf;Snapshot:/home/gpetrini/Zotero/storage/4JBVIQMI/1729731.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://academic.oup.com/cje/article/20/4/465/1729731
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/cje/article/20/4/465/1729731
+      \endverb
+    \endentry
+    \entry{palley_money_1997}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=d8beed570cc6438dfa9447dc88fcb98e}{%
+           family={Palley},
+           familyi={P\bibinitperiod},
+           given={{Thomas I.}},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{d8beed570cc6438dfa9447dc88fcb98e}
+      \strng{fullhash}{d8beed570cc6438dfa9447dc88fcb98e}
+      \strng{bibnamehash}{d8beed570cc6438dfa9447dc88fcb98e}
+      \strng{authorbibnamehash}{d8beed570cc6438dfa9447dc88fcb98e}
+      \strng{authornamehash}{d8beed570cc6438dfa9447dc88fcb98e}
+      \strng{authorfullhash}{d8beed570cc6438dfa9447dc88fcb98e}
+      \field{extraname}{4}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract. This paper extends the Cambridge theory of income distribution to a monetary economy, and explores the implications of fiscal deficits that are money}
+      \field{issn}{0309-166X}
+      \field{journaltitle}{Cambridge Journal of Economics}
+      \field{number}{5}
+      \field{title}{Money, fiscal policy and the {Cambridge} theorem}
+      \field{urlday}{19}
+      \field{urlmonth}{6}
+      \field{urlyear}{2019}
+      \field{volume}{21}
+      \field{year}{1997}
+      \field{urldateera}{ce}
+      \field{pages}{633\bibrangedash 639}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1093/oxfordjournals.cje.a013690
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/gpetrini/Zotero/storage/B4T5VMFU/Palley - 1997 - Money, fiscal policy and the Cambridge theorem.pdf:application/pdf;Snapshot:/home/gpetrini/Zotero/storage/HFBH39A5/1718777.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://academic.oup.com/cje/article/21/5/633/1718777
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/cje/article/21/5/633/1718777
+      \endverb
+    \endentry
+    \entry{sastre_assessment_2010}{incollection}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=1d39b956219d9b997b74fffda8f8e862}{%
+           family={Sastre},
+           familyi={S\bibinitperiod},
+           given={Teresa},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=77ca311d41fd4fa31e4fc650dc13465f}{%
+           family={Fernández},
+           familyi={F\bibinitperiod},
+           given={José\bibnamedelima Luis},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{4}{}{%
+        {{hash=0c4828d2896c6d8205f3c9d08e7f2663}{%
+           family={Bandt},
+           familyi={B\bibinitperiod},
+           given={Olivier},
+           giveni={O\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=e68f233df3e4add7fc514353fba0362a}{%
+           family={Knetsch},
+           familyi={K\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=73aec283476198a992592d9f0b080ab3}{%
+           family={Peñalosa},
+           familyi={P\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a71a99343fc2c1c06e181342c43eedcc}{%
+           family={Zollino},
+           familyi={Z\bibinitperiod},
+           given={Francesco},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \strng{namehash}{608c5b6f9fca740ecfbfa046bdd12c00}
+      \strng{fullhash}{608c5b6f9fca740ecfbfa046bdd12c00}
+      \strng{bibnamehash}{608c5b6f9fca740ecfbfa046bdd12c00}
+      \strng{authorbibnamehash}{608c5b6f9fca740ecfbfa046bdd12c00}
+      \strng{authornamehash}{608c5b6f9fca740ecfbfa046bdd12c00}
+      \strng{authorfullhash}{608c5b6f9fca740ecfbfa046bdd12c00}
+      \strng{editorbibnamehash}{92c8d0a6720b30141ace0a6f1d50d3c6}
+      \strng{editornamehash}{92c8d0a6720b30141ace0a6f1d50d3c6}
+      \strng{editorfullhash}{bbdda415d208cdce86dd66282e2106ea}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Recent developments in housing and financial markets have led to fresh interest in the empirical evidence on wealth effects on consumption. This paper aims at providing up-to-date estimates of wealth effects by using a vector error correction model (VECM) approach to account for endogeneity and allow for the possibility of more than one variable equilibrating the system, in the same vein as previous work by Lettau and Ludvigson in the US. The breakdown of wealth into its housing and financial components leads to additional possibilities of adjustment to reach the long run equilibrium. In addition, the model accounts for potentially different values of the parameters linking consumption and wealth when distinguishing between durable and nondurable goods.}
+      \field{booktitle}{Housing {Markets} in {Europe}: {A} {Macroeconomic} {Perspective}}
+      \field{isbn}{978-3-642-15340-2}
+      \field{shorttitle}{An {Assessment} of {Housing} and {Financial} {Wealth} {Effects} in {Spain}}
+      \field{title}{An {Assessment} of {Housing} and {Financial} {Wealth} {Effects} in {Spain}: {Aggregate} {Evidence} on {Durable} and {Non}-durable {Consumption}}
+      \field{urlday}{19}
+      \field{urlmonth}{7}
+      \field{urlyear}{2019}
+      \field{year}{2010}
+      \field{urldateera}{ce}
+      \field{pages}{283\bibrangedash 305}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.1007/978-3-642-15340-2_13
+      \endverb
+      \verb{file}
+      \verb Springer Full Text PDF:/home/gpetrini/Zotero/storage/533WJ6JL/Sastre e Fernández - 2010 - An Assessment of Housing and Financial Wealth Effe.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/978-3-642-15340-2_13
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/978-3-642-15340-2_13
+      \endverb
+      \keyw{cointegration,Consumption,consumption of durables,financialwealth,housing wealth}
+    \endentry
+    \entry{serrano_sraffian_1995}{thesis}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=8df1ed774cbbdbac66d3fc8dafb0bcd5}{%
+           family={Serrano},
+           familyi={S\bibinitperiod},
+           given={Franklin},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {University of Cambridge}%
+      }
+      \list{location}{1}{%
+        {Cambridge}%
+      }
+      \strng{namehash}{8df1ed774cbbdbac66d3fc8dafb0bcd5}
+      \strng{fullhash}{8df1ed774cbbdbac66d3fc8dafb0bcd5}
+      \strng{bibnamehash}{8df1ed774cbbdbac66d3fc8dafb0bcd5}
+      \strng{authorbibnamehash}{8df1ed774cbbdbac66d3fc8dafb0bcd5}
+      \strng{authornamehash}{8df1ed774cbbdbac66d3fc8dafb0bcd5}
+      \strng{authorfullhash}{8df1ed774cbbdbac66d3fc8dafb0bcd5}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{bookpagination}{sheet}
+      \field{title}{The sraffian supermultiplier}
+      \field{type}{Tese ({PhD})}
+      \field{year}{1995}
+      \verb{file}
+      \verb Fulltext:/home/gpetrini/Zotero/storage/C9WVNTEC/Serrano - 1995 - The sraffian supermultiplier.pdf:application/pdf;Serrano_1995_The sraffian supermultiplier.pdf:/home/gpetrini/Zotero/storage/FVZQV2AN/Serrano_1995_The sraffian supermultiplier.pdf:application/pdf
+      \endverb
+      \keyw{REVISTO,METADATA}
+    \endentry
+    \entry{skott_finance_1988}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=7a3f79c18a8c8471ed330097ccf23a15}{%
+           family={Skott},
+           familyi={S\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{7a3f79c18a8c8471ed330097ccf23a15}
+      \strng{fullhash}{7a3f79c18a8c8471ed330097ccf23a15}
+      \strng{bibnamehash}{7a3f79c18a8c8471ed330097ccf23a15}
+      \strng{authorbibnamehash}{7a3f79c18a8c8471ed330097ccf23a15}
+      \strng{authornamehash}{7a3f79c18a8c8471ed330097ccf23a15}
+      \strng{authorfullhash}{7a3f79c18a8c8471ed330097ccf23a15}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Peter Skott; Finance, saving and accumulation, Cambridge Journal of Economics, Volume 12, Issue 3, 1 September 1988, Pages 339–354, https://doi.org/10.1093/oxf}
+      \field{issn}{0309-166X}
+      \field{journaltitle}{Cambridge Journal of Economics}
+      \field{number}{3}
+      \field{title}{Finance, saving and accumulation}
+      \field{urlday}{19}
+      \field{urlmonth}{6}
+      \field{urlyear}{2019}
+      \field{volume}{12}
+      \field{year}{1988}
+      \field{urldateera}{ce}
+      \field{pages}{339\bibrangedash 354}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1093/oxfordjournals.cje.a035064
+      \endverb
+      \verb{file}
+      \verb Snapshot:/home/gpetrini/Zotero/storage/FRTIL5HK/1678961.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://academic.oup.com/cje/article/12/3/339/1678961
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/cje/article/12/3/339/1678961
+      \endverb
+    \endentry
+    \entry{solow_importance_1995}{incollection}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=7c7af0d0530a4fbacf4e07bcce065802}{%
+           family={Solow},
+           familyi={S\bibinitperiod},
+           given={A.\bibnamedelimi A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=ba7a31575577b15ffc2ee3bd3e0d1c66}{%
+           family={Kelly},
+           familyi={K\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {MA}%
+      }
+      \strng{namehash}{7c7af0d0530a4fbacf4e07bcce065802}
+      \strng{fullhash}{7c7af0d0530a4fbacf4e07bcce065802}
+      \strng{bibnamehash}{7c7af0d0530a4fbacf4e07bcce065802}
+      \strng{authorbibnamehash}{7c7af0d0530a4fbacf4e07bcce065802}
+      \strng{authornamehash}{7c7af0d0530a4fbacf4e07bcce065802}
+      \strng{authorfullhash}{7c7af0d0530a4fbacf4e07bcce065802}
+      \strng{editorbibnamehash}{ba7a31575577b15ffc2ee3bd3e0d1c66}
+      \strng{editornamehash}{ba7a31575577b15ffc2ee3bd3e0d1c66}
+      \strng{editorfullhash}{ba7a31575577b15ffc2ee3bd3e0d1c66}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Housing and economic development}
+      \field{series}{A report of a {Conference} {Sponsored} at the {Massa}- chusetts {Institute} of {Technology} by the {Albert} {Farwell} {Bemis} {Foundation}}
+      \field{title}{The importance of housing and planning in {Latin} {America}}
+      \field{year}{1995}
+    \endentry
+    \entry{teixeira_crescimento_2015}{thesis}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=4350360f9662b16b910ff8cdfe3abff2}{%
+           family={{Teixeira}},
+           familyi={T\bibinitperiod},
+           given={{Lucas Azeredo da Silva}},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Universidade Federal do Rio de Janeiro}%
+      }
+      \list{location}{1}{%
+        {Rio de Janeiro}%
+      }
+      \strng{namehash}{4350360f9662b16b910ff8cdfe3abff2}
+      \strng{fullhash}{4350360f9662b16b910ff8cdfe3abff2}
+      \strng{bibnamehash}{4350360f9662b16b910ff8cdfe3abff2}
+      \strng{authorbibnamehash}{4350360f9662b16b910ff8cdfe3abff2}
+      \strng{authornamehash}{4350360f9662b16b910ff8cdfe3abff2}
+      \strng{authorfullhash}{4350360f9662b16b910ff8cdfe3abff2}
+      \field{sortinit}{T}
+      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{bookpagination}{sheet}
+      \field{shorttitle}{Crescimento liderado pela demanda na economia norte-americana nos anos 2000}
+      \field{title}{Crescimento liderado pela demanda na economia norte-americana nos anos 2000: uma análise a partir do supermultiplicador sraffiano com inflação de ativos}
+      \field{type}{Tese ({Doutorado})}
+      \field{year}{2015}
+      \verb{file}
+      \verb da Silva Teixeira_2015_Crescimento liderado pela demanda na economia norte-americana nos anos 2000.pdf:/home/gpetrini/Zotero/storage/T7G26XY3/da Silva Teixeira_2015_Crescimento liderado pela demanda na economia norte-americana nos anos 2000.pdf:application/pdf;Fulltext:/home/gpetrini/Zotero/storage/ZH4I5ZIE/da Silva Teixeira - 2015 - Crescimento liderado pela demanda na economia nort.pdf:application/pdf
+      \endverb
+      \keyw{REVISTO,METADATA}
+    \endentry
+    \entry{wolfson_irving_1996}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=ddae9b38396708eefc590d2920ac032c}{%
+           family={Wolfson},
+           familyi={W\bibinitperiod},
+           given={{Martin H.}},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{ddae9b38396708eefc590d2920ac032c}
+      \strng{fullhash}{ddae9b38396708eefc590d2920ac032c}
+      \strng{bibnamehash}{ddae9b38396708eefc590d2920ac032c}
+      \strng{authorbibnamehash}{ddae9b38396708eefc590d2920ac032c}
+      \strng{authornamehash}{ddae9b38396708eefc590d2920ac032c}
+      \strng{authorfullhash}{ddae9b38396708eefc590d2920ac032c}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Abstract. The essence of Irving Fisher's debt-deflation theory was an interactive process whereby falling commodity prices increased the debt burden of borrowe}
+      \field{issn}{0309-166X}
+      \field{journaltitle}{Cambridge Journal of Economics}
+      \field{number}{3}
+      \field{shorttitle}{Irving {Fisher}'s debt-deflation theory}
+      \field{title}{Irving {Fisher}'s debt-deflation theory: its relevance to current conditions}
+      \field{urlday}{19}
+      \field{urlmonth}{6}
+      \field{urlyear}{2019}
+      \field{volume}{20}
+      \field{year}{1996}
+      \field{urldateera}{ce}
+      \field{pages}{315\bibrangedash 333}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1093/oxfordjournals.cje.a013618
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/gpetrini/Zotero/storage/N34BJF66/Wolfson - 1996 - Irving Fisher's debt-deflation theory its relevan.pdf:application/pdf;Snapshot:/home/gpetrini/Zotero/storage/GI4GUZYR/1683622.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://academic.oup.com/cje/article/20/3/315/1683622
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/cje/article/20/3/315/1683622
+      \endverb
+    \endentry
+    \entry{arestis_income_2011}{incollection}{}
+      \name{author}{1}{}{%
+        {{uniquename=1,uniquepart=given,hash=58199ac284dc74a1d4974fcf1360edbe}{%
+           family={Zezza},
+           familyi={Z\bibinitperiod},
+           given={{Gennaro}},
+           giveni={G\bibinitperiod},
+           givenun=1}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=75499a30114e2f80e2490b9e90512b74}{%
+           family={Arestis},
+           familyi={A\bibinitperiod},
+           given={Philip},
+           giveni={P\bibinitperiod}}}%
+        {{hash=e023bbd7cc2f258fc898c2b5bb705e59}{%
+           family={Sobreira},
+           familyi={S\bibinitperiod},
+           given={Rogério},
+           giveni={R\bibinitperiod}}}%
+        {{hash=e4b7750e4721f5e2e37f20f5fa7a4db9}{%
+           family={Oreiro},
+           familyi={O\bibinitperiod},
+           given={José\bibnamedelima Luis},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{location}{1}{%
+        {London}%
+      }
+      \list{publisher}{1}{%
+        {Palgrave Macmillan UK}%
+      }
+      \strng{namehash}{58199ac284dc74a1d4974fcf1360edbe}
+      \strng{fullhash}{58199ac284dc74a1d4974fcf1360edbe}
+      \strng{bibnamehash}{58199ac284dc74a1d4974fcf1360edbe}
+      \strng{authorbibnamehash}{58199ac284dc74a1d4974fcf1360edbe}
+      \strng{authornamehash}{58199ac284dc74a1d4974fcf1360edbe}
+      \strng{authorfullhash}{58199ac284dc74a1d4974fcf1360edbe}
+      \strng{editorbibnamehash}{08b81d2117efa2fca3e9651a6b9d2bd6}
+      \strng{editornamehash}{08b81d2117efa2fca3e9651a6b9d2bd6}
+      \strng{editorfullhash}{08b81d2117efa2fca3e9651a6b9d2bd6}
+      \field{extraname}{1}
+      \field{sortinit}{Z}
+      \field{sortinithash}{156173bd08b075d7295bc3e0f4735a04}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{booktitle}{The {Financial} {Crisis}}
+      \field{shorttitle}{Income {Distribution} and {Borrowing}}
+      \field{title}{Income {Distribution} and {Borrowing}: {Growth} and {Financial} {Balances} in the {US} {Economy}}
+      \field{urlday}{29}
+      \field{urlmonth}{3}
+      \field{urlyear}{2019}
+      \field{year}{2011}
+      \field{urldateera}{ce}
+      \field{pages}{87\bibrangedash 113}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.1057/9780230303942_5
+      \endverb
+      \verb{file}
+      \verb Zezza - 2011 - Income Distribution and Borrowing Growth and Fina.pdf:/home/gpetrini/Zotero/storage/FYT96AKV/Zezza - 2011 - Income Distribution and Borrowing Growth and Fina.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://link.springer.com/10.1057/9780230303942_5
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1057/9780230303942_5
+      \endverb
+    \endentry
+    \entry{zezza_u.s._2008}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=1,uniquepart=given,hash=58199ac284dc74a1d4974fcf1360edbe}{%
+           family={Zezza},
+           familyi={Z\bibinitperiod},
+           given={{Gennaro}},
+           giveni={G\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{58199ac284dc74a1d4974fcf1360edbe}
+      \strng{fullhash}{58199ac284dc74a1d4974fcf1360edbe}
+      \strng{bibnamehash}{58199ac284dc74a1d4974fcf1360edbe}
+      \strng{authorbibnamehash}{58199ac284dc74a1d4974fcf1360edbe}
+      \strng{authornamehash}{58199ac284dc74a1d4974fcf1360edbe}
+      \strng{authorfullhash}{58199ac284dc74a1d4974fcf1360edbe}
+      \field{extraname}{2}
+      \field{sortinit}{Z}
+      \field{sortinithash}{156173bd08b075d7295bc3e0f4735a04}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Post Keynesian Economics}
+      \field{number}{3}
+      \field{title}{U.{S}. growth, the housing market, and the distribution of income}
+      \field{urlday}{13}
+      \field{urlmonth}{2}
+      \field{urlyear}{2019}
+      \field{volume}{30}
+      \field{year}{2008}
+      \field{urldateera}{ce}
+      \field{pages}{375\bibrangedash 401}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.2753/pke0160-3477300304
+      \endverb
+      \verb{file}
+      \verb Zezza - 2008 - U.S. growth, the housing market, and the distribut.pdf:/home/gpetrini/Zotero/storage/VCY9PVKG/Zezza - 2008 - U.S. growth, the housing market, and the distribut.pdf:application/pdf;zezza2008.pdf:/home/gpetrini/Zotero/storage/JGRAZV5N/zezza2008.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://www.tandfonline.com/doi/full/10.2753/PKE0160-3477300304
+      \endverb
+      \verb{url}
+      \verb http://www.tandfonline.com/doi/full/10.2753/PKE0160-3477300304
+      \endverb
+    \endentry
+    \entry{zezza_design_2019}{report}{}
+      \name{author}{2}{}{%
+        {{uniquename=1,uniquepart=given,hash=58199ac284dc74a1d4974fcf1360edbe}{%
+           family={Zezza},
+           familyi={Z\bibinitperiod},
+           given={{Gennaro}},
+           giveni={G\bibinitperiod},
+           givenun=1}}%
+        {{uniquename=1,uniquepart=given,hash=923b1458a85d6c464dd3b4594961d809}{%
+           family={Zezza},
+           familyi={Z\bibinitperiod},
+           given={{Francesco}},
+           giveni={F\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{institution}{1}{%
+        {Levy Economics Institute}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{fe248d4da17cc100baa36504f9a47cc9}
+      \strng{fullhash}{fe248d4da17cc100baa36504f9a47cc9}
+      \strng{bibnamehash}{fe248d4da17cc100baa36504f9a47cc9}
+      \strng{authorbibnamehash}{fe248d4da17cc100baa36504f9a47cc9}
+      \strng{authornamehash}{fe248d4da17cc100baa36504f9a47cc9}
+      \strng{authorfullhash}{fe248d4da17cc100baa36504f9a47cc9}
+      \field{sortinit}{Z}
+      \field{sortinithash}{156173bd08b075d7295bc3e0f4735a04}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{While the literature on theoretical macroeconomic models adopting the stock-flow-consistent (SFC) approach is flourishing, few contributions cover the methodology for building a SFC empirical model for a whole country. Most contributions simply try to feed national accounting data into a theoretical model inspired by Wynne Godley and Marc Lavoie (2007), albeit with different degrees of complexity. In this paper we argue instead that the structure of an empirical SFC model should start from a careful analysis of the specificities of a country's sectoral balance sheets and flow of funds data, given the relevant research question to be addressed. We illustrate our arguments with examples for Greece, Italy, and Ecuador. We also provide some suggestions on how to consistently use the financial and nonfinancial accounts of institutional sectors, showing the link between SFC accounting structures and national accounting rules.}
+      \field{number}{wp\_919}
+      \field{title}{On the {Design} of {Empirical} {Stock}-{Flow}-{Consistent} {Models}}
+      \field{type}{techreport}
+      \field{urlday}{19}
+      \field{urlmonth}{6}
+      \field{urlyear}{2019}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Fullext PDF:/home/gpetrini/Zotero/storage/29M9N2Y8/Zezza e Zezza - 2019 - On the Design of Empirical Stock-Flow-Consistent M.pdf:application/pdf;Snapshot:/home/gpetrini/Zotero/storage/DGH636ZG/wp_919.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://ideas.repec.org/p/lev/wrkpap/wp_919.html
+      \endverb
+      \verb{url}
+      \verb https://ideas.repec.org/p/lev/wrkpap/wp_919.html
+      \endverb
+      \keyw{Ecuador,Empirical Stock-Flow-Consistent Models,Greece,Italy}
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 

@@ -1786,62 +1786,6 @@
       \verb https://www.jstor.org/stable/1823891
       \endverb
     \endentry
-    \entry{carvalho_personal_2016}{article}{}
-      \name{author}{2}{}{%
-        {{uniquename=0,uniquepart=base,hash=8d26fb3ddec7909da6cf5f06652327c7}{%
-           family={Carvalho},
-           familyi={C\bibinitperiod},
-           given={Laura},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=52fb935aa1902d7369225336a04b213a}{%
-           family={Rezai},
-           familyi={R\bibinitperiod},
-           given={Armon},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{7ce7db5f16dd71fa9b18d270737cb6dc}
-      \strng{fullhash}{7ce7db5f16dd71fa9b18d270737cb6dc}
-      \strng{bibnamehash}{7ce7db5f16dd71fa9b18d270737cb6dc}
-      \strng{authorbibnamehash}{7ce7db5f16dd71fa9b18d270737cb6dc}
-      \strng{authornamehash}{7ce7db5f16dd71fa9b18d270737cb6dc}
-      \strng{authorfullhash}{7ce7db5f16dd71fa9b18d270737cb6dc}
-      \field{sortinit}{C}
-      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Abstract. This paper presents a theoretical and empirical investigation of how changes in the size distribution of income can affect aggregate demand and the d}
-      \field{issn}{0309-166X}
-      \field{journaltitle}{Cambridge Journal of Economics}
-      \field{number}{2}
-      \field{title}{Personal income inequality and aggregate demand}
-      \field{urlday}{30}
-      \field{urlmonth}{1}
-      \field{urlyear}{2019}
-      \field{volume}{40}
-      \field{year}{2016}
-      \field{urldateera}{ce}
-      \field{pages}{491\bibrangedash 505}
-      \range{pages}{15}
-      \verb{doi}
-      \verb 10.1093/cje/beu085
-      \endverb
-      \verb{file}
-      \verb Snapshot:/home/gpetrini/Zotero/storage/NEDJQB3C/2605032.html:text/html
-      \endverb
-      \verb{urlraw}
-      \verb https://academic.oup.com/cje/article/40/2/491/2605032
-      \endverb
-      \verb{url}
-      \verb https://academic.oup.com/cje/article/40/2/491/2605032
-      \endverb
-    \endentry
     \entry{case_comparing_2001}{report}{}
       \name{author}{3}{}{%
         {{uniquename=0,uniquepart=base,hash=73199a16f08d9647b5c683d8a1d906fc}{%
@@ -5187,42 +5131,6 @@
       \field{pages}{37\bibrangedash 54}
       \range{pages}{18}
     \endentry
-    \entry{kurz_post-keynesian_2010}{article}{}
-      \name{author}{2}{}{%
-        {{uniquename=0,uniquepart=base,hash=1af67bbbf0fb43477ce7d8b30f7e6219}{%
-           family={Kurz},
-           familyi={K\bibinitperiod},
-           given={Heinz\bibnamedelima D.},
-           giveni={H\bibinitperiod\bibinitdelim D\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=2054b4536cd473ec9f5c920b68d79a77}{%
-           family={Salvadori},
-           familyi={S\bibinitperiod},
-           given={Neri},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{960d3e9837c13d00ac85b61559884199}
-      \strng{fullhash}{960d3e9837c13d00ac85b61559884199}
-      \strng{bibnamehash}{960d3e9837c13d00ac85b61559884199}
-      \strng{authorbibnamehash}{960d3e9837c13d00ac85b61559884199}
-      \strng{authornamehash}{960d3e9837c13d00ac85b61559884199}
-      \strng{authorfullhash}{960d3e9837c13d00ac85b61559884199}
-      \field{sortinit}{K}
-      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{journaltitle}{Handbook of Alternative Theories of Economic Growth}
-      \field{shorttitle}{The post-{Keynesian} theories of growth and distribution}
-      \field{title}{The post-{Keynesian} theories of growth and distribution: a survey}
-      \field{volume}{95}
-      \field{year}{2010}
-      \verb{file}
-      \verb Full Text:/home/gpetrini/Zotero/storage/SIQFWD3H/Kurz e Salvadori - 2010 - The post-Keynesian theories of growth and distribu.pdf:application/pdf
-      \endverb
-    \endentry
     \entry{lavoie_note_1999}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=2f7a0a4459884b037e0375a1afa79c16}{%
@@ -5361,7 +5269,7 @@
       \field{note}{OCLC: 906071686}
       \field{shorttitle}{Post-{Keynesian} economics}
       \field{title}{Post-{Keynesian} economics: new foundations}
-      \field{year}{2015}
+      \field{year}{2014}
       \verb{file}
       \verb Lavoie - 2015 - Post-Keynesian economics new foundations.pdf:/home/gpetrini/Zotero/storage/R5VB492V/Lavoie - 2015 - Post-Keynesian economics new foundations.pdf:application/pdf;Table of Contents PDF:/home/gpetrini/Zotero/storage/Z8L27JPR/Lavoie - 2015 - Post-Keynesian economics new foundations.pdf:application/pdf
       \endverb
@@ -6778,12 +6686,12 @@
     \endentry
     \entry{palley_inside_2010}{incollection}{}
       \name{author}{1}{}{%
-        {{uniquename=1,uniquepart=given,hash=1d5c10b853cf8e0c03b1c84ff20bb837}{%
+        {{uniquename=0,uniquepart=base,hash=1d5c10b853cf8e0c03b1c84ff20bb837}{%
            family={Palley},
            familyi={P\bibinitperiod},
            given={Thomas},
            giveni={T\bibinitperiod},
-           givenun=1}}%
+           givenun=0}}%
       }
       \list{publisher}{1}{%
         {Edward Elgar Publishing}%
@@ -6824,12 +6732,12 @@
     \endentry
     \entry{palley_economics_2018}{article}{}
       \name{author}{1}{}{%
-        {{uniquename=1,uniquepart=given,hash=1d5c10b853cf8e0c03b1c84ff20bb837}{%
+        {{uniquename=0,uniquepart=base,hash=1d5c10b853cf8e0c03b1c84ff20bb837}{%
            family={Palley},
            familyi={P\bibinitperiod},
            given={Thomas},
            giveni={T\bibinitperiod},
-           givenun=1}}%
+           givenun=0}}%
       }
       \strng{namehash}{1d5c10b853cf8e0c03b1c84ff20bb837}
       \strng{fullhash}{1d5c10b853cf8e0c03b1c84ff20bb837}
@@ -6855,12 +6763,12 @@
     \endentry
     \entry{palley_inside_1996}{article}{}
       \name{author}{1}{}{%
-        {{uniquename=1,uniquepart=given,hash=d8beed570cc6438dfa9447dc88fcb98e}{%
+        {{uniquename=0,uniquepart=base,hash=d8beed570cc6438dfa9447dc88fcb98e}{%
            family={Palley},
            familyi={P\bibinitperiod},
            given={{Thomas I.}},
            giveni={T\bibinitperiod},
-           givenun=1}}%
+           givenun=0}}%
       }
       \list{language}{1}{%
         {en}%
@@ -6906,12 +6814,12 @@
     \endentry
     \entry{palley_money_1997}{article}{}
       \name{author}{1}{}{%
-        {{uniquename=1,uniquepart=given,hash=d8beed570cc6438dfa9447dc88fcb98e}{%
+        {{uniquename=0,uniquepart=base,hash=d8beed570cc6438dfa9447dc88fcb98e}{%
            family={Palley},
            familyi={P\bibinitperiod},
            given={{Thomas I.}},
            giveni={T\bibinitperiod},
-           givenun=1}}%
+           givenun=0}}%
       }
       \list{language}{1}{%
         {en}%
@@ -6957,12 +6865,12 @@
     \endentry
     \entry{palley_financial_2002}{article}{}
       \name{author}{1}{}{%
-        {{uniquename=1,uniquepart=given,hash=d8beed570cc6438dfa9447dc88fcb98e}{%
+        {{uniquename=0,uniquepart=base,hash=d8beed570cc6438dfa9447dc88fcb98e}{%
            family={Palley},
            familyi={P\bibinitperiod},
            given={{Thomas I.}},
            giveni={T\bibinitperiod},
-           givenun=1}}%
+           givenun=0}}%
       }
       \list{language}{1}{%
         {en}%
@@ -7004,57 +6912,6 @@
       \endverb
       \verb{url}
       \verb https://academic.oup.com/cje/article/26/2/275/1684567
-      \endverb
-    \endentry
-    \entry{palley_wage-_2017}{article}{}
-      \name{author}{1}{}{%
-        {{uniquename=1,uniquepart=given,hash=d8beed570cc6438dfa9447dc88fcb98e}{%
-           family={Palley},
-           familyi={P\bibinitperiod},
-           given={Thomas\bibnamedelima I.},
-           giveni={T\bibinitperiod\bibinitdelim I\bibinitperiod},
-           givenun=1}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{d8beed570cc6438dfa9447dc88fcb98e}
-      \strng{fullhash}{d8beed570cc6438dfa9447dc88fcb98e}
-      \strng{bibnamehash}{d8beed570cc6438dfa9447dc88fcb98e}
-      \strng{authorbibnamehash}{d8beed570cc6438dfa9447dc88fcb98e}
-      \strng{authornamehash}{d8beed570cc6438dfa9447dc88fcb98e}
-      \strng{authorfullhash}{d8beed570cc6438dfa9447dc88fcb98e}
-      \field{sortinit}{P}
-      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{Abstract. The wage- versus profit-led distinction is a cornerstone of post-Keynesian growth theory. However, the existing theoretical literature focuses on the}
-      \field{issn}{0309-166X}
-      \field{journaltitle}{Cambridge Journal of Economics}
-      \field{number}{1}
-      \field{shorttitle}{Wage- vs. profit-led growth}
-      \field{title}{Wage- vs. profit-led growth: the role of the distribution of wages in determining regime character}
-      \field{urlday}{22}
-      \field{urlmonth}{9}
-      \field{urlyear}{2018}
-      \field{volume}{41}
-      \field{year}{2017}
-      \field{urldateera}{ce}
-      \field{pages}{49\bibrangedash 61}
-      \range{pages}{13}
-      \verb{doi}
-      \verb 10.1093/cje/bew004
-      \endverb
-      \verb{file}
-      \verb Palley_2017_Wage- vs.pdf:/home/gpetrini/Zotero/storage/39IARCVT/Palley_2017_Wage- vs.pdf:application/pdf;Snapshot:/home/gpetrini/Zotero/storage/X3Z5HKVN/2625381.html:text/html
-      \endverb
-      \verb{urlraw}
-      \verb https://academic.oup.com/cje/article/41/1/49/2625381
-      \endverb
-      \verb{url}
-      \verb https://academic.oup.com/cje/article/41/1/49/2625381
       \endverb
     \endentry
     \entry{palumbo_growth_2003}{article}{}
@@ -7881,6 +7738,7 @@
       \strng{authorbibnamehash}{edf305742ef9db9cf4a0d49855284779}
       \strng{authornamehash}{edf305742ef9db9cf4a0d49855284779}
       \strng{authorfullhash}{edf305742ef9db9cf4a0d49855284779}
+      \field{extraname}{1}
       \field{sortinit}{S}
       \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
       \field{extradatescope}{labelyear}
@@ -7895,6 +7753,47 @@
       \range{pages}{1}
       \verb{file}
       \verb Serrano et al. - 2017 - The Trouble with Harrod the fundamental instabili.pdf:/home/gpetrini/Zotero/storage/EIVSASGS/Serrano et al. - 2017 - The Trouble with Harrod the fundamental instabili.pdf:application/pdf;Serrano et al. (2017).md:/home/gpetrini/Zotero/storage/BD5G7KMK/Serrano et al. (2017).md:text/markdown
+      \endverb
+    \endentry
+    \entry{serrano_har_2018}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=8df1ed774cbbdbac66d3fc8dafb0bcd5}{%
+           family={Serrano},
+           familyi={S\bibinitperiod},
+           given={Franklin},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=ddb1fd66d4d7294f27fed47e4051d5d0}{%
+           family={Freitas},
+           familyi={F\bibinitperiod},
+           given={Fábio},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=4b47af2fd6df5404c668dfeae18c9ac9}{%
+           family={Behring},
+           familyi={B\bibinitperiod},
+           given={Gustavo},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{edf305742ef9db9cf4a0d49855284779}
+      \strng{fullhash}{edf305742ef9db9cf4a0d49855284779}
+      \strng{bibnamehash}{edf305742ef9db9cf4a0d49855284779}
+      \strng{authorbibnamehash}{edf305742ef9db9cf4a0d49855284779}
+      \strng{authornamehash}{edf305742ef9db9cf4a0d49855284779}
+      \strng{authorfullhash}{edf305742ef9db9cf4a0d49855284779}
+      \field{extraname}{2}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Mimeo}
+      \field{title}{O {Supermultiplicador} {Sraffiano}, a {Instabilidade} {Fundamental} de {Harrod} e o {Dilema} de {Oxbridge}}
+      \field{year}{2018}
+      \verb{file}
+      \verb Serrano et al. - 2018 - O Supermultiplicador Sraffiano, a Instabilidade Fu.pdf:/home/gpetrini/Zotero/storage/W6LU756T/Serrano et al. - 2018 - O Supermultiplicador Sraffiano, a Instabilidade Fu.pdf:application/pdf
       \endverb
     \endentry
     \entry{serrano_demanda_2015}{article}{}
@@ -8800,56 +8699,6 @@
       \endverb
       \verb{url}
       \verb https://ideas.repec.org/a/ire/issued/v03n012000p93-108.html
-      \endverb
-    \endentry
-    \entry{weisskopf_marxian_1979}{article}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=92e6341719ffb50c22936dd3c4347ae2}{%
-           family={Weisskopf},
-           familyi={W\bibinitperiod},
-           given={Thomas\bibnamedelima E.},
-           giveni={T\bibinitperiod\bibinitdelim E\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{92e6341719ffb50c22936dd3c4347ae2}
-      \strng{fullhash}{92e6341719ffb50c22936dd3c4347ae2}
-      \strng{bibnamehash}{92e6341719ffb50c22936dd3c4347ae2}
-      \strng{authorbibnamehash}{92e6341719ffb50c22936dd3c4347ae2}
-      \strng{authornamehash}{92e6341719ffb50c22936dd3c4347ae2}
-      \strng{authorfullhash}{92e6341719ffb50c22936dd3c4347ae2}
-      \field{sortinit}{W}
-      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Thomas E. Weisskopf; Marxian crisis theory and the rate of profit in the postwar U.S. economy, Cambridge Journal of Economics, Volume 3, Issue 4, 1 December 19}
-      \field{issn}{0309-166X}
-      \field{journaltitle}{Cambridge Journal of Economics}
-      \field{number}{4}
-      \field{title}{Marxian crisis theory and the rate of profit in the postwar {U}.{S}. economy}
-      \field{urlday}{15}
-      \field{urlmonth}{4}
-      \field{urlyear}{2019}
-      \field{volume}{3}
-      \field{year}{1979}
-      \field{urldateera}{ce}
-      \field{pages}{341\bibrangedash 378}
-      \range{pages}{38}
-      \verb{doi}
-      \verb 10.1093/oxfordjournals.cje.a035429
-      \endverb
-      \verb{file}
-      \verb Snapshot:/home/gpetrini/Zotero/storage/U4MXAEG8/1729922.html:text/html;Weisskopf - 1979 - Marxian crisis theory and the rate of profit in th.pdf:/home/gpetrini/Zotero/storage/NUZ4UKUL/Weisskopf - 1979 - Marxian crisis theory and the rate of profit in th.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://academic.oup.com/cje/article/3/4/341/1729922
-      \endverb
-      \verb{url}
-      \verb https://academic.oup.com/cje/article/3/4/341/1729922
       \endverb
     \endentry
     \entry{wolfson_irving_1996}{article}{}

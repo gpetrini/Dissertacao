@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.6.22)  18 AUG 2019 22:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.6.22)  23 AUG 2019 15:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2639,46 +2639,54 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 
 ] [20] [21]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 89.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 100.
  [22] [23])
-(./Teorico/Cambridge.tex [24] [25] [26]) (./Teorico/Kaleckiano.tex [27]
-[28] [29]) (./Teorico/Super.tex [30] [31] [32] [33] [34] [35]))
-(./Teorico/Teorico_Sec2.tex [36] [37] [38] [39] [40] [41] [42] [43])
-(./Teorico/Teorico_Sec3.tex [44] [45] [46] [47] [48] [49])
-(./Teorico/Teorico_Conclusao.tex [50] [51] [52] [53] [54] [55pdfTeX warning (ex
-t4): destination with the same identifier (name{equation.2.4.1}) has been alrea
-dy used, duplicate ignored
+(./Teorico/Cambridge.tex [24]
+
+LaTeX Warning: Reference `Decomposicao_Lucro' on page 25 undefined on input lin
+e 88.
+
+[25]) (./Teorico/Kaleckiano.tex [26] [27] [28]
+
+LaTeX Warning: Reference `Decomposicao_Lucro' on page 29 undefined on input lin
+e 99.
+
+) (./Teorico/Super.tex [29] [30] [31] [32] [33] [34]))
+(./Teorico/Teorico_Sec2.tex [35] [36] [37] [38] [39] [40] [41])
+(./Teorico/Teorico_Sec3.tex [42] [43] [44] [45] [46] [47] [48])
+(./Teorico/Teorico_Conclusao.tex [49] [50] [51] [52] [53pdfTeX warning (ext4): 
+destination with the same identifier (name{equation.2.4.1}) has been already us
+ed, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.108 
-      pdfTeX warning (ext4): destination with the same identifier (name{equatio
+l.89 
+     ]pdfTeX warning (ext4): destination with the same identifier (name{equatio
 n.2.4.1}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.108 
-      ] [56])) (./Fatos_Estilizados/Fatos.tex [57]
-(./Fatos_Estilizados/Introducao.tex [58
+<to be read again> 
+                   \relax 
+l.96 \begin{equation}
+                      [54] [55])) (./Fatos_Estilizados/Fatos.tex [56]
+(./Fatos_Estilizados/Introducao.tex [57
 
 ]) (./Fatos_Estilizados/Autonomos.tex
-[59]) (./Fatos_Estilizados/Residencial.tex [60] [61]
-<Fatos_Estilizados/Figs/Empiria.png, id=1507, 495.5313pt x 300.1614pt>
+[58]) (./Fatos_Estilizados/Residencial.tex [59] [60]
+<Fatos_Estilizados/Figs/Empiria.png, id=1440, 495.5313pt x 300.1614pt>
 File: Fatos_Estilizados/Figs/Empiria.png Graphic file (type png)
 <use Fatos_Estilizados/Figs/Empiria.png>
 Package pdftex.def Info: Fatos_Estilizados/Figs/Empiria.png  used on input line
  35.
 (pdftex.def)             Requested size: 483.69687pt x 293.00656pt.
- [62]
-<Fatos_Estilizados/Figs/Recuperacao.png, id=1520, 721.2546pt x 383.031pt>
+ [61]
+<Fatos_Estilizados/Figs/Recuperacao.png, id=1454, 721.2546pt x 383.031pt>
 File: Fatos_Estilizados/Figs/Recuperacao.png Graphic file (type png)
 <use Fatos_Estilizados/Figs/Recuperacao.png>
 Package pdftex.def Info: Fatos_Estilizados/Figs/Recuperacao.png  used on input 
 line 45.
 (pdftex.def)             Requested size: 483.69687pt x 256.86906pt.
- [63 <./Fatos_Estilizados/Figs/Empiria.png>] [64 <./Fatos_Estilizados/Figs/Recu
-peracao.png>] [65]
-<Fatos_Estilizados/Figs/TxPropria_Investo.png, id=1626, 500.1084pt x 314.8563pt
+ [62 <./Fatos_Estilizados/Figs/Empiria.png>] [63 <./Fatos_Estilizados/Figs/Recu
+peracao.png>] [64]
+<Fatos_Estilizados/Figs/TxPropria_Investo.png, id=1559, 500.1084pt x 314.8563pt
 >
 File: Fatos_Estilizados/Figs/TxPropria_Investo.png Graphic file (type png)
 <use Fatos_Estilizados/Figs/TxPropria_Investo.png>
@@ -2686,34 +2694,34 @@ Package pdftex.def Info: Fatos_Estilizados/Figs/TxPropria_Investo.png  used on
 input line 95.
 (pdftex.def)             Requested size: 362.77264pt x 228.39708pt.
 )
-(./Fatos_Estilizados/VECM.tex [66]
-<Fatos_Estilizados/Figs/Meses_contrucao.png, id=1652, 1145.4795pt x 709.9323pt>
+(./Fatos_Estilizados/VECM.tex [65]
+<Fatos_Estilizados/Figs/Meses_contrucao.png, id=1585, 1145.4795pt x 709.9323pt>
 
 File: Fatos_Estilizados/Figs/Meses_contrucao.png Graphic file (type png)
 <use Fatos_Estilizados/Figs/Meses_contrucao.png>
 Package pdftex.def Info: Fatos_Estilizados/Figs/Meses_contrucao.png  used on in
 put line 13.
 (pdftex.def)             Requested size: 483.69687pt x 299.77277pt.
- [67 <./Fatos_Estilizados/Figs/TxPropria_Investo.png>]
-<Fatos_Estilizados/Figs/Scatter_VECM.png, id=1665, 963.8409pt x 332.442pt>
+ [66 <./Fatos_Estilizados/Figs/TxPropria_Investo.png>]
+<Fatos_Estilizados/Figs/Scatter_VECM.png, id=1599, 963.8409pt x 332.442pt>
 File: Fatos_Estilizados/Figs/Scatter_VECM.png Graphic file (type png)
 <use Fatos_Estilizados/Figs/Scatter_VECM.png>
 Package pdftex.def Info: Fatos_Estilizados/Figs/Scatter_VECM.png  used on input
  line 24.
 (pdftex.def)             Requested size: 483.69687pt x 166.83437pt.
-<Fatos_Estilizados/Figs/Residuos_4VECM.png, id=1666, 370.0224pt x 364.4817pt>
+<Fatos_Estilizados/Figs/Residuos_4VECM.png, id=1600, 370.0224pt x 364.4817pt>
 File: Fatos_Estilizados/Figs/Residuos_4VECM.png Graphic file (type png)
 <use Fatos_Estilizados/Figs/Residuos_4VECM.png>
 Package pdftex.def Info: Fatos_Estilizados/Figs/Residuos_4VECM.png  used on inp
 ut line 34.
 (pdftex.def)             Requested size: 273.83485pt x 269.72801pt.
- [68 <./Fatos_Estilizados/Figs/Meses_contrucao.png>]
+ [67 <./Fatos_Estilizados/Figs/Meses_contrucao.png>]
 LaTeX Font Info:    Try loading font information for TS1+ptm on input line 89.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-<Fatos_Estilizados/Figs/FEVD_VECM.png, id=1676, 1144.7568pt x 710.8959pt>
+<Fatos_Estilizados/Figs/FEVD_VECM.png, id=1610, 1144.7568pt x 710.8959pt>
 File: Fatos_Estilizados/Figs/FEVD_VECM.png Graphic file (type png)
 <use Fatos_Estilizados/Figs/FEVD_VECM.png>
 Package pdftex.def Info: Fatos_Estilizados/Figs/FEVD_VECM.png  used on input li
@@ -2725,120 +2733,120 @@ Overfull \hbox (1.87415pt too wide) in paragraph at lines 99--102
 sta or-to-go-na-li-zada. Grosso modo,
  []
 
-[69 <./Fatos_Estilizados/Figs/Scatter_VECM.png>]
-<Fatos_Estilizados/Figs/Impulso_VECM.png, id=1684, 699.8145pt x 693.5511pt>
+[68 <./Fatos_Estilizados/Figs/Scatter_VECM.png>]
+<Fatos_Estilizados/Figs/Impulso_VECM.png, id=1618, 699.8145pt x 693.5511pt>
 File: Fatos_Estilizados/Figs/Impulso_VECM.png Graphic file (type png)
 <use Fatos_Estilizados/Figs/Impulso_VECM.png>
 Package pdftex.def Info: Fatos_Estilizados/Figs/Impulso_VECM.png  used on input
  line 109.
 (pdftex.def)             Requested size: 483.69687pt x 479.36563pt.
-<Fatos_Estilizados/Figs/Previsao_VECM.png, id=1686, 1210.5225pt x 1178.4025pt>
+<Fatos_Estilizados/Figs/Previsao_VECM.png, id=1620, 1210.5225pt x 1178.4025pt>
 File: Fatos_Estilizados/Figs/Previsao_VECM.png Graphic file (type png)
 <use Fatos_Estilizados/Figs/Previsao_VECM.png>
 Package pdftex.def Info: Fatos_Estilizados/Figs/Previsao_VECM.png  used on inpu
 t line 119.
 (pdftex.def)             Requested size: 483.69687pt x 470.86717pt.
- [70 <./Fatos_Estilizados/Figs/Residuos_4VECM.png>]) (./Fatos_Estilizados/Concl
-usao.tex [71] [72 <./Fatos_Estilizados/Figs/FEVD_VECM.png>] [73 <./Fatos_Estili
+ [69 <./Fatos_Estilizados/Figs/Residuos_4VECM.png>]) (./Fatos_Estilizados/Concl
+usao.tex [70] [71 <./Fatos_Estilizados/Figs/FEVD_VECM.png>] [72 <./Fatos_Estili
 zados/Figs/Impulso_VECM.png>]
-[74 <./Fatos_Estilizados/Figs/Previsao_VECM.png>])) (./Modelo/ModeloSimples.tex
-[75] (./Modelo/Intro.tex
+[73 <./Fatos_Estilizados/Figs/Previsao_VECM.png>])) (./Modelo/ModeloSimples.tex
+[74] (./Modelo/Intro.tex
 LaTeX Font Info:    Try loading font information for T1+lmss on input line 21.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [76
+) [75
 
-] [77]
-<Modelo/Caverzassi_Heatmap.png, id=1920, 1178.4025pt x 654.445pt>
+] [76]
+<Modelo/Caverzassi_Heatmap.png, id=1853, 1178.4025pt x 654.445pt>
 File: Modelo/Caverzassi_Heatmap.png Graphic file (type png)
 <use Modelo/Caverzassi_Heatmap.png>
 Package pdftex.def Info: Modelo/Caverzassi_Heatmap.png  used on input line 88.
 (pdftex.def)             Requested size: 435.32422pt x 241.76138pt.
 )
-(./Modelo/Modelo.tex [78] [79 <./Modelo/Caverzassi_Heatmap.png>] [80]pdfTeX war
+(./Modelo/Modelo.tex [77] [78 <./Modelo/Caverzassi_Heatmap.png>] [79]pdfTeX war
 ning (ext4): destination with the same identifier (name{equation.4.2.5}) has be
 en already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.59 \begin{equation}
-                      [81] [82] [83] [84] [85] [86]) (./Modelo/Analitica.tex
-[87] [88] [89]) (./Modelo/Choques.tex [90]
-<../../Modelo/Versoes/Dag.png, id=2096, 433.62pt x 289.08pt>
+                      [80] [81] [82] [83] [84] [85]) (./Modelo/Analitica.tex
+[86] [87] [88]) (./Modelo/Choques.tex [89]
+<../../Modelo/Versoes/Dag.png, id=2028, 433.62pt x 289.08pt>
 File: ../../Modelo/Versoes/Dag.png Graphic file (type png)
 <use ../../Modelo/Versoes/Dag.png>
 Package pdftex.def Info: ../../Modelo/Versoes/Dag.png  used on input line 11.
 (pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
-<../../Modelo/Versoes/Shock_1.png, id=2097, 433.62pt x 289.08pt>
+<../../Modelo/Versoes/Shock_1.png, id=2029, 433.62pt x 289.08pt>
 File: ../../Modelo/Versoes/Shock_1.png Graphic file (type png)
 <use ../../Modelo/Versoes/Shock_1.png>
 Package pdftex.def Info: ../../Modelo/Versoes/Shock_1.png  used on input line 2
 9.
 (pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
-<../../Modelo/Versoes/Shock_4.png, id=2098, 433.62pt x 289.08pt>
+<../../Modelo/Versoes/Shock_4.png, id=2030, 433.62pt x 289.08pt>
 File: ../../Modelo/Versoes/Shock_4.png Graphic file (type png)
 <use ../../Modelo/Versoes/Shock_4.png>
 Package pdftex.def Info: ../../Modelo/Versoes/Shock_4.png  used on input line 3
 8.
 (pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
- [91 <../../Modelo/Versoes/Dag.png>]
-<../../Modelo/Versoes/Shock_2.png, id=2107, 433.62pt x 289.08pt>
+ [90 <../../Modelo/Versoes/Dag.png>]
+<../../Modelo/Versoes/Shock_2.png, id=2040, 433.62pt x 289.08pt>
 File: ../../Modelo/Versoes/Shock_2.png Graphic file (type png)
 <use ../../Modelo/Versoes/Shock_2.png>
 Package pdftex.def Info: ../../Modelo/Versoes/Shock_2.png  used on input line 5
 8.
 (pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
 
-[92 <../../Modelo/Versoes/Shock_1.png>]
-<../../Modelo/Versoes/Shock_3.png, id=2114, 433.62pt x 289.08pt>
+[91 <../../Modelo/Versoes/Shock_1.png>]
+<../../Modelo/Versoes/Shock_3.png, id=2047, 433.62pt x 289.08pt>
 File: ../../Modelo/Versoes/Shock_3.png Graphic file (type png)
 <use ../../Modelo/Versoes/Shock_3.png>
 Package pdftex.def Info: ../../Modelo/Versoes/Shock_3.png  used on input line 7
 2.
 (pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
-) (./Modelo/Conclusao.tex [93 <../../Modelo/Versoes/Shock_4.png>] [94 <../../Mo
-delo/Versoes/Shock_2.png>])) [95 <../../Modelo/Versoes/Shock_3.png>] [96]
+) (./Modelo/Conclusao.tex [92 <../../Modelo/Versoes/Shock_4.png>] [93 <../../Mo
+delo/Versoes/Shock_2.png>])) [94 <../../Modelo/Versoes/Shock_3.png>] [95]
 LaTeX Font Info:    Try loading font information for T1+lmtt on input line 321.
 
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [97
+) [96
 
 
-] [98]
+] [97]
 Overfull \hbox (4.54219pt too wide) in paragraph at lines 321--321
 [][]\T1/ptm/m/sc/12 bortis\T1/ptm/m/n/12 , \T1/ptm/m/sc/12 h. \T1/ptm/b/n/12 In
 s-ti-tu-ti-ons, Beha-vi-our and Eco-no-mic The-ory: A Con-tri-bu-tion to Classi
 cal-Keynesian
  []
 
-[99] [100]
+[98] [99]
 Overfull \hbox (0.17998pt too wide) in paragraph at lines 321--321
 [][]$[]$\T1/ptm/m/n/12 . Some ob-ser-va-ti-ons on mo-dels of growth and dis-tri
 -bu-tion with au-to-no-mous de-mand growth:
  []
 
-[101] [102] [103] [104] [105]
+[100] [101] [102] [103] [104]
 Overfull \hbox (0.5758pt too wide) in paragraph at lines 321--321
 [][]$[]$\T1/ptm/m/n/12 . The role of au-to-no-mous de-mand growth in a neo-Kale
 ckian conflicting-claims fra-mework'.
  []
 
-[106] [107] [108] [109] [110] (./Modelo/Apendice_Fraction.tex
+[105] [106] [107] [108] [109] (./Modelo/Apendice_Fraction.tex
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <24.88> not available
 (Font)              Font shape `T1/ptm/b/it' tried instead on input line 2.
- [111
+ [110
 
 
-] [112])
-[113] (./cc-by-sa.texpdfTeX warning (ext4): destination with the same identifie
+] [111])
+[112] (./cc-by-sa.texpdfTeX warning (ext4): destination with the same identifie
 r (name{appendix.A}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.1 \chapter{Licença}
                       
-<cc-by-sa.png, id=2333, 97.0827pt x 33.9669pt>
+<cc-by-sa.png, id=2261, 97.0827pt x 33.9669pt>
 File: cc-by-sa.png Graphic file (type png)
 <use cc-by-sa.png>
 Package pdftex.def Info: cc-by-sa.png  used on input line 10.
@@ -2848,7 +2856,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{section.A.1})
 <to be read again> 
                    \relax 
 l.19 \section{Sobre a licença dessa obra}
-                                          ) [114
+                                          ) [113
 
 
  <./cc-by-sa.png>]
@@ -2871,7 +2879,14 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 359.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 359.
 
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: There were multiply-defined labels.
+
+
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
 
 Package logreq Info: Writing requests to 'Main_Dissertacao.run.xml'.
 \openout1 = `Main_Dissertacao.run.xml'.
@@ -2879,50 +2894,14 @@ Package logreq Info: Writing requests to 'Main_Dissertacao.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 359.
  ) 
 Here is how much of TeX's memory you used:
- 51196 strings out of 492609
- 974357 string characters out of 6129033
- 1873715 words of memory out of 5000000
- 53529 multiletter control sequences out of 15000+600000
- 649712 words of font info for 181 fonts, out of 8000000 for 9000
+ 51157 strings out of 492609
+ 973504 string characters out of 6129033
+ 1869001 words of memory out of 5000000
+ 53507 multiletter control sequences out of 15000+600000
+ 650342 words of font info for 183 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 78i,18n,117p,2568b,4147s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 78i,18n,117p,2142b,4147s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{section*.39} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.115} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.114} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.113} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.112} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.111} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.110} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.109} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.108} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.107} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.106} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.105} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.104} has been referenced but does not exi
 st, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.103} has been referenced but does not exi
@@ -3249,10 +3228,10 @@ usr/local/texlive/2019/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/
 texlive/2019/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2
 019/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2019/texmf-
 dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Main_Dissertacao.pdf (115 pages, 3455353 bytes).
+Output written on Main_Dissertacao.pdf (114 pages, 3445023 bytes).
 PDF statistics:
- 2638 PDF objects out of 2984 (max. 8388607)
- 2436 compressed objects within 25 object streams
- 571 named destinations out of 1000 (max. 500000)
+ 2561 PDF objects out of 2984 (max. 8388607)
+ 2361 compressed objects within 24 object streams
+ 552 named destinations out of 1000 (max. 500000)
  448 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -21,16 +21,15 @@ english,			% idioma adicional para hifeniza\c{c}\~{a}o
 brazil,				% o \'{u}ltimo idioma \'{e} o principal do documento
 %sumario=tradicional,
 ]{article}
-\usepackage[a4paper, right = 1.5cm, left = 3.5cm, top = 2cm, bottom = 2cm]{geometry}
+\usepackage[a4paper, right = 2cm, left = 2cm, top = 2cm, bottom = 2cm]{geometry}
 \usepackage[utf8]{inputenc}
 \usepackage[english,portuguese]{babel}
 %\usepackage[myheadings]{fullpage}
 \usepackage[T1]{fontenc}
-%\usepackage{fancyhdr}
 \usepackage{graphicx, setspace}
 \usepackage{sectsty}
 \usepackage{url}
-\usepackage{mathptmx} %% Para times
+%\usepackage{mathptmx} %% Para times
 \usepackage{comment}
 \usepackage{multirow}
 \usepackage{graphicx}
@@ -40,9 +39,11 @@ brazil,				% o \'{u}ltimo idioma \'{e} o principal do documento
 \usepackage{float}
 \usepackage[bottom]{footmisc}
 \usepackage{pdfpages}
-\usepackage{caption}
+\usepackage{caption} % \caption*
 \usepackage{csquotes}
-\usepackage{footnote}
+\usepackage{footnote} % Permite footnote em tabelas
+\renewcommand{\rmdefault}{phv} % Arial
+\renewcommand{\sfdefault}{phv} % Arial
 
 
 %=====================================================================
@@ -59,9 +60,15 @@ brazil,				% o \'{u}ltimo idioma \'{e} o principal do documento
 	sccite,% 
 	scbib, %
 	repeattitles, %
+	doi=false,isbn=false,url=false, 
 	maxcitenames=3]{biblatex}
 \addbibresource{../../Escrita_Dissertacao/Da_Silveira_Dissertacao_Atual/Bibliografia_Dissertacao/Bibliografia_Dissertacao.bib}
+\addbibresource{../../Escrita_Dissertacao/Da_Silveira_Dissertacao_Atual/Fatos_Estilizados/Biblio.bib}
 
+\renewenvironment{quote}
+{\small\list{}{\fontsize{10pt}{12pt}\singlespacing\rightmargin=0cm \leftmargin=4cm}%
+	\item\relax}
+{\endlist}
 
 %=====================================================================
 % 							Comandos específicos da FAPESP
@@ -160,13 +167,15 @@ teste in english
 %=====================================================================
 % 							Corpo de texto
 %=====================================================================
-\doublespacing
+\linespread{1.25}
+% Controle do espaçamento entre um parágrafo e outro:
+\setlength{\parskip}{0.2cm}  % tente também \onelineskip
 \begingroup
 \let\clearpage\relax
 \input{Introducao_Just}
 \input{Objetivos}
 \input{Metodologia.tex}
-\input{Resultados} % Resultados esperados temporariamente desativados
+%\input{Resultados} % Resultados esperados temporariamente desativados
 \input{Plano_Trabalho}
 \endgroup
 

@@ -1,0 +1,929 @@
+\documentclass[14pt,ignorenonframetext,aspectratio = 1610]{beamer}
+\setbeamertemplate{caption}[numbered]
+\setbeamertemplate{caption label separator}{: }
+\setbeamercolor{caption name}{fg=normal text.fg}
+\beamertemplatenavigationsymbolsempty
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\newif\ifbibliography
+\hypersetup{
+            pdftitle={Investimento residencial em um modelo SFC-SSM},
+            pdfauthor={Gabriel Petrini da Silvera ; Lucas Teixeira},
+            pdfborder={0 0 0},
+            breaklinks=true}
+%\urlstyle{same}  % Use monospace font for urls
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight0.8\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+
+% Prevent slide breaks in the middle of a paragraph:
+\widowpenalties 1 10000
+\raggedbottom
+
+\AtBeginPart{
+  \let\insertpartnumber\relax
+  \let\partname\relax
+  \frame{\partpage}
+}
+\AtBeginSection{
+  \ifbibliography
+  \else
+    \let\insertsectionnumber\relax
+    \let\sectionname\relax
+    \frame{\sectionpage}
+  \fi
+}
+\AtBeginSubsection{
+  \let\insertsubsectionnumber\relax
+  \let\subsectionname\relax
+  \frame{\subsectionpage}
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+\usepackage{ulem}
+\usepackage{subfigure}
+\usepackage{tikz}
+
+
+\title[]{Investimento residencial em um modelo SFC-SSM}
+\subtitle{XII Encontro Internacional da AKB}
+\author[
+Gabriel Petrini da Silvera\\ \and Lucas Teixeira
+]{Gabriel Petrini da Silvera\\ \and Lucas Teixeira}
+\institute[
+]{
+Instituto de Economia \\
+Unicamp
+}
+\date[
+29 de Agosto de 2019
+]{
+29 de Agosto de 2019
+}
+
+% ------------------------------------------------------------------------------------------------
+% BELOW ARE MY ADDITIONS
+% ------------------------------------------------------------------------------------------------
+
+% ------------------------------------------------------------------------------------------------
+%	PACKAGE LIST
+% ------------------------------------------------------------------------------------------------
+\usepackage{
+booktabs,
+%fontspec,
+graphicx,
+multicol,
+pgfplots,
+ragged2e,
+tabularx,
+tikz,
+wasysym,
+hyperref,
+hanging,
+multirow,
+eso-pic,
+}
+
+\usepackage[export]{adjustbox}
+% ------------------------------------------------------------------------------------------------
+%	GRAPHICS PATH
+% ------------------------------------------------------------------------------------------------
+\graphicspath{{./figs/}}
+
+
+% ------------------------------------------------------------------------------------------------
+%	TABLE OF CONTENTS
+% ------------------------------------------------------------------------------------------------
+\useoutertheme[subsection=false,shadow]{miniframes}
+\setbeamertemplate{section in toc}[sections numbered]
+\setbeamertemplate{subsection in toc}[subsections numbered]
+
+% ------------------------------------------------------------------------------------------------
+%	ITEMIZE
+% ------------------------------------------------------------------------------------------------
+\setbeamertemplate{itemize item}{$\bullet$}
+\setbeamertemplate{itemize subitem}{$\circ$}
+\setbeamertemplate{itemize subsubitem}{$\bullet$}
+
+\setlength{\parskip}{0.5em}
+
+% ------------------------------------------------------------------------------------------------
+%	COLORS
+% ------------------------------------------------------------------------------------------------
+
+% sthlm Colors
+\definecolor{sthlmLightBlue}{RGB}{90,200,250}
+\definecolor{sthlmBlue}{RGB}{52,170,220}
+\definecolor{sthlmDarkBlue}{RGB}{0,122,255}
+\definecolor{sthlmLightRed}{RGB}{255,45,85}
+\definecolor{sthlmRed}{RGB}{255,59,48}
+\definecolor{sthlmLightYellow}{RGB}{255,204,0}
+\definecolor{sthlmYellow}{RGB}{255,149,0}
+\definecolor{sthlmPurple}{RGB}{88,86,214}
+\definecolor{sthlmGreen}{RGB}{76,217,100}
+\definecolor{sthlmGrey}{RGB}{142,142,147}
+\definecolor{sthlmLightGrey}{RGB}{233,233,233}
+\definecolor{sthlmDarkGrey}{RGB}{61,61,70}
+
+% General
+\setbeamercolor{normal text}{fg=sthlmDarkGrey}
+\hypersetup{colorlinks=true, urlcolor=sthlmDarkBlue, linkcolor=sthlmDarkGrey, citecolor=sthlmDarkBlue}
+\setbeamercolor{structure}{fg=sthlmDarkGrey}
+\setbeamercolor{alerted text}{fg=sthlmRed}
+\setbeamercolor{example text}{fg=white}
+\setbeamercolor{copyright text}{fg=sthlmLightBlue}
+\setbeamercolor{palette primary}{fg=sthlmDarkGrey}
+\setbeamercolor{palette secondary}{fg=sthlmDarkGrey,bg=sthlmLightGrey}
+\setbeamercolor{palette tertiary}{fg=black,bg=sthlmDarkGrey}
+\setbeamercolor{palette quaternary}{fg=white, bg=sthlmDarkGrey}
+
+\setbeamercolor{mini frame}{bg=sthlmLightGrey}
+\setbeamercolor{section in head/foot}{fg=sthlmDarkGrey, bg=sthlmLightGrey}
+
+% Titlepage
+\setbeamercolor{title}{parent=normal text}
+\setbeamercolor{subtitle}{parent=normal text}
+\setbeamercolor{institute}{parent=normal text}
+
+% Content
+\setbeamercolor{frametitle}{parent=palette quaternary}
+
+% Blocks
+\setbeamercolor{block title}{fg=white,bg=sthlmDarkBlue}
+\setbeamercolor{block body}{fg=sthlmDarkGrey, bg=sthlmLightGrey}
+\setbeamercolor{block title example}{fg=white, bg=sthlmGreen}
+\setbeamercolor{block body example}{fg=sthlmDarkGrey, bg=sthlmLightGrey}
+\setbeamercolor{block title alerted}{fg=white, bg=sthlmLightRed}
+\setbeamercolor{block body alerted}{fg=sthlmDarkGrey, bg=sthlmLightGrey}
+
+% Notes
+\setbeamercolor{note page}{fg=sthlmDarkGrey,bg=sthlmLightGrey}
+\setbeamercolor{note title}{fg=white, bg=sthlmDarkGrey}
+\setbeamercolor{note date}{parent=note title}
+
+% Page Number
+\setbeamercolor{page number in head/foot}{fg=sthlmDarkGrey}
+
+\setbeamercolor{qed}{fg=sthlmGrey}
+\setbeamercolor{itemize item}{fg=sthlmDarkBlue}
+\setbeamercolor{itemize subitem}{fg=sthlmDarkBlue}
+\setbeamercolor{itemize subsubitem}{fg=sthlmDarkBlue}
+
+% ------------------------------------------------------------------------------------------------
+%	FONTS
+% ------------------------------------------------------------------------------------------------
+
+% General
+
+%% Declare fontfamilys
+%\if@doNoFlama%
+%	% Sans serif math option
+%	\if@doSans%
+%	% Sans serif math
+%		\usepackage{fontspec}%
+%		\setmainfont{Arial Regular}%
+%	\else%
+%		% Serif math
+%		\usefonttheme{professionalfonts}%
+%		\usepackage[no-math]{fontspec}%
+%	\fi%
+%	
+%	\newfontfamily\Light{Arial Regular}%
+%	\newfontfamily\Book{Arial Black Regular}%
+%	\newfontfamily\bfseries{Arial Bold}%
+%	\setsansfont{Arial Regular}%
+%\else%
+%	% Sans serif math option
+%	\if@doSans%
+%	% Sans serif math
+%		\usepackage{fontspec}%
+%		\setmainfont{FlamaLight}%
+%	\else%
+%		% Serif math
+%		\usefonttheme{professionalfonts}%
+%		\usepackage[no-math]{fontspec}%
+%	\fi%
+%	
+%	\newfontfamily\Light{FlamaLight}%
+%	\newfontfamily\Book{FlamaBook}%
+%	\newfontfamily\bfseries{FlamaMedium}%
+%	\setsansfont{FlamaLight}%
+%	%\newfontfamily\texttt{SourceCodePro-Light}
+%\fi%
+%
+%%\renewcommand\UrlFont{\texttt}
+%
+%% Font sizes
+%
+%% Titlepage
+%\setbeamerfont{title}{family=\bfseries,size=\fontsize{24}{26}}
+%\setbeamerfont{subtitle}{family=\Light,size=\fontsize{14}{18}}
+%\setbeamerfont{subtitle}{size=\fontsize{14}{18}}
+%\setbeamerfont{date}{size=\fontsize{9}{11}}
+%\setbeamerfont{author}{family=\bfseries,size=\fontsize{13}{15}}
+%\setbeamerfont{institute}{size=\fontsize{09}{10}}
+%
+%% Section
+%\setbeamerfont{section title}{size*={39pt}{24pt}, family = \bfseries, series=\bfseries}% Content
+%\setbeamerfont{frametitle}{family=\bfseries,size=\large}
+%\setbeamerfont{copyright text}{family=\Light,size=\tiny}
+%\setbeamerfont{block title}{family=\Book,size=\large}
+%\setbeamerfont{block title alerted}{family=\Book,size=\large}
+%\setbeamerfont{alerted text}{family=\bfseries}
+%
+%%Captions
+%\setbeamerfont{caption name}{family=\Book}
+
+
+
+
+%% ------------------------------------------------------------------------------------------------
+%%	FONT ASSIGMENTS
+%% ------------------------------------------------------------------------------------------------
+%% Title Page
+%\newfontfamily\Light{Roboto Light}
+%\setbeamerfont{title}{size=\LARGE, series=\bfseries}
+%\setbeamerfont{subtitle}{family=\Light, size=\small, shape=\normalfont}
+%\setbeamerfont{date}{family=\Light, size=\footnotesize}
+%\setbeamerfont{author}{size=\small, series=\bfseries}
+%\setbeamerfont{institute}{family=\Light, size=\scriptsize}
+%
+%% Section
+%\setbeamerfont{section title}{size=\Huge}
+%
+%% Content
+%\setbeamerfont{frametitle}{size=\Large, series=\bfseries}
+%\setbeamerfont{copyright text}{size=\tiny}
+%\setbeamerfont{block title}{size=\large, series=\bfseries}
+%\setbeamerfont{block title alerted}{size=\large, series=\bfseries}
+%\setbeamerfont{block title example}{size=\large, series=\bfseries}
+%
+%\setbeamerfont{caption}{size=\small}
+%\setbeamerfont{caption name}{family=\small}
+
+% ------------------------------------------------------------------------------------------------
+%	FONT ASSIGMENTS
+% ------------------------------------------------------------------------------------------------
+% Title Page
+%\newfontfamily\Light{Roboto Light}
+\setbeamerfont{title}{size=\LARGE, series=\bfseries}
+\setbeamerfont{subtitle}{size=\small, shape=\normalfont}
+\setbeamerfont{date}{size=\footnotesize}
+\setbeamerfont{author}{size=\small, series=\bfseries}
+\setbeamerfont{institute}{size=\scriptsize}
+
+% Section
+\setbeamerfont{section title}{size=\Huge}
+
+% Content
+\setbeamerfont{frametitle}{size=\Large, series=\bfseries}
+\setbeamerfont{copyright text}{size=\tiny}
+\setbeamerfont{block title}{size=\large, series=\bfseries}
+\setbeamerfont{block title alerted}{size=\large, series=\bfseries}
+\setbeamerfont{block title example}{size=\large, series=\bfseries}
+
+\setbeamerfont{caption}{size=\small}
+\setbeamerfont{caption name}{family=\small}
+
+% ------------------------------------------------------------------------------------------------
+%	TITLE PAGE
+% ------------------------------------------------------------------------------------------------
+
+\newcommand\AtPageUpperRight[1]{\AtPageUpperLeft{%
+ \put(\LenToUnit{\paperwidth},\LenToUnit{0\paperheight}){#1}%
+ }}%
+\newcommand\AtPageLowerRight[1]{\AtPageLowerLeft{%
+ \put(\LenToUnit{\paperwidth},\LenToUnit{0\paperheight}){#1}%
+ }}%
+
+%\AddToShipoutPictureBG*{% Add picture to current page
+%  \AtStockLowerLeft{% Add picture to lower-left corner of paper stock
+%    \includegraphics[width=\stockwidth,height=\stockheight]{tiger}}% http://latex.tug.org/texlive/devsrc/Master/texmf-dist/doc/generic/pstricks/images/tiger.eps
+%}
+
+% Titlepage structure
+\def\maketitle{\ifbeamer@inframe\titlepage\else\frame[plain]{\titlepage}\fi}
+\def\titlepage{\usebeamertemplate{title page}}
+\setbeamertemplate{title page}
+%\frame[plain]{\titlepage}
+{
+	% Add background to title page
+  	%\AddToShipoutPictureFG*{\includegraphics[width=\paperwidth]{backgroundiegs.pdf}}
+	\AddToShipoutPictureFG*{
+		\AtPageLowerRight{\put(-95, 0){
+			\includegraphics[width=.2\paperwidth]{title_graphic.pdf}}}}
+	%\AddToShipoutPictureFG*{\includegraphics[width=\paperwidth]{youngmetro_logo.png}}
+	\begin{minipage}[b][\paperheight]{\textwidth}
+	%\vspace*{5mm}
+	%\includegraphics[height=14mm]{./logo}\par
+	\vspace*{20mm}
+	\ifx\insertsubtitle\@empty%
+	\else%
+		{\usebeamerfont{title}\usebeamercolor[fg]{title}\MakeUppercase{\inserttitle}\parskip0pt\par}%
+	\fi%
+	\ifx\insertsubtitle\@empty%
+	\else%
+		{\usebeamerfont{subtitle}\usebeamercolor[fg]{subtitle}\insertsubtitle\par}%
+		\vspace*{5mm}
+	\fi%
+	\ifx\insertdate\@empty%
+	\else%
+		{\usebeamerfont{date}\usebeamercolor[fg]{date}\insertdate\par}%
+	\fi% 
+	
+	\vfill
+	
+	\ifx\insertauthor\@empty%
+	\else%
+		{\usebeamerfont{author}\usebeamercolor[fg]{author}\insertauthor\par}%
+	\fi%
+	\ifx\insertinstitut\@empty%
+	\else%
+		\vspace*{1mm}
+		{\usebeamerfont{institute}\usebeamercolor[sthlmDarkBlue]{institute}\insertinstitute\par}%
+	\fi% 
+	\vspace*{5mm}
+	\end{minipage}
+}
+
+% ------------------------------------------------------------------------------------------------
+%	SECTION PAGES
+% ------------------------------------------------------------------------------------------------
+
+% Make Sectionhead uppercase
+\newcommand{\insertsectionHEAD}{%
+	\expandafter\insertsectionHEADaux\insertsectionhead}
+	\newcommand{\insertsectionHEADaux}[3]{\MakeUppercase{#3}
+}
+
+\if@doSectionPage\@empty
+\else
+% Insert frame with section title at every section start
+\AtBeginSection[]
+{
+\begingroup
+\setbeamercolor{background canvas}{bg=sthlmDarkGrey}
+\begin{frame}[plain]
+\centering
+\vfill\usebeamerfont{section title}\textcolor{white}{\insertsectionHEAD}\vfill
+\end{frame}
+\endgroup
+}
+\fi
+
+% ------------------------------------------------------------------------------------------------
+%	HEADLINE
+% ------------------------------------------------------------------------------------------------
+\makeatletter
+\def\progressbar@progressbar{} % the progress bar
+\newcount\progressbar@tmpcounta% auxiliary counter
+\newcount\progressbar@tmpcountb% auxiliary counter
+\newdimen\progressbar@pbht %progressbar height
+\newdimen\progressbar@pbwd %progressbar width
+\newdimen\progressbar@tmpdim % auxiliary dimension
+
+\progressbar@pbwd=\paperwidth
+\progressbar@pbht=1.25ex
+
+% the progress bar
+\def\progressbar@progressbar{%
+    \progressbar@tmpcounta=\insertframenumber
+    \progressbar@tmpcountb=\inserttotalframenumber
+    \progressbar@tmpdim=\progressbar@pbwd
+%    \divide\progressbar@tmpdim by 100
+%    \multiply\progressbar@tmpdim by \progressbar@tmpcounta
+%    \divide\progressbar@tmpdim by \progressbar@tmpcountb
+%    \multiply\progressbar@tmpdim by 100
+  \begin{tikzpicture}[very thin]
+
+    \shade[top color=sthlmLightGrey,bottom color=sthlmLightGrey,middle color=sthlmLightGrey]
+      (0pt, 0pt) rectangle ++ (\progressbar@pbwd, \progressbar@pbht);
+
+      \shade[draw=sthlmDarkBlue,top color=sthlmDarkBlue,bottom color=sthlmDarkBlue,middle color=sthlmDarkBlue] %
+        (0pt, 0pt) rectangle ++ (\progressbar@tmpdim, \progressbar@pbht);
+
+  \end{tikzpicture}%
+}
+
+\setbeamertemplate{headline}{
+
+  \begin{beamercolorbox}[wd=\paperwidth,ht=1ex,center,dp=0ex]{sthlmLightGrey}%
+    \progressbar@progressbar%
+  \end{beamercolorbox}%
+}
+
+%% ------------------------------------------------------------------------------------------------
+%%	FRAME TITLE IN ALL CAPS (MAC: USE "? + ? + }" to uncomment section
+%% ------------------------------------------------------------------------------------------------
+%\setbeamertemplate{frametitle}
+%{
+%\begin{beamercolorbox}[wd=\paperwidth,leftskip=0.3cm,rightskip=0.3cm,ht=3ex,dp=1.5ex]{frametitle}
+%	 \usebeamerfont{frametitle}\MakeUppercase{\insertframetitle}%
+%\end{beamercolorbox}
+%}
+
+% ------------------------------------------------------------------------------------------------
+%	FRAME TITLE IN TITLE CASE (MAC: USE "? + ? + {" to comment-out section
+% ------------------------------------------------------------------------------------------------
+\setbeamertemplate{frametitle}
+{
+\begin{beamercolorbox}[sep=0ex,wd=\paperwidth,leftskip=0.25cm,rightskip=0.3cm,ht=2.75ex,dp=1.375ex]{frametitle}
+	 \usebeamerfont*{frametitle}{\insertframetitle}%
+\end{beamercolorbox}
+}
+
+
+%\setbeamertemplate{block alerted begin}
+%{
+%  \setbeamercolor{item}{parent=block body alerted}
+%  \par\vskip\medskipamount%
+%  \begin{beamercolorbox}[sep=.5ex,dp=0.6ex,leftskip=0.5ex,rightskip=0.5ex]{block title alerted}
+%    \usebeamerfont*{block title alerted}\insertblocktitle%
+%  \end{beamercolorbox}%
+%  {\parskip0pt\par}%
+%  {\nointerlineskip\vskip-0.5pt}%
+%  \usebeamerfont{block body alerted}%
+%  \begin{beamercolorbox}[sep=.5ex,dp=0.6ex,leftskip=0.5ex,rightskip=0.5ex,vmode]{block body alerted}%
+%}
+%\setbeamertemplate{block alerted end}
+%{\end{beamercolorbox}\vskip\smallskipamount}
+
+% ------------------------------------------------------------------------------------------------
+%	FOOTLINE
+% ------------------------------------------------------------------------------------------------
+\usenavigationsymbolstemplate{}
+\setbeamertemplate{footline}
+{
+  \leavevmode%
+  \hbox{%
+  \begin{beamercolorbox}[sep=0.25ex,wd=.333333\paperwidth,ht=3.25ex,dp=1.25ex,left]{author in head/foot}%
+    \usebeamerfont{author in head/foot}\insertshortauthor\expandafter\beamer@ifempty\expandafter{\beamer@shortinstitute}{}{~~(\insertshortinstitute)}
+  \end{beamercolorbox}%
+  \begin{beamercolorbox}[sep=0.5ex,wd=.333333\paperwidth,ht=3.25ex,dp=1.25ex,center]{title in head/foot}%
+    \usebeamerfont{title in head/foot}\insertshorttitle
+  \end{beamercolorbox}%
+  \begin{beamercolorbox}[sep=0.5ex,wd=.333333\paperwidth,ht=3.25ex,dp=1.25ex,right]{date in head/foot}%
+    \usebeamerfont{date in head/foot}\insertshortdate{}\hspace*{2em}
+    \insertframenumber{} / \inserttotalframenumber\hspace*{2ex} 
+  \end{beamercolorbox}}%
+  \vskip0pt%
+}
+
+% ------------------------------------------------------------------------------------------------
+%	CAPTIONS
+% ------------------------------------------------------------------------------------------------
+\setbeamertemplate{caption label separator}{: }
+
+% ------------------------------------------------------------------------------------------------
+%	BLOCKS
+% ------------------------------------------------------------------------------------------------
+\setbeamertemplate{block begin}
+{
+  \setbeamercolor{item}{parent=block body}
+  \par\vskip\medskipamount%
+  \begin{beamercolorbox}[sep=.5ex,dp=0.6ex,leftskip=0.5ex,rightskip=0.5ex]{block title}
+    \usebeamerfont*{block title}\insertblocktitle%
+  \end{beamercolorbox}%
+  {\parskip0pt\par}%
+  {\nointerlineskip\vskip-0.5pt}%
+  \usebeamerfont{block body}%
+  \begin{beamercolorbox}[sep=.5ex,dp=0.6ex,leftskip=0.5ex,rightskip=0.5ex,vmode]{block body}%
+}
+\setbeamertemplate{block end}  
+{\end{beamercolorbox}\vskip\smallskipamount}
+
+\setbeamertemplate{block alerted begin}
+{
+  \setbeamercolor{item}{parent=block body alerted}
+  \par\vskip\medskipamount%
+  \begin{beamercolorbox}[sep=.5ex,dp=0.6ex,leftskip=0.5ex,rightskip=0.5ex]{block title alerted}
+    \usebeamerfont*{block title alerted}\insertblocktitle%
+  \end{beamercolorbox}%
+  {\parskip0pt\par}%
+  {\nointerlineskip\vskip-0.5pt}%
+  \usebeamerfont{block body alerted}%
+  \begin{beamercolorbox}[sep=.5ex,dp=0.6ex,leftskip=0.5ex,rightskip=0.5ex,vmode]{block body alerted}%
+}
+\setbeamertemplate{block alerted end}
+{\end{beamercolorbox}\vskip\smallskipamount}
+
+\setbeamertemplate{block example begin}
+{
+  \par\vskip\medskipamount%
+  \begin{beamercolorbox}[sep=.5ex,dp=0.6ex,leftskip=0.5ex,rightskip=0.5ex]{block title example}
+    \usebeamerfont*{block title example}\insertblocktitle%
+  \end{beamercolorbox}%
+  {\parskip0pt\par}%
+  {\nointerlineskip\vskip-0.5pt}%
+  \usebeamerfont{block body example}%
+  \begin{beamercolorbox}[sep=.5ex,dp=0.6ex,leftskip=0.5ex,rightskip=0.5ex,vmode]{block body example}%
+}
+\setbeamertemplate{block example end}
+{\end{beamercolorbox}\vskip\smallskipamount}
+
+% ------------------------------------------------------------------------------------------------
+%	BLOCK HOVERING ABOVE THE SLIDE
+% ------------------------------------------------------------------------------------------------
+
+\newcommand<>{\hover}[1]{\uncover#2{%
+	\begin{tikzpicture}[remember picture,overlay]%
+	\draw[fill,opacity=0.4] (current page.south west)
+	rectangle (current page.north east);
+	\node at (current page.center) {#1};
+	\end{tikzpicture}}
+	}
+
+% ------------------------------------------------------------------------------------------------
+%	VERTICALLY ALIGNED COLUMNS
+% ------------------------------------------------------------------------------------------------
+	
+\usepackage{environ}% Required for \NewEnviron, i.e. to read the whole body of the environment
+
+\newcounter{acolumn}%  Number of current column
+\newlength{\acolumnmaxheight}%   Maximum column height
+
+
+% `column` replacement to measure height
+\newenvironment{@acolumn}[1]{%
+    \stepcounter{acolumn}%
+    \begin{lrbox}{\@tempboxa}%
+    \begin{minipage}{#1}%
+}{%
+    \end{minipage}
+    \end{lrbox}
+    \@tempdimc=\dimexpr\ht\@tempboxa+\dp\@tempboxa\relax
+    % Save height of this column:
+    \expandafter\xdef\csname acolumn@height@\roman{acolumn}\endcsname{\the\@tempdimc}%
+    % Save maximum height
+    \ifdim\@tempdimc>\acolumnmaxheight
+        \global\acolumnmaxheight=\@tempdimc
+    \fi
+}
+
+% `column` wrapper which sets the height beforehand
+\newenvironment{@@acolumn}[1]{%
+    \stepcounter{acolumn}%
+    % The \autoheight macro contains a \vspace macro with the maximum height minus the natural column height
+    \edef\autoheight{\noexpand\vspace*{\dimexpr\acolumnmaxheight-\csname acolumn@height@\roman{acolumn}\endcsname\relax}}%
+    % Call original `column`:
+    \orig@column{#1}%
+}{%
+    \endorig@column
+}
+
+% Save orignal `column` environment away
+\let\orig@column\column
+\let\endorig@column\endcolumn
+
+% `columns` variant with automatic height adjustment
+\NewEnviron{acolumns}[1][]{%
+    % Init vars:
+    \setcounter{acolumn}{0}%
+    \setlength{\acolumnmaxheight}{0pt}%
+    \def\autoheight{\vspace*{0pt}}%
+    % Set `column` environment to special measuring environment
+    \let\column\@acolumn
+    \let\endcolumn\end@acolumn
+    \BODY% measure heights
+    % Reset counter for second processing round
+    \setcounter{acolumn}{0}%
+    % Set `column` environment to wrapper
+    \let\column\@@acolumn
+    \let\endcolumn\end@@acolumn
+    % Finally process columns now for real
+    \begin{columns}[#1]%
+        \BODY
+    \end{columns}%
+}
+
+% ------------------------------------------------------------------------------------------------
+%	IMAGES
+% ------------------------------------------------------------------------------------------------
+
+\newbox\mytempbox
+\newdimen\mytempdimen
+
+\newcommand\includegraphicscopyright[3][]{%
+  \leavevmode\vbox{\vskip3pt\raggedright\setbox\mytempbox=\hbox{\includegraphics[#1]{#2}}%
+    \mytempdimen=\wd\mytempbox\box\mytempbox\par\vskip1pt%
+    \usebeamerfont{copyright text}{\usebeamercolor[fg]{copyright text}{\vbox{\hsize=\mytempdimen#3}}}\vskip3pt%
+}}
+
+\begin{document}
+
+% Hide progress bar and footline on titlepage
+\begin{frame}[plain]
+\titlepage
+\end{frame}
+
+\begin{frame}{Estrutura do artigo}
+
+\begin{block}{Pergunta}
+Como e por que incluir o investimento residencial em um modelo de crescimento heterodoxo?
+\end{block}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Contextualização empírica
+\item
+  Revisão da literatura
+\item
+  Modelo SFC-SSM
+\end{enumerate}
+
+\begin{alert}{Atenção}
+Resultado parcial da dissertação em andamento
+\end{alert}
+
+\end{frame}
+
+\begin{frame}{Imóveis na metodologia SFC}
+
+\begin{figure}
+\centering
+\includegraphics{./figs/Heatmap.png}
+\caption{}
+\end{figure}
+
+\end{frame}
+
+\begin{frame}{\textbf{Contextualização: EUA}}
+
+\begin{figure}
+\centering
+\includegraphics{figs/Empiria_AKB.png}
+\caption{}
+\end{figure}
+
+\end{frame}
+
+\begin{frame}{Revisão da literatura}
+
+\begin{alert}{Problema deixado por Harrod}
+Quais as condições para que demanda e capacidade produtiva cresçam dinamicamente equilibradas?
+\end{alert}
+
+Alternativas dentro da heterodoxia para resolver este problema:
+
+\begin{itemize}
+\tightlist
+\item
+  Cambridge
+\item
+  Kaleckiano tradicional (Oxford)
+\item
+  Supermultiplicador Sraffiano (SSM)
+\item
+  Kaleckiano híbrido (Kaleckiano + SSM)
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Selecionando o modelo}
+
+\begin{figure}[htb]
+    \label{diagrama}
+    \begin{center}
+    \resizebox{\textwidth}{!}{%
+\begin{tikzpicture}[thick]
+    \path[draw] (-4,0)  coordinate [label= left:Distribuição] (A)
+
+            -- ( 0,4)  coordinate [label=above:Estabilidade] (C)
+            -- ( 4,0)  coordinate [label=right:$u_N$] (B)
+            -- cycle;
+    \foreach \point in {A,B,C}
+    \draw
+        -- (0,2) node[anchor=north]{Supermultiplicador};
+    \draw
+        -- (-5,-0.15) node[anchor=north]{exógena};
+    \draw
+        -- (0,1.5) node[anchor=north]{Sraffiano};
+    \draw
+        -- (-1.75,3.2) node[anchor=north, rotate=45]{Oxford};
+    \draw
+        -- (1.75,3.2) node[anchor=north, rotate=-45]{Cambridge};
+    \draw
+        -- (0,0) node[anchor=north]{Harrod};
+\end{tikzpicture}
+}
+\end{center}
+\end{figure}
+
+\end{frame}
+
+\section{Modelo SFC-SSM}\label{modelo-sfc-ssm}
+
+\begin{frame}{Matriz dos estoques}
+
+\begin{figure}
+\centering
+\includegraphics{./figs/Estoques.png}
+\caption{Imóveis na matriz de estoques}
+\end{figure}
+
+\end{frame}
+
+\begin{frame}{Matriz dos fluxos}
+
+\begin{figure}
+\centering
+\includegraphics{./figs/Fluxos.png}
+\caption{}
+\end{figure}
+
+\end{frame}
+
+\begin{frame}{Principais Equações}
+
+\[
+Y = 
+\begin{cases}
+C  = \alpha\cdot W\\
+I_f = h\cdot Y \hspace{5cm} \dot h = h_{t-1}\cdot\gamma_u (u-u_N)\\
+I_h = Z = (1+\overline g_Z)I_{h_{t-1}} \hspace{2.5cm} \Delta MO = I_h
+\end{cases}
+\]
+
+\[
+K = K_f + K_h
+\]
+
+\end{frame}
+
+\begin{frame}{Representação do modelo}
+
+\begin{figure}[h]
+
+\center
+\subfigure[ref1][Fluxos]{\includegraphics[width=6.5cm]{figs/DAG.png}}
+\quad
+\subfigure[ref2][Fluxos-Estoques]{\includegraphics[width=6.5cm]{figs/DAGEstoques.png}}
+\end{figure}
+
+\end{frame}
+
+\begin{frame}{Solução analítica}
+
+\[
+Y = \frac{1}{1-\omega -h_t}\cdot I_h
+\]
+
+\[
+g = g_Z + \frac{h_{t-1}\cdot \gamma_u (u-u_N)}{1-\omega-h_t} 
+\]
+
+\[
+u\to u_N: g \to g_Z \hspace{1cm} h^* = \frac{g_Z\cdot v}{u_N} \hspace{1cm} g_K = f\frac{\overline s\cdot \overline u_N}{\overline v}
+\]
+
+\[
+\frac{K_h}{K} = 1 - \frac{h^*}{(1 - \omega)}
+\]
+
+\end{frame}
+
+\begin{frame}{Choque em \(g_Z\)}
+
+\begin{figure}
+\centering
+\includegraphics{figs/Shock_1.png}
+\caption{}
+\end{figure}
+
+\end{frame}
+
+\begin{frame}{Conclusões}
+
+\begin{itemize}
+\item
+  Nosso modelo reproduz as principais características do
+  supermultiplicador sraffiano
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Maior wage-share não afeta a taxa de crescimento de longo prazo
+  \item
+    Maior taxa de juros gera maior endividamento das famílias
+  \end{itemize}
+\item
+  \(\Uparrow g_Z \Rightarrow \Uparrow k\)
+\end{itemize}
+
+\begin{alert}{Próximos passos} explorar os determinantes do investimento residencial
+\end{alert}
+
+\end{frame}
+
+\section{Obrigado!}\label{obrigado}
+
+\begin{frame}{Unindo os pontos}
+
+\begin{alert}{Por que SSM?} Por dar a devida atenção aos gastos autônomos e por ser 
+capaz de replicar
+alguns fatos estilizados.
+\end{alert}
+
+\begin{alert}{Por que SFC?} 
+\begin{itemize}
+\item Rigor contábil 
+\item Capacidade de mapear os fluxos e estoques
+\end{itemize}
+\end{alert}
+
+\begin{alert}{Por que SFC-SSM?} Por adicionar um tratamento adequado das relações financeiras no SSM.
+\end{alert}
+
+\end{frame}
+
+\begin{frame}{Solução analítica de \(k\): Passo a passo}
+
+\[
+k = \frac{K_f}{K}
+\]
+
+\[
+\frac{K_f}{K_h} = \frac{g_Z\cdot v}{u_N\cdot (1 - \omega - h^*)}
+\]
+
+\[
+\frac{K_f}{K_h} = \frac{h^*}{(1 - \omega - h^*)}
+\]
+
+\[
+\frac{K_h}{K} = 1 - \frac{h^*}{(1 - \omega)}
+\]
+
+\end{frame}
+
+\begin{frame}{Choque em \(\omega\)}
+
+\begin{figure}
+\centering
+\includegraphics{figs/Shock_2.png}
+\caption{}
+\end{figure}
+
+\end{frame}
+
+\begin{frame}{Choque em \(r_m\)}
+
+\begin{figure}
+\centering
+\includegraphics{figs/Shock_3.png}
+\caption{}
+\end{figure}
+
+\end{frame}
+
+\begin{frame}{Referências centrais}
+
+Serrano (1995): Long Period Effective Demand and the Sraffian
+Supermultiplier
+
+Leamer (2007): Housing \textbf{IS} the Business Cycle
+
+Teixeira (2015): Crescimento liderado pela demanda na economia
+norte-americana nos anos 2000: uma análise a partir do
+supermultiplicador sraffiano com inflação de ativos
+
+Brochier \& Macedo e Silva (2018): A supermultiplier Stock-Flow
+Consistent model: the ``return'' of the paradoxes of thrift and costs in
+the long run?
+
+\end{frame}
+
+\end{document}
