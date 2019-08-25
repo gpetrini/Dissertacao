@@ -34,9 +34,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.2}Investimento residencial e a lacuna heterodoxa}{60}{section.3.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Modelo}{65}{section.3.3}% 
+\contentsline {section}{\numberline {3.3}Modelo}{66}{section.3.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Considera\IeC {\c c}\IeC {\~o}es finais: Da taxa pr\IeC {\'o}rpia a infla\IeC {\c c}\IeC {\~a}o de ativos}{70}{section.3.4}% 
+\contentsline {section}{\numberline {3.4}Considera\IeC {\c c}\IeC {\~o}es finais: Da taxa pr\IeC {\'o}pria aos pre\IeC {\c c}os dos im\IeC {\'o}veis}{70}{section.3.4}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\chapternumberline {4}Modelo Simplificado}{75}{chapter.4}% 
 \defcounter {refsection}{0}\relax 
@@ -50,18 +50,18 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.5}Conclus\IeC {\~o}es preliminares: Rumo a endogeiniza\IeC {\c c}\IeC {\~a}o dos pre\IeC {\c c}os}{93}{section.4.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Refer\^encias}{96}{section*.37}% 
+\contentsline {chapter}{Refer\^encias}{96}{section*.38}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Ap\IeC {\^e}ndices}{110}{section*.37}% 
+\contentsline {chapter}{Ap\IeC {\^e}ndices}{108}{section*.38}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {appendix}{\chapternumberline {A}\textit {Fraction} e o investimento residencial}{110}{appendix.A}% 
+\contentsline {appendix}{\chapternumberline {A}\textit {Fraction} e o investimento residencial}{108}{appendix.A}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Gastos ``despoupadores''}{110}{section.A.1}% 
+\contentsline {section}{\numberline {A.1}Gastos ``despoupadores''}{108}{section.A.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}Investimento residencial}{111}{section.A.2}% 
+\contentsline {section}{\numberline {A.2}Investimento residencial}{109}{section.A.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Anexos}{113}{equation.A.2.2}% 
+\contentsline {chapter}{Anexos}{111}{equation.A.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {appendix}{\chapternumberline {I}Licen\IeC {\c c}a}{113}{appendix.A}% 
+\contentsline {appendix}{\chapternumberline {I}Licen\IeC {\c c}a}{111}{appendix.A}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {I.1}Sobre a licen\IeC {\c c}a dessa obra}{113}{section.A.1}% 
+\contentsline {section}{\numberline {I.1}Sobre a licen\IeC {\c c}a dessa obra}{111}{section.A.1}% 

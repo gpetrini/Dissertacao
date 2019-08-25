@@ -66,40 +66,6 @@
       \verb https://journals.sagepub.com/doi/abs/10.1179/102452908X289802
       \endverb
     \endentry
-    \entry{alhowaish_causality_2015}{article}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=d9bd274ba2477ea56e0882b676336fda}{%
-           family={Alhowaish},
-           familyi={A\bibinitperiod},
-           given={Albdulkarim\bibnamedelima K},
-           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{d9bd274ba2477ea56e0882b676336fda}
-      \strng{fullhash}{d9bd274ba2477ea56e0882b676336fda}
-      \strng{bibnamehash}{d9bd274ba2477ea56e0882b676336fda}
-      \strng{authorbibnamehash}{d9bd274ba2477ea56e0882b676336fda}
-      \strng{authornamehash}{d9bd274ba2477ea56e0882b676336fda}
-      \strng{authorfullhash}{d9bd274ba2477ea56e0882b676336fda}
-      \field{sortinit}{A}
-      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{International Real Estate Review}
-      \field{title}{Causality between the {Construction} {Sector} and {Economic} {Growth}: {The} {Case} of {Saudi} {Arabia}}
-      \field{year}{2015}
-      \field{pages}{17}
-      \range{pages}{1}
-      \verb{file}
-      \verb Alhowaish - Causality between the Construction Sector and Econ.pdf:/home/gpetrini/Zotero/storage/ICIENA3J/Alhowaish - Causality between the Construction Sector and Econ.pdf:application/pdf
-      \endverb
-      \keyw{Fichado}
-    \endentry
     \entry{allain_macroeconomic_2014}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=b0fc47959800a45f0c22ee1be6802558}{%
@@ -403,107 +369,6 @@
       \verb Amadeo - 1986 - The role of capacity utilization in long-period an.pdf:/home/gpetrini/Zotero/storage/TAQEJZJW/Amadeo - 1986 - The role of capacity utilization in long-period an.pdf:application/pdf;Amadeo (1986).md:/home/gpetrini/Zotero/storage/8LM6YKRD/Amadeo (1986).md:text/markdown;Full Text:/home/gpetrini/Zotero/storage/2WA3FLJY/Amadeo - 1986 - The role of capacity utilization in long-period an.pdf:application/pdf
       \endverb
     \endentry
-    \entry{andrews_real_2010}{report}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=5fb33f4b76a882ccd20439e4aad8a5a0}{%
-           family={Andrews},
-           familyi={A\bibinitperiod},
-           given={D.},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{5fb33f4b76a882ccd20439e4aad8a5a0}
-      \strng{fullhash}{5fb33f4b76a882ccd20439e4aad8a5a0}
-      \strng{bibnamehash}{5fb33f4b76a882ccd20439e4aad8a5a0}
-      \strng{authorbibnamehash}{5fb33f4b76a882ccd20439e4aad8a5a0}
-      \strng{authornamehash}{5fb33f4b76a882ccd20439e4aad8a5a0}
-      \strng{authorfullhash}{5fb33f4b76a882ccd20439e4aad8a5a0}
-      \field{sortinit}{A}
-      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{number}{831}
-      \field{shorttitle}{Real {House} {Prices} in {OECD} {Countries}}
-      \field{title}{Real {House} {Prices} in {OECD} {Countries}: {The} {Role} of {Demand} {Shocks} and {Structural} and {Policy} {Factors}}
-      \field{type}{{OECD} {Economics} {Department} {Working} {Papers}}
-      \field{urlday}{16}
-      \field{urlmonth}{7}
-      \field{urlyear}{2019}
-      \field{year}{2010}
-      \field{urldateera}{ce}
-      \verb{doi}
-      \verb 10.1787/5km33bqzhbzr-en
-      \endverb
-      \verb{urlraw}
-      \verb https://www.oecd-ilibrary.org/economics/real-house-prices-in-oecd-countries_5km33bqzhbzr-en
-      \endverb
-      \verb{url}
-      \verb https://www.oecd-ilibrary.org/economics/real-house-prices-in-oecd-countries_5km33bqzhbzr-en
-      \endverb
-    \endentry
-    \entry{arestis_economic_2019}{article}{}
-      \name{author}{2}{}{%
-        {{uniquename=0,uniquepart=base,hash=75499a30114e2f80e2490b9e90512b74}{%
-           family={Arestis},
-           familyi={A\bibinitperiod},
-           given={Philip},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=5082fbe93610dc589acfff29f0676d9c}{%
-           family={Gonzalez‐Martinez},
-           familyi={G\bibinitperiod},
-           given={Ana\bibnamedelima Rosa},
-           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{3e0f842998aa5fe58a89576e75418bba}
-      \strng{fullhash}{3e0f842998aa5fe58a89576e75418bba}
-      \strng{bibnamehash}{3e0f842998aa5fe58a89576e75418bba}
-      \strng{authorbibnamehash}{3e0f842998aa5fe58a89576e75418bba}
-      \strng{authornamehash}{3e0f842998aa5fe58a89576e75418bba}
-      \strng{authorfullhash}{3e0f842998aa5fe58a89576e75418bba}
-      \field{sortinit}{A}
-      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{Demographic and institutional elements, as important drivers of the housing market, should not be neglected because it is not only financial and monetary elements that matter in the case of the housing market. In this context, one relationship, which still remains unclear, is the relationship between the housing and the labour markets. Some research has been undertaken to support the hypothesis that high rates of homeownership lead to high unemployment via increases in the reservation wage. However, further research is needed to address the possible implications of the institutional settings of the labour market in the dynamics of the housing market. The aim of this paper is to bring some light on the link between both markets. In particular, this contribution explains how the housing cycle could be “amplified” via a new channel, that is, economic precariousness, which is closely related to job insecurity. Subsequently, we provide evidence in the case of five developed economies, Ireland, the Netherlands, Spain, the United Kingdom, and the United States, over the period 1985–2013.}
-      \field{issn}{1099-1158}
-      \field{journaltitle}{International Journal of Finance \& Economics}
-      \field{number}{2}
-      \field{shorttitle}{Economic precariousness}
-      \field{title}{Economic precariousness: {A} new channel in the housing market cycle}
-      \field{urlday}{16}
-      \field{urlmonth}{7}
-      \field{urlyear}{2019}
-      \field{volume}{24}
-      \field{year}{2019}
-      \field{urldateera}{ce}
-      \field{pages}{1030\bibrangedash 1043}
-      \range{pages}{14}
-      \verb{doi}
-      \verb 10.1002/ijfe.1716
-      \endverb
-      \verb{file}
-      \verb Full Text PDF:/home/gpetrini/Zotero/storage/FM24H2XP/Arestis e Gonzalez‐Martinez - 2019 - Economic precariousness A new channel in the hous.pdf:application/pdf;Snapshot:/home/gpetrini/Zotero/storage/NMJRKTF2/ijfe.html:text/html
-      \endverb
-      \verb{urlraw}
-      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/ijfe.1716
-      \endverb
-      \verb{url}
-      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/ijfe.1716
-      \endverb
-      \keyw{cointegration techniques,economic precariousness,house prices,job insecurity,labour markets}
-    \endentry
     \entry{arestis_residential_2015}{report}{}
       \name{author}{2}{}{%
         {{uniquename=0,uniquepart=base,hash=75499a30114e2f80e2490b9e90512b74}{%
@@ -615,48 +480,6 @@
       \endverb
       \verb{url}
       \verb https://academic.oup.com/cje/article/20/5/539/1676084
-      \endverb
-    \endentry
-    \entry{arestis_u.s._2008}{article}{}
-      \name{author}{2}{}{%
-        {{uniquename=0,uniquepart=base,hash=75499a30114e2f80e2490b9e90512b74}{%
-           family={Arestis},
-           familyi={A\bibinitperiod},
-           given={Philip},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=3e316a1674ecbed02a757101d0eff320}{%
-           family={Karakitsos},
-           familyi={K\bibinitperiod},
-           given={Elias},
-           giveni={E\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{86d29ca8ed99581729f01da5651d3a69}
-      \strng{fullhash}{86d29ca8ed99581729f01da5651d3a69}
-      \strng{bibnamehash}{86d29ca8ed99581729f01da5651d3a69}
-      \strng{authorbibnamehash}{86d29ca8ed99581729f01da5651d3a69}
-      \strng{authornamehash}{86d29ca8ed99581729f01da5651d3a69}
-      \strng{authorfullhash}{86d29ca8ed99581729f01da5651d3a69}
-      \field{sortinit}{A}
-      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{This paper attempts to quantify the U.S. housing market slump and its likely impact on consumption. In doing so, it bypasses the traditional approach that suggests that there is no nationwide housing market but a compendium of segmented markets. The paper is not an exercise in forecasting but an illustration of a different approach to modeling the housing market. An important implication of the analysis, which is related to current developments, is that the subprime market may spill over to equities through two channelsâa portfolio substitution effect and, also, by eroding the capital base of commercial and investment banks.}
-      \field{journaltitle}{Journal of Post Keynesian Economics}
-      \field{month}{4}
-      \field{title}{The {U}.{S}. housing slump and the consumer}
-      \field{volume}{30}
-      \field{year}{2008}
-      \field{pages}{335\bibrangedash 352}
-      \range{pages}{18}
-      \verb{doi}
-      \verb 10.2753/PKE0160-3477300302
-      \endverb
-      \verb{file}
-      \verb Arestis e Karakitsos - 2008 - The U.S. housing slump and the consumer.pdf:/home/gpetrini/Zotero/storage/Q6MGE9W5/Arestis e Karakitsos - 2008 - The U.S. housing slump and the consumer.pdf:application/pdf
       \endverb
     \endentry
     \entry{arestis_effectiveness_2012}{incollection}{}
@@ -835,69 +658,6 @@
       \endverb
       \keyw{background risks,housing demand,life-cycle model,Portfolio choice}
     \endentry
-    \entry{ascari_booms_2018}{article}{}
-      \name{author}{3}{}{%
-        {{uniquename=0,uniquepart=base,hash=91c395c1fd6483448eb32ceabb8da2d3}{%
-           family={Ascari},
-           familyi={A\bibinitperiod},
-           given={G.},
-           giveni={G\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=6ce45a1695308a93b3c1749805b02fd3}{%
-           family={Pecora},
-           familyi={P\bibinitperiod},
-           given={N.},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=7a4a06d65972b9c9ba937eaac198cd77}{%
-           family={Spelta},
-           familyi={S\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{04aafd28dda5e5eca70aab3422da4efb}
-      \strng{fullhash}{04aafd28dda5e5eca70aab3422da4efb}
-      \strng{bibnamehash}{04aafd28dda5e5eca70aab3422da4efb}
-      \strng{authorbibnamehash}{04aafd28dda5e5eca70aab3422da4efb}
-      \strng{authornamehash}{04aafd28dda5e5eca70aab3422da4efb}
-      \strng{authorfullhash}{04aafd28dda5e5eca70aab3422da4efb}
-      \field{sortinit}{A}
-      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{We develop a dynamic partial equilibrium model of the housing market, in which the dynamics of the house price is determined by the interaction between chartists and fundamentalists. The model endogenously generates episodes of boom and bust in the house price and can replicate the recent US house price dynamics, and points to endogenous and exogenous behavioral factors as the main determinants of such dynamics.}
-      \field{issn}{1365-1005, 1469-8056}
-      \field{journaltitle}{Macroeconomic Dynamics}
-      \field{number}{7}
-      \field{title}{Booms {And} {Busts} {In} {A} {Housing} {Market} {With} {Heterogeneous} {Agents}}
-      \field{urlday}{4}
-      \field{urlmonth}{7}
-      \field{urlyear}{2019}
-      \field{volume}{22}
-      \field{year}{2018}
-      \field{urldateera}{ce}
-      \field{pages}{1808\bibrangedash 1824}
-      \range{pages}{17}
-      \verb{doi}
-      \verb 10.1017/S1365100516000882
-      \endverb
-      \verb{file}
-      \verb Full Text PDF:/home/gpetrini/Zotero/storage/5YZ297CJ/Ascari et al. - 2018 - BOOMS AND BUSTS IN A HOUSING MARKET WITH HETEROGEN.pdf:application/pdf;Snapshot:/home/gpetrini/Zotero/storage/PY7JAKSS/1437C5668DC0A692D494F521317EF915.html:text/html
-      \endverb
-      \verb{urlraw}
-      \verb https://www.cambridge.org/core/journals/macroeconomic-dynamics/article/booms-and-busts-in-a-housing-market-with-heterogeneous-agents/1437C5668DC0A692D494F521317EF915
-      \endverb
-      \verb{url}
-      \verb https://www.cambridge.org/core/journals/macroeconomic-dynamics/article/booms-and-busts-in-a-housing-market-with-heterogeneous-agents/1437C5668DC0A692D494F521317EF915
-      \endverb
-      \keyw{Boom-Bust,Fichado,Heterogeneous Expectations,Housing Market}
-    \endentry
     \entry{asimakopulos_kalecki_1983}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=457de0ec6512ff6e21417c2040d788b0}{%
@@ -988,160 +748,6 @@
       \verb{url}
       \verb https://www.jstor.org/stable/4538362
       \endverb
-    \endentry
-    \entry{ayuso_house_2006}{report}{}
-      \name{author}{2}{}{%
-        {{uniquename=0,uniquepart=base,hash=5910988cc7dbc61d4b13ebc943bb30af}{%
-           family={Ayuso},
-           familyi={A\bibinitperiod},
-           given={Juan},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=eb06adccf953ac0252ab418c8d728e2a}{%
-           family={Restoy},
-           familyi={R\bibinitperiod},
-           given={Fernando},
-           giveni={F\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{institution}{1}{%
-        {Social Science Research Network}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \list{location}{1}{%
-        {Rochester, NY}%
-      }
-      \strng{namehash}{c62e4c582a3d72a0528dc97806f10c37}
-      \strng{fullhash}{c62e4c582a3d72a0528dc97806f10c37}
-      \strng{bibnamehash}{c62e4c582a3d72a0528dc97806f10c37}
-      \strng{authorbibnamehash}{c62e4c582a3d72a0528dc97806f10c37}
-      \strng{authornamehash}{c62e4c582a3d72a0528dc97806f10c37}
-      \strng{authorfullhash}{c62e4c582a3d72a0528dc97806f10c37}
-      \field{sortinit}{A}
-      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{We estimate alternative price to rent ratios in the Spanish housing market by considering different stochastic discount factors in present value models similar to those used in the financial literature but where the higher rigidity that characterises this market is taken into account. We identify three robust across model regularities: i) the increase in the price to rent ratio since the late nineties helped at first to restore equilibrium, ii) further increases in house prices raised the ratio between 24\% and 32\% above equilibrium by 2004, although iii) at that time the ratio was only around 2\% above its short term adjustment path towards a (new) long run equilibrium.}
-      \field{number}{ID 901155}
-      \field{shorttitle}{House {Prices} and {Rents} in {Spain}}
-      \field{title}{House {Prices} and {Rents} in {Spain}: {Does} the {Discount} {Factor} {Matter}?}
-      \field{type}{{SSRN} {Scholarly} {Paper}}
-      \field{urlday}{16}
-      \field{urlmonth}{7}
-      \field{urlyear}{2019}
-      \field{year}{2006}
-      \field{urldateera}{ce}
-      \verb{file}
-      \verb Snapshot:/home/gpetrini/Zotero/storage/662T3NWL/papers.html:text/html
-      \endverb
-      \verb{urlraw}
-      \verb https://papers.ssrn.com/abstract=901155
-      \endverb
-      \verb{url}
-      \verb https://papers.ssrn.com/abstract=901155
-      \endverb
-      \keyw{Housing,overvaluation,price-to-rent ratio}
-    \endentry
-    \entry{de_bandt_international_2010}{incollection}{}
-      \name{author}{3}{}{%
-        {{uniquename=0,uniquepart=base,hash=0c4828d2896c6d8205f3c9d08e7f2663}{%
-           family={Bandt},
-           familyi={B\bibinitperiod},
-           given={Olivier},
-           giveni={O\bibinitperiod},
-           givenun=0,
-           prefix={de},
-           prefixi={d\bibinitperiod},
-           prefixun=0}}%
-        {{uniquename=0,uniquepart=base,hash=ab515ee3c7956d6d0c6d123a5c89da3c}{%
-           family={Barhoumi},
-           familyi={B\bibinitperiod},
-           given={Karim},
-           giveni={K\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=ed1ce5699bdc192222c317dd63b8db77}{%
-           family={Bruneau},
-           familyi={B\bibinitperiod},
-           given={Catherine},
-           giveni={C\bibinitperiod},
-           givenun=0}}%
-      }
-      \name{editor}{4}{}{%
-        {{hash=0c4828d2896c6d8205f3c9d08e7f2663}{%
-           family={Bandt},
-           familyi={B\bibinitperiod},
-           given={Olivier},
-           giveni={O\bibinitperiod},
-           prefix={de},
-           prefixi={d\bibinitperiod}}}%
-        {{hash=e68f233df3e4add7fc514353fba0362a}{%
-           family={Knetsch},
-           familyi={K\bibinitperiod},
-           given={Thomas},
-           giveni={T\bibinitperiod}}}%
-        {{hash=73aec283476198a992592d9f0b080ab3}{%
-           family={Peñalosa},
-           familyi={P\bibinitperiod},
-           given={Juan},
-           giveni={J\bibinitperiod}}}%
-        {{hash=a71a99343fc2c1c06e181342c43eedcc}{%
-           family={Zollino},
-           familyi={Z\bibinitperiod},
-           given={Francesco},
-           giveni={F\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \list{location}{1}{%
-        {Berlin, Heidelberg}%
-      }
-      \list{publisher}{1}{%
-        {Springer Berlin Heidelberg}%
-      }
-      \strng{namehash}{54ed370c803284f560a5d1cbf22324c7}
-      \strng{fullhash}{54ed370c803284f560a5d1cbf22324c7}
-      \strng{bibnamehash}{54ed370c803284f560a5d1cbf22324c7}
-      \strng{authorbibnamehash}{54ed370c803284f560a5d1cbf22324c7}
-      \strng{authornamehash}{54ed370c803284f560a5d1cbf22324c7}
-      \strng{authorfullhash}{54ed370c803284f560a5d1cbf22324c7}
-      \strng{editorbibnamehash}{92c8d0a6720b30141ace0a6f1d50d3c6}
-      \strng{editornamehash}{92c8d0a6720b30141ace0a6f1d50d3c6}
-      \strng{editorfullhash}{bbdda415d208cdce86dd66282e2106ea}
-      \field{sortinit}{B}
-      \field{sortinithash}{276475738cc058478c1677046f857703}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{In order to assess transmission mechanisms between global and domestic house prices, and possibly contagion effects, we use a large database of macroeconomic variables for OECD countries.We extract common factors to summarize the comovements of the variables and include them in stationary FAVAR models. We mainly focus on the “pandemic“ view of contagion where local shocks, originating from a country or a local housing market, spread out to other domestic housing markets. An interesting finding is that, even allowing for other channels of international transmission (through global interest rates or activity), the US real house prices, which appear to be exogenous in the US dynamics, unidirectionally causes the international house price factor, which in turn causes the domestic real house price growth for several countries. The channels of contagion from the US appears therefore to be either direct, through house prices (in particular in the UK or Spain), or indirect through other variables.}
-      \field{booktitle}{Housing {Markets} in {Europe}: {A} {Macroeconomic} {Perspective}}
-      \field{isbn}{978-3-642-15340-2}
-      \field{title}{The {International} {Transmission} of {House} {Price} {Shocks}}
-      \field{urlday}{19}
-      \field{urlmonth}{7}
-      \field{urlyear}{2019}
-      \field{year}{2010}
-      \field{urldateera}{ce}
-      \field{pages}{129\bibrangedash 158}
-      \range{pages}{30}
-      \verb{doi}
-      \verb 10.1007/978-3-642-15340-2_7
-      \endverb
-      \verb{file}
-      \verb Springer Full Text PDF:/home/gpetrini/Zotero/storage/VWLMZNDH/de Bandt et al. - 2010 - The International Transmission of House Price Shoc.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1007/978-3-642-15340-2_7
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1007/978-3-642-15340-2_7
-      \endverb
-      \keyw{factor models,housing,Vevtor Autoregressive models}
     \endentry
     \entry{baranzini_cambridge_2013}{incollection}{}
       \name{author}{2}{}{%
@@ -1700,152 +1306,6 @@
       \verb https://academic.oup.com/cje/advance-article/doi/10.1093/cje/bey008/5033971
       \endverb
     \endentry
-    \entry{burnside_understanding_2016}{article}{}
-      \name{author}{3}{}{%
-        {{uniquename=0,uniquepart=base,hash=960d8816892f54818afdd199f6b82e43}{%
-           family={Burnside},
-           familyi={B\bibinitperiod},
-           given={Craig},
-           giveni={C\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=3c07f9d81d480d76a0e2d1ca23c79c74}{%
-           family={Eichenbaum},
-           familyi={E\bibinitperiod},
-           given={Martin},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=65fea4c7ef2b4aa3f90e7f9ec562b644}{%
-           family={Rebelo},
-           familyi={R\bibinitperiod},
-           given={Sergio},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{74ceffef1326dbbc0488e789c614134b}
-      \strng{fullhash}{74ceffef1326dbbc0488e789c614134b}
-      \strng{bibnamehash}{74ceffef1326dbbc0488e789c614134b}
-      \strng{authorbibnamehash}{74ceffef1326dbbc0488e789c614134b}
-      \strng{authornamehash}{74ceffef1326dbbc0488e789c614134b}
-      \strng{authorfullhash}{74ceffef1326dbbc0488e789c614134b}
-      \field{sortinit}{B}
-      \field{sortinithash}{276475738cc058478c1677046f857703}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Political Economy}
-      \field{number}{4}
-      \field{title}{Understanding booms and busts in housing markets}
-      \field{volume}{124}
-      \field{year}{2016}
-      \field{pages}{1088\bibrangedash 1147}
-      \range{pages}{60}
-      \verb{file}
-      \verb Full Text:/home/gpetrini/Zotero/storage/XL8S5SYC/Burnside et al. - 2016 - Understanding booms and busts in housing markets.pdf:application/pdf;Snapshot:/home/gpetrini/Zotero/storage/RVBZVGRA/686732.html:text/html
-      \endverb
-      \keyw{Fichado}
-    \endentry
-    \entry{campbell_long_1963}{article}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=f54398aa0dd98fdc90cfdeb5024421e3}{%
-           family={Campbell},
-           familyi={C\bibinitperiod},
-           given={Burnham\bibnamedelima O.},
-           giveni={B\bibinitperiod\bibinitdelim O\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{f54398aa0dd98fdc90cfdeb5024421e3}
-      \strng{fullhash}{f54398aa0dd98fdc90cfdeb5024421e3}
-      \strng{bibnamehash}{f54398aa0dd98fdc90cfdeb5024421e3}
-      \strng{authorbibnamehash}{f54398aa0dd98fdc90cfdeb5024421e3}
-      \strng{authornamehash}{f54398aa0dd98fdc90cfdeb5024421e3}
-      \strng{authorfullhash}{f54398aa0dd98fdc90cfdeb5024421e3}
-      \field{sortinit}{C}
-      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{issn}{0002-8282}
-      \field{journaltitle}{The American Economic Review}
-      \field{number}{2}
-      \field{shorttitle}{Long {Swings} in {Residential} {Construction}}
-      \field{title}{Long {Swings} in {Residential} {Construction}: {The} {Postwar} {Experience}}
-      \field{urlday}{12}
-      \field{urlmonth}{7}
-      \field{urlyear}{2019}
-      \field{volume}{53}
-      \field{year}{1963}
-      \field{urldateera}{ce}
-      \field{pages}{508\bibrangedash 518}
-      \range{pages}{11}
-      \verb{urlraw}
-      \verb https://www.jstor.org/stable/1823891
-      \endverb
-      \verb{url}
-      \verb https://www.jstor.org/stable/1823891
-      \endverb
-    \endentry
-    \entry{case_comparing_2001}{report}{}
-      \name{author}{3}{}{%
-        {{uniquename=0,uniquepart=base,hash=73199a16f08d9647b5c683d8a1d906fc}{%
-           family={Case},
-           familyi={C\bibinitperiod},
-           given={Karl\bibnamedelima E},
-           giveni={K\bibinitperiod\bibinitdelim E\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=9d82a77d715bb25ddd61e8456f95a4f4}{%
-           family={Shiller},
-           familyi={S\bibinitperiod},
-           given={Robert\bibnamedelima J},
-           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=1540caa2faa94770c2dbaaef36c80ac0}{%
-           family={Quigley},
-           familyi={Q\bibinitperiod},
-           given={John\bibnamedelima M},
-           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{institution}{1}{%
-        {National Bureau of Economic Research}%
-      }
-      \strng{namehash}{e1a711ba5fc05f2ef4234b4ee43d7489}
-      \strng{fullhash}{e1a711ba5fc05f2ef4234b4ee43d7489}
-      \strng{bibnamehash}{e1a711ba5fc05f2ef4234b4ee43d7489}
-      \strng{authorbibnamehash}{e1a711ba5fc05f2ef4234b4ee43d7489}
-      \strng{authornamehash}{e1a711ba5fc05f2ef4234b4ee43d7489}
-      \strng{authorfullhash}{e1a711ba5fc05f2ef4234b4ee43d7489}
-      \field{sortinit}{C}
-      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{We examine the link between increases in housing wealth, financial wealth, and consumer spending. We rely upon a panel of 14 countries observed annually for various periods during the past 25 years and a panel of U.S. states observed quarterly during the 1980s and 1990s. We impute the aggregate value of owner-occupied housing, the value of financial assets, and measures of aggregate consumption for each of the geographic units over time. We estimate regressions relating consumption to income and wealth measures, finding a statistically significant and rather large effect of housing wealth upon household consumption.}
-      \field{number}{8606}
-      \field{shorttitle}{Comparing {Wealth} {Effects}}
-      \field{title}{Comparing {Wealth} {Effects}: {The} {Stock} {Market} {Versus} the {Housing} {Market}}
-      \field{type}{Working {Paper}}
-      \field{urlday}{4}
-      \field{urlmonth}{7}
-      \field{urlyear}{2019}
-      \field{year}{2001}
-      \field{urldateera}{ce}
-      \verb{doi}
-      \verb 10.3386/w8606
-      \endverb
-      \verb{file}
-      \verb Full Text PDF:/home/gpetrini/Zotero/storage/RIHESH23/Case et al. - 2001 - Comparing Wealth Effects The Stock Market Versus .pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb http://www.nber.org/papers/w8606
-      \endverb
-      \verb{url}
-      \verb http://www.nber.org/papers/w8606
-      \endverb
-      \keyw{Pendente}
-    \endentry
     \entry{caverzasi_stock-flow_2013}{article}{}
       \name{author}{2}{}{%
         {{uniquename=0,uniquepart=base,hash=e3fc2af895d5bd72c1d9c2b13737de83}{%
@@ -2380,57 +1840,6 @@
       \verb{file}
       \verb Deleidi e Mazzucato - 2019 - Mission-Oriented Innovation Policies A theorical .pdf:/home/gpetrini/Zotero/storage/MTBXZIH8/Deleidi e Mazzucato - 2019 - Mission-Oriented Innovation Policies A theorical .pdf:application/pdf
       \endverb
-    \endentry
-    \entry{dipasquale_why_1999}{article}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=fe5f574bc0548fcf1e83d6e898c813ae}{%
-           family={Dipasquale},
-           familyi={D\bibinitperiod},
-           given={Denise},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{fe5f574bc0548fcf1e83d6e898c813ae}
-      \strng{fullhash}{fe5f574bc0548fcf1e83d6e898c813ae}
-      \strng{bibnamehash}{fe5f574bc0548fcf1e83d6e898c813ae}
-      \strng{authorbibnamehash}{fe5f574bc0548fcf1e83d6e898c813ae}
-      \strng{authornamehash}{fe5f574bc0548fcf1e83d6e898c813ae}
-      \strng{authorfullhash}{fe5f574bc0548fcf1e83d6e898c813ae}
-      \field{sortinit}{D}
-      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{This paper reviews the main themes in the empirical literature on housing supply and outlines suggestions for future research. Much of the literature has focused on the determinants of new housing supply, particularly the supply of single family detached homes, and the renovation and repair decisions of homeowners. We have learned a great deal from the work that has been done but many important puzzles remain. Much of the literature has focused on aggregate data because there is so little information where the unit of observation is the builder, investor, or landlord. We need to focus on bringing new data to bear on the decision-making processes of these important actors to build our understanding of the micro foundations of housing supply.}
-      \field{issn}{1573-045X}
-      \field{journaltitle}{The Journal of Real Estate Finance and Economics}
-      \field{number}{1}
-      \field{title}{Why {Don}'t {We} {Know} {More} {About} {Housing} {Supply}?}
-      \field{urlday}{16}
-      \field{urlmonth}{7}
-      \field{urlyear}{2019}
-      \field{volume}{18}
-      \field{year}{1999}
-      \field{urldateera}{ce}
-      \field{pages}{9\bibrangedash 23}
-      \range{pages}{15}
-      \verb{doi}
-      \verb 10.1023/A:1007729227419
-      \endverb
-      \verb{file}
-      \verb Springer Full Text PDF:/home/gpetrini/Zotero/storage/6SFQXMB4/Dipasquale - 1999 - Why Don't We Know More About Housing Supply.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1023/A:1007729227419
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1023/A:1007729227419
-      \endverb
-      \keyw{housing markets,housing supply}
     \endentry
     \entry{dos_santos_revisiting_2009}{article}{}
       \name{author}{2}{}{%
@@ -3041,6 +2450,39 @@
       \verb Fagundes - The Role of Autonomous Non-Capacity Creating Expen.pdf:/home/gpetrini/Zotero/storage/PJVJIVNJ/Fagundes - The Role of Autonomous Non-Capacity Creating Expen.pdf:application/pdf
       \endverb
     \endentry
+    \entry{fair_macroeconometric_2013}{unpublished}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=d40c375afd29107cfa6fbf6c6ec7bda1}{%
+           family={Fair},
+           familyi={F\bibinitperiod},
+           given={Ray},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d40c375afd29107cfa6fbf6c6ec7bda1}
+      \strng{fullhash}{d40c375afd29107cfa6fbf6c6ec7bda1}
+      \strng{bibnamehash}{d40c375afd29107cfa6fbf6c6ec7bda1}
+      \strng{authorbibnamehash}{d40c375afd29107cfa6fbf6c6ec7bda1}
+      \strng{authornamehash}{d40c375afd29107cfa6fbf6c6ec7bda1}
+      \strng{authorfullhash}{d40c375afd29107cfa6fbf6c6ec7bda1}
+      \field{sortinit}{F}
+      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Macroeconometric {Modeling}}
+      \field{year}{2013}
+      \verb{file}
+      \verb Fair - 2013 - MANUAL - Macroeconometric Modeling.pdf:/home/gpetrini/Zotero/storage/E4BUB5YA/Fair - 2013 - MANUAL - Macroeconometric Modeling.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://fairmodel.econ.yale.edu/mmm2/mm.pdf
+      \endverb
+      \verb{url}
+      \verb https://fairmodel.econ.yale.edu/mmm2/mm.pdf
+      \endverb
+    \endentry
     \entry{ferrara_common_2010}{incollection}{}
       \name{author}{2}{}{%
         {{uniquename=0,uniquepart=base,hash=6b85cd2145dcf8149531ccf2d6ccab9c}{%
@@ -3318,95 +2760,6 @@
       \endverb
       \verb{url}
       \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/meca.12192
-      \endverb
-    \endentry
-    \entry{fleischmann_real_2019}{article}{}
-      \name{author}{3}{}{%
-        {{uniquename=0,uniquepart=base,hash=5cbf2345fe2608b52438e313ef8d9eb6}{%
-           family={Fleischmann},
-           familyi={F\bibinitperiod},
-           given={Benedikt},
-           giveni={B\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=8fca7af7d26bc625fb31aceca480595f}{%
-           family={Fritz},
-           familyi={F\bibinitperiod},
-           given={Carsten},
-           giveni={C\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=9155024d99091530dd84bbbd903bf5ac}{%
-           family={Sebastian},
-           familyi={S\bibinitperiod},
-           given={Steffen},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{e5bf964975d4891fd6a6a28dc5e930e8}
-      \strng{fullhash}{e5bf964975d4891fd6a6a28dc5e930e8}
-      \strng{bibnamehash}{e5bf964975d4891fd6a6a28dc5e930e8}
-      \strng{authorbibnamehash}{e5bf964975d4891fd6a6a28dc5e930e8}
-      \strng{authornamehash}{e5bf964975d4891fd6a6a28dc5e930e8}
-      \strng{authorfullhash}{e5bf964975d4891fd6a6a28dc5e930e8}
-      \field{sortinit}{F}
-      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{International Real Estate Review}
-      \field{title}{Real {Estate}, {Stocks}, and {Bonds} as a {Deflation} {Hedge}}
-      \field{year}{2019}
-      \field{pages}{26}
-      \range{pages}{1}
-      \verb{file}
-      \verb Fleischmann et al. - Real Estate, Stocks, and Bonds as a Deflation Hedg.pdf:/home/gpetrini/Zotero/storage/IS87PDWR/Fleischmann et al. - Real Estate, Stocks, and Bonds as a Deflation Hedg.pdf:application/pdf
-      \endverb
-      \keyw{Pendente}
-    \endentry
-    \entry{fleming_review_1966}{article}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=70520dbd478ac4eaa1037533185b0411}{%
-           family={Fleming},
-           familyi={F\bibinitperiod},
-           given={M.\bibnamedelimi C.},
-           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{70520dbd478ac4eaa1037533185b0411}
-      \strng{fullhash}{70520dbd478ac4eaa1037533185b0411}
-      \strng{bibnamehash}{70520dbd478ac4eaa1037533185b0411}
-      \strng{authorbibnamehash}{70520dbd478ac4eaa1037533185b0411}
-      \strng{authornamehash}{70520dbd478ac4eaa1037533185b0411}
-      \strng{authorfullhash}{70520dbd478ac4eaa1037533185b0411}
-      \field{sortinit}{F}
-      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0013-0117}
-      \field{journaltitle}{The Economic History Review}
-      \field{number}{2}
-      \field{title}{Review of {Building} {Cycles} and {Britain}'s {Growth}}
-      \field{urlday}{12}
-      \field{urlmonth}{7}
-      \field{urlyear}{2019}
-      \field{volume}{19}
-      \field{year}{1966}
-      \field{urldateera}{ce}
-      \field{pages}{435\bibrangedash 436}
-      \range{pages}{2}
-      \verb{doi}
-      \verb 10.2307/2592282
-      \endverb
-      \verb{urlraw}
-      \verb https://www.jstor.org/stable/2592282
-      \endverb
-      \verb{url}
-      \verb https://www.jstor.org/stable/2592282
       \endverb
     \endentry
     \entry{freitas_pattern_2013}{incollection}{}
@@ -3880,51 +3233,6 @@
       \endverb
       \keyw{Capacity Utilization,Economic Growth,Neo-Kaleckian model,Normal Rate of Utilization}
     \endentry
-    \entry{glaeser_housing_2008}{article}{}
-      \name{author}{3}{}{%
-        {{uniquename=0,uniquepart=base,hash=2b41d6ca29618683e119f3255b723113}{%
-           family={Glaeser},
-           familyi={G\bibinitperiod},
-           given={Edward\bibnamedelima L.},
-           giveni={E\bibinitperiod\bibinitdelim L\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=b6c63eff67ae7f34599b0ac43f4a7554}{%
-           family={Gyourko},
-           familyi={G\bibinitperiod},
-           given={Joseph},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=8c54514ba26c8186a11ea4c3c0dbbfd4}{%
-           family={Saiz},
-           familyi={S\bibinitperiod},
-           given={Albert},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{29783e18e724bc5056cbc1b9053f66aa}
-      \strng{fullhash}{29783e18e724bc5056cbc1b9053f66aa}
-      \strng{bibnamehash}{29783e18e724bc5056cbc1b9053f66aa}
-      \strng{authorbibnamehash}{29783e18e724bc5056cbc1b9053f66aa}
-      \strng{authornamehash}{29783e18e724bc5056cbc1b9053f66aa}
-      \strng{authorfullhash}{29783e18e724bc5056cbc1b9053f66aa}
-      \field{sortinit}{G}
-      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of urban Economics}
-      \field{number}{2}
-      \field{title}{Housing supply and housing bubbles}
-      \field{volume}{64}
-      \field{year}{2008}
-      \field{pages}{198\bibrangedash 217}
-      \range{pages}{20}
-      \verb{file}
-      \verb Full Text:/home/gpetrini/Zotero/storage/GC55SR3D/Glaeser et al. - 2008 - Housing supply and housing bubbles.pdf:application/pdf;Snapshot:/home/gpetrini/Zotero/storage/M67GHADM/S0094119008000648.html:text/html
-      \endverb
-      \keyw{Pendente}
-    \endentry
     \entry{godley_money_1999}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=4e149b959c67e5bb39e2707bc01d071e}{%
@@ -4208,54 +3516,14 @@
       \verb Full Text PDF:/home/gpetrini/Zotero/storage/7INFPRYB/Gallo et al. - 2018 - The Supermultiplier Model and the Role of Autonomo.pdf:application/pdf
       \endverb
     \endentry
-    \entry{green_economic_2014}{report}{}
-      \name{author}{2}{}{%
-        {{uniquename=1,uniquepart=given,hash=1e16a0a1a2121028725c1f39d20c5392}{%
-           family={Green},
-           familyi={G\bibinitperiod},
-           given={Brian},
-           giveni={B\bibinitperiod},
-           givenun=1}}%
-        {{uniquename=0,uniquepart=base,hash=f4bd52a2a0737b93f825d4b04f6c2f3b}{%
-           family={Shaheen},
-           familyi={S\bibinitperiod},
-           given={Faiza},
-           giveni={F\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{7dece05d75eb8778d1469c44b9a28364}
-      \strng{fullhash}{7dece05d75eb8778d1469c44b9a28364}
-      \strng{bibnamehash}{7dece05d75eb8778d1469c44b9a28364}
-      \strng{authorbibnamehash}{7dece05d75eb8778d1469c44b9a28364}
-      \strng{authornamehash}{7dece05d75eb8778d1469c44b9a28364}
-      \strng{authorfullhash}{7dece05d75eb8778d1469c44b9a28364}
-      \field{sortinit}{G}
-      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{The gap between the housing-haves and the housing have-nots is growing rapidly. House prices have soared in the past three decades, as has the gap in earnings and wealth between the richest and poorest. The positive correlation between these trends is unlikely to be a simple coincidence. The growth in incomes and wealth at the top may well be inflating house prices and locking out a growing share of the population. Policy makers are currently attempting to paper over structural problems in the housing market with short-term fixes like the Help to Buy scheme. To sustainably address the housing market crisis we must tackle root drivers, which includes economic inequality.}
-      \field{title}{Economic inequality and house prices in the {UK}}
-      \field{type}{techreport}
-      \field{year}{2014}
-      \field{pages}{33}
-      \range{pages}{1}
-      \verb{file}
-      \verb Green e Shaheen - Economic inequality and house prices in the UK.pdf:/home/gpetrini/Zotero/storage/MRGD56R6/Green e Shaheen - Economic inequality and house prices in the UK.pdf:application/pdf
-      \endverb
-    \endentry
     \entry{green_follow_1997}{article}{}
       \name{author}{1}{}{%
-        {{uniquename=1,uniquepart=given,hash=5600b83cf822b20354346e7bbc084f15}{%
+        {{uniquename=0,uniquepart=base,hash=5600b83cf822b20354346e7bbc084f15}{%
            family={Green},
            familyi={G\bibinitperiod},
            given={{Richard K.}},
            giveni={R\bibinitperiod},
-           givenun=1}}%
+           givenun=0}}%
       }
       \list{language}{1}{%
         {en}%
@@ -4294,62 +3562,6 @@
       \verb{url}
       \verb https://ideas.repec.org/a/bla/reesec/v25y1997i2p253-270.html
       \endverb
-    \endentry
-    \entry{hardman_neighbors_2004}{article}{}
-      \name{author}{2}{}{%
-        {{uniquename=0,uniquepart=base,hash=5ec280243a9ef6714f058d28c70a3293}{%
-           family={Hardman},
-           familyi={H\bibinitperiod},
-           given={Anna},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=2ded7a8482749e71bd0db772ab2c4389}{%
-           family={Ioannides},
-           familyi={I\bibinitperiod},
-           given={Yannis\bibnamedelima M.},
-           giveni={Y\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{783834c8dfb8c0af0719ed241bf99832}
-      \strng{fullhash}{783834c8dfb8c0af0719ed241bf99832}
-      \strng{bibnamehash}{783834c8dfb8c0af0719ed241bf99832}
-      \strng{authorbibnamehash}{783834c8dfb8c0af0719ed241bf99832}
-      \strng{authornamehash}{783834c8dfb8c0af0719ed241bf99832}
-      \strng{authorfullhash}{783834c8dfb8c0af0719ed241bf99832}
-      \field{sortinit}{H}
-      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{The paper describes within-neighborhood economic segregation in US metropolitan areas in 1985 and 1993. It uses the neighborhood clusters of the American housing survey, standardized by metropolitan area income and household size, to explore income distribution within neighborhoods at a scale much smaller than the census tract (a representative sample of households or ‘kernels’ and their 10 closest neighbors). Joint and conditional distributions portray neighbors’ characteristics conditional on the kernel’s housing tenure, race, and income. The paper documents both significant income mixing in the majority of US urban micro neighborhoods and the extent of income mixing within neighborhoods of concentrated poverty.}
-      \field{issn}{1051-1377}
-      \field{journaltitle}{Journal of Housing Economics}
-      \field{number}{4}
-      \field{series}{Housing and the {Macroeconomy}: {The} {Nexus}}
-      \field{shorttitle}{Neighbors’ income distribution}
-      \field{title}{Neighbors’ income distribution: economic segregation and mixing in {US} urban neighborhoods}
-      \field{urlday}{12}
-      \field{urlmonth}{7}
-      \field{urlyear}{2019}
-      \field{volume}{13}
-      \field{year}{2004}
-      \field{urldateera}{ce}
-      \field{pages}{368\bibrangedash 382}
-      \range{pages}{15}
-      \verb{doi}
-      \verb 10.1016/j.jhe.2004.09.003
-      \endverb
-      \verb{file}
-      \verb ScienceDirect Snapshot:/home/gpetrini/Zotero/storage/5X6VBM6W/S1051137704000403.html:text/html;Versão submetida:/home/gpetrini/Zotero/storage/CUELPZD8/Hardman e Ioannides - 2004 - Neighbors’ income distribution economic segregati.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb http://www.sciencedirect.com/science/article/pii/S1051137704000403
-      \endverb
-      \verb{url}
-      \verb http://www.sciencedirect.com/science/article/pii/S1051137704000403
-      \endverb
-      \keyw{Economic segregation,Housing policy,Income distribution,Income sorting and mixing,Mixed income housing,Neighborhood effects,Neighborhood income distribution}
     \endentry
     \entry{harrod_essay_1939}{article}{}
       \name{author}{1}{}{%
@@ -4597,59 +3809,6 @@
       \field{note}{OCLC: 604424643}
       \field{title}{A contribution to the theory of the trade cycle}
       \field{year}{1950}
-    \endentry
-    \entry{holly_house_1997}{article}{}
-      \name{author}{2}{}{%
-        {{uniquename=0,uniquepart=base,hash=d2a695d455123f3f9fbf98a414159220}{%
-           family={Holly},
-           familyi={H\bibinitperiod},
-           given={Sean},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=021bdec4c008c6c2e02c5f82f76d7cd7}{%
-           family={Jones},
-           familyi={J\bibinitperiod},
-           given={Natasha},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{86f2cf64fd8606ea430259b2988b2771}
-      \strng{fullhash}{86f2cf64fd8606ea430259b2988b2771}
-      \strng{bibnamehash}{86f2cf64fd8606ea430259b2988b2771}
-      \strng{authorbibnamehash}{86f2cf64fd8606ea430259b2988b2771}
-      \strng{authornamehash}{86f2cf64fd8606ea430259b2988b2771}
-      \strng{authorfullhash}{86f2cf64fd8606ea430259b2988b2771}
-      \field{sortinit}{H}
-      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{issn}{02649993}
-      \field{journaltitle}{Economic Modelling}
-      \field{number}{4}
-      \field{shorttitle}{House prices since the 1940s}
-      \field{title}{House prices since the 1940s: {Cointegration}, demography and asymmetries}
-      \field{urlday}{16}
-      \field{urlmonth}{7}
-      \field{urlyear}{2019}
-      \field{volume}{14}
-      \field{year}{1997}
-      \field{urldateera}{ce}
-      \field{pages}{549\bibrangedash 565}
-      \range{pages}{17}
-      \verb{doi}
-      \verb 10.1016/S0264-9993(97)00009-6
-      \endverb
-      \verb{urlraw}
-      \verb https://linkinghub.elsevier.com/retrieve/pii/S0264999397000096
-      \endverb
-      \verb{url}
-      \verb https://linkinghub.elsevier.com/retrieve/pii/S0264999397000096
-      \endverb
     \endentry
     \entry{huang_is_2018}{article}{}
       \name{author}{4}{}{%
@@ -5068,40 +4227,6 @@
       \verb Snapshot:/home/gpetrini/Zotero/storage/FDD9XMNF/books.html:text/html
       \endverb
     \endentry
-    \entry{krakstad_long-run_2015}{article}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=19df6163dc4ba705a3b7cc02c1c2c989}{%
-           family={Krakstad},
-           familyi={K\bibinitperiod},
-           given={Svein\bibnamedelima Olav},
-           giveni={S\bibinitperiod\bibinitdelim O\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{19df6163dc4ba705a3b7cc02c1c2c989}
-      \strng{fullhash}{19df6163dc4ba705a3b7cc02c1c2c989}
-      \strng{bibnamehash}{19df6163dc4ba705a3b7cc02c1c2c989}
-      \strng{authorbibnamehash}{19df6163dc4ba705a3b7cc02c1c2c989}
-      \strng{authornamehash}{19df6163dc4ba705a3b7cc02c1c2c989}
-      \strng{authorfullhash}{19df6163dc4ba705a3b7cc02c1c2c989}
-      \field{sortinit}{K}
-      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{International Real Estate Review}
-      \field{title}{Long-{Run} {Movements} in {House} {Prices}}
-      \field{year}{2015}
-      \field{pages}{26}
-      \range{pages}{1}
-      \verb{file}
-      \verb Krakstad - Long-Run Movements in House Prices.pdf:/home/gpetrini/Zotero/storage/5RBPEXIN/Krakstad - Long-Run Movements in House Prices.pdf:application/pdf
-      \endverb
-      \keyw{Pendente}
-    \endentry
     \entry{kurz_normal_1986}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=1af67bbbf0fb43477ce7d8b30f7e6219}{%
@@ -5469,152 +4594,6 @@
       \verb https://ideas.repec.org/a/wly/jmoncb/v47y2015is1p43-50.html
       \endverb
     \endentry
-    \entry{leung_macroeconomics_2004}{article}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=1473c5a74c188c13e6b7a8bc4dbc53ae}{%
-           family={Leung},
-           familyi={L\bibinitperiod},
-           given={Charles},
-           giveni={C\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{1473c5a74c188c13e6b7a8bc4dbc53ae}
-      \strng{fullhash}{1473c5a74c188c13e6b7a8bc4dbc53ae}
-      \strng{bibnamehash}{1473c5a74c188c13e6b7a8bc4dbc53ae}
-      \strng{authorbibnamehash}{1473c5a74c188c13e6b7a8bc4dbc53ae}
-      \strng{authornamehash}{1473c5a74c188c13e6b7a8bc4dbc53ae}
-      \strng{authorfullhash}{1473c5a74c188c13e6b7a8bc4dbc53ae}
-      \field{sortinit}{L}
-      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{issn}{10511377}
-      \field{journaltitle}{Journal of Housing Economics}
-      \field{number}{4}
-      \field{shorttitle}{Macroeconomics and housing}
-      \field{title}{Macroeconomics and housing: a review of the literature}
-      \field{urlday}{12}
-      \field{urlmonth}{7}
-      \field{urlyear}{2019}
-      \field{volume}{13}
-      \field{year}{2004}
-      \field{urldateera}{ce}
-      \field{pages}{249\bibrangedash 267}
-      \range{pages}{19}
-      \verb{doi}
-      \verb 10.1016/j.jhe.2004.09.002
-      \endverb
-      \verb{file}
-      \verb Leung - 2004 - Macroeconomics and housing a review of the litera.pdf:/home/gpetrini/Zotero/storage/5FVESKD6/Leung - 2004 - Macroeconomics and housing a review of the litera.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://linkinghub.elsevier.com/retrieve/pii/S1051137704000397
-      \endverb
-      \verb{url}
-      \verb https://linkinghub.elsevier.com/retrieve/pii/S1051137704000397
-      \endverb
-    \endentry
-    \entry{li_cyclical_2004}{article}{}
-      \name{author}{2}{}{%
-        {{uniquename=1,uniquepart=given,hash=5af6c69cda94784e2238f1d057ceb877}{%
-           family={Li},
-           familyi={L\bibinitperiod},
-           given={Victor\bibnamedelima E},
-           giveni={V\bibinitperiod\bibinitdelim E\bibinitperiod},
-           givenun=1}}%
-        {{uniquename=0,uniquepart=base,hash=38486fc755a6e8f85d64a85f4b3b6302}{%
-           family={Chang},
-           familyi={C\bibinitperiod},
-           given={Chia-Ying},
-           giveni={C\bibinithyphendelim Y\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{4be780dd0bf6cd688159afc3d701f640}
-      \strng{fullhash}{4be780dd0bf6cd688159afc3d701f640}
-      \strng{bibnamehash}{4be780dd0bf6cd688159afc3d701f640}
-      \strng{authorbibnamehash}{4be780dd0bf6cd688159afc3d701f640}
-      \strng{authornamehash}{4be780dd0bf6cd688159afc3d701f640}
-      \strng{authorfullhash}{4be780dd0bf6cd688159afc3d701f640}
-      \field{sortinit}{L}
-      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{01651889}
-      \field{journaltitle}{Journal of Economic Dynamics and Control}
-      \field{number}{4}
-      \field{title}{The cyclical behavior of household and business investment in a cash-in-advance economy}
-      \field{urlday}{18}
-      \field{urlmonth}{12}
-      \field{urlyear}{2018}
-      \field{volume}{28}
-      \field{year}{2004}
-      \field{urldateera}{ce}
-      \field{pages}{691\bibrangedash 706}
-      \range{pages}{16}
-      \verb{doi}
-      \verb 10.1016/S0165-1889(03)00040-X
-      \endverb
-      \verb{file}
-      \verb Li e Chang - 2004 - The cyclical behavior of household and business in.pdf:/home/gpetrini/Zotero/storage/3GUIGPJI/Li e Chang - 2004 - The cyclical behavior of household and business in.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb http://linkinghub.elsevier.com/retrieve/pii/S016518890300040X
-      \endverb
-      \verb{url}
-      \verb http://linkinghub.elsevier.com/retrieve/pii/S016518890300040X
-      \endverb
-      \keyw{Pendente}
-    \endentry
-    \entry{li_house_2018}{article}{}
-      \name{author}{2}{}{%
-        {{uniquename=1,uniquepart=given,hash=b8ba061c451de60b57e8a6f8161ab9e7}{%
-           family={Li},
-           familyi={L\bibinitperiod},
-           given={Yuming},
-           giveni={Y\bibinitperiod},
-           givenun=1}}%
-        {{uniquename=0,uniquepart=base,hash=590e4e39e560d4f5c33781113cd98b41}{%
-           family={Yang},
-           familyi={Y\bibinitperiod},
-           given={Jing},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{2957a96311a6693193dc626822e047e8}
-      \strng{fullhash}{2957a96311a6693193dc626822e047e8}
-      \strng{bibnamehash}{2957a96311a6693193dc626822e047e8}
-      \strng{authorbibnamehash}{2957a96311a6693193dc626822e047e8}
-      \strng{authornamehash}{2957a96311a6693193dc626822e047e8}
-      \strng{authorfullhash}{2957a96311a6693193dc626822e047e8}
-      \field{sortinit}{L}
-      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{International Real Estate Review}
-      \field{title}{House {Price} {Dynamics} and {Excess} {Risk}}
-      \field{year}{2018}
-      \field{pages}{24}
-      \range{pages}{1}
-      \verb{file}
-      \verb Li e Yang - House Price Dynamics and Excess Risk.pdf:/home/gpetrini/Zotero/storage/SFX4A8HR/Li e Yang - House Price Dynamics and Excess Risk.pdf:application/pdf
-      \endverb
-      \keyw{Pendente}
-    \endentry
     \entry{lima_macrodynamics_2007}{article}{}
       \name{author}{2}{}{%
         {{uniquename=0,uniquepart=base,hash=b268ed449040b498be15c5fac1248a12}{%
@@ -5726,64 +4705,6 @@
       \endverb
       \verb{url}
       \verb http://doi.wiley.com/10.1111/1540-6229.00499
-      \endverb
-    \endentry
-    \entry{liu_land_2013}{report}{}
-      \name{author}{3}{}{%
-        {{uniquename=0,uniquepart=base,hash=7e48bdec050a7bea1bb0d4acff3023eb}{%
-           family={Liu},
-           familyi={L\bibinitperiod},
-           given={Zheng},
-           giveni={Z\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=eb4f61a7a673c285df8e36a197862bbf}{%
-           family={Miao},
-           familyi={M\bibinitperiod},
-           given={Jianjun},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=46eb2d1d358e965c8df03d5243b424cb}{%
-           family={Zha},
-           familyi={Z\bibinitperiod},
-           given={Tao},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{institution}{1}{%
-        {National Bureau of Economic Research}%
-      }
-      \strng{namehash}{a91f680a2a2413f11fca3e62ae667d1a}
-      \strng{fullhash}{a91f680a2a2413f11fca3e62ae667d1a}
-      \strng{bibnamehash}{a91f680a2a2413f11fca3e62ae667d1a}
-      \strng{authorbibnamehash}{a91f680a2a2413f11fca3e62ae667d1a}
-      \strng{authornamehash}{a91f680a2a2413f11fca3e62ae667d1a}
-      \strng{authorfullhash}{a91f680a2a2413f11fca3e62ae667d1a}
-      \field{sortinit}{L}
-      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{We integrate the housing market and the labor market in a dynamic general equilibrium model with credit and search frictions. The model is confronted with the U.S. macroeconomic time series. Our estimated model can account for two prominent facts observed in the data. First, the land price and the unemployment rate tend to move in opposite directions over the business cycle. Second, a shock that moves the land price is capable of generating large volatility in unemployment. Our estimation indicates that a 10 percent drop in the land price leads to a 0.34 percentage point increase of the unemployment rate (relative to its steady state).}
-      \field{number}{19382}
-      \field{title}{Land {Prices} and {Unemployment}}
-      \field{type}{Working {Paper}}
-      \field{urlday}{16}
-      \field{urlmonth}{7}
-      \field{urlyear}{2019}
-      \field{year}{2013}
-      \field{urldateera}{ce}
-      \verb{doi}
-      \verb 10.3386/w19382
-      \endverb
-      \verb{file}
-      \verb Full Text PDF:/home/gpetrini/Zotero/storage/FJZSY44W/Liu et al. - 2013 - Land Prices and Unemployment.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb http://www.nber.org/papers/w19382
-      \endverb
-      \verb{url}
-      \verb http://www.nber.org/papers/w19382
       \endverb
     \endentry
     \entry{macedo_e_silva_peering_2011}{article}{}
@@ -6034,86 +4955,6 @@
       \verb{url}
       \verb https://academic.oup.com/cje/article/15/3/301/1735086
       \endverb
-    \endentry
-    \entry{miles_bubbles_2015}{article}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=4b585061a7a9bc8913fd5291f8d1a91a}{%
-           family={Miles},
-           familyi={M\bibinitperiod},
-           given={William},
-           giveni={W\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{4b585061a7a9bc8913fd5291f8d1a91a}
-      \strng{fullhash}{4b585061a7a9bc8913fd5291f8d1a91a}
-      \strng{bibnamehash}{4b585061a7a9bc8913fd5291f8d1a91a}
-      \strng{authorbibnamehash}{4b585061a7a9bc8913fd5291f8d1a91a}
-      \strng{authornamehash}{4b585061a7a9bc8913fd5291f8d1a91a}
-      \strng{authorfullhash}{4b585061a7a9bc8913fd5291f8d1a91a}
-      \field{sortinit}{M}
-      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{International Real Estate Review}
-      \field{title}{Bubbles, {Busts} and {Breaks} in {UK} {Housing}}
-      \field{year}{2015}
-      \field{pages}{18}
-      \range{pages}{1}
-      \verb{file}
-      \verb Miles - Bubbles, Busts and Breaks in UK Housing.pdf:/home/gpetrini/Zotero/storage/XYC8X3TY/Miles - Bubbles, Busts and Breaks in UK Housing.pdf:application/pdf
-      \endverb
-      \keyw{Pendente}
-    \endentry
-    \entry{miller_impact_2005}{article}{}
-      \name{author}{3}{}{%
-        {{uniquename=0,uniquepart=base,hash=70ec0b8a0abd98c7fef948caec499906}{%
-           family={Miller},
-           familyi={M\bibinitperiod},
-           given={Norman\bibnamedelima G},
-           giveni={N\bibinitperiod\bibinitdelim G\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=d97a8e4d4a0c172d93f30b69d418ae4b}{%
-           family={Sklarz},
-           familyi={S\bibinitperiod},
-           given={Michael\bibnamedelima A},
-           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=6e750f62b7d172669000a78519242728}{%
-           family={Thibodeau},
-           familyi={T\bibinitperiod},
-           given={Thomas\bibnamedelima G},
-           giveni={T\bibinitperiod\bibinitdelim G\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{29374506ac6b1e3e09c047e068628892}
-      \strng{fullhash}{29374506ac6b1e3e09c047e068628892}
-      \strng{bibnamehash}{29374506ac6b1e3e09c047e068628892}
-      \strng{authorbibnamehash}{29374506ac6b1e3e09c047e068628892}
-      \strng{authornamehash}{29374506ac6b1e3e09c047e068628892}
-      \strng{authorfullhash}{29374506ac6b1e3e09c047e068628892}
-      \field{sortinit}{M}
-      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{International Real Estate Review}
-      \field{title}{The {Impact} of {Interest} {Rates} and {Employment} on {Nominal} {Housing} {Prices}}
-      \field{year}{2005}
-      \field{pages}{17}
-      \range{pages}{1}
-      \verb{file}
-      \verb Miller et al. - The Impact of Interest Rates and Employment on Nom.pdf:/home/gpetrini/Zotero/storage/RIF2MFZ6/Miller et al. - The Impact of Interest Rates and Employment on Nom.pdf:application/pdf
-      \endverb
-      \keyw{Pendente}
     \endentry
     \entry{mills_has_1987}{article}{}
       \name{author}{1}{}{%
@@ -6501,60 +5342,6 @@
       \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-999X.2011.04145.x
       \endverb
     \endentry
-    \entry{ofori_testing_2003}{article}{}
-      \name{author}{2}{}{%
-        {{uniquename=0,uniquepart=base,hash=0047f367ad04ef94d805746063c420b1}{%
-           family={Ofori},
-           familyi={O\bibinitperiod},
-           given={George},
-           giveni={G\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=d9ac6966a854b6f9e8e55ce1f2593a9e}{%
-           family={Han},
-           familyi={H\bibinitperiod},
-           given={Sun\bibnamedelima Sheng},
-           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{85e429a28ee050b214634f925e0c86f8}
-      \strng{fullhash}{85e429a28ee050b214634f925e0c86f8}
-      \strng{bibnamehash}{85e429a28ee050b214634f925e0c86f8}
-      \strng{authorbibnamehash}{85e429a28ee050b214634f925e0c86f8}
-      \strng{authornamehash}{85e429a28ee050b214634f925e0c86f8}
-      \strng{authorfullhash}{85e429a28ee050b214634f925e0c86f8}
-      \field{sortinit}{O}
-      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{This paper examines the relationship between construction activity and economic development at the provincial level in the Peoples’ Republic of China. It also examines variations in the mix of construction outputs among the provinces as they achieve increasing levels of development. It is argued that the analysis of provincial construction outputs and levels of economic development provides additional insights into the debate on the wider relationship between construction activity and economic development as posited by Turin in his seminal studies during the 1960s and 1970s. Since these seminal works many researchers have also sought to explain the relationship between construction activity and economic development. Turin's model is of this relationship and although some studies only provide qualified support for this hypothesis, it is generally agreed that there is a causal link between construction activity and economic development within countries as they develop their economies. Most of these studies have been based on the use of international cross-sectional data from countries at different stages of development to infer an assumed relationship within an individual country over time. In this study, similar data are analyzed to examine these relationships at the provincial level within a large country, each of these provinces being at significantly differing levels of development. Since it adopted policies of economic reform in the late 1970s, China has realized considerable economic progress. However, this has varied significantly among the provinces and regions. Consequently, data demonstrating developments in China's wider economy and its construction activity at the provincial level can be used to test the applicability of the Turin hypothesis within a country that has undergone significant developments over such a short period of time.}
-      \field{issn}{0197-3975}
-      \field{journaltitle}{Habitat International}
-      \field{number}{1}
-      \field{title}{Testing hypotheses on construction and development using data on {China}'s provinces, 1990–2000}
-      \field{urlday}{12}
-      \field{urlmonth}{7}
-      \field{urlyear}{2019}
-      \field{volume}{27}
-      \field{year}{2003}
-      \field{urldateera}{ce}
-      \field{pages}{37\bibrangedash 62}
-      \range{pages}{26}
-      \verb{doi}
-      \verb 10.1016/S0197-3975(02)00034-6
-      \endverb
-      \verb{file}
-      \verb ScienceDirect Snapshot:/home/gpetrini/Zotero/storage/CY3J9AIB/S0197397502000346.html:text/html
-      \endverb
-      \verb{urlraw}
-      \verb http://www.sciencedirect.com/science/article/pii/S0197397502000346
-      \endverb
-      \verb{url}
-      \verb http://www.sciencedirect.com/science/article/pii/S0197397502000346
-      \endverb
-      \keyw{China,Construction,Economic development,Employment,Turin model}
-    \endentry
     \entry{onaran_is_2013}{incollection}{}
       \name{author}{2}{}{%
         {{uniquename=0,uniquepart=base,hash=a073bbea1f4197c11a9c4a1c951a4d89}{%
@@ -6627,62 +5414,6 @@
       \verb https://doi.org/10.1057/9781137357939_4
       \endverb
       \keyw{Aggregate Demand,Euro Area,Euro Area Country,Profit Share,Small Open Economy}
-    \endentry
-    \entry{ozmen_impact_2019}{article}{}
-      \name{author}{3}{}{%
-        {{uniquename=0,uniquepart=base,hash=9be6ad6e023edcb321e0fd981b9bb6bf}{%
-           family={Özmen},
-           familyi={Ö\bibinitperiod},
-           given={M.\bibnamedelimi Utku},
-           giveni={M\bibinitperiod\bibinitdelim U\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=a0be040777385a80ffc9ce2969981f56}{%
-           family={Kalafatcılar},
-           familyi={K\bibinitperiod},
-           given={M.\bibnamedelimi Koray},
-           giveni={M\bibinitperiod\bibinitdelim K\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=66b271eac65d70637b56747c03a4e6f3}{%
-           family={Yılmaz},
-           familyi={Y\bibinitperiod},
-           given={Erdal},
-           giveni={E\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{465409bd2f4ddb57fe99f521eabc3468}
-      \strng{fullhash}{465409bd2f4ddb57fe99f521eabc3468}
-      \strng{bibnamehash}{465409bd2f4ddb57fe99f521eabc3468}
-      \strng{authorbibnamehash}{465409bd2f4ddb57fe99f521eabc3468}
-      \strng{authornamehash}{465409bd2f4ddb57fe99f521eabc3468}
-      \strng{authorfullhash}{465409bd2f4ddb57fe99f521eabc3468}
-      \field{sortinit}{Ö}
-      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Housing market developments have been attracting a great deal of attention in Turkey. Concerns related to supply, particularly at the higher segment of the market, lead these discussions. In this respect, basic regression estimations indicate that over the post-2010 period, income elasticity of house price changes is negative, despite housing being a normal good. In order to reveal the underlying reason, we discuss the role of income distribution. Our empirical analyses suggest that the share of bottom (the top) income quintiles are positively (is negatively) correlated with house price changes. Given the current ample stock of houses, at the high-end of the market, a demand surge led by an increase in the income share of the top income quintile may not put pressure on house prices. In addition, the declining income share of bottom three income quintiles may lead to a reduction in their housing demand. Thus, policies directed to improving income equality might help mitigate the imbalances in the housing market.}
-      \field{issn}{1303-0701}
-      \field{journaltitle}{Central Bank Review}
-      \field{title}{The impact of income distribution on house prices}
-      \field{urlday}{23}
-      \field{urlmonth}{6}
-      \field{urlyear}{2019}
-      \field{year}{2019}
-      \field{urldateera}{ce}
-      \verb{doi}
-      \verb 10.1016/j.cbrev.2019.05.001
-      \endverb
-      \verb{file}
-      \verb Özmen et al. - 2019 - The impact of income distribution on house prices.pdf:/home/gpetrini/Zotero/storage/Q54WKWME/Özmen et al. - 2019 - The impact of income distribution on house prices.pdf:application/pdf;ScienceDirect Snapshot:/home/gpetrini/Zotero/storage/6PK7ALGK/S1303070119300538.html:text/html
-      \endverb
-      \verb{urlraw}
-      \verb http://www.sciencedirect.com/science/article/pii/S1303070119300538
-      \endverb
-      \verb{url}
-      \verb http://www.sciencedirect.com/science/article/pii/S1303070119300538
-      \endverb
-      \keyw{Housing market,Income distribution,Pendente,Turkey}
     \endentry
     \entry{palley_inside_2010}{incollection}{}
       \name{author}{1}{}{%
@@ -6968,46 +5699,6 @@
       \verb{url}
       \verb https://www.tandfonline.com/doi/full/10.1080/0967256032000043814
       \endverb
-    \endentry
-    \entry{pan_long-run_2016}{article}{}
-      \name{author}{2}{}{%
-        {{uniquename=0,uniquepart=base,hash=b633488e7524e7379bde1698e2962994}{%
-           family={Pan},
-           familyi={P\bibinitperiod},
-           given={Huiran},
-           giveni={H\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=1,uniquepart=given,hash=b1eac6ed691ecfe6953dee96e5a93e40}{%
-           family={Wang},
-           familyi={W\bibinitperiod},
-           given={Chun},
-           giveni={C\bibinitperiod},
-           givenun=1}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{56e54c26ee8fb67baf5f39f95ab3cc5f}
-      \strng{fullhash}{56e54c26ee8fb67baf5f39f95ab3cc5f}
-      \strng{bibnamehash}{56e54c26ee8fb67baf5f39f95ab3cc5f}
-      \strng{authorbibnamehash}{56e54c26ee8fb67baf5f39f95ab3cc5f}
-      \strng{authornamehash}{56e54c26ee8fb67baf5f39f95ab3cc5f}
-      \strng{authorfullhash}{56e54c26ee8fb67baf5f39f95ab3cc5f}
-      \field{sortinit}{P}
-      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{International Real Estate Review}
-      \field{title}{Long-run {Equilibrium} and {Short}-{Run} {Adjustment} in {U}.{S}. {Housing} {Markets}}
-      \field{year}{2016}
-      \field{pages}{25}
-      \range{pages}{1}
-      \verb{file}
-      \verb Pan e Wang - Long-run Equilibrium and Short-Run Adjustment in U.pdf:/home/gpetrini/Zotero/storage/6TFL4C6A/Pan e Wang - Long-run Equilibrium and Short-Run Adjustment in U.pdf:application/pdf
-      \endverb
-      \keyw{Pendente}
     \endentry
     \entry{pariboni_autonomous_2015}{report}{}
       \name{author}{1}{}{%
@@ -7796,43 +6487,6 @@
       \verb Serrano et al. - 2018 - O Supermultiplicador Sraffiano, a Instabilidade Fu.pdf:/home/gpetrini/Zotero/storage/W6LU756T/Serrano et al. - 2018 - O Supermultiplicador Sraffiano, a Instabilidade Fu.pdf:application/pdf
       \endverb
     \endentry
-    \entry{serrano_demanda_2015}{article}{}
-      \name{author}{2}{}{%
-        {{uniquename=0,uniquepart=base,hash=8df1ed774cbbdbac66d3fc8dafb0bcd5}{%
-           family={Serrano},
-           familyi={S\bibinitperiod},
-           given={Franklin},
-           giveni={F\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=157db2b74ae6c855de546e21f03b1e97}{%
-           family={Summa},
-           familyi={S\bibinitperiod},
-           given={Ricardo},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{2edcdb588425ecd1097c9d327baea06a}
-      \strng{fullhash}{2edcdb588425ecd1097c9d327baea06a}
-      \strng{bibnamehash}{2edcdb588425ecd1097c9d327baea06a}
-      \strng{authorbibnamehash}{2edcdb588425ecd1097c9d327baea06a}
-      \strng{authornamehash}{2edcdb588425ecd1097c9d327baea06a}
-      \strng{authorfullhash}{2edcdb588425ecd1097c9d327baea06a}
-      \field{sortinit}{S}
-      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Center for economic and policy research}
-      \field{title}{Demanda agregada e a desaceleração do crescimento econômico brasileiro de 2011 a 2014}
-      \field{year}{2015}
-      \field{pages}{1\bibrangedash 42}
-      \range{pages}{42}
-      \verb{file}
-      \verb Serrano, Summa_2015_Demanda agregada e a desaceleração do crescimento econômico brasileiro de 2011 a 2014:/home/gpetrini/Zotero/storage/WCJE8NBW/Serrano, Summa_2015_Demanda agregada e a desaceleração do crescimento econômico brasileiro de 2011 a 2014.pdf:application/pdf;Serrano, Summa_2015_Demanda agregada e a desaceleração do crescimento econômico brasileiro de 2011 a 2014(2):/home/gpetrini/Zotero/storage/N49V99XR/Serrano, Summa_2015_Demanda agregada e a desaceleração do crescimento econômico brasileiro de 2011 a 2014(2).pdf:application/pdf
-      \endverb
-      \keyw{Principal,REVISTO,FICHAR}
-    \endentry
     \entry{setterfield_long-run_2017}{report}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=05cdd47106e3673a7858e7e3400a83bc}{%
@@ -8515,42 +7169,6 @@
       \verb https://www.census.gov/construction/chars/pdf/c25ann2017.pdf
       \endverb
     \endentry
-    \entry{vadas_modelling_2004}{article}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=250ceacded677520457fe3a53a7a57ed}{%
-           family={Vadas},
-           familyi={V\bibinitperiod},
-           given={Gábor},
-           giveni={G\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{250ceacded677520457fe3a53a7a57ed}
-      \strng{fullhash}{250ceacded677520457fe3a53a7a57ed}
-      \strng{bibnamehash}{250ceacded677520457fe3a53a7a57ed}
-      \strng{authorbibnamehash}{250ceacded677520457fe3a53a7a57ed}
-      \strng{authornamehash}{250ceacded677520457fe3a53a7a57ed}
-      \strng{authorfullhash}{250ceacded677520457fe3a53a7a57ed}
-      \field{sortinit}{V}
-      \field{sortinithash}{75dd7385c90b2252c3ae853a80ca853b}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{International Real Estate Review}
-      \field{number}{1}
-      \field{title}{Modelling {Households}’ {Savings} and {Dwellings} {Investment} – {A} {Portfolio} {Choice} {Approach}}
-      \field{volume}{7}
-      \field{year}{2004}
-      \field{pages}{31\bibrangedash 55}
-      \range{pages}{25}
-      \verb{file}
-      \verb Vadas - Modelling Households’ Savings and Dwellings Invest.pdf:/home/gpetrini/Zotero/storage/TLAWT2EW/Vadas - Modelling Households’ Savings and Dwellings Invest.pdf:application/pdf
-      \endverb
-      \keyw{Fichado}
-    \endentry
     \entry{vianello_pace_1985}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=6b7408e4a93bdc95c8385d359a33a213}{%
@@ -8581,124 +7199,6 @@
       \range{pages}{19}
       \verb{file}
       \verb Full Text:/home/gpetrini/Zotero/storage/UL67YXSV/Vianello - 1985 - The pace of accumulation.pdf:application/pdf
-      \endverb
-    \endentry
-    \entry{wang_overbuilding:_2000}{article}{}
-      \name{author}{2}{}{%
-        {{uniquename=1,uniquepart=given,hash=9eed35c3f15c68dc56009ffd17565299}{%
-           family={Wang},
-           familyi={W\bibinitperiod},
-           given={Ko},
-           giveni={K\bibinitperiod},
-           givenun=1}}%
-        {{uniquename=0,uniquepart=base,hash=36418ec1d0fdb7f508c6cfb97dfc0843}{%
-           family={Zhou},
-           familyi={Z\bibinitperiod},
-           given={Yuqing},
-           giveni={Y\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{8dcca47362f676d95599be883bccd4dc}
-      \strng{fullhash}{8dcca47362f676d95599be883bccd4dc}
-      \strng{bibnamehash}{8dcca47362f676d95599be883bccd4dc}
-      \strng{authorbibnamehash}{8dcca47362f676d95599be883bccd4dc}
-      \strng{authornamehash}{8dcca47362f676d95599be883bccd4dc}
-      \strng{authorfullhash}{8dcca47362f676d95599be883bccd4dc}
-      \field{sortinit}{W}
-      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{issn}{1080-8620, 1540-6229}
-      \field{journaltitle}{Real Estate Economics}
-      \field{number}{3}
-      \field{shorttitle}{Overbuilding}
-      \field{title}{Overbuilding: {A} {Game}-{Theoretic} {Approach}}
-      \field{urlday}{12}
-      \field{urlmonth}{7}
-      \field{urlyear}{2019}
-      \field{volume}{28}
-      \field{year}{2000}
-      \field{urldateera}{ce}
-      \field{pages}{493\bibrangedash 522}
-      \range{pages}{30}
-      \verb{doi}
-      \verb 10.1111/1540-6229.00810
-      \endverb
-      \verb{urlraw}
-      \verb http://doi.wiley.com/10.1111/1540-6229.00810
-      \endverb
-      \verb{url}
-      \verb http://doi.wiley.com/10.1111/1540-6229.00810
-      \endverb
-    \endentry
-    \entry{wang_over-confidence_2000}{article}{}
-      \name{author}{4}{uniquelist=2}{%
-        {{uniquename=1,uniquepart=given,hash=9eed35c3f15c68dc56009ffd17565299}{%
-           family={Wang},
-           familyi={W\bibinitperiod},
-           given={Ko},
-           giveni={K\bibinitperiod},
-           givenun=1}}%
-        {{uniquename=0,uniquepart=base,hash=36418ec1d0fdb7f508c6cfb97dfc0843}{%
-           family={Zhou},
-           familyi={Z\bibinitperiod},
-           given={Yuqing},
-           giveni={Y\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=061ef9f3c746a103caf7569d5fe737d3}{%
-           family={Chan},
-           familyi={C\bibinitperiod},
-           given={Su\bibnamedelima Han},
-           giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=26c451d50fce2fcae4348ade9a421275}{%
-           family={Chau},
-           familyi={C\bibinitperiod},
-           given={K.\bibnamedelimi W.},
-           giveni={K\bibinitperiod\bibinitdelim W\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{552037bde68ca90b1e384ce9d4e760a1}
-      \strng{fullhash}{714cea6e3deda85359c8667e2425f6b4}
-      \strng{bibnamehash}{552037bde68ca90b1e384ce9d4e760a1}
-      \strng{authorbibnamehash}{552037bde68ca90b1e384ce9d4e760a1}
-      \strng{authornamehash}{552037bde68ca90b1e384ce9d4e760a1}
-      \strng{authorfullhash}{714cea6e3deda85359c8667e2425f6b4}
-      \field{sortinit}{W}
-      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{Studies on the calibration of subjective probabilities find that people tend to over-estimate the precision of their knowledge. In this paper we develop a semi-rational model and apply it to the real estate markets in Hong Kong and other Asian countries. The key point is that a person is rational about her/his private information until her/his private information is confirmed by a clearly defined market signal. Using a pre-sale as a mechanism of updating a developer's beliefs, this paper analyzes the impact of over-confidence on overbuilding and cycles in real estate markets. Our finding indicates that a pre-sale activity will increase the magnitude of over-building and over-confidence will increase the volatility in real estate markets. Our model also has implications to the well-established literature dealing with the issue of over-capacity in many industrial sectors.}
-      \field{journaltitle}{International Real Estate Review}
-      \field{number}{1}
-      \field{shorttitle}{Over-{Confidence} and {Cycles} in {Real} {Estate} {Markets}}
-      \field{title}{Over-{Confidence} and {Cycles} in {Real} {Estate} {Markets}: {Cases} in {Hong} {Kong} and {Asia}}
-      \field{urlday}{12}
-      \field{urlmonth}{7}
-      \field{urlyear}{2019}
-      \field{volume}{3}
-      \field{year}{2000}
-      \field{urldateera}{ce}
-      \field{pages}{93\bibrangedash 108}
-      \range{pages}{16}
-      \verb{file}
-      \verb Fullext PDF:/home/gpetrini/Zotero/storage/II62TBR5/Wang et al. - 2000 - Over-Confidence and Cycles in Real Estate Markets.pdf:application/pdf;Snapshot:/home/gpetrini/Zotero/storage/KCQ5ZDXW/v03n012000p93-108.html:text/html
-      \endverb
-      \verb{urlraw}
-      \verb https://ideas.repec.org/a/ire/issued/v03n012000p93-108.html
-      \endverb
-      \verb{url}
-      \verb https://ideas.repec.org/a/ire/issued/v03n012000p93-108.html
       \endverb
     \endentry
     \entry{wolfson_irving_1996}{article}{}

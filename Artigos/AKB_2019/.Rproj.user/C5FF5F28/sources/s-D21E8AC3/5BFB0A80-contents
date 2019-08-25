@@ -1,0 +1,12 @@
+get_BCB <- function(serie){
+  k <- read.csv2(text=
+                   system(
+                     paste0(
+                       "wget -qO - http://api.bcb.gov.br/dados/serie/bcdata.sgs.",
+                       serie,
+                       "/dados?formato=csv"
+                     ) ,
+                     intern=TRUE)) 
+  return(k)
+}
+head(get_BCB(12))
