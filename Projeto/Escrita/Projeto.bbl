@@ -666,6 +666,62 @@
       \endverb
       \keyw{Pendente}
     \endentry
+    \entry{carvalho_personal_2016}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=8d26fb3ddec7909da6cf5f06652327c7}{%
+           family={Carvalho},
+           familyi={C\bibinitperiod},
+           given={Laura},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=52fb935aa1902d7369225336a04b213a}{%
+           family={Rezai},
+           familyi={R\bibinitperiod},
+           given={Armon},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{7ce7db5f16dd71fa9b18d270737cb6dc}
+      \strng{fullhash}{7ce7db5f16dd71fa9b18d270737cb6dc}
+      \strng{bibnamehash}{7ce7db5f16dd71fa9b18d270737cb6dc}
+      \strng{authorbibnamehash}{7ce7db5f16dd71fa9b18d270737cb6dc}
+      \strng{authornamehash}{7ce7db5f16dd71fa9b18d270737cb6dc}
+      \strng{authorfullhash}{7ce7db5f16dd71fa9b18d270737cb6dc}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract. This paper presents a theoretical and empirical investigation of how changes in the size distribution of income can affect aggregate demand and the d}
+      \field{issn}{0309-166X}
+      \field{journaltitle}{Cambridge Journal of Economics}
+      \field{number}{2}
+      \field{title}{Personal income inequality and aggregate demand}
+      \field{urlday}{30}
+      \field{urlmonth}{1}
+      \field{urlyear}{2019}
+      \field{volume}{40}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \field{pages}{491\bibrangedash 505}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1093/cje/beu085
+      \endverb
+      \verb{file}
+      \verb Snapshot:/home/gpetrini/Zotero/storage/NEDJQB3C/2605032.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://academic.oup.com/cje/article/40/2/491/2605032
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/cje/article/40/2/491/2605032
+      \endverb
+    \endentry
     \entry{caverzasi_stock-flow_2013}{article}{}
       \name{author}{2}{}{%
         {{uniquename=0,uniquepart=base,hash=e3fc2af895d5bd72c1d9c2b13737de83}{%
@@ -879,6 +935,58 @@
       \verb Da Silveira e Teixeira - 2019 - Investimento residencial em um modelo Stock-Flow C.pdf:/home/gpetrini/Zotero/storage/RP7HGWCR/Da Silveira e Teixeira - 2019 - Investimento residencial em um modelo Stock-Flow C.pdf:application/pdf
       \endverb
     \endentry
+    \entry{dequech_economic_2013}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=332edf1cff37f435955cf554308f9ffc}{%
+           family={Dequech},
+           familyi={D\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{332edf1cff37f435955cf554308f9ffc}
+      \strng{fullhash}{332edf1cff37f435955cf554308f9ffc}
+      \strng{bibnamehash}{332edf1cff37f435955cf554308f9ffc}
+      \strng{authorbibnamehash}{332edf1cff37f435955cf554308f9ffc}
+      \strng{authornamehash}{332edf1cff37f435955cf554308f9ffc}
+      \strng{authorfullhash}{332edf1cff37f435955cf554308f9ffc}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Why do economic agents conform with existing institutions? Drawing on economics and organizational institutionalism, this article identiﬁes existing explanations, extends or reﬁnes some of them, suggests new ones, classiﬁes these various explanations, and integrates them into an organized framework. One set of explanations focuses on conformity out of habit. The other refers to more conscious thought and behavior and considers coordination and increasing returns to adoption, social sanctions, informational differences, uncertainty, legitimacy, naturality, and lack of power/resources to deviate.}
+      \field{issn}{1744-1374, 1744-1382}
+      \field{journaltitle}{Journal of Institutional Economics}
+      \field{month}{3}
+      \field{number}{1}
+      \field{shorttitle}{Economic institutions}
+      \field{title}{Economic institutions: explanations for conformity and room for deviation}
+      \field{urlday}{26}
+      \field{urlmonth}{8}
+      \field{urlyear}{2019}
+      \field{volume}{9}
+      \field{year}{2013}
+      \field{urldateera}{ce}
+      \field{pages}{81\bibrangedash 108}
+      \range{pages}{28}
+      \verb{doi}
+      \verb 10.1017/S1744137412000197
+      \endverb
+      \verb{file}
+      \verb Dequech - 2013 - Economic institutions explanations for conformity.pdf:/home/gpetrini/Zotero/storage/W5B7AFZ7/Dequech - 2013 - Economic institutions explanations for conformity.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.cambridge.org/core/product/identifier/S1744137412000197/type/journal_article
+      \endverb
+      \verb{url}
+      \verb https://www.cambridge.org/core/product/identifier/S1744137412000197/type/journal_article
+      \endverb
+    \endentry
     \entry{dos_santos_revisiting_2009}{article}{}
       \name{author}{2}{}{%
         {{uniquename=0,uniquepart=base,hash=1634fc01eac3b46d9ec1ffde5a46ccd6}{%
@@ -1032,6 +1140,39 @@
       \verb{url}
       \verb https://academic.oup.com/cje/article/20/4/497/1729745
       \endverb
+    \endentry
+    \entry{ederer_will_2019}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=3c92563af8288d8cf2d70dab9ed23da8}{%
+           family={Ederer},
+           familyi={E\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=837aef6af05b15bb34fe22d8ec660bdd}{%
+           family={Rehm},
+           familyi={R\bibinitperiod},
+           given={Miriam},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{864e19fa17e9e4454fe2659ab058dffc}
+      \strng{fullhash}{864e19fa17e9e4454fe2659ab058dffc}
+      \strng{bibnamehash}{864e19fa17e9e4454fe2659ab058dffc}
+      \strng{authorbibnamehash}{864e19fa17e9e4454fe2659ab058dffc}
+      \strng{authornamehash}{864e19fa17e9e4454fe2659ab058dffc}
+      \strng{authorfullhash}{864e19fa17e9e4454fe2659ab058dffc}
+      \field{sortinit}{E}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cambridge Journal of Economics}
+      \field{note}{forthcoming}
+      \field{title}{Will {Wealth} {Become} {More} {Concentrated} in {Europe}? {Evidence} from a {Calibrated} {Post}-{Keynesian} model}
+      \field{year}{2019}
+      \keyw{Prof. Rehm,Obrigatória}
     \endentry
     \entry{european_central_bank_housing_2010}{book}{}
       \name{author}{1}{}{%
@@ -1686,12 +1827,12 @@
     \endentry
     \entry{green_follow_1997}{article}{}
       \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=5600b83cf822b20354346e7bbc084f15}{%
+        {{uniquename=1,uniquepart=given,hash=5600b83cf822b20354346e7bbc084f15}{%
            family={Green},
            familyi={G\bibinitperiod},
            given={{Richard K.}},
            giveni={R\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
       }
       \list{language}{1}{%
         {en}%
@@ -1729,6 +1870,62 @@
       \endverb
       \verb{url}
       \verb https://ideas.repec.org/a/bla/reesec/v25y1997i2p253-270.html
+      \endverb
+    \endentry
+    \entry{green_american_2005}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=1,uniquepart=given,hash=5600b83cf822b20354346e7bbc084f15}{%
+           family={Green},
+           familyi={G\bibinitperiod},
+           given={Richard\bibnamedelima K},
+           giveni={R\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=1}}%
+        {{uniquename=0,uniquepart=base,hash=7e3777ba8aa8c8d8228668a305bfb529}{%
+           family={Wachter},
+           familyi={W\bibinitperiod},
+           given={Susan\bibnamedelima M},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{597d0a8f5766d7b1d0fffe715d1bb032}
+      \strng{fullhash}{597d0a8f5766d7b1d0fffe715d1bb032}
+      \strng{bibnamehash}{597d0a8f5766d7b1d0fffe715d1bb032}
+      \strng{authorbibnamehash}{597d0a8f5766d7b1d0fffe715d1bb032}
+      \strng{authornamehash}{597d0a8f5766d7b1d0fffe715d1bb032}
+      \strng{authorfullhash}{597d0a8f5766d7b1d0fffe715d1bb032}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0895-3309}
+      \field{journaltitle}{Journal of Economic Perspectives}
+      \field{month}{11}
+      \field{number}{4}
+      \field{title}{The {American} {Mortgage} in {Historical} and {International} {Context}}
+      \field{urlday}{26}
+      \field{urlmonth}{8}
+      \field{urlyear}{2019}
+      \field{volume}{19}
+      \field{year}{2005}
+      \field{urldateera}{ce}
+      \field{pages}{93\bibrangedash 114}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1257/089533005775196660
+      \endverb
+      \verb{file}
+      \verb Green e Wachter - 2005 - The American Mortgage in Historical and Internatio.pdf:/home/gpetrini/Zotero/storage/RG429ADS/Green e Wachter - 2005 - The American Mortgage in Historical and Internatio.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://pubs.aeaweb.org/doi/10.1257/089533005775196660
+      \endverb
+      \verb{url}
+      \verb http://pubs.aeaweb.org/doi/10.1257/089533005775196660
       \endverb
     \endentry
     \entry{hein_finance-dominated_2012}{report}{}
@@ -2915,6 +3112,7 @@
       \strng{authorbibnamehash}{4350360f9662b16b910ff8cdfe3abff2}
       \strng{authornamehash}{4350360f9662b16b910ff8cdfe3abff2}
       \strng{authorfullhash}{4350360f9662b16b910ff8cdfe3abff2}
+      \field{extraname}{1}
       \field{sortinit}{T}
       \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
       \field{extradatescope}{labelyear}
@@ -2930,6 +3128,49 @@
       \verb da Silva Teixeira_2015_Crescimento liderado pela demanda na economia norte-americana nos anos 2000.pdf:/home/gpetrini/Zotero/storage/T7G26XY3/da Silva Teixeira_2015_Crescimento liderado pela demanda na economia norte-americana nos anos 2000.pdf:application/pdf;Fulltext:/home/gpetrini/Zotero/storage/ZH4I5ZIE/da Silva Teixeira - 2015 - Crescimento liderado pela demanda na economia nort.pdf:application/pdf
       \endverb
       \keyw{REVISTO,METADATA}
+    \endentry
+    \entry{teixeira_uma_2011}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=4350360f9662b16b910ff8cdfe3abff2}{%
+           family={{Teixeira}},
+           familyi={T\bibinitperiod},
+           given={{Lucas Azeredo da Silva}},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {pt-BR}%
+      }
+      \strng{namehash}{4350360f9662b16b910ff8cdfe3abff2}
+      \strng{fullhash}{4350360f9662b16b910ff8cdfe3abff2}
+      \strng{bibnamehash}{4350360f9662b16b910ff8cdfe3abff2}
+      \strng{authorbibnamehash}{4350360f9662b16b910ff8cdfe3abff2}
+      \strng{authornamehash}{4350360f9662b16b910ff8cdfe3abff2}
+      \strng{authorfullhash}{4350360f9662b16b910ff8cdfe3abff2}
+      \field{extraname}{2}
+      \field{sortinit}{T}
+      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Este artigo discute as origens do processo que mais chamou atenção na economia norte-americana, antes da eclosão da crise do subprime: o crescente endividamento do consumidor. Segundo a hipótese adotada neste trabalho, são causas deste endividamento a mudança na distribuição de renda (aumento da concentração) e as desregulamentações e inovações financeiras, que se desenvolvem a partir do fim dos anos 1970. Tendo em vista que este aspecto vem sendo bem explorado na literatura especializada, o presente trabalho concentra sua explicação na mudança no padrão de distribuição de renda. Analisando por este prisma, chega-se à conclusão adicional de que não se trata de endividamento das famílias, ou dos consumidores, em geral, e sim, mais especificamente, de uma parcela destes, os trabalhadores norte-americanos, que se endividaram para financiar seus gastos, em um contexto de salários reais estagnados. Por fim, os rumos da economia norte-americana pós-crise são brevemente avaliados.}
+      \field{journaltitle}{http://www.ipea.gov.br}
+      \field{title}{Uma {Investigação} sobre a desigualdade na distribuição de renda e o endividamento dos trabalhadores norte-americanos dos anos 1980 aos anos 2000}
+      \field{urlday}{28}
+      \field{urlmonth}{12}
+      \field{urlyear}{2018}
+      \field{year}{2012}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Full Text PDF:/home/gpetrini/Zotero/storage/9H4BQDSY/Teixeira - 2011 - Uma Investigação sobre a desigualdade na distribui.pdf:application/pdf;Snapshot:/home/gpetrini/Zotero/storage/6A5GZ3N2/6241.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb http://repositorio.ipea.gov.br/handle/11058/6241
+      \endverb
+      \verb{url}
+      \verb http://repositorio.ipea.gov.br/handle/11058/6241
+      \endverb
     \endentry
     \entry{van_gunten_varieties_2018}{article}{}
       \name{author}{2}{}{%

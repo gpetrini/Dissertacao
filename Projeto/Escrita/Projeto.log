@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.6.22)  25 AUG 2019 12:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.6.22)  26 AUG 2019 23:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1513,25 +1513,26 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <17.28> not available
 LaTeX Font Info:    Font shape `T1/phv/bx/sc' in size <17.28> not available
 (Font)              Font shape `T1/phv/b/sc' tried instead on input line 1.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 12.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 11.
  [1
 
-{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 29.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 15.
 LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <10.95> not available
-(Font)              Font shape `T1/phv/b/it' tried instead on input line 29.
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 15.
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <10.95> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 29.
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 15.
+ [2]
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 35.
  [3]
 <Jorda_Mean.png, id=43, 367.8543pt x 245.718pt>
 File: Jorda_Mean.png Graphic file (type png)
 <use Jorda_Mean.png>
 Package pdftex.def Info: Jorda_Mean.png  used on input line 77.
 (pdftex.def)             Requested size: 367.85338pt x 245.71739pt.
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 82.
- [4] [5 <./Jorda_Mean.png>] Excluding 'comment' comment.) (./Objetivos.tex
+ [4] [5 <./Jorda_Mean.png>] [6] Excluding 'comment' comment.) (./Objetivos.tex
 LaTeX Font Info:    Try loading font information for OMS+phv on input line 7.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/omsphv.fd
@@ -1539,15 +1540,15 @@ File: omsphv.fd
 )
 LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 7.
- [6])
+ [7])
 (./Metodologia.tex
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 19.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <8> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 33.
- [7]
+ [8]
 <../../Escrita_Dissertacao/Da_Silveira_Dissertacao_Atual/Modelo/Caverzassi_Heat
-map.png, id=65, 1178.4025pt x 654.445pt>
+map.png, id=68, 1178.4025pt x 654.445pt>
 File: ../../Escrita_Dissertacao/Da_Silveira_Dissertacao_Atual/Modelo/Caverzassi
 _Heatmap.png Graphic file (type png)
 <use ../../Escrita_Dissertacao/Da_Silveira_Dissertacao_Atual/Modelo/Caverzassi_
@@ -1555,33 +1556,43 @@ Heatmap.png>
 Package pdftex.def Info: ../../Escrita_Dissertacao/Da_Silveira_Dissertacao_Atua
 l/Modelo/Caverzassi_Heatmap.png  used on input line 78.
 (pdftex.def)             Requested size: 435.32422pt x 241.76138pt.
- [8] [9 <../../Escrita_Dissertacao/Da_Silveira_Dissertacao_Atual/Modelo/Caverza
-ssi_Heatmap.png>]) (./Plano_Trabalho.tex
+ [9]) (./Plano_Trabalho.tex [10 <../../Escrita_Dissertacao/Da_Silveira_Disserta
+cao_Atual/Modelo/Caverzassi_Heatmap.png>]
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <6> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 42.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <5> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 42.
 
-Excluding 'comment' comment.) [10] [11] [12]
+Excluding 'comment' comment.) [11] [12] [13]
 Overfull \hbox (35.3243pt too wide) in paragraph at lines 188--188
 [][]\T1/phv/m/sc/12 pariboni\T1/phv/m/n/12 , \T1/phv/m/sc/12 r. \T1/phv/b/n/12 
 Hou-sehold Con-su-mer Debt, En-do-ge-nous Mo-ney and Growth: A Supermultiplier-
 
  []
 
-[13] [14] (./Projeto.aux)
+[14]
+Overfull \hbox (76.0342pt too wide) in paragraph at lines 188--188
+\T1/phv/m/n/12 mento dos tra-ba-lha-do-res norte-americanos dos anos 1980 aos a
+nos 2000. pt-BR. \T1/phv/b/n/12 http://www.ipea.gov.br\T1/phv/m/n/12 ,
+ []
+
+[15] (./Projeto.aux)
+
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
+
 Package logreq Info: Writing requests to 'Projeto.run.xml'.
 \openout1 = `Projeto.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35527 strings out of 492609
- 690750 string characters out of 6129033
- 1312882 words of memory out of 5000000
- 38829 multiletter control sequences out of 15000+600000
+ 35555 strings out of 492609
+ 691508 string characters out of 6129033
+ 1321104 words of memory out of 5000000
+ 38857 multiletter control sequences out of 15000+600000
  609370 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 98i,17n,151p,1683b,5787s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 98i,17n,151p,1886b,5787s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
 xlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/tex
@@ -1593,10 +1604,10 @@ ve/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive
 -dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/local/texlive/2019/texmf-dist/
 fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/t
 ype1/urw/helvetic/uhvro8a.pfb>
-Output written on Projeto.pdf (14 pages, 651048 bytes).
+Output written on Projeto.pdf (15 pages, 656491 bytes).
 PDF statistics:
- 123 PDF objects out of 1000 (max. 8388607)
- 76 compressed objects within 1 object stream
+ 126 PDF objects out of 1000 (max. 8388607)
+ 78 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  119 words of extra memory for PDF output out of 10000 (max. 10000000)
 

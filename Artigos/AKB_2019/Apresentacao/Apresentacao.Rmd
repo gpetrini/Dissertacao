@@ -53,9 +53,8 @@ Resultado parcial da dissertação em andamento
 ## Revisão da literatura
 
 \begin{alert}{Problema deixado por Harrod}
-Quais as condições para que demanda e capacidade produtiva cresçam dinamicamente equilibradas?
-\end{alert}
 Alternativas dentro da heterodoxia para resolver este problema:
+\end{alert}
 
 - Cambridge
 - Kaleckiano tradicional (Oxford)
@@ -137,7 +136,7 @@ $$
 ## Solução analítica
 
 $$
-Y = \frac{1}{1-\omega -h_t}\cdot I_h
+Y_t = \frac{1}{1-\omega -h_t}\cdot I_{h_t}
 $$
 
 $$
@@ -158,12 +157,18 @@ $$
 ![](figs/Shock_1.png)
 
 
+## Choque em $\omega$
+
+![](figs/Shock_2.png)
+
 ## Conclusões
 
 - Nosso modelo reproduz as principais características do supermultiplicador sraffiano
-
-    + Maior wage-share  não afeta a taxa de crescimento de longo prazo
-    + Maior taxa de juros gera maior endividamento das famílias
+    
+    + $u\to u_N$
+    + $g \to g_Z$
+    + $\Delta \omega \nRightarrow g^*$: distribuição  não afeta a taxa de crescimento de longo prazo
+    + Taxa de juros hipotecárias impacta endividamento das famílias apenas
 
 - $\Uparrow g_Z \Rightarrow \Uparrow k$
 
@@ -211,9 +216,6 @@ $$
 $$
 
 
-## Choque em $\omega$
-
-![](figs/Shock_2.png)
 
 ## Choque em $r_m$
 

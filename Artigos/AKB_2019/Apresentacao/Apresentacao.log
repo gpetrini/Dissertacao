@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.6.24)  23 AUG 2019 16:05
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.6.24)  26 AUG 2019 10:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1559,48 +1559,48 @@ Overfull \vbox (35.06865pt too high) detected at line 691
 [4
 
 ]
-LaTeX Font Info:    Try loading font information for OT1+lmss on input line 713
+LaTeX Font Info:    Try loading font information for OT1+lmss on input line 711
 .
 (/home/gpetrini/.TinyTeX/texmf-dist/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 713.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 711.
 
 (/home/gpetrini/.TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 713
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 711
 .
 (/home/gpetrini/.TinyTeX/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 713
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 711
 .
 (/home/gpetrini/.TinyTeX/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 713.
+(Font)              <14.4> on input line 711.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 713.
+(Font)              <10> on input line 711.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 713.
-LaTeX Font Info:    Try loading font information for U+msa on input line 713.
+(Font)              <7> on input line 711.
+LaTeX Font Info:    Try loading font information for U+msa on input line 711.
 (/home/gpetrini/.TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 713.
+LaTeX Font Info:    Try loading font information for U+msb on input line 711.
 (/home/gpetrini/.TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+wasy on input line 713.
+LaTeX Font Info:    Try loading font information for U+wasy on input line 711.
 (/home/gpetrini/.TinyTeX/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 )
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <10> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 713.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 711.
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <7> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 713.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 711.
 [5
 
 ] [6
@@ -1611,7 +1611,7 @@ LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <7> not available
 File: ./figs/Estoques.png Graphic file (type bmp)
 <./figs/Estoques.png>
 
-Overfull \vbox (7.65607pt too high) detected at line 757
+Overfull \vbox (7.65607pt too high) detected at line 755
  []
 
 [8
@@ -1620,7 +1620,7 @@ Overfull \vbox (7.65607pt too high) detected at line 757
 File: ./figs/Fluxos.png Graphic file (type bmp)
 <./figs/Fluxos.png>
 
-Overfull \vbox (31.13014pt too high) detected at line 767
+Overfull \vbox (31.13014pt too high) detected at line 765
  []
 
 [9
@@ -1640,50 +1640,50 @@ File: figs/DAGEstoques.png Graphic file (type bmp)
 File: figs/Shock_1.png Graphic file (type bmp)
 <figs/Shock_1.png>
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <20.74> on input line 826.
+(Font)              <20.74> on input line 824.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 826.
+(Font)              <12> on input line 824.
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <20.74> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 826.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 824.
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <12> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 826.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 824.
 
-Overfull \vbox (35.06627pt too high) detected at line 826
+Overfull \vbox (35.06627pt too high) detected at line 824
  []
 
 [13
 
 ]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 849.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 849.
-LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <8> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 849.
-LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <6> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 849.
+File: figs/Shock_2.png Graphic file (type bmp)
+<figs/Shock_2.png>
+
+Overfull \vbox (35.06627pt too high) detected at line 834
+ []
+
 [14
 
-] [15
+]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 862.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 862.
+LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <8> not available
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 862.
+LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <6> not available
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 862.
+[15
 
 ] [16
 
 ] [17
 
-]
-File: figs/Shock_2.png Graphic file (type bmp)
-<figs/Shock_2.png>
-
-Overfull \vbox (35.06627pt too high) detected at line 900
- []
-
-[18
+] [18
 
 ]
 File: figs/Shock_3.png Graphic file (type bmp)
 <figs/Shock_3.png>
 
-Overfull \vbox (35.06627pt too high) detected at line 910
+Overfull \vbox (35.06627pt too high) detected at line 913
  []
 
 [19
@@ -1700,11 +1700,11 @@ Overfull \vbox (35.06627pt too high) detected at line 910
 \tf@snm=\write8
 \openout8 = `Apresentacao.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 929.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 929.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 932.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 932.
 (./Apresentacao.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 929.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 929.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 932.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 932.
 Package rerunfilecheck Info: File `Apresentacao.out' has not changed.
 (rerunfilecheck)             Checksum: A99F4FE39AF40ACDE4CBDF761A565004.
  ) 
