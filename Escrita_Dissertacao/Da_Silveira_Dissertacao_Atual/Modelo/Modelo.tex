@@ -4,7 +4,8 @@
 Por padrão, as variáveis exógenas, $j$ diga-se, serão indicadas por $\overline{j}$ enquanto os parâmetros serão denotados por letras gregas. Além disso, as equações não numeradas são apenas etapas algébricas enquanto as numeradas estão presentes nas rotinas utilizadas. Por fim, vale a menção de que os códigos deste modelo estão disponíveis e foram escritos em \textit{python} com o uso do pacote \textit{pysolve3} que foi desenvolvido ao longo desta pesquisa.
 
 \paragraph*{Equações gerais}
-O produto é determinado pelo estoque de capital criador de capacidade assim como pelo trabalho homogêneo. Além disso, supõe-se temporariamente que não estão presentes inflação de bens bem como depreciação\footnote{A ausência de depreciação é meramente simplificadora e será incluída nas versões futuras deste modelo. Vale mencionar que um dos objetivos desta pesquisa é incorporar e analisar os impactos da inflação de ativos.}.  Diferentemente de \textcite{nikiforos_utilization_2016} e \textcite{dutt_observations_2018}, supõe-se que estão ausentes retornos crescentes de escala e progresso tecnológico.
+O produto é determinado pelo estoque de capital criador de capacidade assim como pelo trabalho homogêneo. Além disso, supõe-se que não estão presentes inflação de bens bem como depreciação.  Como mencionado anteriormente, um dos objetivos desta pesquisa é incorporar e analisar os impactos da inflação de ativos (\textit{i.e.} imóveis).
+Diferentemente de \textcite{nikiforos_utilization_2016} e \textcite{dutt_observations_2018}, supõe-se que estão ausentes retornos crescentes de escala e progresso tecnológico.
 
 Por se tratar de uma economia sem relações externas e sem governo, o produto determinado pelos componentes da demanda ($Y$) é a soma do consumo ($C$) e investimento das famílias ($Ih$) e das firmas ($If$) em que apenas este último é criador de capacidade produtiva ao setor privado:
 
@@ -51,7 +52,7 @@ cuja forma em termos de crescimento equivale a
 \tag{Aux.}
 \dot u = (g - g_K)\cdot u_{t-1}
 \end{equation}
-em que $g_Y$ e $g_K$ são, respectivamente, a taxa de crescimento da demanda e da capacidade produtiva discutidas no capítulo teórico.
+em que $g_Y$ e $g_K$ são, respectivamente, a taxa de crescimento do produto e da capacidade produtiva discutidas no capítulo teórico.
 
 
 A razão pela qual o capital criador de capacidade se difere do estoque de capital total da economia ($K$) se dá pela inclusão do investimento residencial tão comumente ignorado pela literatura que, como pontuado pelo capítulo anterior, possui implicações importantes para a dinâmica da economia norte americana. Dito isso, o estoque de capital é dado por:
@@ -60,7 +61,7 @@ A razão pela qual o capital criador de capacidade se difere do estoque de capit
 \label{_K}
     K = Kf + K_{H}
 \end{equation}
-em que $K_H$ refere ao acúmulo do investimento residencial. Seja $K_k$ a participação dos imóveis no estoque de capital total da economia:
+em que $K_H$ refere ao estoque de imóveis. Seja $K_k$ a participação dos imóveis no estoque de capital total da economia:
 
 \begin{equation}
 \label{_tau}
@@ -72,7 +73,7 @@ K = K_k\cdot K + (1-K_k)\cdot K
 $$
 que será utilizada para o desenvolvimento da solução analítica.
 
-Neste modelo, tal como na tradição Kalekicana e Sraffiana, a distribuição funcional da renda é exógena. Para não recorrer à hipóteses a respeito da estrutura de mercado bem como da determinação de preços das firmas, impõe-se que:
+Neste modelo, tal como na tradição kalekicana e sraffiana, a distribuição funcional da renda é exógena. Para não recorrer à hipóteses a respeito da estrutura de mercado bem como da determinação de preços das firmas, impõe-se que\footnote{A discussão sobre os determinantes da distribuição da renda foge do escopo desta pesquisa, para tanto, ver \textcite{pivetti_essay_1992}. }:
 
 \begin{equation}
     \omega = \overline{\omega} \Leftrightarrow \pi = 1 - \overline{\omega}
@@ -88,7 +89,7 @@ $$
     W = \omega\cdot Y
 \end{equation}
 
-Por fim, cabe explicitar os ativos financeiros presentes no modelo e como são distribuídos entre os diferentes agentes institucionais. As famílias (denotadas pelo subíndice $h$) acumulam riqueza sob a forma de depósitos à vista ($M$) enquanto contraem empréstimos hipotecários ($MO$) para realizar investimento residencial que, no acumulado, é idêntico ao estoque de imóveis ($K_h$). 
+Por fim, cabe explicitar os ativos financeiros presentes no modelo e como são distribuídos entre os diferentes agentes institucionais. As famílias (denotadas pelo subíndice $h$) acumulam riqueza sob a forma de depósitos à vista ($M$) e imóveis ($K_h$) enquanto contraem empréstimos hipotecários ($MO$) para realizar investimento residencial. 
 %Além disso, tal como pontuado por \textcite{leamer_housing_2007}, possuem acesso a crédito ($N$) a depender do estoque de riqueza (imóveis neste caso) e é financiado por dívida ($L_h$)
 As firmas (denotadas pelo subíndice $f$), por sua vez, financiam o investimento em parte por lucros retidos e o restante por empréstimo ($L_f$). Os bancos, portanto, criam crédito (\textit{ex nihilo}) para então recolher os depósitos, todos remunerados pelas respectivas taxas de juros. Com isso, é possível explicitar a matriz dos estoques:
 
@@ -116,7 +117,7 @@ $\sum$ Riqueza líquida total&$NW_h$&$NW_f$&$NW_b$& $+K$\\
 \caption*{\textbf{Fonte:} Elaboração própria}
 \end{table}
 
-Esta matriz além de mapear as relações entre os diferentes agentes institucionais de modo que não existam ``buracos negros'', permite explicitar as interelações entre lado real e financeiro \cite{dos_santos_revisiting_2010}. Resta explicitar como os fluxos determinam os estoques por meio da matriz de transações correntes e fluxo de fundos que, descritas as hipóteses e equações gerais, auxiliará na especificação de cada setor institucional:
+Esta matriz mapeia as relações entre os diferentes agentes institucionais e permite explicitar as inter-relações entre lado real e financeiro \cite{dos_santos_revisiting_2010}. Resta explicitar como os fluxos determinam os estoques por meio da matriz de transações correntes e fluxo de fundos que, descritas as hipóteses e equações gerais, auxiliará na especificação de cada setor institucional:
 
 \begin{table}[H]
 \centering
@@ -154,12 +155,12 @@ Variação dos empréstimos     & &&$+\Delta L_f$&$-\Delta L$& 0\\
 \caption*{\textbf{Fonte:} Elaboração própria}
 \end{table}
 
-\paragraph*{Firmas} Para produzir, as firmas encomendam bens de capital ($-If$ na conta de capital) e contratam os trabalhadores que são remunerados pela massa de salário de modo que os lucros brutos ($FT$) são determinados por:
+\paragraph*{Firmas} Para produzir, as firmas encomendam bens de capital ($-If$ na conta de capital), financiam parte do investimento com crédito ($L_f$) que é remunerado a taxa $r_l$ e contratam os trabalhadores que são remunerados pela massa de salário de modo que os lucros brutos ($FT$) são determinados por:
 
 \begin{equation}
     FT = Y - W
 \end{equation}
-Além disso, as firmas retêm uma parcela ($\gamma_F$) dos lucros líquidos de juros ($FU$) e distrubuem o restante para as famílias ($FD$):
+Além disso, as firmas retêm uma parcela ($\gamma_F$) dos lucros líquidos de juros ($FU$) para financiar parte do investimento e distribuem o restante para as famílias ($FD$):
 
 \begin{equation}
     FU = \gamma_F\cdot (FT - r_l\cdot L_{f_{-1}})
@@ -168,7 +169,7 @@ Além disso, as firmas retêm uma parcela ($\gamma_F$) dos lucros líquidos de j
     FD = (1-\gamma_F)\cdot (FT - r_l\cdot L_{f_{-1}})
 \end{equation}
 
-Como sugerido pelo capítulo \ref{CapFatos} e seguindo a literatura do supermultiplicador sraffiano, supõe-se que o investimento das firmas é induzido pelo nível de demanda efetiva,
+Como sugerido pelo capítulo \ref{CapFatos} e seguindo \textcite{serrano_long_1995} e \textcite{serrano_sraffian_2017}, supõe-se que o investimento das firmas é induzido pelo nível de demanda efetiva,
 \begin{equation}
 \label{_If}
     If = h\cdot Y
@@ -178,7 +179,7 @@ em que $h$ é a propensão marginal à investir. Além disso, adota-se o princí
 \label{_h}
     \Delta h = h_{-1}\cdot \gamma_u\cdot (u - \overline{u}_N)
 \end{equation}
-em que o parâmetro $\gamma_u$ deve ser suficientemente pequeno para que este ajustamento seja lento e gradual. Contabilmente, o investimento das firmas determina o estoque de capital criador de capacidade produtiva:
+em que o parâmetro $\gamma_u$ deve ser suficientemente pequeno para que este ajustamento seja lento e gradual \cite[p.~271]{freitas_growth_2015}. Contabilmente, o investimento das firmas determina o estoque de capital criador de capacidade produtiva:
 
 \begin{equation}
     \Delta Kf = If
@@ -241,7 +242,7 @@ Por fim, da matriz dos estoques obtém-se o estoque de riqueza líquida dos banc
 \end{equation}
 
 \paragraph*{Famílias} 
-Por se tratar do setor institucional mais complexo do modelo, optou-se por apresentar as famílias por último. Supõe-se que o consumo das famílias ($C$) é tem uma parcela induzida e outra autônoma ($N$) decorrente do acesso ao crédito de tal modo que é determinado por:
+Por se tratar do setor institucional mais complexo do modelo, optou-se por apresentar as famílias por último. Supõe-se que o consumo das famílias ($C$) é induzido:
 
 \begin{equation}
 \label{_C}
@@ -264,7 +265,7 @@ A parcela da renda disponível das famílias não consumida é acumulada sob a f
 $$
 \Delta M = S_h
 $$
-A equação acima, no entanto, é redundante e não precisa ser especificada.}, portanto, é a renda disponível subtraída do consumo que, nesta versão mais simplificada, é idêntica aos salários somados ao consumo autônomo:
+A equação acima, no entanto, é redundante e não precisa ser especificada.}, portanto, é a renda disponível subtraída do consumo que, nesta versão mais simplificada, é idêntica aos salários:
 
 \begin{equation}
     \label{EqSh}
@@ -279,9 +280,9 @@ Diferentemente dos modelos SFC convencionais, a poupança das famílias não é 
     NFW_h = S_f - Ih
 \end{equation}
 
-Com isso, é possível apresentar as equações que determinam o investimento residencial. Supõe-se que a oferta de imóveis é infinitamente elástica, ou seja, toda a demanda por imóveis é atendida. No entanto, vale mencionar que é uma hipótese temporária e que um dos objetivos desta pesquisa é avaliar o impacto da inflação de ativos que necessita de uma dinâmica de preços ($p_h$). Formalmente, é preciso que a oferta e demanda se igualem tanto nos fluxos:
+Com isso, é possível apresentar as equações que determinam o investimento residencial. Supõe-se que a oferta de imóveis é infinitamente elástica, ou seja, toda a demanda por imóveis é atendida. No entanto, vale mencionar que é uma hipótese temporária\footnote{Por se tratar de um texto para a qualificação, optou-se por essa simplificação que será abandonada em versões futuras.} e que um dos objetivos desta pesquisa é avaliar o impacto da inflação de ativos que necessita de uma dinâmica de preços ($p_h$). Formalmente, é preciso que a oferta ($I_{h_s}$) e demanda ($I_h$) se igualem tanto nos fluxos:
 \begin{equation}
-    I_{hs} = Ih
+    I_{hs} = I_h
 \end{equation}
 quanto nos estoques em termos reais:
 \begin{equation}
@@ -316,7 +317,7 @@ g_Z = \phi_0 - \phi_1\cdot own
 \begin{equation}
 own = \frac{1+r_{mo}}{1+\text{Infla}}
 \end{equation}
-em que $\text{Infla}$ indica a inflação de ativos. 
+em que $\text{Infla}$ indica a inflação de imóveis. 
 \begin{comment}
 Adicionalmente, seguindo a exposição de \textcite{leamer_housing_2007}, o estoque de imóveis determina o acesso ao crédito com certa defasagem $\tau$ de modo que:
 \begin{equation}

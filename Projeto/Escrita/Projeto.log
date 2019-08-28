@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.6.22)  26 AUG 2019 23:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.6.22)  27 AUG 2019 15:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1506,17 +1506,22 @@ loading the todonotes package. on input line 108.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 128.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 140.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 144.
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--144
+
+ []
+
 Excluding 'comment' comment. (./Introducao_Just.tex
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `T1/phv/bx/sc' in size <17.28> not available
 (Font)              Font shape `T1/phv/b/sc' tried instead on input line 1.
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 11.
  [1
 
 {/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 11.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 15.
 LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <10.95> not available
@@ -1564,14 +1569,14 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <5> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 42.
 
 Excluding 'comment' comment.) [11] [12] [13]
-Overfull \hbox (35.3243pt too wide) in paragraph at lines 188--188
+Overfull \hbox (35.3243pt too wide) in paragraph at lines 192--192
 [][]\T1/phv/m/sc/12 pariboni\T1/phv/m/n/12 , \T1/phv/m/sc/12 r. \T1/phv/b/n/12 
 Hou-sehold Con-su-mer Debt, En-do-ge-nous Mo-ney and Growth: A Supermultiplier-
 
  []
 
 [14]
-Overfull \hbox (76.0342pt too wide) in paragraph at lines 188--188
+Overfull \hbox (76.0342pt too wide) in paragraph at lines 192--192
 \T1/phv/m/n/12 mento dos tra-ba-lha-do-res norte-americanos dos anos 1980 aos a
 nos 2000. pt-BR. \T1/phv/b/n/12 http://www.ipea.gov.br\T1/phv/m/n/12 ,
  []
@@ -1586,10 +1591,10 @@ Package logreq Info: Writing requests to 'Projeto.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35555 strings out of 492609
- 691508 string characters out of 6129033
- 1321104 words of memory out of 5000000
- 38857 multiletter control sequences out of 15000+600000
+ 35558 strings out of 492609
+ 691547 string characters out of 6129033
+ 1254935 words of memory out of 5000000
+ 38860 multiletter control sequences out of 15000+600000
  609370 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  98i,17n,151p,1886b,5787s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1604,7 +1609,7 @@ ve/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive
 -dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/local/texlive/2019/texmf-dist/
 fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/t
 ype1/urw/helvetic/uhvro8a.pfb>
-Output written on Projeto.pdf (15 pages, 656491 bytes).
+Output written on Projeto.pdf (15 pages, 656509 bytes).
 PDF statistics:
  126 PDF objects out of 1000 (max. 8388607)
  78 compressed objects within 1 object stream

@@ -2896,6 +2896,45 @@
       \verb http://www.tandfonline.com/doi/full/10.1080/09538259.2015.1067360
       \endverb
     \endentry
+    \entry{gandolfo_economic_2010}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=f35ab8393012cc6c1c7763862b22cf9c}{%
+           family={Gandolfo},
+           familyi={G\bibinitperiod},
+           given={Giancarlo},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \list{location}{1}{%
+        {Berlin}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{f35ab8393012cc6c1c7763862b22cf9c}
+      \strng{fullhash}{f35ab8393012cc6c1c7763862b22cf9c}
+      \strng{bibnamehash}{f35ab8393012cc6c1c7763862b22cf9c}
+      \strng{authorbibnamehash}{f35ab8393012cc6c1c7763862b22cf9c}
+      \strng{authornamehash}{f35ab8393012cc6c1c7763862b22cf9c}
+      \strng{authorfullhash}{f35ab8393012cc6c1c7763862b22cf9c}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{4. ed., study ed., 1. softcover printing}
+      \field{isbn}{978-3-642-03862-4 978-3-642-13503-3 978-3-642-03871-6}
+      \field{note}{OCLC: 845756271}
+      \field{title}{Economic dynamics}
+      \field{year}{2010}
+      \verb{file}
+      \verb Table of Contents PDF:/home/gpetrini/Zotero/storage/H2BXMCVQ/Gandolfo - 2010 - Economic dynamics.pdf:application/pdf
+      \endverb
+    \endentry
     \entry{garegnani_notes_1992}{incollection}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=217b3b26f2fad258e63b9d4e74d9c12a}{%
@@ -3944,40 +3983,6 @@
       \verb https://doi.org/10.1007/978-3-642-15340-2_1
       \endverb
       \keyw{Bayesian estimation,DSGE models,Housing markets,housing prices}
-    \endentry
-    \entry{jackman_investigating_2010}{article}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=adcd64e6a37fdb120d0b3a1a86bdbb55}{%
-           family={Jackman},
-           familyi={J\bibinitperiod},
-           given={Mahalia},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{adcd64e6a37fdb120d0b3a1a86bdbb55}
-      \strng{fullhash}{adcd64e6a37fdb120d0b3a1a86bdbb55}
-      \strng{bibnamehash}{adcd64e6a37fdb120d0b3a1a86bdbb55}
-      \strng{authorbibnamehash}{adcd64e6a37fdb120d0b3a1a86bdbb55}
-      \strng{authornamehash}{adcd64e6a37fdb120d0b3a1a86bdbb55}
-      \strng{authorfullhash}{adcd64e6a37fdb120d0b3a1a86bdbb55}
-      \field{sortinit}{J}
-      \field{sortinithash}{fce5f8d0bd05e8d93f3dbe21c78897ca}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{International Real Estate Review}
-      \field{title}{Investigating the {Relationship} between {Residential} {Construction} and {Economic} {Growth} in a {Small} {Developing} {Country}: {The} {Case} of {Barbados}}
-      \field{year}{2010}
-      \field{pages}{8}
-      \range{pages}{1}
-      \verb{file}
-      \verb Jackman - Investigating the Relationship between Residential.pdf:/home/gpetrini/Zotero/storage/IHM39NUD/Jackman - Investigating the Relationship between Residential.pdf:application/pdf
-      \endverb
-      \keyw{Fichado}
     \endentry
     \entry{johansen_estimation_1991}{article}{}
       \name{author}{1}{}{%

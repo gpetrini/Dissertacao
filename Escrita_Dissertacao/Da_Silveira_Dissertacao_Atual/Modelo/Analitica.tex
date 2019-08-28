@@ -6,7 +6,7 @@ Apresentada a estrutura do modelo, resta expor a solução analítica de modo qu
     \label{AnaliticaNivel}
     Y = \left(\frac{1}{1-\omega - h}\right)Z
 \end{equation}
-Dito isso, resta apresentar o modelo em termos de crescimento. Partindo contribuição dos componentes da demanda para a variação da renda e resolvendo para a taxa de crescimento, obtém-se
+Dito isso, resta apresentar o modelo em termos de crescimento tal como \textcite{freitas_growth_2015}. Partindo contribuição dos componentes da demanda para a variação da renda e resolvendo para a taxa de crescimento, obtém-se
 $$
 g = g\cdot \omega + \Delta h + g\cdot h + g_z\cdot \frac{Z}{Y}
 $$
@@ -14,7 +14,7 @@ $$
 \label{gLP}
     g = \frac{\Delta h}{1 - \omega - h} + g_z
 \end{equation}
-Como indicado anteriormente, a propensão marginal a investir se ajusta de acordo com o princípio do estoque de capital e, dessa forma, quando o grau de utilização convergir ao normal, a taxa de crescimento da economia tende a taxa de crescimento dos gastos autônomos (neste caso, investimento residencial) definida exogenamente. 
+Como indicado anteriormente, a propensão marginal a investir se ajusta de acordo com o princípio do ajuste do estoque de capital e, dessa forma, quando o grau de utilização convergir ao normal, a taxa de crescimento da economia tende a taxa de crescimento dos gastos autônomos (neste caso, investimento residencial) definida exogenamente. 
 \begin{equation}
 u \to u_N \Leftrightarrow g \to g_z
 \end{equation}
@@ -32,7 +32,7 @@ $$
 \end{cases}
 $$
 
-Para fins de simplificação, supões temporariamente um sistema para o tempo contínuo de modo que seja possível construir o seguinte jacobiano em torno do equilíbrio ($u = u_N$ e $h = h^*$):
+Para fins de simplificação, supõe-se temporariamente um sistema para o tempo contínuo de modo que seja possível construir o seguinte jacobiano em torno do equilíbrio ($u = u_N$ e $h = h^*$):
 
 $$
 J = 
@@ -47,7 +47,7 @@ J =
 \label{Jacobiano}
 \left[\begin{matrix}0 & \frac{g_Z \gamma_{u} v}{un}\\- \frac{un^{2}}{v} & - g_Z\end{matrix}\right]
 \end{equation}
-Seguindo os procedimentos de GANDOLFO, para que um sistema de duas equações seja estável, basta que o determinante de \ref{Jacobiano} seja positivo enquanto o traço seja negativo:
+Seguindo os procedimentos de \textcite{gandolfo_economic_2010}, para que um sistema de duas equações seja estável, basta que o determinante de \ref{Jacobiano} seja positivo enquanto o traço seja negativo:
 
 $$
 Det(J) = g_Z \gamma_{u} u_N > 0
@@ -72,7 +72,7 @@ $$
 $$
 reescrevendo, obtém-se
 \begin{equation}
-\alpha \omega + \frac{g_Z v}{u_N} + \gamma_u\cdot v
+\alpha \omega + \frac{g_Z v}{u_N} + \gamma_u\cdot v < 1
 \end{equation}
 Portanto, além do termo em parêntese da Eq. \ref{AnaliticaNivel} ser o supermultplicador, fornece as condições para que o modelo seja estável: 
 A condição anterior, como em \textcite{freitas_growth_2015}, significa que a propensão marginal a gasta (consumir e investir) seja menor que a unidade, caso contrário, vigora-se a lei de Say.
@@ -120,7 +120,7 @@ $$
 \label{kAnali}
 K_{k} = 1 - \frac{v \left(\phi_{0} - \phi_{1} \left(-1 + \frac{rm + spread_{mo} + 1}{infla + 1}\right)\right)}{un \left(- \alpha \omega + 1\right)}
 \end{equation}
-Cuja forma simplificada é\footnote{As etapas realizadas podem estão no \textit{script} utilizado.}:
+Cuja forma simplificada é\footnote{O \textit{script} com as etapas realizadas esta disponível sob solicitação.}:
 $$
 K_k = 1 - \frac{h^*}{(1 - \alpha\cdot\omega)}
 $$
