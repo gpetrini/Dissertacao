@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.6.24)  26 AUG 2019 10:03
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.6.24)  29 AUG 2019 08:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1640,15 +1640,15 @@ File: figs/DAGEstoques.png Graphic file (type bmp)
 File: figs/Shock_1.png Graphic file (type bmp)
 <figs/Shock_1.png>
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <20.74> on input line 824.
+(Font)              <20.74> on input line 825.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 824.
+(Font)              <12> on input line 825.
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <20.74> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 824.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 825.
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <12> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 824.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 825.
 
-Overfull \vbox (35.06627pt too high) detected at line 824
+Overfull \vbox (35.06627pt too high) detected at line 825
  []
 
 [13
@@ -1657,38 +1657,44 @@ Overfull \vbox (35.06627pt too high) detected at line 824
 File: figs/Shock_2.png Graphic file (type bmp)
 <figs/Shock_2.png>
 
-Overfull \vbox (35.06627pt too high) detected at line 834
+Overfull \vbox (35.06627pt too high) detected at line 835
  []
 
 [14
 
 ]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 862.
+(Font)              <8> on input line 863.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 862.
+(Font)              <6> on input line 863.
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <8> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 862.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 863.
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <6> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 862.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 863.
 [15
 
 ] [16
 
-] [17
+]
+Overfull \vbox (0.40141pt too high) detected at line 899
+ []
+
+[17
 
 ] [18
+
+] [19
 
 ]
 File: figs/Shock_3.png Graphic file (type bmp)
 <figs/Shock_3.png>
 
-Overfull \vbox (35.06627pt too high) detected at line 913
+Overfull \vbox (35.06627pt too high) detected at line 948
  []
 
-[19
+[20
 
-] [20
+] [21
 
 ]
 \tf@nav=\write6
@@ -1700,21 +1706,21 @@ Overfull \vbox (35.06627pt too high) detected at line 913
 \tf@snm=\write8
 \openout8 = `Apresentacao.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 932.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 932.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 967.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 967.
 (./Apresentacao.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 932.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 932.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 967.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 967.
 Package rerunfilecheck Info: File `Apresentacao.out' has not changed.
 (rerunfilecheck)             Checksum: A99F4FE39AF40ACDE4CBDF761A565004.
  ) 
 Here is how much of TeX's memory you used:
- 47355 strings out of 494894
- 1083263 string characters out of 6177483
+ 47357 strings out of 494894
+ 1083279 string characters out of 6177483
  1284683 words of memory out of 5000000
- 50500 multiletter control sequences out of 15000+600000
+ 50502 multiletter control sequences out of 15000+600000
  561293 words of font info for 93 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  62i,18n,96p,816b,907s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Apresentacao.pdf (20 pages).
+Output written on Apresentacao.pdf (21 pages).

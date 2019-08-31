@@ -5,7 +5,7 @@ O modelo a ser estimado pretende testar se a taxa própria de juros dos imóveis
 Por se tratar de taxas de crescimento com ampla volatilidade, aplicou-se a transformação de \textcite{yeo_new_2000} para conter a amplitude das séries decorrente da crise imobiliária. A razão de se utilizar tal procedimento e não a transformação de \textcite{box_analysis_1964} é por não se restringir a valores não-negativos. Em seguida, foram realizados testes de cointegração de \textcite{engle_co-integration_1987} bem como o procedimento de \textcite{johansen_estimation_1991} e, a um nível de significância de 5\%, conclui-se que as séries são cointegradas e, portanto, é possível estimar um modelo vetor de correção de erros (VECM)\footnote{Os resultados de todos os testes realizados bem como as rotinas utilizadas estão disponíveis sob solicitação.}.
 
 
-\begin{figure}[htb]
+\begin{figure}[H]
 	\centering
 	\caption{Séries com transformação de \textcite{yeo_new_2000}}
 	\label{YeoJhonson}
@@ -18,7 +18,7 @@ Dito isso, resta determinar a defasagem utilizada. Pelos critérios de informaç
 \input{./Fatos_Estilizados/lag_order.tex}
 
 
-\begin{figure}[htb]
+\begin{figure}[H]
 	\centering
 	\caption{Tempo médio de construção (aprovação a conclusão) de imóveis para uma unidade familiar por propósito de construção exceto casas pré-fabricadas (1976-2018)}
 	\label{meses}
@@ -29,7 +29,7 @@ Tal procedimento, no entanto, não é suficiente para determinar a seleção do 
 
 De forma a ilustrar tal relação, o gráfico \ref{defasagens} apresenta as variáveis de interesse frente ao \textit{lag} que minimiza os critério AIC e FPE. Esse procedimento permite visualizar se existe alguma relação entre a taxa própria esperada (taxa efetiva defasada) e taxa de crescimento do investimento residencial\footnote{De modo a dar conta de não-linearidades, é apresentada a regressão quadrática entre ambas as variáveis (e o mesmo foi realizado para o gráfico inverso).}. Já a relação inversa, qual seja, da taxa de crescimento para a taxa própria não se verifica uma vez que, como visto, o fluxo de novos imóveis é bastante inferior o estoque de imóveis existente e, portanto, é esperado que tal relação não esteja presente. Em outras palavras, a especulação com o \textit{estoque}  de imóveis gera inflação desses ativos que, por conseguinte, afeta a construção de novos imóveis (\textit{fluxo}) e não o inverso. Essa inspeção, portanto, ilustra de forma bastante grosseira tal componente expectacional por meio da menor dispersão entre os pontos no gráfico esquerdo\footnote{Raciocínio semelhante pode ser encontrado em \textcite{girardi_autonomous_2015}}.  Dito isso,  estima-se um VECM de ordem 5 cujos resíduos são apresentados no gráfico \ref{residuos}\footnote{Nota-se que tal defasagem, além de ser teoricamente justificada também gera resíduos não heterocedásticos, normalmente distribuídos e sem correlação serial.}.
 
-\begin{figure}[htb]
+\begin{figure}[H]
 	\centering
 	\caption{Dispersão entre taxa própria e crescimento do investimento residencial: defasagens selecionadas a partir dos critérios de informação}
 	\label{defasagens}
@@ -39,7 +39,7 @@ De forma a ilustrar tal relação, o gráfico \ref{defasagens} apresenta as vari
 %TODO Adicionar gráficos com defasagem 2
 
 
-\begin{figure}[htb]
+\begin{figure}[H]
 	\centering
 	\caption{Inspeção dos resíduos da estimação}
 	\label{residuos}
@@ -50,12 +50,12 @@ De forma a ilustrar tal relação, o gráfico \ref{defasagens} apresenta as vari
 
 
 \begin{center}
-	\begin{table}[htb]
+	\begin{table}[H]
 		\centering
 		\caption{Parâmetros para a equação da Taxa Própria}
 	\begin{tabular}{lccclcc}
 		\toprule
-		\textbf{Equação:} Taxa Prórpia & \textbf{coef} & \textbf{std err} & \textbf{z} & \textbf{P$> |$z$|$} & \textbf{[0.025} & \textbf{0.975]}  \\
+		\textbf{Equação:} Taxa própria & \textbf{coef} & \textbf{std err} & \textbf{z} & \textbf{P$> |$z$|$} & \textbf{[0.025} & \textbf{0.975]}  \\
 		\midrule
 		\textbf{$L^1 $ Taxa Própria} &       0.9320  &        0.089     &    10.511  &         0.000***        &        0.758    &        1.106     \\
 		\textbf{$L^1 $ gZ}           &      -0.0545  &        0.014     &    -3.786  &         0.000***        &       -0.083    &       -0.026     \\
@@ -73,7 +73,7 @@ De forma a ilustrar tal relação, o gráfico \ref{defasagens} apresenta as vari
 \end{table}
 \end{center}
 	
-	\begin{table}[htb]
+	\begin{table}[H]
 		\begin{center}
 		\caption{Parâmetros para a equação da $g_Z$}	
 	\begin{tabular}{lccclcc}
@@ -101,7 +101,7 @@ Além disso, espera-se que não exista uma relação de curto prazo entre a taxa
 
 Outra forma de verificar a capacidade explicativa da taxa própria para $g_Z$ é por meio da decomposição da variância da previsão (FEVD) como no gráfico \ref{fevd}. Verifica-se que desde o primeiro trimestre a taxa própria contribui para $g_Z$ enquanto o inverso não é válido. Adicionalmente, é notável que tal contribuição é crescente e maior que 50\% para além do 8º trimestre. Portanto, a taxa própria é explicada principalmente por ela mesma e explica $g_Z$ consideravelmente.
 
-\begin{figure}[htb]
+\begin{figure}[H]
 	\centering
 	\caption{Decomposição da variância da previsão}
 	\label{fevd}
@@ -118,7 +118,7 @@ Dito isso, os efeitos do aumento da taxa própria é positivo sobre ela mesma e 
 
 %TODO Rever efeito positivo no longo prazo
 
-\begin{figure}[htb]
+\begin{figure}[H]
 	\centering
 	\caption{Função impulso resposta ortogonalizada}
 	\label{fevd}
@@ -131,7 +131,7 @@ Dos resultados apresentados acima, verifica-se que a taxa própria de juros dos 
 %Avaliando o últimos resultados disponíveis das contas nacionais e estimativas da taxa própria, verifica-se uma previsão satisfatória uma vez que tanto $g_Z$ reduz quanto a taxa própria aumenta.
 
 \begin{comment}
-\begin{figure}[htb]
+\begin{figure}[H]
 	\centering
 	\caption{Previsão 4 passos a frente}
 	\label{previsao}

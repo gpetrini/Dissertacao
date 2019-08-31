@@ -3814,6 +3814,34 @@
       \verb http://doi.wiley.com/10.1111/j.1467-999X.2010.04106.x
       \endverb
     \endentry
+    \entry{hicks_capital_1965}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=d34fbc986b4e6508a74d930fc09c55cf}{%
+           family={Hicks},
+           familyi={H\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {The Clarendon Press}%
+      }
+      \strng{namehash}{d34fbc986b4e6508a74d930fc09c55cf}
+      \strng{fullhash}{d34fbc986b4e6508a74d930fc09c55cf}
+      \strng{bibnamehash}{d34fbc986b4e6508a74d930fc09c55cf}
+      \strng{authorbibnamehash}{d34fbc986b4e6508a74d930fc09c55cf}
+      \strng{authornamehash}{d34fbc986b4e6508a74d930fc09c55cf}
+      \strng{authorfullhash}{d34fbc986b4e6508a74d930fc09c55cf}
+      \field{extraname}{1}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Capital and {Growth} {Oxford}}
+      \field{year}{1965}
+    \endentry
     \entry{hicks_contribution_1972}{book}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=85ecf7cf2907ea7e9a48ba99d6ef2872}{%
@@ -3838,6 +3866,7 @@
       \strng{authorbibnamehash}{85ecf7cf2907ea7e9a48ba99d6ef2872}
       \strng{authornamehash}{85ecf7cf2907ea7e9a48ba99d6ef2872}
       \strng{authorfullhash}{85ecf7cf2907ea7e9a48ba99d6ef2872}
+      \field{extraname}{2}
       \field{sortinit}{H}
       \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
       \field{extradatescope}{labelyear}
@@ -5466,37 +5495,6 @@
       \endverb
       \keyw{Economics and Finance}
     \endentry
-    \entry{palley_economics_2018}{article}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=1d5c10b853cf8e0c03b1c84ff20bb837}{%
-           family={Palley},
-           familyi={P\bibinitperiod},
-           given={Thomas},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{1d5c10b853cf8e0c03b1c84ff20bb837}
-      \strng{fullhash}{1d5c10b853cf8e0c03b1c84ff20bb837}
-      \strng{bibnamehash}{1d5c10b853cf8e0c03b1c84ff20bb837}
-      \strng{authorbibnamehash}{1d5c10b853cf8e0c03b1c84ff20bb837}
-      \strng{authornamehash}{1d5c10b853cf8e0c03b1c84ff20bb837}
-      \strng{authorfullhash}{1d5c10b853cf8e0c03b1c84ff20bb837}
-      \field{extraname}{2}
-      \field{sortinit}{P}
-      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{This paper links the super‐multiplier to Keynesian macroeconomics, showing it to be the most Keynesian of growth perspectives. Next, the paper shows that the super‐multiplier is a micro‐economically coherent theory of investment and capital accumulation. Firms’ decisions regarding capital accumulation coordinate demand and supply growth in goods markets. The paper then explores the implications of incorporating the super‐multiplier in the neo‐Kaleckian and Cambridge growth models. Lastly, it shows how labor markets and unemployment can be added into super‐multiplier models to provide a comprehensive growth model that addresses Solow's (1956, Journal of Economics, 70, 65–94) labor market knife‐edge problem. Incorporating labor markets does not change the fundamental super‐multiplier result that growth is determined by the growth of autonomous demand.}
-      \field{journaltitle}{Metroeconomica}
-      \field{shorttitle}{The economics of the super‐multiplier}
-      \field{title}{The economics of the super‐multiplier: {A} comprehensive treatment with labor markets}
-      \field{year}{2018}
-      \verb{doi}
-      \verb 10.1111/meca.12228
-      \endverb
-    \endentry
     \entry{palley_inside_1996}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=d8beed570cc6438dfa9447dc88fcb98e}{%
@@ -5515,7 +5513,7 @@
       \strng{authorbibnamehash}{d8beed570cc6438dfa9447dc88fcb98e}
       \strng{authornamehash}{d8beed570cc6438dfa9447dc88fcb98e}
       \strng{authorfullhash}{d8beed570cc6438dfa9447dc88fcb98e}
-      \field{extraname}{3}
+      \field{extraname}{2}
       \field{sortinit}{P}
       \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
       \field{extradatescope}{labelyear}
@@ -5566,7 +5564,7 @@
       \strng{authorbibnamehash}{d8beed570cc6438dfa9447dc88fcb98e}
       \strng{authornamehash}{d8beed570cc6438dfa9447dc88fcb98e}
       \strng{authorfullhash}{d8beed570cc6438dfa9447dc88fcb98e}
-      \field{extraname}{4}
+      \field{extraname}{3}
       \field{sortinit}{P}
       \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
       \field{extradatescope}{labelyear}
@@ -5617,7 +5615,7 @@
       \strng{authorbibnamehash}{d8beed570cc6438dfa9447dc88fcb98e}
       \strng{authornamehash}{d8beed570cc6438dfa9447dc88fcb98e}
       \strng{authorfullhash}{d8beed570cc6438dfa9447dc88fcb98e}
-      \field{extraname}{5}
+      \field{extraname}{4}
       \field{sortinit}{P}
       \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
       \field{extradatescope}{labelyear}

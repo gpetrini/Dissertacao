@@ -650,7 +650,7 @@ eso-pic,
 \begin{frame}{Estrutura do artigo}
 
 \begin{block}{Pergunta}
-Como e por que incluir o investimento residencial em um modelo de crescimento heterodoxo?
+Por que e como incluir o investimento residencial em um modelo de crescimento heterodoxo?
 \end{block}
 
 \begin{enumerate}
@@ -781,7 +781,8 @@ K = K_f + K_h
 
 \end{frame}
 
-\begin{frame}{Representação do modelo}
+\begin{frame}{Representação do
+\href{https://github.com/gpetrini/AKB_2019/blob/master/AKB_2019_model.ipynb}{modelo}}
 
 \begin{figure}[h]
 
@@ -847,13 +848,13 @@ u\to u_N: g \to g_Z \hspace{1cm} h^* = \frac{g_Z\cdot v}{u_N} \hspace{1cm} g_K =
   \item
     \(g \to g_Z\)
   \item
-    \(\Delta \omega \nRightarrow g^*\): distribuição não afeta a taxa de
-    crescimento de longo prazo
+    \(\Delta \omega \nRightarrow g^*\): distribuição não afeta o
+    crescimento de LP
   \item
     Taxa de juros hipotecárias impacta endividamento das famílias apenas
   \end{itemize}
 \item
-  \(\Uparrow g_Z \Rightarrow \Uparrow k\)
+  \(\Uparrow g_Z \Rightarrow \Downarrow\) \%\(K_h\)
 \end{itemize}
 
 \begin{alert}{Próximos passos} explorar os determinantes do investimento residencial
@@ -862,6 +863,40 @@ u\to u_N: g \to g_Z \hspace{1cm} h^* = \frac{g_Z\cdot v}{u_N} \hspace{1cm} g_K =
 \end{frame}
 
 \section{Obrigado!}\label{obrigado}
+
+\begin{frame}{Avanços}
+
+\begin{itemize}
+\tightlist
+\item
+  Inclusão da taxa própria de juros dos imóveis (\emph{own})
+\end{itemize}
+
+\[
+g_Z = \phi_0 - \phi_1\cdot\left(\frac{1+r_{mo}}{1+infla}-1\right)
+\]
+
+\begin{itemize}
+\tightlist
+\item
+  Nova condição de estabilidade
+\end{itemize}
+
+\[
+own < \frac{\phi_1}{\phi_0}
+\]
+
+\begin{itemize}
+\tightlist
+\item
+  Estimação de um VEC com taxa própria e investimento residencial
+\end{itemize}
+
+\begin{alert}{Próximos passos}
+Endogeneizar os preços dos imóveis
+\end{alert}
+
+\end{frame}
 
 \begin{frame}{Unindo os pontos}
 

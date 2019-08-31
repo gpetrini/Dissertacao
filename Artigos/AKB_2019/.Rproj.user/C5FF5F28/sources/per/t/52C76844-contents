@@ -27,7 +27,7 @@ youngmetro::metro_beamer(fig_caption = FALSE)
 
 
 \begin{block}{Pergunta}
-Como e por que incluir o investimento residencial em um modelo de crescimento heterodoxo?
+Por que e como incluir o investimento residencial em um modelo de crescimento heterodoxo?
 \end{block}
 
 1. Contextualização empírica
@@ -123,7 +123,7 @@ $$
 
 
 
-## Representação do modelo
+## Representação do [modelo](https://github.com/gpetrini/AKB_2019/blob/master/AKB_2019_model.ipynb)
 
 \begin{figure}[h]
 
@@ -167,15 +167,36 @@ $$
     
     + $u\to u_N$
     + $g \to g_Z$
-    + $\Delta \omega \nRightarrow g^*$: distribuição  não afeta a taxa de crescimento de longo prazo
+    + $\Delta \omega \nRightarrow g^*$: distribuição  não afeta o crescimento de LP
     + Taxa de juros hipotecárias impacta endividamento das famílias apenas
 
-- $\Uparrow g_Z \Rightarrow \Uparrow k$
+- $\Uparrow g_Z \Rightarrow \Downarrow$ %$K_h$
 
 \begin{alert}{Próximos passos} explorar os determinantes do investimento residencial
 \end{alert}
 
 # Obrigado!
+
+## Avanços
+
+- Inclusão da taxa própria de juros dos imóveis (*own*)
+
+$$
+g_Z = \phi_0 - \phi_1\cdot\left(\frac{1+r_{mo}}{1+infla}-1\right)
+$$
+
+- Nova condição de estabilidade
+
+$$
+own < \frac{\phi_1}{\phi_0}
+$$
+
+- Estimação de um VEC com taxa própria e investimento residencial
+
+\begin{alert}{Próximos passos}
+Endogeneizar os preços dos imóveis
+\end{alert}
+
 
 ## Unindo os pontos
 
