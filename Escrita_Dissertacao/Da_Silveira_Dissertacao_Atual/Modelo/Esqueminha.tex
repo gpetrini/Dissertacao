@@ -19,7 +19,7 @@
 	\node [force, left=1cm of rivalry] (suppliers) {Estrutura contábil};
 	\node [comment, below=0.25 of suppliers] (comment-suppliers) {Relação entre lado real \\e financeiro};
 	\node [force, right=1cm of rivalry] (users) {Solução};
-	\node [force, right=1cm of substitutes, dashed, fill=purple!50 ] (PK) {Modelo \\_-SFC};
+	\node [force, right=1cm of substitutes, dashed, fill=purple!50 ] (PK) {Modelo \\ $\bullet$ --SFC};
 	%	\node [force, below of=rivalry] (entrants) {Threat of new entrants};
 	
 	%%%%%%%%%%%%%%%
@@ -31,22 +31,9 @@
 		\textbf{Supermultiplicador Sraffiano}};
 	
 	
-	% SUBSTITUTES
-	%\node [comment, right=0.25 of substitutes] {};
-	
-	% USERS
 	\node [comment, below=0.25 of users] {Analítico\\
 		\textbf{Simulação}};
 	
-	% NEW ENTRANTS
-	%	\node [comment, right=0.25 of entrants] {(+) EC vs. Microsoft};
-	
-	% PUBLIC POLICIES
-	%	\node [comment, text width=3cm, below=0.25 of state] {(1) Estrutura contábil\\
-	%	(2) Equações comportamentais\\
-	%	(3) \textit{Closure} do modelo};
-	
-	%%%%%%%%%%%%%%%%
 	
 	% Draw the links between forces
 	\path[->,thick] 
@@ -58,10 +45,7 @@
 	(substitutes) edge (PK)
 	(PK) edge (users);
 	
-	%(entrants) edge (comment-rivalry);
-	
-	\end{tikzpicture} 
-	\caption*{Fonte: \textcite[p.~64, adaptado]{da_silveira_politica_2017}}
-
-	
+	\end{tikzpicture}
+	 
+	\caption*{Fonte: Elaboração própria}
 \end{figure}
