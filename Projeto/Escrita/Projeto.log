@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.6.22)  31 AUG 2019 16:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.6.22)  2 SEP 2019 13:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1671,13 +1671,13 @@ l/Modelo/Caverzassi_Heatmap.png  used on input line 97.
 (pdftex.def)             Requested size: 409.71692pt x 227.5413pt.
  [6] [7 <../../Escrita_Dissertacao/Da_Silveira_Dissertacao_Atual/Modelo/Caverza
 ssi_Heatmap.png>]) (./Objetivos.tex
-LaTeX Font Info:    Try loading font information for OMS+phv on input line 7.
+LaTeX Font Info:    Try loading font information for OMS+phv on input line 6.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/omsphv.fd
 File: omsphv.fd 
 )
 LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 7.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 6.
  [8])
 (./Metodologia.tex
 (../../Escrita_Dissertacao/Da_Silveira_Dissertacao_Atual/Modelo/Esqueminha.tex
@@ -1723,6 +1723,10 @@ Hou-sehold Con-su-mer Debt, En-do-ge-nous Mo-ney and Growth: A Super-
  []
 
 [14] [15] (./Projeto.aux)
+
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
+
 Package logreq Info: Writing requests to 'Projeto.run.xml'.
 \openout1 = `Projeto.run.xml'.
 
@@ -1746,7 +1750,7 @@ ve/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive
 -dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/local/texlive/2019/texmf-dist/
 fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/t
 ype1/urw/helvetic/uhvro8a.pfb>
-Output written on Projeto.pdf (15 pages, 653280 bytes).
+Output written on Projeto.pdf (15 pages, 653197 bytes).
 PDF statistics:
  126 PDF objects out of 1000 (max. 8388607)
  78 compressed objects within 1 object stream
