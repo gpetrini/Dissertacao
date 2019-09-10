@@ -634,6 +634,7 @@
       \strng{authorbibnamehash}{8985b0462761844f1d4a6629f107ce09}
       \strng{authornamehash}{8985b0462761844f1d4a6629f107ce09}
       \strng{authorfullhash}{8985b0462761844f1d4a6629f107ce09}
+      \field{extraname}{1}
       \field{sortinit}{C}
       \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
       \field{extradatescope}{labelyear}
@@ -665,6 +666,48 @@
       \verb http://www.scielo.br/scielo.php?script=sci_abstract&pid=S0103-40142009000200012&lng=en&nrm=iso&tlng=pt
       \endverb
       \keyw{Pendente}
+    \endentry
+    \entry{cagnin_o_2007}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=8985b0462761844f1d4a6629f107ce09}{%
+           family={Cagnin},
+           familyi={C\bibinitperiod},
+           given={Rafael\bibnamedelima Fagundes},
+           giveni={R\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {Português}%
+      }
+      \strng{namehash}{8985b0462761844f1d4a6629f107ce09}
+      \strng{fullhash}{8985b0462761844f1d4a6629f107ce09}
+      \strng{bibnamehash}{8985b0462761844f1d4a6629f107ce09}
+      \strng{authorbibnamehash}{8985b0462761844f1d4a6629f107ce09}
+      \strng{authornamehash}{8985b0462761844f1d4a6629f107ce09}
+      \strng{authorfullhash}{8985b0462761844f1d4a6629f107ce09}
+      \field{extraname}{2}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Resumo: Com o aprofundamento da desregulamentação e liberalização financeira, os ciclos de ativos passaram a exercer crescente influência sobre as decisões de gasto nas economias desenvolvidas, especialmente nos EUA. O objetivo desse trabalho é compreender o papel de um ativo específico, os imóveis residenciais, na recuperação americana a partir de 2002, em que se destacaram a expansão do consumo das famílias e do investimento residencial. O ciclo de preço dos imóveis esteve condicionado pela política monetária expansiva do Federal Reserve e pela flexibilidade do sistema americano de financiamento residencial. A centralidade que o crédito ocupa na análise sobre os ciclos do tipo financial led e sua importância para a efetivação da compra do imóvel pelas famílias fez com que esse sistema de financiamento fosse enfatizado}
+      \field{title}{O mercado imobiliario e a recuperação economica dos {EUA} apos 2002}
+      \field{urlday}{20}
+      \field{urlmonth}{12}
+      \field{urlyear}{2018}
+      \field{year}{2007}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Full Text PDF:/home/gpetrini/Zotero/storage/IS6657YH/Cagnin - 2007 - O mercado imobiliario e a recuperação economica do.pdf:application/pdf;Snapshot:/home/gpetrini/Zotero/storage/C3SUPVRU/285734.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb http://repositorio.unicamp.br/jspui/handle/REPOSIP/285734
+      \endverb
+      \verb{url}
+      \verb http://repositorio.unicamp.br/jspui/handle/REPOSIP/285734
+      \endverb
     \endentry
     \entry{carvalho_personal_2016}{article}{}
       \name{author}{2}{}{%
@@ -1792,58 +1835,6 @@
       \endverb
       \keyw{distribution,Finance-dominated capitalism,financial fragility,growth,household debt,Kaleckian model}
     \endentry
-    \entry{huang_is_2018}{article}{}
-      \name{author}{4}{}{%
-        {{uniquename=0,uniquepart=base,hash=588d31121311facee378c2df49409106}{%
-           family={Huang},
-           familyi={H\bibinitperiod},
-           given={Yuting},
-           giveni={Y\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=f495cdda14989886bcfdb65c02b7a19d}{%
-           family={Li},
-           familyi={L\bibinitperiod},
-           given={Qiang},
-           giveni={Q\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=b28c36fbdb9eae324459c9394f8a76a7}{%
-           family={Liow},
-           familyi={L\bibinitperiod},
-           given={Kim\bibnamedelima Hiang},
-           giveni={K\bibinitperiod\bibinitdelim H\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=6f9bf13df2a49ec91f9fbd8ac7c65912}{%
-           family={Zhou},
-           familyi={Z\bibinitperiod},
-           given={Xiaoxia},
-           giveni={X\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{cedbeb05f5e086ba0c1afb51dbdb647d}
-      \strng{fullhash}{bc688a31b8e8ad939226e1928f54e378}
-      \strng{bibnamehash}{cedbeb05f5e086ba0c1afb51dbdb647d}
-      \strng{authorbibnamehash}{cedbeb05f5e086ba0c1afb51dbdb647d}
-      \strng{authornamehash}{cedbeb05f5e086ba0c1afb51dbdb647d}
-      \strng{authorfullhash}{bc688a31b8e8ad939226e1928f54e378}
-      \field{sortinit}{H}
-      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Fluctuations in the housing market have long been recognized by academics and practitioners as leading indicators of general economic activities. Recently, Leamer (2007, 2015) claims that housing activities both predict and cause national business cycles in the US. We investigate his claims for a larger set of countries. We also examine the predictive relationship in multiple resolutions or time scales, namely shortrun and long-run variations of business cycles. Structural vector auto-regression (SVAR) models are estimated to test his more contentious causal claim. Our results show that: (1) housing indicators lead business cycles in most countries; (2) such leading relationship is the most prominent in the long-run. In addition, our SVAR results for the US indicate that housing factors are likely independent drivers of business cycles. Housing starts predict short-run variations in business cycles, while housing prices predict long-run variations better. The cross-country evidences are less certain. Generally, our findings on timescale based relationships between housing and macro economy put restrictions on future models of monetary transmissions.}
-      \field{note}{No prelo}
-      \field{title}{Is {Housing} the {Business} {Cycle}? {A} {Multi}-resolution {Analysis} for {OECD} {Countries}}
-      \field{year}{2018}
-      \field{pages}{49}
-      \range{pages}{1}
-      \verb{file}
-      \verb Huang et al. - Is Housing the Business Cycle A Multi-resolution .pdf:/home/gpetrini/Zotero/storage/4WA8ZJMA/Huang et al. - Is Housing the Business Cycle A Multi-resolution .pdf:application/pdf
-      \endverb
-    \endentry
     \entry{iacoviello_housing_2010}{incollection}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=acea90ed4b11d5b6a53225c00869ef09}{%
@@ -2474,6 +2465,42 @@
       \verb https://papers.ssrn.com/abstract=3100768
       \endverb
       \keyw{economic growth,effective demand,supermultiplier}
+    \endentry
+    \entry{ragin_comparative_1989}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=dce898d544778d8a5b29f57a1a74e31b}{%
+           family={Ragin},
+           familyi={R\bibinitperiod},
+           given={Charles\bibnamedelima C.},
+           giveni={C\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{dce898d544778d8a5b29f57a1a74e31b}
+      \strng{fullhash}{dce898d544778d8a5b29f57a1a74e31b}
+      \strng{bibnamehash}{dce898d544778d8a5b29f57a1a74e31b}
+      \strng{authorbibnamehash}{dce898d544778d8a5b29f57a1a74e31b}
+      \strng{authornamehash}{dce898d544778d8a5b29f57a1a74e31b}
+      \strng{authorfullhash}{dce898d544778d8a5b29f57a1a74e31b}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{isbn}{978-0-520-06618-2}
+      \field{shorttitle}{The {Comparative} {Method}}
+      \field{title}{The {Comparative} {Method}: {Moving} {Beyond} {Qualitative} and {Quantitative} {Strategies}}
+      \field{urlday}{6}
+      \field{urlmonth}{9}
+      \field{urlyear}{2019}
+      \field{year}{1989}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://gen.lib.rus.ec/book/index.php?md5=8F1EDCC672664F1DB13E0D98237C0D54
+      \endverb
+      \verb{url}
+      \verb http://gen.lib.rus.ec/book/index.php?md5=8F1EDCC672664F1DB13E0D98237C0D54
+      \endverb
     \endentry
     \entry{sastre_assessment_2010}{incollection}{}
       \name{author}{2}{}{%
