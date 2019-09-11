@@ -905,44 +905,6 @@
       \endverb
       \keyw{consumption,France,wealth effect}
     \endentry
-    \entry{da_silveira_investimento_2019}{inproceedings}{}
-      \name{author}{2}{}{%
-        {{uniquename=0,uniquepart=base,hash=730d0f121445d449d4fbeb99b9c4bd72}{%
-           family={Da\bibnamedelima Silveira},
-           familyi={D\bibinitperiod\bibinitdelim S\bibinitperiod},
-           given={Gabriel\bibnamedelima Petrini},
-           giveni={G\bibinitperiod\bibinitdelim P\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=f8060ec2dd02eb198cf7c54ef058a7bc}{%
-           family={Teixeira},
-           familyi={T\bibinitperiod},
-           given={Lucas},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{location}{1}{%
-        {Campinas}%
-      }
-      \strng{namehash}{e8833596fc7a7fb9d14137e260d290f6}
-      \strng{fullhash}{e8833596fc7a7fb9d14137e260d290f6}
-      \strng{bibnamehash}{e8833596fc7a7fb9d14137e260d290f6}
-      \strng{authorbibnamehash}{e8833596fc7a7fb9d14137e260d290f6}
-      \strng{authornamehash}{e8833596fc7a7fb9d14137e260d290f6}
-      \strng{authorfullhash}{e8833596fc7a7fb9d14137e260d290f6}
-      \field{sortinit}{D}
-      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Este artigo apresenta um modelo baseado no supermultiplicador sraffiano num arcabouço contábil de consistência entre fluxos e estoques (SSM-SFC) cujo motor do crescimento é o investimento residencial. A motivação empírica é baseada no papel central deste gasto para explicar a tendência e os ciclos econômicos, conforme apontado por trabalhos recentes. No campo teórico, percebe-se que o investimento residencial costuma ser negligenciado na literatura de modelos de crescimento. O modelo aqui apresentado é o mais parcimonioso possível. Trata-se de uma economia fechada e sem governo, com bancos, empresas produtivas e famílias. Nessa economia, existem dois ativos reais: o capital produtivo, fruto do investimento das firmas, e os imóveis, resultado do investi- mento residencial feito pelas famílias. O modelo é simulado para analisar os efeitos de mudanças na distribuição, na taxa de juros e na taxa de crescimento dos gastos autônomos. Os resultados são: (i) mudanças na distribuição afetam a taxa de crescimento apenas temporariamente; (ii) au- mento na taxa de juros não afeta a taxa de crescimento; (iii) a participação do estoque de imóveis no capital total reduz como resultado de uma maior taxa de crescimento do investimento residen- cial; (iv) taxa de crescimento de steady state é determinada pela taxa de crescimento dos gastos autônomos; (v) grau de utilização da capacidade produtiva converge para o grau normal.}
-      \field{booktitle}{{XII} {Encontro} {Internacional} da {AKB}}
-      \field{title}{Investimento residencial em um modelo {Stock}-{Flow} {Consistent} com supermultiplicador sraffiano}
-      \field{year}{2019}
-      \verb{file}
-      \verb Da Silveira e Teixeira - 2019 - Investimento residencial em um modelo Stock-Flow C.pdf:/home/gpetrini/Zotero/storage/RP7HGWCR/Da Silveira e Teixeira - 2019 - Investimento residencial em um modelo Stock-Flow C.pdf:application/pdf
-      \endverb
-    \endentry
     \entry{dequech_economic_2013}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=332edf1cff37f435955cf554308f9ffc}{%
@@ -2465,6 +2427,44 @@
       \verb https://papers.ssrn.com/abstract=3100768
       \endverb
       \keyw{economic growth,effective demand,supermultiplier}
+    \endentry
+    \entry{da_silveira_investimento_2019}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=b5b9dc2d7145c343e5d90905b299a21f}{%
+           family={Petrini},
+           familyi={P\bibinitperiod},
+           given={Gabriel},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=f8060ec2dd02eb198cf7c54ef058a7bc}{%
+           family={Teixeira},
+           familyi={T\bibinitperiod},
+           given={Lucas},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Campinas}%
+      }
+      \strng{namehash}{17e02651328ea118384f64cfae66586e}
+      \strng{fullhash}{17e02651328ea118384f64cfae66586e}
+      \strng{bibnamehash}{17e02651328ea118384f64cfae66586e}
+      \strng{authorbibnamehash}{17e02651328ea118384f64cfae66586e}
+      \strng{authornamehash}{17e02651328ea118384f64cfae66586e}
+      \strng{authorfullhash}{17e02651328ea118384f64cfae66586e}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Este artigo apresenta um modelo baseado no supermultiplicador sraffiano num arcabouço contábil de consistência entre fluxos e estoques (SSM-SFC) cujo motor do crescimento é o investimento residencial. A motivação empírica é baseada no papel central deste gasto para explicar a tendência e os ciclos econômicos, conforme apontado por trabalhos recentes. No campo teórico, percebe-se que o investimento residencial costuma ser negligenciado na literatura de modelos de crescimento. O modelo aqui apresentado é o mais parcimonioso possível. Trata-se de uma economia fechada e sem governo, com bancos, empresas produtivas e famílias. Nessa economia, existem dois ativos reais: o capital produtivo, fruto do investimento das firmas, e os imóveis, resultado do investi- mento residencial feito pelas famílias. O modelo é simulado para analisar os efeitos de mudanças na distribuição, na taxa de juros e na taxa de crescimento dos gastos autônomos. Os resultados são: (i) mudanças na distribuição afetam a taxa de crescimento apenas temporariamente; (ii) au- mento na taxa de juros não afeta a taxa de crescimento; (iii) a participação do estoque de imóveis no capital total reduz como resultado de uma maior taxa de crescimento do investimento residen- cial; (iv) taxa de crescimento de steady state é determinada pela taxa de crescimento dos gastos autônomos; (v) grau de utilização da capacidade produtiva converge para o grau normal.}
+      \field{booktitle}{{XII} {Encontro} {Internacional} da {AKB}}
+      \field{title}{Investimento residencial em um modelo {Stock}-{Flow} {Consistent} com supermultiplicador sraffiano}
+      \field{year}{2019}
+      \verb{file}
+      \verb Da Silveira e Teixeira - 2019 - Investimento residencial em um modelo Stock-Flow C.pdf:/home/gpetrini/Zotero/storage/RP7HGWCR/Da Silveira e Teixeira - 2019 - Investimento residencial em um modelo Stock-Flow C.pdf:application/pdf
+      \endverb
     \endentry
     \entry{ragin_comparative_1989}{book}{}
       \name{author}{1}{}{%
