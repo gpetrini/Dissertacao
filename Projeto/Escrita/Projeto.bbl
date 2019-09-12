@@ -2428,6 +2428,40 @@
       \endverb
       \keyw{economic growth,effective demand,supermultiplier}
     \endentry
+    \entry{petrini_comparacao_2019}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=b5b9dc2d7145c343e5d90905b299a21f}{%
+           family={Petrini},
+           familyi={P\bibinitperiod},
+           given={Gabriel},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=be408482fd25cd65d16f7ab7ed505c3b}{%
+           family={Farhat},
+           familyi={F\bibinitperiod},
+           given={Filipe\bibnamedelima Silveira},
+           giveni={F\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6a547617eb205fcdc425bee472e4f9e3}
+      \strng{fullhash}{6a547617eb205fcdc425bee472e4f9e3}
+      \strng{bibnamehash}{6a547617eb205fcdc425bee472e4f9e3}
+      \strng{authorbibnamehash}{6a547617eb205fcdc425bee472e4f9e3}
+      \strng{authornamehash}{6a547617eb205fcdc425bee472e4f9e3}
+      \strng{authorfullhash}{6a547617eb205fcdc425bee472e4f9e3}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Mimeo}
+      \field{title}{Comparação da evolução do {IDH} em experiências pós-{Socialistas} utilizando a metodologia {mvQCA}}
+      \field{year}{2019}
+      \verb{file}
+      \verb Petrini e Farhat - Comparacao da evolucao do IDH em experiencias pos-.pdf:/home/gpetrini/Zotero/storage/7JMEVXDV/Petrini e Farhat - Comparacao da evolucao do IDH em experiencias pos-.pdf:application/pdf
+      \endverb
+    \endentry
     \entry{da_silveira_investimento_2019}{inproceedings}{}
       \name{author}{2}{}{%
         {{uniquename=0,uniquepart=base,hash=b5b9dc2d7145c343e5d90905b299a21f}{%

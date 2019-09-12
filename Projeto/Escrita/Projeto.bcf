@@ -2203,16 +2203,19 @@
     <bcf:citekey order="122">van_gunten_varieties_2018</bcf:citekey>
     <bcf:citekey order="123">ragin_comparative_1989</bcf:citekey>
     <bcf:citekey order="124">ragin_comparative_1989</bcf:citekey>
-    <bcf:citekey order="125">van_gunten_varieties_2018</bcf:citekey>
+    <bcf:citekey order="125">petrini_comparacao_2019</bcf:citekey>
     <bcf:citekey order="126">van_gunten_varieties_2018</bcf:citekey>
     <bcf:citekey order="127">van_gunten_varieties_2018</bcf:citekey>
     <bcf:citekey order="128">van_gunten_varieties_2018</bcf:citekey>
-    <bcf:citekey order="129">jorda_great_2014</bcf:citekey>
+    <bcf:citekey order="129">van_gunten_varieties_2018</bcf:citekey>
     <bcf:citekey order="130">jorda_great_2014</bcf:citekey>
-    <bcf:citekey order="131">godley_money_1996</bcf:citekey>
-    <bcf:citekey order="132">macedo_e_silva_peering_2011</bcf:citekey>
-    <bcf:citekey order="133">caverzasi_stock-flow_2013</bcf:citekey>
+    <bcf:citekey order="131">jorda_great_2014</bcf:citekey>
+    <bcf:citekey order="132">godley_money_1996</bcf:citekey>
+    <bcf:citekey order="133">macedo_e_silva_peering_2011</bcf:citekey>
     <bcf:citekey order="134">caverzasi_stock-flow_2013</bcf:citekey>
+    <bcf:citekey order="135">caverzasi_stock-flow_2013</bcf:citekey>
+    <bcf:citekey order="136">da_silveira_investimento_2019</bcf:citekey>
+    <bcf:citekey order="137">da_silveira_investimento_2019</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">
