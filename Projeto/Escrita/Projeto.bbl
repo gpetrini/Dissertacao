@@ -522,6 +522,39 @@
       \verb Bibow - 2010 - Financialization of the US household sector The .pdf:/home/gpetrini/Zotero/storage/FMZQ2UUR/Bibow - 2010 - Financialization of the US household sector The .pdf:application/pdf;Snapshot:/home/gpetrini/Zotero/storage/YN4VS86A/106233.html:text/html
       \endverb
     \endentry
+    \entry{blanchard_rethinking_2017}{book}{}
+      \name{editor}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=8ea1d54fee57ba07b648601ddd77664a}{%
+           family={Blanchard},
+           familyi={B\bibinitperiod},
+           given={Olivier},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=99d97b6119dc8e6173e861cc94d01099}{%
+           family={Summers},
+           familyi={S\bibinitperiod},
+           given={Lawrence\bibnamedelima H.},
+           giveni={L\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {PIIE}%
+      }
+      \strng{namehash}{33928e633c3ec53b2165c73667cdb502}
+      \strng{fullhash}{33928e633c3ec53b2165c73667cdb502}
+      \strng{bibnamehash}{33928e633c3ec53b2165c73667cdb502}
+      \strng{editorbibnamehash}{33928e633c3ec53b2165c73667cdb502}
+      \strng{editornamehash}{33928e633c3ec53b2165c73667cdb502}
+      \strng{editorfullhash}{33928e633c3ec53b2165c73667cdb502}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{Rethinking {Macroeconomic} {Policy}}
+      \field{year}{2017}
+    \endentry
     \entry{brochier_supermultiplier_2018}{article}{}
       \name{author}{2}{}{%
         {{uniquename=0,uniquepart=base,hash=6c985c4582d2e81fc97ab017f38c2c89}{%
@@ -2034,63 +2067,6 @@
       \verb https://ideas.repec.org/a/wly/jmoncb/v47y2015is1p43-50.html
       \endverb
     \endentry
-    \entry{macedo_e_silva_peering_2011}{article}{}
-      \name{author}{2}{}{%
-        {{uniquename=0,uniquepart=base,hash=3558083b07934ace6d710536bd0bbf42}{%
-           family={Macedo\bibnamedelimb e\bibnamedelima Silva},
-           familyi={M\bibinitperiod\bibinitdelim e\bibinitperiod\bibinitdelim S\bibinitperiod},
-           given={Antônio\bibnamedelima Carlos},
-           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=1634fc01eac3b46d9ec1ffde5a46ccd6}{%
-           family={Dos\bibnamedelima Santos},
-           familyi={D\bibinitperiod\bibinitdelim S\bibinitperiod},
-           given={Claudio\bibnamedelima H.},
-           giveni={C\bibinitperiod\bibinitdelim H\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{119e9d0bd02f94ca8b9db36396f18ac3}
-      \strng{fullhash}{119e9d0bd02f94ca8b9db36396f18ac3}
-      \strng{bibnamehash}{119e9d0bd02f94ca8b9db36396f18ac3}
-      \strng{authorbibnamehash}{119e9d0bd02f94ca8b9db36396f18ac3}
-      \strng{authornamehash}{119e9d0bd02f94ca8b9db36396f18ac3}
-      \strng{authorfullhash}{119e9d0bd02f94ca8b9db36396f18ac3}
-      \field{sortinit}{M}
-      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{Abstract. This work argues that institutionally rich stock-flow consistent models—i.e. models in which economic agents are identified with the main social cate}
-      \field{issn}{0309-166X}
-      \field{journaltitle}{Cambridge Journal of Economics}
-      \field{number}{1}
-      \field{shorttitle}{Peering over the edge of the short period?}
-      \field{title}{Peering over the edge of the short period? {The} {Keynesian} roots of stock-flow consistent macroeconomic models}
-      \field{urlday}{15}
-      \field{urlmonth}{4}
-      \field{urlyear}{2019}
-      \field{volume}{35}
-      \field{year}{2011}
-      \field{urldateera}{ce}
-      \field{pages}{105\bibrangedash 124}
-      \range{pages}{20}
-      \verb{doi}
-      \verb 10.1093/cje/bep083
-      \endverb
-      \verb{file}
-      \verb Full Text PDF:/home/gpetrini/Zotero/storage/SPFILLYH/e Silva e Santos - 2011 - Peering over the edge of the short period The Key.pdf:application/pdf;Snapshot:/home/gpetrini/Zotero/storage/IBKDWVQK/1732189.html:text/html
-      \endverb
-      \verb{urlraw}
-      \verb https://academic.oup.com/cje/article/35/1/105/1732189
-      \endverb
-      \verb{url}
-      \verb https://academic.oup.com/cje/article/35/1/105/1732189
-      \endverb
-    \endentry
     \entry{messori_financing_1991}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=8e8b14680f4352b8b58f747d7f1588c4}{%
@@ -2428,6 +2404,94 @@
       \endverb
       \keyw{economic growth,effective demand,supermultiplier}
     \endentry
+    \entry{petrini_demanda_2019}{thesis}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=b5b9dc2d7145c343e5d90905b299a21f}{%
+           family={Petrini},
+           familyi={P\bibinitperiod},
+           given={Gabriel},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Unicamp}%
+      }
+      \list{location}{1}{%
+        {Campinas}%
+      }
+      \strng{namehash}{b5b9dc2d7145c343e5d90905b299a21f}
+      \strng{fullhash}{b5b9dc2d7145c343e5d90905b299a21f}
+      \strng{bibnamehash}{b5b9dc2d7145c343e5d90905b299a21f}
+      \strng{authorbibnamehash}{b5b9dc2d7145c343e5d90905b299a21f}
+      \strng{authornamehash}{b5b9dc2d7145c343e5d90905b299a21f}
+      \strng{authorfullhash}{b5b9dc2d7145c343e5d90905b299a21f}
+      \field{extraname}{1}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{bookpagination}{sheet}
+      \field{note}{Em desenvolvimento}
+      \field{title}{Demanda {Efetiva} no médio prazo: investimento residencial, bolha de ativos em uma abordagem {Stock}-{Flow} {Consistent} com {Supermultiplicador} {Sraffiano}}
+      \field{type}{Dissertação ({Mestrado})}
+      \field{year}{2019}
+    \endentry
+    \entry{petrini_investimento_2019}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=b5b9dc2d7145c343e5d90905b299a21f}{%
+           family={Petrini},
+           familyi={P\bibinitperiod},
+           given={Gabriel},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b5b9dc2d7145c343e5d90905b299a21f}
+      \strng{fullhash}{b5b9dc2d7145c343e5d90905b299a21f}
+      \strng{bibnamehash}{b5b9dc2d7145c343e5d90905b299a21f}
+      \strng{authorbibnamehash}{b5b9dc2d7145c343e5d90905b299a21f}
+      \strng{authornamehash}{b5b9dc2d7145c343e5d90905b299a21f}
+      \strng{authorfullhash}{b5b9dc2d7145c343e5d90905b299a21f}
+      \field{extraname}{2}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Mimeo}
+      \field{title}{Investimento residencial e taxa própria de juros do imóveis: {Uma} investigação a partir de um {VECM}}
+      \field{year}{2019}
+    \endentry
+    \entry{petrini_pysolve3_2019}{misc}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=b5b9dc2d7145c343e5d90905b299a21f}{%
+           family={Petrini},
+           familyi={P\bibinitperiod},
+           given={Gabriel},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b5b9dc2d7145c343e5d90905b299a21f}
+      \strng{fullhash}{b5b9dc2d7145c343e5d90905b299a21f}
+      \strng{bibnamehash}{b5b9dc2d7145c343e5d90905b299a21f}
+      \strng{authorbibnamehash}{b5b9dc2d7145c343e5d90905b299a21f}
+      \strng{authornamehash}{b5b9dc2d7145c343e5d90905b299a21f}
+      \strng{authorfullhash}{b5b9dc2d7145c343e5d90905b299a21f}
+      \field{extraname}{3}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{extradate}{3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{pysolve3}
+      \field{year}{2019}
+    \endentry
     \entry{petrini_comparacao_2019}{article}{}
       \name{author}{2}{}{%
         {{uniquename=0,uniquepart=base,hash=b5b9dc2d7145c343e5d90905b299a21f}{%
@@ -2499,6 +2563,40 @@
       \verb{file}
       \verb Da Silveira e Teixeira - 2019 - Investimento residencial em um modelo Stock-Flow C.pdf:/home/gpetrini/Zotero/storage/RP7HGWCR/Da Silveira e Teixeira - 2019 - Investimento residencial em um modelo Stock-Flow C.pdf:application/pdf
       \endverb
+    \endentry
+    \entry{piketty_o_2014}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=125a3a980ec7ff459f2e77e8e82118b6}{%
+           family={Piketty},
+           familyi={P\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Rio de Janeiro}%
+      }
+      \list{publisher}{1}{%
+        {Intrínseca}%
+      }
+      \strng{namehash}{125a3a980ec7ff459f2e77e8e82118b6}
+      \strng{fullhash}{125a3a980ec7ff459f2e77e8e82118b6}
+      \strng{bibnamehash}{125a3a980ec7ff459f2e77e8e82118b6}
+      \strng{authorbibnamehash}{125a3a980ec7ff459f2e77e8e82118b6}
+      \strng{authornamehash}{125a3a980ec7ff459f2e77e8e82118b6}
+      \strng{authorfullhash}{125a3a980ec7ff459f2e77e8e82118b6}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{O capital no século {XXI}}
+      \field{year}{2014}
+      \verb{file}
+      \verb Piketty - 2014 - O capital no século XXI.pdf:/home/gpetrini/Zotero/storage/PG9ZQJ58/Piketty - 2014 - O capital no século XXI.pdf:application/pdf
+      \endverb
+      \keyw{REVISTO,LIVRO}
     \endentry
     \entry{ragin_comparative_1989}{book}{}
       \name{author}{1}{}{%
