@@ -1,0 +1,2373 @@
+#LyX file created by tex2lyx 2.3
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin /dados/Dissertacao/Escrita_Dissertacao/Versoes/Da_Silveira_Dissertacao/
+\textclass abntex2
+\begin_preamble
+% FIXME Ao final, deixe descomentada a linha correspondente ao numero de paginas
+% que a sua defesa possui.
+%==================================================================================================
+%                                   PACOTES
+%==================================================================================================
+\input{Dissertacao_pacotes}  % Arquivo com os pacotes.
+%==================================================================================================
+%                                   DADOS PESSOAIS
+%==================================================================================================
+% FIXME Substituir 'Nome completo do aluno' pelo seu nome.
+\autor{Gabriel Petrini da Silveira}
+
+
+% FIXME Substituir 'Título da defesa' pelo título da defesa.
+%\titulo{Título da defesa}
+% FIXME Se estiver no programa de mestrado, descomente a linha a seguir.
+%\def\mestrado{}
+% FIXME Deixe descomente apenas a linha referente ao departamento.
+% \def\matematica{}
+%\def\aplicada{}
+% \def\estatistica{}
+% TODO Definir Instituto de Economia.
+%\def\economia{}
+
+% FIXME Substituir 'Nome completo do orientador' pelo nome completo do seu
+% orientador.
+\orientador{Lucas Azeredo da Silva Teixeira}
+
+% TODO Definir Nome Co-orientador.
+% FIXME Substituir 'Nome completo do coorientador' pelo nome completo do seu
+% coorientador. Caso não tenha coorientador, comente a linha a seguir.
+%\newcommand{\coorientador}{Franklin Leon Peres Serrano}
+% FIXME Se for coorientado por uma mulher, descomente a linha a seguir.
+% \def\femaleCoorientador{}
+
+% Warning Pode mudar.
+% FIXME Substituir 'Ano' pelo ano em que ocorreu sua defesa.
+%\newcommand{\ano}{2019}
+
+%==================================================================================================
+%                                   CONFIGURAÇÕES DA DISSERTAÇÃO
+%==================================================================================================
+%%%%%%%%%%%%%%%%%%%%%%%%%%% Configuração: definições %%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{Dissertacao_configuracao}  % Arquivo com algumas configurações.
+% ---- compila o \'{\i}ndice  ----
+%\makeglossaries
+% ---
+
+%==================================================================================================
+%                                   INÍCIO DA DISSERTAÇÃO
+%==================================================================================================
+
+\end_preamble
+\options openright,sumario=tradicional,
+\use_default_options false
+\maintain_unincluded_children false
+\language brazil
+\language_package none
+\inputencoding auto
+\fontencoding default
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 0
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+
+\lang brazil
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+% Retira espa
+\backslash
+c{c}o extra obsoleto entre as frases.
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+frenchspacing
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang brazil
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+% ---- ELEMENTOS PR
+\backslash
+'{E}-TEXTUAIS ----
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+frontmatter
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+pagenumbering{roman}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%
+\backslash
+setcounter{page}{}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%==================================================================================================
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%                                   CAPA DA DISSERTAÇÃO
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%==================================================================================================
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex Flex:Imprimir Capa
+status collapsed
+
+\begin_layout Plain Layout
+==================================================================================================
+\end_layout
+
+\begin_layout Plain Layout
+%                                   FOLHA DE ROSTO
+\end_layout
+
+\begin_layout Plain Layout
+%==================================================================================================
+\end_layout
+
+\begin_layout Plain Layout
+% WARNING A folha de rosto precisa ser assinada pelos orientadores.
+\end_layout
+
+\begin_layout Plain Layout
+% FIXME Substitua arquivo folha-de-rosto.pdf por uma copia escaneada, comente
+\end_layout
+
+\begin_layout Plain Layout
+% esta linha e descomente a próxima.
+\end_layout
+
+\begin_layout Plain Layout
+% TODO Escanear Folha de rosto e mudar nome do arquivo.
+\end_layout
+
+\begin_layout Plain Layout
+%
+\backslash
+input{Dissertacao_folha-de-rosto
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+% 
+\backslash
+includepdf{folha-de-rosto.pdf}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex Flex:Imprimir Folha de Rosto
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+%==================================================================================================
+\end_layout
+
+\begin_layout Plain Layout
+%                                   FICHA CATALOGRÁFICA
+\end_layout
+
+\begin_layout Plain Layout
+%==================================================================================================
+\end_layout
+
+\begin_layout Plain Layout
+% WARNING A ficha catalográfica deve estar no verso da folha de rosto.
+\end_layout
+
+\begin_layout Plain Layout
+% FIXME O arquivo ficha-catalografica.pdf deve ser sobrescrito com uma cópia
+\end_layout
+
+\begin_layout Plain Layout
+% do arquivo pdf que a biblioteca lhe enviar.
+\end_layout
+
+\begin_layout Plain Layout
+% TODO Pedir Ficha Catalográfica e mudar nome do arquivo.
+\end_layout
+
+\begin_layout Plain Layout
+%
+\backslash
+includepdf{Dissertacao_ficha-catalografica
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+% ---
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang brazil
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+% --- Inserir a ficha catalogr
+\backslash
+'{a}fica ---
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%
+\backslash
+includepdf{ficha_catalografica.pdf}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang brazil
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+% --- Para a vers
+\backslash
+~{a}o final, delete as linhas abaixo e insira a linha do 
+\backslash
+includepdf
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Ficha catalografica
+
+\lang brazil
+
+\begin_inset VSpace vfill*
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Ficha catalografica
+\align center
+
+\lang brazil
+
+\shape smallcaps
+Inclua aqui o pdf com a ficha catalográfica fornecida pela BAE.
+\shape default
+ 
+\end_layout
+
+\begin_layout Ficha catalografica
+
+\lang brazil
+
+\begin_inset VSpace vfill*
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+% --- --- ---
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%
+\backslash
+includepdf{ficha-catalografica.pdf}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang brazil
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%==================================================================================================
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%                                   FOLHA DE APROVAÇÃO
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%==================================================================================================
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+% WARNING A folha de aprovação deve ser assinada pelos membros da banca apos a
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+% defesa.
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+% TODO Incluir folha de aprovação escaneada e alterar nome do arquivo.
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+% FIXME Substitua o arquivo folha-de-aprovacao.pdf por uma copia escaneada.
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%
+\backslash
+includepdf{Dissertacao_folha-de-aprovacao}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+% --- Inserir folha de aprova
+\backslash
+c{c}
+\backslash
+~{a}o ---
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%
+\backslash
+includepdf{folha_de_assinaturas_oficial.pdf}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+% Isto 
+\backslash
+'{e} um exemplo de Folha de aprova
+\backslash
+c{c}
+\backslash
+~{a}o, elemento obrigat
+\backslash
+'{o}rio da NBR
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+% 14724/2011 (se
+\backslash
+c{c}
+\backslash
+~{a}o 4.2.1.3). Voc
+\backslash
+^{e} pode utilizar este modelo at
+\backslash
+'{e} a aprova
+\backslash
+c{c}
+\backslash
+~{a}o
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+% do trabalho. Ap
+\backslash
+'{o}s isso, substitua todo o conte
+\backslash
+'{u}do deste arquivo por uma
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+% imagem da p
+\backslash
+'{a}gina assinada pela banca com o comando abaixo:
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+% --- Na vers
+\backslash
+~{a}o final, exclua essas linhas e insira o 
+\backslash
+includepdf
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%==================================================================================================
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%                                   FOLHA DE ASSINATURAS
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%==================================================================================================
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newpage newpage
+\end_inset
+
+
+\begin_inset VSpace vfill*
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang brazil
+
+\shape smallcaps
+Inclua aqui a folha de assinaturas.
+\shape default
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang brazil
+
+\begin_inset VSpace vfill*
+\end_inset
+
+ 
+\begin_inset Newpage newpage
+\end_inset
+
+
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang brazil
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%==================================================================================================
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%                                   DEDICATÓRIA
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%==================================================================================================
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+% FIXME Se não for incluir a dedicatória, comentar a linha abaixo.
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%
+\backslash
+input{Dissertacao_dedicatoria}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+% ---
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang brazil
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%% --- Dedicat
+\backslash
+'{o}ria ---
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Dedicatoria
+
+\lang brazil
+
+\begin_inset VSpace vfill*
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+ 
+\shape italic
+Dedico esta tese à todo mundo.
+\shape default
+ 
+\begin_inset VSpace vfill*
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang brazil
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%
+\backslash
+setcounter{page}{}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%% ---
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%==================================================================================================
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%                                   AGRADECIMENTOS
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%==================================================================================================
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+% FIXME Se não for incluir os agradecimentos, comentar a linha abaixo.
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%
+\backslash
+input{Dissertacao_agradecimentos}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%% --- Agradecimentos ---
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Agradecimentos
+
+\lang brazil
+Escreva seus agradecimentos.
+\end_layout
+
+\begin_layout Agradecimentos
+
+\lang brazil
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+lipsum
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+[
+\end_layout
+
+\end_inset
+
+1-3
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+]
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang brazil
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%==================================================================================================
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%                                   RESUMOS E ABSTRACT
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%==================================================================================================
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Resumo
+
+\lang brazil
+Insira seu resumo.
+\end_layout
+
+\begin_layout Resumo
+
+\lang brazil
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+lipsum
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+[
+\end_layout
+
+\end_inset
+
+1
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+]
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Resumo
+
+\lang brazil
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+vspace{
+\backslash
+onelineskip}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Resumo
+\noindent
+
+\lang brazil
+
+\series bold
+Palavras-chaves
+\series default
+: palavra-chave 1; palavra-chave 2; palavra-chave 3.
+\end_layout
+
+\begin_layout Resumo
+
+\lang brazil
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+vspace{
+\backslash
+onelineskip}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+vspace{
+\backslash
+onelineskip}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+begin{otherlanguage*}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+english
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+ABNTEXchapterfont
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+huge
+\end_layout
+
+\end_inset
+
+ Abstract
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+par 
+\end_layout
+
+\end_inset
+
+This thesis analyses the dynamics of household investment and the impacts of credit crunch using a Sraffian Supermultiplier Stock-Flow Consistent (SSM-SFC) model based on the U.S. economy (1980-2000). The first chapter presents a brief review of recent literature of heterodox growth models focusing on the neo-Kaleckian and sraffian supermultiplier models. The second chapter highlights stylezed facts for the American economy which support the idea that non‐capacity generating expenditures, mainly household investment, led the economic growth. In the third chapter, a SSM-SFC model with asset price bubbles is simulated to analyse the effects of some shocks such as changes in income distribution, house prices dynamics, and interest rate of loans.
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+par 
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+vspace{
+\backslash
+onelineskip}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+par 
+\end_layout
+
+\end_inset
+
+
+\series bold
+Keywords
+\series default
+: keyword 1; keyword 2; keyword 3.
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+par 
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+end{otherlanguage*}
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang brazil
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%==================================================================================================
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%                                   EPÍGRAFE
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%==================================================================================================
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang brazil
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%% --- Ep
+\backslash
+'{
+\backslash
+i}grafe  ---
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Epigrafe
+
+\lang brazil
+
+\begin_inset VSpace vfill*
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Epigrafe
+\align right
+
+\lang brazil
+
+\shape italic
+
+\begin_inset Quotes eld
+\end_inset
+
+Não está ao meu alcance criar uma sociedade ideal. Contudo, está ao meu alcance descrever o que, na sociedade existente, não é ideal para nenhuma espécie de existência humana em sociedade.
+\begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ (Florestan Fernandes)
+\shape default
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang brazil
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%
+\backslash
+cleardoublepage
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newpage newpage
+\end_inset
+
+
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+* 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%
+\backslash
+cleardoublepage
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newpage newpage
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+pdfbookmark[0]{
+\backslash
+listfigurename}{lof}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset FloatList figure
+
+\end_inset
+
+* 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+addcontentsline{toc}{chapter}{Lista de Ilustrações}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%
+\backslash
+cleardoublepage
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newpage newpage
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+pdfbookmark[0]{
+\backslash
+listtablename}{lot}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset FloatList table
+
+\end_inset
+
+* 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+addcontentsline{toc}{chapter}{Lista de Tabelas}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%
+\backslash
+cleardoublepage
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newpage newpage
+\end_inset
+
+
+\begin_inset CommandInset include
+LatexCommand input
+preview false
+filename "Dissertacao_Variaveis.lyx"
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+addcontentsline{toc}{chapter}{Lista de Variáveis}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang brazil
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%==================================================================================================
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%                                   ABREVIAÇÕES
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%==================================================================================================
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+% FIXME Comentar a linha abaixo de não for apresentar as
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+% abreviações e siglas utilizadas.
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset include
+LatexCommand input
+preview false
+filename "Dissertacao_abreviacoes.lyx"
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+addcontentsline{toc}{chapter}{Lista de Abreviaturas e Siglas}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%
+\backslash
+cleardoublepage
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newpage newpage
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+mainmatter
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Newpage cleardoublepage
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+pagenumbering{arabic}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+setcounter{page}{14}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset CommandInset include
+LatexCommand input
+preview false
+filename "Teorico/Teorico.lyx"
+
+\end_inset
+
+ 
+\begin_inset CommandInset include
+LatexCommand input
+preview false
+filename "Fatos_Estilizados/Fatos.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang brazil
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%==================================================================================================
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%                                   REFERÊNCIAS DA DISSERTAÇÃO
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%==================================================================================================
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+% TODO Eliminar citekeys blocks.
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newpage cleardoublepage
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+phantomsection
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+addcontentsline{toc}{chapter}{Referências}
+\end_layout
+
+\end_inset
+
+  
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+btprint "btPrintAll"
+options ""
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%==================================================================================================
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%                                   APÊNDICES DA DISSERTAÇÃO
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%==================================================================================================
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\start_of_appendix
+
+\lang brazil
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%dummy comment inserted by tex2lyx to ensure that this paragraph is not empty
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%==================================================================================================
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%                                   ANEXOS DA DISSERTAÇÃO
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%==================================================================================================
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+% TODO Se não for utilizar anexos nem uma licença Creative Commons, comentar a linha abaixo.
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+annex
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang brazil
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%==================================================================================================
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%                                   TIPO DE LICENÇA DA DISSERTAÇÃO
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%==================================================================================================
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+% TODO Especificar tipo de licença.
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+% FIXME Escolher, opcionalmente, uma das licença Creative Commons abaixo.
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+% Para isso remova a linha correspondente a licença não desejada.
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%
+\backslash
+input{cc-by}  % Creative Commons Atribuição 3.0 Não Adaptada
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset include
+LatexCommand input
+preview false
+filename "cc-by-sa.lyx"
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+% Creative Commons AtribuiçãoCompartilhaIgual 3.0 Não Adaptada
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%==================================================================================================
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%                                  ÍNDICE REMISSIVO DA DISSERTAÇÃO
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%==================================================================================================
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newpage clearpage
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+backmatter
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+phantomsection
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+addcontentsline{toc}{chapter}{Índice Remissivo}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset CommandInset index_print
+LatexCommand printindex
+type "idx"
+literal "true"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

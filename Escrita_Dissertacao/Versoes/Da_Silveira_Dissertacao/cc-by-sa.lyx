@@ -1,0 +1,218 @@
+#LyX file created by tex2lyx 2.3
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin /dados/Dissertacao/Escrita_Dissertacao/Versoes/Da_Silveira_Dissertacao/
+\textclass abntex2
+\options openright,sumario=tradicional,
+\use_default_options false
+\maintain_unincluded_children false
+\language brazil
+\language_package none
+\inputencoding auto
+\fontencoding default
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 0
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter*
+
+\lang brazil
+Licença
+\end_layout
+
+\begin_layout Standard
+
+\lang brazil
+Copyright (c) 2020 
+\begin_inset space \space{}
+
+\end_inset
+
+de Gabriel Petrini da Silveira.
+\end_layout
+
+\begin_layout Standard
+
+\lang brazil
+Exceto quando indicado o contrário, esta obra está licenciada sob a licença Creative Commons Atribuição-CompartilhaIgual 3.0 Não Adaptada. Para ver uma cópia desta licença, visite 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+http://creativecommons.org/licenses/by-sa/3.0/
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang brazil
+
+\begin_inset Graphics 
+	filename cc-by-sa.png
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang brazil
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%%%%%%%%%%%%%%%%%%%%%%%%% Exceções da Licença CC-BY-SA %%%%%%%%%%%%%%%%%%%%%%%%%
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang brazil
+A marca e o logotipo da UNICAMP são propriedade da Universidade Estadual de Campinas. Maiores informações sobre encontram-se disponíveis em 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+http://www.unicamp.br/unicamp/a-unicamp/logotipo/normas%20oficiais-para-uso-do-logotipo
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section*
+
+\lang brazil
+Sobre a licença dessa obra
+\end_layout
+
+\begin_layout Standard
+
+\lang brazil
+A licença Creative Commons Atribuição-CompartilhaIgual 3.0 Não Adaptada utilizada nessa obra diz que: 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazil
+Você tem a liberdade de: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang brazil
+Compartilhar — copiar, distribuir e transmitir a obra; 
+\end_layout
+
+\begin_layout Itemize
+
+\lang brazil
+Remixar — criar obras derivadas; 
+\end_layout
+
+\begin_layout Itemize
+
+\lang brazil
+fazer uso comercial da obra. 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang brazil
+Sob as seguintes condições: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang brazil
+Atribuição — Você deve creditar a obra da forma especificada pelo autor ou licenciante (mas não de maneira que sugira que estes concedem qualquer aval a você ou ao seu uso da obra). 
+\end_layout
+
+\begin_layout Itemize
+
+\lang brazil
+Compartilhamento pela mesma licença — Se você alterar, transformar ou criar em cima desta obra, você poderá distribuir a obra resultante apenas sob a mesma licença, ou sob uma licença similar à presente. 
+\end_layout
+
+\end_deeper
+\end_body
+\end_document
