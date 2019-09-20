@@ -1,0 +1,376 @@
+#LyX file created by tex2lyx 2.3
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin /dados/Dissertacao/Artigos/YSI_Rome/
+\textclass article
+\begin_preamble
+
+
+
+\usepackage{arxiv}
+\usepackage[english]{babel}
+% allow utf-8 input
+% use 8-bit T1 fonts
+% hyperlinks
+\usepackage{url}% simple URL typesetting
+\usepackage{booktabs}% professional-quality tables
+\usepackage{amsfonts}% blackboard math symbols
+\usepackage{nicefrac}% compact symbols for 1/2, etc.
+% microtypography
+\usepackage{lipsum}
+
+
+\usepackage{csquotes}
+
+
+\title{Residential investment in a Sraffian Supermultiplier Stock-Flow Consistent model: Towards asset bubbles and open economy}
+
+
+\author{
+  Gabriel Petrini da Silveira\\
+  Master student at Institute of Economics (Unicamp - Brazil)\\
+  \texttt{gpetrinidasilveira@gmail.com} \\
+}
+
+
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding utf8
+\fontencoding T1
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype true
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks 0
+\pdf_bookmarksnumbered 0
+\pdf_bookmarksopen 0
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks 0
+\pdf_pdfborder 0
+\pdf_colorlinks 0
+\pdf_backref section
+\pdf_pdfusetitle 0
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 0
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine biblatex
+\cite_engine_type authoryear
+\biblio_style plainnat
+\use_bibtopic false
+\biblio_options backend=biber,url=false,uniquename=init,giveninits,sorting=nyt,maxcitenames=3
+\biblatex_bibstyle apa
+\biblatex_citestyle apa
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+maketitle
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Abstract
+The problem left by 
+\begin_inset CommandInset citation
+LatexCommand citet
+after ""
+before ""
+key "harrod_essay_1939"
+literal "false"
+
+\end_inset
+
+ questions the conditions that allow a dynamic long-term equilibrium between demand and productive capacity. From an heterodox perspective, Cambridge, Oxford, and supermultiplier models emerged to address this issue. As a result of the Harrodian instability, the conjugation between the multiplier effect and the accelerator principle has been regarded as equally unstable by literature. In the heterodox literature (majorly Kaleckain), it was up to the degree of capacity utilization to guarantee the stylized fact reported above so income distribution can remain exogenous. However, such artifice imposes that capacity utilization stays persistently different from the desired on the long run.
+\end_layout
+
+\begin_layout Abstract
+That said, this in-progress research extends the contribution of 
+\begin_inset CommandInset citation
+LatexCommand citet
+after ""
+before ""
+key "serrano_sraffian_1995"
+literal "false"
+
+\end_inset
+
+ towards models that validate the principle of effective demand on the long-run which non-capacity creating expenditure leads the long run growth rate and capacity utilization converge to its normal level. In addition, the Kaleckian alternative that includes autonomous expenditures that do not create capacity initiated by 
+\begin_inset CommandInset citation
+LatexCommand citet
+after ""
+before ""
+key "allain_tackling_2015"
+literal "false"
+
+\end_inset
+
+ and reinforced by 
+\begin_inset CommandInset citation
+LatexCommand citet
+after ""
+before ""
+key "lavoie_convergence_2016"
+literal "false"
+
+\end_inset
+
+ (among others, 
+\begin_inset CommandInset citation
+LatexCommand cite
+after ""
+before ""
+key "dutt_growth_2016,dutt_observations_2018,hein_autonomous_2018,nah_long-run_2017"
+literal "false"
+
+\end_inset
+
+) is critically reviewed.
+\end_layout
+
+\begin_layout Abstract
+From this literature review, we highlight the negligence regarding the treatment given to residential investment. The importance of this component of aggregate demand in determining the economic cycle is highlighted by 
+\begin_inset CommandInset citation
+LatexCommand citet
+after ""
+before ""
+key "leamer_housing_2007"
+literal "false"
+
+\end_inset
+
+ and recently taken up by 
+\begin_inset CommandInset citation
+LatexCommand citet
+after ""
+before ""
+key "fiebiger_semi-autonomous_2018"
+literal "false"
+
+\end_inset
+
+ in which residential investment anticipates the cycle. In this way, we build a Sraffian supermultiplier model (SSM) to emphasize the importance of household investment. However, as 
+\begin_inset CommandInset citation
+LatexCommand citet
+after ""
+before ""
+key "brochier_supermultiplier_2018"
+literal "false"
+
+\end_inset
+
+ point out, such model lacks an adequate treatment of financial relations. With this gap in mind, a SSM-Stock-Flow Consistent (thereafter SSM-SFC) is modeled to initiate a research area towards the endogeinization of this autonomous expenditure. The importance of this research is the possibility to analyze the cyclicity of the economy in light of the instability of the aggregate demand as 
+\begin_inset CommandInset citation
+LatexCommand citet
+after ""
+before ""
+key "dejuan_hidden_2017"
+literal "false"
+
+\end_inset
+
+ suggests.
+\end_layout
+
+\begin_layout Abstract
+In short, this article analyses the dynamics of household investment using a SSM-SFC model based on the U.S. economy (1980-2000). The first section presents a review of Kaleckian and sraffian supermultiplier models with autonomous expenditures. The second section highlights stylezed facts for the American economy which support the idea that non-capacity generating expenditures, mainly household investment, led the economic growth and determinates the cycle. Finally, a SSM-SFC model with two sorts of capital stock (productive capital and real estate) is simulated to analyse the effects of changes in income distribution, interest rates and autonomous growth rate. The results are: (i) changes in income distribuition affect the growth rate only during the transverse; (ii) increases in interest rates of loans do not have an affect on the long run; (iii) house stock ratio decreases as a result of the overall increase in productive capacity; (iv) long-run growth rate is affected only by autonomous expenditures (household investment).
+\end_layout
+
+\begin_layout Abstract
+Therefore, this first model introduces housing on sraffian supermultiplier agenda and extends the range of autonomous expenditures alternatives. It worth noting that future (already in progress) versions of this paper will — not simultaneously — move to two directions. The first one includes asset bubbles and the importance of the own interest rate highlighted by 
+\begin_inset CommandInset citation
+LatexCommand citet
+after ""
+before ""
+key "sraffa1932dr"
+literal "false"
+
+\end_inset
+
+ — and redeemed by 
+\begin_inset CommandInset citation
+LatexCommand citet
+after ""
+before ""
+key "da_silva_teixeira_crescimento_2015"
+literal "false"
+
+\end_inset
+
+ to deal with the U.S. case — in a theoretical SSM-SFC simulation and in a time series VEC model. The second (in early stage) intends to open the economy and evaluate the relationship between exchange rate and income distribution and its impacts over balance of payments equilibrium. 
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+keywords
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+Demand-led Growth 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+and
+\end_layout
+
+\end_inset
+
+ Sraffian supermultiplier 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+and
+\end_layout
+
+\end_inset
+
+ Stock flow consistent approach 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+and
+\end_layout
+
+\end_inset
+
+ Residential investiment 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+and
+\end_layout
+
+\end_inset
+
+ Own interest rate
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "references"
+options ""
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

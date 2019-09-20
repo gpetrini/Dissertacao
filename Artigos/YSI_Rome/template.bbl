@@ -1,0 +1,689 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.0 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{allain_tackling_2015}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=b0fc47959800a45f0c22ee1be6802558}{%
+           family={Allain},
+           familyi={A\bibinitperiod},
+           given={Olivier},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{b0fc47959800a45f0c22ee1be6802558}
+      \strng{fullhash}{b0fc47959800a45f0c22ee1be6802558}
+      \strng{bibnamehash}{b0fc47959800a45f0c22ee1be6802558}
+      \strng{authorbibnamehash}{b0fc47959800a45f0c22ee1be6802558}
+      \strng{authornamehash}{b0fc47959800a45f0c22ee1be6802558}
+      \strng{authorfullhash}{b0fc47959800a45f0c22ee1be6802558}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{0309-166X, 1464-3545}
+      \field{journaltitle}{Cambridge Journal of Economics}
+      \field{month}{9}
+      \field{number}{5}
+      \field{shorttitle}{Tackling the instability of growth}
+      \field{title}{Tackling the instability of growth: a {Kaleckian}-{Harrodian} model with an autonomous expenditure component}
+      \field{urlday}{27}
+      \field{urlmonth}{1}
+      \field{urlyear}{2019}
+      \field{volume}{39}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \field{pages}{1351\bibrangedash 1371}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1093/cje/beu039
+      \endverb
+      \verb{file}
+      \verb Allain - 2015 - Tackling the instability of growth a Kaleckian-Ha.pdf:/home/gpetrini/Zotero/storage/2Z2UJ2PC/Allain - 2015 - Tackling the instability of growth a Kaleckian-Ha.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://academic.oup.com/cje/article-lookup/doi/10.1093/cje/beu039
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/cje/article-lookup/doi/10.1093/cje/beu039
+      \endverb
+    \endentry
+    \entry{brochier_supermultiplier_2018}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=6c985c4582d2e81fc97ab017f38c2c89}{%
+           family={Brochier},
+           familyi={B\bibinitperiod},
+           given={Lídia},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=f57418d38bfc94cc35411019b77c1e4b}{%
+           family={Silva},
+           familyi={S\bibinitperiod},
+           given={Antonio\bibnamedelimb Carlos\bibnamedelimb Macedo\bibnamedelima e},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim e\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{ab1ef7ec5338573037ffe6f926113953}
+      \strng{fullhash}{ab1ef7ec5338573037ffe6f926113953}
+      \strng{bibnamehash}{ab1ef7ec5338573037ffe6f926113953}
+      \strng{authorbibnamehash}{ab1ef7ec5338573037ffe6f926113953}
+      \strng{authornamehash}{ab1ef7ec5338573037ffe6f926113953}
+      \strng{authorfullhash}{ab1ef7ec5338573037ffe6f926113953}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Abstract. Supermultiplier models have been recently brought to the post-Keynesian debate. Yet these models still rely on quite simple economic assumptions, bei}
+      \field{journaltitle}{Cambridge Journal of Economics}
+      \field{shorttitle}{A supermultiplier {Stock}-{Flow} {Consistent} model}
+      \field{title}{A supermultiplier {Stock}-{Flow} {Consistent} model: the ``return'' of the paradoxes of thrift and costs in the long run?}
+      \field{urlday}{15}
+      \field{urlmonth}{11}
+      \field{urlyear}{2018}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1093/cje/bey008
+      \endverb
+      \verb{file}
+      \verb Brochier_Silva_A supermultiplier Stock-Flow Consistent model.pdf:/home/gpetrini/Zotero/storage/JBUV4YSY/Brochier_Silva_A supermultiplier Stock-Flow Consistent model.pdf:application/pdf;Snapshot:/home/gpetrini/Zotero/storage/UM4L9M4P/5033971.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://academic.oup.com/cje/advance-article/doi/10.1093/cje/bey008/5033971
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/cje/advance-article/doi/10.1093/cje/bey008/5033971
+      \endverb
+    \endentry
+    \entry{dejuan_hidden_2017}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=9a891e123b85c6eb0e12993df36e0bdf}{%
+           family={Dejuán},
+           familyi={D\bibinitperiod},
+           given={Óscar},
+           giveni={Ó\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{9a891e123b85c6eb0e12993df36e0bdf}
+      \strng{fullhash}{9a891e123b85c6eb0e12993df36e0bdf}
+      \strng{bibnamehash}{9a891e123b85c6eb0e12993df36e0bdf}
+      \strng{authorbibnamehash}{9a891e123b85c6eb0e12993df36e0bdf}
+      \strng{authornamehash}{9a891e123b85c6eb0e12993df36e0bdf}
+      \strng{authorfullhash}{9a891e123b85c6eb0e12993df36e0bdf}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{0967-2567, 1469-5936}
+      \field{journaltitle}{The European Journal of the History of Economic Thought}
+      \field{month}{3}
+      \field{number}{2}
+      \field{shorttitle}{Hidden links in the warranted rate of growth}
+      \field{title}{Hidden links in the warranted rate of growth: the supermultiplier way out}
+      \field{urlday}{12}
+      \field{urlmonth}{1}
+      \field{urlyear}{2019}
+      \field{volume}{24}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \field{pages}{369\bibrangedash 394}
+      \range{pages}{26}
+      \verb{doi}
+      \verb 10.1080/09672567.2016.1186201
+      \endverb
+      \verb{urlraw}
+      \verb https://www.tandfonline.com/doi/full/10.1080/09672567.2016.1186201
+      \endverb
+      \verb{url}
+      \verb https://www.tandfonline.com/doi/full/10.1080/09672567.2016.1186201
+      \endverb
+    \endentry
+    \entry{dutt_growth_2016}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=1c034b52dfa023b69b074711019bf416}{%
+           family={Dutt},
+           familyi={D\bibinitperiod},
+           given={Amitava\bibnamedelima Krishna},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Tohoku University, Sendai, Japan}%
+      }
+      \strng{namehash}{1c034b52dfa023b69b074711019bf416}
+      \strng{fullhash}{1c034b52dfa023b69b074711019bf416}
+      \strng{bibnamehash}{1c034b52dfa023b69b074711019bf416}
+      \strng{authorbibnamehash}{1c034b52dfa023b69b074711019bf416}
+      \strng{authornamehash}{1c034b52dfa023b69b074711019bf416}
+      \strng{authorfullhash}{1c034b52dfa023b69b074711019bf416}
+      \field{extraname}{1}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Mimeo}
+      \field{title}{Growth and distribution with autonomous demand growth and normal capacity utilization}
+      \field{urlday}{12}
+      \field{urlmonth}{5}
+      \field{urlyear}{2019}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Dutt - GROWTH AND DISTRIBUTION WITH EXOGENOUS AUTONOMOUS .pdf:/home/gpetrini/Zotero/storage/7MU3L3B2/Dutt - GROWTH AND DISTRIBUTION WITH EXOGENOUS AUTONOMOUS .pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://mail.google.com/mail/u/0/?ui=2&view=btop&ver=koid9r0itp1t#attid%253Datt_16aa95d2d0f80544_0.1_e1b45b58_2a360280_315af9f1_836676e8_a2295d4d%25252FAutonomous%252520demand%252520growth%25252C%252520%252520distribution%252520and%252520growth%2525203.pdf
+      \endverb
+      \verb{url}
+      \verb https://mail.google.com/mail/u/0/?ui=2&view=btop&ver=koid9r0itp1t#attid%253Datt_16aa95d2d0f80544_0.1_e1b45b58_2a360280_315af9f1_836676e8_a2295d4d%25252FAutonomous%252520demand%252520growth%25252C%252520%252520distribution%252520and%252520growth%2525203.pdf
+      \endverb
+    \endentry
+    \entry{dutt_observations_2018}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=1c034b52dfa023b69b074711019bf416}{%
+           family={Dutt},
+           familyi={D\bibinitperiod},
+           given={Amitava\bibnamedelima Krishna},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{1c034b52dfa023b69b074711019bf416}
+      \strng{fullhash}{1c034b52dfa023b69b074711019bf416}
+      \strng{bibnamehash}{1c034b52dfa023b69b074711019bf416}
+      \strng{authorbibnamehash}{1c034b52dfa023b69b074711019bf416}
+      \strng{authornamehash}{1c034b52dfa023b69b074711019bf416}
+      \strng{authorfullhash}{1c034b52dfa023b69b074711019bf416}
+      \field{extraname}{2}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{This paper offers some theoretical and methodological observations on a model of growth and distribution, recently developed by Franklin Serrano and others and called the Sraffian supermultiplier model, in which the growth of autonomous capitalist consumption demand and distribution are exogenously given and capacity utilization is at an exogenously given “normal” level in long‐run equilibrium. First, it provides a simple long‐run equilibrium version and dynamic formulation of the model, and compares it to other models of growth and distribution using a common framework and focusing on the effect of a change in income distribution on growth. Second, it shows that the model can be modified to examine other components of autonomous demand growth, including government spending, exports, consumption by workers, and investment and technical change, and to simultaneous multiple sources of autonomous demand growth. Finally, it comments on some methodological issues concerning the model, and on its implications for the notion of longrun equilibrium.}
+      \field{issn}{00261386}
+      \field{journaltitle}{Metroeconomica}
+      \field{month}{12}
+      \field{shorttitle}{Some observations on models of growth and distribution with autonomous demand growth}
+      \field{title}{Some observations on models of growth and distribution with autonomous demand growth: {XXXX}}
+      \field{urlday}{24}
+      \field{urlmonth}{1}
+      \field{urlyear}{2019}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1111/meca.12234
+      \endverb
+      \verb{file}
+      \verb Dutt - 2018 - Some observations on models of growth and distribu.pdf:/home/gpetrini/Zotero/storage/FKTH89D6/Dutt - 2018 - Some observations on models of growth and distribu.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://doi.wiley.com/10.1111/meca.12234
+      \endverb
+      \verb{url}
+      \verb http://doi.wiley.com/10.1111/meca.12234
+      \endverb
+    \endentry
+    \entry{fiebiger_semi-autonomous_2018}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=73761fcb674946585afcbf504430394f}{%
+           family={Fiebiger},
+           familyi={F\bibinitperiod},
+           given={Brett},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{73761fcb674946585afcbf504430394f}
+      \strng{fullhash}{73761fcb674946585afcbf504430394f}
+      \strng{bibnamehash}{73761fcb674946585afcbf504430394f}
+      \strng{authorbibnamehash}{73761fcb674946585afcbf504430394f}
+      \strng{authornamehash}{73761fcb674946585afcbf504430394f}
+      \strng{authorfullhash}{73761fcb674946585afcbf504430394f}
+      \field{sortinit}{F}
+      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{0309-166X, 1464-3545}
+      \field{journaltitle}{Cambridge Journal of Economics}
+      \field{month}{1}
+      \field{number}{1}
+      \field{shorttitle}{Semi-autonomous household expenditures as the causa causans of postwar {US} business cycles}
+      \field{title}{Semi-autonomous household expenditures as the causa causans of postwar {US} business cycles: the stability and instability of {Luxemburg}-type external markets}
+      \field{urlday}{12}
+      \field{urlmonth}{2}
+      \field{urlyear}{2019}
+      \field{volume}{42}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \field{pages}{155\bibrangedash 175}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1093/cje/bex019
+      \endverb
+      \verb{file}
+      \verb Fiebiger - 2018 - Semi-autonomous household expenditures as the caus.pdf:/home/gpetrini/Zotero/storage/C9MDVS8W/Fiebiger - 2018 - Semi-autonomous household expenditures as the caus.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://academic.oup.com/cje/article/42/1/155/3737556
+      \endverb
+      \verb{url}
+      \verb http://academic.oup.com/cje/article/42/1/155/3737556
+      \endverb
+    \endentry
+    \entry{harrod_essay_1939}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=aa2b85bafff6792e7f972175e3f3a3e5}{%
+           family={Harrod},
+           familyi={H\bibinitperiod},
+           given={R.\bibnamedelimi F.},
+           giveni={R\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{aa2b85bafff6792e7f972175e3f3a3e5}
+      \strng{fullhash}{aa2b85bafff6792e7f972175e3f3a3e5}
+      \strng{bibnamehash}{aa2b85bafff6792e7f972175e3f3a3e5}
+      \strng{authorbibnamehash}{aa2b85bafff6792e7f972175e3f3a3e5}
+      \strng{authornamehash}{aa2b85bafff6792e7f972175e3f3a3e5}
+      \strng{authorfullhash}{aa2b85bafff6792e7f972175e3f3a3e5}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00130133}
+      \field{journaltitle}{The Economic Journal}
+      \field{month}{3}
+      \field{number}{193}
+      \field{title}{An {Essay} in {Dynamic} {Theory}}
+      \field{urlday}{28}
+      \field{urlmonth}{12}
+      \field{urlyear}{2018}
+      \field{volume}{49}
+      \field{year}{1939}
+      \field{urldateera}{ce}
+      \field{pages}{14}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.2307/2225181
+      \endverb
+      \verb{file}
+      \verb Harrod - 1939 - An Essay in Dynamic Theory.pdf:/home/gpetrini/Zotero/storage/J3RMAYP3/Harrod - 1939 - An Essay in Dynamic Theory.pdf:application/pdf;Harrold (1939).md:/home/gpetrini/Zotero/storage/CH78STRK/Harrod (1939).md:text/markdown
+      \endverb
+      \verb{urlraw}
+      \verb https://www.jstor.org/stable/10.2307/2225181?origin=crossref
+      \endverb
+      \verb{url}
+      \verb https://www.jstor.org/stable/10.2307/2225181?origin=crossref
+      \endverb
+    \endentry
+    \entry{hein_autonomous_2018}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=e721b26e3ecd4db48eee14a48259416f}{%
+           family={Hein},
+           familyi={H\bibinitperiod},
+           given={Eckhard},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{e721b26e3ecd4db48eee14a48259416f}
+      \strng{fullhash}{e721b26e3ecd4db48eee14a48259416f}
+      \strng{bibnamehash}{e721b26e3ecd4db48eee14a48259416f}
+      \strng{authorbibnamehash}{e721b26e3ecd4db48eee14a48259416f}
+      \strng{authornamehash}{e721b26e3ecd4db48eee14a48259416f}
+      \strng{authorfullhash}{e721b26e3ecd4db48eee14a48259416f}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0160-3477, 1557-7821}
+      \field{journaltitle}{Journal of Post Keynesian Economics}
+      \field{month}{4}
+      \field{number}{2}
+      \field{title}{Autonomous government expenditure growth, deficits, debt, and distribution in a neo-{Kaleckian} growth model}
+      \field{urlday}{24}
+      \field{urlmonth}{9}
+      \field{urlyear}{2018}
+      \field{volume}{41}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \field{pages}{316\bibrangedash 338}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.1080/01603477.2017.1422389
+      \endverb
+      \verb{file}
+      \verb Hein_2018_Autonomous government expenditure growth, deficits, debt, and distribution in a.pdf:/home/gpetrini/Zotero/storage/DBZIM2BL/Hein_2018_Autonomous government expenditure growth, deficits, debt, and distribution in a.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.tandfonline.com/doi/full/10.1080/01603477.2017.1422389
+      \endverb
+      \verb{url}
+      \verb https://www.tandfonline.com/doi/full/10.1080/01603477.2017.1422389
+      \endverb
+    \endentry
+    \entry{lavoie_convergence_2016}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=dcd7b0a6002af14d170a5a19365c27f2}{%
+           family={Lavoie},
+           familyi={L\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{dcd7b0a6002af14d170a5a19365c27f2}
+      \strng{fullhash}{dcd7b0a6002af14d170a5a19365c27f2}
+      \strng{bibnamehash}{dcd7b0a6002af14d170a5a19365c27f2}
+      \strng{authorbibnamehash}{dcd7b0a6002af14d170a5a19365c27f2}
+      \strng{authornamehash}{dcd7b0a6002af14d170a5a19365c27f2}
+      \strng{authorfullhash}{dcd7b0a6002af14d170a5a19365c27f2}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Neo-Kaleckian models of growth and distribution have been highly popular among heterodox economists. Two drawbacks of these models have, however, been underlined in the literature: first, the models do not usually converge to their normal rate of capacity utilization; second, the models do not include the Harrodian principle of dynamic instability. Some Sraffian economists have long been arguing that the presence of non-capacity creating autonomous expenditures provides a mechanism that brings back the model to normal rates of capacity utilization, while safeguarding the main Keynesian message and without going back to classical conclusions. The present article provides a very simple proof of this, showing within a neo-Kaleckian model that the Harrodian principle of dynamic instability gets tamed by the presence of autonomous consumer expenditures.}
+      \field{issn}{1467-999X}
+      \field{journaltitle}{Metroeconomica}
+      \field{month}{2}
+      \field{number}{1}
+      \field{shorttitle}{Convergence {Towards} the {Normal} {Rate} of {Capacity} {Utilization} in {Neo}-{Kaleckian} {Models}}
+      \field{title}{Convergence {Towards} the {Normal} {Rate} of {Capacity} {Utilization} in {Neo}-{Kaleckian} {Models}: {The} {Role} of {Non}-{Capacity} {Creating} {Autonomous} {Expenditures}}
+      \field{urlday}{30}
+      \field{urlmonth}{9}
+      \field{urlyear}{2018}
+      \field{volume}{67}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \field{pages}{172\bibrangedash 201}
+      \range{pages}{30}
+      \verb{doi}
+      \verb 10.1111/meca.12109
+      \endverb
+      \verb{file}
+      \verb Lavoie_2016_Convergence Towards the Normal Rate of Capacity Utilization in Neo-Kaleckian.pdf:/home/gpetrini/Zotero/storage/SLX5YKCL/Lavoie_2016_Convergence Towards the Normal Rate of Capacity Utilization in Neo-Kaleckian.pdf:application/pdf;Snapshot:/home/gpetrini/Zotero/storage/FMBZLXPC/meca.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/meca.12109
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/meca.12109
+      \endverb
+      \keyw{REVER}
+    \endentry
+    \entry{leamer_housing_2007}{report}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=4d9a98a238742fa73876309ee34012ae}{%
+           family={Leamer},
+           familyi={L\bibinitperiod},
+           given={Edward\bibnamedelima E},
+           giveni={E\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {National Bureau of Economic Research}%
+      }
+      \strng{namehash}{4d9a98a238742fa73876309ee34012ae}
+      \strng{fullhash}{4d9a98a238742fa73876309ee34012ae}
+      \strng{bibnamehash}{4d9a98a238742fa73876309ee34012ae}
+      \strng{authorbibnamehash}{4d9a98a238742fa73876309ee34012ae}
+      \strng{authornamehash}{4d9a98a238742fa73876309ee34012ae}
+      \strng{authorfullhash}{4d9a98a238742fa73876309ee34012ae}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Of the components of GDP, residential investment offers by far the best early warning sign of an oncoming recession. Since World War II we have had eight recessions preceded by substantial problems in housing and consumer durables. Housing did not give an early warning of the Department of Defense Downturn after the Korean Armistice in 1953 or the Internet Comeuppance in 2001, nor should it have. By virtue of its prominence in our recessions, it makes sense for housing to play a prominent role in the conduct of monetary policy. A modified Taylor Rule would depend on a long-term measure of inflation having little to do with the phase in the cycle, and, in place of Taylor's output gap, housing starts and the change in housing starts, which together form the best forward-looking indicator of the cycle of which I am aware. This would create pre-emptive anti-inflation policy in the middle of the expansions when housing is not so sensitive to interest rates, making it less likely that anti-inflation policies would be needed near the ends of expansions when housing is very interest rate sensitive, thus making our recessions less frequent and/or less severe.}
+      \field{month}{9}
+      \field{number}{13428}
+      \field{title}{Housing {IS} the {Business} {Cycle}}
+      \field{type}{Working {Paper}}
+      \field{urlday}{20}
+      \field{urlmonth}{12}
+      \field{urlyear}{2018}
+      \field{year}{2007}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.3386/w13428
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/gpetrini/Zotero/storage/2ZMSFV3J/Leamer - 2007 - Housing IS the Business Cycle.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://www.nber.org/papers/w13428
+      \endverb
+      \verb{url}
+      \verb http://www.nber.org/papers/w13428
+      \endverb
+    \endentry
+    \entry{nah_long-run_2017}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=0d3c396cbb7451d4f1bc1f21f4968f80}{%
+           family={Nah},
+           familyi={N\bibinitperiod},
+           given={Won\bibnamedelima Jun},
+           giveni={W\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=dcd7b0a6002af14d170a5a19365c27f2}{%
+           family={Lavoie},
+           familyi={L\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{56d1062f93d9972932ade0369c78f7be}
+      \strng{fullhash}{56d1062f93d9972932ade0369c78f7be}
+      \strng{bibnamehash}{56d1062f93d9972932ade0369c78f7be}
+      \strng{authorbibnamehash}{56d1062f93d9972932ade0369c78f7be}
+      \strng{authornamehash}{56d1062f93d9972932ade0369c78f7be}
+      \strng{authorfullhash}{56d1062f93d9972932ade0369c78f7be}
+      \field{sortinit}{N}
+      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This study combines a neo-Kaleckian growth and distribution model with a sort of Sraffian supermultiplier mechanism in which autonomous demand is driven by foreign exports. Short-, medium- and long-run equilibria are considered. In the long-run case, the expectations of sales growth governing investment change adaptively, and this, combined with the autonomous growth rate of exports, produces convergence of the actual rate of capacity utilization to its normal rate. It is demonstrated that some aspects of the main Kaleckian results can be preserved not only in the short or medium run but also in the long run, in the sense that both (1) a decrease in the propensity to save, and (2) a change in income distribution favoring labor, bring about higher average rates of production growth and capital accumulation. However, the impact of a change in the profit share is shown to be subjected to the condition that the responsiveness of the real exchange rate with respect to the profit share has to be bounded from above, confirming that the scope for wage-led demand or wage-led growth can be limited by open-economy considerations, even within the supermultiplier context.}
+      \field{issn}{0160-3477}
+      \field{journaltitle}{Journal of Post Keynesian Economics}
+      \field{month}{4}
+      \field{number}{2}
+      \field{title}{Long-run convergence in a neo-{Kaleckian} open-economy model with autonomous export growth}
+      \field{urlday}{17}
+      \field{urlmonth}{4}
+      \field{urlyear}{2019}
+      \field{volume}{40}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \field{pages}{223\bibrangedash 238}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1080/01603477.2016.1262745
+      \endverb
+      \verb{file}
+      \verb Snapshot:/home/gpetrini/Zotero/storage/9HZ4LP43/01603477.2016.html:text/html;Submitted Version:/home/gpetrini/Zotero/storage/25IV3FHS/Nah e Lavoie - 2017 - Long-run convergence in a neo-Kaleckian open-econo.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1080/01603477.2016.1262745
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1080/01603477.2016.1262745
+      \endverb
+      \keyw{F41,growth,E11,O41,capacity utilization,Autonomous expenditures,exports,neo-Kaleckian,profit share}
+    \endentry
+    \entry{serrano_sraffian_1995}{thesis}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=8df1ed774cbbdbac66d3fc8dafb0bcd5}{%
+           family={Serrano},
+           familyi={S\bibinitperiod},
+           given={Franklin},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {University of Cambridge}%
+      }
+      \list{location}{1}{%
+        {Cambridge}%
+      }
+      \strng{namehash}{8df1ed774cbbdbac66d3fc8dafb0bcd5}
+      \strng{fullhash}{8df1ed774cbbdbac66d3fc8dafb0bcd5}
+      \strng{bibnamehash}{8df1ed774cbbdbac66d3fc8dafb0bcd5}
+      \strng{authorbibnamehash}{8df1ed774cbbdbac66d3fc8dafb0bcd5}
+      \strng{authornamehash}{8df1ed774cbbdbac66d3fc8dafb0bcd5}
+      \strng{authorfullhash}{8df1ed774cbbdbac66d3fc8dafb0bcd5}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The sraffian supermultiplier}
+      \field{type}{Tese ({PhD})}
+      \field{year}{1995}
+      \verb{file}
+      \verb Fulltext:/home/gpetrini/Zotero/storage/C9WVNTEC/Serrano - 1995 - The sraffian supermultiplier.pdf:application/pdf;Serrano_1995_The sraffian supermultiplier.pdf:/home/gpetrini/Zotero/storage/FVZQV2AN/Serrano_1995_The sraffian supermultiplier.pdf:application/pdf
+      \endverb
+      \keyw{REVISTO,METADATA}
+    \endentry
+    \entry{sraffa1932dr}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=f477cdd91a25e45a94ed64cb9686b535}{%
+           family={Sraffa},
+           familyi={S\bibinitperiod},
+           given={Piero},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {JSTOR}%
+      }
+      \strng{namehash}{f477cdd91a25e45a94ed64cb9686b535}
+      \strng{fullhash}{f477cdd91a25e45a94ed64cb9686b535}
+      \strng{bibnamehash}{f477cdd91a25e45a94ed64cb9686b535}
+      \strng{authorbibnamehash}{f477cdd91a25e45a94ed64cb9686b535}
+      \strng{authornamehash}{f477cdd91a25e45a94ed64cb9686b535}
+      \strng{authorfullhash}{f477cdd91a25e45a94ed64cb9686b535}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Economic Journal}
+      \field{number}{165}
+      \field{title}{Dr. Hayek on money and capital}
+      \field{volume}{42}
+      \field{year}{1932}
+      \field{pages}{42\bibrangedash 53}
+      \range{pages}{12}
+    \endentry
+    \entry{da_silva_teixeira_crescimento_2015}{thesis}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=4350360f9662b16b910ff8cdfe3abff2}{%
+           family={Teixeira},
+           familyi={T\bibinitperiod},
+           given={Lucas\bibnamedelimb Azeredo\bibnamedelimb da\bibnamedelima Silva},
+           giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Universidade Federal do Rio de Janeiro}%
+      }
+      \list{location}{1}{%
+        {Rio de Janeiro}%
+      }
+      \strng{namehash}{4350360f9662b16b910ff8cdfe3abff2}
+      \strng{fullhash}{4350360f9662b16b910ff8cdfe3abff2}
+      \strng{bibnamehash}{4350360f9662b16b910ff8cdfe3abff2}
+      \strng{authorbibnamehash}{4350360f9662b16b910ff8cdfe3abff2}
+      \strng{authornamehash}{4350360f9662b16b910ff8cdfe3abff2}
+      \strng{authorfullhash}{4350360f9662b16b910ff8cdfe3abff2}
+      \field{sortinit}{T}
+      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{shorttitle}{Crescimento liderado pela demanda na economia norte-americana nos anos 2000}
+      \field{title}{Crescimento liderado pela demanda na economia norte-americana nos anos 2000: uma análise a partir do supermultiplicador sraffiano com inflação de ativos}
+      \field{type}{Tese ({Doutorado})}
+      \field{year}{2015}
+      \verb{file}
+      \verb da Silva Teixeira_2015_Crescimento liderado pela demanda na economia norte-americana nos anos 2000.pdf:/home/gpetrini/Zotero/storage/T7G26XY3/da Silva Teixeira_2015_Crescimento liderado pela demanda na economia norte-americana nos anos 2000.pdf:application/pdf;Fulltext:/home/gpetrini/Zotero/storage/ZH4I5ZIE/da Silva Teixeira - 2015 - Crescimento liderado pela demanda na economia nort.pdf:application/pdf
+      \endverb
+      \keyw{REVISTO,METADATA}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
