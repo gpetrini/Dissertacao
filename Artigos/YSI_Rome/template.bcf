@@ -2155,10 +2155,13 @@
     <bcf:citekey order="8">nah_long-run_2017</bcf:citekey>
     <bcf:citekey order="9">leamer_housing_2007</bcf:citekey>
     <bcf:citekey order="10">fiebiger_semi-autonomous_2018</bcf:citekey>
-    <bcf:citekey order="11">brochier_supermultiplier_2018</bcf:citekey>
-    <bcf:citekey order="12">dejuan_hidden_2017</bcf:citekey>
+    <bcf:citekey order="11">da_silva_teixeira_crescimento_2015</bcf:citekey>
+    <bcf:citekey order="12">sraffa1932dr</bcf:citekey>
     <bcf:citekey order="13">sraffa1932dr</bcf:citekey>
     <bcf:citekey order="14">da_silva_teixeira_crescimento_2015</bcf:citekey>
+    <bcf:citekey order="15">da_silva_teixeira_crescimento_2015</bcf:citekey>
+    <bcf:citekey order="16">brochier_supermultiplier_2018</bcf:citekey>
+    <bcf:citekey order="17">dejuan_hidden_2017</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">
