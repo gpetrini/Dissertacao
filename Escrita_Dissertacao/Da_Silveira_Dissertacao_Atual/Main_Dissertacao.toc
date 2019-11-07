@@ -6,9 +6,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{Lista de Tabelas}{xi}{section*.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Lista de Vari\IeC {\'a}veis}{xii}{chapter*.7}% 
+\contentsline {chapter}{Lista de Vari\IeC {\'a}veis}{xiv}{chapter*.7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Lista de Abreviaturas e Siglas}{xiii}{chapter*.8}% 
+\contentsline {chapter}{Lista de Abreviaturas e Siglas}{xv}{chapter*.8}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\chapternumberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{14}{chapter.1}% 
 \defcounter {refsection}{0}\relax 
