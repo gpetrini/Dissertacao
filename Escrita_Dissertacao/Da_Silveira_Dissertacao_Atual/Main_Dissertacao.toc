@@ -2,13 +2,13 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {brazil}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Lista de Ilustra\IeC {\c c}\IeC {\~o}es}{ix}{section*.6}% 
+\contentsline {chapter}{Lista de Ilustra\IeC {\c c}\IeC {\~o}es}{x}{section*.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Lista de Tabelas}{x}{section*.6}% 
+\contentsline {chapter}{Lista de Tabelas}{xi}{section*.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Lista de Vari\IeC {\'a}veis}{xiii}{chapter*.7}% 
+\contentsline {chapter}{Lista de Vari\IeC {\'a}veis}{xiv}{chapter*.7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Lista de Abreviaturas e Siglas}{xiv}{chapter*.8}% 
+\contentsline {chapter}{Lista de Abreviaturas e Siglas}{xv}{chapter*.8}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\chapternumberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{14}{chapter.1}% 
 \defcounter {refsection}{0}\relax 
@@ -22,9 +22,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.1.3}Supermultiplicador Sraffiano}{29}{subsection.2.1.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Modelos de crescimento liderados pelos gastos aut\IeC {\^o}nomos n\IeC {\~a}o criadores de capacidade}{34}{section.2.2}% 
+\contentsline {section}{\numberline {2.2}Modelos de crescimento liderados pelos gastos aut\IeC {\^o}nomos n\IeC {\~a}o criadores de capacidade}{35}{section.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Princ\IeC {\'\i }pio da demanda efetiva no m\IeC {\'e}dio prazo e a estabilidade fundamental}{40}{section.2.3}% 
+\contentsline {section}{\numberline {2.3}Investimento residencial e crescimento}{40}{section.2.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.4}Princ\IeC {\'\i }pio da demanda efetiva no m\IeC {\'e}dio prazo e a estabilidade fundamental}{40}{section.2.4}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\chapternumberline {3}Investimento residencial e taxa pr\IeC {\'o}pria de juros dos im\IeC {\'o}veis: Uma investiga\IeC {\c c}\IeC {\~a}o a partir de um VECM}{48}{chapter.3}% 
 \defcounter {refsection}{0}\relax 
@@ -48,9 +50,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.5}Conclus\IeC {\~o}es preliminares: Rumo a endogeiniza\IeC {\c c}\IeC {\~a}o dos pre\IeC {\c c}os}{88}{section.4.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Refer\^encias}{90}{section*.38}% 
+\contentsline {chapter}{Refer\^encias}{90}{section*.37}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Ap\IeC {\^e}ndices}{102}{section*.38}% 
+\contentsline {chapter}{Ap\IeC {\^e}ndices}{102}{section*.37}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {appendix}{\chapternumberline {A}\textit {Fraction} e o investimento residencial}{102}{appendix.A}% 
 \defcounter {refsection}{0}\relax 
