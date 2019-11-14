@@ -666,6 +666,57 @@
       \verb https://academic.oup.com/cje/article/7/3-4/221/1686649
       \endverb
     \endentry
+    \entry{aspromourgos_sraffian_2004}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=af0b0bf080b718c2deff55ffadb9ee66}{%
+           family={Aspromourgos},
+           familyi={A\bibinitperiod},
+           given={Tony},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{af0b0bf080b718c2deff55ffadb9ee66}
+      \strng{fullhash}{af0b0bf080b718c2deff55ffadb9ee66}
+      \strng{bibnamehash}{af0b0bf080b718c2deff55ffadb9ee66}
+      \strng{authorbibnamehash}{af0b0bf080b718c2deff55ffadb9ee66}
+      \strng{authornamehash}{af0b0bf080b718c2deff55ffadb9ee66}
+      \strng{authorfullhash}{af0b0bf080b718c2deff55ffadb9ee66}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper provides an overview of the main currents in the development of the intellectual project inaugurated by Piero Sraffa’s Production of Commodities by Means of Commodities. Five research programmes are detailed (together with some further extensions): the nature and signiﬁcance of long-period equilibria; the Cambridge Growth Equation and the monetary determination of interest, as alternative theories of distribution; the Sraffa–Keynes synthesis; and the critique of marginalism. The paper also sketches the relations between the Srafﬁan project and other unorthodox strands in economics. Future prospects for orthodoxy and non-orthodoxy are canvassed. A substantial literature survey is included.}
+      \field{issn}{0953-8259, 1465-3982}
+      \field{journaltitle}{Review of Political Economy}
+      \field{month}{4}
+      \field{number}{2}
+      \field{title}{Sraffian research programmes and unorthodox economics}
+      \field{urlday}{5}
+      \field{urlmonth}{9}
+      \field{urlyear}{2019}
+      \field{volume}{16}
+      \field{year}{2004}
+      \field{urldateera}{ce}
+      \field{pages}{179\bibrangedash 206}
+      \range{pages}{28}
+      \verb{doi}
+      \verb 10.1080/0953825042000183181
+      \endverb
+      \verb{file}
+      \verb Aspromourgos - 2004 - Sraffian research programmes and unorthodox econom.pdf:/home/gpetrini/Zotero/storage/FKIMB3E6/Aspromourgos - 2004 - Sraffian research programmes and unorthodox econom.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.tandfonline.com/doi/full/10.1080/0953825042000183181
+      \endverb
+      \verb{url}
+      \verb https://www.tandfonline.com/doi/full/10.1080/0953825042000183181
+      \endverb
+    \endentry
     \entry{atesoglu_balance--payments-constrained_1993}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=56b379c28e862e0236e9315332bd1b02}{%
@@ -1038,24 +1089,34 @@
       \verb Bibow - 2010 - Financialization of the US household sector The .pdf:/home/gpetrini/Zotero/storage/FMZQ2UUR/Bibow - 2010 - Financialization of the US household sector The .pdf:application/pdf;Snapshot:/home/gpetrini/Zotero/storage/YN4VS86A/106233.html:text/html
       \endverb
     \endentry
-    \entry{blecker_distribution_2002}{book}{}
+    \entry{setterfield_distribution_2002}{incollection}{}
       \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=823c4abb55c0ba0e641480e9aaa0b5b9}{%
-           family={Blecker},
+        {{uniquename=0,uniquepart=base,hash=2e967c996f7e896518518af6189bb855}{%
+           family={{Blecker}},
            familyi={B\bibinitperiod},
-           given={Robert\bibnamedelima A},
-           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod},
            givenun=0}}%
       }
-      \list{publisher}{1}{%
-        {Edward Elgar Publishing}%
+      \name{editor}{1}{}{%
+        {{hash=05cdd47106e3673a7858e7e3400a83bc}{%
+           family={Setterfield},
+           familyi={S\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod}}}%
       }
-      \strng{namehash}{823c4abb55c0ba0e641480e9aaa0b5b9}
-      \strng{fullhash}{823c4abb55c0ba0e641480e9aaa0b5b9}
-      \strng{bibnamehash}{823c4abb55c0ba0e641480e9aaa0b5b9}
-      \strng{authorbibnamehash}{823c4abb55c0ba0e641480e9aaa0b5b9}
-      \strng{authornamehash}{823c4abb55c0ba0e641480e9aaa0b5b9}
-      \strng{authorfullhash}{823c4abb55c0ba0e641480e9aaa0b5b9}
+      \list{publisher}{1}{%
+        {Edward Elgar}%
+      }
+      \strng{namehash}{2e967c996f7e896518518af6189bb855}
+      \strng{fullhash}{2e967c996f7e896518518af6189bb855}
+      \strng{bibnamehash}{2e967c996f7e896518518af6189bb855}
+      \strng{authorbibnamehash}{2e967c996f7e896518518af6189bb855}
+      \strng{authornamehash}{2e967c996f7e896518518af6189bb855}
+      \strng{authorfullhash}{2e967c996f7e896518518af6189bb855}
+      \strng{editorbibnamehash}{05cdd47106e3673a7858e7e3400a83bc}
+      \strng{editornamehash}{05cdd47106e3673a7858e7e3400a83bc}
+      \strng{editorfullhash}{05cdd47106e3673a7858e7e3400a83bc}
       \field{extraname}{1}
       \field{sortinit}{B}
       \field{sortinithash}{276475738cc058478c1677046f857703}
@@ -1063,27 +1124,42 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Distribution, Demand and Growth in Neo-Kaleckian Macro-Models: Challenging the Supply-side Vision of the Long Run}
+      \field{booktitle}{The {Economics} {Of} {Demand}-{Led} {Growth} {Challenging} the {Supply}-side {Vision} of the {Long} {Ru}}
+      \field{isbn}{978-1-84064-177-6}
+      \field{title}{Distribution, demand and growth in neo-{Kaleckian} macro-models}
+      \field{urlday}{14}
+      \field{urlmonth}{11}
+      \field{urlyear}{2019}
       \field{year}{2002}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Setterfield - 2002 - The Economics Of Demand-Led Growth Challenging the.pdf:/home/gpetrini/Zotero/storage/NX9VKJPA/Setterfield - 2002 - The Economics Of Demand-Led Growth Challenging the.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://gen.lib.rus.ec/book/index.php?md5=d717576b5e68083d903b734dcb1c81b9
+      \endverb
+      \verb{url}
+      \verb http://gen.lib.rus.ec/book/index.php?md5=d717576b5e68083d903b734dcb1c81b9
+      \endverb
     \endentry
     \entry{blecker_wage_led_2016}{article}{}
       \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=823c4abb55c0ba0e641480e9aaa0b5b9}{%
+        {{uniquename=0,uniquepart=base,hash=2e967c996f7e896518518af6189bb855}{%
            family={Blecker},
            familyi={B\bibinitperiod},
-           given={Robert\bibnamedelima A.},
-           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod},
            givenun=0}}%
       }
       \list{language}{1}{%
         {en}%
       }
-      \strng{namehash}{823c4abb55c0ba0e641480e9aaa0b5b9}
-      \strng{fullhash}{823c4abb55c0ba0e641480e9aaa0b5b9}
-      \strng{bibnamehash}{823c4abb55c0ba0e641480e9aaa0b5b9}
-      \strng{authorbibnamehash}{823c4abb55c0ba0e641480e9aaa0b5b9}
-      \strng{authornamehash}{823c4abb55c0ba0e641480e9aaa0b5b9}
-      \strng{authorfullhash}{823c4abb55c0ba0e641480e9aaa0b5b9}
+      \strng{namehash}{2e967c996f7e896518518af6189bb855}
+      \strng{fullhash}{2e967c996f7e896518518af6189bb855}
+      \strng{bibnamehash}{2e967c996f7e896518518af6189bb855}
+      \strng{authorbibnamehash}{2e967c996f7e896518518af6189bb855}
+      \strng{authornamehash}{2e967c996f7e896518518af6189bb855}
+      \strng{authorfullhash}{2e967c996f7e896518518af6189bb855}
       \field{extraname}{2}
       \field{sortinit}{B}
       \field{sortinithash}{276475738cc058478c1677046f857703}
@@ -1105,6 +1181,50 @@
       \range{pages}{18}
       \verb{doi}
       \verb 10.4337/roke.2016.04.02
+      \endverb
+    \endentry
+    \entry{bortis_notes_1993}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=a30fff5780c5559af4cafe5e06d95f28}{%
+           family={Bortis},
+           familyi={B\bibinitperiod},
+           given={Heinrich},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a30fff5780c5559af4cafe5e06d95f28}
+      \strng{fullhash}{a30fff5780c5559af4cafe5e06d95f28}
+      \strng{bibnamehash}{a30fff5780c5559af4cafe5e06d95f28}
+      \strng{authorbibnamehash}{a30fff5780c5559af4cafe5e06d95f28}
+      \strng{authornamehash}{a30fff5780c5559af4cafe5e06d95f28}
+      \strng{authorfullhash}{a30fff5780c5559af4cafe5e06d95f28}
+      \field{extraname}{1}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0160-3477}
+      \field{journaltitle}{Journal of Post Keynesian Economics}
+      \field{number}{1}
+      \field{title}{Notes on the {Cambridge} {Equation}}
+      \field{urlday}{13}
+      \field{urlmonth}{11}
+      \field{urlyear}{2019}
+      \field{volume}{16}
+      \field{year}{1993}
+      \field{urldateera}{ce}
+      \field{pages}{105\bibrangedash 126}
+      \range{pages}{22}
+      \verb{file}
+      \verb JSTOR Full Text PDF:/home/gpetrini/Zotero/storage/ALATYVFP/Bortis - 1993 - Notes on the Cambridge Equation.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb www.jstor.org/stable/4538378
+      \endverb
+      \verb{url}
+      \verb www.jstor.org/stable/4538378
       \endverb
     \endentry
     \entry{bortis_institutions_1996}{book}{}
@@ -1131,6 +1251,7 @@
       \strng{authorbibnamehash}{a30fff5780c5559af4cafe5e06d95f28}
       \strng{authornamehash}{a30fff5780c5559af4cafe5e06d95f28}
       \strng{authorfullhash}{a30fff5780c5559af4cafe5e06d95f28}
+      \field{extraname}{2}
       \field{sortinit}{B}
       \field{sortinithash}{276475738cc058478c1677046f857703}
       \field{extradatescope}{labelyear}
@@ -2157,7 +2278,7 @@
         {en}%
       }
       \list{location}{1}{%
-        {Brasília}%
+        {New York}%
       }
       \strng{namehash}{765ecd52a5aa48210ecba87b16373d76}
       \strng{fullhash}{765ecd52a5aa48210ecba87b16373d76}
@@ -2172,9 +2293,9 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{A recent literature incorporates autonomous non-capacity creating expenditures in a medium-run and a longrun Kaleckian growth models. We analyze this literature from the perspective of the Sraffian Supermultiplier model. From this point of view, traditional Kaleckian growth models have three important limitations: they cannot generate a tendency towards normal capacity utilization; they do not imply a positive relationship between the rate of output growth and the investment-output ratio; and they fail to give a growth-determining role to autonomous non-capacity creating expenditures in the interpretation of real demand-led growth processes. The medium-run model cannot completely overcome all these three limitations and can generate implausible behavior under certain conditions. The long-run model can overcome all three limitations because it combines an investment function based on the capital stock adjustment principle with an endogenous determination of the saving ratio that does not resort to changes in income distribution. Moreover, we argue that an analysis based on the Harrodian instability principle cannot be properly used in the investigation of the stability condition of the Supermultiplier equilibrium of the long-run model. Instead, we suggest that the stability condition of such an equilibrium should be interpreted as a generalized Keynesian stability condition, according to which the propensity to spend should have a value lower than one throughout the whole disequilibrium path of the model.}
-      \field{booktitle}{Anais do {X} {Encontro} {Internacional} da {Associação} {Keynesiana} {Brasileira}}
+      \field{booktitle}{43rd Eastern Economic Association Annual Conference}
       \field{title}{The {Role} of {Autonomous} {Non}-{Capacity} {Creating} {Expenditures} in {Recent} {Kaleckian} {Growth} {Models}: an {Assessment} from the {Perspective} of the {Sraffian} {Supermultiplier} {Model}}
-      \field{year}{2017}
+      \field{year}{2018}
       \field{pages}{24}
       \range{pages}{1}
       \verb{file}
@@ -3352,6 +3473,72 @@
       \verb https://www.tandfonline.com/doi/full/10.1080/01603477.2017.1422389
       \endverb
     \endentry
+    \entry{hein_instability_2011}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=e721b26e3ecd4db48eee14a48259416f}{%
+           family={Hein},
+           familyi={H\bibinitperiod},
+           given={Eckhard},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=dcd7b0a6002af14d170a5a19365c27f2}{%
+           family={Lavoie},
+           familyi={L\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=1ed76ac529686857a9b83df0b5e24eba}{%
+           family={Treeck},
+           familyi={T\bibinitperiod},
+           given={Till},
+           giveni={T\bibinitperiod},
+           givenun=0,
+           prefix={van},
+           prefixi={v\bibinitperiod},
+           prefixun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{96f649bdaefd18f3281f77be6cfc7a22}
+      \strng{fullhash}{96f649bdaefd18f3281f77be6cfc7a22}
+      \strng{bibnamehash}{96f649bdaefd18f3281f77be6cfc7a22}
+      \strng{authorbibnamehash}{96f649bdaefd18f3281f77be6cfc7a22}
+      \strng{authornamehash}{96f649bdaefd18f3281f77be6cfc7a22}
+      \strng{authorfullhash}{96f649bdaefd18f3281f77be6cfc7a22}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Abstract. We tackle the issue of the possible instability of the Kaleckian distribution and growth model. Distinguishing between Keynesian and Harrodian instab}
+      \field{issn}{0309-166X}
+      \field{journaltitle}{Cambridge Journal of Economics}
+      \field{number}{3}
+      \field{shorttitle}{Some instability puzzles in {Kaleckian} models of growth and distribution}
+      \field{title}{Some instability puzzles in {Kaleckian} models of growth and distribution: a critical survey}
+      \field{urlday}{28}
+      \field{urlmonth}{12}
+      \field{urlyear}{2018}
+      \field{volume}{35}
+      \field{year}{2011}
+      \field{urldateera}{ce}
+      \field{pages}{587\bibrangedash 612}
+      \range{pages}{26}
+      \verb{doi}
+      \verb 10.1093/cje/beq026
+      \endverb
+      \verb{file}
+      \verb Snapshot:/home/gpetrini/Zotero/storage/LZPCBZQ3/1680888.html:text/html;Submitted Version:/home/gpetrini/Zotero/storage/M47VBWN4/Hein et al. - 2011 - Some instability puzzles in Kaleckian models of gr.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://academic.oup.com/cje/article/35/3/587/1680888
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/cje/article/35/3/587/1680888
+      \endverb
+    \endentry
     \entry{hicks_capital_1965}{book}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=d34fbc986b4e6508a74d930fc09c55cf}{%
@@ -3765,6 +3952,39 @@
       \field{labeltitlesource}{title}
       \field{title}{Theory of economic dynamics}
       \field{year}{1954}
+    \endentry
+    \entry{keynes_general_1936}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=612862f6008b8bea8cd4a13783af9a93}{%
+           family={Keynes},
+           familyi={K\bibinitperiod},
+           given={John\bibnamedelima Maynard},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York/London}%
+      }
+      \list{publisher}{1}{%
+        {Harcourt Brace Jovanavich}%
+      }
+      \strng{namehash}{612862f6008b8bea8cd4a13783af9a93}
+      \strng{fullhash}{612862f6008b8bea8cd4a13783af9a93}
+      \strng{bibnamehash}{612862f6008b8bea8cd4a13783af9a93}
+      \strng{authorbibnamehash}{612862f6008b8bea8cd4a13783af9a93}
+      \strng{authornamehash}{612862f6008b8bea8cd4a13783af9a93}
+      \strng{authorfullhash}{612862f6008b8bea8cd4a13783af9a93}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The general theory of employment, interest, and money}
+      \field{year}{1936}
+      \verb{file}
+      \verb Snapshot:/home/gpetrini/Zotero/storage/FDD9XMNF/books.html:text/html
+      \endverb
     \endentry
     \entry{lavoie_note_1999}{article}{}
       \name{author}{1}{}{%
@@ -4465,6 +4685,48 @@
       \verb{url}
       \verb https://academic.oup.com/cje/article/15/3/301/1735086
       \endverb
+    \endentry
+    \entry{milgate_capital_1982}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=62cd00c1e6aa99f8d2b6b3f68389f748}{%
+           family={Milgate},
+           familyi={M\bibinitperiod},
+           given={Murray},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=ef767cf9676a0b16a74b83ac64f55c48}{%
+           family={Eatwell},
+           familyi={E\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{publisher}{1}{%
+        {Academic Press}%
+      }
+      \strng{namehash}{62cd00c1e6aa99f8d2b6b3f68389f748}
+      \strng{fullhash}{62cd00c1e6aa99f8d2b6b3f68389f748}
+      \strng{bibnamehash}{62cd00c1e6aa99f8d2b6b3f68389f748}
+      \strng{authorbibnamehash}{62cd00c1e6aa99f8d2b6b3f68389f748}
+      \strng{authornamehash}{62cd00c1e6aa99f8d2b6b3f68389f748}
+      \strng{authorfullhash}{62cd00c1e6aa99f8d2b6b3f68389f748}
+      \strng{editorbibnamehash}{ef767cf9676a0b16a74b83ac64f55c48}
+      \strng{editornamehash}{ef767cf9676a0b16a74b83ac64f55c48}
+      \strng{editorfullhash}{ef767cf9676a0b16a74b83ac64f55c48}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{isbn}{978-1-4832-4356-6}
+      \field{shorttitle}{Capital and {Employment}}
+      \field{title}{Capital and {Employment}: {A} {Study} of {Keynes}'s {Economics}}
+      \field{year}{1982}
     \endentry
     \entry{mills_has_1987}{article}{}
       \name{author}{1}{}{%
@@ -5713,56 +5975,6 @@
       \endverb
       \keyw{capacity utilization,economic growth,effective demand,income distribution,theoretical closures}
     \endentry
-    \entry{serrano_trouble_2017}{report}{}
-      \name{author}{3}{}{%
-        {{uniquename=0,uniquepart=base,hash=8df1ed774cbbdbac66d3fc8dafb0bcd5}{%
-           family={Serrano},
-           familyi={S\bibinitperiod},
-           given={Franklin},
-           giveni={F\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=ddb1fd66d4d7294f27fed47e4051d5d0}{%
-           family={Freitas},
-           familyi={F\bibinitperiod},
-           given={Fábio},
-           giveni={F\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=4b47af2fd6df5404c668dfeae18c9ac9}{%
-           family={Behring},
-           familyi={B\bibinitperiod},
-           given={Gustavo},
-           giveni={G\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{institution}{1}{%
-        {UFRJ}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{edf305742ef9db9cf4a0d49855284779}
-      \strng{fullhash}{edf305742ef9db9cf4a0d49855284779}
-      \strng{bibnamehash}{edf305742ef9db9cf4a0d49855284779}
-      \strng{authorbibnamehash}{edf305742ef9db9cf4a0d49855284779}
-      \strng{authornamehash}{edf305742ef9db9cf4a0d49855284779}
-      \strng{authorfullhash}{edf305742ef9db9cf4a0d49855284779}
-      \field{extraname}{1}
-      \field{sortinit}{S}
-      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{number}{18}
-      \field{title}{The {Trouble} with {Harrod}: the fundamental instability of the warranted rate in the light of the {Sraffian} {Supermultiplier}}
-      \field{type}{Discussion {Paper}}
-      \field{year}{2017}
-      \field{pages}{38}
-      \range{pages}{1}
-      \verb{file}
-      \verb Serrano et al. - 2017 - The Trouble with Harrod the fundamental instabili.pdf:/home/gpetrini/Zotero/storage/EIVSASGS/Serrano et al. - 2017 - The Trouble with Harrod the fundamental instabili.pdf:application/pdf;Serrano et al. (2017).md:/home/gpetrini/Zotero/storage/BD5G7KMK/Serrano et al. (2017).md:text/markdown
-      \endverb
-    \endentry
     \entry{serrano_har_2018}{article}{}
       \name{author}{3}{}{%
         {{uniquename=0,uniquepart=base,hash=8df1ed774cbbdbac66d3fc8dafb0bcd5}{%
@@ -5790,7 +6002,6 @@
       \strng{authorbibnamehash}{edf305742ef9db9cf4a0d49855284779}
       \strng{authornamehash}{edf305742ef9db9cf4a0d49855284779}
       \strng{authorfullhash}{edf305742ef9db9cf4a0d49855284779}
-      \field{extraname}{2}
       \field{sortinit}{S}
       \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
       \field{extradatescope}{labelyear}
@@ -5802,6 +6013,69 @@
       \field{year}{2018}
       \verb{file}
       \verb Serrano et al. - 2018 - O Supermultiplicador Sraffiano, a Instabilidade Fu.pdf:/home/gpetrini/Zotero/storage/W6LU756T/Serrano et al. - 2018 - O Supermultiplicador Sraffiano, a Instabilidade Fu.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{serrano_trouble_2017}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=8df1ed774cbbdbac66d3fc8dafb0bcd5}{%
+           family={Serrano},
+           familyi={S\bibinitperiod},
+           given={Franklin},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=3ba81991a930dec00f3eb1addd9c1dc0}{%
+           family={Freitas},
+           familyi={F\bibinitperiod},
+           given={Fabio},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=486e2a2b94f0ac8555e1d35d146744ca}{%
+           family={Bhering},
+           familyi={B\bibinitperiod},
+           given={Gustavo},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{3ce18c9a073d0fee8fd293c035220f16}
+      \strng{fullhash}{3ce18c9a073d0fee8fd293c035220f16}
+      \strng{bibnamehash}{3ce18c9a073d0fee8fd293c035220f16}
+      \strng{authorbibnamehash}{3ce18c9a073d0fee8fd293c035220f16}
+      \strng{authornamehash}{3ce18c9a073d0fee8fd293c035220f16}
+      \strng{authorfullhash}{3ce18c9a073d0fee8fd293c035220f16}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The paper argues that Harrodian instability is an instance of what Hicks in his book Capital and Growth (1965) called static instability, related to the direction (and not to the intensity) of the disequilibrium adjustment process. We show why such instability obtains in demand-led growth models in which the ratio of capacity creating private investment to output ratio is given exogenously by the aggregate marginal propensity to save. We also show that Sraffian Supermultiplier model overcomes the Harrodian instability and that its demand-led equilibrium is statically stable. It is explained that the latter results do not follow from the presence of autonomous non-capacity creating expenditure component as such but from its presence within a model in which investment is driven by the capital stock adjustment principle (i.e., the flexible accelerator). Finally, we argue that, although being statically stable, the equilibrium growth path of the Sraffian Supermultiplier model can be dynamically stable or unstable depending on the intensity of the reaction of investment to demand. We then provide a discrete time sufficient condition for the dynamic stability of such equilibrium that implies that the marginal propensity to invest remains lower than the marginal propensity to save during the adjustment process, a modified Keynesian stability condition.}
+      \field{issn}{1467-999X}
+      \field{journaltitle}{Metroeconomica}
+      \field{number}{2}
+      \field{shorttitle}{The {Trouble} with {Harrod}}
+      \field{title}{The {Trouble} with {Harrod}: {The} fundamental instability of the warranted rate in the light of the {Sraffian} {Supermultiplier}}
+      \field{urlday}{14}
+      \field{urlmonth}{11}
+      \field{urlyear}{2019}
+      \field{volume}{70}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \field{pages}{263\bibrangedash 287}
+      \range{pages}{25}
+      \verb{doi}
+      \verb 10.1111/meca.12230
+      \endverb
+      \verb{file}
+      \verb Serrano et al. - 2017 - The Trouble with Harrod the fundamental instabili.pdf:/home/gpetrini/Zotero/storage/EIVSASGS/Serrano et al. - 2017 - The Trouble with Harrod the fundamental instabili.pdf:application/pdf;Serrano et al. - 2018 - O Supermultiplicador Sraffiano, a Instabilidade Fu.pdf:/home/gpetrini/Zotero/storage/W6LU756T/Serrano et al. - 2018 - O Supermultiplicador Sraffiano, a Instabilidade Fu.pdf:application/pdf;Serrano et al. (2017).md:/home/gpetrini/Zotero/storage/BD5G7KMK/Serrano et al. (2017).md:text/markdown;Snapshot:/home/gpetrini/Zotero/storage/2K7QYLKI/meca.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/meca.12230
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/meca.12230
       \endverb
     \endentry
     \entry{skott_kaldoriansaving_1981}{article}{}
@@ -6071,6 +6345,33 @@
       \verb{file}
       \verb Steindl - Stagnation theory and stagnation policy.pdf:/home/gpetrini/Zotero/storage/KTEKPHTK/Steindl - Stagnation theory and stagnation policy.pdf:application/pdf;Steindl (1979).md:/home/gpetrini/Zotero/storage/4FKVDEWX/Steindl (1979).md:text/markdown
       \endverb
+    \endentry
+    \entry{labini}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=976c1cd7da82a90349a8520cbc864673}{%
+           family={Sylos-Labini},
+           familyi={S\bibinithyphendelim L\bibinitperiod},
+           given={{P}},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge}%
+      }
+      \strng{namehash}{976c1cd7da82a90349a8520cbc864673}
+      \strng{fullhash}{976c1cd7da82a90349a8520cbc864673}
+      \strng{bibnamehash}{976c1cd7da82a90349a8520cbc864673}
+      \strng{authorbibnamehash}{976c1cd7da82a90349a8520cbc864673}
+      \strng{authornamehash}{976c1cd7da82a90349a8520cbc864673}
+      \strng{authorfullhash}{976c1cd7da82a90349a8520cbc864673}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Oligopoly and Technical Progress}
+      \field{year}{1962}
     \endentry
     \entry{taylor_stagnationist_1985}{article}{}
       \name{author}{1}{}{%
