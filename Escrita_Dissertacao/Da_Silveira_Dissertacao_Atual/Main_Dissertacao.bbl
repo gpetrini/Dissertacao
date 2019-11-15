@@ -1332,7 +1332,7 @@
       \field{type}{Textos para discussão}
       \field{year}{2018}
     \endentry
-    \entry{brochier_supermultiplier_2018}{article}{}
+    \entry{brochier_macroeconomics_2017}{article}{}
       \name{author}{2}{}{%
         {{uniquename=0,uniquepart=base,hash=6c985c4582d2e81fc97ab017f38c2c89}{%
            family={Brochier},
@@ -1341,8 +1341,8 @@
            giveni={L\bibinitperiod},
            givenun=0}}%
         {{uniquename=0,uniquepart=base,hash=c973d7d3fe02c9d149ed00104a235d82}{%
-           family={{Macedo e Silva}},
-           familyi={M\bibinitperiod},
+           family={Macedo\bibnamedelimb e\bibnamedelima Silva},
+           familyi={M\bibinitperiod\bibinitdelim e\bibinitperiod\bibinitdelim S\bibinitperiod},
            given={Antonio\bibnamedelima Carlos},
            giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
            givenun=0}}%
@@ -1356,6 +1356,50 @@
       \strng{authorbibnamehash}{78170541ab24487433f4b219cb9ff0d5}
       \strng{authornamehash}{78170541ab24487433f4b219cb9ff0d5}
       \strng{authorfullhash}{78170541ab24487433f4b219cb9ff0d5}
+      \field{extraname}{1}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The recent US economic scenario has motivated a series of heterodox papers concerned with household indebtedness and consumption. Though discussing autonomous consumption, most of the theoretical papers rely on private investment-led growth models. An alternative approach is the so-called Sraffian supermultipler model, which treats long-run investment as induced, allowing for the possibility that other final demand components – including consumption – may lead long-run growth. We suggest that the dialogue between these approaches is not only possible but may prove to be quite fruitful.}
+      \field{journaltitle}{Análise Econômica}
+      \field{month}{8}
+      \field{number}{especial}
+      \field{title}{The macroeconomics implications of consumption: state-of-art and prospects for the heterodox future research}
+      \field{volume}{35}
+      \field{year}{2017}
+      \verb{file}
+      \verb Brochier_Silva_2017_THE MACROECONOMIC IMPLICATIONS OF CONSUMPTION.pdf:/home/gpetrini/Zotero/storage/EBDGTL4Z/Brochier_Silva_2017_THE MACROECONOMIC IMPLICATIONS OF CONSUMPTION.pdf:application/pdf
+      \endverb
+      \keyw{REVISTO,METADATA}
+    \endentry
+    \entry{brochier_supermultiplier_2018}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=6c985c4582d2e81fc97ab017f38c2c89}{%
+           family={Brochier},
+           familyi={B\bibinitperiod},
+           given={Lídia},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=c973d7d3fe02c9d149ed00104a235d82}{%
+           family={Macedo\bibnamedelimb e\bibnamedelima Silva},
+           familyi={M\bibinitperiod\bibinitdelim e\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Antonio\bibnamedelima Carlos},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{78170541ab24487433f4b219cb9ff0d5}
+      \strng{fullhash}{78170541ab24487433f4b219cb9ff0d5}
+      \strng{bibnamehash}{78170541ab24487433f4b219cb9ff0d5}
+      \strng{authorbibnamehash}{78170541ab24487433f4b219cb9ff0d5}
+      \strng{authornamehash}{78170541ab24487433f4b219cb9ff0d5}
+      \strng{authorfullhash}{78170541ab24487433f4b219cb9ff0d5}
+      \field{extraname}{2}
       \field{sortinit}{B}
       \field{sortinithash}{276475738cc058478c1677046f857703}
       \field{extradatescope}{labelyear}
@@ -2086,6 +2130,38 @@
       \endverb
       \verb{url}
       \verb http://www.sciencedirect.com/science/article/pii/009411909190016Z
+      \endverb
+    \endentry
+    \entry{duesenberry_investment_1958}{incollection}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=293f2b8ea3318902aabca08bb732e9c6}{%
+           family={Duesenberry},
+           familyi={D\bibinitperiod},
+           given={James\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {McGraw-Hill}%
+      }
+      \strng{namehash}{293f2b8ea3318902aabca08bb732e9c6}
+      \strng{fullhash}{293f2b8ea3318902aabca08bb732e9c6}
+      \strng{bibnamehash}{293f2b8ea3318902aabca08bb732e9c6}
+      \strng{authorbibnamehash}{293f2b8ea3318902aabca08bb732e9c6}
+      \strng{authornamehash}{293f2b8ea3318902aabca08bb732e9c6}
+      \strng{authorfullhash}{293f2b8ea3318902aabca08bb732e9c6}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Business cycle and economic growth}
+      \field{series}{Economic {Handbook} {Series}}
+      \field{title}{Investment in housing}
+      \field{year}{1958}
+      \verb{file}
+      \verb Duesenberry - 1958 - Investment in housing.pdf:/home/gpetrini/Zotero/storage/7P4GZYGI/Duesenberry - 1958 - Investment in housing.pdf:application/pdf
       \endverb
     \endentry
     \entry{dutt_stagnation_1984}{article}{}
@@ -2995,22 +3071,22 @@
     \endentry
     \entry{godley_money_1999}{article}{}
       \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=4e149b959c67e5bb39e2707bc01d071e}{%
+        {{uniquename=0,uniquepart=base,hash=f6bfabc3bb1587ddfc005f7ede21614c}{%
            family={Godley},
            familyi={G\bibinitperiod},
-           given={W.},
+           given={Wynne},
            giveni={W\bibinitperiod},
            givenun=0}}%
       }
       \list{language}{1}{%
         {en}%
       }
-      \strng{namehash}{4e149b959c67e5bb39e2707bc01d071e}
-      \strng{fullhash}{4e149b959c67e5bb39e2707bc01d071e}
-      \strng{bibnamehash}{4e149b959c67e5bb39e2707bc01d071e}
-      \strng{authorbibnamehash}{4e149b959c67e5bb39e2707bc01d071e}
-      \strng{authornamehash}{4e149b959c67e5bb39e2707bc01d071e}
-      \strng{authorfullhash}{4e149b959c67e5bb39e2707bc01d071e}
+      \strng{namehash}{f6bfabc3bb1587ddfc005f7ede21614c}
+      \strng{fullhash}{f6bfabc3bb1587ddfc005f7ede21614c}
+      \strng{bibnamehash}{f6bfabc3bb1587ddfc005f7ede21614c}
+      \strng{authorbibnamehash}{f6bfabc3bb1587ddfc005f7ede21614c}
+      \strng{authornamehash}{f6bfabc3bb1587ddfc005f7ede21614c}
+      \strng{authorfullhash}{f6bfabc3bb1587ddfc005f7ede21614c}
       \field{extraname}{1}
       \field{sortinit}{G}
       \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
@@ -3043,46 +3119,6 @@
       \endverb
       \verb{url}
       \verb https://academic.oup.com/cje/article/23/4/393/1719681
-      \endverb
-    \endentry
-    \entry{godley_fiscal_2007}{article}{}
-      \name{author}{2}{}{%
-        {{uniquename=0,uniquepart=base,hash=4e149b959c67e5bb39e2707bc01d071e}{%
-           family={Godley},
-           familyi={G\bibinitperiod},
-           given={W.},
-           giveni={W\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=2f7a0a4459884b037e0375a1afa79c16}{%
-           family={Lavoie},
-           familyi={L\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{f2ad7f0256e75b5084b80204d96fd9f6}
-      \strng{fullhash}{f2ad7f0256e75b5084b80204d96fd9f6}
-      \strng{bibnamehash}{f2ad7f0256e75b5084b80204d96fd9f6}
-      \strng{authorbibnamehash}{f2ad7f0256e75b5084b80204d96fd9f6}
-      \strng{authornamehash}{f2ad7f0256e75b5084b80204d96fd9f6}
-      \strng{authorfullhash}{f2ad7f0256e75b5084b80204d96fd9f6}
-      \field{extraname}{1}
-      \field{sortinit}{G}
-      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
-      \field{extradate}{1}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Post Keynesian Economics}
-      \field{number}{1}
-      \field{title}{Fiscal policy in a stock-flow consistent ({SFC}) model}
-      \field{volume}{30}
-      \field{year}{2007}
-      \field{pages}{79\bibrangedash 100}
-      \range{pages}{22}
-      \verb{doi}
-      \verb 10.2753/pke0160-3477300104
       \endverb
     \endentry
     \entry{godley_seven_1999}{report}{}
@@ -3153,10 +3189,10 @@
       \strng{authorbibnamehash}{f441e789606878aa4ec4a6387dfbee0c}
       \strng{authornamehash}{f441e789606878aa4ec4a6387dfbee0c}
       \strng{authorfullhash}{f441e789606878aa4ec4a6387dfbee0c}
-      \field{extraname}{2}
+      \field{extraname}{1}
       \field{sortinit}{G}
       \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
-      \field{extradate}{2}
+      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -3186,6 +3222,46 @@
       \endverb
       \verb{url}
       \verb https://academic.oup.com/cje/article/31/1/1/1691636
+      \endverb
+    \endentry
+    \entry{godley_fiscal_2007}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=f6bfabc3bb1587ddfc005f7ede21614c}{%
+           family={Godley},
+           familyi={G\bibinitperiod},
+           given={Wynne},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=dcd7b0a6002af14d170a5a19365c27f2}{%
+           family={Lavoie},
+           familyi={L\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f441e789606878aa4ec4a6387dfbee0c}
+      \strng{fullhash}{f441e789606878aa4ec4a6387dfbee0c}
+      \strng{bibnamehash}{f441e789606878aa4ec4a6387dfbee0c}
+      \strng{authorbibnamehash}{f441e789606878aa4ec4a6387dfbee0c}
+      \strng{authornamehash}{f441e789606878aa4ec4a6387dfbee0c}
+      \strng{authorfullhash}{f441e789606878aa4ec4a6387dfbee0c}
+      \field{extraname}{2}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Post Keynesian Economics}
+      \field{number}{1}
+      \field{title}{Fiscal policy in a stock-flow consistent ({SFC}) model}
+      \field{volume}{30}
+      \field{year}{2007}
+      \field{pages}{79\bibrangedash 100}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.2753/pke0160-3477300104
       \endverb
     \endentry
     \entry{godley_monetary_2007}{book}{}
@@ -3986,25 +4062,76 @@
       \verb Snapshot:/home/gpetrini/Zotero/storage/FDD9XMNF/books.html:text/html
       \endverb
     \endentry
-    \entry{lavoie_note_1999}{article}{}
+    \entry{lavoie_kaleckian_1995}{article}{}
       \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=2f7a0a4459884b037e0375a1afa79c16}{%
+        {{uniquename=0,uniquepart=base,hash=dcd7b0a6002af14d170a5a19365c27f2}{%
            family={Lavoie},
            familyi={L\bibinitperiod},
-           given={M.},
+           given={Marc},
            giveni={M\bibinitperiod},
            givenun=0}}%
       }
       \list{language}{1}{%
         {en}%
       }
-      \strng{namehash}{2f7a0a4459884b037e0375a1afa79c16}
-      \strng{fullhash}{2f7a0a4459884b037e0375a1afa79c16}
-      \strng{bibnamehash}{2f7a0a4459884b037e0375a1afa79c16}
-      \strng{authorbibnamehash}{2f7a0a4459884b037e0375a1afa79c16}
-      \strng{authornamehash}{2f7a0a4459884b037e0375a1afa79c16}
-      \strng{authorfullhash}{2f7a0a4459884b037e0375a1afa79c16}
+      \strng{namehash}{dcd7b0a6002af14d170a5a19365c27f2}
+      \strng{fullhash}{dcd7b0a6002af14d170a5a19365c27f2}
+      \strng{bibnamehash}{dcd7b0a6002af14d170a5a19365c27f2}
+      \strng{authorbibnamehash}{dcd7b0a6002af14d170a5a19365c27f2}
+      \strng{authornamehash}{dcd7b0a6002af14d170a5a19365c27f2}
+      \strng{authorfullhash}{dcd7b0a6002af14d170a5a19365c27f2}
       \field{extraname}{1}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract. This paper analyses the newer Kaleckian models of growth and distribution and the criticisms that have been addressed to them by neo-Marxian and neo-}
+      \field{issn}{0309-166X}
+      \field{journaltitle}{Cambridge Journal of Economics}
+      \field{number}{6}
+      \field{title}{The {Kaleckian} model of growth and distribution and its neo-{Ricardian} and neo-{Marxian} critiques}
+      \field{urlday}{22}
+      \field{urlmonth}{10}
+      \field{urlyear}{2018}
+      \field{volume}{19}
+      \field{year}{1995}
+      \field{urldateera}{ce}
+      \field{pages}{789\bibrangedash 818}
+      \range{pages}{30}
+      \verb{doi}
+      \verb 10.1093/oxfordjournals.cje.a035341
+      \endverb
+      \verb{file}
+      \verb Lavoie_1995_The Kaleckian model of growth and distribution and its neo-Ricardian and.pdf:/home/gpetrini/Zotero/storage/3LS6YGK8/Lavoie_1995_The Kaleckian model of growth and distribution and its neo-Ricardian and.pdf:application/pdf;Snapshot:/home/gpetrini/Zotero/storage/BPU93BJF/1688951.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://academic.oup.com/cje/article/19/6/789/1688951
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/cje/article/19/6/789/1688951
+      \endverb
+    \endentry
+    \entry{lavoie_note_1999}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=dcd7b0a6002af14d170a5a19365c27f2}{%
+           family={Lavoie},
+           familyi={L\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{dcd7b0a6002af14d170a5a19365c27f2}
+      \strng{fullhash}{dcd7b0a6002af14d170a5a19365c27f2}
+      \strng{bibnamehash}{dcd7b0a6002af14d170a5a19365c27f2}
+      \strng{authorbibnamehash}{dcd7b0a6002af14d170a5a19365c27f2}
+      \strng{authornamehash}{dcd7b0a6002af14d170a5a19365c27f2}
+      \strng{authorfullhash}{dcd7b0a6002af14d170a5a19365c27f2}
+      \field{extraname}{2}
       \field{sortinit}{L}
       \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
       \field{extradatescope}{labelyear}
@@ -4036,57 +4163,6 @@
       \endverb
       \verb{url}
       \verb https://academic.oup.com/cje/article/23/1/103/1701873
-      \endverb
-    \endentry
-    \entry{lavoie_kaleckian_1995}{article}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=dcd7b0a6002af14d170a5a19365c27f2}{%
-           family={Lavoie},
-           familyi={L\bibinitperiod},
-           given={Marc},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{dcd7b0a6002af14d170a5a19365c27f2}
-      \strng{fullhash}{dcd7b0a6002af14d170a5a19365c27f2}
-      \strng{bibnamehash}{dcd7b0a6002af14d170a5a19365c27f2}
-      \strng{authorbibnamehash}{dcd7b0a6002af14d170a5a19365c27f2}
-      \strng{authornamehash}{dcd7b0a6002af14d170a5a19365c27f2}
-      \strng{authorfullhash}{dcd7b0a6002af14d170a5a19365c27f2}
-      \field{extraname}{2}
-      \field{sortinit}{L}
-      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Abstract. This paper analyses the newer Kaleckian models of growth and distribution and the criticisms that have been addressed to them by neo-Marxian and neo-}
-      \field{issn}{0309-166X}
-      \field{journaltitle}{Cambridge Journal of Economics}
-      \field{number}{6}
-      \field{title}{The {Kaleckian} model of growth and distribution and its neo-{Ricardian} and neo-{Marxian} critiques}
-      \field{urlday}{22}
-      \field{urlmonth}{10}
-      \field{urlyear}{2018}
-      \field{volume}{19}
-      \field{year}{1995}
-      \field{urldateera}{ce}
-      \field{pages}{789\bibrangedash 818}
-      \range{pages}{30}
-      \verb{doi}
-      \verb 10.1093/oxfordjournals.cje.a035341
-      \endverb
-      \verb{file}
-      \verb Lavoie_1995_The Kaleckian model of growth and distribution and its neo-Ricardian and.pdf:/home/gpetrini/Zotero/storage/3LS6YGK8/Lavoie_1995_The Kaleckian model of growth and distribution and its neo-Ricardian and.pdf:application/pdf;Snapshot:/home/gpetrini/Zotero/storage/BPU93BJF/1688951.html:text/html
-      \endverb
-      \verb{urlraw}
-      \verb https://academic.oup.com/cje/article/19/6/789/1688951
-      \endverb
-      \verb{url}
-      \verb https://academic.oup.com/cje/article/19/6/789/1688951
       \endverb
     \endentry
     \entry{lavoie_post-keynesian_2015}{book}{}
@@ -4436,6 +4512,40 @@
       \verb{url}
       \verb http://doi.wiley.com/10.1111/1540-6229.00499
       \endverb
+    \endentry
+    \entry{macedo_e_silva_macroeconomia_1999}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=c973d7d3fe02c9d149ed00104a235d82}{%
+           family={Macedo\bibnamedelimb e\bibnamedelima Silva},
+           familyi={M\bibinitperiod\bibinitdelim e\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Antonio\bibnamedelima Carlos},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {Português}%
+      }
+      \list{location}{1}{%
+        {Petrópolis}%
+      }
+      \list{publisher}{1}{%
+        {Vozes}%
+      }
+      \strng{namehash}{c973d7d3fe02c9d149ed00104a235d82}
+      \strng{fullhash}{c973d7d3fe02c9d149ed00104a235d82}
+      \strng{bibnamehash}{c973d7d3fe02c9d149ed00104a235d82}
+      \strng{authorbibnamehash}{c973d7d3fe02c9d149ed00104a235d82}
+      \strng{authornamehash}{c973d7d3fe02c9d149ed00104a235d82}
+      \strng{authorfullhash}{c973d7d3fe02c9d149ed00104a235d82}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-85-326-2207-5}
+      \field{title}{Macroeconomia {Sem} {Equilibrio}}
+      \field{year}{1999}
     \endentry
     \entry{macedo_e_silva_peering_2011}{article}{}
       \name{author}{2}{}{%
@@ -5562,6 +5672,106 @@
       \verb Pivetti_1992_An essay on the monetary theory of distribution:/home/gpetrini/Zotero/storage/NHTHAVWC/Pivetti_1992_An essay on the monetary theory of distribution.pdf:application/pdf
       \endverb
       \keyw{Principal,REVISTO,LIVRO}
+    \endentry
+    \entry{possas_dinamica_1987}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=fe9bedc441b1598e19af04ab17ad8fcb}{%
+           family={Possas},
+           familyi={P\bibinitperiod},
+           given={Mario\bibnamedelima L.},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {pt-br}%
+      }
+      \list{location}{1}{%
+        {São Paulo}%
+      }
+      \list{publisher}{1}{%
+        {Brasiliense}%
+      }
+      \strng{namehash}{fe9bedc441b1598e19af04ab17ad8fcb}
+      \strng{fullhash}{fe9bedc441b1598e19af04ab17ad8fcb}
+      \strng{bibnamehash}{fe9bedc441b1598e19af04ab17ad8fcb}
+      \strng{authorbibnamehash}{fe9bedc441b1598e19af04ab17ad8fcb}
+      \strng{authornamehash}{fe9bedc441b1598e19af04ab17ad8fcb}
+      \strng{authorfullhash}{fe9bedc441b1598e19af04ab17ad8fcb}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Compre Dinamica da Economia Capitalista uma Abordagem Teorica, de Mario Luiz Possas, no maior acervo de livros do Brasil. As mais variadas edições, novas, seminovas e usadas pelo melhor preço.}
+      \field{shorttitle}{Livro}
+      \field{title}{Dinamica da {Economia} {Capitalista} uma {Abordagem} {Teorica}}
+      \field{urlday}{14}
+      \field{urlmonth}{11}
+      \field{urlyear}{2019}
+      \field{year}{1987}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:/home/gpetrini/Zotero/storage/GP8JYFJN/3948267162.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.estantevirtual.com.br/livros/mario-luiz-possas/dinamica-da-economia-capitalista-uma-abordagem-teorica/3948267162
+      \endverb
+      \verb{url}
+      \verb https://www.estantevirtual.com.br/livros/mario-luiz-possas/dinamica-da-economia-capitalista-uma-abordagem-teorica/3948267162
+      \endverb
+    \endentry
+    \entry{possas_demanda_1981}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=f582e0e5e071954c50209ffef376af39}{%
+           family={Possas},
+           familyi={P\bibinitperiod},
+           given={Mario\bibnamedelima Luiz},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=39de3338a48957bd54ca6728ba922dea}{%
+           family={Baltar},
+           familyi={B\bibinitperiod},
+           given={Paulo\bibnamedelimb E.\bibnamedelimi A.},
+           giveni={P\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {pt-BR}%
+      }
+      \strng{namehash}{f9316393898fb59f2d3ac092194bad87}
+      \strng{fullhash}{f9316393898fb59f2d3ac092194bad87}
+      \strng{bibnamehash}{f9316393898fb59f2d3ac092194bad87}
+      \strng{authorbibnamehash}{f9316393898fb59f2d3ac092194bad87}
+      \strng{authornamehash}{f9316393898fb59f2d3ac092194bad87}
+      \strng{authorfullhash}{f9316393898fb59f2d3ac092194bad87}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A finalidade deste estudo é contribuir para uma avaliação da importância do obra de Kalecki na elucidação do funcionamento do economia capitalista. Sua proposição central desloca, como principal contribuição desse autor, a formulação do princípio da demanda efetiva de um modo claro e propício à explicitação das mecanismos básicos da dinâmica econômica no capitalismo. Para tanto, rejeita-se a interpretação convencional da demanda efetiva que enfatiza o papel do gasto autônomo associado à intervenção do Estado e aos períodos recessivos, para colocá-los numa perspectiva teórica, onde passa a assumir o caráter de princípio geral necessário à refutação da "Lei de Say" e à elaboração de uma teoria dinâmica. Sob este enfoque, o artigo analisa a exposição da demanda efetiva feita por Kalecki, sublinhado o papel que nela tem a distribuição funcional da renda. Segue-se, uma interpretação geral da teoria do ciclo econômico desse autor, particularizada nos modelos de 1933 e 1954. Discute-se, ainda, a validade de uma análise de ciclo ''puro", em oposição à integração entre ciclo e tendência no mesmo quadro teórico. Sugerem-se, por fim, algumas das aplicações dinâmicas abertas pelo uso do esquema kaleckiano de três setores como instrumento analítico.}
+      \field{journaltitle}{Pesquisa de planejamento econômico}
+      \field{number}{1}
+      \field{title}{Demanda efetiva e dinâmica em {Kalecki}}
+      \field{urlday}{14}
+      \field{urlmonth}{11}
+      \field{urlyear}{2019}
+      \field{volume}{11}
+      \field{year}{1981}
+      \field{urldateera}{ce}
+      \field{pages}{107\bibrangedash 160}
+      \range{pages}{54}
+      \verb{file}
+      \verb Full Text PDF:/home/gpetrini/Zotero/storage/58XSTIH6/Possas e Baltar - 1981 - Demanda efetiva e dinâmica em Kalecki.pdf:application/pdf;Snapshot:/home/gpetrini/Zotero/storage/ZLXFSPCZ/6460.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb http://repositorio.ipea.gov.br/handle/11058/6460
+      \endverb
+      \verb{url}
+      \verb http://repositorio.ipea.gov.br/handle/11058/6460
+      \endverb
     \endentry
     \entry{poterba_tax_1984}{article}{}
       \name{author}{1}{}{%
