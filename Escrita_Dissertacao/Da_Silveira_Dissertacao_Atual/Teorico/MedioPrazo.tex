@@ -12,21 +12,36 @@ Feitas estas ressalvas, é possível avançar para as questões levantadas anter
 
 Para responder a segunda questão, resta esclarecer um possível ponto de estranhamento. O principal objetivo desta pesquisa é investigar os determinantes do ciclo econômico norte americano e desenvolver um modelo que replique alguns dos fatos estilizados. Sendo este o caso, a ênfase na discussão de modelos de longo prazo parece ser desconexa. No entanto, a escolha deste caminho argumentativo decorre da convergência ao grau de utilização normal como um critério de seleção. Desse modo, optar por modelos que se mostram adequados para o curto e médio prazo, mas não para o longo se mostra questionável uma vez que a validade dos resultados está restrita a uma certa temporalidade. Como mencionado na introdução, os modelos elegíveis são aqueles reportam alguns fatos estilizados (\textit{e.g.} relação positiva entre taxa de investimento e crescimento)  no curto, médio e longo prazo.
 
-Como visto, ambas famílias de modelos preservam tal característica no curto e longo prazo. Resta verificar se o mesmo vale para \textbf{médio prazo}. Dito isso, dentre os modelos kaleckianos com gasto autônomos e com principio de ajuste do estoque de capital e supermultiplicador sraffiano, resta selecionar aquele reproduza o fato estilizado da relação positiva entre taxa de investimento e taxa de crescimento \cites[p.~172]{cesaratto_neo-kaleckian_2015}[p.~8--9]{fiebiger_trend_2017}\footnote{Esta parte da exposição é inspirada na contribuição de \textcite{fagundes_role_2017} no que diz respeito ao médio prazo.}. Dito isso, seja $h$ a propensão marginal a investir, $i$ a taxa de investimento e $\gamma_A$ a parcela autônoma do investimento de modo que a função de acumulação kaleckiana e supermultiplicador (adiante, SSM) se tornam:
-
+Como visto, ambas famílias de modelos preservam tal característica no curto e longo prazo. Resta verificar se o mesmo vale para \textbf{médio prazo}. Dito isso, dentre os modelos kaleckianos com gasto autônomos e com principio de ajuste do estoque de capital e supermultiplicador sraffiano, resta selecionar aquele reproduza o fato estilizado da relação positiva entre taxa de investimento e taxa de crescimento \cites[p.~172]{cesaratto_neo-kaleckian_2015}[p.~8--9]{fiebiger_trend_2017}\footnote{Esta parte da exposição é inspirada na contribuição de \textcite{fagundes_role_2017} no que diz respeito ao médio prazo.}. Dito isso, seja $i$ a taxa de investimento, $\gamma_A$ a parcela autônoma e $h$ a parcela induzida do investimento de modo que a repersentar a função de acumulação kaleckiana 
 $$
 \frac{I}{K}  = \gamma + \gamma_uu - \gamma_uu_N
 $$
 
+$$
+\gamma_A = \gamma - \gamma_uu_N
+$$
+
+$$
+I = (\gamma_A + \gamma_uu)K
+$$
+
+$$
+\gamma_u\cdot u \cdot K \equiv \gamma_u\frac{Y}{Y_{FC}}K \equiv \gamma_u\cdot v\cdot Y
+$$
+
+$$
+I = \gamma_A\cdot K + \gamma_u\cdot v\cdot Y
+$$
 
 \begin{equation}
 \tag{kaleckiana}
-I = (\gamma_A + \gamma_uu)K \Rightarrow I = (\gamma_A + \overbrace{h}^{\gamma_u\cdot v}\cdot u)K
+I = \gamma_A\cdot K + h\cdot Y
 \end{equation}
+e supermultiplicador (adiante, SSM)
 
 \begin{equation}
 \tag{SSM}
-i = \frac{I}{Y} \Leftrightarrow I = h\cdot Y
+I = h\cdot Y
 \end{equation}
 Como destacado na seção \ref{SecHarrod}, na ausência de gastos autônomos, a propensão marginal e média a poupar são iguais e, portanto, no modelo kaleckiano convencional, a taxa de investimento é determinada pela taxa de poupança definida exogenamente. Incluindo tais gastos no modelo, obtém-se:
 
@@ -73,36 +88,4 @@ Portanto, a relação negativa entre crescimento e taxa de investimento deixa de
 	What the supermultiplier adds to the neo-Kaleckian framework is a plausible mechanism for explaining phases
 	of the business cycle when the output share of capacity investment is rising amidst robust rates of output growth. \cite[p.~9]{fiebiger_trend_2017}
 \end{citacao}
-Até então, pode-se dizer que a teoria do crescimento liderado pela demanda enfrentava um dilema. Não conseguia conciliar estabilidade, distribuição funcional da renda exógena e grau de utilização da capacidade produtiva igual ao normal/planejado, aparentando uma trindade impossível do crescimento, conforme pode ser visto no diagrama \ref{diagrama}\footnote{Este diagrama é inspirado no ``trilema'' do crescimento apresentado por \textcite{cesaratto_neo-kaleckian_2015}.}.
-
-
-\begin{figure}[htb]
-	\caption{Trindidade ``impossível''}
-	\label{diagrama}
-	\begin{center}
-		\resizebox{0.45\textwidth}{!}{%
-			\begin{tikzpicture}[thick]
-			\path[draw] (-4,0)  coordinate [label= left:Distribuição] (A)
-			
-			-- ( 0,4)  coordinate [label=above:Estabilidade] (C)
-			-- ( 4,0)  coordinate [label=right:$u_N$] (B)
-			-- cycle;
-			\foreach \point in {A,B,C}
-			\draw
-			-- (0,2) node[anchor=north]{Supermultiplicador};
-			\draw
-			-- (-5,-0.15) node[anchor=north]{exógena};
-			\draw
-			-- (0,1.5) node[anchor=north]{Sraffiano};
-			\draw
-			-- (-1.75,3) node[anchor=north, rotate=45]{Kaleckiano};
-			\draw
-			-- (1.75,3) node[anchor=north, rotate=-45]{Cambridge};
-			\draw
-			-- (0,0) node[anchor=north]{Harrod};
-			\end{tikzpicture}
-		}
-	\end{center}
-	\caption*{\textbf{Fonte:} Elaboração própria}
-\end{figure}
-\noindent Essa trindade impossível se mostrou falsa com o desenvolvimento do supermultiplicador sraffiano, proposto por \textcite{serrano_long_1995} e \textcite{bortis_institutions_1996}. Portanto, diante da discussão anterior, conclui-se que o modelo do SSM não é incompatível para analisar o médio prazo ou restrito ao longo prazo como afirma \textcite{nikiforos_comments_2018}. Com isso, encerra-se este capítulo elegendo o supermultiplicador sraffiano como o mais adequado por replicar os fatos estilizados mencionados anteriormente e por validar o PDE no curto, médio e longo prazo. Seguindo a sugestão de \textcite[p.~280]{freitas_growth_2015}, esta investigação avança no sentido de contribuir para a compreensção de outros componentes da demanda agregada não criadores de capacidade. Destaca-se ainda que a instabilidade da economia não decorre da junção do acelerador com o multiplicador\footnote{Como mostram \textcite{serrano_trouble_2017}, dadas certas condições, o SSM é dinamicamente \textit{estável}.}, mas sim da própria instabilidade da demanda agregada \cite{dejuan_hidden_2017}.
+ Portanto, diante da discussão anterior, conclui-se que o modelo do SSM não é incompatível para analisar o médio prazo ou restrito ao longo prazo como afirma \textcite{nikiforos_comments_2018}. Com isso, encerra-se este capítulo elegendo o supermultiplicador sraffiano como o mais adequado por replicar os fatos estilizados mencionados anteriormente e por validar o PDE no curto, médio e longo prazo. Seguindo a sugestão de \textcite[p.~280]{freitas_growth_2015}, esta investigação avança no sentido de contribuir para a compreensção de outros componentes da demanda agregada não criadores de capacidade. Destaca-se ainda que a instabilidade da economia não decorre da junção do acelerador com o multiplicador\footnote{Como mostram \textcite{serrano_trouble_2017}, dadas certas condições, o SSM é dinamicamente \textit{estável}.}, mas sim da própria instabilidade da demanda agregada \cite{dejuan_hidden_2017}.
