@@ -19,7 +19,7 @@ Para responder a segunda questão, resta esclarecer um possível ponto de estran
 No entanto, como mencionado na introdução, os modelos elegíveis são aqueles reportam alguns fatos estilizados (\textit{e.g.} relação positiva entre taxa de investimento e crescimento)  no curto, médio e longo prazo.
 Desse modo, optar por modelos que se mostram adequados para o curto e longo prazo, mas não para o médio-prazo se mostra questionável uma vez que a validade dos resultados está restrita a uma certa temporalidade. 
 
-Como visto, os modelos restantes preservam tal característica no curto e longo prazo. Resta verificar se o mesmo vale para \textbf{médio prazo}. Dito isso, dentre os modelos kaleckianos com gasto autônomo e com principio de ajuste do estoque de capital e supermultiplicador sraffiano, resta selecionar aquele reproduza o fato estilizado da relação positiva entre taxa de investimento e taxa de crescimento \cites[p.~172]{cesaratto_neo-kaleckian_2015}[p.~8--9]{fiebiger_trend_2017}\footnote{Esta parte da exposição é inspirada na contribuição de \textcite{fagundes_role_2017} no que diz respeito ao médio prazo.}. Dito isso, seja $i$ a taxa de investimento, $\gamma_A$ a parcela autônoma e $h$ a parcela induzida do investimento de modo que a repersentar a função de acumulação kaleckiana pode ser reescrita como\footnote{
+Como visto, os modelos restantes preservam tal característica no curto e longo prazo. Resta verificar se o mesmo vale para \textbf{médio prazo}. Dito isso, dentre os modelos kaleckianos com gasto autônomo e com principio de ajuste do estoque de capital e supermultiplicador sraffiano, resta selecionar aquele reproduza o fato estilizado da relação positiva entre taxa de investimento e taxa de crescimento \cites[p.~172]{cesaratto_neo-kaleckian_2015}[p.~8--9]{fiebiger_trend_2017}\footnote{Esta parte da exposição é inspirada na contribuição de \textcite{fagundes_role_2017} no que diz respeito ao médio prazo.}. Dito isso, seja $i$ a taxa de investimento, $\gamma_A$ a parcela autônoma e $h$ a parcela induzida do investimento (das firmas) de modo que a representar a função de acumulação kaleckiana pode ser reescrita como\footnote{
 	As etapas são:
 	$$
 	\frac{I}{K}  = \gamma + \gamma_uu - \gamma_uu_N
@@ -62,24 +62,23 @@ em que $i_{Trad}$ denota, tal como em \textcite{fagundes_role_2017}, a taxa de i
 Prosseguindo com a exposição e analisando o equilíbrio de \textit{steady growth} com gastos autônomos ($Z > 0$), verifica-se que no médio prazo dos modelos kaleckianos não-convencionais ($g\to g_Z$) a taxa de investimento ($i_{MR}$) é dada por:
 \begin{equation}
 \label{investoFagundes}
-i_{MR} = \frac{hg_Z}{g_Z - \gamma_A}
+i_{MR} = \frac{h\cdot g_Z}{g_Z - \gamma_A}
 \end{equation}
-Diante deste resultado, \textcite{fagundes_role_2017} argumentam que a inclusão de dos gastos autônomos no modelo não garante a convergência do grau de utilização ao normal. Para que tal tendência ocorra, por sua vez, é necessário que a participação da parcela autônoma do investimento convirja a zero ($\gamma_A \to 0$). 
-Adicionalmente, \textcite{fagundes_role_2017} reportam uma relação negativa entre taxa de crescimento e taxa de investimento. Supondo, por simplificação, que as variações são infinitesimais, isto pode ser explicitado em termos da equação \ref{investoFagundes} por derivadas parciais:
+Diante deste resultado, \textcite{fagundes_role_2017} argumentam que a inclusão dos gastos autônomos no modelo não garante a convergência do grau de utilização ao normal. Para que tal tendência ocorra, por sua vez, é necessário que a participação da parcela autônoma do investimento convirja a zero ($\gamma_A \to 0$) e isto ocorre no modelo de \textcite{allain_tackling_2015}. 
+No entanto, \textcite{fagundes_role_2017} reportam uma relação negativa entre taxa de crescimento e taxa de investimento. Supondo, por simplificação, que as variações são infinitesimais, isto pode ser explicitado em termos da equação \ref{investoFagundes} por derivadas parciais:
 $$
 \frac{\partial i_{MR}}{\partial g_Z} = - \frac{\gamma_A h}{[g_Z - \gamma_A]^2} < 0 \Leftrightarrow \gamma_A > 0
 $$
-Além disso, os autores pontuam um problema de ``dupla indentidade'' no modelo decorrente das diferentes condições de equilíbrio, um em $Z = 0$ e no outro $Z>0$, cujos padrões de crescimento são mutualmente excludentes. No primeiro, obtém-se um regime liderado pelo investimento mas incapaz de gerar a tendência do grau de utilização ao normal e de destacar a importância dos gastos autônomos ($Z\to 0$). No outro, ocorre o inverso, um regime liderado pelos gastos autônomos ($\gamma_A \to 0$) mas que evidencia uma relação negativa entre crescimento e taxa de investimento. Ambos os casos, contraria-se os fatos estilizados. Portanto, a aceitação a conclusão de \textcite[p.~13]{fagundes_role_2017} é imediata:
+Além disso, os autores pontuam um problema de ``dupla indentidade'' nos modelos \textit{à la} \textcite{allain_tackling_2015} decorrente das diferentes condições de equilíbrio, um em $Z = 0$ e no outro $Z>0$, cujos padrões de crescimento são mutualmente excludentes. No primeiro, obtém-se um regime liderado pelo investimento mas incapaz de gerar a tendência do grau de utilização ao normal e de destacar a importância dos gastos autônomos ($Z\to 0$). No outro, ocorre o inverso, um regime liderado pelos gastos autônomos ($\gamma_A \to 0$) mas que evidencia uma relação negativa entre crescimento e taxa de investimento. Ambos os casos, contraria-se alguns fatos estilizados. Portanto, a aceitação a conclusão de \textcite[p.~13]{fagundes_role_2017} é imediata:
 
 \begin{citacao}
 	
 	[I]f we think of such a model as an intermediate step towards the long-run model, then we
 	believe that there is no problem in using it. The problem occurs when we think of the medium-run
-	model as a contribution to the understanding of economic reality in itself, independent from the long-
-	run model.
+	model as a contribution to the understanding of economic reality in itself, independent from the long-run model.
 \end{citacao}
 
-Resta checar se a alternativa pelo SSM incorre nos mesmos problemas. Para isso, basta verificar os resultados para o caso em que o investimento é completamente induzido. Como a alternativa kaleckiana com gastos autônomos pode ser considerada como híbrida entre o modelo kaleckiano convencional e o SSM, substituindo $\gamma_A = 0$ na equação \ref{investoFagundes}, obtém-se:
+Resta checar se a alternativa pelo SMS incorre nos mesmos problemas. Para isso, basta verificar os resultados para o caso em que o investimento é completamente induzido. Como a alternativa kaleckiana com gastos autônomos pode ser considerada como híbrida entre o modelo kaleckiano convencional e o SSM, substituindo $\gamma_A = 0$ na equação \ref{investoFagundes}, obtém-se:
 $$
 i_{MR} = \frac{I}{Y} =  h
 $$
@@ -97,4 +96,5 @@ Portanto, a relação negativa entre crescimento e taxa de investimento deixa de
 	What the supermultiplier adds to the neo-Kaleckian framework is a plausible mechanism for explaining phases
 	of the business cycle when the output share of capacity investment is rising amidst robust rates of output growth. \cite[p.~9]{fiebiger_trend_2017}
 \end{citacao}
- Portanto, diante da discussão anterior, conclui-se que o modelo do SSM não é incompatível para analisar o médio prazo ou restrito ao longo prazo como afirma \textcite{nikiforos_comments_2018}. Com isso, encerra-se este capítulo elegendo o supermultiplicador sraffiano como o mais adequado por replicar os fatos estilizados mencionados anteriormente e por validar o PDE no curto, médio e longo prazo. Seguindo a sugestão de \textcite[p.~280]{freitas_growth_2015}, esta investigação avança no sentido de contribuir para a compreensção de outros componentes da demanda agregada não criadores de capacidade. Destaca-se ainda que a instabilidade da economia não decorre da junção do acelerador com o multiplicador\footnote{Como mostram \textcite{serrano_trouble_2017}, dadas certas condições, o SSM é dinamicamente \textit{estável}.}, mas sim da própria instabilidade da demanda agregada \cite{dejuan_hidden_2017}.
+ Portanto, diante da discussão anterior, conclui-se que o modelo do SSM não é incompatível para analisar o médio prazo ou restrito ao longo prazo como afirma \textcite{nikiforos_comments_2018}. Com isso, elege-se o supermultiplicador sraffiano como o mais adequado para atender os objetivos desta pesquisa. 
+ 

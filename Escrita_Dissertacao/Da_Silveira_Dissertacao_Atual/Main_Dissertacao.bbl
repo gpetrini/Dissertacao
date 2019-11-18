@@ -66,49 +66,6 @@
       \verb https://journals.sagepub.com/doi/abs/10.1179/102452908X289802
       \endverb
     \endentry
-    \entry{allain_macroeconomic_2014}{article}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=b0fc47959800a45f0c22ee1be6802558}{%
-           family={Allain},
-           familyi={A\bibinitperiod},
-           given={Olivier},
-           giveni={O\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{b0fc47959800a45f0c22ee1be6802558}
-      \strng{fullhash}{b0fc47959800a45f0c22ee1be6802558}
-      \strng{bibnamehash}{b0fc47959800a45f0c22ee1be6802558}
-      \strng{authorbibnamehash}{b0fc47959800a45f0c22ee1be6802558}
-      \strng{authornamehash}{b0fc47959800a45f0c22ee1be6802558}
-      \strng{authorfullhash}{b0fc47959800a45f0c22ee1be6802558}
-      \field{extraname}{1}
-      \field{sortinit}{A}
-      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{Post-Keynesian economists have quite recently begun to draw attention to the consumer debt. However, as they omit the principal payment, they implicitly assimilate this debt as perpetual loans. The goal of this article is mainly methodological. We first develop a ‘Keynesian’ overlapping generations framework assuming that people borrow when they are young and service their debt (interests and principal) in the following periods. Defaults on the principal are also taken into account. We then analyze the theoretical properties of the equilibriums (multiplier effect, stability conditions) resulting from the introduction of this framework in three types of models that differ in regard of who are the debtors and who are the creditors: workers can borrow from capitalists (essay 1) or from their peer (essay 2); capitalists can borrow from their peer (essay 3).}
-      \field{shorttitle}{Macroeconomic effects of consumer debt}
-      \field{title}{Macroeconomic effects of consumer debt: three theoretical essays}
-      \field{urlday}{28}
-      \field{urlmonth}{12}
-      \field{urlyear}{2018}
-      \field{year}{2014}
-      \field{urldateera}{ce}
-      \verb{file}
-      \verb Full Text PDF:/home/gpetrini/Zotero/storage/6DP86MN4/Allain - 2014 - Macroeconomic effects of consumer debt three theo.pdf:application/pdf;Snapshot:/home/gpetrini/Zotero/storage/M9Q4JFY9/halshs-01147612.html:text/html
-      \endverb
-      \verb{urlraw}
-      \verb https://halshs.archives-ouvertes.fr/halshs-01147612/document
-      \endverb
-      \verb{url}
-      \verb https://halshs.archives-ouvertes.fr/halshs-01147612/document
-      \endverb
-    \endentry
     \entry{allain_tackling_2015}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=b0fc47959800a45f0c22ee1be6802558}{%
@@ -127,7 +84,7 @@
       \strng{authorbibnamehash}{b0fc47959800a45f0c22ee1be6802558}
       \strng{authornamehash}{b0fc47959800a45f0c22ee1be6802558}
       \strng{authorfullhash}{b0fc47959800a45f0c22ee1be6802558}
-      \field{extraname}{2}
+      \field{extraname}{1}
       \field{sortinit}{A}
       \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
       \field{extradatescope}{labelyear}
@@ -178,7 +135,7 @@
       \strng{authorbibnamehash}{b0fc47959800a45f0c22ee1be6802558}
       \strng{authornamehash}{b0fc47959800a45f0c22ee1be6802558}
       \strng{authorfullhash}{b0fc47959800a45f0c22ee1be6802558}
-      \field{extraname}{3}
+      \field{extraname}{2}
       \field{sortinit}{A}
       \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
       \field{extradatescope}{labelyear}
@@ -2202,38 +2159,6 @@
       \verb http://www.sciencedirect.com/science/article/pii/009411909190016Z
       \endverb
     \endentry
-    \entry{duesenberry_investment_1958}{incollection}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=293f2b8ea3318902aabca08bb732e9c6}{%
-           family={Duesenberry},
-           familyi={D\bibinitperiod},
-           given={James\bibnamedelima S.},
-           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {McGraw-Hill}%
-      }
-      \strng{namehash}{293f2b8ea3318902aabca08bb732e9c6}
-      \strng{fullhash}{293f2b8ea3318902aabca08bb732e9c6}
-      \strng{bibnamehash}{293f2b8ea3318902aabca08bb732e9c6}
-      \strng{authorbibnamehash}{293f2b8ea3318902aabca08bb732e9c6}
-      \strng{authornamehash}{293f2b8ea3318902aabca08bb732e9c6}
-      \strng{authorfullhash}{293f2b8ea3318902aabca08bb732e9c6}
-      \field{sortinit}{D}
-      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Business cycle and economic growth}
-      \field{series}{Economic {Handbook} {Series}}
-      \field{title}{Investment in housing}
-      \field{year}{1958}
-      \verb{file}
-      \verb Duesenberry - 1958 - Investment in housing.pdf:/home/gpetrini/Zotero/storage/7P4GZYGI/Duesenberry - 1958 - Investment in housing.pdf:application/pdf
-      \endverb
-    \endentry
     \entry{dutt_stagnation_1984}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=1c034b52dfa023b69b074711019bf416}{%
@@ -2329,7 +2254,7 @@
       \field{issn}{00261386}
       \field{journaltitle}{Metroeconomica}
       \field{shorttitle}{Some observations on models of growth and distribution with autonomous demand growth}
-      \field{title}{Some observations on models of growth and distribution with autonomous demand growth: {XXXX}}
+      \field{title}{Some observations on models of growth and distribution with autonomous demand growth}
       \field{urlday}{24}
       \field{urlmonth}{1}
       \field{urlyear}{2019}
@@ -3630,6 +3555,39 @@
       \field{year}{2018}
       \verb{file}
       \verb Full Text PDF:/home/gpetrini/Zotero/storage/7INFPRYB/Gallo et al. - 2018 - The Supermultiplier Model and the Role of Autonomo.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{gowans_introducing_2014}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=0e9b2aaa3e97a6bacaacec97871f8e61}{%
+           family={Gowans},
+           familyi={G\bibinitperiod},
+           given={Dylan},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{0e9b2aaa3e97a6bacaacec97871f8e61}
+      \strng{fullhash}{0e9b2aaa3e97a6bacaacec97871f8e61}
+      \strng{bibnamehash}{0e9b2aaa3e97a6bacaacec97871f8e61}
+      \strng{authorbibnamehash}{0e9b2aaa3e97a6bacaacec97871f8e61}
+      \strng{authornamehash}{0e9b2aaa3e97a6bacaacec97871f8e61}
+      \strng{authorfullhash}{0e9b2aaa3e97a6bacaacec97871f8e61}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Mimeo}
+      \field{title}{Introducing {Population} {Growth} and {Demography} in {Demand}-led {Models} of {Growth} and {Accumulation}}
+      \field{year}{2014}
+      \field{pages}{35}
+      \range{pages}{1}
+      \verb{file}
+      \verb Gowans - Introducing Population Growth and Demography in De.pdf:/home/gpetrini/Zotero/storage/H6XIFN9L/Gowans - Introducing Population Growth and Demography in De.pdf:application/pdf
       \endverb
     \endentry
     \entry{green_follow_1997}{article}{}
@@ -6625,46 +6583,6 @@
       \verb https://ideas.repec.org/a/elg/ejeepi/v14y2017i1p70-91.html
       \endverb
       \keyw{capacity utilization,economic growth,effective demand,income distribution,theoretical closures}
-    \endentry
-    \entry{serrano_har_2018}{article}{}
-      \name{author}{3}{}{%
-        {{uniquename=0,uniquepart=base,hash=8df1ed774cbbdbac66d3fc8dafb0bcd5}{%
-           family={Serrano},
-           familyi={S\bibinitperiod},
-           given={Franklin},
-           giveni={F\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=ddb1fd66d4d7294f27fed47e4051d5d0}{%
-           family={Freitas},
-           familyi={F\bibinitperiod},
-           given={Fábio},
-           giveni={F\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=4b47af2fd6df5404c668dfeae18c9ac9}{%
-           family={Behring},
-           familyi={B\bibinitperiod},
-           given={Gustavo},
-           giveni={G\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{edf305742ef9db9cf4a0d49855284779}
-      \strng{fullhash}{edf305742ef9db9cf4a0d49855284779}
-      \strng{bibnamehash}{edf305742ef9db9cf4a0d49855284779}
-      \strng{authorbibnamehash}{edf305742ef9db9cf4a0d49855284779}
-      \strng{authornamehash}{edf305742ef9db9cf4a0d49855284779}
-      \strng{authorfullhash}{edf305742ef9db9cf4a0d49855284779}
-      \field{sortinit}{S}
-      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Mimeo}
-      \field{title}{O {Supermultiplicador} {Sraffiano}, a {Instabilidade} {Fundamental} de {Harrod} e o {Dilema} de {Oxbridge}}
-      \field{year}{2018}
-      \verb{file}
-      \verb Serrano et al. - 2018 - O Supermultiplicador Sraffiano, a Instabilidade Fu.pdf:/home/gpetrini/Zotero/storage/W6LU756T/Serrano et al. - 2018 - O Supermultiplicador Sraffiano, a Instabilidade Fu.pdf:application/pdf
-      \endverb
     \endentry
     \entry{serrano_trouble_2017}{article}{}
       \name{author}{3}{}{%
