@@ -397,6 +397,48 @@
       \verb https://academic.oup.com/cje/article/20/5/539/1676084
       \endverb
     \endentry
+    \entry{arestis_u.s._2008}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=75499a30114e2f80e2490b9e90512b74}{%
+           family={Arestis},
+           familyi={A\bibinitperiod},
+           given={Philip},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=3e316a1674ecbed02a757101d0eff320}{%
+           family={Karakitsos},
+           familyi={K\bibinitperiod},
+           given={Elias},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{86d29ca8ed99581729f01da5651d3a69}
+      \strng{fullhash}{86d29ca8ed99581729f01da5651d3a69}
+      \strng{bibnamehash}{86d29ca8ed99581729f01da5651d3a69}
+      \strng{authorbibnamehash}{86d29ca8ed99581729f01da5651d3a69}
+      \strng{authornamehash}{86d29ca8ed99581729f01da5651d3a69}
+      \strng{authorfullhash}{86d29ca8ed99581729f01da5651d3a69}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper attempts to quantify the U.S. housing market slump and its likely impact on consumption. In doing so, it bypasses the traditional approach that suggests that there is no nationwide housing market but a compendium of segmented markets. The paper is not an exercise in forecasting but an illustration of a different approach to modeling the housing market. An important implication of the analysis, which is related to current developments, is that the subprime market may spill over to equities through two channelsâa portfolio substitution effect and, also, by eroding the capital base of commercial and investment banks.}
+      \field{journaltitle}{Journal of Post Keynesian Economics}
+      \field{month}{4}
+      \field{title}{The {U}.{S}. housing slump and the consumer}
+      \field{volume}{30}
+      \field{year}{2008}
+      \field{pages}{335\bibrangedash 352}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.2753/PKE0160-3477300302
+      \endverb
+      \verb{file}
+      \verb Arestis e Karakitsos - 2008 - The U.S. housing slump and the consumer.pdf:/home/gpetrini/Zotero/storage/Q6MGE9W5/Arestis e Karakitsos - 2008 - The U.S. housing slump and the consumer.pdf:application/pdf
+      \endverb
+    \endentry
     \entry{arestis_effectiveness_2012}{incollection}{}
       \name{author}{2}{}{%
         {{uniquename=0,uniquepart=base,hash=75499a30114e2f80e2490b9e90512b74}{%
@@ -1386,6 +1428,57 @@
       \verb https://academic.oup.com/cje/advance-article/doi/10.1093/cje/bey008/5033971
       \endverb
     \endentry
+    \entry{cardaci_inequality_2018}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=96657472472c7490b631e7a3925a0c04}{%
+           family={Cardaci},
+           familyi={C\bibinitperiod},
+           given={Alberto},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{96657472472c7490b631e7a3925a0c04}
+      \strng{fullhash}{96657472472c7490b631e7a3925a0c04}
+      \strng{bibnamehash}{96657472472c7490b631e7a3925a0c04}
+      \strng{authorbibnamehash}{96657472472c7490b631e7a3925a0c04}
+      \strng{authornamehash}{96657472472c7490b631e7a3925a0c04}
+      \strng{authorfullhash}{96657472472c7490b631e7a3925a0c04}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Our paper contributes to the literature on the causes of the 2007–2008 ﬁnancial crisis in the United States. By means of an agent-based model, we replicate an artiﬁcial creditnetwork economy in order to assess the impact of growing income inequality in the presence of peer effects and home equity borrowing. We show that the resulting debt-ﬁnanced consumption boom jeopardises the stability of the economic system, thus paving the way for a ﬁnancial crisis. Our model includes a behavioural rule for consumption based on expenditure cascades, a hierarchical structure of household ﬁnance, an articulated credit market with collateralised consumption loans and mortgages and a simple housing market. Results show that the model is able to capture the economic and social pressure of inequality on low and middle income households that pushes them to increase their consumption via home equity extraction. Rising non-performing loans lead to higher bad debt on the banks’ balance sheets and, consequently, to the emergence of a crisis as an endogenous dynamic.}
+      \field{issn}{01672681}
+      \field{journaltitle}{Journal of Economic Behavior \& Organization}
+      \field{month}{5}
+      \field{shorttitle}{Inequality, household debt and financial instability}
+      \field{title}{Inequality, household debt and financial instability: {An} agent-based perspective}
+      \field{urlday}{6}
+      \field{urlmonth}{11}
+      \field{urlyear}{2019}
+      \field{volume}{149}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \field{pages}{434\bibrangedash 458}
+      \range{pages}{25}
+      \verb{doi}
+      \verb 10.1016/j.jebo.2018.01.010
+      \endverb
+      \verb{file}
+      \verb Cardaci - 2018 - Inequality, household debt and financial instabili.pdf:/home/gpetrini/Zotero/storage/3GKSF2DH/Cardaci - 2018 - Inequality, household debt and financial instabili.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0167268118300106
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0167268118300106
+      \endverb
+    \endentry
     \entry{caverzasi_stock-flow_2013}{article}{}
       \name{author}{2}{}{%
         {{uniquename=0,uniquepart=base,hash=e3fc2af895d5bd72c1d9c2b13737de83}{%
@@ -1897,6 +1990,53 @@
       \verb Deleidi e Mazzucato - 2019 - Mission-Oriented Innovation Policies A theorical .pdf:/home/gpetrini/Zotero/storage/MTBXZIH8/Deleidi e Mazzucato - 2019 - Mission-Oriented Innovation Policies A theorical .pdf:application/pdf
       \endverb
     \endentry
+    \entry{derksen_long_1940}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=fc1a81a4af5585ff2852eef61c15ce55}{%
+           family={Derksen},
+           familyi={D\bibinitperiod},
+           given={J.\bibnamedelimi B.\bibnamedelimi D.},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fc1a81a4af5585ff2852eef61c15ce55}
+      \strng{fullhash}{fc1a81a4af5585ff2852eef61c15ce55}
+      \strng{bibnamehash}{fc1a81a4af5585ff2852eef61c15ce55}
+      \strng{authorbibnamehash}{fc1a81a4af5585ff2852eef61c15ce55}
+      \strng{authornamehash}{fc1a81a4af5585ff2852eef61c15ce55}
+      \strng{authorfullhash}{fc1a81a4af5585ff2852eef61c15ce55}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{0012-9682}
+      \field{journaltitle}{Econometrica}
+      \field{number}{2}
+      \field{shorttitle}{Long {Cycles} in {Residential} {Building}}
+      \field{title}{Long {Cycles} in {Residential} {Building}: {An} {Explanation}}
+      \field{urlday}{12}
+      \field{urlmonth}{11}
+      \field{urlyear}{2019}
+      \field{volume}{8}
+      \field{year}{1940}
+      \field{urldateera}{ce}
+      \field{pages}{97\bibrangedash 116}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.2307/1907030
+      \endverb
+      \verb{file}
+      \verb JSTOR Full Text PDF:/home/gpetrini/Zotero/storage/VIB9XVTP/Derksen - 1940 - Long Cycles in Residential Building An Explanatio.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.jstor.org/stable/1907030
+      \endverb
+      \verb{url}
+      \verb https://www.jstor.org/stable/1907030
+      \endverb
+    \endentry
     \entry{dos_santos_revisiting_2009}{article}{}
       \name{author}{2}{}{%
         {{uniquename=0,uniquepart=base,hash=1634fc01eac3b46d9ec1ffde5a46ccd6}{%
@@ -2225,7 +2365,7 @@
       \field{year}{1990}
       \keyw{Economic aspects,Economic development,Resource allocation,Technological innovations}
     \endentry
-    \entry{dutt_observations_2018}{article}{}
+    \entry{dutt_maturity_2006}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=1c034b52dfa023b69b074711019bf416}{%
            family={Dutt},
@@ -2244,6 +2384,58 @@
       \strng{authornamehash}{1c034b52dfa023b69b074711019bf416}
       \strng{authorfullhash}{1c034b52dfa023b69b074711019bf416}
       \field{extraname}{3}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{This paper extends a Steindlian model of growth and income distribution to incorporate borrowing by consumers. It shows that borrowing by consumers can improve growth prospects in the short run by increasing consumer demand. However, in the longer run the effects of increasing consumer borrowing are ambiguous because, by increasing consumer debt, it redistributes income towards the rich who have a higher propensity to save, thereby possibly depressing aggregate demand and growth despite the borrowing-induced expansion. The problem may be exacerbated by ﬁnancial considerations involving the increase of the interest rate due to greater borrowing, but these considerations are not necessary for it. The problem is more likely to occur when autonomous investment demand is weak, i.e. when borrowing-induced consumption increases are most required to counter tendencies towards stagnation.}
+      \field{issn}{0026-1386, 1467-999X}
+      \field{journaltitle}{Metroeconomica}
+      \field{number}{3}
+      \field{shorttitle}{{MATURITY}, {STAGNATION} {AND} {CONSUMER} {DEBT}}
+      \field{title}{Maturity, stagnation and consumer debt: a steindlian approach}
+      \field{urlday}{22}
+      \field{urlmonth}{10}
+      \field{urlyear}{2018}
+      \field{volume}{57}
+      \field{year}{2006}
+      \field{urldateera}{ce}
+      \field{pages}{339\bibrangedash 364}
+      \range{pages}{26}
+      \verb{doi}
+      \verb 10.1111/j.1467-999X.2006.00246.x
+      \endverb
+      \verb{file}
+      \verb Dutt - 2006 - MATURITY, STAGNATION AND CONSUMER DEBT A STEINDLI.pdf:/home/gpetrini/Zotero/storage/I4QVB9V7/Dutt - 2006 - MATURITY, STAGNATION AND CONSUMER DEBT A STEINDLI.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://doi.wiley.com/10.1111/j.1467-999X.2006.00246.x
+      \endverb
+      \verb{url}
+      \verb http://doi.wiley.com/10.1111/j.1467-999X.2006.00246.x
+      \endverb
+    \endentry
+    \entry{dutt_observations_2018}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=1c034b52dfa023b69b074711019bf416}{%
+           family={Dutt},
+           familyi={D\bibinitperiod},
+           given={Amitava\bibnamedelima Krishna},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{1c034b52dfa023b69b074711019bf416}
+      \strng{fullhash}{1c034b52dfa023b69b074711019bf416}
+      \strng{bibnamehash}{1c034b52dfa023b69b074711019bf416}
+      \strng{authorbibnamehash}{1c034b52dfa023b69b074711019bf416}
+      \strng{authornamehash}{1c034b52dfa023b69b074711019bf416}
+      \strng{authorfullhash}{1c034b52dfa023b69b074711019bf416}
+      \field{extraname}{4}
       \field{sortinit}{D}
       \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
       \field{extradatescope}{labelyear}
@@ -2323,6 +2515,105 @@
       \verb{url}
       \verb https://www.jstor.org/stable/1913236
       \endverb
+    \endentry
+    \entry{erlingsson_integrating_2013}{incollection}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=9f27249c58137dc05f5dc0bae4b1eb37}{%
+           family={Erlingsson},
+           familyi={E\bibinitperiod},
+           given={Einar\bibnamedelima Jón},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=7320c9da7996d0e7cad465111e932ad5}{%
+           family={Raberto},
+           familyi={R\bibinitperiod},
+           given={Marco},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=01911acb21e0f1b76c1bb56e939db1fb}{%
+           family={Stefánsson},
+           familyi={S\bibinitperiod},
+           given={Hlynur},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=919ad7b7fc7559c7f546cd87f0885b47}{%
+           family={Sturluson},
+           familyi={S\bibinitperiod},
+           given={Jón\bibnamedelima Thór},
+           giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{4}{}{%
+        {{hash=610737f4bd507b49ab1d3efe18bbda86}{%
+           family={Teglio},
+           familyi={T\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod}}}%
+        {{hash=b2327ef2cd96d1f99a42d233ac2a6553}{%
+           family={Alfarano},
+           familyi={A\bibinitperiod},
+           given={Simone},
+           giveni={S\bibinitperiod}}}%
+        {{hash=2d1554a8eecb4c720390daac489c4bb8}{%
+           family={Camacho-Cuena},
+           familyi={C\bibinithyphendelim C\bibinitperiod},
+           given={Eva},
+           giveni={E\bibinitperiod}}}%
+        {{hash=1af556b127e62fce591036823cc51cb3}{%
+           family={Ginés-Vilar},
+           familyi={G\bibinithyphendelim V\bibinitperiod},
+           given={Miguel},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{8bb351c52ba714b7ddefe87688b27ba2}
+      \strng{fullhash}{6e41601d1f0f5b30fe2d41017ce09fb3}
+      \strng{bibnamehash}{8bb351c52ba714b7ddefe87688b27ba2}
+      \strng{authorbibnamehash}{8bb351c52ba714b7ddefe87688b27ba2}
+      \strng{authornamehash}{8bb351c52ba714b7ddefe87688b27ba2}
+      \strng{authorfullhash}{6e41601d1f0f5b30fe2d41017ce09fb3}
+      \strng{editorbibnamehash}{c8b04225f7d614cb3f5d5c28d9eb1133}
+      \strng{editornamehash}{c8b04225f7d614cb3f5d5c28d9eb1133}
+      \strng{editorfullhash}{550e7a96d37afb21349742de92a4ae07}
+      \field{sortinit}{E}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this paper, we develop an agent-based model of the housing market and integrate it into a larger agent-based artificial economy. The model is characterized by four types of agents: households, firms, banks and a central bank, which interact through different types of markets: a consumption goods market, a labor market, a housing market and a credit market. We model a wealth effect of housing wealth into households consumption budget as the main link between the housing market and the real economy. Banks will extend mortgages to households only if the expenditure on housing, as a proportion of total income, is lower than a given threshold (β). Different simulations are preformed to see how changing βeffects the housing market and the real economy. We find that by lowering the constraint on bank lending, i.e. increasing β, housing prices boom, positively affecting the real economy}
+      \field{booktitle}{Managing {Market} {Complexity}: {The} {Approach} of {Artificial} {Economics}}
+      \field{isbn}{978-3-642-31301-1}
+      \field{series}{Lecture {Notes} in {Economics} and {Mathematical} {Systems}}
+      \field{title}{Integrating the housing market into an agent-based economic model}
+      \field{urlday}{11}
+      \field{urlmonth}{11}
+      \field{urlyear}{2019}
+      \field{year}{2013}
+      \field{urldateera}{ce}
+      \field{pages}{65\bibrangedash 76}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1007/978-3-642-31301-1_6
+      \endverb
+      \verb{file}
+      \verb Erlingsson et al. - 2013 - Integrating the housing market into an agent-based.pdf:/home/gpetrini/Zotero/storage/3HG8NP5Q/Erlingsson et al. - 2013 - Integrating the housing market into an agent-based.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/978-3-642-31301-1_6
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/978-3-642-31301-1_6
+      \endverb
+      \keyw{Central Bank,Housing Market,Interest Rate,Housing Price,Real Economy}
     \endentry
     \entry{fagundes_dinamica_2017}{thesis}{}
       \name{author}{1}{}{%
@@ -2716,6 +3007,53 @@
       \endverb
       \verb{url}
       \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/meca.12192
+      \endverb
+    \endentry
+    \entry{frank_expenditure_2014}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=3c8287fc9d8ff0500ba518df094468ec}{%
+           family={Frank},
+           familyi={F\bibinitperiod},
+           given={Robert\bibnamedelima H.},
+           giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3c8287fc9d8ff0500ba518df094468ec}
+      \strng{fullhash}{3c8287fc9d8ff0500ba518df094468ec}
+      \strng{bibnamehash}{3c8287fc9d8ff0500ba518df094468ec}
+      \strng{authorbibnamehash}{3c8287fc9d8ff0500ba518df094468ec}
+      \strng{authornamehash}{3c8287fc9d8ff0500ba518df094468ec}
+      \strng{authorfullhash}{3c8287fc9d8ff0500ba518df094468ec}
+      \field{sortinit}{F}
+      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{23266198, 23266201}
+      \field{journaltitle}{Review of Behavioral Economics}
+      \field{month}{1}
+      \field{number}{1-2}
+      \field{title}{Expenditure {Cascades}}
+      \field{urlday}{11}
+      \field{urlmonth}{11}
+      \field{urlyear}{2019}
+      \field{volume}{1}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \field{pages}{55\bibrangedash 73}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1561/105.00000003
+      \endverb
+      \verb{file}
+      \verb Frank - 2014 - Expenditure Cascades.pdf:/home/gpetrini/Zotero/storage/F5546Y2F/Frank - 2014 - Expenditure Cascades.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://www.nowpublishers.com/article/Details/RBE-0003
+      \endverb
+      \verb{url}
+      \verb http://www.nowpublishers.com/article/Details/RBE-0003
       \endverb
     \endentry
     \entry{freitas_pattern_2013}{incollection}{}
@@ -3590,6 +3928,57 @@
       \verb Gowans - Introducing Population Growth and Demography in De.pdf:/home/gpetrini/Zotero/storage/H6XIFN9L/Gowans - Introducing Population Growth and Demography in De.pdf:application/pdf
       \endverb
     \endentry
+    \entry{grebler_capital_1956}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=c1a6efad2b39a449230eabd5d6477e4d}{%
+           family={Grebler},
+           familyi={G\bibinitperiod},
+           given={Leo},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=c386696f7684cbe6044c61d21c48b128}{%
+           family={Blank},
+           familyi={B\bibinitperiod},
+           given={David\bibnamedelima M.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=b74faedd4e143f6c65b778a7e175a900}{%
+           family={Winnick},
+           familyi={W\bibinitperiod},
+           given={Louis},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c2bc52fa0ee78c04999884560133ac58}
+      \strng{fullhash}{c2bc52fa0ee78c04999884560133ac58}
+      \strng{bibnamehash}{c2bc52fa0ee78c04999884560133ac58}
+      \strng{authorbibnamehash}{c2bc52fa0ee78c04999884560133ac58}
+      \strng{authornamehash}{c2bc52fa0ee78c04999884560133ac58}
+      \strng{authorfullhash}{c2bc52fa0ee78c04999884560133ac58}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{month}{1}
+      \field{shorttitle}{Capital {Formation} in {Residential} {Real} {Estate}}
+      \field{title}{Capital {Formation} in {Residential} {Real} {Estate}: {Trends} and {Prospects}}
+      \field{urlday}{11}
+      \field{urlmonth}{11}
+      \field{urlyear}{2019}
+      \field{year}{1956}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb c1319.pdf:/home/gpetrini/Zotero/storage/3URAJKS4/c1319.pdf:application/pdf;c1327.pdf:/home/gpetrini/Zotero/storage/KUVZC6AZ/c1327.pdf:application/pdf;Snapshot:/home/gpetrini/Zotero/storage/2C6AYE32/greb56-1.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nber.org/books/greb56-1
+      \endverb
+      \verb{url}
+      \verb https://www.nber.org/books/greb56-1
+      \endverb
+    \endentry
     \entry{green_follow_1997}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=5600b83cf822b20354346e7bbc084f15}{%
@@ -3635,6 +4024,49 @@
       \endverb
       \verb{url}
       \verb https://ideas.repec.org/a/bla/reesec/v25y1997i2p253-270.html
+      \endverb
+    \endentry
+    \entry{hansen_economic_1939}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=8d6035a1cc08df2867222f9b186a0eae}{%
+           family={Hansen},
+           familyi={H\bibinitperiod},
+           given={Alvin\bibnamedelima H.},
+           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8d6035a1cc08df2867222f9b186a0eae}
+      \strng{fullhash}{8d6035a1cc08df2867222f9b186a0eae}
+      \strng{bibnamehash}{8d6035a1cc08df2867222f9b186a0eae}
+      \strng{authorbibnamehash}{8d6035a1cc08df2867222f9b186a0eae}
+      \strng{authornamehash}{8d6035a1cc08df2867222f9b186a0eae}
+      \strng{authorfullhash}{8d6035a1cc08df2867222f9b186a0eae}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0002-8282}
+      \field{journaltitle}{The American Economic Review}
+      \field{number}{1}
+      \field{title}{Economic {Progress} and {Declining} {Population} {Growth}}
+      \field{urlday}{13}
+      \field{urlmonth}{11}
+      \field{urlyear}{2019}
+      \field{volume}{29}
+      \field{year}{1939}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 15}
+      \range{pages}{15}
+      \verb{file}
+      \verb Hansen - 1939 - Economic Progress and Declining Population Growth.pdf:/home/gpetrini/Zotero/storage/7AKVF27S/Hansen - 1939 - Economic Progress and Declining Population Growth.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb www.jstor.org/stable/1806983
+      \endverb
+      \verb{url}
+      \verb www.jstor.org/stable/1806983
       \endverb
     \endentry
     \entry{harrod_essay_1939}{article}{}
@@ -5098,6 +5530,64 @@
       \verb https://academic.oup.com/cje/article/15/3/301/1735086
       \endverb
     \endentry
+    \entry{mian_house_2011}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=56836bc58f70488000e8ecb3a6725213}{%
+           family={Mian},
+           familyi={M\bibinitperiod},
+           given={Atif},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=115809cbb4152ece23ddb8bd5a0c6fb2}{%
+           family={Sufi},
+           familyi={S\bibinitperiod},
+           given={Amir},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{9ea14e828d531d51eb2c223bb856d369}
+      \strng{fullhash}{9ea14e828d531d51eb2c223bb856d369}
+      \strng{bibnamehash}{9ea14e828d531d51eb2c223bb856d369}
+      \strng{authorbibnamehash}{9ea14e828d531d51eb2c223bb856d369}
+      \strng{authornamehash}{9ea14e828d531d51eb2c223bb856d369}
+      \strng{authorfullhash}{9ea14e828d531d51eb2c223bb856d369}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Borrowing against the increase in home equity by existing homeowners was responsible for a significant fraction of the rise in US household leverage from 2002 to 2006 and the increase in defaults from 2006 to 2008. Instrumental variables estimation shows that homeowners extracted 25 cents for every dollar increase in home equity. Home equity-based borrowing was stronger for younger households and households with low credit scores. The evidence suggests that borrowed funds were used for real outlays. Home equity-based borrowing added \$1.25 trillion in household debt from 2002 to 2008, and accounts for at least 39 percent of new defaults from 2006 to 2008. JEL: D14, R31}
+      \field{issn}{0002-8282}
+      \field{journaltitle}{American Economic Review}
+      \field{month}{8}
+      \field{number}{5}
+      \field{title}{House {Prices}, {Home} {Equity}-{Based} {Borrowing}, and the {US} {Household} {Leverage} {Crisis}}
+      \field{urlday}{11}
+      \field{urlmonth}{11}
+      \field{urlyear}{2019}
+      \field{volume}{101}
+      \field{year}{2011}
+      \field{urldateera}{ce}
+      \field{pages}{2132\bibrangedash 2156}
+      \range{pages}{25}
+      \verb{doi}
+      \verb 10.1257/aer.101.5.2132
+      \endverb
+      \verb{file}
+      \verb Mian e Sufi - 2011 - House Prices, Home Equity-Based Borrowing, and the.pdf:/home/gpetrini/Zotero/storage/QGCYGDHF/Mian e Sufi - 2011 - House Prices, Home Equity-Based Borrowing, and the.pdf:application/pdf;Snapshot:/home/gpetrini/Zotero/storage/7UN89B87/articles.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.aeaweb.org/articles?id=10.1257/aer.101.5.2132
+      \endverb
+      \verb{url}
+      \verb https://www.aeaweb.org/articles?id=10.1257/aer.101.5.2132
+      \endverb
+      \keyw{Housing Supply and Markets,Personal Finance}
+    \endentry
     \entry{milgate_capital_1982}{book}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=62cd00c1e6aa99f8d2b6b3f68389f748}{%
@@ -6027,6 +6517,40 @@
       \verb http://www.sciencedirect.com/science/article/pii/0197397592900679
       \endverb
     \endentry
+    \entry{piketty_o_2014}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=125a3a980ec7ff459f2e77e8e82118b6}{%
+           family={Piketty},
+           familyi={P\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Rio de Janeiro}%
+      }
+      \list{publisher}{1}{%
+        {Intrínseca}%
+      }
+      \strng{namehash}{125a3a980ec7ff459f2e77e8e82118b6}
+      \strng{fullhash}{125a3a980ec7ff459f2e77e8e82118b6}
+      \strng{bibnamehash}{125a3a980ec7ff459f2e77e8e82118b6}
+      \strng{authorbibnamehash}{125a3a980ec7ff459f2e77e8e82118b6}
+      \strng{authornamehash}{125a3a980ec7ff459f2e77e8e82118b6}
+      \strng{authorfullhash}{125a3a980ec7ff459f2e77e8e82118b6}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{O capital no século {XXI}}
+      \field{year}{2014}
+      \verb{file}
+      \verb Piketty - 2014 - O capital no século XXI.pdf:/home/gpetrini/Zotero/storage/PG9ZQJ58/Piketty - 2014 - O capital no século XXI.pdf:application/pdf
+      \endverb
+      \keyw{REVISTO,LIVRO}
+    \endentry
     \entry{pivetti_essay_1992}{book}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=c6c42785bfd3878a69c0f34188571d19}{%
@@ -6252,6 +6776,57 @@
       \verb Robinson (1962).md:/home/gpetrini/Zotero/storage/LJPD7IAN/Robinson (1962).md:text/markdown;Robinson (auth.) - 1962 - Essays in the Theory of Economic Growth.pdf:/home/gpetrini/Zotero/storage/9PGXZS8U/Robinson (auth.) - 1962 - Essays in the Theory of Economic Growth.pdf:application/pdf
       \endverb
       \keyw{REVISTO,LER}
+    \endentry
+    \entry{rognlie_deciphering_2016}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=0b5bd60d6d36d97b1c2ba6e818dc50f2}{%
+           family={Rognlie},
+           familyi={R\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{0b5bd60d6d36d97b1c2ba6e818dc50f2}
+      \strng{fullhash}{0b5bd60d6d36d97b1c2ba6e818dc50f2}
+      \strng{bibnamehash}{0b5bd60d6d36d97b1c2ba6e818dc50f2}
+      \strng{authorbibnamehash}{0b5bd60d6d36d97b1c2ba6e818dc50f2}
+      \strng{authornamehash}{0b5bd60d6d36d97b1c2ba6e818dc50f2}
+      \strng{authorfullhash}{0b5bd60d6d36d97b1c2ba6e818dc50f2}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{In the postwar era, developed economies have experienced two substantial trends in the net capital share of aggregate income: a rise during the last several decades, which is well known, and a fall of comparable magnitude that continued until the 1970s, which is less well known. Overall, the net capital share has increased since 1948, but once disaggregated this increase turns out to come entirely from the housing sector: the contribution to net capital income from all other sectors has been zero or slightly negative, as the fall and rise have offset each other. Several influential accounts of the recent rise emphasize the role of increased capital accumulation, but this view is at odds with theory and evidence: it requires empirically improbable elasticities of substitution, and it presumes a correlation between the capital-income ratio and capital share that is not visible in the data. A more limited narrative that stresses scarcity and the increased cost of housing better fits the data. These results are clarified using a new, multisector model of factor shares.}
+      \field{issn}{1533-4465}
+      \field{journaltitle}{Brookings Papers on Economic Activity}
+      \field{number}{1}
+      \field{shorttitle}{Deciphering the {Fall} and {Rise} in the {Net} {Capital} {Share}}
+      \field{title}{Deciphering the {Fall} and {Rise} in the {Net} {Capital} {Share}: {Accumulation} or {Scarcity}?}
+      \field{urlday}{11}
+      \field{urlmonth}{11}
+      \field{urlyear}{2019}
+      \field{volume}{2015}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 69}
+      \range{pages}{69}
+      \verb{doi}
+      \verb 10.1353/eca.2016.0002
+      \endverb
+      \verb{file}
+      \verb Rognlie - 2016 - Deciphering the Fall and Rise in the Net Capital S.pdf:/home/gpetrini/Zotero/storage/V724UFF8/Rognlie - 2016 - Deciphering the Fall and Rise in the Net Capital S.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://muse.jhu.edu/content/crossref/journals/brookings_papers_on_economic_activity/v2015/2015.1.rognlie.html
+      \endverb
+      \verb{url}
+      \verb https://muse.jhu.edu/content/crossref/journals/brookings_papers_on_economic_activity/v2015/2015.1.rognlie.html
+      \endverb
     \endentry
     \entry{rowthorn_demand_1981}{book}{}
       \name{author}{1}{}{%
