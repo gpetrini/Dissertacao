@@ -32,7 +32,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3.1}Um breve mapeamento da fronteira heterodoxa}{44}{subsection.2.3.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.2}Princ\IeC {\'\i }pio da demanda efetiva no m\IeC {\'e}dio prazo: um paradigma e duas alternativas?}{51}{subsection.2.3.2}% 
+\contentsline {subsection}{\numberline {2.3.2}Princ\IeC {\'\i }pio da demanda efetiva no m\IeC {\'e}dio prazo: um paradigma e duas alternativas?}{50}{subsection.2.3.2}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.4}Considera\IeC {\c c}\IeC {\~o}es finanais}{54}{section.2.4}% 
 \defcounter {refsection}{0}\relax 

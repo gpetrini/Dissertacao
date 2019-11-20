@@ -1,0 +1,3 @@
+"0","df <- ts(data = df, start = c(1987,03), frequency = 4)
+"
+"2","NAs introduzidos por coerção"

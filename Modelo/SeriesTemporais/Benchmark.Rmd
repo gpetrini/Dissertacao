@@ -1,0 +1,33 @@
+---
+title: "Modelo"
+author: "Gabriel Petrini da Silveira"
+date: "20 de novembro de 2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Carregando pacotes
+
+```{r}
+library(zoo)
+library(xts)
+library(tsDyn)
+library(urca)
+```
+
+# Carregando dados
+
+```{r}
+df <- read.csv(
+  "/dados/Dissertacao/Modelo/SeriesTemporais/Dados_yeojohnson.csv",
+  encoding="UTF-8", 
+  stringsAsFactors=FALSE
+  )
+df <- ts(data = df, start = c(1987,03), frequency = 4)
+df <- as.xts(df)
+```
+
+

@@ -1,0 +1,9 @@
+{
+    "path" : "/dados/Dissertacao/Modelo/SeriesTemporais",
+    "sortOrder" : [
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        }
+    ]
+}
