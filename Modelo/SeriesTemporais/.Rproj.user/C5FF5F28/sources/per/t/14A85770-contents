@@ -28,6 +28,12 @@ df <- read.csv(
   )
 df <- ts(data = df, start = c(1987,03), frequency = 4)
 df <- as.xts(df)
+df <- zoo::na.locf0(df)
+```
+
+```{r}
+model <- vars::VAR(y = df[,c("gZ", "Taxa.Própria")], lag = 5, exogen = df[, "Taxa.de.juros"])
+summary(model)
 ```
 
 
