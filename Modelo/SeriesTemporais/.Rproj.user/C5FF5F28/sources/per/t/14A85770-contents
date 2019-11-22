@@ -16,6 +16,7 @@ library(zoo)
 library(xts)
 library(tsDyn)
 library(urca)
+library(vars)
 ```
 
 # Carregando dados
@@ -32,8 +33,9 @@ df <- zoo::na.locf0(df)
 ```
 
 ```{r}
-model <- vars::VAR(y = df[,c("gZ", "Taxa.Própria")], lag = 5, exogen = df[, "Taxa.de.juros"])
-summary(model)
+vars::VARselect(df[,c('gZ', 'Taxa.Própria')], type = "const")
+jotest=ca.jo(df[,c('gZ', 'Taxa.Própria')], type="eigen", K=6, ecdet="none", spec="longrun") 
+summary(jotest)
 ```
 
 

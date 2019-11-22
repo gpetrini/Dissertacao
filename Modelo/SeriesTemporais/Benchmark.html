@@ -389,7 +389,12 @@ summary {
 ##   method             from    
 ##   fitted.fracdiff    fracdiff
 ##   residuals.fracdiff fracdiff</code></pre>
-<pre class="r"><code>library(urca)</code></pre>
+<pre class="r"><code>library(urca)
+library(vars)</code></pre>
+<pre><code>## Loading required package: MASS</code></pre>
+<pre><code>## Loading required package: strucchange</code></pre>
+<pre><code>## Loading required package: sandwich</code></pre>
+<pre><code>## Loading required package: lmtest</code></pre>
 </div>
 <div id="carregando-dados" class="section level1">
 <h1>Carregando dados</h1>
@@ -400,50 +405,61 @@ summary {
   )
 df &lt;- ts(data = df, start = c(1987,03), frequency = 4)</code></pre>
 <pre><code>## Warning in data.matrix(data): NAs introduzidos por coerção</code></pre>
-<pre class="r"><code>#df &lt;- as.xts(df)
+<pre class="r"><code>df &lt;- as.xts(df)
 df &lt;- zoo::na.locf0(df)</code></pre>
-<pre class="r"><code>model &lt;- tsDyn::VECM(data = df[,c(&quot;gZ&quot;, &quot;Taxa.Própria&quot;)], lag = 5)
-summary(model)</code></pre>
-<pre><code>## Warning in abbreviate(dimnames(ans)[[2L]], minlength = abbr.colnames):
-## abbreaviate usado com caracteres não-ASCII
-
-## Warning in abbreviate(dimnames(ans)[[2L]], minlength = abbr.colnames):
-## abbreaviate usado com caracteres não-ASCII
-
-## Warning in abbreviate(dimnames(ans)[[2L]], minlength = abbr.colnames):
-## abbreaviate usado com caracteres não-ASCII
-
-## Warning in abbreviate(dimnames(ans)[[2L]], minlength = abbr.colnames):
-## abbreaviate usado com caracteres não-ASCII</code></pre>
-<pre><code>## #############
-## ###Model VECM 
-## #############
-## Full sample size: 129    End sample size: 123
-## Number of variables: 2   Number of estimated slope parameters 24
-## AIC -1850.351    BIC -1780.046   SSR 0.3430109
-## Cointegrating vector (estimated by 2OLS):
-##    gZ Taxa.Própria
-## r1  1    0.5021385
+<pre class="r"><code>vars::VARselect(df[,c(&#39;gZ&#39;, &#39;Taxa.Própria&#39;)], type = &quot;const&quot;)</code></pre>
+<pre><code>## $selection
+## AIC(n)  HQ(n)  SC(n) FPE(n) 
+##      6      6      1      6 
 ## 
+## $criteria
+##                    1             2             3             4
+## AIC(n) -1.479923e+01 -1.484182e+01 -1.489093e+01 -1.496879e+01
+## HQ(n)  -1.474292e+01 -1.474798e+01 -1.475955e+01 -1.479988e+01
+## SC(n)  -1.466059e+01 -1.461077e+01 -1.456745e+01 -1.455289e+01
+## FPE(n)  3.739268e-07  3.583597e-07  3.412442e-07  3.157736e-07
+##                    5             6             7             8
+## AIC(n) -1.516826e+01 -1.521315e+01 -1.517959e+01 -1.517448e+01
+## HQ(n)  -1.496181e+01 -1.496917e+01 -1.489807e+01 -1.485542e+01
+## SC(n)  -1.465993e+01 -1.461240e+01 -1.448642e+01 -1.438888e+01
+## FPE(n)  2.587890e-07  2.475911e-07  2.562712e-07  2.578890e-07
+##                    9            10
+## AIC(n) -1.517183e+01 -1.512429e+01
+## HQ(n)  -1.481523e+01 -1.473016e+01
+## SC(n)  -1.429381e+01 -1.415386e+01
+## FPE(n)  2.589604e-07  2.720728e-07</code></pre>
+<pre class="r"><code>jotest=ca.jo(df[,c(&#39;gZ&#39;, &#39;Taxa.Própria&#39;)], type=&quot;trace&quot;, K=6, ecdet=&quot;const&quot;, spec=&quot;longrun&quot;) 
+summary(jotest)</code></pre>
+<pre><code>## 
+## ###################### 
+## # Johansen-Procedure # 
+## ###################### 
 ## 
-##                       ECT                Intercept          
-## Equation gZ           -0.2075(0.0607)*** 0.0249(0.0089)**   
-## Equation Taxa.Própria 0.0002(0.0100)     -0.0002(0.0015)    
-##                       gZ -1              Taxa.Própria -1   
-## Equation gZ           0.2354(0.0969)*    -1.1153(0.5455)*  
-## Equation Taxa.Própria -0.0545(0.0160)*** 0.9024(0.0901)*** 
-##                       gZ -2              Taxa.Própria -2    
-## Equation gZ           0.0125(0.0870)     -1.0345(0.6850)    
-## Equation Taxa.Própria 0.0058(0.0144)     -0.2392(0.1131)*   
-##                       gZ -3               Taxa.Própria -3    
-## Equation gZ           0.1913(0.0819)*     1.1552(0.6837).    
-## Equation Taxa.Própria -0.0119(0.0135)     -0.0700(0.1129)    
-##                       gZ -4               Taxa.Própria -4    
-## Equation gZ           -0.3951(0.0828)***  -0.2732(0.6852)    
-## Equation Taxa.Própria -0.0024(0.0137)     0.0035(0.1132)     
-##                       gZ -5              Taxa.Própria -5    
-## Equation gZ           0.0854(0.0912)     -0.5054(0.5316)    
-## Equation Taxa.Própria -0.0480(0.0151)**  -0.0504(0.0878)</code></pre>
+## Test type: trace statistic , without linear trend and constant in cointegration 
+## 
+## Eigenvalues (lambda):
+## [1] 9.818327e-02 2.466579e-02 1.110223e-16
+## 
+## Values of teststatistic and critical values of test:
+## 
+##           test 10pct  5pct  1pct
+## r &lt;= 1 |  3.12  7.52  9.24 12.97
+## r = 0  | 16.04 17.85 19.96 24.60
+## 
+## Eigenvectors, normalised to first column:
+## (These are the cointegration relations)
+## 
+##                      gZ.l6 Taxa.Própria.l6   constant
+## gZ.l6            1.0000000       1.0000000  1.0000000
+## Taxa.Própria.l6  0.2652669      16.2347053  5.6074036
+## constant        -0.1035715      -0.4419324 -0.6157682
+## 
+## Weights W:
+## (This is the loading matrix)
+## 
+##                     gZ.l6 Taxa.Própria.l6      constant
+## gZ.d           -0.1442711    -0.001797593 -4.046566e-17
+## Taxa.Própria.d  0.0122497    -0.001140309  1.455084e-17</code></pre>
 </div>
 
 
