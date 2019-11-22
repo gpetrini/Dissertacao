@@ -1,23 +1,29 @@
 \section{Modelo}
 \label{SecModelo}
 
-Por padrão, as variáveis exógenas, $j$ diga-se, serão indicadas por $\overline{j}$ enquanto os parâmetros serão denotados por letras gregas. Além disso, as equações não numeradas são apenas etapas algébricas enquanto as numeradas estão presentes nas rotinas utilizadas. Por fim, vale a menção de que os códigos deste modelo estão disponíveis e foram escritos em \textit{python} com o uso do pacote \textit{pysolve3} que foi desenvolvido ao longo desta pesquisa.
+Por padrão, as variáveis exógenas, $j$ diga-se, serão indicadas por $\overline{j}$ enquanto os parâmetros serão denotados por letras gregas. Além disso, as equações não numeradas são apenas etapas algébricas enquanto as numeradas estão presentes nas rotinas utilizadas. Por fim, vale a menção de que os códigos deste modelo estão disponíveis e foram escritos em \textit{python} com o uso do pacote \textit{pysolve3}\footnote{
+	Disponível em \url{https://github.com/gpetrini/pysolve3}.
+} que foi desenvolvido ao longo desta pesquisa.
 
 \paragraph*{Equações gerais}
 O produto é determinado pelo estoque de capital criador de capacidade assim como pelo trabalho homogêneo. Além disso, supõe-se que não estão presentes inflação de bens bem como depreciação.  Como mencionado anteriormente, um dos objetivos desta pesquisa é incorporar e analisar os impactos da inflação de ativos (\textit{i.e.} imóveis).
 Diferentemente de \textcite{nikiforos_utilization_2016} e \textcite{dutt_observations_2018}, supõe-se que estão ausentes retornos crescentes de escala e progresso tecnológico.
 
-Por se tratar de uma economia sem relações externas e sem governo, o produto determinado pelos componentes da demanda ($Y$) é a soma do consumo ($C$) e investimento das famílias ($Ih$) e das firmas ($If$) em que apenas este último é criador de capacidade produtiva ao setor privado:
+%TODO Rever citação de Dutt e Nikiforos
+
+%TODO Checar consistência entre variáveis no código e no texto
+
+Por se tratar de uma economia sem relações externas e sem governo, o produto determinado pelos componentes da demanda ($Y$) é a soma do consumo ($C$) e investimento das famílias ($I_h$) e das firmas ($I_f$) em que apenas este último é criador de capacidade produtiva ao setor privado:
 
 \begin{equation}
 \label{_Y}
-    Y = [C + Ih] + [If]
+    Y = [C + I_h] + [I_f]
 \end{equation}
-da equação acima é possível deduzir o investimento total ($It$):
+da equação acima é possível deduzir o investimento total ($I_t$):
 
 \begin{equation}
 \label{_It}
-    It = If + Ih
+    I_t = I_f + I_h
 \end{equation}
 
 Considerando uma função de produção \textit{à la} leontieff, o produto potencial ($Y_{FC}$) é determinado por:
@@ -52,6 +58,8 @@ cuja forma em termos de crescimento equivale a
 \tag{Aux.}
 \dot u = (g - g_K)\cdot u_{t-1}
 \end{equation}
+%TODO Rever se vai mantar em tempo contínuo
+
 em que $g_Y$ e $g_K$ são, respectivamente, a taxa de crescimento do produto e da capacidade produtiva discutidas no capítulo teórico.
 
 
@@ -59,7 +67,7 @@ A razão pela qual o capital criador de capacidade se difere do estoque de capit
 
 \begin{equation}
 \label{_K}
-    K = Kf + K_{H}
+    K = K_f + K_{H}
 \end{equation}
 em que $K_H$ refere ao estoque de imóveis. Seja $K_k$ a participação dos imóveis no estoque de capital total da economia:
 
@@ -79,6 +87,8 @@ Neste modelo, tal como na tradição kalekicana e sraffiana, a distribuição fu
     \omega = \overline{\omega} \Leftrightarrow \pi = 1 - \overline{\omega}
 \end{equation}
 em que $\omega$ e $\pi$ são respectivamente a participação dos salários e dos lucros na renda. O que permite escrever a massa de salários nos seguintes termos:
+
+INCLUIR DISCUSSÃO MILGATE E DIFERENTES FECHAMENTOS? (2 LINHAS)
 
 $$
 \omega = \frac{W}{Y}
@@ -177,40 +187,40 @@ Como sugerido pelo capítulo \ref{CapFatos} e seguindo \textcite{serrano_long_19
 em que $h$ é a propensão marginal à investir. Além disso, adota-se o princípio do ajuste do estoque de capital de modo que as firmas revisam seus planos de investimento de forma que o grau de utilização se ajuste ao normal ($u_N$):
 \begin{equation}
 \label{_h}
-    \Delta h = h_{-1}\cdot \gamma_u\cdot (u - \overline{u}_N)
+    \dot h = h_{-1}\cdot \gamma_u\cdot (u - \overline{u}_N)
 \end{equation}
 em que o parâmetro $\gamma_u$ deve ser suficientemente pequeno para que este ajustamento seja lento e gradual \cite[p.~271]{freitas_growth_2015}. Contabilmente, o investimento das firmas determina o estoque de capital criador de capacidade produtiva:
 
 \begin{equation}
-    \Delta Kf = If
+    \Delta K_f = I_f
 \end{equation}
 
 Adicionalmente, as firmas financiam o investimento que excede os lucros retidos por meio de empréstimos dos bancos remunerados à taxa $\overline r_l$ definida exogenamente. Por hipótese, supõe-se que consigam se financiar sem restrições de forma que a demanda/oferta por crédito para as firmas é definida por:
 
 \begin{equation}
-    \Delta L_f = If - FU
+    \Delta L_f = I_f - FU
 \end{equation}
 
 Por fim, como pode ser verificado pela tabela de transações correntes, o saldo financeiro líquido das firmas ($NFW_f$) é:
 
 \begin{equation}
-    NFW_f = FU - If
+    NFW_f = FU - I_f
 \end{equation}
 em que as firmas são devedoras líquidas se o investimento for maior que os lucros retidos. Por definição, se um dos setores é deficitário ao menos um precisa ser superavitário para que a soma dos saldos financeiros líquidos seja nula enquanto a soma do estoque de riqueza financeira seja igual ao estoque de capital da economia. A matriz dos estoques, por sua vez, fornece a riqueza líquida das firmas ($NW_f$):
 \begin{equation}
     NW_f = K_f - L_f
 \end{equation}
 
-\paragraph*{Bancos} Tal como grande parte da literatura SFC, os bancos neste modelo não desempenham um papel ativo e atuam como intermediadores financeiros. No entanto, isso não implica que existe uma precedência dos depósitos para os empréstimos, mas o inverso. Grosso modo, os bancos concedem empréstimos e, somente em seguida, recolhem os depósitos necessários. 
+\paragraph*{Bancos} Tal como grande parte da literatura SFC, os bancos neste modelo não desempenham um papel ativo e atuam como intermediadores financeiros. No entanto, isso não implica que existe uma precedência dos depósitos para os empréstimos, mas o inverso. Grosso modo, os bancos concedem empréstimos e, somente em seguida, recolhem os depósitos necessários \cite{le_bourva_money_1992}. 
 
 Como mencionado anteriormente, as firmas financiam parte do investimento com crédito ($L_f$) e as famílias se endividam com títulos hipotecários ($MO$) para financiar os imóveis enquanto financiam o consumo de bens duráveis com crédito ($L_h$). Cada uma dessas operações é remunerada a uma taxa de juros específica definida por um \textit{mark-up} da taxa dos depósitos (\textit{benchmark}):
 
 \begin{equation}
-    r_l = r_m + \text{spread}_l
+    r_l = r_m + \sigma_l
 \end{equation}
 
 \begin{equation}
-    r_{mo} = r_m + \text{spread}_{mo}
+    r_{mo} = r_m + \sigma_{mo}
 \end{equation}
 
 Os depósitos à vista, por sua vez, são ativos das famílias e são remunerados à taxa $r_m$ que é determinada pelos bancos:
@@ -218,7 +228,7 @@ Os depósitos à vista, por sua vez, são ativos das famílias e são remunerado
 \begin{equation}
     r_m = \overline r_m
 \end{equation}
-como hipótese simplificadora, os referidos \textit{spreads} são nulos de modo que tanto empréstimo quanto hipotecas sejam remunerados à taxa dos depósitos. Nesses termos, o saldo financeiro líquido dos bancos ($NFW_b$) é definido como o pagamento de juros recebidos descontadas as remunerações dos depósitos:
+como hipótese simplificadora, os referidos $\sigma_s$ são nulos de modo que tanto empréstimo quanto hipotecas sejam remunerados à taxa dos depósitos. Nesses termos, o saldo financeiro líquido dos bancos ($NFW_b$) é definido como o pagamento de juros recebidos descontadas as remunerações dos depósitos:
 \begin{equation}
     NFW_b = r_{mo}\cdot MO_{-1} + r_l\cdot L_{-1} - r_m\cdot M_{-1}
 \end{equation}
@@ -280,7 +290,7 @@ Diferentemente dos modelos SFC convencionais, a poupança das famílias não é 
     NFW_h = S_f - Ih
 \end{equation}
 
-Com isso, é possível apresentar as equações que determinam o investimento residencial. Supõe-se que a oferta de imóveis é infinitamente elástica, ou seja, toda a demanda por imóveis é atendida. No entanto, vale mencionar que é uma hipótese temporária\footnote{Por se tratar de um texto para a qualificação, optou-se por essa simplificação que será abandonada em versões futuras.} e que um dos objetivos desta pesquisa é avaliar o impacto da inflação de ativos que necessita de uma dinâmica de preços ($p_h$). Formalmente, é preciso que a oferta ($I_{h_s}$) e demanda ($I_h$) se igualem tanto nos fluxos:
+Com isso, é possível apresentar as equações que determinam o investimento residencial. Supõe-se que a oferta de imóveis é infinitamente elástica, ou seja, toda a demanda por imóveis é atendida \cite[p.~141--145]{duesenberry_investment_1958}. No entanto, vale mencionar que é uma hipótese temporária e que um dos objetivos desta pesquisa é avaliar o impacto da inflação de ativos que necessita de uma dinâmica de preços ($p_h$). Formalmente, é preciso que a oferta ($I_{h_s}$) e demanda ($I_h$) se igualem tanto nos fluxos:
 \begin{equation}
     I_{hs} = I_h
 \end{equation}
@@ -315,9 +325,9 @@ Por fim, tal como no capítulo anterior, considera-se que a taxa de crescimento 
 g_Z = \phi_0 - \phi_1\cdot own
 \end{equation}
 \begin{equation}
-own = \frac{1+r_{mo}}{1+\text{Infla}}
+own = \frac{1+r_{mo}}{1+\dot p_h}
 \end{equation}
-em que $\text{Infla}$ indica a inflação de imóveis. 
+em que $\dot p_h$ indica a inflação de imóveis. 
 \begin{comment}
 Adicionalmente, seguindo a exposição de \textcite{leamer_housing_2007}, o estoque de imóveis determina o acesso ao crédito com certa defasagem $\tau$ de modo que:
 \begin{equation}

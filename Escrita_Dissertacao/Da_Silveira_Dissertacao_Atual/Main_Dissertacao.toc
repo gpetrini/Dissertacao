@@ -46,7 +46,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.4}Considera\IeC {\c c}\IeC {\~o}es finais: Da taxa pr\IeC {\'o}pria aos pre\IeC {\c c}os dos im\IeC {\'o}veis}{72}{section.3.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\chapternumberline {4}Modelo Simplificado}{74}{chapter.4}% 
+\contentsline {chapter}{\chapternumberline {4}Modelo SFC}{74}{chapter.4}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.1}Metodologia SFC: Uma breve introdu\IeC {\c c}\IeC {\~a}o}{75}{section.4.1}% 
 \defcounter {refsection}{0}\relax 

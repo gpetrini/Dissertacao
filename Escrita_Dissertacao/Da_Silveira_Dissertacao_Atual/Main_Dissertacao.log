@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.6.22)  19 NOV 2019 22:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.6.22)  22 NOV 2019 10:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2636,9 +2636,9 @@ nto re-si-den-cial para o ci-clo econô-
 
 [17 <./Introducao/Empiria_AKB.png>]) (./Teorico/Teorico.tex [18]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
 
 (./Teorico/Teorico_Sec1.tex (./Teorico/Harrod.tex [19
 
@@ -2758,35 +2758,39 @@ LaTeX Font Info:    Try loading font information for T1+lmss on input line 16.
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )) [75]
-<Modelo/Caverzassi_Heatmap.png, id=1536, 1178.4025pt x 654.445pt>
+<Modelo/Caverzassi_Heatmap.png, id=1538, 1178.4025pt x 654.445pt>
 File: Modelo/Caverzassi_Heatmap.png Graphic file (type png)
 <use Modelo/Caverzassi_Heatmap.png>
-Package pdftex.def Info: Modelo/Caverzassi_Heatmap.png  used on input line 23.
+Package pdftex.def Info: Modelo/Caverzassi_Heatmap.png  used on input line 26.
 (pdftex.def)             Requested size: 435.32422pt x 241.76138pt.
  [76])
-(./Modelo/Modelo.tex [77 <./Modelo/Caverzassi_Heatmap.png>] [78] [79pdfTeX warn
-ing (ext4): destination with the same identifier (name{equation.4.2.5}) has bee
-n already used, duplicate ignored
+(./Modelo/Modelo.tex [77 <./Modelo/Caverzassi_Heatmap.png>]
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 6.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+) [78] [79pdfTeX warning (ext4): destination with the same identifier (name{equ
+ation.4.2.5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.80 \end{equation}
+l.88 \end{equation}
                    ] [80] [81] [82] [83] [84]) (./Modelo/Analitica.tex [85]
 [86] [87] [88]) (./Modelo/Choques.tex
-<../../Modelo/Versoes/Dag.png, id=1709, 433.62pt x 289.08pt>
+<../../Modelo/Versoes/Dag.png, id=1721, 433.62pt x 289.08pt>
 File: ../../Modelo/Versoes/Dag.png Graphic file (type png)
 <use ../../Modelo/Versoes/Dag.png>
 Package pdftex.def Info: ../../Modelo/Versoes/Dag.png  used on input line 11.
 (pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
  [89]
-<../../Modelo/Versoes/Shock_1.png, id=1718, 433.62pt x 289.08pt>
+<../../Modelo/Versoes/Shock_1.png, id=1730, 433.62pt x 289.08pt>
 File: ../../Modelo/Versoes/Shock_1.png Graphic file (type png)
 <use ../../Modelo/Versoes/Shock_1.png>
 Package pdftex.def Info: ../../Modelo/Versoes/Shock_1.png  used on input line 2
 9.
 (pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
  [90 <../../Modelo/Versoes/Dag.png>]
-<../../Modelo/Versoes/Shock_4.png, id=1724, 433.62pt x 289.08pt>
+<../../Modelo/Versoes/Shock_4.png, id=1736, 433.62pt x 289.08pt>
 File: ../../Modelo/Versoes/Shock_4.png Graphic file (type png)
 <use ../../Modelo/Versoes/Shock_4.png>
 Package pdftex.def Info: ../../Modelo/Versoes/Shock_4.png  used on input line 3
@@ -2794,27 +2798,21 @@ Package pdftex.def Info: ../../Modelo/Versoes/Shock_4.png  used on input line 3
 (pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
 
 [91 <../../Modelo/Versoes/Shock_1.png>]
-<../../Modelo/Versoes/Shock_2.png, id=1735, 433.62pt x 289.08pt>
+<../../Modelo/Versoes/Shock_2.png, id=1747, 433.62pt x 289.08pt>
 File: ../../Modelo/Versoes/Shock_2.png Graphic file (type png)
 <use ../../Modelo/Versoes/Shock_2.png>
 Package pdftex.def Info: ../../Modelo/Versoes/Shock_2.png  used on input line 5
 9.
 (pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
  [92 <../../Modelo/Versoes/Shock_4.png>]
-<../../Modelo/Versoes/Shock_3.png, id=1742, 433.62pt x 289.08pt>
+<../../Modelo/Versoes/Shock_3.png, id=1754, 433.62pt x 289.08pt>
 File: ../../Modelo/Versoes/Shock_3.png Graphic file (type png)
 <use ../../Modelo/Versoes/Shock_3.png>
 Package pdftex.def Info: ../../Modelo/Versoes/Shock_3.png  used on input line 7
 3.
 (pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
 [93 <../../Modelo/Versoes/Shock_2.png>]) (./Modelo/Conclusao.tex [94 <../../Mod
-elo/Versoes/Shock_3.png>] [95])) [96]
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 321.
-
-
-(/usr/local/texlive/2019/texmf-dist/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [97
+elo/Versoes/Shock_3.png>] [95])) [96] [97
 
 
 ]
@@ -2842,7 +2840,7 @@ r (name{appendix.A}) has been already used, duplicate ignored
                    \relax 
 l.1 \chapter{LicenÃ§a}
                       
-<cc-by-sa.png, id=1944, 97.0827pt x 33.9669pt>
+<cc-by-sa.png, id=1957, 97.0827pt x 33.9669pt>
 File: cc-by-sa.png Graphic file (type png)
 <use cc-by-sa.png>
 Package pdftex.def Info: cc-by-sa.png  used on input line 10.
@@ -2883,11 +2881,11 @@ Package logreq Info: Writing requests to 'Main_Dissertacao.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 359.
  ) 
 Here is how much of TeX's memory you used:
- 50986 strings out of 492609
- 969938 string characters out of 6129033
- 1836912 words of memory out of 5000000
- 53431 multiletter control sequences out of 15000+600000
- 655268 words of font info for 193 fonts, out of 8000000 for 9000
+ 51004 strings out of 492609
+ 970449 string characters out of 6129033
+ 1840977 words of memory out of 5000000
+ 53444 multiletter control sequences out of 15000+600000
+ 655587 words of font info for 194 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  78i,18n,117p,2142b,4147s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{section*.39} has been referenced but does not exi
@@ -2901,17 +2899,18 @@ dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2019/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2019/texmf-dis
 t/fonts/type1/public/lm/lmss9.pfb></usr/local/texlive/2019/texmf-dist/fonts/typ
 e1/public/lm/lmssbx10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/publi
-c/lm/lmtt12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts
-/symbols/msam10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/symbol/
-usyr.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></
-usr/local/texlive/2019/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/
-texlive/2019/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2
-019/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2019/texmf-
-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Main_Dissertacao.pdf (116 pages, 3424540 bytes).
+c/lm/lmtt10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmtt1
+2.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/symbols/m
+sam10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><
+/usr/local/texlive/2019/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/
+texlive/2019/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/20
+19/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2019/texmf-
+dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts
+/type1/urw/times/utmri8a.pfb>
+Output written on Main_Dissertacao.pdf (116 pages, 3448481 bytes).
 PDF statistics:
- 2230 PDF objects out of 2487 (max. 8388607)
- 2031 compressed objects within 21 object streams
- 432 named destinations out of 1000 (max. 500000)
+ 2249 PDF objects out of 2487 (max. 8388607)
+ 2049 compressed objects within 21 object streams
+ 435 named destinations out of 1000 (max. 500000)
  480 words of extra memory for PDF output out of 10000 (max. 10000000)
 

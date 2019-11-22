@@ -106,19 +106,19 @@ u = Y\frac{v}{K_h} \cdot \left(\frac{K_k}{1-K_k}\right)
 $$
 Substituindo as variáveis endógenas de modo a explicitar apenas em termos de parâmetros e variáveis exógenas,
 $$
-u{\left(t \right)} = - \frac{K_{k} v \left(\phi_{0} - \phi_{1} \left(-1 + \frac{rm + spread_{mo} + 1}{infla + 1}\right)\right)}{\left(1 - K_{k}\right) \left(\alpha \omega - 1 + \frac{v \left(\phi_{0} - \phi_{1} \left(-1 + \frac{rm + spread_{mo} + 1}{infla + 1}\right)\right)}{un}\right)}
+u{\left(t \right)} = - \frac{K_{k} v \left(\phi_{0} - \phi_{1} \left(-1 + \frac{rm + \sigma_{mo} + 1}{\dot p_h + 1}\right)\right)}{\left(1 - K_{k}\right) \left(\alpha \omega - 1 + \frac{v \left(\phi_{0} - \phi_{1} \left(-1 + \frac{rm + \sigma_{mo} + 1}{\dot p_h + 1}\right)\right)}{un}\right)}
 $$
 e resolvendo para o longo prazo
 $$
-\frac{K_{k}}{1 - K_{k}} = \frac{un \left(- \alpha \omega \left(infla + 1\right) + infla + 1\right) - v \left(\phi_{0} \left(infla + 1\right) - \phi_{1} \left(- infla + rm + spread_{mo}\right)\right)}{v \left(\phi_{0} \left(infla + 1\right) - \phi_{1} \left(- infla + rm + spread_{mo}\right)\right)}
+\frac{K_{k}}{1 - K_{k}} = \frac{un \left(- \alpha \omega \left(\dot p_h + 1\right) + \dot p_h + 1\right) - v \left(\phi_{0} \left(\dot p_h + 1\right) - \phi_{1} \left(- \dot p_h + rm + \sigma_{mo}\right)\right)}{v \left(\phi_{0} \left(\dot p_h + 1\right) - \phi_{1} \left(- \dot p_h + rm + \sigma_{mo}\right)\right)}
 $$
 Por fim, resolvendo para $K_k$:
 $$
-K_{k} = \frac{un \left(- \alpha \omega \left(infla + 1\right) + infla + 1\right) - v \left(\phi_{0} \left(infla + 1\right) - \phi_{1} \left(- infla + rm + spread_{mo}\right)\right)}{un \left(- \alpha \omega \left(infla + 1\right) + infla + 1\right)}
+K_{k} = \frac{un \left(- \alpha \omega \left(\dot p_h + 1\right) + \dot p_h + 1\right) - v \left(\phi_{0} \left(\dot p_h + 1\right) - \phi_{1} \left(- \dot p_h + rm + \sigma_{mo}\right)\right)}{un \left(- \alpha \omega \left(\dot p_h + 1\right) + \dot p_h + 1\right)}
 $$
 \begin{equation}
 \label{kAnali}
-K_{k} = 1 - \frac{v \left(\phi_{0} - \phi_{1} \left(-1 + \frac{rm + spread_{mo} + 1}{infla + 1}\right)\right)}{un \left(- \alpha \omega + 1\right)}
+K_{k} = 1 - \frac{v \left(\phi_{0} - \phi_{1} \left(-1 + \frac{rm + \sigma_{mo} + 1}{\dot p_h + 1}\right)\right)}{un \left(- \alpha \omega + 1\right)}
 \end{equation}
 Cuja forma simplificada é\footnote{O \textit{script} com as etapas realizadas esta disponível sob solicitação.}:
 $$
@@ -126,21 +126,21 @@ K_k = 1 - \frac{h^*}{(1 - \alpha\cdot\omega)}
 $$
 
 A equação \ref{kAnali} mostra que a participação dos imóveis no estoque de capital total depende 
-positivamente do \textit{spread} bancário da taxa de juros das hipotecas e 
-negativamente do componente autônomo de $g_z$ ($\phi_0$), da inflação de ativos ($infla$) e da distribuição dos salários na renda ($\omega$). Formalmente:
+positivamente do \textit{spread} bancário ($\sigma$) da taxa de juros das hipotecas e 
+negativamente do componente autônomo de $g_z$ ($\phi_0$), da inflação de ativos ($\dot p_h$) e da distribuição dos salários na renda ($\omega$). Formalmente:
 \begin{equation}
 \frac{\partial K_k}{\partial \phi_0} = \frac{v}{un \left(\alpha \omega - 1\right)} < 0
 \end{equation}
 \begin{equation}
-\frac{\partial K_k}{\partial infla} = \frac{\phi_{1} v \left(rm + spread_{mo} + 1\right)}{un \left(infla + 1\right)^{2} \left(\alpha \omega - 1\right)} < 0
+\frac{\partial K_k}{\partial \dot p_h} = \frac{\phi_{1} v \left(rm + \sigma_{mo} + 1\right)}{un \left(\dot p_h + 1\right)^{2} \left(\alpha \omega - 1\right)} < 0
 \end{equation}
 \begin{equation}
-\frac{\partial K_k}{\partial \omega} = - \frac{\alpha v \left(\phi_{0} \left(infla + 1\right) - \phi_{1} \left(- infla + rm + spread_{mo}\right)\right)}{un \left(infla + 1\right) \left(\alpha \omega - 1\right)^{2}} < 0
+\frac{\partial K_k}{\partial \omega} = - \frac{\alpha v \left(\phi_{0} \left(\dot p_h + 1\right) - \phi_{1} \left(- \dot p_h + rm + \sigma_{mo}\right)\right)}{un \left(\dot p_h + 1\right) \left(\alpha \omega - 1\right)^{2}} < 0
 \end{equation}
 \begin{equation}
-\frac{\partial K_k}{\partial spread_{mo}} = - \frac{\phi_{1} v}{un \left(infla + 1\right) \left(\alpha \omega - 1\right)} > 0
+\frac{\partial K_k}{\partial \sigma_{mo}} = - \frac{\phi_{1} v}{un \left(\dot p_h + 1\right) \left(\alpha \omega - 1\right)} > 0
 \end{equation}
 Tais resultados, apesar de contra intuitivos, estão em linha com o supermultiplicador sraffiano uma vez que quanto maior $g_z$, menor será a participação dos gastos autônomos na renda e que mudanças na distribuição (isto é, alterações no multiplicador) terão efeito nível, alterando apenas a composição dos diferentes tipos de estoque de capital. 
 
 
-
+NORMAS ESTOQUE FLUXO

@@ -2299,6 +2299,38 @@
       \verb http://www.sciencedirect.com/science/article/pii/009411909190016Z
       \endverb
     \endentry
+    \entry{duesenberry_investment_1958}{incollection}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=293f2b8ea3318902aabca08bb732e9c6}{%
+           family={Duesenberry},
+           familyi={D\bibinitperiod},
+           given={James\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {McGraw-Hill}%
+      }
+      \strng{namehash}{293f2b8ea3318902aabca08bb732e9c6}
+      \strng{fullhash}{293f2b8ea3318902aabca08bb732e9c6}
+      \strng{bibnamehash}{293f2b8ea3318902aabca08bb732e9c6}
+      \strng{authorbibnamehash}{293f2b8ea3318902aabca08bb732e9c6}
+      \strng{authornamehash}{293f2b8ea3318902aabca08bb732e9c6}
+      \strng{authorfullhash}{293f2b8ea3318902aabca08bb732e9c6}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Business cycle and economic growth}
+      \field{series}{Economic {Handbook} {Series}}
+      \field{title}{Investment in housing}
+      \field{year}{1958}
+      \verb{file}
+      \verb Duesenberry - 1958 - Investment in housing.pdf:/home/gpetrini/Zotero/storage/7P4GZYGI/Duesenberry - 1958 - Investment in housing.pdf:application/pdf
+      \endverb
+    \endentry
     \entry{dutt_stagnation_1984}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=1c034b52dfa023b69b074711019bf416}{%
@@ -3566,6 +3598,55 @@
       \endverb
       \keyw{Capacity Utilization,Economic Growth,Neo-Kaleckian model,Normal Rate of Utilization}
     \endentry
+    \entry{godley_money_1996}{report}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=f6bfabc3bb1587ddfc005f7ede21614c}{%
+           family={Godley},
+           familyi={G\bibinitperiod},
+           given={Wynne},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Levy Economics Institute}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{f6bfabc3bb1587ddfc005f7ede21614c}
+      \strng{fullhash}{f6bfabc3bb1587ddfc005f7ede21614c}
+      \strng{bibnamehash}{f6bfabc3bb1587ddfc005f7ede21614c}
+      \strng{authorbibnamehash}{f6bfabc3bb1587ddfc005f7ede21614c}
+      \strng{authornamehash}{f6bfabc3bb1587ddfc005f7ede21614c}
+      \strng{authorfullhash}{f6bfabc3bb1587ddfc005f7ede21614c}
+      \field{extraname}{1}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{No abstract is available for this item.}
+      \field{month}{6}
+      \field{number}{wp\_167}
+      \field{shorttitle}{Money, {Finance} and {National} {Income} {Determination}}
+      \field{title}{Money, {Finance} and {National} {Income} {Determination}: {An} {Integrated} {Approach}}
+      \field{type}{techreport}
+      \field{urlday}{31}
+      \field{urlmonth}{8}
+      \field{urlyear}{2019}
+      \field{year}{1996}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Fullext PDF:/home/gpetrini/Zotero/storage/WQYDMAYC/Godley - 1996 - Money, Finance and National Income Determination .pdf:application/pdf;Snapshot:/home/gpetrini/Zotero/storage/3DKZ332Q/wp_167.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://ideas.repec.org/p/lev/wrkpap/wp_167.html
+      \endverb
+      \verb{url}
+      \verb https://ideas.repec.org/p/lev/wrkpap/wp_167.html
+      \endverb
+    \endentry
     \entry{godley_money_1999}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=f6bfabc3bb1587ddfc005f7ede21614c}{%
@@ -3584,7 +3665,7 @@
       \strng{authorbibnamehash}{f6bfabc3bb1587ddfc005f7ede21614c}
       \strng{authornamehash}{f6bfabc3bb1587ddfc005f7ede21614c}
       \strng{authorfullhash}{f6bfabc3bb1587ddfc005f7ede21614c}
-      \field{extraname}{1}
+      \field{extraname}{2}
       \field{sortinit}{G}
       \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
       \field{extradate}{1}
@@ -3636,7 +3717,7 @@
       \strng{authorbibnamehash}{f6bfabc3bb1587ddfc005f7ede21614c}
       \strng{authornamehash}{f6bfabc3bb1587ddfc005f7ede21614c}
       \strng{authorfullhash}{f6bfabc3bb1587ddfc005f7ede21614c}
-      \field{extraname}{2}
+      \field{extraname}{3}
       \field{sortinit}{G}
       \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
       \field{extradate}{2}
@@ -3661,6 +3742,42 @@
       \verb{url}
       \verb http://www.levyinstitue.org/publications/seven-unsustainable-processes
       \endverb
+    \endentry
+    \entry{godley_macroeconomics_1983}{book}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=f6bfabc3bb1587ddfc005f7ede21614c}{%
+           family={Godley},
+           familyi={G\bibinitperiod},
+           given={Wynne},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=84ca5cbf5fc4c907f02bf3b4e31b50bf}{%
+           family={Cripps},
+           familyi={C\bibinitperiod},
+           given={Francis},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{9c8ef4d7dc781ccf853f3ff0ba7ca24e}
+      \strng{fullhash}{9c8ef4d7dc781ccf853f3ff0ba7ca24e}
+      \strng{bibnamehash}{9c8ef4d7dc781ccf853f3ff0ba7ca24e}
+      \strng{authorbibnamehash}{9c8ef4d7dc781ccf853f3ff0ba7ca24e}
+      \strng{authornamehash}{9c8ef4d7dc781ccf853f3ff0ba7ca24e}
+      \strng{authorfullhash}{9c8ef4d7dc781ccf853f3ff0ba7ca24e}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Macroeconomics}
+      \field{year}{1983}
     \endentry
     \entry{godley_simple_2007}{article}{}
       \name{author}{2}{}{%
@@ -5037,6 +5154,55 @@
       \endverb
       \verb{url}
       \verb https://www.elgaronline.com/view/journals/ejeep/14-2/ejeep.2017.02.04.xml
+      \endverb
+    \endentry
+    \entry{le_bourva_money_1992}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=6e5495cf6d93d62afde10c5d5c0ff290}{%
+           family={Le\bibnamedelima Bourva},
+           familyi={L\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Jacques},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6e5495cf6d93d62afde10c5d5c0ff290}
+      \strng{fullhash}{6e5495cf6d93d62afde10c5d5c0ff290}
+      \strng{bibnamehash}{6e5495cf6d93d62afde10c5d5c0ff290}
+      \strng{authorbibnamehash}{6e5495cf6d93d62afde10c5d5c0ff290}
+      \strng{authornamehash}{6e5495cf6d93d62afde10c5d5c0ff290}
+      \strng{authorfullhash}{6e5495cf6d93d62afde10c5d5c0ff290}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The standard objections against the quantity theory of money, based on the instability of the velocity of money, are insufficient to discard this long-held monetary theory. The principal criticism of the theory rests on the determination of the money supply. The supply of money is a dependent variable, not an independent one. The demand for credit determines the quantity of money, or at the very least bankers and borrowers share the responsibility. Causality is thus reversed. It is necessary to abandon the concept of money multipliers, which are relics of the quantity theory of money. Bankers can, if they so desirerespond without limitto demands for credit. They are not tied by a fixed amount of pre-existing assets. The goal of the article is to outline an explanation of these statements and provide a vision of monetary theory that is different from that usually taught.}
+      \field{issn}{0953-8259}
+      \field{journaltitle}{Review of Political Economy}
+      \field{month}{1}
+      \field{note}{Original de 1962}
+      \field{number}{4}
+      \field{title}{Money creation and credit multipliers}
+      \field{urlday}{22}
+      \field{urlmonth}{11}
+      \field{urlyear}{2019}
+      \field{volume}{4}
+      \field{year}{1992}
+      \field{urldateera}{ce}
+      \field{pages}{447\bibrangedash 466}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1080/09538259200000029
+      \endverb
+      \verb{file}
+      \verb Snapshot:/home/gpetrini/Zotero/storage/BY87GQLQ/09538259200000029.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1080/09538259200000029
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1080/09538259200000029
       \endverb
     \endentry
     \entry{leamer_housing_2007}{report}{}
@@ -6427,41 +6593,6 @@
       \endverb
       \verb{url}
       \verb https://econpapers.repec.org/article/ouprestud/v_3a29_3ay_3a1962_3ai_3a4_3ap_3a267-279..htm
-      \endverb
-    \endentry
-    \entry{da_silveira_politica_2017}{monography}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=b5b9dc2d7145c343e5d90905b299a21f}{%
-           family={Petrini},
-           familyi={P\bibinitperiod},
-           given={Gabriel},
-           giveni={G\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{institution}{1}{%
-        {Unicamp}%
-      }
-      \list{location}{1}{%
-        {Campinas - SP}%
-      }
-      \strng{namehash}{b5b9dc2d7145c343e5d90905b299a21f}
-      \strng{fullhash}{b5b9dc2d7145c343e5d90905b299a21f}
-      \strng{bibnamehash}{b5b9dc2d7145c343e5d90905b299a21f}
-      \strng{authorbibnamehash}{b5b9dc2d7145c343e5d90905b299a21f}
-      \strng{authornamehash}{b5b9dc2d7145c343e5d90905b299a21f}
-      \strng{authorfullhash}{b5b9dc2d7145c343e5d90905b299a21f}
-      \field{sortinit}{P}
-      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{bookpagination}{sheet}
-      \field{note}{Monografia}
-      \field{title}{Política fiscal e(m) {Grande} {Recessão}: uma análise com {Consistência} entre {Fluxos} e {Estoques}}
-      \field{year}{2017}
-      \verb{file}
-      \verb Da Silveira - 2017 - Política fiscal e(m) Grande Recessão uma análise .pdf:/home/gpetrini/Zotero/storage/J9ZN58MA/Da Silveira - 2017 - Política fiscal e(m) Grande Recessão uma análise .pdf:application/pdf
       \endverb
     \endentry
     \entry{pheng_revisit_1992}{article}{}
