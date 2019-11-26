@@ -398,15 +398,11 @@ library(vars)</code></pre>
 </div>
 <div id="carregando-dados" class="section level1">
 <h1>Carregando dados</h1>
-<pre class="r"><code>df &lt;- read.csv(
-  &quot;/dados/Dissertacao/Modelo/SeriesTemporais/Dados_yeojohnson.csv&quot;,
-  encoding=&quot;UTF-8&quot;, 
-  stringsAsFactors=FALSE
-  )
-df &lt;- ts(data = df, start = c(1987,03), frequency = 4)</code></pre>
-<pre><code>## Warning in data.matrix(data): NAs introduzidos por coerção</code></pre>
-<pre class="r"><code>df &lt;- as.xts(df)
-df &lt;- zoo::na.locf0(df)</code></pre>
+<pre class="r"><code>df &lt;- read.csv(&quot;./Dados_yeojohnson.csv&quot;, encoding=&quot;UTF-8&quot;)
+df &lt;- df[,c(6,7)]
+names(df) &lt;- c(&quot;Taxa.Própria&quot;, &quot;gZ&quot;)
+df &lt;- na.omit(df[,c(&quot;Taxa.Própria&quot;, &quot;gZ&quot;)])
+df &lt;- ts(data = df, start = c(1987,01), frequency = 4)</code></pre>
 <pre class="r"><code>vars::VARselect(df[,c(&#39;gZ&#39;, &#39;Taxa.Própria&#39;)], type = &quot;const&quot;)</code></pre>
 <pre><code>## $selection
 ## AIC(n)  HQ(n)  SC(n) FPE(n) 
@@ -414,52 +410,88 @@ df &lt;- zoo::na.locf0(df)</code></pre>
 ## 
 ## $criteria
 ##                    1             2             3             4
-## AIC(n) -1.479923e+01 -1.484182e+01 -1.489093e+01 -1.496879e+01
-## HQ(n)  -1.474292e+01 -1.474798e+01 -1.475955e+01 -1.479988e+01
-## SC(n)  -1.466059e+01 -1.461077e+01 -1.456745e+01 -1.455289e+01
-## FPE(n)  3.739268e-07  3.583597e-07  3.412442e-07  3.157736e-07
+## AIC(n) -1.476021e+01 -1.480117e+01 -1.483916e+01 -1.491661e+01
+## HQ(n)  -1.470239e+01 -1.470480e+01 -1.470426e+01 -1.474316e+01
+## SC(n)  -1.461778e+01 -1.456379e+01 -1.450683e+01 -1.448933e+01
+## FPE(n)  3.888071e-07  3.732345e-07  3.593858e-07  3.327119e-07
 ##                    5             6             7             8
-## AIC(n) -1.516826e+01 -1.521315e+01 -1.517959e+01 -1.517448e+01
-## HQ(n)  -1.496181e+01 -1.496917e+01 -1.489807e+01 -1.485542e+01
-## SC(n)  -1.465993e+01 -1.461240e+01 -1.448642e+01 -1.438888e+01
-## FPE(n)  2.587890e-07  2.475911e-07  2.562712e-07  2.578890e-07
+## AIC(n) -1.511514e+01 -1.516765e+01 -1.513662e+01 -1.513388e+01
+## HQ(n)  -1.490315e+01 -1.491711e+01 -1.484754e+01 -1.480624e+01
+## SC(n)  -1.459291e+01 -1.455047e+01 -1.442449e+01 -1.432679e+01
+## FPE(n)  2.729435e-07  2.591757e-07  2.676166e-07  2.687124e-07
 ##                    9            10
-## AIC(n) -1.517183e+01 -1.512429e+01
-## HQ(n)  -1.481523e+01 -1.473016e+01
-## SC(n)  -1.429381e+01 -1.415386e+01
-## FPE(n)  2.589604e-07  2.720728e-07</code></pre>
-<pre class="r"><code>jotest=ca.jo(df[,c(&#39;gZ&#39;, &#39;Taxa.Própria&#39;)], type=&quot;trace&quot;, K=6, ecdet=&quot;const&quot;, spec=&quot;longrun&quot;) 
+## AIC(n) -1.512590e+01 -1.508495e+01
+## HQ(n)  -1.475972e+01 -1.468023e+01
+## SC(n)  -1.422386e+01 -1.408796e+01
+## FPE(n)  2.713266e-07  2.832665e-07</code></pre>
+<pre class="r"><code>jotest=ca.jo(df[,c(&#39;gZ&#39;, &#39;Taxa.Própria&#39;)], type=&quot;trace&quot;, K=5, ecdet=&quot;trend&quot;, spec=&quot;longrun&quot;) 
 summary(jotest)</code></pre>
 <pre><code>## 
 ## ###################### 
 ## # Johansen-Procedure # 
 ## ###################### 
 ## 
-## Test type: trace statistic , without linear trend and constant in cointegration 
+## Test type: trace statistic , with linear trend in cointegration 
 ## 
 ## Eigenvalues (lambda):
-## [1] 9.818327e-02 2.466579e-02 1.110223e-16
+## [1] 9.932337e-02 8.251738e-02 2.775558e-17
 ## 
 ## Values of teststatistic and critical values of test:
 ## 
 ##           test 10pct  5pct  1pct
-## r &lt;= 1 |  3.12  7.52  9.24 12.97
-## r = 0  | 16.04 17.85 19.96 24.60
+## r &lt;= 1 | 10.42 10.49 12.25 16.26
+## r = 0  | 23.08 22.76 25.32 30.45
 ## 
 ## Eigenvectors, normalised to first column:
 ## (These are the cointegration relations)
 ## 
-##                      gZ.l6 Taxa.Própria.l6   constant
-## gZ.l6            1.0000000       1.0000000  1.0000000
-## Taxa.Própria.l6  0.2652669      16.2347053  5.6074036
-## constant        -0.1035715      -0.4419324 -0.6157682
+##                       gZ.l5 Taxa.Própria.l5    trend.l5
+## gZ.l5           1.000000000    1.000000e+00  1.00000000
+## Taxa.Própria.l5 6.825290606   -3.237900e-01 -7.74201595
+## trend.l5        0.005177442   -4.222196e-05 -0.05260399
 ## 
 ## Weights W:
 ## (This is the loading matrix)
 ## 
-##                     gZ.l6 Taxa.Própria.l6      constant
-## gZ.d           -0.1442711    -0.001797593 -4.046566e-17
-## Taxa.Própria.d  0.0122497    -0.001140309  1.455084e-17</code></pre>
+##                      gZ.l5 Taxa.Própria.l5     trend.l5
+## gZ.d           -0.11295243     -0.10795190 3.023995e-18
+## Taxa.Própria.d -0.03151788      0.01382608 1.018348e-18</code></pre>
+<pre class="r"><code>PO &lt;- ca.po(df, demean = &quot;trend&quot;, lag = &quot;long&quot;, type=&quot;Pu&quot;)
+summary(PO)</code></pre>
+<pre><code>## 
+## ######################################## 
+## # Phillips and Ouliaris Unit Root Test # 
+## ######################################## 
+## 
+## Test of type Pu 
+## detrending of series with constant and linear trend 
+## 
+## 
+## Call:
+## lm(formula = z[, 1] ~ z[, -1] + trd)
+## 
+## Residuals:
+##       Min        1Q    Median        3Q       Max 
+## -0.028912 -0.010291 -0.001370  0.007718  0.039962 
+## 
+## Coefficients:
+##               Estimate Std. Error t value Pr(&gt;|t|)    
+## (Intercept)  1.358e-01  2.657e-03   51.12   &lt;2e-16 ***
+## z[, -1]     -1.198e-01  8.971e-03  -13.35   &lt;2e-16 ***
+## trd         -7.658e-04  3.472e-05  -22.06   &lt;2e-16 ***
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+## Residual standard error: 0.01414 on 123 degrees of freedom
+## Multiple R-squared:  0.8521, Adjusted R-squared:  0.8497 
+## F-statistic: 354.2 on 2 and 123 DF,  p-value: &lt; 2.2e-16
+## 
+## 
+## Value of test-statistic is: 52.2146 
+## 
+## Critical values of Pu are:
+##                   10pct    5pct    1pct
+## critical values 41.2488 48.8439 65.1714</code></pre>
 </div>
 
 

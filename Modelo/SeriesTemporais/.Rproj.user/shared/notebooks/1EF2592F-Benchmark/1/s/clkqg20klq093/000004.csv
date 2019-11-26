@@ -1,0 +1,16 @@
+"0","library(aTSA)
+"
+"2","
+Attaching package: ‘aTSA’
+
+"
+"2","The following object is masked from ‘package:vars’:
+
+    arch.test
+
+"
+"2","The following object is masked from ‘package:graphics’:
+
+    identify
+
+"

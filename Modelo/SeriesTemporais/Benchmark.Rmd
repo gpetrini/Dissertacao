@@ -14,6 +14,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```{r}
 library(zoo)
 library(xts)
+library(aTSA)
 library(tsDyn)
 library(urca)
 library(vars)
@@ -22,20 +23,26 @@ library(vars)
 # Carregando dados
 
 ```{r}
-df <- read.csv(
-  "/dados/Dissertacao/Modelo/SeriesTemporais/Dados_yeojohnson.csv",
-  encoding="UTF-8", 
-  stringsAsFactors=FALSE
-  )
-df <- ts(data = df, start = c(1987,03), frequency = 4)
-df <- as.xts(df)
-df <- zoo::na.locf0(df)
+df <- read.csv("./Dados_yeojohnson.csv", encoding="UTF-8")
+df <- df[,c(6,7)]
+names(df) <- c("Taxa.Própria", "gZ")
+df <- na.omit(df[,c("Taxa.Própria", "gZ")])
+df <- ts(data = df, start = c(1987,01), frequency = 4)
 ```
 
 ```{r}
 vars::VARselect(df[,c('gZ', 'Taxa.Própria')], type = "const")
-jotest=ca.jo(df[,c('gZ', 'Taxa.Própria')], type="eigen", K=6, ecdet="none", spec="longrun") 
+jotest=ca.jo(df[,c('gZ', 'Taxa.Própria')], type="trace", K=5, ecdet="trend", spec="longrun") 
 summary(jotest)
 ```
 
+```{r}
+PO <- ca.po(df, demean = "trend", lag = "long", type="Pu")
+summary(PO)
+```
+
+
+```{r}
+aTSA::coint.test(df[,2],df[,1], d = 0, output = TRUE)
+```
 
