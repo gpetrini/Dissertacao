@@ -381,6 +381,12 @@ summary {
 <pre><code>## Registered S3 method overwritten by &#39;xts&#39;:
 ##   method     from
 ##   as.zoo.xts zoo</code></pre>
+<pre class="r"><code>library(aTSA)</code></pre>
+<pre><code>## 
+## Attaching package: &#39;aTSA&#39;</code></pre>
+<pre><code>## The following object is masked from &#39;package:graphics&#39;:
+## 
+##     identify</code></pre>
 <pre class="r"><code>library(tsDyn)</code></pre>
 <pre><code>## Registered S3 method overwritten by &#39;quantmod&#39;:
 ##   method            from
@@ -395,36 +401,42 @@ library(vars)</code></pre>
 <pre><code>## Loading required package: strucchange</code></pre>
 <pre><code>## Loading required package: sandwich</code></pre>
 <pre><code>## Loading required package: lmtest</code></pre>
+<pre><code>## 
+## Attaching package: &#39;vars&#39;</code></pre>
+<pre><code>## The following object is masked from &#39;package:aTSA&#39;:
+## 
+##     arch.test</code></pre>
 </div>
 <div id="carregando-dados" class="section level1">
 <h1>Carregando dados</h1>
 <pre class="r"><code>df &lt;- read.csv(&quot;./Dados_yeojohnson.csv&quot;, encoding=&quot;UTF-8&quot;)
-df &lt;- df[,c(6,7)]
-names(df) &lt;- c(&quot;Taxa.Própria&quot;, &quot;gZ&quot;)
-df &lt;- na.omit(df[,c(&quot;Taxa.Própria&quot;, &quot;gZ&quot;)])
-df &lt;- ts(data = df, start = c(1987,01), frequency = 4)</code></pre>
-<pre class="r"><code>vars::VARselect(df[,c(&#39;gZ&#39;, &#39;Taxa.Própria&#39;)], type = &quot;const&quot;)</code></pre>
+df &lt;- df[,c(4:7)]
+names(df) &lt;- c(&quot;Juros&quot;, &quot;Infla&quot;, &quot;Taxa.Própria&quot;, &quot;gZ&quot;)
+df &lt;- na.omit(df[,])
+df &lt;- ts(data = df, start = c(1991,01), frequency = 4)</code></pre>
+<pre class="r"><code>vars::VARselect(df[,c(&#39;gZ&#39;, &#39;Infla&#39;)], type = &quot;const&quot;, exogen = df[, &quot;Juros&quot;])</code></pre>
+<pre><code>## Warning in vars::VARselect(df[, c(&quot;gZ&quot;, &quot;Infla&quot;)], type = &quot;const&quot;, exogen = df[, : No column names supplied in exogen, using: exo1 , instead.</code></pre>
 <pre><code>## $selection
 ## AIC(n)  HQ(n)  SC(n) FPE(n) 
-##      6      6      1      6 
+##      6      1      1      6 
 ## 
 ## $criteria
 ##                    1             2             3             4
-## AIC(n) -1.476021e+01 -1.480117e+01 -1.483916e+01 -1.491661e+01
-## HQ(n)  -1.470239e+01 -1.470480e+01 -1.470426e+01 -1.474316e+01
-## SC(n)  -1.461778e+01 -1.456379e+01 -1.450683e+01 -1.448933e+01
-## FPE(n)  3.888071e-07  3.732345e-07  3.593858e-07  3.327119e-07
+## AIC(n) -1.617417e+01 -1.616162e+01 -1.617696e+01 -1.618782e+01
+## HQ(n)  -1.608982e+01 -1.603510e+01 -1.600826e+01 -1.597695e+01
+## SC(n)  -1.596575e+01 -1.584900e+01 -1.576013e+01 -1.566679e+01
+## FPE(n)  9.455520e-08  9.576816e-08  9.434810e-08  9.338982e-08
 ##                    5             6             7             8
-## AIC(n) -1.511514e+01 -1.516765e+01 -1.513662e+01 -1.513388e+01
-## HQ(n)  -1.490315e+01 -1.491711e+01 -1.484754e+01 -1.480624e+01
-## SC(n)  -1.459291e+01 -1.455047e+01 -1.442449e+01 -1.432679e+01
-## FPE(n)  2.729435e-07  2.591757e-07  2.676166e-07  2.687124e-07
+## AIC(n) -1.628920e+01 -1.629644e+01 -1.626366e+01 -1.620943e+01
+## HQ(n)  -1.603615e+01 -1.600122e+01 -1.592627e+01 -1.582986e+01
+## SC(n)  -1.566396e+01 -1.556699e+01 -1.543001e+01 -1.527157e+01
+## FPE(n)  8.446977e-08  8.397582e-08  8.693424e-08  9.199824e-08
 ##                    9            10
-## AIC(n) -1.512590e+01 -1.508495e+01
-## HQ(n)  -1.475972e+01 -1.468023e+01
-## SC(n)  -1.422386e+01 -1.408796e+01
-## FPE(n)  2.713266e-07  2.832665e-07</code></pre>
-<pre class="r"><code>jotest=ca.jo(df[,c(&#39;gZ&#39;, &#39;Taxa.Própria&#39;)], type=&quot;trace&quot;, K=5, ecdet=&quot;trend&quot;, spec=&quot;longrun&quot;) 
+## AIC(n) -1.620416e+01 -1.617359e+01
+## HQ(n)  -1.578242e+01 -1.570967e+01
+## SC(n)  -1.516209e+01 -1.502731e+01
+## FPE(n)  9.276199e-08  9.599563e-08</code></pre>
+<pre class="r"><code>jotest=ca.jo(df[,c(&#39;gZ&#39;, &#39;Infla&#39;)], type=&quot;trace&quot;, K=5, ecdet=&quot;trend&quot;, spec=&quot;longrun&quot;) 
 summary(jotest)</code></pre>
 <pre><code>## 
 ## ###################### 
@@ -434,29 +446,29 @@ summary(jotest)</code></pre>
 ## Test type: trace statistic , with linear trend in cointegration 
 ## 
 ## Eigenvalues (lambda):
-## [1] 9.932337e-02 8.251738e-02 2.775558e-17
+## [1] 0.09284831 0.06289112 0.00000000
 ## 
 ## Values of teststatistic and critical values of test:
 ## 
 ##           test 10pct  5pct  1pct
-## r &lt;= 1 | 10.42 10.49 12.25 16.26
-## r = 0  | 23.08 22.76 25.32 30.45
+## r &lt;= 1 |  6.82 10.49 12.25 16.26
+## r = 0  | 17.05 22.76 25.32 30.45
 ## 
 ## Eigenvectors, normalised to first column:
 ## (These are the cointegration relations)
 ## 
-##                       gZ.l5 Taxa.Própria.l5    trend.l5
-## gZ.l5           1.000000000    1.000000e+00  1.00000000
-## Taxa.Própria.l5 6.825290606   -3.237900e-01 -7.74201595
-## trend.l5        0.005177442   -4.222196e-05 -0.05260399
+##                  gZ.l5    Infla.l5     trend.l5
+## gZ.l5     1.000000e+00 1.000000000   1.00000000
+## Infla.l5 -1.276070e+01 3.080572741 -14.66446324
+## trend.l5 -1.910573e-04 0.000531698   0.03069576
 ## 
 ## Weights W:
 ## (This is the loading matrix)
 ## 
-##                      gZ.l5 Taxa.Própria.l5     trend.l5
-## gZ.d           -0.11295243     -0.10795190 3.023995e-18
-## Taxa.Própria.d -0.03151788      0.01382608 1.018348e-18</code></pre>
-<pre class="r"><code>PO &lt;- ca.po(df, demean = &quot;trend&quot;, lag = &quot;long&quot;, type=&quot;Pu&quot;)
+##               gZ.l5     Infla.l5      trend.l5
+## gZ.d    -0.03722499 -0.095670875 -8.005559e-19
+## Infla.d  0.01478845 -0.004874528  6.330400e-20</code></pre>
+<pre class="r"><code>PO &lt;- ca.po(df[,c(&quot;gZ&quot;, &quot;Infla&quot;)], demean = &quot;trend&quot;, lag = &quot;long&quot;, type=&quot;Pu&quot;)
 summary(PO)</code></pre>
 <pre><code>## 
 ## ######################################## 
@@ -471,27 +483,50 @@ summary(PO)</code></pre>
 ## lm(formula = z[, 1] ~ z[, -1] + trd)
 ## 
 ## Residuals:
-##       Min        1Q    Median        3Q       Max 
-## -0.028912 -0.010291 -0.001370  0.007718  0.039962 
+##      Min       1Q   Median       3Q      Max 
+## -0.20099 -0.07419 -0.01682  0.06733  0.23821 
 ## 
 ## Coefficients:
 ##               Estimate Std. Error t value Pr(&gt;|t|)    
-## (Intercept)  1.358e-01  2.657e-03   51.12   &lt;2e-16 ***
-## z[, -1]     -1.198e-01  8.971e-03  -13.35   &lt;2e-16 ***
-## trd         -7.658e-04  3.472e-05  -22.06   &lt;2e-16 ***
+## (Intercept)  0.0920893  0.0208457   4.418  2.4e-05 ***
+## z[, -1]      8.4739435  0.8575077   9.882  &lt; 2e-16 ***
+## trd         -0.0005352  0.0003079  -1.738   0.0851 .  
 ## ---
 ## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
 ## 
-## Residual standard error: 0.01414 on 123 degrees of freedom
-## Multiple R-squared:  0.8521, Adjusted R-squared:  0.8497 
-## F-statistic: 354.2 on 2 and 123 DF,  p-value: &lt; 2.2e-16
+## Residual standard error: 0.1024 on 107 degrees of freedom
+## Multiple R-squared:  0.4891, Adjusted R-squared:  0.4796 
+## F-statistic: 51.23 on 2 and 107 DF,  p-value: 2.476e-16
 ## 
 ## 
-## Value of test-statistic is: 52.2146 
+## Value of test-statistic is: 36.3774 
 ## 
 ## Critical values of Pu are:
 ##                   10pct    5pct    1pct
 ## critical values 41.2488 48.8439 65.1714</code></pre>
+<pre class="r"><code>aTSA::coint.test(y = df[,&quot;gZ&quot;], X = df[,&quot;Infla&quot;], d = 0, output = TRUE)</code></pre>
+<pre><code>## Response: df[, &quot;gZ&quot;] 
+## Input: df[, &quot;Infla&quot;] 
+## Number of inputs: 1 
+## Model: y ~ X + 1 
+## ------------------------------- 
+## Engle-Granger Cointegration Test 
+## alternative: cointegrated 
+## 
+## Type 1: no trend 
+##     lag      EG p.value 
+##    4.00   -4.20    0.01 
+## ----- 
+##  Type 2: linear trend 
+##     lag      EG p.value 
+##   4.000  -0.599   0.100 
+## ----- 
+##  Type 3: quadratic trend 
+##     lag      EG p.value 
+##   4.000  -0.469   0.100 
+## ----------- 
+## Note: p.value = 0.01 means p.value &lt;= 0.01 
+##     : p.value = 0.10 means p.value &gt;= 0.10</code></pre>
 </div>
 
 

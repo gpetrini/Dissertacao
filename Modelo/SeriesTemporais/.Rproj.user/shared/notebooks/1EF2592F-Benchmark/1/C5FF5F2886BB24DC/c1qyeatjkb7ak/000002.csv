@@ -1,0 +1,3 @@
+"0","model <- tsDyn::VECM(data = df[,c(""Infla"", ""gZ"")], lag = 4, r = 1, estim = ""ML"", exogen=df[,""Juros""])"
+"2","Error in apply(x, 2, tail, n, ...) : dim(X) must have a positive length
+"

@@ -46,3 +46,7 @@ summary(PO)
 aTSA::coint.test(y = df[,"gZ"], X = df[,"Infla"], d = 0, output = TRUE)
 ```
 
+```{r}
+model <- tsDyn::VECM(data = df[,c("Infla", "gZ")], lag = 4, r = 1, estim = "ML", exogen=df[,"Juros"])
+```
+

@@ -1,16 +1,19 @@
-"0","library(aTSA)
+"0","library(vars)
+"
+"2","Carregando pacotes exigidos: MASS
+"
+"2","Carregando pacotes exigidos: strucchange
+"
+"2","Carregando pacotes exigidos: sandwich
+"
+"2","Carregando pacotes exigidos: lmtest
 "
 "2","
-Attaching package: ‘aTSA’
+Attaching package: ‘vars’
 
 "
-"2","The following object is masked from ‘package:vars’:
+"2","The following object is masked from ‘package:aTSA’:
 
     arch.test
-
-"
-"2","The following object is masked from ‘package:graphics’:
-
-    identify
 
 "
