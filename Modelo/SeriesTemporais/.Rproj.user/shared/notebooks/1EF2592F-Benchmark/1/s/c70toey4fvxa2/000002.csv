@@ -1,0 +1,22 @@
+"0","vars::serial.test(
+  model.coint %>%  vars::vec2var(),
+  lags.pt=8, 
+  type='BG'
+  )
+"
+"1","
+"
+"1","	Breusch-Godfrey LM test"
+"1","
+"
+"1","
+"
+"1","data:  "
+"1","Residuals of VAR object model.coint %>% vars::vec2var()"
+"1","
+"
+"1","Chi-squared = 35.068, df = 20, p-value = 0.01974"
+"1","
+"
+"1","
+"

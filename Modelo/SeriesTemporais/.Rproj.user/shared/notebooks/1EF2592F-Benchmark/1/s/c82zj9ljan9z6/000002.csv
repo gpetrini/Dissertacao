@@ -1,5 +1,0 @@
-"0","df <- read.csv(""./Dados_yeojohnson.csv"", encoding=""UTF-8"")"
-"0","df <- df[,c(6,7)]"
-"0","names(df) <- c(""Taxa.Própria"", ""gZ"")"
-"0","df <- na.omit(df[,c(""Taxa.Própria"", ""gZ"")])"
-"0","df <- ts(data = df, start = c(1987,01), frequency = 4)"

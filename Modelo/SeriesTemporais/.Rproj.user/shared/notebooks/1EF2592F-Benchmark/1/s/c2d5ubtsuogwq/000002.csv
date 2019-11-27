@@ -1,0 +1,22 @@
+"0","vars::serial.test(
+  model.coint %>%  vars::vec2var(),
+  lags.pt=8, 
+  type='PT.adjusted'
+  )
+"
+"1","
+"
+"1","	Portmanteau Test (adjusted)"
+"1","
+"
+"1","
+"
+"1","data:  "
+"1","Residuals of VAR object model.coint %>% vars::vec2var()"
+"1","
+"
+"1","Chi-squared = 23.284, df = 18, p-value = 0.1799"
+"1","
+"
+"1","
+"

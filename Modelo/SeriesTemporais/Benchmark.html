@@ -401,43 +401,53 @@ library(vars)</code></pre>
 <pre><code>## Loading required package: strucchange</code></pre>
 <pre><code>## Loading required package: sandwich</code></pre>
 <pre><code>## Loading required package: lmtest</code></pre>
+<pre class="r"><code>library(dplyr)</code></pre>
 <pre><code>## 
-## Attaching package: &#39;vars&#39;</code></pre>
-<pre><code>## The following object is masked from &#39;package:aTSA&#39;:
+## Attaching package: &#39;dplyr&#39;</code></pre>
+<pre><code>## The following object is masked from &#39;package:MASS&#39;:
 ## 
-##     arch.test</code></pre>
+##     select</code></pre>
+<pre><code>## The following objects are masked from &#39;package:xts&#39;:
+## 
+##     first, last</code></pre>
+<pre><code>## The following objects are masked from &#39;package:stats&#39;:
+## 
+##     filter, lag</code></pre>
+<pre><code>## The following objects are masked from &#39;package:base&#39;:
+## 
+##     intersect, setdiff, setequal, union</code></pre>
 </div>
 <div id="carregando-dados" class="section level1">
 <h1>Carregando dados</h1>
-<pre class="r"><code>df &lt;- read.csv(&quot;./Dados_yeojohnson.csv&quot;, encoding=&quot;UTF-8&quot;)
-df &lt;- df[,c(4:7)]
-names(df) &lt;- c(&quot;Juros&quot;, &quot;Infla&quot;, &quot;Taxa.Própria&quot;, &quot;gZ&quot;)
-df &lt;- na.omit(df[,])
-df &lt;- ts(data = df, start = c(1991,01), frequency = 4)</code></pre>
-<pre class="r"><code>vars::VARselect(df[,c(&#39;gZ&#39;, &#39;Infla&#39;)], type = &quot;const&quot;, exogen = df[, &quot;Juros&quot;])</code></pre>
-<pre><code>## Warning in vars::VARselect(df[, c(&quot;gZ&quot;, &quot;Infla&quot;)], type = &quot;const&quot;, exogen = df[, : No column names supplied in exogen, using: exo1 , instead.</code></pre>
-<pre><code>## $selection
-## AIC(n)  HQ(n)  SC(n) FPE(n) 
-##      6      1      1      6 
-## 
-## $criteria
-##                    1             2             3             4
-## AIC(n) -1.617417e+01 -1.616162e+01 -1.617696e+01 -1.618782e+01
-## HQ(n)  -1.608982e+01 -1.603510e+01 -1.600826e+01 -1.597695e+01
-## SC(n)  -1.596575e+01 -1.584900e+01 -1.576013e+01 -1.566679e+01
-## FPE(n)  9.455520e-08  9.576816e-08  9.434810e-08  9.338982e-08
-##                    5             6             7             8
-## AIC(n) -1.628920e+01 -1.629644e+01 -1.626366e+01 -1.620943e+01
-## HQ(n)  -1.603615e+01 -1.600122e+01 -1.592627e+01 -1.582986e+01
-## SC(n)  -1.566396e+01 -1.556699e+01 -1.543001e+01 -1.527157e+01
-## FPE(n)  8.446977e-08  8.397582e-08  8.693424e-08  9.199824e-08
-##                    9            10
-## AIC(n) -1.620416e+01 -1.617359e+01
-## HQ(n)  -1.578242e+01 -1.570967e+01
-## SC(n)  -1.516209e+01 -1.502731e+01
-## FPE(n)  9.276199e-08  9.599563e-08</code></pre>
-<pre class="r"><code>jotest=ca.jo(df[,c(&#39;gZ&#39;, &#39;Infla&#39;)], type=&quot;trace&quot;, K=5, ecdet=&quot;trend&quot;, spec=&quot;longrun&quot;) 
-summary(jotest)</code></pre>
+<pre class="r"><code>df &lt;- read.csv(
+  &quot;/dados/Dissertacao/Modelo/SeriesTemporais/Dados_yeojohnson.csv&quot;,
+  encoding=&quot;UTF-8&quot;, 
+  stringsAsFactors=FALSE
+  )
+df &lt;- ts(data = df, start = c(1992,03), frequency = 4)</code></pre>
+<pre><code>## Warning in data.matrix(data): NAs introduzidos por coerção</code></pre>
+<pre class="r"><code>df &lt;- as.xts(df)
+df &lt;- zoo::na.locf0(df)</code></pre>
+</div>
+<div id="teste-de-cointegracao" class="section level1">
+<h1>Teste de cointegração</h1>
+<pre class="r"><code>vars::VARselect(
+  y = df[,c(&quot;Inflação&quot;, &quot;gZ&quot;)],
+  type = &quot;both&quot;,
+  exogen = df[,c(&quot;Taxa.de.juros&quot;)],
+  lag.max = 12
+)$selection</code></pre>
+<pre><code>## AIC(n)  HQ(n)  SC(n) FPE(n) 
+##      5      1      1      5</code></pre>
+<div id="teste-de-johansen" class="section level2">
+<h2>Teste de Johansen</h2>
+<pre class="r"><code>urca::ca.jo(
+  x = df[,c(&quot;Inflação&quot;, &quot;gZ&quot;)], 
+  type = &quot;trace&quot;, 
+  ecdet = &quot;trend&quot;,
+  spec = &quot;longrun&quot;,
+  K = 4
+) %&gt;% summary()</code></pre>
 <pre><code>## 
 ## ###################### 
 ## # Johansen-Procedure # 
@@ -446,87 +456,46 @@ summary(jotest)</code></pre>
 ## Test type: trace statistic , with linear trend in cointegration 
 ## 
 ## Eigenvalues (lambda):
-## [1] 0.09284831 0.06289112 0.00000000
+## [1] 2.037177e-01 5.141294e-02 5.551115e-17
 ## 
 ## Values of teststatistic and critical values of test:
 ## 
 ##           test 10pct  5pct  1pct
-## r &lt;= 1 |  6.82 10.49 12.25 16.26
-## r = 0  | 17.05 22.76 25.32 30.45
+## r &lt;= 1 |  5.65 10.49 12.25 16.26
+## r = 0  | 30.02 22.76 25.32 30.45
 ## 
 ## Eigenvectors, normalised to first column:
 ## (These are the cointegration relations)
 ## 
-##                  gZ.l5    Infla.l5     trend.l5
-## gZ.l5     1.000000e+00 1.000000000   1.00000000
-## Infla.l5 -1.276070e+01 3.080572741 -14.66446324
-## trend.l5 -1.910573e-04 0.000531698   0.03069576
+##               Inflação.l4         gZ.l4     trend.l4
+## Inflação.l4  1.000000e+00  1.000000e+00  1.000000000
+## gZ.l4       -1.300951e-01 -2.607295e-02  0.134768185
+## trend.l4    -2.141512e-05  4.086791e-05 -0.008350887
 ## 
 ## Weights W:
 ## (This is the loading matrix)
 ## 
-##               gZ.l5     Infla.l5      trend.l5
-## gZ.d    -0.03722499 -0.095670875 -8.005559e-19
-## Infla.d  0.01478845 -0.004874528  6.330400e-20</code></pre>
-<pre class="r"><code>PO &lt;- ca.po(df[,c(&quot;gZ&quot;, &quot;Infla&quot;)], demean = &quot;trend&quot;, lag = &quot;long&quot;, type=&quot;Pu&quot;)
-summary(PO)</code></pre>
-<pre><code>## 
-## ######################################## 
-## # Phillips and Ouliaris Unit Root Test # 
-## ######################################## 
+##            Inflação.l4      gZ.l4     trend.l4
+## Inflação.d -0.04466473 -0.1321764 1.089563e-18
+## gZ.d        2.54907017 -0.9143351 9.977913e-18</code></pre>
+</div>
+<div id="selecao-do-rank" class="section level2">
+<h2>Seleção do rank</h2>
+<pre class="r"><code>tsDyn::rank.select(
+  data = df[,c(&quot;Inflação&quot;, &quot;gZ&quot;)],
+  lag.max = 12,
+  include = &quot;both&quot;
+) %&gt;% summary()</code></pre>
+<pre><code>## Best AIC: rank= 2  lag= 5 
+## Best BIC: rank= 2  lag= 1 
+## Best HQ : rank= 2  lag= 4 
 ## 
-## Test of type Pu 
-## detrending of series with constant and linear trend 
-## 
-## 
-## Call:
-## lm(formula = z[, 1] ~ z[, -1] + trd)
-## 
-## Residuals:
-##      Min       1Q   Median       3Q      Max 
-## -0.20099 -0.07419 -0.01682  0.06733  0.23821 
-## 
-## Coefficients:
-##               Estimate Std. Error t value Pr(&gt;|t|)    
-## (Intercept)  0.0920893  0.0208457   4.418  2.4e-05 ***
-## z[, -1]      8.4739435  0.8575077   9.882  &lt; 2e-16 ***
-## trd         -0.0005352  0.0003079  -1.738   0.0851 .  
-## ---
-## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
-## 
-## Residual standard error: 0.1024 on 107 degrees of freedom
-## Multiple R-squared:  0.4891, Adjusted R-squared:  0.4796 
-## F-statistic: 51.23 on 2 and 107 DF,  p-value: 2.476e-16
-## 
-## 
-## Value of test-statistic is: 36.3774 
-## 
-## Critical values of Pu are:
-##                   10pct    5pct    1pct
-## critical values 41.2488 48.8439 65.1714</code></pre>
-<pre class="r"><code>aTSA::coint.test(y = df[,&quot;gZ&quot;], X = df[,&quot;Infla&quot;], d = 0, output = TRUE)</code></pre>
-<pre><code>## Response: df[, &quot;gZ&quot;] 
-## Input: df[, &quot;Infla&quot;] 
-## Number of inputs: 1 
-## Model: y ~ X + 1 
-## ------------------------------- 
-## Engle-Granger Cointegration Test 
-## alternative: cointegrated 
-## 
-## Type 1: no trend 
-##     lag      EG p.value 
-##    4.00   -4.20    0.01 
-## ----- 
-##  Type 2: linear trend 
-##     lag      EG p.value 
-##   4.000  -0.599   0.100 
-## ----- 
-##  Type 3: quadratic trend 
-##     lag      EG p.value 
-##   4.000  -0.469   0.100 
-## ----------- 
-## Note: p.value = 0.01 means p.value &lt;= 0.01 
-##     : p.value = 0.10 means p.value &gt;= 0.10</code></pre>
+## Best number of lags:
+##     r=0 r=1 r=2
+## AIC   5   4   5
+## BIC   1   1   1
+## HQ    1   1   1</code></pre>
+</div>
 </div>
 
 
