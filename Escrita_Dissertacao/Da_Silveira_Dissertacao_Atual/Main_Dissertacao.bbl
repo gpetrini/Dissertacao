@@ -6452,55 +6452,6 @@
       \verb https://www.tandfonline.com/doi/full/10.1080/0967256032000043814
       \endverb
     \endentry
-    \entry{pariboni_autonomous_2015}{report}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=2f9bd4c18034df22608b6dc96468eae6}{%
-           family={Pariboni},
-           familyi={P\bibinitperiod},
-           given={Riccardo},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{institution}{1}{%
-        {Department of Economics, University of Siena}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{2f9bd4c18034df22608b6dc96468eae6}
-      \strng{fullhash}{2f9bd4c18034df22608b6dc96468eae6}
-      \strng{bibnamehash}{2f9bd4c18034df22608b6dc96468eae6}
-      \strng{authorbibnamehash}{2f9bd4c18034df22608b6dc96468eae6}
-      \strng{authornamehash}{2f9bd4c18034df22608b6dc96468eae6}
-      \strng{authorfullhash}{2f9bd4c18034df22608b6dc96468eae6}
-      \field{extraname}{1}
-      \field{sortinit}{P}
-      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{Within Post-Keynesian macroeconomic theory, the contribution by Marglin and Bhaduri (Marglin and Bhaduri, 1990; Bhaduri and Marglin, 1990) on the relationship between income distribution and growth has progressively asserted itself as a benchmark model, a reference point that has originated and still gives rise to plenty of theoretical and empirical works. Given this popularity, in the related literature it is often claimed that the only open question left is an empirical one - to assess econometrically whether a particular economy is wage or profit-led. In this essay, I will argue that some theoretical issues, related to this model and to the literature inspired by it, can nonetheless be raised. In particular, the treatment of investment appears to be the least convincing aspect of the approach a là Marglin-Bhaduri. More specifically, it seems possible to raise some doubts about an independent long-run influence of the profit rate or of the profit share on investment, influence that is not in general justified or explained in detail by this literature and that to some extent is simply taken for granted. It will be shown that, if the Marglin-Bhaduri model is integrated with an explicit consideration of the autonomous components of demand, income distribution does not exert any permanent influence on the rate of growth of the economy and on the rate of accumulation. Matching this result with the usual assumption, made in Post-Keynesian models of growth and distribution, that capacity utilization is the adjusting variable in equilibrating investment and savings leads to paradoxical results that question the plausibility of an accumulation function like the one used in the Marglin-Bhaduri model.}
-      \field{number}{715}
-      \field{shorttitle}{Autonomous demand and the {Marglin}-{Bhaduri} model}
-      \field{title}{Autonomous demand and the {Marglin}-{Bhaduri} model: a critical note}
-      \field{type}{techreport}
-      \field{urlday}{20}
-      \field{urlmonth}{12}
-      \field{urlyear}{2018}
-      \field{year}{2015}
-      \field{urldateera}{ce}
-      \verb{file}
-      \verb Pariboni - 2015 - Autonomous demand and the Marglin-Bhaduri model a.pdf:/home/gpetrini/Zotero/storage/KVZQ2HSV/Pariboni - 2015 - Autonomous demand and the Marglin-Bhaduri model a.pdf:application/pdf;Snapshot:/home/gpetrini/Zotero/storage/WJ93VZIQ/715.html:text/html
-      \endverb
-      \verb{urlraw}
-      \verb https://ideas.repec.org/p/usi/wpaper/715.html
-      \endverb
-      \verb{url}
-      \verb https://ideas.repec.org/p/usi/wpaper/715.html
-      \endverb
-      \keyw{Income distribution,Growth,Investment function,Marglin-Bhaduri}
-    \endentry
     \entry{pariboni_household_2016}{report}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=2f9bd4c18034df22608b6dc96468eae6}{%
@@ -6525,7 +6476,6 @@
       \strng{authorbibnamehash}{2f9bd4c18034df22608b6dc96468eae6}
       \strng{authornamehash}{2f9bd4c18034df22608b6dc96468eae6}
       \strng{authorfullhash}{2f9bd4c18034df22608b6dc96468eae6}
-      \field{extraname}{2}
       \field{sortinit}{P}
       \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
       \field{extradatescope}{labelyear}
@@ -7588,7 +7538,6 @@
       \field{extraname}{5}
       \field{sortinit}{S}
       \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
-      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -7618,55 +7567,6 @@
       \verb{url}
       \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/meca.12150
       \endverb
-    \endentry
-    \entry{skott_weaknesses_2017}{article}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=7a3f79c18a8c8471ed330097ccf23a15}{%
-           family={Skott},
-           familyi={S\bibinitperiod},
-           given={Peter},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{7a3f79c18a8c8471ed330097ccf23a15}
-      \strng{fullhash}{7a3f79c18a8c8471ed330097ccf23a15}
-      \strng{bibnamehash}{7a3f79c18a8c8471ed330097ccf23a15}
-      \strng{authorbibnamehash}{7a3f79c18a8c8471ed330097ccf23a15}
-      \strng{authornamehash}{7a3f79c18a8c8471ed330097ccf23a15}
-      \strng{authorfullhash}{7a3f79c18a8c8471ed330097ccf23a15}
-      \field{extraname}{6}
-      \field{sortinit}{S}
-      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
-      \field{extradate}{2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{The emphasis in post-Keynesian macroeconomics on wage- versus profit-led growth may not have been helpful. The profit share is not an exogenous variable, and the correlations between the profit share and economic growth can be positive for some exogenous shocks but negative for others. The terminology, second, suggests a unidirectional causality from distribution to aggregate demand while in fact distribution can itself be directly affected by shifts in aggregate demand. The reduced form correlations, third, depend on interactions with the labor market, and a focus on the goods market can be misleading. If, fourth, empirical estimates are taken at face value, the support for wage-led conclusions is much weaker than suggested by the literature. A focus on the growth benefits of a reduction in inequality, finally, makes for an impoverished policy discussion.}
-      \field{journaltitle}{Review of Keynesian Economics}
-      \field{number}{3}
-      \field{title}{Weaknesses of `wage-led growth'}
-      \field{urlday}{12}
-      \field{urlmonth}{9}
-      \field{urlyear}{2018}
-      \field{volume}{5}
-      \field{year}{2017}
-      \field{urldateera}{ce}
-      \field{pages}{336\bibrangedash 359}
-      \range{pages}{24}
-      \verb{doi}
-      \verb 10.4337/roke.2017.03.03
-      \endverb
-      \verb{file}
-      \verb Skott_2017_Weaknesses of ‘wage-led growth’.pdf:/home/gpetrini/Zotero/storage/LCGS7LC2/Skott_2017_Weaknesses of ‘wage-led growth’.pdf:application/pdf;Snapshot:/home/gpetrini/Zotero/storage/GSD5HFTQ/roke.2017.03.03.html:text/html
-      \endverb
-      \verb{urlraw}
-      \verb https://www.elgaronline.com/view/journals/roke/5-3/roke.2017.03.03.xml
-      \endverb
-      \verb{url}
-      \verb https://www.elgaronline.com/view/journals/roke/5-3/roke.2017.03.03.xml
-      \endverb
-      \keyw{REVER}
     \endentry
     \entry{solow_importance_1995}{incollection}{}
       \name{author}{1}{}{%
@@ -8038,6 +7938,56 @@
       \range{pages}{19}
       \verb{file}
       \verb Full Text:/home/gpetrini/Zotero/storage/UL67YXSV/Vianello - 1985 - The pace of accumulation.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{weisskopf_marxian_1979}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=92e6341719ffb50c22936dd3c4347ae2}{%
+           family={Weisskopf},
+           familyi={W\bibinitperiod},
+           given={Thomas\bibnamedelima E.},
+           giveni={T\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{92e6341719ffb50c22936dd3c4347ae2}
+      \strng{fullhash}{92e6341719ffb50c22936dd3c4347ae2}
+      \strng{bibnamehash}{92e6341719ffb50c22936dd3c4347ae2}
+      \strng{authorbibnamehash}{92e6341719ffb50c22936dd3c4347ae2}
+      \strng{authornamehash}{92e6341719ffb50c22936dd3c4347ae2}
+      \strng{authorfullhash}{92e6341719ffb50c22936dd3c4347ae2}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Thomas E. Weisskopf; Marxian crisis theory and the rate of profit in the postwar U.S. economy, Cambridge Journal of Economics, Volume 3, Issue 4, 1 December 19}
+      \field{issn}{0309-166X}
+      \field{journaltitle}{Cambridge Journal of Economics}
+      \field{number}{4}
+      \field{title}{Marxian crisis theory and the rate of profit in the postwar {U}.{S}. economy}
+      \field{urlday}{15}
+      \field{urlmonth}{4}
+      \field{urlyear}{2019}
+      \field{volume}{3}
+      \field{year}{1979}
+      \field{urldateera}{ce}
+      \field{pages}{341\bibrangedash 378}
+      \range{pages}{38}
+      \verb{doi}
+      \verb 10.1093/oxfordjournals.cje.a035429
+      \endverb
+      \verb{file}
+      \verb Snapshot:/home/gpetrini/Zotero/storage/U4MXAEG8/1729922.html:text/html;Weisskopf - 1979 - Marxian crisis theory and the rate of profit in th.pdf:/home/gpetrini/Zotero/storage/NUZ4UKUL/Weisskopf - 1979 - Marxian crisis theory and the rate of profit in th.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://academic.oup.com/cje/article/3/4/341/1729922
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/cje/article/3/4/341/1729922
       \endverb
     \endentry
     \entry{wolfson_irving_1996}{article}{}

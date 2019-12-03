@@ -1,6 +1,6 @@
 
 \section{Instabilidade de Harrod: princípios e provocações}\label{SecHarrod}
-
+%TODO Alterar título após modificações
 %=============== Inicio: Ligação Harrod ============
 
 As origens da teoria macrodinâmica devem, em grande parte, às contribuições de \textcite{harrod_essay_1939} em que extrapola o principio da demanda efetiva formulado por \textcite{keynes_general_1936} para uma economia em crescimento. Tal modelo impôs importantes questões: Existe estabilidade do crescimento no longo pra\-zo? É possível equacionar o crescimento da demanda com o crescimento da capacidade produtiva? Se sim, qual variável acomoda essa adequação? A capacidade produtiva se ajusta à demanda ou o inverso? Os modelos de Cambridge, Oxford e do tipo supermultiplicador responderam essas provocações de formas distintas e serão analisados ao longo desta seção.
@@ -25,8 +25,15 @@ Considerando as hipóteses anteriores, a determinação do produto pelos compone
 \label{Demanda}
 Y = \frac{I}{s}
 \end{equation}
-em que $s$ é a propensão marginal a poupar e $I$ é o investimento.
-O princípio acelerador --- neste caso, acelerador rígido\footnote{Para o caso com acelerador rígido e uma dada propensão marginal a consumir ($c = 1-s$), o consumo é induzido, tem-se:
+em que $s$ é a propensão marginal a poupar e $I$ é o investimento que, por sua vez, determina a taxa de crescimento efetiva da economia ($g_Y$):
+
+\begin{equation}
+\label{crescimento_efetivo}
+	g_Y = \frac{\Delta I}{I_{t-1}}
+\end{equation}
+O princípio acelerador --- neste caso, acelerador rígido\footnote{
+	%TODO Rever pertinência desta nota de rodapé
+	Para o caso com acelerador rígido e uma dada propensão marginal a consumir ($c = 1-s$), o consumo é induzido, tem-se:
 	$$
 	Y = c\cdot Y + v\cdot \Delta Y
 	$$
@@ -35,7 +42,7 @@ O princípio acelerador --- neste caso, acelerador rígido\footnote{Para o caso 
 	\frac{\Delta Y}{Y} = g = \frac{1 - c}{v} = \frac{s}{v}
 	$$
 	que equivale à equação fundamental de Harrod.
-} ---, por sua vez, estabelece que a determinação do investimento decorre das alterações na demanda (efetiva), ou seja, decorre do princípio de ajuste do estoque de capital:
+} ---, por sua vez, estabelece que a determinação do investimento decorre das alterações na demanda (efetiva) por meio do princípio de ajuste do estoque de capital:
 $$
 K = v\cdot Y
 $$
@@ -50,12 +57,12 @@ $$
 %    Y = C + I + Z
 %\end{equation}
 A questão que permeia os modelos analisados são as condições para que exista um crescimento equilibrado da demanda (Eq. \ref{Demanda}) e da capacidade produtiva (Eq. \ref{Oferta}). 
-Argumenta-se que a junção destes dois conceitos permite tratar o Princípio da Demanda Efetiva de forma dinâmica e que esta é a essência do modelo de Harrod cuja Equação fundamental pode ser deduzida da identidade entre poupança ($S$) e investimento:
+Argumenta-se que a junção do acelerador com o multiplicador permite tratar o Princípio da Demanda Efetiva de forma dinâmica e que esta é a essência do modelo de Harrod cuja equação fundamental pode ser deduzida da identidade entre poupança ($S$) e investimento:
 
 $$
 s\cdot Y = S \equiv I
 $$
-Neste ponto, fica evidente que neste modelo a propensão marginal à poupar ($s$) é igual a propensão média à poupar ($S/Y$) na ausência dos gastos autônomos não criadores de capacidade\footnote{As implicações desta igualdade será analisada mais detidamente ao tratar do supermultiplicador sraffiano.}. Em seguida, basta normalizar esta identidade pelo estoque de capital,
+Neste ponto, fica evidente que neste modelo a propensão marginal a poupar ($s$) é igual a propensão média à poupar ($S/Y$) na ausência dos gastos autônomos não criadores de capacidade\footnote{As implicações desta igualdade serão analisadas mais detidamente ao tratar do supermultiplicador sraffiano.}. Em seguida, basta normalizar esta identidade pelo estoque de capital,
 $$
 \frac{I}{K} = s\frac{Y}{K}
 $$
@@ -69,11 +76,26 @@ em que $g_K$ é a taxa de acumulação e $u$ é o grau de utilização da capaci
 $$
 u = \frac{Y}{Y_{FC}}
 $$
-e sua taxa de crescimento pode ser dada por
+e sua taxa de crescimento pode ser dada por\footnote{Isso pode ser indicado a partir da equação que define o grau de utilização:
+	$$
+	u = \frac{Y}{Y_{FC}}
+	$$
+	calculando o diferencial total, obtém-se:
+	$$
+	\Delta u = \frac{\Delta Y}{ Y_{FC}} - \frac{Y\cdot \Delta Y_{FC}}{Y_{FC}^2}
+	$$
+	dividindo por $u_{t-1}$ de modo a obter a taxa de crescimento do grau de utilização:
+	$$
+	\frac{\Delta u}{u_{t-1}} = \frac{\Delta Y}{Y_{t-1}} - \frac{\Delta Y_{FC}}{Y_{FC_{t-1}}}
+	$$
+	Como indicado no texto, quando a demanda e capacidade produtiva crescerem à taxas distintas ($g \neq g_{Y_{FC}}$), o grau de utilização irá necessariamente variar ($g_u \neq 0$).
+}
+%TODO Rever alteração para tempo discreto
 $$
-g_u = g_Y - g_{Y_{FC}}
+\frac{\Delta u}{u_{t-1}} = \frac{\Delta Y}{Y_{t-1}} - \frac{\Delta Y_{FC}}{Y_{FC_{t-1}}}
 $$
-Além disso, para que o grau de utilização se estabilize, é preciso que, no \textit{steady state}, produto e capacidade produtiva cresçam a uma mesma taxa. Com isso, obtém-se a equação fundamental de Harrod:
+Além disso, para que o grau de utilização se estabilize, é preciso que, no \textit{steady state}, produto e capacidade produtiva cresçam a uma mesma taxa. 
+No entanto, não basta que o grau de utilização se estabilize para obter a equação fundamental de Harrod, mas também que o grau de utilização mantenha-se no nível normal:
 
 \begin{equation}
     \label{Fundamental}
@@ -82,7 +104,8 @@ Além disso, para que o grau de utilização se estabilize, é preciso que, no \
 em que $g_w$ é a taxa de crescimento que garante que a demanda e capacidade produtiva cresçam dinamicamente equilibradas. Além disso, pelo grau de utilização estar em seu nível desejado ($u_N$), esta taxa corresponde àquela que os empresários estariam satisfeitos e não haveria razões para alterar seu comportamento e/ou planos de investimento. 
 
 Neste modelo, quando a taxa efetiva é maior (menor) que a taxa garantida, o grau de utilização da capacidade é maior (menor) que o planejado. Nesse caso, as firmas buscam ampliar (reduzir) sua capacidade produtiva com o objetivo que o grau efetivo de utilização da capacidade convirja ao normal. O aumento (redução) da taxa de crescimento do investimento tem um impacto imediato na taxa de crescimento da
-economia e, apenas de depois de alguma defasagem, na taxa de crescimento do estoque de capital. O resultado, portanto, é um grau de utilização da capacidade ainda mais distante do planejado. O problema é justamente que, dado o acelerador rígido, o mecanismo de ajuste do modelo leva a economia cada vez mais distante da sua posição de \textit{steady-state}. A esse processo Harrod (1939) denomina de instabilidade fundamental. Em outras palavras, quando o grau de utilização efetivo se difere do normal ($u\neq u_N$),  a taxa de crescimento efetiva é diferente da garantida e esta diferença se acentua ao longo tempo
+economia e, apenas de depois de alguma defasagem, na taxa de crescimento do estoque de capital. O resultado, portanto, é um grau de utilização da capacidade ainda mais distante do planejado. O problema é justamente que, dado o acelerador rígido, o mecanismo de ajuste do modelo leva a economia cada vez mais distante da sua posição de \textit{steady-state}. A esse processo Harrod (1939) denomina de instabilidade fundamental. Em outras palavras, quando a taxa de crescimento efetiva se difere  da garantida, o grau de utilização efetivo é diferente do normal ($u\neq u_N$) e esta diferença se acentua ao longo tempo.
+
 
 
 %a taxa de crescimento efetiva se afasta da taxa desejada em função da reação do investimento à variações no nível de atividade. Seguindo o princípio acelerador nos moldes de \textcite{harrod_essay_1939}, a resposta a uma sobreutilização da capacidade ($u>1$) é o aumento da taxa de acumulação que, pelo efeito multiplicador gera  demanda, reforçando o mecanismo de descolamento, para então ampliar a capacidade produtiva \cite[p.~12]{serrano_trouble_2017}.  No entanto, uma vez que essas são diferentes, não há um mecanismo de convergência entre elas.
@@ -100,10 +123,13 @@ adiante
 The force  of this  argument [Princípio da instabilidade], however, is somewhat \textbf{weakened} when long-range  capital outlay is taken into account.
 \cite[p.~26, grifos adicionados]{harrod_essay_1939}
 \end{citacao}
-Tal possibilidade, como será discutido adiante, sugere que a instabilidade harrodiana não decorre do princípio de ajuste do estoque de capital, mas sim, da especificação da propensão marginal (e média) a poupar e da rigidez do acelerador. Isso implica que um modelo em que o investimento é induzido pelo princípio do ajuste de estoque de capital não é necessariamente instável.
+Tal possibilidade, como será discutido adiante, sugere que a instabilidade harrodiana pode ser eliminada por meio da inclusão de um componente autônomo ao investimento.
+No entanto, argumenta-se (na seção \ref{SecSuper}) que tal instabilidade não decorre do princípio de ajuste do estoque de capital \textit{per se}, mas sim, da especificação da propensão marginal (e média) a poupar e da rigidez do acelerador. Isso implica que um modelo em que o investimento é induzido pelo princípio do ajuste de estoque de capital não é necessariamente instável.
 
 Uma observação importante é que apesar de \textcite[p.~23]{harrod_essay_1939} afirmar que existe uma única taxa de crescimento garantida, \textcite[p.~83]{robinson_model_1962} alerta que isso não implica que o investimento % Usado como sinônimo de crescimento
-deve se adequar a propensão marginal a poupar determinada \textit{a priori}. Argumenta que os modelos liderados pela demanda devem ser avaliados pelas respectivas formas de induzir o investimento uma vez que o Princípio da Demanda Efetiva é o denominador comum entre eles. Portanto, dadas as hipóteses compartilhadas, os respectivos  fechamentos\footnote{Entende-se por fechamento como variável que assume valores economicamente relevantes de tal forma a tornar determinada relação (e.g. taxa de lucro) válida. Em outras palavras, trata-se da última variável que é resolvida endogenamente. Desse modo, dizer que o fechamento de um modelo é estabelecido por uma variável (digamos, $j$) implica dizer que $j$ é endógena. Além disso, por se tratar de um modelo generalizante de crescimento, dizer que distribuição de renda é exógena significa em ausência de simultaneidade entre distribuição e acumulação.} permitem uma análise comparativa e por isso será adotada adiante. Para isso, a equação fundamental de Harrod é rearranjada para explicitar algumas relações.
+deve se adequar a propensão marginal a poupar determinada \textit{a priori}. Argumenta que os modelos liderados pela demanda devem ser avaliados pelas respectivas formas de induzir o investimento\footnote{
+	No original: ``\textit{The Keynesian models can be classified classified according to the assumption made about about the inducement to invest}.''
+} uma vez que o Princípio da Demanda Efetiva é o denominador comum entre eles. Portanto, dadas as hipóteses compartilhadas, os respectivos  fechamentos\footnote{Entende-se por fechamento como variável que assume valores economicamente relevantes de tal forma a tornar determinada relação (e.g. taxa de lucro) válida. Em outras palavras, trata-se da última variável que é resolvida endogenamente. Desse modo, dizer que o fechamento de um modelo é estabelecido por uma variável (digamos, $j$) implica dizer que $j$ é endógena. Além disso, por se tratar de um modelo generalizante de crescimento, dizer que distribuição de renda é exógena significa em ausência de simultaneidade entre distribuição e acumulação.} permitem uma análise comparativa e por isso será adotada adiante. Para isso, a equação fundamental de Harrod é rearranjada para explicitar algumas relações.
 
 
 As hipóteses enunciadas anteriormente são preservadas para evitar repetições desnecessárias. Adicionalmente, inclui-se a possibilidade de existência de gastos autônomos não criadores de capacidade produtiva para garantir a comparação entre os modelos analisados. Com essa hipótese adicional, a propensão média à poupar torna-se uma função tanto dos gastos autônomos ($Z$) quanto do produto:
@@ -120,7 +146,7 @@ de modo que será igual a unidade quando forem idênticas. Nesses termos, a equa
 
 \begin{equation}
  \label{EqGeral}   
-g_K = g_w = f\frac{s\cdot u_N}{\overline v}
+g_K = g_w = f\frac{s\cdot u_N}{v}
 \end{equation}
 
 A equação acima permite comparar os modelos\footnote{Por padrão, as variáveis/parâmetros exógenos serão, $j$ por exemplo, serão denotados como $\overline j$.} analisados de modo a destacar a variável que garanta, 
