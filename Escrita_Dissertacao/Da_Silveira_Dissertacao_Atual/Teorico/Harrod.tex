@@ -1,9 +1,9 @@
 
-\section{Instabilidade de Harrod: princípios e provocações}\label{SecHarrod}
+\section{Da instabilidade de Harrod à estabilidade fundamental}\label{SecHarrod}
 %TODO Alterar título após modificações
 %=============== Inicio: Ligação Harrod ============
 
-As origens da teoria macrodinâmica devem, em grande parte, às contribuições de \textcite{harrod_essay_1939} em que extrapola o principio da demanda efetiva formulado por \textcite{keynes_general_1936} para uma economia em crescimento. Tal modelo impôs importantes questões: Existe estabilidade do crescimento no longo pra\-zo? É possível equacionar o crescimento da demanda com o crescimento da capacidade produtiva? Se sim, qual variável acomoda essa adequação? A capacidade produtiva se ajusta à demanda ou o inverso? Os modelos de Cambridge, Oxford e do tipo supermultiplicador responderam essas provocações de formas distintas e serão analisados ao longo desta seção.
+As origens da teoria macrodinâmica devem, em grande parte, às contribuições de \textcite{harrod_essay_1939} em que extrapola o princípio da demanda efetiva formulado por \textcite{keynes_general_1936} para uma economia em crescimento. Tal modelo impôs importantes questões: Existe estabilidade do crescimento no longo pra\-zo? É possível equacionar o crescimento da demanda com o crescimento da capacidade produtiva? Se sim, qual variável acomoda essa adequação? A capacidade produtiva se ajusta à demanda ou o inverso? Os modelos de Cambridge, Oxford e do tipo supermultiplicador responderam essas provocações de formas distintas e serão analisados ao longo desta seção.
 
 Para evitar redundâncias, são apresentadas as hipóteses que permeiam as famílias de modelos aqui avaliadas. 
 A presente exposição prioriza a parcimônia e, portanto, trata-se de uma economia sem relações externas e sem governo em que tanto progresso tecnológico quanto retornos crescentes de escala estão ausentes. Além do PDE, o que torna os modelos em questão consistentes é o abandono da substitutibilidade entre capital e trabalho e, portanto, adota-se uma função de produção \textit{à la} Leontief em que existem dois produtos potenciais: plena capacidade ($Y_K$) e pleno emprego ($Y_L$) de modo que o produto potencial ($Y_{FC}$) é determinado por:
@@ -31,23 +31,12 @@ em que $s$ é a propensão marginal a poupar e $I$ é o investimento que, por su
 \label{crescimento_efetivo}
 	g_Y = \frac{\Delta I}{I_{t-1}}
 \end{equation}
-O princípio acelerador --- neste caso, acelerador rígido\footnote{
-	%TODO Rever pertinência desta nota de rodapé
-	Para o caso com acelerador rígido e uma dada propensão marginal a consumir ($c = 1-s$), o consumo é induzido, tem-se:
-	$$
-	Y = c\cdot Y + v\cdot \Delta Y
-	$$
-	rearranjando, obtém-se:
-	$$
-	\frac{\Delta Y}{Y} = g = \frac{1 - c}{v} = \frac{s}{v}
-	$$
-	que equivale à equação fundamental de Harrod.
-} ---, por sua vez, estabelece que a determinação do investimento decorre das alterações na demanda (efetiva) por meio do princípio de ajuste do estoque de capital:
+O princípio acelerador --- neste caso, acelerador rígido ---, por sua vez, estabelece que a determinação do investimento decorre das alterações na demanda (efetiva) por meio do princípio de ajuste do estoque de capital:
 $$
 K = v\cdot Y
 $$
 \begin{equation}
-\Delta K = I = \overline{v}\Delta Y
+\Delta K = I = v\Delta Y
 \end{equation}
 
 
@@ -94,8 +83,8 @@ e sua taxa de crescimento pode ser dada por\footnote{Isso pode ser indicado a pa
 $$
 \frac{\Delta u}{u_{t-1}} = \frac{\Delta Y}{Y_{t-1}} - \frac{\Delta Y_{FC}}{Y_{FC_{t-1}}}
 $$
-Além disso, para que o grau de utilização se estabilize, é preciso que, no \textit{steady state}, produto e capacidade produtiva cresçam a uma mesma taxa. 
-No entanto, não basta que o grau de utilização se estabilize para obter a equação fundamental de Harrod, mas também que o grau de utilização mantenha-se no nível normal:
+e evidencia que para que o grau de utilização se estabilize, é preciso que, no \textit{steady state}, produto e capacidade produtiva cresçam a uma mesma taxa. 
+No entanto, não basta que o grau de utilização se estabilize para obter a equação fundamental de Harrod, mas também que o grau de utilização mantenha-se no nível normal ($u_N$):
 
 \begin{equation}
     \label{Fundamental}
@@ -127,7 +116,7 @@ Tal possibilidade, como será discutido adiante, sugere que a instabilidade harr
 No entanto, argumenta-se (na seção \ref{SecSuper}) que tal instabilidade não decorre do princípio de ajuste do estoque de capital \textit{per se}, mas sim, da especificação da propensão marginal (e média) a poupar e da rigidez do acelerador. Isso implica que um modelo em que o investimento é induzido pelo princípio do ajuste de estoque de capital não é necessariamente instável.
 
 Uma observação importante é que apesar de \textcite[p.~23]{harrod_essay_1939} afirmar que existe uma única taxa de crescimento garantida, \textcite[p.~83]{robinson_model_1962} alerta que isso não implica que o investimento % Usado como sinônimo de crescimento
-deve se adequar a propensão marginal a poupar determinada \textit{a priori}. Argumenta que os modelos liderados pela demanda devem ser avaliados pelas respectivas formas de induzir o investimento\footnote{
+deve se adequar a propensão marginal a poupar determinada \textit{a priori}. Argumenta que os modelos liderados pela demanda devem ser avaliados pelas respectivas formas de determinar o investimento\footnote{
 	No original: ``\textit{The Keynesian models can be classified classified according to the assumption made about about the inducement to invest}.''
 } uma vez que o Princípio da Demanda Efetiva é o denominador comum entre eles. Portanto, dadas as hipóteses compartilhadas, os respectivos  fechamentos\footnote{Entende-se por fechamento como variável que assume valores economicamente relevantes de tal forma a tornar determinada relação (e.g. taxa de lucro) válida. Em outras palavras, trata-se da última variável que é resolvida endogenamente. Desse modo, dizer que o fechamento de um modelo é estabelecido por uma variável (digamos, $j$) implica dizer que $j$ é endógena. Além disso, por se tratar de um modelo generalizante de crescimento, dizer que distribuição de renda é exógena significa em ausência de simultaneidade entre distribuição e acumulação.} permitem uma análise comparativa e por isso será adotada adiante. Para isso, a equação fundamental de Harrod é rearranjada para explicitar algumas relações.
 
@@ -138,7 +127,7 @@ As hipóteses enunciadas anteriormente são preservadas para evitar repetições
 \label{Poupanca_Super}
     \frac{S}{Y} = s - \frac{Z}{Y}
 \end{equation}
-Seguindo a notação de \textcite{serrano_sraffian_1995}, seja $f$ a relação entre propensão média e marginal a poupar
+Seguindo a exposição de \textcite{serrano_sraffian_1995}, seja $f$ a relação entre propensão média e marginal a poupar
 $$
 f = \frac{\frac{S}{Y}}{s}
 $$

@@ -3382,6 +3382,63 @@
       \verb http://www.tandfonline.com/doi/full/10.1080/09538259.2015.1026096
       \endverb
     \endentry
+    \entry{halevi_notes_2014}{incollection}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=2f230b23c32e355ce59f9edd3ff8cfad}{%
+           family={Garegnani},
+           familyi={G\bibinitperiod},
+           given={Pireangelo},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=da3dcb0b473e9cd519b2b28d4a11d670}{%
+           family={Halevi},
+           familyi={H\bibinitperiod},
+           given={Joseph},
+           giveni={J\bibinitperiod}}}%
+        {{hash=d38dbe5367bc15edb27f6839b217d664}{%
+           family={Laibman},
+           familyi={L\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=94736bf00c988867aa83bc64ae57b058}{%
+           family={Nell},
+           familyi={N\bibinitperiod},
+           given={Edward\bibnamedelima J.},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {Palgrave Macmillan}%
+      }
+      \strng{namehash}{2f230b23c32e355ce59f9edd3ff8cfad}
+      \strng{fullhash}{2f230b23c32e355ce59f9edd3ff8cfad}
+      \strng{bibnamehash}{2f230b23c32e355ce59f9edd3ff8cfad}
+      \strng{authorbibnamehash}{2f230b23c32e355ce59f9edd3ff8cfad}
+      \strng{authornamehash}{2f230b23c32e355ce59f9edd3ff8cfad}
+      \strng{authorfullhash}{2f230b23c32e355ce59f9edd3ff8cfad}
+      \strng{editorbibnamehash}{8e835a87ee16e28c2aeee511a2ed1822}
+      \strng{editornamehash}{8e835a87ee16e28c2aeee511a2ed1822}
+      \strng{editorfullhash}{8e835a87ee16e28c2aeee511a2ed1822}
+      \field{extraname}{3}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Beyond the steady state: a revival of growth theory.}
+      \field{isbn}{978-1-349-10952-4}
+      \field{note}{1992}
+      \field{title}{Some {Notes} for an {Analysis} of {Accumulation}}
+      \field{year}{2014}
+      \verb{file}
+      \verb Halevi - 2014 - Beyond the steady state a revival of growth theor.pdf:/home/gpetrini/Zotero/storage/W4EX5N8E/Halevi - 2014 - Beyond the steady state a revival of growth theor.pdf:application/pdf
+      \endverb
+    \endentry
     \entry{girardi_autonomous_2015}{report}{}
       \name{author}{2}{}{%
         {{uniquename=0,uniquepart=base,hash=1dc45538fc8bba9414c9ffb15840498b}{%
