@@ -42,34 +42,38 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.2}Investimento residencial e a lacuna heterodoxa}{57}{section.3.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Modelo}{62}{section.3.3}% 
+\contentsline {subsection}{\numberline {3.2.1}Fatos estilizados da economia norte-americana}{57}{subsection.3.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Considera\IeC {\c c}\IeC {\~o}es finais: Da taxa pr\IeC {\'o}pria aos pre\IeC {\c c}os dos im\IeC {\'o}veis}{70}{section.3.4}% 
+\contentsline {subsection}{\numberline {3.2.2}Investimento residencial nos modelos macroeconom\IeC {\'e}tricos}{61}{subsection.3.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\chapternumberline {4}Modelo SFC}{72}{chapter.4}% 
+\contentsline {section}{\numberline {3.3}Modelo econom\IeC {\'e}trico}{67}{section.3.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Metodologia SFC: Uma breve introdu\IeC {\c c}\IeC {\~a}o}{73}{section.4.1}% 
+\contentsline {section}{\numberline {3.4}Considera\IeC {\c c}\IeC {\~o}es finais: Da taxa pr\IeC {\'o}pria aos pre\IeC {\c c}os dos im\IeC {\'o}veis}{75}{section.3.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Modelo}{76}{section.4.2}% 
+\contentsline {chapter}{\chapternumberline {4}Modelo SFC}{77}{chapter.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Solu\IeC {\c c}\IeC {\~a}o anal\IeC {\'\i }tica}{84}{section.4.3}% 
+\contentsline {section}{\numberline {4.1}Metodologia SFC: Uma breve introdu\IeC {\c c}\IeC {\~a}o}{78}{section.4.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Simula\IeC {\c c}\IeC {\~a}o e choques}{87}{section.4.4}% 
+\contentsline {section}{\numberline {4.2}Modelo}{81}{section.4.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Conclus\IeC {\~o}es preliminares: Rumo a endogeiniza\IeC {\c c}\IeC {\~a}o dos pre\IeC {\c c}os}{95}{section.4.5}% 
+\contentsline {section}{\numberline {4.3}Solu\IeC {\c c}\IeC {\~a}o anal\IeC {\'\i }tica}{89}{section.4.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Refer\^encias}{97}{section*.36}% 
+\contentsline {section}{\numberline {4.4}Simula\IeC {\c c}\IeC {\~a}o e choques}{92}{section.4.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Ap\IeC {\^e}ndices}{110}{section*.36}% 
+\contentsline {section}{\numberline {4.5}Conclus\IeC {\~o}es preliminares: Rumo a endogeiniza\IeC {\c c}\IeC {\~a}o dos pre\IeC {\c c}os}{100}{section.4.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {appendix}{\chapternumberline {A}\textit {Fraction} e o investimento residencial}{110}{appendix.A}% 
+\contentsline {chapter}{Refer\^encias}{102}{section*.44}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Gastos ``despoupadores''}{110}{section.A.1}% 
+\contentsline {chapter}{Ap\IeC {\^e}ndices}{115}{section*.44}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}Investimento residencial}{111}{section.A.2}% 
+\contentsline {appendix}{\chapternumberline {A}\textit {Fraction} e o investimento residencial}{115}{appendix.A}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Anexos}{113}{equation.A.2.2}% 
+\contentsline {section}{\numberline {A.1}Gastos ``despoupadores''}{115}{section.A.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {appendix}{\chapternumberline {I}Licen\IeC {\c c}a}{113}{appendix.A}% 
+\contentsline {section}{\numberline {A.2}Investimento residencial}{116}{section.A.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {I.1}Sobre a licen\IeC {\c c}a dessa obra}{113}{section.A.1}% 
+\contentsline {chapter}{Anexos}{118}{equation.A.2.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {appendix}{\chapternumberline {I}Licen\IeC {\c c}a}{118}{appendix.A}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {I.1}Sobre a licen\IeC {\c c}a dessa obra}{118}{section.A.1}% 

@@ -66,6 +66,40 @@
       \verb https://journals.sagepub.com/doi/abs/10.1179/102452908X289802
       \endverb
     \endentry
+    \entry{alhowaish_causality_2015}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=d9bd274ba2477ea56e0882b676336fda}{%
+           family={Alhowaish},
+           familyi={A\bibinitperiod},
+           given={Albdulkarim\bibnamedelima K},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{d9bd274ba2477ea56e0882b676336fda}
+      \strng{fullhash}{d9bd274ba2477ea56e0882b676336fda}
+      \strng{bibnamehash}{d9bd274ba2477ea56e0882b676336fda}
+      \strng{authorbibnamehash}{d9bd274ba2477ea56e0882b676336fda}
+      \strng{authornamehash}{d9bd274ba2477ea56e0882b676336fda}
+      \strng{authorfullhash}{d9bd274ba2477ea56e0882b676336fda}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Real Estate Review}
+      \field{title}{Causality between the {Construction} {Sector} and {Economic} {Growth}: {The} {Case} of {Saudi} {Arabia}}
+      \field{year}{2015}
+      \field{pages}{17}
+      \range{pages}{1}
+      \verb{file}
+      \verb Alhowaish - Causality between the Construction Sector and Econ.pdf:/home/gpetrini/Zotero/storage/ICIENA3J/Alhowaish - Causality between the Construction Sector and Econ.pdf:application/pdf
+      \endverb
+      \keyw{Fichado}
+    \endentry
     \entry{allain_tackling_2015}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=b0fc47959800a45f0c22ee1be6802558}{%
@@ -5981,6 +6015,52 @@
       \verb https://doi.org/10.1080/026921799101634
       \endverb
     \endentry
+    \entry{federal_deposit_insurance_corporation_savings_1997}{incollection}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=ba4dc26651eb55aeff31a26a06b12a02}{%
+           family={Moysich},
+           familyi={M\bibinitperiod},
+           given={Alane},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=3f5557ed6c08426539680c4ef34fa5ab}{%
+           family={Corporation},
+           familyi={C\bibinitperiod},
+           given={Federal\bibnamedelimb Deposit\bibnamedelima Insurance},
+           giveni={F\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Washington, DC}%
+      }
+      \list{publisher}{1}{%
+        {FDIC}%
+      }
+      \strng{namehash}{ba4dc26651eb55aeff31a26a06b12a02}
+      \strng{fullhash}{ba4dc26651eb55aeff31a26a06b12a02}
+      \strng{bibnamehash}{ba4dc26651eb55aeff31a26a06b12a02}
+      \strng{authorbibnamehash}{ba4dc26651eb55aeff31a26a06b12a02}
+      \strng{authornamehash}{ba4dc26651eb55aeff31a26a06b12a02}
+      \strng{authorfullhash}{ba4dc26651eb55aeff31a26a06b12a02}
+      \strng{editorbibnamehash}{3f5557ed6c08426539680c4ef34fa5ab}
+      \strng{editornamehash}{3f5557ed6c08426539680c4ef34fa5ab}
+      \strng{editorfullhash}{3f5557ed6c08426539680c4ef34fa5ab}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{History of the {Eighties}: {Lessons} for the {Future}}
+      \field{series}{An {Examination} of the {Banking} {Crises} of the 1980s and {Early} 1990s}
+      \field{title}{The {Savings} and {Loan} {Crisis} and {Its} {Relationship} to {Banking}}
+      \field{volume}{1}
+      \field{year}{1997}
+      \verb{file}
+      \verb Moysich - 1997 - The Savings and Loan Crisis and Its Relationship t.pdf:/home/gpetrini/Zotero/storage/B24TW9LL/Moysich - 1997 - The Savings and Loan Crisis and Its Relationship t.pdf:application/pdf
+      \endverb
+    \endentry
     \entry{nah_long-run_2017}{article}{}
       \name{author}{2}{}{%
         {{uniquename=0,uniquepart=base,hash=0d3c396cbb7451d4f1bc1f21f4968f80}{%
@@ -6181,6 +6261,60 @@
       \verb{file}
       \verb Nikiforos - Some Comments on the Sraffian Supermultiplier Appr.pdf:/home/gpetrini/Zotero/storage/B746UKTZ/Nikiforos - Some Comments on the Sraffian Supermultiplier Appr.pdf:application/pdf
       \endverb
+    \endentry
+    \entry{ofori_testing_2003}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=0047f367ad04ef94d805746063c420b1}{%
+           family={Ofori},
+           familyi={O\bibinitperiod},
+           given={George},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=d9ac6966a854b6f9e8e55ce1f2593a9e}{%
+           family={Han},
+           familyi={H\bibinitperiod},
+           given={Sun\bibnamedelima Sheng},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{85e429a28ee050b214634f925e0c86f8}
+      \strng{fullhash}{85e429a28ee050b214634f925e0c86f8}
+      \strng{bibnamehash}{85e429a28ee050b214634f925e0c86f8}
+      \strng{authorbibnamehash}{85e429a28ee050b214634f925e0c86f8}
+      \strng{authornamehash}{85e429a28ee050b214634f925e0c86f8}
+      \strng{authorfullhash}{85e429a28ee050b214634f925e0c86f8}
+      \field{sortinit}{O}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper examines the relationship between construction activity and economic development at the provincial level in the Peoples’ Republic of China. It also examines variations in the mix of construction outputs among the provinces as they achieve increasing levels of development. It is argued that the analysis of provincial construction outputs and levels of economic development provides additional insights into the debate on the wider relationship between construction activity and economic development as posited by Turin in his seminal studies during the 1960s and 1970s. Since these seminal works many researchers have also sought to explain the relationship between construction activity and economic development. Turin's model is of this relationship and although some studies only provide qualified support for this hypothesis, it is generally agreed that there is a causal link between construction activity and economic development within countries as they develop their economies. Most of these studies have been based on the use of international cross-sectional data from countries at different stages of development to infer an assumed relationship within an individual country over time. In this study, similar data are analyzed to examine these relationships at the provincial level within a large country, each of these provinces being at significantly differing levels of development. Since it adopted policies of economic reform in the late 1970s, China has realized considerable economic progress. However, this has varied significantly among the provinces and regions. Consequently, data demonstrating developments in China's wider economy and its construction activity at the provincial level can be used to test the applicability of the Turin hypothesis within a country that has undergone significant developments over such a short period of time.}
+      \field{issn}{0197-3975}
+      \field{journaltitle}{Habitat International}
+      \field{number}{1}
+      \field{title}{Testing hypotheses on construction and development using data on {China}'s provinces, 1990–2000}
+      \field{urlday}{12}
+      \field{urlmonth}{7}
+      \field{urlyear}{2019}
+      \field{volume}{27}
+      \field{year}{2003}
+      \field{urldateera}{ce}
+      \field{pages}{37\bibrangedash 62}
+      \range{pages}{26}
+      \verb{doi}
+      \verb 10.1016/S0197-3975(02)00034-6
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Snapshot:/home/gpetrini/Zotero/storage/CY3J9AIB/S0197397502000346.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb http://www.sciencedirect.com/science/article/pii/S0197397502000346
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0197397502000346
+      \endverb
+      \keyw{China,Construction,Economic development,Employment,Turin model}
     \endentry
     \entry{onaran_is_2013}{incollection}{}
       \name{author}{2}{}{%

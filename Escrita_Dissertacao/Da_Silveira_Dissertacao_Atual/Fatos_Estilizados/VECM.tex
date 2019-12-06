@@ -1,10 +1,15 @@
-\section{Modelo}
+\section{Modelo econométrico}
 \label{Modelo_empirico}
 
-O modelo a ser estimado pretende testar se a taxa própria de juros dos imóveis contribui para explicar a dinâmica do investimento residencial tal como proposto por \textcite{teixeira_crescimento_2015}. Para isso, foram utilizadas séries trimestrais com ajuste sazonal de 1987 a 2019 (ver gráfico \ref{YeoJhonson}) da taxa de juros das hipotecas fixas em trinta anos (MORTGAGE30US, trimestralizada pela média), investimento residencial (PRFI, em taxa de crescimento) e índice de Case-Shiller (CSUSHPISA, trimestralizada pela média).
-Por se tratar de taxas de crescimento com ampla volatilidade, aplicou-se a transformação de \textcite{yeo_new_2000} para conter a amplitude das séries decorrente da crise imobiliária. A razão de se utilizar tal procedimento e não a transformação de \textcite{box_analysis_1964} é por não se restringir a valores não-negativos. Em seguida, foram realizados testes de cointegração de \textcite{engle_co-integration_1987} bem como o procedimento de \textcite{johansen_estimation_1991} e, a um nível de significância de 5\%, conclui-se que as séries são cointegradas e, portanto, é possível estimar um modelo vetor de correção de erros (VECM)\footnote{Os resultados de todos os testes realizados bem como as rotinas utilizadas estão disponíveis sob solicitação.}.
+O modelo a ser estimado pretende testar se a inflação de ativos (\textit{i.e.} inflação do preço dos imóveis) contribui para explicar a dinâmica do investimento residencial tal como proposto por \textcite{teixeira_crescimento_2015}. 
+Para isso, foram utilizadas séries trimestrais com ajuste sazonal de 1992 a 2019 (ver gráfico \ref{YeoJhonson}) da taxa de juros das hipotecas fixas em trinta anos (MORTGAGE30US, trimestralizada pela média), investimento residencial (PRFI, em taxa de crescimento) e índice de Case-Shiller (CSUSHPISA, trimestralizada pela média).
+
+FDIC e FIRREA
 
 
+Além disso, por se tratar de taxas de crescimento com ampla volatilidade, aplicou-se a transformação de \textcite{yeo_new_2000} para conter a amplitude das séries decorrente da crise imobiliária. A razão de se utilizar tal procedimento e não a transformação de \textcite{box_analysis_1964} é por não se restringir a valores não-negativos. Em seguida, foram realizados testes de cointegração de \textcite{engle_co-integration_1987} bem como o procedimento de \textcite{johansen_estimation_1991} e, a um nível de significância de 5\%, conclui-se que as séries são cointegradas e, portanto, um modelo do tipo vetor de correção de erros (VECM) é a melhor forma de estimação para este caso\footnote{Os resultados de todos os testes realizados bem como as rotinas utilizadas estão disponíveis sob solicitação.}.
+
+%TODO Alterar figura
 \begin{figure}[H]
 	\centering
 	\caption{Séries com transformação de \textcite{yeo_new_2000}}
