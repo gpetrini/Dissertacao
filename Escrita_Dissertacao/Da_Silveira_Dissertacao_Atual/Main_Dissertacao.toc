@@ -46,34 +46,34 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.2}Investimento residencial nos modelos macroeconom\IeC {\'e}tricos}{61}{subsection.3.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Modelo econom\IeC {\'e}trico}{67}{section.3.3}% 
+\contentsline {section}{\numberline {3.3}Modelo econom\IeC {\'e}trico}{68}{section.3.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Considera\IeC {\c c}\IeC {\~o}es finais: Da taxa pr\IeC {\'o}pria aos pre\IeC {\c c}os dos im\IeC {\'o}veis}{75}{section.3.4}% 
+\contentsline {section}{\numberline {3.4}Considera\IeC {\c c}\IeC {\~o}es finais: Da taxa pr\IeC {\'o}pria aos pre\IeC {\c c}os dos im\IeC {\'o}veis}{76}{section.3.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\chapternumberline {4}Modelo SFC}{77}{chapter.4}% 
+\contentsline {chapter}{\chapternumberline {4}Modelo SFC}{78}{chapter.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Metodologia SFC: Uma breve introdu\IeC {\c c}\IeC {\~a}o}{78}{section.4.1}% 
+\contentsline {section}{\numberline {4.1}Metodologia SFC: Uma breve introdu\IeC {\c c}\IeC {\~a}o}{79}{section.4.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Modelo}{81}{section.4.2}% 
+\contentsline {section}{\numberline {4.2}Modelo}{82}{section.4.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Solu\IeC {\c c}\IeC {\~a}o anal\IeC {\'\i }tica}{89}{section.4.3}% 
+\contentsline {section}{\numberline {4.3}Solu\IeC {\c c}\IeC {\~a}o anal\IeC {\'\i }tica}{90}{section.4.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Simula\IeC {\c c}\IeC {\~a}o e choques}{92}{section.4.4}% 
+\contentsline {section}{\numberline {4.4}Simula\IeC {\c c}\IeC {\~a}o e choques}{93}{section.4.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Conclus\IeC {\~o}es preliminares: Rumo a endogeiniza\IeC {\c c}\IeC {\~a}o dos pre\IeC {\c c}os}{100}{section.4.5}% 
+\contentsline {section}{\numberline {4.5}Conclus\IeC {\~o}es preliminares: Rumo a endogeiniza\IeC {\c c}\IeC {\~a}o dos pre\IeC {\c c}os}{101}{section.4.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Refer\^encias}{102}{section*.44}% 
+\contentsline {chapter}{Refer\^encias}{103}{section*.45}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Ap\IeC {\^e}ndices}{115}{section*.44}% 
+\contentsline {chapter}{Ap\IeC {\^e}ndices}{116}{section*.45}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {appendix}{\chapternumberline {A}\textit {Fraction} e o investimento residencial}{115}{appendix.A}% 
+\contentsline {appendix}{\chapternumberline {A}\textit {Fraction} e o investimento residencial}{116}{appendix.A}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Gastos ``despoupadores''}{115}{section.A.1}% 
+\contentsline {section}{\numberline {A.1}Gastos ``despoupadores''}{116}{section.A.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}Investimento residencial}{116}{section.A.2}% 
+\contentsline {section}{\numberline {A.2}Investimento residencial}{117}{section.A.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Anexos}{118}{equation.A.2.2}% 
+\contentsline {chapter}{Anexos}{119}{equation.A.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {appendix}{\chapternumberline {I}Licen\IeC {\c c}a}{118}{appendix.A}% 
+\contentsline {appendix}{\chapternumberline {I}Licen\IeC {\c c}a}{119}{appendix.A}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {I.1}Sobre a licen\IeC {\c c}a dessa obra}{118}{section.A.1}% 
+\contentsline {section}{\numberline {I.1}Sobre a licen\IeC {\c c}a dessa obra}{119}{section.A.1}% 

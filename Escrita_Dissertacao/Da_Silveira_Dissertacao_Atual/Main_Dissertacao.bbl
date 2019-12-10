@@ -3473,6 +3473,65 @@
       \verb Halevi - 2014 - Beyond the steady state a revival of growth theor.pdf:/home/gpetrini/Zotero/storage/W4EX5N8E/Halevi - 2014 - Beyond the steady state a revival of growth theor.pdf:application/pdf
       \endverb
     \endentry
+    \entry{gauger_residential_2003}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=6ee55c6078757c942ba407529c7572a9}{%
+           family={Gauger},
+           familyi={G\bibinitperiod},
+           given={Jean},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=9124913ec19cf79165d4ad0bd68bf446}{%
+           family={Coxwell\bibnamedelima Snyder},
+           familyi={C\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Tricia},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{0a28195ad2f2797d8fe79aeab4e54b3e}
+      \strng{fullhash}{0a28195ad2f2797d8fe79aeab4e54b3e}
+      \strng{bibnamehash}{0a28195ad2f2797d8fe79aeab4e54b3e}
+      \strng{authorbibnamehash}{0a28195ad2f2797d8fe79aeab4e54b3e}
+      \strng{authornamehash}{0a28195ad2f2797d8fe79aeab4e54b3e}
+      \strng{authorfullhash}{0a28195ad2f2797d8fe79aeab4e54b3e}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Financial deregulation in 1980 potentially altered key relationships between residential fixed investment (RFI) and key macroeconomic variables. This study uses a vector error correction model to examine relationships between RFI, money, interest rates, and output in pre-deregulation and post-deregulation sub-periods. Results indicate short-term interest rate shocks account for much of RFI variability pre-deregulation. After deregulation, long-term FHA interest rate shocks better account for RFI movements. Results also show that, in the post-deregulation era, RFI shocks have increased predictive power for overall gross domestic product movements. Thus, the study finds altered relationships between RFI and macroeconomic variables.}
+      \field{issn}{1573-045X}
+      \field{journaltitle}{The Journal of Real Estate Finance and Economics}
+      \field{month}{11}
+      \field{number}{3}
+      \field{shorttitle}{Residential {Fixed} {Investment} and the {Macroeconomy}}
+      \field{title}{Residential {Fixed} {Investment} and the {Macroeconomy}: {Has} {Deregulation} {Altered} {Key} {Relationships}?}
+      \field{urlday}{8}
+      \field{urlmonth}{12}
+      \field{urlyear}{2019}
+      \field{volume}{27}
+      \field{year}{2003}
+      \field{urldateera}{ce}
+      \field{pages}{335\bibrangedash 354}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1023/A:1025842108205
+      \endverb
+      \verb{file}
+      \verb Gauger e Snyder - Residential Fixed Investment and the Macroeconomy.pdf:/home/gpetrini/Zotero/storage/EBKAVSR7/Gauger e Snyder - Residential Fixed Investment and the Macroeconomy.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1023/A:1025842108205
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1023/A:1025842108205
+      \endverb
+      \keyw{deregulation,monetary policy,residential investment}
+    \endentry
     \entry{girardi_autonomous_2015}{report}{}
       \name{author}{2}{}{%
         {{uniquename=0,uniquepart=base,hash=1dc45538fc8bba9414c9ffb15840498b}{%

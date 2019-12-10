@@ -17,18 +17,48 @@ Os autores concluem que o investimento residencial não é um mero canal de tran
 	Apenas para ilustrar a dimensão da importância do investimento residencial para o ciclo econômio norte-americano, \textcite{huang_is_2018} utilizam este pais como critério de comparação.}.
 Apesar dos resultados não conclusivos sobre as flutuações, concluem que as variáveis associadas ao investimento residencial (preço dos imóveis, taxa real de juros das hipotecas --- deflacionada pelo índice de preços --- e \textit{spread} bancário) lideram o crescimento econômico.
 
-%Retomada Green e Leamer
-Apesar de significativos, os resultados  de \textcite{huang_is_2018} reportados acima incorrem em uma imprecisão a despeito da taxa de juros selecionada para avaliar os impactos sobre o investimento residencial. 
-MAIS CRÍTICAS AO HUANG ET AL.
+Apesar de significativo, o estudo  de \textcite{huang_is_2018} reportado acima é centrado em determinantes do lado da oferta, sobretudo custos de produção (\textit{user costs}) e, portanto, não é compatível com a agenda da demanda efetiva.
+Uma alternativa é o de \textcite{gauger_residential_2003} em que os autores investigam os efeitos da desregulamentação das instituições depositárias ao longo da década de 80. Para tanto, estimam um VEC entre agregados monetários (M2), taxas de juros (de curto e longo prazo) PIB e investimento residencial.
+Dentre as conclusões, os autores destacam que a taxa de juros de longo prazo passa a contribuir cada vez mais para variância do investimento residencial:
+\begin{citacao}
+	\textit{The findings for the two interest rates give valuable information to evaluate results in
+	other studies. Results here suggest that use of a short-term FFR and post-deregulation data
+	may lead to conclusions that `interest rate shocks are much less important after
+	deregulation.' The fuller slate of evidence here indicates that interest rate shocks remain
+	important post-deregulation; however, now it is the long-term rate shocks that carry more
+	information for housing sector movements} \cite[p.~346]{gauger_residential_2003}
+\end{citacao}
+
+As conclusões deste estudo são bastante relevantes para a presente pesquisa pelas seguintes razões: 
+	(i) explicita --- tal como no supermultiplicador --- relações de longo prazo entre investimento residencial e outras variáveis macroeconômicas e; 
+	(ii) destaca a importância de mudanças institucionais para o mercado imobiliário.
+Uma forma de visualizar o item (ii) é por meio da figura \ref{FigCreditoFDICIA} em que estão assinaladas algumas das reformas ocorridas ao longo dos anos 80 e início dos 90 por conta da crise dos \textit{Savings and Loans}  (FIRREA e FDICIA respectivamente).
+Dentre as consequências destas mudanças, destaca-se a subsequênte eliminação da restrição de crédito que permitiu a expansão do financiamento do investimento residencial nos períodos seguintes.
+
+RODAPÉ FFDICIA
+
+\begin{figure}[htb]
+	\centering
+	\caption{Concessão de crédito às famílias e hipotecas (Taxa de crescimento)}
+	\label{FigCreditoFDICIA}
+	\includegraphics[width=\textwidth]{../../Dados/Fatos_Estilizados/figs/FDICIA.png}
+	\caption*{\textbf{Fonte:} U.S. Bureau of Economic Analisys, elaboração própria}
+\end{figure}
+	
+Apesar de \textcite{gauger_residential_2003} concluirem que a taxa de juros (de longo prazo) continua sendo relevante para explicar o investimento residencial, conclui-se que o procedimento destes autores não é o mais adequado por tratarem os juros como endógeno e determinado por agregados monetários. Sendo assim, seguir tal proposta incorre-se em uma inconsistência com a teoria heterodoxa em que as taxas de juros é uma variável exógena determinada por meio de um processo decisório pelo autoridade monetária de modo que a oferta de moeda é endógena \cite[p.~230--256]{lavoie_post-keynesian_2015}.
+
+Uma forma de incluir o investimento residencial na macroeconomia da demanda efetiva sem incorrer nestes problemas é a da já mencionada taxa própria de juros dos imóveis desenvolvida por \textcite{teixeira_crescimento_2015}. A partir deste constructo teórico, é possível explicitar o custo real para se construir imóveis em termos de imóveis de modo a captar tanto o custo do endividamento quanto ganhos de capital.
+Para tanto, deflaciona-se a taxa de juros hipotecárias --- diferentemente de \textcite[p.~143--146]{fair_macroeconometric_2013} --- pela inflação de imóveis tal como na equação EQUAÇÃO.
 
 
-ESTES ESTUDOS INDICAM A RELEVÂNCIA DO INVESTIMENTO RESIDENCIAL PARA A DINÂMICA.
+Para evidenciar esta relação, o gráfico \ref{gZ_Propria} ilustra como  este deflacionamento é mais adequado para captar a dinâmica do investimento residencial.
+Destaca-se também que em momentos de especulação (\textit{i.e.} bolha de ativos, neste caso, imóveis) é a inflação destes ativos que domina a dinâmica da taxa própria \cite[p.~53]{teixeira_crescimento_2015}. Sendo assim, quanto menor esta taxa maiores serão os ganhos de capital (em imóveis) por se especular com imóveis.
+Tal dinâmica é evidenciada no gráfico \ref{gZ_Propria} em que a taxa própria se reduziu progressivamente ao longo do \textit{boom} imobiliário (2002-5).
+Apesar de lançar luz sobre algumas relações relevantes --- ausentes em \textcite{godley_seven_1999} --- esta proposição não foi avaliada por meio da estimação de um modelo macroeconométrico. Desse modo, a seção seguinte pretende verificar a capacidade explicativa desta alternativa.
 
-Jean Gauger \& Tricia Coxwell Snyder
 
-COMENTÁRIO SOBRE A TAXA PRÓPRIA
+%ESTES ESTUDOS INDICAM A RELEVÂNCIA DO INVESTIMENTO RESIDENCIAL PARA A DINÂMICA.
 
-Para evidenciar esta relação, o gráfico \ref{gZ_Propria} ilustra como  o deflacionamento da taxa de juros hipotecária pelo preço dos imóveis --- e não por um índice de preços generalizado como em \textcite[p.~143--146]{fair_macroeconometric_2013} --- é mais adequado para captar a dinâmica do investimento residencial. Tal proposição, no entanto, não é avaliada por meio da estimação de um modelo empírico. Desse modo, a seção seguinte pretende verificar a capacidade explicativa desta alternativa.
 
 %TODO Alterar imagem
 
@@ -37,6 +67,6 @@ Para evidenciar esta relação, o gráfico \ref{gZ_Propria} ilustra como  o defl
 	\centering
 	\caption{Taxa real e própria de juros dos imóveis x investimento residencial}
 	\label{gZ_Propria}
-	\includegraphics[width=0.75\textwidth]{Fatos_Estilizados/Figs/TxPropria_Investo.png}
+	\includegraphics[width=0.75\textwidth]{../../Dados/Fatos_Estilizados/figs/TxPropria_Investo.png}
 	\caption*{\textbf{Fonte:} U.S. Bureau of Economic Analysis, elaboração própria}
 \end{figure}
