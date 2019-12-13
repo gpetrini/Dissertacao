@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.6.22)  13 DEC 2019 16:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.6.22)  13 DEC 2019 17:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2897,151 +2897,81 @@ l.83 \end{equation}
 File: ../../Modelo/Versoes/Dag.png Graphic file (type png)
 <use ../../Modelo/Versoes/Dag.png>
 Package pdftex.def Info: ../../Modelo/Versoes/Dag.png  used on input line 11.
-(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+(pdftex.def)             Requested size: 483.69687pt x 322.47937pt.
  [96]
 <../../Modelo/Versoes/Shock_1.png, id=1858, 1156.32pt x 722.7pt>
 File: ../../Modelo/Versoes/Shock_1.png Graphic file (type png)
 <use ../../Modelo/Versoes/Shock_1.png>
 Package pdftex.def Info: ../../Modelo/Versoes/Shock_1.png  used on input line 2
 9.
-(pdftex.def)             Requested size: 1156.31718pt x 722.69823pt.
-
-Overfull \hbox (672.62032pt too wide) in paragraph at lines 29--30
- [][] 
- []
-
-[97 <../../Modelo/Versoes/Dag.png>]
-Overfull \vbox (101.71793pt too high) has occurred while \output is active []
-
-
-[98 <../../Modelo/Versoes/Shock_1.png>]
-<../../Modelo/Versoes/Shock_1Norms.png, id=1869, 1156.32pt x 722.7pt>
+(pdftex.def)             Requested size: 483.69687pt x 302.30788pt.
+ [97 <../../Modelo/Versoes/Dag.png>]
+<../../Modelo/Versoes/Shock_1Norms.png, id=1864, 1156.32pt x 722.7pt>
 File: ../../Modelo/Versoes/Shock_1Norms.png Graphic file (type png)
 <use ../../Modelo/Versoes/Shock_1Norms.png>
 Package pdftex.def Info: ../../Modelo/Versoes/Shock_1Norms.png  used on input l
 ine 38.
-(pdftex.def)             Requested size: 1156.31718pt x 722.69823pt.
-
-Overfull \hbox (672.62032pt too wide) in paragraph at lines 38--39
- [][] 
- []
-
-
-Overfull \vbox (101.71793pt too high) has occurred while \output is active []
-
-
-[99 <../../Modelo/Versoes/Shock_1Norms.png>]
-<../../Modelo/Versoes/Shock_4.png, id=1876, 1156.32pt x 722.7pt>
+(pdftex.def)             Requested size: 483.69687pt x 302.30788pt.
+ [98 <../../Modelo/Versoes/Shock_1.png>]
+<../../Modelo/Versoes/Shock_4.png, id=1870, 1156.32pt x 722.7pt>
 File: ../../Modelo/Versoes/Shock_4.png Graphic file (type png)
 <use ../../Modelo/Versoes/Shock_4.png>
 Package pdftex.def Info: ../../Modelo/Versoes/Shock_4.png  used on input line 4
 7.
-(pdftex.def)             Requested size: 1156.31718pt x 722.69823pt.
-
-Overfull \hbox (672.62032pt too wide) in paragraph at lines 47--48
- [][] 
- []
-
-
-Overfull \vbox (101.71793pt too high) has occurred while \output is active []
-
-
-[100 <../../Modelo/Versoes/Shock_4.png>]
-<../../Modelo/Versoes/Shock_4Norms.png, id=1882, 1156.32pt x 722.7pt>
+(pdftex.def)             Requested size: 483.69687pt x 302.30788pt.
+ [99 <../../Modelo/Versoes/Shock_1Norms.png>]
+<../../Modelo/Versoes/Shock_4Norms.png, id=1877, 1156.32pt x 722.7pt>
 File: ../../Modelo/Versoes/Shock_4Norms.png Graphic file (type png)
 <use ../../Modelo/Versoes/Shock_4Norms.png>
 Package pdftex.def Info: ../../Modelo/Versoes/Shock_4Norms.png  used on input l
 ine 56.
-(pdftex.def)             Requested size: 1156.31718pt x 722.69823pt.
-
-Overfull \hbox (672.62032pt too wide) in paragraph at lines 56--57
- [][] 
- []
-
-
-Overfull \vbox (101.71793pt too high) has occurred while \output is active []
-
-
-[101 <../../Modelo/Versoes/Shock_4Norms.png>]
-<../../Modelo/Versoes/Shock_2.png, id=1893, 1156.32pt x 722.7pt>
+(pdftex.def)             Requested size: 483.69687pt x 302.30788pt.
+ [100 <../../Modelo/Versoes/Shock_4.png>]
+<../../Modelo/Versoes/Shock_2.png, id=1888, 1156.32pt x 722.7pt>
 File: ../../Modelo/Versoes/Shock_2.png Graphic file (type png)
 <use ../../Modelo/Versoes/Shock_2.png>
 Package pdftex.def Info: ../../Modelo/Versoes/Shock_2.png  used on input line 7
 7.
-(pdftex.def)             Requested size: 1156.31718pt x 722.69823pt.
-
-Overfull \hbox (672.62032pt too wide) in paragraph at lines 77--78
- [][] 
- []
-
-[102]
-Overfull \vbox (101.71793pt too high) has occurred while \output is active []
-
-
-[103 <../../Modelo/Versoes/Shock_2.png>]
-<../../Modelo/Versoes/Shock_2Norms.png, id=1903, 1156.32pt x 722.7pt>
+(pdftex.def)             Requested size: 483.69687pt x 302.30788pt.
+ [101 <../../Modelo/Versoes/Shock_4Norms.png>]
+<../../Modelo/Versoes/Shock_2Norms.png, id=1894, 1156.32pt x 722.7pt>
 File: ../../Modelo/Versoes/Shock_2Norms.png Graphic file (type png)
 <use ../../Modelo/Versoes/Shock_2Norms.png>
 Package pdftex.def Info: ../../Modelo/Versoes/Shock_2Norms.png  used on input l
 ine 86.
-(pdftex.def)             Requested size: 1156.31718pt x 722.69823pt.
-
-Overfull \hbox (672.62032pt too wide) in paragraph at lines 86--87
- [][] 
- []
-
-
-Overfull \vbox (101.71793pt too high) has occurred while \output is active []
-
-
-[104 <../../Modelo/Versoes/Shock_2Norms.png>]
-<../../Modelo/Versoes/Shock_3.png, id=1910, 1156.32pt x 722.7pt>
+(pdftex.def)             Requested size: 483.69687pt x 302.30788pt.
+ [102 <../../Modelo/Versoes/Shock_2.png>]
+<../../Modelo/Versoes/Shock_3.png, id=1901, 1156.32pt x 722.7pt>
 File: ../../Modelo/Versoes/Shock_3.png Graphic file (type png)
 <use ../../Modelo/Versoes/Shock_3.png>
 Package pdftex.def Info: ../../Modelo/Versoes/Shock_3.png  used on input line 1
 00.
-(pdftex.def)             Requested size: 1156.31718pt x 722.69823pt.
-
-Overfull \hbox (672.62032pt too wide) in paragraph at lines 100--101
- [][] 
- []
-
-[105]
-Overfull \vbox (101.71793pt too high) has occurred while \output is active []
-
-
-[106 <../../Modelo/Versoes/Shock_3.png>]
-<../../Modelo/Versoes/Shock_3Norms.png, id=1922, 1156.32pt x 722.7pt>
+(pdftex.def)             Requested size: 483.69687pt x 302.30788pt.
+ [103 <../../Modelo/Versoes/Shock_2Norms.png>]
+<../../Modelo/Versoes/Shock_3Norms.png, id=1907, 1156.32pt x 722.7pt>
 File: ../../Modelo/Versoes/Shock_3Norms.png Graphic file (type png)
 <use ../../Modelo/Versoes/Shock_3Norms.png>
 Package pdftex.def Info: ../../Modelo/Versoes/Shock_3Norms.png  used on input l
 ine 109.
-(pdftex.def)             Requested size: 1156.31718pt x 722.69823pt.
-
-Overfull \hbox (672.62032pt too wide) in paragraph at lines 109--110
- [][] 
- []
-
-
-Overfull \vbox (101.71793pt too high) has occurred while \output is active []
-
-
-[107 <../../Modelo/Versoes/Shock_3Norms.png>] (../../Modelo/Versoes/table.tex))
-(./Modelo/Conclusao.tex [108]
-<../../Modelo/Versoes/Shock_Real.png, id=1932, 1156.32pt x 722.7pt>
+(pdftex.def)             Requested size: 483.69687pt x 302.30788pt.
+ [104 <../../Modelo/Versoes/Shock_3.png>]
+(../../Modelo/Versoes/table.tex)) (./Modelo/Conclusao.tex [105 <../../Modelo/Ve
+rsoes/Shock_3Norms.png>]
+<../../Modelo/Versoes/Shock_Real.png, id=1920, 1156.32pt x 722.7pt>
 File: ../../Modelo/Versoes/Shock_Real.png Graphic file (type png)
 <use ../../Modelo/Versoes/Shock_Real.png>
 Package pdftex.def Info: ../../Modelo/Versoes/Shock_Real.png  used on input lin
 e 17.
 (pdftex.def)             Requested size: 483.69687pt x 302.30788pt.
-<../../Modelo/Versoes/Shock_RealNorms.png, id=1933, 1156.32pt x 722.7pt>
+ [106]
+<../../Modelo/Versoes/Shock_RealNorms.png, id=1925, 1156.32pt x 722.7pt>
 File: ../../Modelo/Versoes/Shock_RealNorms.png Graphic file (type png)
 <use ../../Modelo/Versoes/Shock_RealNorms.png>
 Package pdftex.def Info: ../../Modelo/Versoes/Shock_RealNorms.png  used on inpu
 t line 26.
 (pdftex.def)             Requested size: 483.69687pt x 302.30788pt.
-)) [109 <../../Modelo/Versoes/Shock_Real.png>]
-[110 <../../Modelo/Versoes/Shock_RealNorms.png>] [111
+)) [107 <../../Modelo/Versoes/Shock_Real.png>]
+[108 <../../Modelo/Versoes/Shock_RealNorms.png>] [109
 
 
 ]
@@ -3050,29 +2980,29 @@ Overfull \hbox (2.02068pt too wide) in paragraph at lines 321--321
 o-mic The-ory: A Con-tri-bu-tion to Classical-Keynesian
  []
 
-[112] [113] [114] [115] [116] [117] [118] [119]
+[110] [111] [112] [113] [114] [115] [116] [117]
 Overfull \hbox (0.5758pt too wide) in paragraph at lines 321--321
 [][]$[]$\T1/ptm/m/n/12 . The role of au-to-no-mous de-mand growth in a neo-Kale
 ckian conflicting-claims fra-mework'.
  []
 
-[120] [121] [122] [123] (./Modelo/Apendice_Fraction.tex
+[118] [119] [120] [121] (./Modelo/Apendice_Fraction.tex
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <24.88> not available
 (Font)              Font shape `T1/ptm/b/it' tried instead on input line 2.
- [124
+ [122
 
 
-] [125]
+] [123]
 
-LaTeX Warning: Reference `Sintetica' on page 126 undefined on input line 74.
+LaTeX Warning: Reference `Sintetica' on page 124 undefined on input line 74.
 
-) [126] (./cc-by-sa.texpdfTeX warning (ext4): destination with the same identif
+) [124] (./cc-by-sa.texpdfTeX warning (ext4): destination with the same identif
 ier (name{appendix.A}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.1 \chapter{Licença}
                       
-<cc-by-sa.png, id=2129, 97.0827pt x 33.9669pt>
+<cc-by-sa.png, id=2121, 97.0827pt x 33.9669pt>
 File: cc-by-sa.png Graphic file (type png)
 <use cc-by-sa.png>
 Package pdftex.def Info: cc-by-sa.png  used on input line 10.
@@ -3082,7 +3012,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{section.A.1})
 <to be read again> 
                    \relax 
 l.19 \section{Sobre a licença dessa obra}
-                                          ) [127
+                                          ) [125
 
 
  <./cc-by-sa.png>]
@@ -3110,14 +3040,18 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
+
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
+
 Package logreq Info: Writing requests to 'Main_Dissertacao.run.xml'.
 \openout1 = `Main_Dissertacao.run.xml'.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 359.
  ) 
 Here is how much of TeX's memory you used:
- 51356 strings out of 492609
- 979763 string characters out of 6129033
+ 51354 strings out of 492609
+ 979747 string characters out of 6129033
  1862657 words of memory out of 5000000
  53694 multiletter control sequences out of 15000+600000
  657361 words of font info for 198 fonts, out of 8000000 for 9000
@@ -3142,10 +3076,10 @@ texlive/2019/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/20
 19/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2019/texmf-
 dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts
 /type1/urw/times/utmri8a.pfb>
-Output written on Main_Dissertacao.pdf (131 pages, 11346175 bytes).
+Output written on Main_Dissertacao.pdf (129 pages, 11345544 bytes).
 PDF statistics:
- 2437 PDF objects out of 2487 (max. 8388607)
- 2191 compressed objects within 22 object streams
- 488 named destinations out of 1000 (max. 500000)
+ 2428 PDF objects out of 2487 (max. 8388607)
+ 2184 compressed objects within 22 object streams
+ 486 named destinations out of 1000 (max. 500000)
  571 words of extra memory for PDF output out of 10000 (max. 10000000)
 
