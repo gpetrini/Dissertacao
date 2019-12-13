@@ -6,12 +6,10 @@ Por padrão, as variáveis exógenas, $j$ diga-se, serão indicadas por $\overli
 } que foi desenvolvido ao longo desta pesquisa.
 
 \paragraph*{Equações gerais}
-O produto é determinado pelo estoque de capital criador de capacidade assim como pelo trabalho homogêneo. Além disso, supõe-se que não estão presentes inflação de bens bem como depreciação.  Como mencionado anteriormente, um dos objetivos desta pesquisa é incorporar e analisar os impactos da inflação de ativos (\textit{i.e.} imóveis).
-Diferentemente de \textcite{nikiforos_utilization_2016} e \textcite{dutt_observations_2018}, supõe-se que estão ausentes retornos crescentes de escala e progresso tecnológico.
 
-%TODO Rever citação de Dutt e Nikiforos
-
-%TODO Checar consistência entre variáveis no código e no texto
+O produto é determinado pelo estoque de capital criador de capacidade assim como pelo trabalho homogêneo e desconsidera-se retornos crescentes de escala e progresso tecnológico.
+Além disso, supõe-se que não estão presentes inflação de bens bem como depreciação.  
+Ao longo do modelo, supõe-se que existem duas classes sociais: capitalistas (denotados pelo subíndice $k$) e trabalhadores ($w$).
 
 Por se tratar de uma economia sem relações externas e sem governo, o produto determinado pelos componentes da demanda ($Y$) é a soma do consumo ($C$) e investimento das famílias ($I_h$) e das firmas ($I_f$) em que apenas este último é criador de capacidade produtiva ao setor privado:
 
@@ -56,12 +54,9 @@ cuja forma em termos de crescimento equivale a
 \begin{equation}
 \label{Aux}
 \tag{Aux.}
-\dot u = (g - g_K)\cdot u_{t-1}
+\dot u = (g - g_K)\cdot u
 \end{equation}
-%TODO Rever se vai mantar em tempo contínuo
-
-em que $g_Y$ e $g_K$ são, respectivamente, a taxa de crescimento do produto e da capacidade produtiva discutidas no capítulo teórico.
-
+em que $g_Y$ e $g_K$ são, respectivamente, a taxa de crescimento do produto e da capacidade produtiva já discutidas no capítulo teórico.
 
 A razão pela qual o capital criador de capacidade se difere do estoque de capital total da economia ($K$) se dá pela inclusão do investimento residencial tão comumente ignorado pela literatura que, como pontuado pelo capítulo anterior, possui implicações importantes para a dinâmica da economia norte americana. Dito isso, o estoque de capital é dado por:
 
@@ -69,15 +64,15 @@ A razão pela qual o capital criador de capacidade se difere do estoque de capit
 \label{_K}
     K = K_f + K_{H}
 \end{equation}
-em que $K_H$ refere ao estoque de imóveis. Seja $K_k$ a participação dos imóveis no estoque de capital total da economia:
+em que $K_H$ refere ao estoque de imóveis possuído apenas pelos capitalistas. Seja $k$ a participação dos imóveis no estoque de capital total da economia:
 
 \begin{equation}
 \label{_tau}
-K_k = \frac{K_H}{K}    
+k = \frac{K_H}{K}    
 \end{equation}
 é possível representar a equação \ref{_K} de forma alternativa:
 $$
-K = K_k\cdot K + (1-K_k)\cdot K
+K = k\cdot K + (1-k)\cdot K
 $$
 que será utilizada para o desenvolvimento da solução analítica.
 
@@ -88,7 +83,7 @@ Neste modelo, tal como na tradição kalekicana e sraffiana, a distribuição fu
 \end{equation}
 em que $\omega$ e $\pi$ são respectivamente a participação dos salários e dos lucros na renda. O que permite escrever a massa de salários nos seguintes termos:
 
-INCLUIR DISCUSSÃO MILGATE E DIFERENTES FECHAMENTOS? (2 LINHAS)
+% TODO INCLUIR DISCUSSÃO MILGATE E DIFERENTES FECHAMENTOS? (2 LINHAS)
 
 $$
 \omega = \frac{W}{Y}
@@ -99,28 +94,30 @@ $$
     W = \omega\cdot Y
 \end{equation}
 
-Por fim, cabe explicitar os ativos financeiros presentes no modelo e como são distribuídos entre os diferentes agentes institucionais. As famílias (denotadas pelo subíndice $h$) acumulam riqueza sob a forma de depósitos à vista ($M$) e imóveis ($K_h$) enquanto contraem empréstimos hipotecários ($MO$) para realizar investimento residencial. 
-%Além disso, tal como pontuado por \textcite{leamer_housing_2007}, possuem acesso a crédito ($N$) a depender do estoque de riqueza (imóveis neste caso) e é financiado por dívida ($L_h$)
-As firmas (denotadas pelo subíndice $f$), por sua vez, financiam o investimento em parte por lucros retidos e o restante por empréstimo ($L_f$). Os bancos, portanto, criam crédito (\textit{ex nihilo}) para então recolher os depósitos, todos remunerados pelas respectivas taxas de juros. Com isso, é possível explicitar a matriz dos estoques:
+Por fim, cabe explicitar os ativos financeiros presentes no modelo e como são distribuídos entre os diferentes agentes institucionais. As famílias capitalistas (denotadas pelo subíndice $hk$) acumulam riqueza sob a forma de depósitos à vista ($M$) e imóveis ($K_h$) enquanto contraem empréstimos hipotecários ($MO$) para realizar investimento residencial.
+Além disso, parcela do consumo é autônoma ($C_k$) e é financiado por dívida ($L_k$)
+As firmas (denotadas pelo subíndice $f$), por sua vez, financiam o investimento em parte por lucros retidos e o restante por empréstimo ($L_f$). Os bancos, portanto, criam crédito (\textit{ex nihilo}) para então recolher os depósitos, todos remunerados pelas respectivas taxas de juros. 
+Os trabalhadores, portanto, gastam o que ganham e, assim, não acumulam ativos ou financeiros.
+Com isso, é possível explicitar a matriz dos estoques:
 
 
 \begin{table}[H]
 \centering
 \caption{Matriz dos estoques}
-\begin{tabular}{lcccc}
+\begin{tabular}{lccccc}
 \hline
 \hline
 
 
-                          & Famílias      & Firmas        & Bancos  &    $\sum$ \\ \hline
+                          & Trabalhadores & Capitalistas      & Firmas        & Bancos  &    $\sum$ \\ \hline
 
-Depósitos & $+M$ & & $-M$ & 0\\
-Empréstimos das firmas & &$-L_f$& $+L_f$ & 0\\
-Hipotecas &$-MO$&  & $+MO$ & 0\\\hline
-$\sum$ Riqueza financeira líquida &$V_h$&$V_f$&$V_b$& $0$\\\hline
-Capital & &$+K_f$&  & $+K_f$\\
-Imóveis &$+K_{HD}$& &   & $+K_{H}$\\\hline
-$\sum$ Riqueza líquida total&$NW_h$&$NW_f$&$NW_b$& $+K$\\
+Depósitos & & $+M$ & & $-M$ & 0\\
+Empréstimos& &$-L_k$ &$-L_f$& $+L$ & 0\\
+Hipotecas & &$-MO$&  & $+MO$ & 0\\\hline
+$\sum$ Riqueza financeira líquida &$V_{hw}$ &$V_{hk}$&$V_f$&$V_b$& $0$\\\hline
+Capital & & &$+K_f$&  & $+K_f$\\
+Imóveis & &$+K_{HD}$& &   & $+K_{H}$\\\hline
+$\sum$ Riqueza líquida total &$NW_{hw}$&$NW_{hk}$&$NW_f$&$NW_b$& $+K$\\
 \hline
 \hline
 \end{tabular}%
@@ -133,31 +130,32 @@ Esta matriz mapeia as relações entre os diferentes agentes institucionais e pe
 \centering
 \caption{Matriz de transações correntes e fluxo de fundos}
 \resizebox{\textwidth}{!}{%
-\begin{tabular}{lcccccc}
+\begin{tabular}{lccccccc}
 \hline
 \hline
-& \multicolumn{2}{c}{Famílias}
+& Trabalhadores
+& \multicolumn{2}{c}{Capitalistas}
 & \multicolumn{2}{c}{Firmas}                        
 & Bancos       & Total    \\ \cline{2-3}\cline{4-5}
 & 
 Corrente & Capital & 
 Corrente & Capital     & 
 &        $\sum$ \\ 
-Consumo                         &$-C$& & $+C$& & & 0\\
-Investimento                    & & &$+If$&$-If$ & & 0\\
-Investimento residencial        & &$-Ih$&$+Ih$& & & 0\\
-\textbf{{[}Produto{]}}   & & &{[}$Y${]}& & & {[}$Y${]}\\
-Salários                        &$+W$& &$-W$& & & 0\\
-Lucros                      &$+FD$& &$-FT$&$+FU$& & 0\\
-Juros (depósitos)         &$+r_m\cdot M_{-1}$& && &$-r_m\cdot M_{-1}$& 0\\
-Juros (empréstimos)         && &$-r_l\cdot L_{f_{-1}}$& &$+r_l\cdot L_{-1}$& 0\\
+Consumo                        &$-Cw$&$-C_k$& & $+C$& & & 0\\
+Investimento                   & & & &$+If$&$-If$ & & 0\\
+Investimento residencial       &  & &$-Ih$&$+Ih$& & & 0\\
+\textbf{{[}Produto{]}}   & & & &{[}$Y${]}& & & {[}$Y${]}\\
+Salários                        &$+W$&& &$-W$& & & 0\\
+Lucros                      & &$+FD$& &$-FT$&$+FU$& & 0\\
+Juros (depósitos)         & &$+r_m\cdot M_{-1}$& && &$-r_m\cdot M_{-1}$& 0\\
+Juros (empréstimos)         & &$-r_l\cdot L_{k_{-1}}$& &$-r_l\cdot L_{f_{-1}}$& &$+r_l\cdot L_{-1}$& 0\\
 
-Juros (hipotecas)         &$-r_{mo}\cdot MO_{-1}$& && &$+r_{mo}\cdot MO_{-1}$& 0\\\hline
-\textbf{Subtotal}           &$+S_h$&$-I_h$& &$+NFW_f$&$+NFW_b$& 0\\\hline
-Variação dos depósitos     &$-\Delta M$& & & &$+\Delta M$& 0\\
-Variação das hipotecas     & &$+ \Delta MO$& & &$-\Delta MO$& 0\\
-Variação dos empréstimos     & &&$+\Delta L_f$&$-\Delta L$& 0\\
-\textbf{Total} & 0 & 0 & 0  & 0  & 0  & 0\\
+Juros (hipotecas)         & &$-r_{mo}\cdot MO_{-1}$& && &$+r_{mo}\cdot MO_{-1}$& 0\\\hline
+\textbf{Subtotal}           &$+NFW_{hw}$&$+S_h$&$-I_h$& &$+NFW_f$&$+NFW_b$& 0\\\hline
+Variação dos depósitos     & &$-\Delta M$& & & &$+\Delta M$& 0\\
+Variação das hipotecas     & & &$+ \Delta MO$& & &$-\Delta MO$& 0\\
+Variação dos empréstimos     & &$+\Delta L_k$&&$+\Delta L_f$& &$-\Delta L$& 0\\
+\textbf{Total} & & 0 & 0 & 0  & 0  & 0  & 0\\
 \hline
 \hline
 \end{tabular}%
@@ -178,16 +176,17 @@ Além disso, as firmas retêm uma parcela ($\gamma_F$) dos lucros líquidos de j
 \begin{equation}
     FD = (1-\gamma_F)\cdot (FT - r_l\cdot L_{f_{-1}})
 \end{equation}
+Adicionalmente, pelo foco deste modelo recair sobre o mercado imobiliário e não sobre o mercado acionário supõe-se que as firmas são propriedade dos capitalistas mas de capital fechado de modo que suas ações não são negociadas em bolsa de valores.
 
 Como sugerido pelo capítulo \ref{CapFatos} e seguindo \textcite{serrano_long_1995} e \textcite{serrano_sraffian_2017}, supõe-se que o investimento das firmas é induzido pelo nível de demanda efetiva,
 \begin{equation}
 \label{_If}
     If = h\cdot Y
 \end{equation}
-em que $h$ é a propensão marginal à investir. Além disso, adota-se o princípio do ajuste do estoque de capital de modo que as firmas revisam seus planos de investimento de forma que o grau de utilização se ajuste ao normal ($u_N$):
+em que $h$ é a propensão marginal a investir. Além disso, adota-se o princípio do ajuste do estoque de capital de modo que as firmas revisam seus planos de investimento de forma que o grau de utilização se ajuste ao normal ($u_N$):
 \begin{equation}
 \label{_h}
-    \dot h = h_{-1}\cdot \gamma_u\cdot (u - \overline{u}_N)
+    \dot h = h\cdot \gamma_u\cdot (u - \overline{u}_N)
 \end{equation}
 em que o parâmetro $\gamma_u$ deve ser suficientemente pequeno para que este ajustamento seja lento e gradual \cite[p.~271]{freitas_growth_2015}. Contabilmente, o investimento das firmas determina o estoque de capital criador de capacidade produtiva:
 
@@ -211,16 +210,20 @@ em que as firmas são devedoras líquidas se o investimento for maior que os luc
     NW_f = K_f - L_f
 \end{equation}
 
-\paragraph*{Bancos} Tal como grande parte da literatura SFC, os bancos neste modelo não desempenham um papel ativo e atuam como intermediadores financeiros. No entanto, isso não implica que existe uma precedência dos depósitos para os empréstimos, mas o inverso. Grosso modo, os bancos concedem empréstimos e, somente em seguida, recolhem os depósitos necessários \cite{le_bourva_money_1992}. 
+\paragraph*{Bancos} Tal como grande parte da literatura SFC, os bancos neste modelo não desempenham um papel ativo e atuam como intermediadores financeiros. No entanto, isso não implica que existe uma precedência dos depósitos para os empréstimos, mas o inverso. Em linhas gerais, os bancos concedem empréstimos e, somente em seguida, recolhem os depósitos necessários \cite{le_bourva_money_1992}. 
 
-Como mencionado anteriormente, as firmas financiam parte do investimento com crédito ($L_f$) e as famílias se endividam com títulos hipotecários ($MO$) para financiar os imóveis enquanto financiam o consumo de bens duráveis com crédito ($L_h$). Cada uma dessas operações é remunerada a uma taxa de juros específica definida por um \textit{mark-up} da taxa dos depósitos (\textit{benchmark}):
+Como mencionado anteriormente, as firmas financiam parte do investimento com crédito ($L_f$) e as famílias se endividam com títulos hipotecários ($MO$) para financiar os imóveis enquanto financiam o consumo de bens duráveis com crédito ($L_k$). 
+\begin{equation}
+L = L_f + L_k
+\end{equation}
+Cada uma dessas operações é remunerada a uma taxa de juros específica definida por um \textit{mark-up} da taxa dos depósitos (\textit{benchmark}):
 
 \begin{equation}
-    r_l = r_m + \sigma_l
+    r_l = (1+\sigma_l)\cdot r_m
 \end{equation}
 
 \begin{equation}
-    r_{mo} = r_m + \sigma_{mo}
+    r_{mo} = (1+\sigma_{mo})\cdot r_m
 \end{equation}
 
 Os depósitos à vista, por sua vez, são ativos das famílias e são remunerados à taxa $r_m$ que é determinada pelos bancos:
@@ -228,7 +231,7 @@ Os depósitos à vista, por sua vez, são ativos das famílias e são remunerado
 \begin{equation}
     r_m = \overline r_m
 \end{equation}
-como hipótese simplificadora, os referidos $\sigma_s$ são nulos de modo que tanto empréstimo quanto hipotecas sejam remunerados à taxa dos depósitos. Nesses termos, o saldo financeiro líquido dos bancos ($NFW_b$) é definido como o pagamento de juros recebidos descontadas as remunerações dos depósitos:
+como hipótese simplificadora, os referidos $\sigma_s$ são nulos no modelo base de modo que tanto empréstimo quanto hipotecas sejam remunerados à taxa dos depósitos. Nesses termos, o saldo financeiro líquido dos bancos ($NFW_b$) é definido como o pagamento de juros recebidos descontadas as remunerações dos depósitos:
 \begin{equation}
     NFW_b = r_{mo}\cdot MO_{-1} + r_l\cdot L_{-1} - r_m\cdot M_{-1}
 \end{equation}
@@ -252,42 +255,79 @@ Por fim, da matriz dos estoques obtém-se o estoque de riqueza líquida dos banc
 \end{equation}
 
 \paragraph*{Famílias} 
-Por se tratar do setor institucional mais complexo do modelo, optou-se por apresentar as famílias por último. Supõe-se que o consumo das famílias ($C$) é induzido:
+
+\subparagraph*{Trabalhadores}
+
+Supõe-se que, dada a distribuição de renda, os trabalhadores não poupam, ou sejam, gastam ($C_w$) o que ganham ($W$)
+\begin{equation}
+C_w = W
+\end{equation}
+Além disso, supõe-se que esta é a única fonte de renda de modo que a renda disponível dos trabalhadores é idêntica ao salário:
+\begin{equation}
+YD_w = W
+\end{equation}
+de modo que a poupança ($S_{hw}$) é nula 
+\begin{equation}
+S_{hw} = YD_w - C_w
+\end{equation}
+$$
+S_{hw} = 0
+$$
+e, como consequência, não acumulam ativos, sejam eles reais ou financeiros
+\begin{equation}
+NFW_{hw} = S_{hw} = 0
+\end{equation}
+\begin{equation}
+V_{hw} = 0
+\end{equation}
+
+\subparagraph*{Capitalistas}
+
+Por se tratar do setor institucional mais complexo do modelo, optou-se por apresentar os capitalistas por último. Supõe-se que o consumo desta classe ($C_k$) é autônomo e financiado por crédito ($L_k$):
 
 \begin{equation}
-\label{_C}
-    C = \alpha\cdot W
+\Delta L_k = C_w
 \end{equation}
-em que $\alpha$ é a propensão marginal à consumir e é igual à unidade por simplificação. Desse modo, a equação acima pode ser rearranjada nos seguintes termos:
+Uma vez que o objetivo desta pesquisa é investigar as implicações do investimento residencial para a dinâmica macroeconômica, adota-se o procedimento de \textcite{freitas_baseline_2019} em que tais participação ($R$) destes componentes nos gastos autônomos ($Z$) não se alteram
+\begin{equation}
+\label{_Z}
+Z = C_k + I_h
+\end{equation}
+$$
+\frac{C_k}{Z} + \frac{I_h}{Z} = R + (1-R)
+$$
+que permite escrever o consumo dos capitalistas nos seguintes termos
+\begin{equation}
+\label{_Ck}
+    C_k = R\cdot Z
+\end{equation}
+de modo que o consumo total é dado por
+\begin{equation}
+\label{ConsumoTotal}
+C = C_w + C_k
+\end{equation}
+$$
+C = C_w + R\cdot Z
+$$
 
-$$
-C = \omega\cdot Y
-$$
-Já renda disponível ($YD$) é definida, além dos salários recebidos, pela soma dos lucros distribuídos das firmas e da remuneração dos depósitos à vista descontado o pagamento dos juros hipotecários e dos empréstimos:
+Já renda disponível dos capitalistas ($YD_k$) é definida pela soma dos lucros distribuídos das firmas e da remuneração dos depósitos à vista descontado o pagamento dos juros hipotecários e dos empréstimos:
 
 \begin{equation}
     \label{EqYD}
-    YD = W + FD + \overline r_m\cdot M_{-1} - r_{mo}\cdot MO_{-1}
+    YD_k = FD + \overline r_m\cdot M_{-1} - r_{mo}\cdot MO_{-1} - r_{l}\cdot L_{k_{-1}}
 \end{equation}
-
-A poupança das famílias ($S_h$)\footnote{
-A parcela da renda disponível das famílias não consumida é acumulada sob a forma dos depósitos à vista:
-$$
-\Delta M = S_h
-$$
-A equação acima, no entanto, é redundante e não precisa ser especificada.}, portanto, é a renda disponível subtraída do consumo que, nesta versão mais simplificada, é idêntica aos salários:
+A poupança das famílias capitalistas ($S_{hk}$), portanto, é a renda disponível subtraída do consumo:
 
 \begin{equation}
     \label{EqSh}
-    S_h = YD - C
+    S_{hk} = YD_k - C_k
 \end{equation}
-
-Diferentemente dos modelos SFC convencionais, a poupança das famílias não é idêntica ao seu saldo financeiro líquido ($NFW_h$)\footnote{O modelo é consistente se e somente se a soma dos saldos financeiros líquidos de todos os setores institucionais é nula. Adicionalmente, como as taxas de juros são iguais nesta versão simplificada, tem-se $NFW_b = 0$. Portanto, para que as famílias sejam superavitárias é necessário, por construção, que as firmas sejam deficitárias (e o inverso é válido).
+Diferentemente dos modelos SFC convencionais, a poupança das famílias, neste caso capitalista,  não é idêntica ao seu saldo financeiro líquido ($NFW_{hk}$)\footnote{O modelo é consistente se e somente se a soma dos saldos financeiros líquidos de todos os setores institucionais é nula. Adicionalmente, como as taxas de juros são iguais nesta versão simplificada, tem-se $NFW_b = 0$. Portanto, para que as famílias sejam superavitárias é necessário, por construção, que as firmas sejam deficitárias (e o inverso é válido).
 }. A razão disso é a inclusão do investimento residencial. Dessa forma, 
 
 \begin{equation}
 \label{NFWh}
-    NFW_h = S_f - Ih
+    NFW_{hk} = S_{hk} - Ih
 \end{equation}
 
 Com isso, é possível apresentar as equações que determinam o investimento residencial. Supõe-se que a oferta de imóveis é infinitamente elástica, ou seja, toda a demanda por imóveis é atendida \cite[p.~141--145]{duesenberry_investment_1958}. No entanto, vale mencionar que é uma hipótese temporária e que um dos objetivos desta pesquisa é avaliar o impacto da inflação de ativos que necessita de uma dinâmica de preços ($p_h$). Formalmente, é preciso que a oferta ($I_{h_s}$) e demanda ($I_h$) se igualem tanto nos fluxos:
@@ -303,8 +343,11 @@ em que os subscritos $S$ e $D$ denotam oferta e demanda respectivamente. Além d
 \begin{equation}
     \Delta K_{HS} = \Delta K_{HD} = Ih = I_{hs}
 \end{equation}
-
-Outra hipótese do modelo é de que as famílias se endividam com títulos hipotecários de forma a financiar o investimento residencial. Em outras palavras, o investimento residencial determina o estoque de dívida das famílias:
+Sendo assim, a riqueza líquida deste setor é determinada por
+\begin{equation}
+V_{hk} = K_{HD}\cdot p_h + M - L_k - MO
+\end{equation}
+Outra hipótese do modelo é de que as famílias se endividam com títulos hipotecários de forma a financiar o investimento residencial. Em outras palavras, o investimento residencial determina parte o estoque de dívida das famílias capitalistas.
 
 \begin{equation}
     \label{EqMO}
@@ -313,11 +356,6 @@ Outra hipótese do modelo é de que as famílias se endividam com títulos hipot
 
 Por fim, tal como no capítulo anterior, considera-se que a taxa de crescimento do investimento residencial ($g_Z$) é definido pela taxa própria de juros dos imóveis (\textit{own}) definida por \textcite{teixeira_crescimento_2015}:
 
-
-\begin{equation}
-\label{_Z}
-    Z = Ih
-\end{equation}
 \begin{equation}
     Ih = (1 + g_Z)\cdot Ih_{-1}
 \end{equation}
@@ -328,11 +366,4 @@ g_Z = \phi_0 - \phi_1\cdot own
 own = \frac{1+r_{mo}}{1+\dot p_h}
 \end{equation}
 em que $\dot p_h$ indica a inflação de imóveis. 
-\begin{comment}
-Adicionalmente, seguindo a exposição de \textcite{leamer_housing_2007}, o estoque de imóveis determina o acesso ao crédito com certa defasagem $\tau$ de modo que:
-\begin{equation}
-N = \Theta\cdot \Delta Khn_{-\tau}\cdot p_{h_{-\tau}}
-\end{equation}
-com $\Theta$ representando um parâmetro e $Khn$ sendo o estoque de imóveis nominal. 
-\end{comment}
 Com as equações explicitadas, é possível partir para a solução analítica e para as simulações. 

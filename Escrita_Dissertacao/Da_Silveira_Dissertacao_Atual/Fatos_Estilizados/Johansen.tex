@@ -1,0 +1,30 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+% \usepackage{graphicx}
+\begin{table}[htb]
+\centering
+\caption{Teste de cointegração}
+\label{Johansen}
+\begin{threeparttable}
+%\resizebox{\textwidth}{!}{%
+\begin{tabular}{l|l|cc}
+\hline
+ \hline
+\multirow{2}{*}{\textbf{Modelo}} & \multirow{2}{*}{\textbf{Hipótese}\tnote{a}} & \multicolumn{2}{c}{\textbf{Procedimento de Johansen}} \\ \cline{3-4} 
+ &  & \multicolumn{1}{c|}{Estatística} & p-valor \\ \hline
+\multirow{3}{*}{\textbf{$g_Z$, Taxa Própria}\tnote{b}} & $r = 0$ &  &  \\
+ & $r = 1$ &  &  \\
+ & $r = 2$ &  &  \\ \hline
+\multirow{4}{*}{\textbf{$g_Z$, Inflação e Juros}\tnote{c}} & $r = 0$ &  & \\
+ & $r = 1$ &  & \\
+ & $r = 2$ &  & \\
+  & $r = 3$ &  & \\ \hline 
+\multirow{3}{*}{\textbf{$g_Z$, Inflação e Juros exógeno}\tnote{d}} & $r = 0$ &  & \\ 
+ & $r = 1$ &  & \\ 
+  & $r = 2$ &  & \\ \hline
+  \hline
+\end{tabular}%
+%}
+\footnotesize{(a) Utilizado teste do traço. (b) Testado para o lag BLA. (c) Testado para o lag BLA. (d) Testado para o lag BLA.}
+\end{threeparttable}
+\end{table}

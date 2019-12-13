@@ -26,165 +26,66 @@ library(lmtest)
 # Carregando dados
 
 ```{r}
-<<<<<<< HEAD
 df <- read.csv(
-  "/dados/Dissertacao/Modelo/SeriesTemporais/Dados_yeojohnson.csv",
+  "/dados/Dissertacao/Modelo/SeriesTemporais/Dados_completos.csv",
   encoding="UTF-8", 
   stringsAsFactors=FALSE
   )
-df <- ts(data = df, start = c(1992,03), frequency = 4)
-df <- as.xts(df)
+df <- ts(data = df, start = c(1987,01), frequency = 4)
+#df <- as.xts(df)
 df <- zoo::na.locf0(df)
-=======
-df <- read.csv("./Dados_yeojohnson.csv", encoding="UTF-8")
-df <- df[,c(4:7)]
-names(df) <- c("Juros", "Infla", "Taxa.Própria", "gZ")
-df <- na.omit(df[,])
-df <- ts(data = df, start = c(1991,01), frequency = 4)
->>>>>>> 91e256c44b113a74d5fe619c54a30f01b18ee5ca
 ```
 
-# Teste de cointegração
+# Quebra estrutural
+
+## Taxa de crescimento do investimento residencial
 
 ```{r}
-vars::VARselect(
-  y = df[,c("Inflação", "gZ")],
-  type = "both",
-  exogen = df[,c("Taxa.de.juros")],
-  lag.max = 12
-)$selection
+result = breakpoints(gZ~1, data=df)
+result$breakpoints %>% unique() %>% na.omit() %>% c() -> breaks
+
+for(i in breaks){
+  print(paste0("Testando para i = ", index(df)[i]))
+  strucchange::sctest(gZ~1, data=df, point=i, type="Chow") %>% print()
+}
 ```
 
-
-## Teste de Johansen
+## Taxa Própria
 
 ```{r}
-urca::ca.jo(
-  x = df[,c("Inflação", "gZ")], 
-  type = "trace", 
-  ecdet = "trend",
-  spec = "longrun",
-  K = 4
-) -> model.coint
-model.coint %>% summary()
+result = breakpoints(Taxa.Própria~1, data=df)
+result$breakpoints %>% unique() %>% na.omit() %>% c() -> breaks
+
+for(i in breaks){
+  print(paste0("Testando para i = ", index(df)[i]))
+  strucchange::sctest(Taxa.Própria~1, data=df, point=i, type="Chow") %>% print()
+}
 ```
 
-
-## Seleção do rank
+## Taxa de juros
 
 ```{r}
-<<<<<<< HEAD
-tsDyn::rank.select(
-  data = df[,c("Inflação", "gZ")],
-  lag.max = 12,
-  include = "both"
-) %>% summary()
-=======
-vars::VARselect(df[,c('gZ', 'Infla')], type = "const", exogen = df[, "Juros"])
-jotest=ca.jo(df[,c('gZ', 'Infla')], type="trace", K=5, ecdet="trend", spec="longrun") 
-summary(jotest)
->>>>>>> 91e256c44b113a74d5fe619c54a30f01b18ee5ca
+result = breakpoints(Taxa.de.juros~1, data=df)
+result$breakpoints %>% unique() %>% na.omit() %>% c() -> breaks
+
+for(i in breaks){
+  print(paste0("Testando para i = ", index(df)[i]))
+  strucchange::sctest(Taxa.de.juros~1, data=df, point=i, type="Chow") %>% print()
+}
 ```
 
-## Engel-Granger
+## Inflação
 
 ```{r}
-<<<<<<< HEAD
-egcm::egcm(
-  X = df[, c("Inflação")], 
-  Y = df[,c("gZ")], 
-  log = FALSE
-) %>% egcm::is.cointegrated()
-=======
-PO <- ca.po(df[,c("gZ", "Infla")], demean = "trend", lag = "long", type="Pu")
-summary(PO)
->>>>>>> 91e256c44b113a74d5fe619c54a30f01b18ee5ca
+result = breakpoints(Inflação~1, data=df)
+result$breakpoints %>% unique() %>% na.omit() %>% c() -> breaks
+
+for(i in breaks){
+  print(paste0("Testando para i = ", index(df)[i]))
+  strucchange::sctest(Inflação~1, data=df, point=i, type="Chow") %>% print()
+}
 ```
 
-# VECM
 
-## Estimação
 
-```{r}
-<<<<<<< HEAD
-tsDyn::VECM(
-  data=df[,c("Inflação", "gZ")],
-  include = "trend",
-  LRinclude = "both", 
-  lag = 4,
-  r = 1, 
-  exogen = df[,c("Taxa.de.juros")] %>% coredata(), 
-  estim = "ML"
-) -> model
-model %>% summary()
-=======
-aTSA::coint.test(y = df[,"gZ"], X = df[,"Infla"], d = 0, output = TRUE)
->>>>>>> 91e256c44b113a74d5fe619c54a30f01b18ee5ca
-```
 
-# Pós Estimação
-
-```{r}
-vars::serial.test(
-  model.coint %>%  vars::vec2var(),
-  lags.pt=8, 
-  type='PT.asymptotic'
-  )
-```
-
-```{r}
-vars::serial.test(
-  model.coint %>%  vars::vec2var(),
-  lags.pt=8, 
-  type='PT.adjusted'
-  )
-```
-
-```{r}
-vars::serial.test(
-  model.coint %>%  vars::vec2var(),
-  lags.pt=8, 
-  type='BG'
-  )
-```
-
-```{r}
-normality.test(
-  model.coint %>%  vars::vec2var(),
-  multivariate.only=FALSE
-  )
-```
-
-# Função resposta ao impulso
-
-## Não-ortogonalizada
-
-```{r}
-tsDyn::irf(
-  model.coint %>%  vars::vec2var(),
-  ortho=FALSE,
-  impulse="Inflação"
-  ) %>% plot()
-
-tsDyn::irf(
-  model.coint %>%  vars::vec2var(),
-  ortho=FALSE,
-  impulse="gZ"
-  ) %>% plot()
-```
-
-```{r}
-tsDyn::irf(
-  model.coint %>%  vars::vec2var(),
-  ortho=FALSE,
-  impulse="Inflação", 
-  cumulative = TRUE
-  ) %>% plot()
-
-tsDyn::irf(
-  model.coint %>%  vars::vec2var(),
-  ortho=FALSE,
-  impulse="gZ", 
-  cumulative = TRUE
-  ) %>% plot()
-```

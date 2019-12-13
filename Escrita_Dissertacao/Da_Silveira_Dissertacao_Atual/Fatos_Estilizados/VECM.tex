@@ -6,6 +6,7 @@ Para isso, foram utilizadas séries trimestrais com ajuste sazonal de 1992 a 201
 
 FDIC e FIRREA
 
+\input{./Fatos_Estilizados/Quebra.tex}
 
 Além disso, por se tratar de taxas de crescimento com ampla volatilidade, aplicou-se a transformação de \textcite{yeo_new_2000} para conter a amplitude das séries decorrente da crise imobiliária. A razão de se utilizar tal procedimento e não a transformação de \textcite{box_analysis_1964} é por não se restringir a valores não-negativos. Em seguida, foram realizados testes de cointegração de \textcite{engle_co-integration_1987} bem como o procedimento de \textcite{johansen_estimation_1991} e, a um nível de significância de 5\%, conclui-se que as séries são cointegradas e, portanto, um modelo do tipo vetor de correção de erros (VECM) é a melhor forma de estimação para este caso\footnote{Os resultados de todos os testes realizados bem como as rotinas utilizadas estão disponíveis sob solicitação.}.
 
@@ -14,12 +15,17 @@ Além disso, por se tratar de taxas de crescimento com ampla volatilidade, aplic
 	\centering
 	\caption{Séries com transformação de \textcite{yeo_new_2000}}
 	\label{YeoJhonson}
-	\includegraphics[width=\textwidth]{Fatos_Estilizados/Figs/YeoJohnson.png}
+	\includegraphics[width=\textwidth]{../../Dados/Fatos_Estilizados/figs/YeoJohnson_All.png}
 	\caption*{\textbf{Fonte:} U.S. Bureau of Economic Analysis, elaboração própria}
 \end{figure}
 
+\input{./Fatos_Estilizados/Raiz.tex}
+
+\input{./Fatos_Estilizados/Johansen.tex}
+
 Dito isso, resta determinar a defasagem utilizada. Pelos critérios de informação, tanto para o primeiro (trimestre) quanto para o quinto \textit{lag} são elegíveis (ver tabela \ref{criterios}). Apesar de parcimonioso, a escolha da primeira defasagem não é possui respaldo teórico e isso pode ser visualizado pelo gráfico \ref{meses}. Se considerar o tempo médio de construção de imóveis desde a aprovação até a conclusão, verifica-se que deve-se incluir \textit{ao menos} o segundo \textit{lag} para incorporar as residências construídas para a venda uma vez que tal motivação só é realizada se concluída a construção. 
 
+%TODO Modificar tabela dos lags
 \input{./Fatos_Estilizados/lag_order.tex}
 
 
@@ -34,26 +40,59 @@ Tal procedimento, no entanto, não é suficiente para determinar a seleção do 
 
 De forma a ilustrar tal relação, o gráfico \ref{defasagens} apresenta as variáveis de interesse frente ao \textit{lag} que minimiza os critério AIC e FPE. Esse procedimento permite visualizar se existe alguma relação entre a taxa própria esperada (taxa efetiva defasada) e taxa de crescimento do investimento residencial\footnote{De modo a dar conta de não-linearidades, é apresentada a regressão quadrática entre ambas as variáveis (e o mesmo foi realizado para o gráfico inverso).}. Já a relação inversa, qual seja, da taxa de crescimento para a taxa própria não se verifica uma vez que, como visto, o fluxo de novos imóveis é bastante inferior o estoque de imóveis existente e, portanto, é esperado que tal relação não esteja presente. Em outras palavras, a especulação com o \textit{estoque}  de imóveis gera inflação desses ativos que, por conseguinte, afeta a construção de novos imóveis (\textit{fluxo}) e não o inverso. Essa inspeção, portanto, ilustra de forma bastante grosseira tal componente expectacional por meio da menor dispersão entre os pontos no gráfico esquerdo\footnote{Raciocínio semelhante pode ser encontrado em \textcite{girardi_autonomous_2015}}.  Dito isso,  estima-se um VECM de ordem 5 cujos resíduos são apresentados no gráfico \ref{residuos}\footnote{Nota-se que tal defasagem, além de ser teoricamente justificada também gera resíduos não heterocedásticos, normalmente distribuídos e sem correlação serial.}.
 
-\begin{figure}[H]
+\begin{figure}[htb]
 	\centering
 	\caption{Dispersão entre taxa própria e crescimento do investimento residencial: defasagens selecionadas a partir dos critérios de informação}
 	\label{defasagens}
-	\includegraphics[width=\textwidth]{Fatos_Estilizados/Figs/Scatter_VECM.png}
+	\includegraphics[width=\textwidth]{../../Modelo/SeriesTemporais/figs/VEC_Defasagens.png}
 	\caption*{\textbf{Fonte:} Elaboração própria}
 \end{figure}
 %TODO Adicionar gráficos com defasagem 2
+
+
+Feita esta contextualização teórica da escolha das defasagens, avança-se em direção a estimação do modelo. De modo a testar a capacidade explicativa da taxa própria para o investimento residencial, assume-se a seguinte relação de longo prazo tal como em \textcite{teixeira_crescimento_2015}:
+
+\begin{equation}
+g_{Z_t} = \phi_0 - \phi_1\cdot own_t
+\end{equation}
+que permite estimar um VEC nos seguintes termos:
+\begin{equation}
+\begin{cases}
+\Delta own_t = \delta_{1} + \alpha_1(g_{Z_{t-1}} - \phi_0 + \phi_1\cdot own_{t-1}) + \sum^{N=4}_{i=1}\beta_{1,i}\cdot \Delta g_{Z_{t-i}} +
+\sum^{N=4}_{i=1}\gamma_{1,i}\cdot \Delta own_{t-i} +\varepsilon_{t,1}
+\\
+\Delta g_{Z_{t}} = \delta_{2} + \alpha_2(g_{Z_{t-1}} - \phi_0 + \phi_1\cdot own_{t-1}) + \sum^{N=4}_{i=1}\beta_{2,i}\cdot \Delta g_{Z_{t-i}} +
+\sum^{N=4}_{i=1}\gamma_{2,i}\cdot \Delta own_{t-i} +\varepsilon_{t,2}
+\end{cases}
+\end{equation}
+em que $\delta_s$ indicam tendência linear nas respectivas séries em nível;
+$\alpha_{is}$ são os coeficientes de correção de erro; 
+$\beta_s$ e $\gamma_s$ são coeficientes associados as defasagens de  $g_Z$ e $own$ respectivamente e; $\varepsilon_s$ são os resíduos.
+Seguindo a literatura do supermultiplicador sraffiano, os resultados esperados a serem testados são:
+\begin{itemize}
+\item $\varepsilon \sim I(0)$: Estacionariedade dos resíduos indica que taxa própria e $g_Z$ são cointegrados, ou seja, apresentam uma dinâmica de longo prazo em comum;
+\item $\alpha_1 = 0$: Taxa própria exogenamente fraca em relação ao $g_Z$;
+\item $\alpha_2 < 0$: Taxa própria causa negativamente (no sentido de Granger) investimento residencial;
+%TODO Checar sinal de alpha2
+\item $\phi_1 > 0$: $gZ$ e Taxa própria apresenta uma dinâmica negativa no longo prazo;
+\item $\gamma_{2,is} < 0$: Taxa própria afeta o investimento residencial negativamente no curto prazo;
+\item $\beta_{1,is}$ = 0: Efeito do investimento de $g_Z$ sobre a taxa própria não é estatisticamente significante.
+\end{itemize}
+
+
+
 
 
 \begin{figure}[H]
 	\centering
 	\caption{Inspeção dos resíduos da estimação}
 	\label{residuos}
-	\includegraphics[height=.4\textheight]{Fatos_Estilizados/Figs/Residuos_4VECM.png}
+	\includegraphics[height=.4\textheight]{../../Modelo/SeriesTemporais/figs/Residuos_4VECM.png}
 	\caption*{\textbf{Fonte:} Elaboração própria}
 \end{figure}
 
 
-
+%TODO Modificar tabela da estimação
 \begin{center}
 	\begin{table}[H]
 		\centering
@@ -110,7 +149,7 @@ Outra forma de verificar a capacidade explicativa da taxa própria para $g_Z$ é
 	\centering
 	\caption{Decomposição da variância da previsão}
 	\label{fevd}
-	\includegraphics[width=\textwidth]{Fatos_Estilizados/Figs/FEVD_VECM.png}
+	\includegraphics[width=\textwidth]{../../Modelo/SeriesTemporais/figs/FEVD_VECM.png}
 	\caption*{\textbf{Fonte:} Elaboração própria}
 \end{figure}
 
@@ -127,7 +166,7 @@ Dito isso, os efeitos do aumento da taxa própria é positivo sobre ela mesma e 
 	\centering
 	\caption{Função impulso resposta ortogonalizada}
 	\label{fevd}
-	\includegraphics[width=\textwidth]{Fatos_Estilizados/Figs/Impulso_VECM.png}
+	\includegraphics[width=\textwidth]{../../Modelo/SeriesTemporais/figs/Impulso_VECM.png}
 	\caption*{\textbf{Fonte:} Elaboração própria}
 \end{figure}
 
