@@ -87,5 +87,61 @@ for(i in breaks){
 ```
 
 
+## Teste de Johansen
+
+### gZ e Taxa Própria
+
+```{r}
+vars::VARselect(
+  y = df[,c("gZ", "Taxa.Própria")] %>%  na.omit(),
+  type="both"
+)$selection[1] %>% as.numeric() -> p 
+urca::ca.jo(
+  x = df[,c("gZ", "Taxa.Própria")], 
+  ecdet = "const", 
+  #ecdet = "trend", 
+  K = p-1, 
+  spec = "longrun", 
+  type = "trace"
+) %>% summary()
+```
 
 
+
+### gZ, Inflação e Taxa de juros
+
+```{r}
+vars::VARselect(
+  y = df[,c("gZ", "Inflação", "Taxa.de.juros")] %>%  na.omit(),
+  type="both"
+)$selection[1] %>% as.numeric() -> p 
+
+urca::ca.jo(
+  x = df[,c("gZ", "Inflação", "Taxa.de.juros")], 
+  ecdet = "const", 
+  #ecdet = "trend", 
+  K = p-1, 
+  spec = "longrun", 
+  type = "trace"
+) %>% summary()
+```
+
+### gZ, Inflação (Taxa de juros exog)
+
+```{r}
+df <- df[,c("gZ", "Inflação", "Taxa.de.juros")] %>% na.omit()
+
+vars::VARselect(
+  y = df[,c("gZ", "Inflação")],
+  type="both",
+  exogen = df[,c("Taxa.de.juros")]
+)$selection[1] %>% as.numeric() -> p 
+urca::ca.jo(
+  x = df[,c("gZ", "Inflação")], 
+  ecdet = "const", 
+  #ecdet = "trend", 
+  K = p-1, 
+  spec = "longrun", 
+  type = "trace"
+) %>% summary()
+```

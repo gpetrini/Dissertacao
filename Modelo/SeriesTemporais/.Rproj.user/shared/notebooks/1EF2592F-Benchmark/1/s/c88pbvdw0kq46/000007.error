@@ -1,0 +1,1 @@
+{"frames":[],"message":"Error in p %>% as.numeric() <- vars::VARselect(y = df[, c(\"gZ\", \"Inflação\",  : \n  não foi possível encontrar a função \"%>%<-\"\n"}

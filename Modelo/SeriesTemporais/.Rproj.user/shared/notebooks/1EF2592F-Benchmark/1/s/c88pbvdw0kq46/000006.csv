@@ -1,0 +1,8 @@
+"0","vars::VARselect(
+  y = df[,c(""gZ"", ""Inflação"", ""Taxa.de.juros"")] %>%  na.omit(),
+  type=""both""
+)$selection[1] -> p %>% as.numeric()
+"
+"2","Error in p %>% as.numeric() <- vars::VARselect(y = df[, c(""gZ"", ""Inflação"",  : 
+  não foi possível encontrar a função ""%>%<-""
+"
