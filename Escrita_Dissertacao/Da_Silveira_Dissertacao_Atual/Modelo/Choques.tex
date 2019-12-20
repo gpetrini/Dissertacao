@@ -1,8 +1,8 @@
 \section{Simulação e choques}
 \label{SecChoques}
 
-Compreendidas as relações entre as variáveis através da solução analítica, resta simular o modelo. Nas subseções seguintes, são verificados os efeitos dos seguintes choques
-(i) aumento na taxa de crescimento do investimento residencial ($\phi_0$ e $\dot p_h$); (ii) aumento na participação dos salários na renda e;  (iii) aumento na taxa de juro das hipotecas decorrente de um maior \textit{risk and trouble}. Antes de prosseguir, a figura \label{DAG} ilustra a hierarquia de determinação em que as setas vão das variáveis exógenas em direção às exógenas. A partir desta ilustração, fica visível a ausência de relação entre crescimento e distribuição bem como a forma com que os preços afetam o sistema por meio da taxa própria de juros e, consequentemente, a taxa de crescimento dos gastos autônomos. Dito isso, as simulações serão comparadas com um cenário \textit{baseline} representado pela linha tracejada e são resumidas na tabela \ref{Resumo_Simulacao}.
+Compreendidas as relações entre as variáveis através da solução analítica, resta simular o modelo. Nas subseções seguintes, são verificados os efeitos dos seguintes choques:
+(i) aumento na taxa de crescimento do investimento residencial ($\phi_0$ e $\dot p_h$); (ii) redução na participação dos salários na renda e;  (iii) aumento na taxa de juro das hipotecas decorrente de um maior \textit{risk and trouble}. Antes de prosseguir, a figura \ref{DAG} ilustra a hierarquia de determinação em que as setas vão das variáveis mais exógenas em direção às mais endógenas. A partir desta ilustração, fica visível a ausência de relação entre crescimento e distribuição bem como a forma com que os preços afetam o sistema por meio da taxa própria de juros e, consequentemente, a taxa de crescimento dos gastos autônomos. Dito isso, as simulações serão comparadas com um cenário \textit{baseline} representado pela linha tracejada e são resumidas na tabela \ref{Resumo_Simulacao} enquanto os resultados dos choques estão reunidos na tabela \ref{ResumoChoques}.
 
 \begin{figure}[H]
 	\centering
@@ -18,7 +18,7 @@ Compreendidas as relações entre as variáveis através da solução analítica
 
 %Um aumento da taxa de crescimento dos gastos autônomos ($\uparrow g_Z$) causa uma maior taxa de crescimento da demanda que, por sua vez, implica em um maior grau de utilização. Em seguida, de acordo com o princípio do ajuste do estoque de capital, as firmas revisam seus planos de investimento e, consequentemente, altera a propensão marginal a investir de forma que o grau de utilização se ajusta lenta e gradualmente ao desejado. No longo prazo, (i) taxa de crescimento da economia converge a taxa dos gastos autônomos; (ii) como resultado, a propensão marginal a investir é permanentemente mais elevada em relação ao \textit{baseline}; (iii) grau de utilização converge ao normal.
 
-Um aumento da taxa de crescimento dos gastos autônomos (seja por um aumento em $\phi_0$ ou na inflação de imóveis) significa uma maior taxa de crescimento da demanda que inicialmente implica um maior grau de utilização da capacidade produtiva. Em seguida, de acordo com o princípio do ajuste do estoque de capital, as firmas revisam seus planos de investimento e, consequentemente, alteram a propensão marginal a investir de forma que o grau de utilização se ajuste lenta e gradualmente ao desejado. A mudança da propensão marginal a investir faz com que temporariamente a economia cresça mais rápido que os gastos autônomos. Ao fim dos processos de ajustamento: a (i) taxa de crescimento da economia converge a taxa dos gastos autônomos; (ii) a propensão marginal a investir é permanentemente mais elevada em relação ao \textit{baseline}; (iii) grau de utilização converge ao normal.
+Um aumento da taxa de crescimento dos gastos autônomos (seja por um aumento em $\phi_0$ ou na inflação de imóveis) significa uma maior taxa de crescimento da demanda que inicialmente implica um maior grau de utilização da capacidade produtiva. Em seguida, de acordo com o princípio do ajuste do estoque de capital, as firmas revisam seus planos de investimento e, consequentemente, alteram a propensão marginal a investir de forma que o grau de utilização se ajuste lenta e gradualmente ao desejado. A mudança da propensão marginal a investir faz com que temporariamente a economia cresça mais rápido que os gastos autônomos. Ao fim dos processos de ajustamento: (i) a taxa de crescimento da economia converge a taxa dos gastos autônomos; (ii) a propensão marginal a investir é permanentemente mais elevada em relação ao \textit{baseline}; (iii) grau de utilização converge ao normal.
 
 
 
@@ -33,6 +33,16 @@ Um aumento da taxa de crescimento dos gastos autônomos (seja por um aumento em 
 
 \begin{figure}[H]
 	\centering
+	\caption{Efeito de um aumento da inflação de imóveis}
+	\label{choque_4}
+	\includegraphics[width=\textwidth]{../../Modelo/Versoes/Shock_4.png}
+	\caption*{\textbf{Fonte:} Elaboração própria}
+\end{figure}
+
+Além disso, como a renda disponível das famílias (capitalistas) passa a crescer a esta taxa mais elevada, o comprometimento com o pagamento de juros se reduz uma vez que o estoque de dívida não se amplia a uma proporcional maior que o crescimento da renda. O mesmo se aplica para o caso das firmas em que a taxa de lucro líquida se aproxima da taxa de lucro bruta ao longo da transição. Por fim, destaca-se a menor participação do imóveis no estoque de capital total resultante de uma maior dinamização da economia decorrente do aumento da taxa de crescimento dos gastos autônomos acompanhado do \textit{overshooting} das firmas na tentativa de ajustar o grau de utilização ao normal.
+
+\begin{figure}[H]
+	\centering
 	\caption{Efeito de um aumento no componente autônomo}
 	\label{choque_1Norms}
 	\includegraphics[width=\textwidth]{../../Modelo/Versoes/Shock_1Norms.png}
@@ -40,13 +50,6 @@ Um aumento da taxa de crescimento dos gastos autônomos (seja por um aumento em 
 \end{figure}
 
 
-\begin{figure}[H]
-	\centering
-	\caption{Efeito de um aumento da inflação de imóveis}
-	\label{choque_4}
-	\includegraphics[width=\textwidth]{../../Modelo/Versoes/Shock_4.png}
-	\caption*{\textbf{Fonte:} Elaboração própria}
-\end{figure}
 
 
 \begin{figure}[H]
@@ -57,17 +60,16 @@ Um aumento da taxa de crescimento dos gastos autônomos (seja por um aumento em 
 	\caption*{\textbf{Fonte:} Elaboração própria}
 \end{figure}
 
-%Tais resultados, no entanto, são os esperados seguindo a literatura do supermultiplicador sraffiano. A especificidade deste modelo, como destacado, é a existência de dois tipos de estoques de capital uma vez que as famílias também investem. Como resultado do aumento de $g_Z$, há um efeito positivo sobre a taxa de acumulação de modo que a participação do estoque de capital criador de capacidade aumente em relação ao estoque de capital total da economia ($\uparrow k$). 
 
-
-Tais resultados estão de acordo com \textcite{freitas_growth_2015} e explicitados nas figura \ref{choque_1} e \ref{choque_4} a seguir. A especificidade do presente modelo, como destacado, é a existência de dois tipos de estoques de capital uma vez que as famílias também investem. Um resultado que pode parecer contraintuitivo é que uma maior taxa de crescimento do investimento residencial tem como resultado uma redução  da sua participação \textit{real} no estoque de capital total (isto é, um amento de $K_k$). 
+Em resumo, tais resultados estão de acordo com \textcite{freitas_growth_2015} e explicitados nas figuras \ref{choque_1} e \ref{choque_4}. A especificidade do presente modelo, como destacado, é a existência de dois tipos de estoques de capital uma vez que as famílias também investem. Um resultado que pode parecer contraintuitivo é que uma maior taxa de crescimento do investimento residencial tem como resultado uma redução  da sua participação \textit{real} no estoque de capital total (isto é, diminuição de $k$) e tais resultados são iguais independentemente se a taxa de crescimento dos gastos autônomos aumenta por conta da inflação ou de seu componente autônomo ($\phi_0$). 
+A principal diferença na presença da inflação de imóveis é o crescimento da riqueza nominal das famílias mais acelerado que a renda disponível de modo que esta razão tende a zero no longo prazo tamanho aumento dos imóveis no portfólio dos capitalistas (figura \ref{choque_4Norms}).
 %Adicionalmente, verifica-se um aumento  na participação nominal dos imóveis na presenção de inflação.
 
 \subsection*{Aumento da participação dos salários na renda}
 %esse parágrafo ficou bem confuso
 %O aumento no \textit{wage-share} gera efeitos positivos sobre a taxa de crescimento da economia e também sobre o grau de utilização, conforme mostra a figura 6(a). No entanto, tais efeitos são temporários uma vez que a taxa de crescimento dos gastos autônomos não é alterada. Isso é refletido no aumento do grau de utilização mesmo estando abaixo do desejado em alguns períodos dada a convergência da taxa de crescimento da economia a $g_Z$ de modo que: (i) taxa de crescimento média é maior que a inicial, mas converge para $g_Z$ no longo prazo; (ii) o aumento na propensão marginal a investir é temporário e retorna ao valor do \textit{baseline}; (iii) grau de utilização converge ao normal mais rapidamente em relação ao choque anterior. 
 
-O aumento no \textit{wage-share} gera efeitos positivos sobre a taxa de crescimento da economia e também sobre o grau de utilização, conforme mostra a figura \ref{choque_2}. No entanto, tais efeitos são temporários uma vez que a taxa de crescimento dos gastos autônomos não é alterada.Com isso temos que: (i) o aumento na propensão marginal a investir é temporário e retorna ao valor do \textit{baseline}; (ii) grau de utilização converge ao normal mais rapidamente em relação ao choque anterior. 
+O redução no \textit{wage-share} gera efeitos negativos sobre a taxa de crescimento da economia e também sobre o grau de utilização, conforme mostra a figura \ref{choque_2}. No entanto, tais efeitos são temporários uma vez que a taxa de crescimento dos gastos autônomos não é alterada. Com isso temos que: (i) a redução na propensão marginal a investir é temporário e retorna ao valor do \textit{baseline}; (ii) grau de utilização converge ao normal mais rapidamente em relação ao choque anterior; (iii) diminuição do multiplicador e respectivo aumento da participação dos gastos autônomos na renda sobretudo por conta do desaquecimento econômico.
 
 
 \begin{figure}[H]
@@ -87,11 +89,17 @@ O aumento no \textit{wage-share} gera efeitos positivos sobre a taxa de crescime
 	\caption*{\textbf{Fonte:} Elaboração própria}
 \end{figure}
 
-Por fim, apesar do efeito sobre a taxa de crescimento ser temporário, tem efeitos persistentes sobre a participação do capital das firmas no estoque total de capital da economia. Tal resultado decorre da maior taxa de acumulação no início do choque uma vez que a taxa de crescimento do investimento residencial é mantida constante. 
+Por fim, apesar do efeito sobre a taxa de crescimento ser temporário, tem efeitos persistentes sobre a participação do capital das firmas no estoque total de capital da economia. Tal resultado decorre da menor taxa de acumulação no início do choque uma vez que a taxa de crescimento do investimento residencial é mantida constante. 
+Outro efeito persistente é o maior comprometimento da renda das famílias com o pagamento de juros dados os efeitos negativos sobre a renda disponível dos capitalistas que, por sua vez, não foi acompanhada de uma redução da relação renda disponível/riqueza líquida total.
+Além disso, verifica-se uma aproximação permanente entre a taxa de lucro bruta e líquida das firmas resultante do desaquecimento da economia por conta do choque que fez com que a propensão marginal a investir diminuisse de modo que a necessidade de financiamento deste setor também se reduzisse dada a política de distribuição de lucros (figura \ref{choque_2Norms}).
 
 \subsection*{Aumento da taxa de juros}
 
-Um aumento da taxa de juros hipotecária, ao impactar a taxa própria, não possui efeitos \textbf{persistentes} sobre a taxa de crescimento (figura \ref{choque_3}). Como resultado da menor taxa de crescimento do investimento residencial, a taxa de crescimento do investimento das firmas subreage (\textit{overshooting} negativo) de tal modo que a participação dos imóveis no total do estoque de capital aumenta. Além disso, vale mencionar o maior comprometimento da renda das famílias com pagamento dos juros hipotecários que não é acompanhado de um maior rendimento dos depósitos uma vez que está associado ao aumento do \textit{risk and trouble} e não da taxa básica de juros da economia.
+Um aumento da taxa de juros  --- e isto inclui a taxa de juros das hipotecas ---, ao impactar a taxa própria negativamente, possui efeitos \textbf{persistentes} sobre a taxa de crescimento (figura \ref{choque_3}). Como resultado da menor taxa de crescimento do investimento residencial, a taxa de crescimento do investimento das firmas subreage (\textit{overshooting} negativo) de tal modo que a participação dos imóveis no total do estoque de capital aumenta. 
+Destaca-se ainda que os resultados são simétricos para o caso de um aumento da taxa de crescimento dos gastos autônomos e, por conta disso, dispensa uma análise mais pormenorizada.
+Por fim, vale mencionar o maior comprometimento da renda das famílias e do lucro das firmas com pagamento dos juros (figura \ref{choque_3Norms}). 
+
+% hipotecários que não é acompanhado de um maior rendimento dos depósitos uma vez que está associado ao aumento do \textit{risk and trouble} e não da taxa básica de juros da economia.
 
 \begin{figure}[H]
 	\centering
@@ -110,13 +118,28 @@ Um aumento da taxa de juros hipotecária, ao impactar a taxa própria, não poss
 	\caption*{\textbf{Fonte:} Elaboração própria}
 \end{figure}
 
-
-
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+% \usepackage{graphicx}
 \begin{table}[H]
-    \centering
-    \caption{Parâmetros das simulações}
-    \label{Resumo_Simulacao}
-	\input{../../Modelo/Versoes/table.tex}
-    \caption*{\textbf{Fonte:} Elaboração própria}
+	\centering
+	\caption{Comparação dos choques ao \textit{baseline}}
+	\label{ResumoChoques}
+	%\resizebox{\textwidth}{!}{%
+		\begin{tabular}{c|c|c|c|c||c|c|c|c}
+			\hline\hline
+			\multirow{2}{*}{} & \multicolumn{4}{c||}{\textbf{Médio prazo ($h \neq h^*$)}} & \multicolumn{4}{c}{\textbf{Longo prazo ($h = h^*$)}} \\ \cline{2-9} 
+			& \textbf{$\Uparrow \phi_0$} & \textbf{$\Uparrow \dot p_h$} & \textbf{$\Downarrow \omega$} & \textbf{$\Uparrow rm$} & \textbf{$\Uparrow \phi_0$} & \textbf{$\Uparrow \dot p_h$} & \textbf{$\Downarrow \omega$} & \textbf{$\Uparrow rm$} \\ \hline
+			\textbf{$g$} & + & + & - & - & + & + & 0 & - \\ \hline
+			\textbf{$g_Z$} & + & + & 0 & - & + & + & 0 & - \\ \hline
+			\textbf{$u$} & + & + & - & - & 0 & 0 & 0 & 0 \\ \hline
+			\textbf{$h$} & + & + & - & - & + & + & 0 & - \\ \hline
+			\textbf{$k$} & - & - & + & + & - & - & + & + \\ \hline
+			\textbf{$\frac{Z}{Y}$} & - & - & + & + & - & - & + & + \\ \hline
+			\textit{$\frac{(r_{mo}\cdot MO_{-1} + r_l\cdot L_{k_{-1}})}{YD_k}$} & - & - & + & + & - & - & + & + \\ \hline\hline
+		\end{tabular}%
+	%}
+	\caption*{\textbf{Fonte:} Elaboração própria}
 \end{table}
+
 

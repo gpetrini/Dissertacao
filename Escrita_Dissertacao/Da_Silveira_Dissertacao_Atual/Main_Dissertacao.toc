@@ -46,9 +46,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.2}Investimento residencial nos modelos macroeconom\IeC {\'e}tricos}{61}{subsection.3.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Modelo econom\IeC {\'e}trico}{68}{section.3.3}% 
+\contentsline {section}{\numberline {3.3}Modelo macroeconom\IeC {\'e}trico}{68}{section.3.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Considera\IeC {\c c}\IeC {\~o}es finais: Da taxa pr\IeC {\'o}pria aos pre\IeC {\c c}os dos im\IeC {\'o}veis}{78}{section.3.4}% 
+\contentsline {section}{\numberline {3.4}Considera\IeC {\c c}\IeC {\~o}es finais: Rumo \IeC {\`a}s simula\IeC {\c c}\IeC {\~o}es}{78}{section.3.4}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\chapternumberline {4}Modelo SFC}{80}{chapter.4}% 
 \defcounter {refsection}{0}\relax 
@@ -62,18 +62,26 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.5}Conclus\IeC {\~o}es preliminares: Rumo aos dados observados}{106}{section.4.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Refer\^encias}{109}{section*.57}% 
+\contentsline {chapter}{Refer\^encias}{111}{section*.52}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Ap\IeC {\^e}ndices}{122}{section*.57}% 
+\contentsline {chapter}{Ap\IeC {\^e}ndices}{124}{section*.52}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {appendix}{\chapternumberline {A}\textit {Fraction} e o investimento residencial}{122}{appendix.A}% 
+\contentsline {appendix}{\chapternumberline {A}Ap\IeC {\^e}ndice estat\IeC {\'\i }stico}{124}{appendix.A}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Gastos ``despoupadores''}{122}{section.A.1}% 
+\contentsline {section}{\numberline {A.1}Testes de hip\IeC {\'o}tese}{124}{section.A.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}Investimento residencial}{123}{section.A.2}% 
+\contentsline {appendix}{\chapternumberline {B}Modelo SFC}{126}{appendix.B}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Anexos}{125}{equation.A.2.2}% 
+\contentsline {section}{\numberline {B.1}\textit {Fraction} e o investimento residencial}{126}{section.B.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {appendix}{\chapternumberline {I}Licen\IeC {\c c}a}{125}{appendix.A}% 
+\contentsline {subsection}{\numberline {B.1.1}Gastos ``despoupadores''}{126}{subsection.B.1.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {I.1}Sobre a licen\IeC {\c c}a dessa obra}{125}{section.A.1}% 
+\contentsline {subsection}{\numberline {B.1.2}Investimento residencial}{127}{subsection.B.1.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B.2}Simula\IeC {\c c}\IeC {\~o}es}{129}{section.B.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Anexos}{130}{table.caption.61}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {appendix}{\chapternumberline {I}Licen\IeC {\c c}a}{130}{appendix.A}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {I.1}Sobre a licen\IeC {\c c}a dessa obra}{130}{section.A.1}% 

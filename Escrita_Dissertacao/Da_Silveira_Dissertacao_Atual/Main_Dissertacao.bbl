@@ -2531,56 +2531,48 @@
       \verb http://doi.wiley.com/10.1111/meca.12234
       \endverb
     \endentry
-    \entry{engle_co-integration_1987}{article}{}
-      \name{author}{2}{}{%
-        {{uniquename=0,uniquepart=base,hash=d491df6781389ebb4ef255c1ec0ca7ed}{%
-           family={Engle},
+    \entry{enders_applied_2014}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=bc17552e86456060317297d380a91882}{%
+           family={Enders},
            familyi={E\bibinitperiod},
-           given={Robert\bibnamedelima F.},
-           giveni={R\bibinitperiod\bibinitdelim F\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=90c4f36411724ec312077a54a0f71d60}{%
-           family={Granger},
-           familyi={G\bibinitperiod},
-           given={C.\bibnamedelimi W.\bibnamedelimi J.},
-           giveni={C\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim J\bibinitperiod},
+           given={Walter},
+           giveni={W\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{dd8df6c93e06c74f74a730192afa1433}
-      \strng{fullhash}{dd8df6c93e06c74f74a730192afa1433}
-      \strng{bibnamehash}{dd8df6c93e06c74f74a730192afa1433}
-      \strng{authorbibnamehash}{dd8df6c93e06c74f74a730192afa1433}
-      \strng{authornamehash}{dd8df6c93e06c74f74a730192afa1433}
-      \strng{authorfullhash}{dd8df6c93e06c74f74a730192afa1433}
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{bc17552e86456060317297d380a91882}
+      \strng{fullhash}{bc17552e86456060317297d380a91882}
+      \strng{bibnamehash}{bc17552e86456060317297d380a91882}
+      \strng{authorbibnamehash}{bc17552e86456060317297d380a91882}
+      \strng{authornamehash}{bc17552e86456060317297d380a91882}
+      \strng{authorfullhash}{bc17552e86456060317297d380a91882}
       \field{sortinit}{E}
       \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{The relationship between co-integration and error correction models, first suggested in Granger (1981), is here extended and used to develop estimation procedures, tests, and empirical examples. If each element of a vector of time series x$_{\textrm{t}}$ first achieves stationarity after differencing, but a linear combination {<}tex-math{>}\${\textbackslash}alpha {\textasciicircum}\{{\textbackslash}prime \}x\_\{t\}\${<}/tex-math{>} is already stationary, the time series x$_{\textrm{t}}$ are said to be co-integrated with co-integrating vector α. There may be several such co-integrating vectors so that α becomes a matrix. Interpreting {<}tex-math{>}\${\textbackslash}alpha {\textasciicircum}\{{\textbackslash}prime \}x\_\{t\}=0\${<}/tex-math{>} as a long run equilibrium, co-integration implies that deviations from equilibrium are stationary, with finite variance, even though the series themselves are nonstationary and have infinite variance. The paper presents a representation theorem based on Granger (1983), which connects the moving average, autoregressive, and error correction representations for co-integrated systems. A vector autoregression in differenced variables is incompatible with these representations. Estimation of these models is discussed and a simple but asymptotically efficient two-step estimator is proposed. Testing for co-integration combines the problems of unit root tests and tests with parameters unidentified under the null. Seven statistics are formulated and analyzed. The critical values of these statistics are calculated based on a Monte Carlo simulation. Using these critical values, the power properties of the tests are examined and one test procedure is recommended for application. In a series of examples it is found that consumption and income are co-integrated, wages and prices are not, short and long interest rates are, and nominal GNP is co-integrated with M2, but not M1, M3, or aggregate liquid assets.}
-      \field{issn}{0012-9682}
-      \field{journaltitle}{Econometrica}
-      \field{number}{2}
-      \field{shorttitle}{Co-{Integration} and {Error} {Correction}}
-      \field{title}{Co-{Integration} and {Error} {Correction}: {Representation}, {Estimation}, and {Testing}}
-      \field{urlday}{12}
-      \field{urlmonth}{7}
+      \field{labeltitlesource}{title}
+      \field{edition}{4}
+      \field{series}{Wiley {Series} in {Probability} and {Statistics}}
+      \field{title}{Applied {Econometric} {Time} {Series}}
+      \field{urlday}{29}
+      \field{urlmonth}{5}
       \field{urlyear}{2019}
-      \field{volume}{55}
-      \field{year}{1987}
+      \field{year}{2014}
       \field{urldateera}{ce}
-      \field{pages}{251\bibrangedash 276}
-      \range{pages}{26}
-      \verb{doi}
-      \verb 10.2307/1913236
+      \verb{file}
+      \verb Enders - 2014 - Applied Econometric Time Series.pdf:/home/gpetrini/Zotero/storage/NAMKQ8MY/Enders - 2014 - Applied Econometric Time Series.pdf:application/pdf
       \endverb
       \verb{urlraw}
-      \verb https://www.jstor.org/stable/1913236
+      \verb http://gen.lib.rus.ec/book/index.php?md5=988c96ab5a6d412a60682e0dec9b31f9
       \endverb
       \verb{url}
-      \verb https://www.jstor.org/stable/1913236
+      \verb http://gen.lib.rus.ec/book/index.php?md5=988c96ab5a6d412a60682e0dec9b31f9
       \endverb
+      \keyw{Referência técnica}
     \endentry
     \entry{erlingsson_integrating_2013}{incollection}{}
       \name{author}{4}{}{%
@@ -5073,6 +5065,54 @@
       \field{title}{Theory of economic dynamics}
       \field{year}{1954}
     \endentry
+    \entry{keynes_general_1937}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=ce5455d74de5aa8766d626a681a61e79}{%
+           family={Keynes},
+           familyi={K\bibinitperiod},
+           given={J.\bibnamedelimi M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ce5455d74de5aa8766d626a681a61e79}
+      \strng{fullhash}{ce5455d74de5aa8766d626a681a61e79}
+      \strng{bibnamehash}{ce5455d74de5aa8766d626a681a61e79}
+      \strng{authorbibnamehash}{ce5455d74de5aa8766d626a681a61e79}
+      \strng{authornamehash}{ce5455d74de5aa8766d626a681a61e79}
+      \strng{authorfullhash}{ce5455d74de5aa8766d626a681a61e79}
+      \field{extraname}{1}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00335533}
+      \field{journaltitle}{The Quarterly Journal of Economics}
+      \field{month}{2}
+      \field{number}{2}
+      \field{title}{The {General} {Theory} of {Employment}}
+      \field{urlday}{19}
+      \field{urlmonth}{12}
+      \field{urlyear}{2019}
+      \field{volume}{51}
+      \field{year}{1937}
+      \field{urldateera}{ce}
+      \field{pages}{209}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.2307/1882087
+      \endverb
+      \verb{file}
+      \verb Keynes - 1937 - The General Theory of Employment.pdf:/home/gpetrini/Zotero/storage/CTY8SKMA/Keynes - 1937 - The General Theory of Employment.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://academic.oup.com/qje/article-lookup/doi/10.2307/1882087
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/qje/article-lookup/doi/10.2307/1882087
+      \endverb
+    \endentry
     \entry{keynes_general_1936}{book}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=612862f6008b8bea8cd4a13783af9a93}{%
@@ -5094,6 +5134,7 @@
       \strng{authorbibnamehash}{612862f6008b8bea8cd4a13783af9a93}
       \strng{authornamehash}{612862f6008b8bea8cd4a13783af9a93}
       \strng{authorfullhash}{612862f6008b8bea8cd4a13783af9a93}
+      \field{extraname}{2}
       \field{sortinit}{K}
       \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
       \field{extradatescope}{labelyear}
@@ -6024,6 +6065,47 @@
       \range{pages}{16}
       \verb{file}
       \verb Snapshot:/home/gpetrini/Zotero/storage/CUPXLNNX/1540-6229.html:text/html
+      \endverb
+    \endentry
+    \entry{mishkin_evaluating_1997}{incollection}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=d53846c752552993eb4d540ed83a6a2f}{%
+           family={Mishkin},
+           familyi={M\bibinitperiod},
+           given={Frederic\bibnamedelima S.},
+           giveni={F\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=3d9356a836dbcd428c135e0adda6a32c}{%
+           family={Kaufman},
+           familyi={K\bibinitperiod},
+           given={George},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{d53846c752552993eb4d540ed83a6a2f}
+      \strng{fullhash}{d53846c752552993eb4d540ed83a6a2f}
+      \strng{bibnamehash}{d53846c752552993eb4d540ed83a6a2f}
+      \strng{authorbibnamehash}{d53846c752552993eb4d540ed83a6a2f}
+      \strng{authornamehash}{d53846c752552993eb4d540ed83a6a2f}
+      \strng{authorfullhash}{d53846c752552993eb4d540ed83a6a2f}
+      \strng{editorbibnamehash}{3d9356a836dbcd428c135e0adda6a32c}
+      \strng{editornamehash}{3d9356a836dbcd428c135e0adda6a32c}
+      \strng{editorfullhash}{3d9356a836dbcd428c135e0adda6a32c}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{It has been five years since the passage of one of the most important pieces of banking legislation, the Federal Deposit Insurance Corporation Act (FDICIA) of 1991. In the aftermath of the savings and loan debacle which came to a head in the late 1980s and the problems in the commercial banking industry, FDICIA was passed to reform the deposit insurance system which}
+      \field{booktitle}{{FDICIA}: {Bank} {Reform} {Five} {Years} {Later} and {Five} {Years} {Ahead}}
+      \field{series}{Research in {Financial} {Services}: {Private} and {Public} {Policy}}
+      \field{title}{Evaluating {FDICIA}}
+      \field{volume}{9}
+      \field{year}{1997}
+      \verb{file}
+      \verb Citeseer - Snapshot:/home/gpetrini/Zotero/storage/AZYUNUHI/summary.html:text/html;Mishkin - 1997 - Evaluating FDICIA.pdf:/home/gpetrini/Zotero/storage/IS4CYI8R/Mishkin - 1997 - Evaluating FDICIA.pdf:application/pdf
       \endverb
     \endentry
     \entry{moreira_demanda_2018}{article}{}
@@ -8231,6 +8313,39 @@
       \range{pages}{19}
       \verb{file}
       \verb Full Text:/home/gpetrini/Zotero/storage/UL67YXSV/Vianello - 1985 - The pace of accumulation.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{wall_too_2010}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=af34464b45bc2fdf010c1033b6b2b1fc}{%
+           family={Wall},
+           familyi={W\bibinitperiod},
+           given={Larry\bibnamedelima D},
+           giveni={L\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{af34464b45bc2fdf010c1033b6b2b1fc}
+      \strng{fullhash}{af34464b45bc2fdf010c1033b6b2b1fc}
+      \strng{bibnamehash}{af34464b45bc2fdf010c1033b6b2b1fc}
+      \strng{authorbibnamehash}{af34464b45bc2fdf010c1033b6b2b1fc}
+      \strng{authornamehash}{af34464b45bc2fdf010c1033b6b2b1fc}
+      \strng{authorfullhash}{af34464b45bc2fdf010c1033b6b2b1fc}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{1}
+      \field{title}{Too {Big} to {Fail} after {FDICIA}}
+      \field{year}{2010}
+      \field{pages}{20}
+      \range{pages}{1}
+      \verb{file}
+      \verb Wall - 2010 - Too Big to Fail after FDICIA.pdf:/home/gpetrini/Zotero/storage/42KZ2Q7T/Wall - 2010 - Too Big to Fail after FDICIA.pdf:application/pdf
       \endverb
     \endentry
     \entry{weisskopf_marxian_1979}{article}{}

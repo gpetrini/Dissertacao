@@ -7,10 +7,9 @@ Por padrão, as variáveis exógenas, $j$ diga-se, serão indicadas por $\overli
 
 \paragraph*{Equações gerais}
 
-O produto é determinado pelo estoque de capital criador de capacidade assim como pelo trabalho homogêneo e desconsidera-se retornos crescentes de escala e progresso tecnológico.
+O produto é determinado pelo estoque de capital criador de capacidade assim como pelo trabalho homogêneo. Desconsidera-se retornos crescentes de escala e progresso tecnológico.
 Além disso, supõe-se que não estão presentes inflação de bens bem como depreciação.  
 Ao longo do modelo, supõe-se que existem duas classes sociais: capitalistas (denotados pelo subíndice $k$) e trabalhadores ($w$).
-
 Por se tratar de uma economia sem relações externas e sem governo, o produto determinado pelos componentes da demanda ($Y$) é a soma do consumo ($C$) e investimento das famílias ($I_h$) e das firmas ($I_f$) em que apenas este último é criador de capacidade produtiva ao setor privado:
 
 \begin{equation}
@@ -95,9 +94,9 @@ $$
 \end{equation}
 
 Por fim, cabe explicitar os ativos financeiros presentes no modelo e como são distribuídos entre os diferentes agentes institucionais. As famílias capitalistas (denotadas pelo subíndice $hk$) acumulam riqueza sob a forma de depósitos à vista ($M$) e imóveis ($K_h$) enquanto contraem empréstimos hipotecários ($MO$) para realizar investimento residencial.
-Além disso, parcela do consumo é autônoma ($C_k$) e é financiado por dívida ($L_k$)
+Além disso, parcela do consumo é autônoma ($C_k$) e é financiado por dívida ($L_k$).
 As firmas (denotadas pelo subíndice $f$), por sua vez, financiam o investimento em parte por lucros retidos e o restante por empréstimo ($L_f$). Os bancos, portanto, criam crédito (\textit{ex nihilo}) para então recolher os depósitos, todos remunerados pelas respectivas taxas de juros. 
-Os trabalhadores, portanto, gastam o que ganham e, assim, não acumulam ativos ou financeiros.
+Por fim, supõe-se que os trabalhadores gastam o que ganham e, assim, não acumulam ativos reais ou financeiros.
 Com isso, é possível explicitar a matriz dos estoques:
 
 
@@ -136,11 +135,11 @@ Esta matriz mapeia as relações entre os diferentes agentes institucionais e pe
 & Trabalhadores
 & \multicolumn{2}{c}{Capitalistas}
 & \multicolumn{2}{c}{Firmas}                        
-& Bancos       & Total    \\ \cline{2-3}\cline{4-5}
-& 
+& Bancos       & Total    \\ \cline{3-4}\cline{5-6}
+& &
 Corrente & Capital & 
 Corrente & Capital     & 
-&        $\sum$ \\ 
+&       $\sum$ \\ 
 Consumo                        &$-Cw$&$-C_k$& & $+C$& & & 0\\
 Investimento                   & & & &$+If$&$-If$ & & 0\\
 Investimento residencial       &  & &$-Ih$&$+Ih$& & & 0\\
@@ -176,9 +175,9 @@ Além disso, as firmas retêm uma parcela ($\gamma_F$) dos lucros líquidos de j
 \begin{equation}
     FD = (1-\gamma_F)\cdot (FT - r_l\cdot L_{f_{-1}})
 \end{equation}
-Adicionalmente, pelo foco deste modelo recair sobre o mercado imobiliário e não sobre o mercado acionário supõe-se que as firmas são propriedade dos capitalistas mas de capital fechado de modo que suas ações não são negociadas em bolsa de valores.
+Adicionalmente, pelo foco deste modelo recair sobre o mercado imobiliário e não sobre o mercado acionário supõe-se que as firmas são propriedade dos capitalistas mas não possuem capital aberto de modo que suas ações não são negociadas em bolsa de valores.
 
-Como sugerido pelo capítulo \ref{CapFatos} e seguindo \textcite{serrano_long_1995} e \textcite{serrano_sraffian_2017}, supõe-se que o investimento das firmas é induzido pelo nível de demanda efetiva,
+Como sugerido pelo capítulo \ref{CapTeorico} e seguindo \textcite{serrano_long_1995} e \textcite{serrano_sraffian_2017}, supõe-se que o investimento das firmas é induzido pelo nível de demanda efetiva,
 \begin{equation}
 \label{_If}
     If = h\cdot Y
@@ -236,7 +235,7 @@ como hipótese simplificadora, os referidos $\sigma_s$ são nulos no modelo base
     NFW_b = r_{mo}\cdot MO_{-1} + r_l\cdot L_{-1} - r_m\cdot M_{-1}
 \end{equation}
 $$
-    NFW_b = r_{m}\cdot (MO_{-1} + \cdot L_{-1} - \cdot M_{-1}) = 0
+    NFW_b = r_{m}\cdot (MO_{-1} + L_{-1} - \cdot M_{-1}) = 0
 $$
 que é alocado da seguinte forma:
 
@@ -330,7 +329,7 @@ Diferentemente dos modelos SFC convencionais, a poupança das famílias, neste c
     NFW_{hk} = S_{hk} - Ih
 \end{equation}
 
-Com isso, é possível apresentar as equações que determinam o investimento residencial. Supõe-se que a oferta de imóveis é infinitamente elástica, ou seja, toda a demanda por imóveis é atendida \cite[p.~141--145]{duesenberry_investment_1958}. No entanto, vale mencionar que é uma hipótese temporária e que um dos objetivos desta pesquisa é avaliar o impacto da inflação de ativos que necessita de uma dinâmica de preços ($p_h$). Formalmente, é preciso que a oferta ($I_{h_s}$) e demanda ($I_h$) se igualem tanto nos fluxos:
+Com isso, é possível apresentar as equações que determinam o investimento residencial. Supõe-se que a oferta de imóveis é infinitamente elástica, ou seja, toda a demanda por imóveis é atendida \cite[p.~141--145]{duesenberry_investment_1958}. No entanto, vale mencionar que é uma hipótese temporária e que um dos objetivos desta pesquisa é avaliar o impacto da inflação de ativos ($\dot p_h$). Formalmente, é preciso que a oferta ($I_{h_s}$) e demanda ($I_h$) se igualem tanto nos fluxos:
 \begin{equation}
     I_{hs} = I_h
 \end{equation}
@@ -341,20 +340,20 @@ quanto nos estoques em termos reais:
 em que os subscritos $S$ e $D$ denotam oferta e demanda respectivamente. Além disso, a relação entre os fluxos e estoques é contabilmente definida por:
 
 \begin{equation}
-    \Delta K_{HS} = \Delta K_{HD} = Ih = I_{hs}
+    \Delta K_{HS} = \Delta K_{HD} = I_{hs} = I_h
 \end{equation}
 Sendo assim, a riqueza líquida deste setor é determinada por
 \begin{equation}
 V_{hk} = K_{HD}\cdot p_h + M - L_k - MO
 \end{equation}
-Outra hipótese do modelo é de que as famílias se endividam com títulos hipotecários de forma a financiar o investimento residencial. Em outras palavras, o investimento residencial determina parte o estoque de dívida das famílias capitalistas.
+Outra hipótese do modelo é de que as famílias se endividam com títulos hipotecários de forma a financiar o investimento residencial. Em outras palavras, o investimento residencial determina parte o estoque de dívida das famílias capitalistas:
 
 \begin{equation}
     \label{EqMO}
     \Delta MO = Ih
 \end{equation}
 
-Por fim, tal como no capítulo anterior, considera-se que a taxa de crescimento do investimento residencial ($g_Z$) é definido pela taxa própria de juros dos imóveis (\textit{own}) definida por \textcite{teixeira_crescimento_2015}:
+Por fim, tal como no capítulo anterior, considera-se que a taxa de crescimento do investimento residencial ($g_Z$) é definido pela taxa própria de juros dos imóveis (\textit{own}) tal como em \textcite{teixeira_crescimento_2015}:
 
 \begin{equation}
     Ih = (1 + g_Z)\cdot Ih_{-1}
@@ -363,7 +362,7 @@ Por fim, tal como no capítulo anterior, considera-se que a taxa de crescimento 
 g_Z = \phi_0 - \phi_1\cdot own
 \end{equation}
 \begin{equation}
-own = \frac{1+r_{mo}}{1+\dot p_h}
+own = \left(\frac{1+r_{mo}}{1+\dot p_h}\right) -1
 \end{equation}
 em que $\dot p_h$ indica a inflação de imóveis. 
 Com as equações explicitadas, é possível partir para a solução analítica e para as simulações. 
