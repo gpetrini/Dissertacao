@@ -1122,6 +1122,39 @@
       \verb Bibow - 2010 - Financialization of the US household sector The .pdf:/home/gpetrini/Zotero/storage/FMZQ2UUR/Bibow - 2010 - Financialization of the US household sector The .pdf:application/pdf;Snapshot:/home/gpetrini/Zotero/storage/YN4VS86A/106233.html:text/html
       \endverb
     \endentry
+    \entry{blanchard_rethinking_2017}{book}{}
+      \name{editor}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=8ea1d54fee57ba07b648601ddd77664a}{%
+           family={Blanchard},
+           familyi={B\bibinitperiod},
+           given={Olivier},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=99d97b6119dc8e6173e861cc94d01099}{%
+           family={Summers},
+           familyi={S\bibinitperiod},
+           given={Lawrence\bibnamedelima H.},
+           giveni={L\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {PIIE}%
+      }
+      \strng{namehash}{33928e633c3ec53b2165c73667cdb502}
+      \strng{fullhash}{33928e633c3ec53b2165c73667cdb502}
+      \strng{bibnamehash}{33928e633c3ec53b2165c73667cdb502}
+      \strng{editorbibnamehash}{33928e633c3ec53b2165c73667cdb502}
+      \strng{editornamehash}{33928e633c3ec53b2165c73667cdb502}
+      \strng{editorfullhash}{33928e633c3ec53b2165c73667cdb502}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{Rethinking {Macroeconomic} {Policy}}
+      \field{year}{2017}
+    \endentry
     \entry{setterfield_distribution_2002}{incollection}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=2e967c996f7e896518518af6189bb855}{%
@@ -1462,6 +1495,47 @@
       \verb https://academic.oup.com/cje/advance-article/doi/10.1093/cje/bey008/5033971
       \endverb
     \endentry
+    \entry{cagnin_o_2007}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=8985b0462761844f1d4a6629f107ce09}{%
+           family={Cagnin},
+           familyi={C\bibinitperiod},
+           given={Rafael\bibnamedelima Fagundes},
+           giveni={R\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {Português}%
+      }
+      \strng{namehash}{8985b0462761844f1d4a6629f107ce09}
+      \strng{fullhash}{8985b0462761844f1d4a6629f107ce09}
+      \strng{bibnamehash}{8985b0462761844f1d4a6629f107ce09}
+      \strng{authorbibnamehash}{8985b0462761844f1d4a6629f107ce09}
+      \strng{authornamehash}{8985b0462761844f1d4a6629f107ce09}
+      \strng{authorfullhash}{8985b0462761844f1d4a6629f107ce09}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Resumo: Com o aprofundamento da desregulamentação e liberalização financeira, os ciclos de ativos passaram a exercer crescente influência sobre as decisões de gasto nas economias desenvolvidas, especialmente nos EUA. O objetivo desse trabalho é compreender o papel de um ativo específico, os imóveis residenciais, na recuperação americana a partir de 2002, em que se destacaram a expansão do consumo das famílias e do investimento residencial. O ciclo de preço dos imóveis esteve condicionado pela política monetária expansiva do Federal Reserve e pela flexibilidade do sistema americano de financiamento residencial. A centralidade que o crédito ocupa na análise sobre os ciclos do tipo financial led e sua importância para a efetivação da compra do imóvel pelas famílias fez com que esse sistema de financiamento fosse enfatizado}
+      \field{title}{O mercado imobiliario e a recuperação economica dos {EUA} apos 2002}
+      \field{urlday}{20}
+      \field{urlmonth}{12}
+      \field{urlyear}{2018}
+      \field{year}{2007}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Full Text PDF:/home/gpetrini/Zotero/storage/IS6657YH/Cagnin - 2007 - O mercado imobiliario e a recuperação economica do.pdf:application/pdf;Snapshot:/home/gpetrini/Zotero/storage/C3SUPVRU/285734.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb http://repositorio.unicamp.br/jspui/handle/REPOSIP/285734
+      \endverb
+      \verb{url}
+      \verb http://repositorio.unicamp.br/jspui/handle/REPOSIP/285734
+      \endverb
+    \endentry
     \entry{cardaci_inequality_2018}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=96657472472c7490b631e7a3925a0c04}{%
@@ -1511,6 +1585,62 @@
       \endverb
       \verb{url}
       \verb https://linkinghub.elsevier.com/retrieve/pii/S0167268118300106
+      \endverb
+    \endentry
+    \entry{carvalho_personal_2016}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=8d26fb3ddec7909da6cf5f06652327c7}{%
+           family={Carvalho},
+           familyi={C\bibinitperiod},
+           given={Laura},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=52fb935aa1902d7369225336a04b213a}{%
+           family={Rezai},
+           familyi={R\bibinitperiod},
+           given={Armon},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{7ce7db5f16dd71fa9b18d270737cb6dc}
+      \strng{fullhash}{7ce7db5f16dd71fa9b18d270737cb6dc}
+      \strng{bibnamehash}{7ce7db5f16dd71fa9b18d270737cb6dc}
+      \strng{authorbibnamehash}{7ce7db5f16dd71fa9b18d270737cb6dc}
+      \strng{authornamehash}{7ce7db5f16dd71fa9b18d270737cb6dc}
+      \strng{authorfullhash}{7ce7db5f16dd71fa9b18d270737cb6dc}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract. This paper presents a theoretical and empirical investigation of how changes in the size distribution of income can affect aggregate demand and the d}
+      \field{issn}{0309-166X}
+      \field{journaltitle}{Cambridge Journal of Economics}
+      \field{number}{2}
+      \field{title}{Personal income inequality and aggregate demand}
+      \field{urlday}{30}
+      \field{urlmonth}{1}
+      \field{urlyear}{2019}
+      \field{volume}{40}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \field{pages}{491\bibrangedash 505}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1093/cje/beu085
+      \endverb
+      \verb{file}
+      \verb Snapshot:/home/gpetrini/Zotero/storage/NEDJQB3C/2605032.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://academic.oup.com/cje/article/40/2/491/2605032
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/cje/article/40/2/491/2605032
       \endverb
     \endentry
     \entry{caverzasi_stock-flow_2013}{article}{}
@@ -2530,6 +2660,39 @@
       \verb{url}
       \verb http://doi.wiley.com/10.1111/meca.12234
       \endverb
+    \endentry
+    \entry{ederer_will_2019}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=3c92563af8288d8cf2d70dab9ed23da8}{%
+           family={Ederer},
+           familyi={E\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=837aef6af05b15bb34fe22d8ec660bdd}{%
+           family={Rehm},
+           familyi={R\bibinitperiod},
+           given={Miriam},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{864e19fa17e9e4454fe2659ab058dffc}
+      \strng{fullhash}{864e19fa17e9e4454fe2659ab058dffc}
+      \strng{bibnamehash}{864e19fa17e9e4454fe2659ab058dffc}
+      \strng{authorbibnamehash}{864e19fa17e9e4454fe2659ab058dffc}
+      \strng{authornamehash}{864e19fa17e9e4454fe2659ab058dffc}
+      \strng{authorfullhash}{864e19fa17e9e4454fe2659ab058dffc}
+      \field{sortinit}{E}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cambridge Journal of Economics}
+      \field{note}{forthcoming}
+      \field{title}{Will {Wealth} {Become} {More} {Concentrated} in {Europe}? {Evidence} from a {Calibrated} {Post}-{Keynesian} model}
+      \field{year}{2019}
+      \keyw{Prof. Rehm,Obrigatória}
     \endentry
     \entry{enders_applied_2014}{book}{}
       \name{author}{1}{}{%
@@ -5065,6 +5228,46 @@
       \field{title}{Theory of economic dynamics}
       \field{year}{1954}
     \endentry
+    \entry{karwowski_financialisation_2019}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=3b47bf3626af9b74c13d0ec4322678d3}{%
+           family={Karwowski},
+           familyi={K\bibinitperiod},
+           given={Ewa},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=4a9dcd2d346549adb569eca71d4f9403}{%
+           family={Stockhammer},
+           familyi={S\bibinitperiod},
+           given={Engelbert},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=bb523a78af0be0b99a6c6392d48bf83a}{%
+           family={Shabani},
+           familyi={S\bibinitperiod},
+           given={Mimoza},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \strng{namehash}{bc23aebca0146bbb44763b45ac6daef2}
+      \strng{fullhash}{bc23aebca0146bbb44763b45ac6daef2}
+      \strng{bibnamehash}{bc23aebca0146bbb44763b45ac6daef2}
+      \strng{authorbibnamehash}{bc23aebca0146bbb44763b45ac6daef2}
+      \strng{authornamehash}{bc23aebca0146bbb44763b45ac6daef2}
+      \strng{authorfullhash}{bc23aebca0146bbb44763b45ac6daef2}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1356-3467}
+      \field{title}{Financialisation: {Dimensions} and determinants : {Comparing} {OECD} {Countries} since 1997}
+      \field{year}{2019}
+    \endentry
     \entry{keynes_general_1937}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=ce5455d74de5aa8766d626a681a61e79}{%
@@ -5930,6 +6133,61 @@
       \verb https://academic.oup.com/cje/article/15/3/301/1735086
       \endverb
     \endentry
+    \entry{mian_consequences_2009}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=56836bc58f70488000e8ecb3a6725213}{%
+           family={Mian},
+           familyi={M\bibinitperiod},
+           given={Atif},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=115809cbb4152ece23ddb8bd5a0c6fb2}{%
+           family={Sufi},
+           familyi={S\bibinitperiod},
+           given={Amir},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{9ea14e828d531d51eb2c223bb856d369}
+      \strng{fullhash}{9ea14e828d531d51eb2c223bb856d369}
+      \strng{bibnamehash}{9ea14e828d531d51eb2c223bb856d369}
+      \strng{authorbibnamehash}{9ea14e828d531d51eb2c223bb856d369}
+      \strng{authornamehash}{9ea14e828d531d51eb2c223bb856d369}
+      \strng{authorfullhash}{9ea14e828d531d51eb2c223bb856d369}
+      \field{extraname}{1}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{0033-5533, 1531-4650}
+      \field{journaltitle}{Quarterly Journal of Economics}
+      \field{month}{11}
+      \field{number}{4}
+      \field{shorttitle}{The {Consequences} of {Mortgage} {Credit} {Expansion}}
+      \field{title}{The {Consequences} of {Mortgage} {Credit} {Expansion}: {Evidence} from the {U}.{S}. {Mortgage} {Default} {Crisis}}
+      \field{urlday}{26}
+      \field{urlmonth}{11}
+      \field{urlyear}{2019}
+      \field{volume}{124}
+      \field{year}{2009}
+      \field{urldateera}{ce}
+      \field{pages}{1449\bibrangedash 1496}
+      \range{pages}{48}
+      \verb{doi}
+      \verb 10.1162/qjec.2009.124.4.1449
+      \endverb
+      \verb{urlraw}
+      \verb https://academic.oup.com/qje/article-lookup/doi/10.1162/qjec.2009.124.4.1449
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/qje/article-lookup/doi/10.1162/qjec.2009.124.4.1449
+      \endverb
+    \endentry
     \entry{mian_house_2011}{article}{}
       \name{author}{2}{}{%
         {{uniquename=0,uniquepart=base,hash=56836bc58f70488000e8ecb3a6725213}{%
@@ -5954,6 +6212,7 @@
       \strng{authorbibnamehash}{9ea14e828d531d51eb2c223bb856d369}
       \strng{authornamehash}{9ea14e828d531d51eb2c223bb856d369}
       \strng{authorfullhash}{9ea14e828d531d51eb2c223bb856d369}
+      \field{extraname}{2}
       \field{sortinit}{M}
       \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
       \field{extradatescope}{labelyear}
@@ -6920,6 +7179,44 @@
       \verb https://econpapers.repec.org/article/ouprestud/v_3a29_3ay_3a1962_3ai_3a4_3ap_3a267-279..htm
       \endverb
     \endentry
+    \entry{da_silveira_investimento_2019}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=b5b9dc2d7145c343e5d90905b299a21f}{%
+           family={Petrini},
+           familyi={P\bibinitperiod},
+           given={Gabriel},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=f8060ec2dd02eb198cf7c54ef058a7bc}{%
+           family={Teixeira},
+           familyi={T\bibinitperiod},
+           given={Lucas},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Campinas}%
+      }
+      \strng{namehash}{17e02651328ea118384f64cfae66586e}
+      \strng{fullhash}{17e02651328ea118384f64cfae66586e}
+      \strng{bibnamehash}{17e02651328ea118384f64cfae66586e}
+      \strng{authorbibnamehash}{17e02651328ea118384f64cfae66586e}
+      \strng{authornamehash}{17e02651328ea118384f64cfae66586e}
+      \strng{authorfullhash}{17e02651328ea118384f64cfae66586e}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Este artigo apresenta um modelo baseado no supermultiplicador sraffiano num arcabouço contábil de consistência entre fluxos e estoques (SSM-SFC) cujo motor do crescimento é o investimento residencial. A motivação empírica é baseada no papel central deste gasto para explicar a tendência e os ciclos econômicos, conforme apontado por trabalhos recentes. No campo teórico, percebe-se que o investimento residencial costuma ser negligenciado na literatura de modelos de crescimento. O modelo aqui apresentado é o mais parcimonioso possível. Trata-se de uma economia fechada e sem governo, com bancos, empresas produtivas e famílias. Nessa economia, existem dois ativos reais: o capital produtivo, fruto do investimento das firmas, e os imóveis, resultado do investi- mento residencial feito pelas famílias. O modelo é simulado para analisar os efeitos de mudanças na distribuição, na taxa de juros e na taxa de crescimento dos gastos autônomos. Os resultados são: (i) mudanças na distribuição afetam a taxa de crescimento apenas temporariamente; (ii) au- mento na taxa de juros não afeta a taxa de crescimento; (iii) a participação do estoque de imóveis no capital total reduz como resultado de uma maior taxa de crescimento do investimento residen- cial; (iv) taxa de crescimento de steady state é determinada pela taxa de crescimento dos gastos autônomos; (v) grau de utilização da capacidade produtiva converge para o grau normal.}
+      \field{booktitle}{{XII} {Encontro} {Internacional} da {AKB}}
+      \field{title}{Investimento residencial em um modelo {Stock}-{Flow} {Consistent} com supermultiplicador sraffiano}
+      \field{year}{2019}
+      \verb{file}
+      \verb Da Silveira e Teixeira - 2019 - Investimento residencial em um modelo Stock-Flow C.pdf:/home/gpetrini/Zotero/storage/RP7HGWCR/Da Silveira e Teixeira - 2019 - Investimento residencial em um modelo Stock-Flow C.pdf:application/pdf
+      \endverb
+    \endentry
     \entry{pheng_revisit_1992}{article}{}
       \name{author}{2}{}{%
         {{uniquename=0,uniquepart=base,hash=912d4481928a96a59d6f1efdeb4320e5}{%
@@ -7403,6 +7700,62 @@
       \verb https://doi.org/10.1007/978-3-642-15340-2_13
       \endverb
       \keyw{cointegration,Consumption,consumption of durables,financialwealth,housing wealth}
+    \endentry
+    \entry{schwartz_politics_2009}{book}{}
+      \name{editor}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=c01cfb80f770c1a62a54f6cedb97a59c}{%
+           family={Schwartz},
+           familyi={S\bibinitperiod},
+           given={Herman\bibnamedelima M.},
+           giveni={H\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=abc0fb0cefc086f7df2b36eb7642fd68}{%
+           family={Seabrooke},
+           familyi={S\bibinitperiod},
+           given={Leonard},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{location}{1}{%
+        {London}%
+      }
+      \list{publisher}{1}{%
+        {Palgrave Macmillan UK}%
+      }
+      \strng{namehash}{b691108e63f1f45006d70a1cd1cbbaf1}
+      \strng{fullhash}{b691108e63f1f45006d70a1cd1cbbaf1}
+      \strng{bibnamehash}{b691108e63f1f45006d70a1cd1cbbaf1}
+      \strng{editorbibnamehash}{b691108e63f1f45006d70a1cd1cbbaf1}
+      \strng{editornamehash}{b691108e63f1f45006d70a1cd1cbbaf1}
+      \strng{editorfullhash}{b691108e63f1f45006d70a1cd1cbbaf1}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-0-230-23081-1 978-0-230-28044-1}
+      \field{title}{The {Politics} of {Housing} {Booms} and {Busts}}
+      \field{urlday}{23}
+      \field{urlmonth}{8}
+      \field{urlyear}{2019}
+      \field{year}{2009}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1057/9780230280441
+      \endverb
+      \verb{file}
+      \verb Schwartz e Seabrooke - 2009 - The Politics of Housing Booms and Busts.pdf:/home/gpetrini/Zotero/storage/5GVFQKYI/Schwartz e Seabrooke - 2009 - The Politics of Housing Booms and Busts.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://link.springer.com/10.1057/9780230280441
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1057/9780230280441
+      \endverb
     \endentry
     \entry{serrano_teoria_1988}{thesis}{}
       \name{author}{1}{}{%
@@ -8348,6 +8701,41 @@
       \verb Wall - 2010 - Too Big to Fail after FDICIA.pdf:/home/gpetrini/Zotero/storage/42KZ2Q7T/Wall - 2010 - Too Big to Fail after FDICIA.pdf:application/pdf
       \endverb
     \endentry
+    \entry{walther_forty_2019}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=0334cb122c9c7bee535dc1eb559c6169}{%
+           family={Walther},
+           familyi={W\bibinitperiod},
+           given={Herbert},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{0334cb122c9c7bee535dc1eb559c6169}
+      \strng{fullhash}{0334cb122c9c7bee535dc1eb559c6169}
+      \strng{bibnamehash}{0334cb122c9c7bee535dc1eb559c6169}
+      \strng{authorbibnamehash}{0334cb122c9c7bee535dc1eb559c6169}
+      \strng{authornamehash}{0334cb122c9c7bee535dc1eb559c6169}
+      \strng{authorfullhash}{0334cb122c9c7bee535dc1eb559c6169}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{European Journal of Economics and Economic Policies: Intervention}
+      \field{number}{3}
+      \field{title}{Forty years of real-estate bubbles in the {US} and the macroeconomy: a {Keynesian} perspective}
+      \field{volume}{16}
+      \field{year}{2019}
+      \field{pages}{381\bibrangedash 402}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.4337/ejeep.2019.03.07
+      \endverb
+    \endentry
     \entry{weisskopf_marxian_1979}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=92e6341719ffb50c22936dd3c4347ae2}{%
@@ -8396,6 +8784,46 @@
       \endverb
       \verb{url}
       \verb https://academic.oup.com/cje/article/3/4/341/1729922
+      \endverb
+    \endentry
+    \entry{wolf_rising_2010}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=56ab0899ad15a1bac865198fa8c8d363}{%
+           family={Wolf},
+           familyi={W\bibinitperiod},
+           given={Edward\bibnamedelima N.},
+           giveni={E\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{56ab0899ad15a1bac865198fa8c8d363}
+      \strng{fullhash}{56ab0899ad15a1bac865198fa8c8d363}
+      \strng{bibnamehash}{56ab0899ad15a1bac865198fa8c8d363}
+      \strng{authorbibnamehash}{56ab0899ad15a1bac865198fa8c8d363}
+      \strng{authornamehash}{56ab0899ad15a1bac865198fa8c8d363}
+      \strng{authorfullhash}{56ab0899ad15a1bac865198fa8c8d363}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0036-8237}
+      \field{journaltitle}{Science \& Society}
+      \field{number}{3}
+      \field{title}{Rising {Profitability} and the {Middle} {Class} {Squeeze}}
+      \field{urlday}{20}
+      \field{urlmonth}{12}
+      \field{urlyear}{2019}
+      \field{volume}{74}
+      \field{year}{2010}
+      \field{urldateera}{ce}
+      \field{pages}{429\bibrangedash 449}
+      \range{pages}{21}
+      \verb{urlraw}
+      \verb www.jstor.org/stable/25681252
+      \endverb
+      \verb{url}
+      \verb www.jstor.org/stable/25681252
       \endverb
     \endentry
     \entry{wolfson_irving_1996}{article}{}
