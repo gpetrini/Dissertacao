@@ -46,42 +46,42 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.2}Investimento residencial nos modelos macroeconom\IeC {\'e}tricos}{68}{subsection.3.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Modelo macroeconom\IeC {\'e}trico}{72}{section.3.3}% 
+\contentsline {section}{\numberline {3.3}Modelo macroeconom\IeC {\'e}trico}{73}{section.3.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Considera\IeC {\c c}\IeC {\~o}es finais: Rumo \IeC {\`a}s simula\IeC {\c c}\IeC {\~o}es}{81}{section.3.4}% 
+\contentsline {section}{\numberline {3.4}Considera\IeC {\c c}\IeC {\~o}es finais: Rumo \IeC {\`a}s simula\IeC {\c c}\IeC {\~o}es}{82}{section.3.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\chapternumberline {4}Modelo SFC}{83}{chapter.4}% 
+\contentsline {chapter}{\chapternumberline {4}Modelo SFC}{84}{chapter.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Metodologia SFC: Uma breve introdu\IeC {\c c}\IeC {\~a}o}{84}{section.4.1}% 
+\contentsline {section}{\numberline {4.1}Metodologia SFC: Uma breve introdu\IeC {\c c}\IeC {\~a}o}{85}{section.4.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Modelo}{87}{section.4.2}% 
+\contentsline {section}{\numberline {4.2}Modelo}{88}{section.4.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Solu\IeC {\c c}\IeC {\~a}o anal\IeC {\'\i }tica}{96}{section.4.3}% 
+\contentsline {section}{\numberline {4.3}Solu\IeC {\c c}\IeC {\~a}o anal\IeC {\'\i }tica}{97}{section.4.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Simula\IeC {\c c}\IeC {\~a}o e choques}{99}{section.4.4}% 
+\contentsline {section}{\numberline {4.4}Simula\IeC {\c c}\IeC {\~a}o e choques}{100}{section.4.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Conclus\IeC {\~o}es preliminares: Rumo aos dados observados}{109}{section.4.5}% 
+\contentsline {section}{\numberline {4.5}Conclus\IeC {\~o}es preliminares: Rumo aos dados observados}{110}{section.4.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Refer\^encias}{114}{section*.50}% 
+\contentsline {chapter}{Refer\^encias}{115}{section*.52}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Ap\IeC {\^e}ndices}{128}{section*.50}% 
+\contentsline {chapter}{Ap\IeC {\^e}ndices}{129}{section*.52}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {appendix}{\chapternumberline {A}Ap\IeC {\^e}ndice estat\IeC {\'\i }stico}{128}{appendix.A}% 
+\contentsline {appendix}{\chapternumberline {A}Ap\IeC {\^e}ndice estat\IeC {\'\i }stico}{129}{appendix.A}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Testes de hip\IeC {\'o}tese}{128}{section.A.1}% 
+\contentsline {section}{\numberline {A.1}Testes de hip\IeC {\'o}tese}{129}{section.A.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {appendix}{\chapternumberline {B}Modelo SFC}{130}{appendix.B}% 
+\contentsline {appendix}{\chapternumberline {B}Modelo SFC}{131}{appendix.B}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.1}\textit {Fraction} e o investimento residencial}{130}{section.B.1}% 
+\contentsline {section}{\numberline {B.1}\textit {Fraction} e o investimento residencial}{131}{section.B.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {B.1.1}Gastos ``despoupadores''}{130}{subsection.B.1.1}% 
+\contentsline {subsection}{\numberline {B.1.1}Gastos ``despoupadores''}{131}{subsection.B.1.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {B.1.2}Investimento residencial}{131}{subsection.B.1.2}% 
+\contentsline {subsection}{\numberline {B.1.2}Investimento residencial}{132}{subsection.B.1.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.2}Simula\IeC {\c c}\IeC {\~o}es}{133}{section.B.2}% 
+\contentsline {section}{\numberline {B.2}Simula\IeC {\c c}\IeC {\~o}es}{134}{section.B.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Anexos}{134}{table.caption.59}% 
+\contentsline {chapter}{Anexos}{135}{table.caption.61}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {appendix}{\chapternumberline {I}Licen\IeC {\c c}a}{134}{appendix.A}% 
+\contentsline {appendix}{\chapternumberline {I}Licen\IeC {\c c}a}{135}{appendix.A}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {I.1}Sobre a licen\IeC {\c c}a dessa obra}{134}{section.A.1}% 
+\contentsline {section}{\numberline {I.1}Sobre a licen\IeC {\c c}a dessa obra}{135}{section.A.1}% 

@@ -1956,6 +1956,57 @@
       \verb https://www.taylorfrancis.com/books/9781315386942
       \endverb
     \endentry
+    \entry{cynamon_inequality_2013}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=f78d76260fe8902ec96dd940f482f16e}{%
+           family={Cynamon},
+           familyi={C\bibinitperiod},
+           given={Barry\bibnamedelima Z.},
+           giveni={B\bibinitperiod\bibinitdelim Z\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=a587298e8b761369b9864f182d61c8f8}{%
+           family={Fazzari},
+           familyi={F\bibinitperiod},
+           given={Steven\bibnamedelima M.},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{ee61232e588c4f0b54d8456cec0b4815}
+      \strng{fullhash}{ee61232e588c4f0b54d8456cec0b4815}
+      \strng{bibnamehash}{ee61232e588c4f0b54d8456cec0b4815}
+      \strng{authorbibnamehash}{ee61232e588c4f0b54d8456cec0b4815}
+      \strng{authornamehash}{ee61232e588c4f0b54d8456cec0b4815}
+      \strng{authorfullhash}{ee61232e588c4f0b54d8456cec0b4815}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1556-5068}
+      \field{journaltitle}{SSRN Electronic Journal}
+      \field{title}{Inequality and {Household} {Finance} {During} the {Consumer} {Age}}
+      \field{urlday}{24}
+      \field{urlmonth}{10}
+      \field{urlyear}{2018}
+      \field{year}{2013}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.2139/ssrn.2205524
+      \endverb
+      \verb{file}
+      \verb Cynamon e Fazzari - 2013 - Inequality and Household Finance During the Consum.pdf:/home/gpetrini/Zotero/storage/EWUNSU75/Cynamon e Fazzari - 2013 - Inequality and Household Finance During the Consum.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://www.ssrn.com/abstract=2205524
+      \endverb
+      \verb{url}
+      \verb http://www.ssrn.com/abstract=2205524
+      \endverb
+    \endentry
     \entry{dallery_kaleckian_2007}{inproceedings}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=e1f439e8569cc3eccdb235ee250b48a5}{%
@@ -7177,44 +7228,6 @@
       \endverb
       \verb{url}
       \verb https://econpapers.repec.org/article/ouprestud/v_3a29_3ay_3a1962_3ai_3a4_3ap_3a267-279..htm
-      \endverb
-    \endentry
-    \entry{da_silveira_investimento_2019}{inproceedings}{}
-      \name{author}{2}{}{%
-        {{uniquename=0,uniquepart=base,hash=b5b9dc2d7145c343e5d90905b299a21f}{%
-           family={Petrini},
-           familyi={P\bibinitperiod},
-           given={Gabriel},
-           giveni={G\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=f8060ec2dd02eb198cf7c54ef058a7bc}{%
-           family={Teixeira},
-           familyi={T\bibinitperiod},
-           given={Lucas},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{location}{1}{%
-        {Campinas}%
-      }
-      \strng{namehash}{17e02651328ea118384f64cfae66586e}
-      \strng{fullhash}{17e02651328ea118384f64cfae66586e}
-      \strng{bibnamehash}{17e02651328ea118384f64cfae66586e}
-      \strng{authorbibnamehash}{17e02651328ea118384f64cfae66586e}
-      \strng{authornamehash}{17e02651328ea118384f64cfae66586e}
-      \strng{authorfullhash}{17e02651328ea118384f64cfae66586e}
-      \field{sortinit}{P}
-      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Este artigo apresenta um modelo baseado no supermultiplicador sraffiano num arcabouço contábil de consistência entre fluxos e estoques (SSM-SFC) cujo motor do crescimento é o investimento residencial. A motivação empírica é baseada no papel central deste gasto para explicar a tendência e os ciclos econômicos, conforme apontado por trabalhos recentes. No campo teórico, percebe-se que o investimento residencial costuma ser negligenciado na literatura de modelos de crescimento. O modelo aqui apresentado é o mais parcimonioso possível. Trata-se de uma economia fechada e sem governo, com bancos, empresas produtivas e famílias. Nessa economia, existem dois ativos reais: o capital produtivo, fruto do investimento das firmas, e os imóveis, resultado do investi- mento residencial feito pelas famílias. O modelo é simulado para analisar os efeitos de mudanças na distribuição, na taxa de juros e na taxa de crescimento dos gastos autônomos. Os resultados são: (i) mudanças na distribuição afetam a taxa de crescimento apenas temporariamente; (ii) au- mento na taxa de juros não afeta a taxa de crescimento; (iii) a participação do estoque de imóveis no capital total reduz como resultado de uma maior taxa de crescimento do investimento residen- cial; (iv) taxa de crescimento de steady state é determinada pela taxa de crescimento dos gastos autônomos; (v) grau de utilização da capacidade produtiva converge para o grau normal.}
-      \field{booktitle}{{XII} {Encontro} {Internacional} da {AKB}}
-      \field{title}{Investimento residencial em um modelo {Stock}-{Flow} {Consistent} com supermultiplicador sraffiano}
-      \field{year}{2019}
-      \verb{file}
-      \verb Da Silveira e Teixeira - 2019 - Investimento residencial em um modelo Stock-Flow C.pdf:/home/gpetrini/Zotero/storage/RP7HGWCR/Da Silveira e Teixeira - 2019 - Investimento residencial em um modelo Stock-Flow C.pdf:application/pdf
       \endverb
     \endentry
     \entry{pheng_revisit_1992}{article}{}
