@@ -2,13 +2,13 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {brazil}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Lista de Ilustra\IeC {\c c}\IeC {\~o}es}{xi}{section*.6}% 
+\contentsline {chapter}{Lista de Ilustra\IeC {\c c}\IeC {\~o}es}{xii}{section*.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Lista de Tabelas}{xii}{section*.6}% 
+\contentsline {chapter}{Lista de Tabelas}{xiii}{section*.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Lista de Vari\IeC {\'a}veis}{xv}{chapter*.7}% 
+\contentsline {chapter}{Lista de Vari\IeC {\'a}veis}{xvi}{chapter*.7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Lista de Abreviaturas e Siglas}{xvi}{chapter*.8}% 
+\contentsline {chapter}{Lista de Abreviaturas e Siglas}{xvii}{chapter*.8}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\chapternumberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{14}{chapter.1}% 
 \defcounter {refsection}{0}\relax 
@@ -62,26 +62,28 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.5}Conclus\IeC {\~o}es preliminares: Rumo aos dados observados}{110}{section.4.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Refer\^encias}{115}{section*.52}% 
+\contentsline {chapter}{\chapternumberline {5}Conclus\IeC {\~a}o}{115}{chapter.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Ap\IeC {\^e}ndices}{129}{section*.52}% 
+\contentsline {chapter}{Refer\^encias}{117}{section*.52}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {appendix}{\chapternumberline {A}Ap\IeC {\^e}ndice estat\IeC {\'\i }stico}{129}{appendix.A}% 
+\contentsline {chapter}{Ap\IeC {\^e}ndices}{131}{section*.52}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Testes de hip\IeC {\'o}tese}{129}{section.A.1}% 
+\contentsline {appendix}{\chapternumberline {A}Ap\IeC {\^e}ndice estat\IeC {\'\i }stico}{131}{appendix.A}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {appendix}{\chapternumberline {B}Modelo SFC}{131}{appendix.B}% 
+\contentsline {section}{\numberline {A.1}Testes de hip\IeC {\'o}tese}{131}{section.A.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.1}\textit {Fraction} e o investimento residencial}{131}{section.B.1}% 
+\contentsline {appendix}{\chapternumberline {B}Modelo SFC}{133}{appendix.B}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {B.1.1}Gastos ``despoupadores''}{131}{subsection.B.1.1}% 
+\contentsline {section}{\numberline {B.1}\textit {Fraction} e o investimento residencial}{133}{section.B.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {B.1.2}Investimento residencial}{132}{subsection.B.1.2}% 
+\contentsline {subsection}{\numberline {B.1.1}Gastos ``despoupadores''}{133}{subsection.B.1.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.2}Simula\IeC {\c c}\IeC {\~o}es}{134}{section.B.2}% 
+\contentsline {subsection}{\numberline {B.1.2}Investimento residencial}{134}{subsection.B.1.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Anexos}{135}{table.caption.61}% 
+\contentsline {section}{\numberline {B.2}Simula\IeC {\c c}\IeC {\~o}es}{136}{section.B.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {appendix}{\chapternumberline {I}Licen\IeC {\c c}a}{135}{appendix.A}% 
+\contentsline {chapter}{Anexos}{137}{table.caption.61}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {I.1}Sobre a licen\IeC {\c c}a dessa obra}{135}{section.A.1}% 
+\contentsline {appendix}{\chapternumberline {I}Licen\IeC {\c c}a}{137}{appendix.A}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {I.1}Sobre a licen\IeC {\c c}a dessa obra}{137}{section.A.1}% 
