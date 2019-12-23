@@ -1,0 +1,13 @@
+"0","urca::ca.jo(
+  x = df[,c(""gZ"", ""Inflação"")], 
+  ecdet = ""const"", 
+  #ecdet = ""trend"", 
+  K = p-1, 
+  spec = ""longrun"",
+  dumvar = df[,c(""Taxa.de.juros"")],
+  type = ""trace""
+) %>% summary()
+"
+"2","Error in urca::ca.jo(x = df[, c(""gZ"", ""Inflação"")], ecdet = ""const"",  : 
+  não foi possível encontrar a função ""%>%""
+"

@@ -141,7 +141,8 @@ urca::ca.jo(
   ecdet = "const", 
   #ecdet = "trend", 
   K = p-1, 
-  spec = "longrun", 
+  spec = "longrun",
+  dumvar = df[,c("Taxa.de.juros")],
   type = "trace"
 ) %>% summary()
 ```
