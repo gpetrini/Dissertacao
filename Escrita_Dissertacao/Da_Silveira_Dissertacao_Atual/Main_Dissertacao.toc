@@ -72,18 +72,20 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {A.1}Testes de hip\IeC {\'o}tese}{132}{section.A.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {appendix}{\chapternumberline {B}Modelo SFC}{134}{appendix.B}% 
+\contentsline {section}{\numberline {A.2}VECM Alternativo: $g_Z$, infla\IeC {\c c}\IeC {\~a}o e juros ex\IeC {\'o}geno}{134}{section.A.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.1}\textit {Fraction} e o investimento residencial}{134}{section.B.1}% 
+\contentsline {appendix}{\chapternumberline {B}Modelo SFC}{139}{appendix.B}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {B.1.1}Gastos ``despoupadores''}{134}{subsection.B.1.1}% 
+\contentsline {section}{\numberline {B.1}\textit {Fraction} e o investimento residencial}{139}{section.B.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {B.1.2}Investimento residencial}{135}{subsection.B.1.2}% 
+\contentsline {subsection}{\numberline {B.1.1}Gastos ``despoupadores''}{139}{subsection.B.1.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.2}Simula\IeC {\c c}\IeC {\~o}es}{137}{section.B.2}% 
+\contentsline {subsection}{\numberline {B.1.2}Investimento residencial}{140}{subsection.B.1.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Anexos}{138}{table.caption.61}% 
+\contentsline {section}{\numberline {B.2}Simula\IeC {\c c}\IeC {\~o}es}{142}{section.B.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {appendix}{\chapternumberline {I}Licen\IeC {\c c}a}{138}{appendix.A}% 
+\contentsline {chapter}{Anexos}{143}{table.caption.66}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {I.1}Sobre a licen\IeC {\c c}a dessa obra}{138}{section.A.1}% 
+\contentsline {appendix}{\chapternumberline {I}Licen\IeC {\c c}a}{143}{appendix.A}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {I.1}Sobre a licen\IeC {\c c}a dessa obra}{143}{section.A.1}% 

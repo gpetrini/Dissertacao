@@ -1,1 +1,15 @@
 "0","knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)"
+"2","Warning messages:
+"
+"2","1: "
+"2","In doTryCatch(return(expr), name, parentenv, handler) :"
+"2","
+ "
+"2"," gráfico do tipo 'bar' vai ser truncado para o primeiro caractere
+"
+"2","2: "
+"2","In doTryCatch(return(expr), name, parentenv, handler) :"
+"2","
+ "
+"2"," gráfico do tipo 'bar' vai ser truncado para o primeiro caractere
+"

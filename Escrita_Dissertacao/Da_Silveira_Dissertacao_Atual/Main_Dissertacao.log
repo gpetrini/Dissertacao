@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.6.22)  23 DEC 2019 19:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.6.22)  25 DEC 2019 11:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2339,6 +2339,15 @@ File: english.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
 
 LaTeX Warning: Label `fevd' multiply defined.
 
+
+LaTeX Warning: Label `testes_resduos' multiply defined.
+
+
+LaTeX Warning: Label `fevd' multiply defined.
+
+
+LaTeX Warning: Label `fevd' multiply defined.
+
 )
 \openout1 = `Main_Dissertacao.aux'.
 
@@ -2661,7 +2670,7 @@ l.69 $$
 ]) (./Fatos_Estilizados/Autonomos.tex [55])
 (./Fatos_Estilizados/Residencial.tex [56]
 (./Fatos_Estilizados/Fatos_EstilizadosEUA.tex
-<../../Dados/Fatos_Estilizados/figs/Gastos_autonomos.png, id=1345, 757.8714pt x
+<../../Dados/Fatos_Estilizados/figs/Gastos_autonomos.png, id=1355, 757.8714pt x
  329.5512pt>
 File: ../../Dados/Fatos_Estilizados/figs/Gastos_autonomos.png Graphic file (typ
 e png)
@@ -2670,7 +2679,7 @@ Package pdftex.def Info: ../../Dados/Fatos_Estilizados/figs/Gastos_autonomos.pn
 g  used on input line 21.
 (pdftex.def)             Requested size: 483.69687pt x 210.33374pt.
  [57]
-<../../Dados/Fatos_Estilizados/figs/Volatilidade.png, id=1355, 1146.2022pt x 35
+<../../Dados/Fatos_Estilizados/figs/Volatilidade.png, id=1365, 1146.2022pt x 35
 0.5095pt>
 File: ../../Dados/Fatos_Estilizados/figs/Volatilidade.png Graphic file (type pn
 g)
@@ -2680,7 +2689,7 @@ sed on input line 30.
 (pdftex.def)             Requested size: 483.69687pt x 147.91362pt.
  [58 <../../Dados/Fatos_Estilizados/figs/Gastos_autonomos.png> <../../Dados/Fat
 os_Estilizados/figs/Volatilidade.png>]
-<../../Dados/Fatos_Estilizados/figs/Ciclo_Ih_u.png, id=1390, 1761.2199pt x 719.
+<../../Dados/Fatos_Estilizados/figs/Ciclo_Ih_u.png, id=1400, 1761.2199pt x 719.
 5683pt>
 File: ../../Dados/Fatos_Estilizados/figs/Ciclo_Ih_u.png Graphic file (type png)
 
@@ -2689,7 +2698,7 @@ Package pdftex.def Info: ../../Dados/Fatos_Estilizados/figs/Ciclo_Ih_u.png  use
 d on input line 56.
 (pdftex.def)             Requested size: 483.69687pt x 197.61288pt.
  [59]
-<../../Dados/Fatos_Estilizados/figs/Ciclo_Ih_Duraveis.png, id=1398, 1761.2199pt
+<../../Dados/Fatos_Estilizados/figs/Ciclo_Ih_Duraveis.png, id=1408, 1761.2199pt
  x 719.5683pt>
 File: ../../Dados/Fatos_Estilizados/figs/Ciclo_Ih_Duraveis.png Graphic file (ty
 pe png)
@@ -2698,7 +2707,7 @@ Package pdftex.def Info: ../../Dados/Fatos_Estilizados/figs/Ciclo_Ih_Duraveis.p
 ng  used on input line 69.
 (pdftex.def)             Requested size: 483.69687pt x 197.61288pt.
  [60 <../../Dados/Fatos_Estilizados/figs/Ciclo_Ih_u.png>]
-<../../Dados/Fatos_Estilizados/figs/Centrado_Inicio_Norm.png, id=1406, 1301.341
+<../../Dados/Fatos_Estilizados/figs/Centrado_Inicio_Norm.png, id=1416, 1301.341
 8pt x 654.2844pt>
 File: ../../Dados/Fatos_Estilizados/figs/Centrado_Inicio_Norm.png Graphic file 
 (type png)
@@ -2708,7 +2717,7 @@ m.png  used on input line 83.
 (pdftex.def)             Requested size: 483.69687pt x 243.1896pt.
 
 [61 <../../Dados/Fatos_Estilizados/figs/Ciclo_Ih_Duraveis.png>]
-<../../Dados/Fatos_Estilizados/figs/Centrado_Fim_Norm.png, id=1412, 1301.3418pt
+<../../Dados/Fatos_Estilizados/figs/Centrado_Fim_Norm.png, id=1422, 1301.3418pt
  x 654.2844pt>
 File: ../../Dados/Fatos_Estilizados/figs/Centrado_Fim_Norm.png Graphic file (ty
 pe png)
@@ -2718,7 +2727,7 @@ ng  used on input line 91.
 (pdftex.def)             Requested size: 483.69687pt x 243.1896pt.
  [62 <../../Dados/Fatos_Estilizados/figs/Centrado_Inicio_Norm.png> <../../Dados
 /Fatos_Estilizados/figs/Centrado_Fim_Norm.png>]
-<../../Dados/Fatos_Estilizados/figs/Dist_Pessoal.png, id=1430, 1290.7422pt x 71
+<../../Dados/Fatos_Estilizados/figs/Dist_Pessoal.png, id=1441, 1290.7422pt x 71
 1.8595pt>
 File: ../../Dados/Fatos_Estilizados/figs/Dist_Pessoal.png Graphic file (type pn
 g)
@@ -2727,7 +2736,7 @@ Package pdftex.def Info: ../../Dados/Fatos_Estilizados/figs/Dist_Pessoal.png  u
 sed on input line 110.
 (pdftex.def)             Requested size: 483.69687pt x 266.762pt.
  [63 <../../Dados/Fatos_Estilizados/figs/Dist_Pessoal.png>]
-<../../Dados/Fatos_Estilizados/figs/Distribuicao_Ativos.png, id=1440, 1145.4795
+<../../Dados/Fatos_Estilizados/figs/Distribuicao_Ativos.png, id=1450, 1145.4795
 pt x 712.8231pt>
 File: ../../Dados/Fatos_Estilizados/figs/Distribuicao_Ativos.png Graphic file (
 type png)
@@ -2735,7 +2744,7 @@ type png)
 Package pdftex.def Info: ../../Dados/Fatos_Estilizados/figs/Distribuicao_Ativos
 .png  used on input line 125.
 (pdftex.def)             Requested size: 483.69687pt x 300.99342pt.
-<../../Dados/Fatos_Estilizados/figs/Distribuicao_Passivos.png, id=1450, 1145.47
+<../../Dados/Fatos_Estilizados/figs/Distribuicao_Passivos.png, id=1460, 1145.47
 95pt x 713.064pt>
 File: ../../Dados/Fatos_Estilizados/figs/Distribuicao_Passivos.png Graphic file
  (type png)
@@ -2744,7 +2753,7 @@ Package pdftex.def Info: ../../Dados/Fatos_Estilizados/figs/Distribuicao_Passiv
 os.png  used on input line 138.
 (pdftex.def)             Requested size: 483.69687pt x 301.09514pt.
  [64 <../../Dados/Fatos_Estilizados/figs/Distribuicao_Ativos.png>]
-<../../Dados/Fatos_Estilizados/figs/Divida_PrecoImoveis.png, id=1464, 955.6503p
+<../../Dados/Fatos_Estilizados/figs/Divida_PrecoImoveis.png, id=1474, 955.6503p
 t x 609.9588pt>
 File: ../../Dados/Fatos_Estilizados/figs/Divida_PrecoImoveis.png Graphic file (
 type png)
@@ -2755,7 +2764,7 @@ Package pdftex.def Info: ../../Dados/Fatos_Estilizados/figs/Divida_PrecoImoveis
 
 [65 <../../Dados/Fatos_Estilizados/figs/Distribuicao_Passivos.png>] [66 <../../
 Dados/Fatos_Estilizados/figs/Divida_PrecoImoveis.png>]
-<../../Dados/Fatos_Estilizados/figs/Concentracao_Imoveis.png, id=1476, 966.7317
+<../../Dados/Fatos_Estilizados/figs/Concentracao_Imoveis.png, id=1486, 966.7317
 pt x 608.0316pt>
 File: ../../Dados/Fatos_Estilizados/figs/Concentracao_Imoveis.png Graphic file 
 (type png)
@@ -2763,7 +2772,7 @@ File: ../../Dados/Fatos_Estilizados/figs/Concentracao_Imoveis.png Graphic file
 Package pdftex.def Info: ../../Dados/Fatos_Estilizados/figs/Concentracao_Imovei
 s.png  used on input line 180.
 (pdftex.def)             Requested size: 483.69687pt x 304.21916pt.
-<../../Dados/Fatos_Estilizados/figs/Serv_Divida.png, id=1482, 946.9779pt x 588.
+<../../Dados/Fatos_Estilizados/figs/Serv_Divida.png, id=1492, 946.9779pt x 588.
 5187pt>
 File: ../../Dados/Fatos_Estilizados/figs/Serv_Divida.png Graphic file (type png
 )
@@ -2774,7 +2783,7 @@ ed on input line 192.
  [67 <../../Dados/Fatos_Estilizados/figs/Concentracao_Imoveis.png>])
 (./Fatos_Estilizados/Revisao_Empirica.tex [68 <../../Dados/Fatos_Estilizados/fi
 gs/Serv_Divida.png>] [69] [70]
-<../../Dados/Fatos_Estilizados/figs/FDICIA.png, id=1573, 956.373pt x 588.5187pt
+<../../Dados/Fatos_Estilizados/figs/FDICIA.png, id=1583, 956.373pt x 588.5187pt
 >
 File: ../../Dados/Fatos_Estilizados/figs/FDICIA.png Graphic file (type png)
 <use ../../Dados/Fatos_Estilizados/figs/FDICIA.png>
@@ -2782,7 +2791,7 @@ Package pdftex.def Info: ../../Dados/Fatos_Estilizados/figs/FDICIA.png  used on
  input line 63.
 (pdftex.def)             Requested size: 483.69687pt x 297.65309pt.
  [71]
-<../../Dados/Fatos_Estilizados/figs/TxPropria_Investo.png, id=1594, 549.7338pt 
+<../../Dados/Fatos_Estilizados/figs/TxPropria_Investo.png, id=1604, 549.7338pt 
 x 329.5512pt>
 File: ../../Dados/Fatos_Estilizados/figs/TxPropria_Investo.png Graphic file (ty
 pe png)
@@ -2792,7 +2801,7 @@ ng  used on input line 89.
 (pdftex.def)             Requested size: 362.77264pt x 217.47427pt.
 ) [72 <../../Dados/Fatos_Estilizados/figs/FDICIA.png>]) (./Fatos_Estilizados/VE
 CM.tex
-<../../Dados/Fatos_Estilizados/figs/YeoJohnson_All.png, id=1619, 1289.7786pt x 
+<../../Dados/Fatos_Estilizados/figs/YeoJohnson_All.png, id=1629, 1289.7786pt x 
 712.8231pt>
 File: ../../Dados/Fatos_Estilizados/figs/YeoJohnson_All.png Graphic file (type 
 png)
@@ -2802,7 +2811,7 @@ Package pdftex.def Info: ../../Dados/Fatos_Estilizados/figs/YeoJohnson_All.png
 (pdftex.def)             Requested size: 483.69687pt x 267.32976pt.
  [73 <../../Dados/Fatos_Estilizados/figs/TxPropria_Investo.png>]
 (../../Modelo/SeriesTemporais/tabs/VECM_lag_order.tex)
-<Fatos_Estilizados/Figs/Meses_contrucao.png, id=1630, 1145.4795pt x 709.9323pt>
+<Fatos_Estilizados/Figs/Meses_contrucao.png, id=1640, 1145.4795pt x 709.9323pt>
 
 File: Fatos_Estilizados/Figs/Meses_contrucao.png Graphic file (type png)
 <use Fatos_Estilizados/Figs/Meses_contrucao.png>
@@ -2814,7 +2823,7 @@ Overfull \vbox (44.2438pt too high) has occurred while \output is active []
 
 
 [75 <./Fatos_Estilizados/Figs/Meses_contrucao.png>]
-<../../Modelo/SeriesTemporais/figs/VEC_Defasagens.png, id=1647, 968.6589pt x 60
+<../../Modelo/SeriesTemporais/figs/VEC_Defasagens.png, id=1657, 968.6589pt x 60
 5.6226pt>
 File: ../../Modelo/SeriesTemporais/figs/VEC_Defasagens.png Graphic file (type p
 ng)
@@ -2823,7 +2832,7 @@ Package pdftex.def Info: ../../Modelo/SeriesTemporais/figs/VEC_Defasagens.png
 used on input line 48.
 (pdftex.def)             Requested size: 483.69687pt x 302.4132pt.
  [76 <../../Modelo/SeriesTemporais/figs/VEC_Defasagens.png>]
-<../../Modelo/SeriesTemporais/figs/Residuos_4VECM.png, id=1656, 370.0224pt x 36
+<../../Modelo/SeriesTemporais/figs/Residuos_4VECM.png, id=1666, 370.0224pt x 36
 4.4817pt>
 File: ../../Modelo/SeriesTemporais/figs/Residuos_4VECM.png Graphic file (type p
 ng)
@@ -2833,15 +2842,16 @@ used on input line 92.
 (pdftex.def)             Requested size: 273.83485pt x 269.72801pt.
  [77] (./Fatos_Estilizados/Estimacao_VECM.tex)
 [78 <../../Modelo/SeriesTemporais/figs/Residuos_4VECM.png>]
-<../../Modelo/SeriesTemporais/figs/FEVD_VECM.png, id=1683, 1144.7568pt x 710.89
-59pt>
-File: ../../Modelo/SeriesTemporais/figs/FEVD_VECM.png Graphic file (type png)
-<use ../../Modelo/SeriesTemporais/figs/FEVD_VECM.png>
-Package pdftex.def Info: ../../Modelo/SeriesTemporais/figs/FEVD_VECM.png  used 
-on input line 119.
-(pdftex.def)             Requested size: 483.69687pt x 300.37491pt.
- [79]
-<../../Modelo/SeriesTemporais/figs/Impulso_VECM.png, id=1691, 709.9323pt x 693.
+<../../Modelo/SeriesTemporais/figs/FEVD_VECMpython_TxPropria.png, id=1693, 731.
+6133pt x 727.7589pt>
+File: ../../Modelo/SeriesTemporais/figs/FEVD_VECMpython_TxPropria.png Graphic f
+ile (type png)
+<use ../../Modelo/SeriesTemporais/figs/FEVD_VECMpython_TxPropria.png>
+Package pdftex.def Info: ../../Modelo/SeriesTemporais/figs/FEVD_VECMpython_TxPr
+opria.png  used on input line 119.
+(pdftex.def)             Requested size: 483.69687pt x 481.15521pt.
+ [79] [80 <../../Modelo/SeriesTemporais/figs/FEVD_VECMpython_TxPropria.png>]
+<../../Modelo/SeriesTemporais/figs/Impulso_VECM.png, id=1707, 709.9323pt x 693.
 5511pt>
 File: ../../Modelo/SeriesTemporais/figs/Impulso_VECM.png Graphic file (type png
 )
@@ -2849,10 +2859,9 @@ File: ../../Modelo/SeriesTemporais/figs/Impulso_VECM.png Graphic file (type png
 Package pdftex.def Info: ../../Modelo/SeriesTemporais/figs/Impulso_VECM.png  us
 ed on input line 137.
 (pdftex.def)             Requested size: 483.69687pt x 472.55037pt.
- [80 <../../Modelo/SeriesTemporais/figs/FEVD_VECM.png>]) (./Fatos_Estilizados/C
-onclusao.tex
-[81 <../../Modelo/SeriesTemporais/figs/Impulso_VECM.png>] [82]))
-(./Modelo/ModeloSimples.tex [83] (./Modelo/Intro.tex [84
+ [81 <../../Modelo/SeriesTemporais/figs/Impulso_VECM.png>]) (./Fatos_Estilizado
+s/Conclusao.tex
+[82])) (./Modelo/ModeloSimples.tex [83] (./Modelo/Intro.tex [84
 
 ]
 (./Modelo/Esqueminha.tex
@@ -2861,7 +2870,7 @@ LaTeX Font Info:    Try loading font information for T1+lmss on input line 16.
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )) [85]
-<Modelo/Caverzassi_Heatmap.png, id=1802, 1178.4025pt x 654.445pt>
+<Modelo/Caverzassi_Heatmap.png, id=1812, 1178.4025pt x 654.445pt>
 File: Modelo/Caverzassi_Heatmap.png Graphic file (type png)
 <use Modelo/Caverzassi_Heatmap.png>
 Package pdftex.def Info: Modelo/Caverzassi_Heatmap.png  used on input line 26.
@@ -2887,34 +2896,34 @@ See the caption package documentation for explanation.
 
 LaTeX Warning: Reference `DAG' on page 100 undefined on input line 5.
 
-<../../Modelo/Versoes/Dag.png, id=1998, 433.62pt x 289.08pt>
+<../../Modelo/Versoes/Dag.png, id=2008, 433.62pt x 289.08pt>
 File: ../../Modelo/Versoes/Dag.png Graphic file (type png)
 <use ../../Modelo/Versoes/Dag.png>
 Package pdftex.def Info: ../../Modelo/Versoes/Dag.png  used on input line 11.
 (pdftex.def)             Requested size: 483.69687pt x 322.47937pt.
 [100]
-<../../Modelo/Versoes/Shock_1.png, id=2006, 1156.32pt x 722.7pt>
+<../../Modelo/Versoes/Shock_1.png, id=2016, 1156.32pt x 722.7pt>
 File: ../../Modelo/Versoes/Shock_1.png Graphic file (type png)
 <use ../../Modelo/Versoes/Shock_1.png>
 Package pdftex.def Info: ../../Modelo/Versoes/Shock_1.png  used on input line 2
 9.
 (pdftex.def)             Requested size: 483.69687pt x 302.30788pt.
  [101 <../../Modelo/Versoes/Dag.png>]
-<../../Modelo/Versoes/Shock_4.png, id=2012, 1156.32pt x 722.7pt>
+<../../Modelo/Versoes/Shock_4.png, id=2022, 1156.32pt x 722.7pt>
 File: ../../Modelo/Versoes/Shock_4.png Graphic file (type png)
 <use ../../Modelo/Versoes/Shock_4.png>
 Package pdftex.def Info: ../../Modelo/Versoes/Shock_4.png  used on input line 3
 8.
 (pdftex.def)             Requested size: 483.69687pt x 302.30788pt.
  [102 <../../Modelo/Versoes/Shock_1.png>]
-<../../Modelo/Versoes/Shock_1Norms.png, id=2018, 1156.32pt x 722.7pt>
+<../../Modelo/Versoes/Shock_1Norms.png, id=2028, 1156.32pt x 722.7pt>
 File: ../../Modelo/Versoes/Shock_1Norms.png Graphic file (type png)
 <use ../../Modelo/Versoes/Shock_1Norms.png>
 Package pdftex.def Info: ../../Modelo/Versoes/Shock_1Norms.png  used on input l
 ine 48.
 (pdftex.def)             Requested size: 483.69687pt x 302.30788pt.
  [103 <../../Modelo/Versoes/Shock_4.png>]
-<../../Modelo/Versoes/Shock_4Norms.png, id=2024, 1156.32pt x 722.7pt>
+<../../Modelo/Versoes/Shock_4Norms.png, id=2034, 1156.32pt x 722.7pt>
 File: ../../Modelo/Versoes/Shock_4Norms.png Graphic file (type png)
 <use ../../Modelo/Versoes/Shock_4Norms.png>
 Package pdftex.def Info: ../../Modelo/Versoes/Shock_4Norms.png  used on input l
@@ -2922,13 +2931,13 @@ ine 59.
 (pdftex.def)             Requested size: 483.69687pt x 302.30788pt.
  [104 <../../Modelo/Versoes/Shock_1Norms.png>] [105 <../../Modelo/Versoes/Shock
 _4Norms.png>]
-<../../Modelo/Versoes/Shock_2.png, id=2042, 1156.32pt x 722.7pt>
+<../../Modelo/Versoes/Shock_2.png, id=2053, 1156.32pt x 722.7pt>
 File: ../../Modelo/Versoes/Shock_2.png Graphic file (type png)
 <use ../../Modelo/Versoes/Shock_2.png>
 Package pdftex.def Info: ../../Modelo/Versoes/Shock_2.png  used on input line 7
 9.
 (pdftex.def)             Requested size: 483.69687pt x 302.30788pt.
-<../../Modelo/Versoes/Shock_2Norms.png, id=2043, 1156.32pt x 722.7pt>
+<../../Modelo/Versoes/Shock_2Norms.png, id=2054, 1156.32pt x 722.7pt>
 File: ../../Modelo/Versoes/Shock_2Norms.png Graphic file (type png)
 <use ../../Modelo/Versoes/Shock_2Norms.png>
 Package pdftex.def Info: ../../Modelo/Versoes/Shock_2Norms.png  used on input l
@@ -2936,13 +2945,13 @@ ine 88.
 (pdftex.def)             Requested size: 483.69687pt x 302.30788pt.
  [106 <../../Modelo/Versoes/Shock_2.png>] [107 <../../Modelo/Versoes/Shock_2Nor
 ms.png>]
-<../../Modelo/Versoes/Shock_3.png, id=2058, 1156.32pt x 722.7pt>
+<../../Modelo/Versoes/Shock_3.png, id=2068, 1156.32pt x 722.7pt>
 File: ../../Modelo/Versoes/Shock_3.png Graphic file (type png)
 <use ../../Modelo/Versoes/Shock_3.png>
 Package pdftex.def Info: ../../Modelo/Versoes/Shock_3.png  used on input line 1
 08.
 (pdftex.def)             Requested size: 483.69687pt x 302.30788pt.
-<../../Modelo/Versoes/Shock_3Norms.png, id=2059, 1156.32pt x 722.7pt>
+<../../Modelo/Versoes/Shock_3Norms.png, id=2069, 1156.32pt x 722.7pt>
 File: ../../Modelo/Versoes/Shock_3Norms.png Graphic file (type png)
 <use ../../Modelo/Versoes/Shock_3Norms.png>
 Package pdftex.def Info: ../../Modelo/Versoes/Shock_3Norms.png  used on input l
@@ -2950,20 +2959,20 @@ ine 117.
 (pdftex.def)             Requested size: 483.69687pt x 302.30788pt.
  [108 <../../Modelo/Versoes/Shock_3.png>]) (./Modelo/Conclusao.tex [109 <../../
 Modelo/Versoes/Shock_3Norms.png>]
-<../../Modelo/Versoes/Clock_Real.png, id=2070, 1734.48pt x 361.35pt>
+<../../Modelo/Versoes/Clock_Real.png, id=2080, 1734.48pt x 361.35pt>
 File: ../../Modelo/Versoes/Clock_Real.png Graphic file (type png)
 <use ../../Modelo/Versoes/Clock_Real.png>
 Package pdftex.def Info: ../../Modelo/Versoes/Clock_Real.png  used on input lin
 e 23.
 (pdftex.def)             Requested size: 483.69687pt x 100.76929pt.
-<../../Modelo/Versoes/Shock_Real.png, id=2072, 1156.32pt x 722.7pt>
+<../../Modelo/Versoes/Shock_Real.png, id=2082, 1156.32pt x 722.7pt>
 File: ../../Modelo/Versoes/Shock_Real.png Graphic file (type png)
 <use ../../Modelo/Versoes/Shock_Real.png>
 Package pdftex.def Info: ../../Modelo/Versoes/Shock_Real.png  used on input lin
 e 34.
 (pdftex.def)             Requested size: 483.69687pt x 302.30788pt.
  [110 <../../Modelo/Versoes/Clock_Real.png>]
-<../../Modelo/Versoes/Shock_RealNorms.png, id=2085, 1156.32pt x 722.7pt>
+<../../Modelo/Versoes/Shock_RealNorms.png, id=2095, 1156.32pt x 722.7pt>
 File: ../../Modelo/Versoes/Shock_RealNorms.png Graphic file (type png)
 <use ../../Modelo/Versoes/Shock_RealNorms.png>
 Package pdftex.def Info: ../../Modelo/Versoes/Shock_RealNorms.png  used on inpu
@@ -2989,22 +2998,62 @@ ckian conflicting-claims fra-mework'.
  []
 
 [127] [128] [129] [130] [131] (./Fatos_Estilizados/Apendice_Estatistico.tex
-(./Fatos_Estilizados/Quebra.tex) (./Fatos_Estilizados/Raiz.tex)
-(./Fatos_Estilizados/Johansen.tex) (./Fatos_Estilizados/H0_Residuos.tex))
-(./Modelo/Apendice_Fraction.tex [132
+(./Fatos_Estilizados/Quebra.tex) (./Fatos_Estilizados/Raiz.tex) [132
 
 
-] [133] [134
+]
+(./Fatos_Estilizados/Johansen.tex) (./Fatos_Estilizados/H0_Residuos.tex)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 15.
 
-] [135]
-(../../Modelo/Versoes/table.tex)) [136] [137] (./cc-by-sa.texpdfTeX warning (ex
-t4): destination with the same identifier (name{appendix.A}) has been already u
-sed, duplicate ignored
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 15.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 15.
+
+[133] [134]
+<../../Modelo/SeriesTemporais/figs/Impulso_VECM_Infla.png, id=2333, 697.6464pt 
+x 693.0693pt>
+File: ../../Modelo/SeriesTemporais/figs/Impulso_VECM_Infla.png Graphic file (ty
+pe png)
+<use ../../Modelo/SeriesTemporais/figs/Impulso_VECM_Infla.png>
+Package pdftex.def Info: ../../Modelo/SeriesTemporais/figs/Impulso_VECM_Infla.p
+ng  used on input line 69.
+(pdftex.def)             Requested size: 483.69687pt x 480.53435pt.
+<../../Modelo/SeriesTemporais/figs/FEVD_VECMpython_Infla.png, id=2334, 742.6947
+pt x 734.9859pt>
+File: ../../Modelo/SeriesTemporais/figs/FEVD_VECMpython_Infla.png Graphic file 
+(type png)
+<use ../../Modelo/SeriesTemporais/figs/FEVD_VECMpython_Infla.png>
+Package pdftex.def Info: ../../Modelo/SeriesTemporais/figs/FEVD_VECMpython_Infl
+a.png  used on input line 78.
+(pdftex.def)             Requested size: 483.69687pt x 478.67723pt.
+ (./Fatos_Estilizados/H0_Residuos_Infla.tex)
+<../../Modelo/SeriesTemporais/figs/Residuos_4VECM_Infla.png, id=2335, 371.9496p
+t x 364.2408pt>
+File: ../../Modelo/SeriesTemporais/figs/Residuos_4VECM_Infla.png Graphic file (
+type png)
+<use ../../Modelo/SeriesTemporais/figs/Residuos_4VECM_Infla.png>
+Package pdftex.def Info: ../../Modelo/SeriesTemporais/figs/Residuos_4VECM_Infla
+.png  used on input line 88.
+(pdftex.def)             Requested size: 275.44838pt x 269.72801pt.
+)
+(./Modelo/Apendice_Fraction.tex [135] [136 <../../Modelo/SeriesTemporais/figs/I
+mpulso_VECM_Infla.png>] [137 <../../Modelo/SeriesTemporais/figs/FEVD_VECMpython
+_Infla.png>] [138 <../../Modelo/SeriesTemporais/figs/Residuos_4VECM_Infla.png>]
+[139
+
+] [140] (../../Modelo/Versoes/table.tex)) [141] [142] (./cc-by-sa.texpdfTeX war
+ning (ext4): destination with the same identifier (name{appendix.A}) has been a
+lready used, duplicate ignored
 <to be read again> 
                    \relax 
 l.1 \chapter{Licença}
                       
-<cc-by-sa.png, id=2333, 97.0827pt x 33.9669pt>
+<cc-by-sa.png, id=2382, 97.0827pt x 33.9669pt>
 File: cc-by-sa.png Graphic file (type png)
 <use cc-by-sa.png>
 Package pdftex.def Info: cc-by-sa.png  used on input line 10.
@@ -3014,7 +3063,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{section.A.1})
 <to be read again> 
                    \relax 
 l.19 \section{Sobre a licença dessa obra}
-                                          ) [138
+                                          ) [143
 
 
  <./cc-by-sa.png>]
@@ -3048,14 +3097,14 @@ Package logreq Info: Writing requests to 'Main_Dissertacao.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 376.
  ) 
 Here is how much of TeX's memory you used:
- 51502 strings out of 492609
- 983462 string characters out of 6129033
- 1882565 words of memory out of 5000000
- 53783 multiletter control sequences out of 15000+600000
- 652139 words of font info for 195 fonts, out of 8000000 for 9000
+ 51564 strings out of 492609
+ 985097 string characters out of 6129033
+ 1879839 words of memory out of 5000000
+ 53810 multiletter control sequences out of 15000+600000
+ 657286 words of font info for 207 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  78i,18n,117p,2142b,4147s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{section*.63} has been referenced but does not exi
+pdfTeX warning (dest): name{section*.68} has been referenced but does not exi
 st, replaced by a fixed one
 
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/te
@@ -3074,10 +3123,10 @@ texlive/2019/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/20
 19/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2019/texmf-
 dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts
 /type1/urw/times/utmri8a.pfb>
-Output written on Main_Dissertacao.pdf (143 pages, 12245923 bytes).
+Output written on Main_Dissertacao.pdf (148 pages, 12610950 bytes).
 PDF statistics:
- 2665 PDF objects out of 2984 (max. 8388607)
- 2397 compressed objects within 24 object streams
- 535 named destinations out of 1000 (max. 500000)
- 616 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2723 PDF objects out of 2984 (max. 8388607)
+ 2443 compressed objects within 25 object streams
+ 555 named destinations out of 1000 (max. 500000)
+ 639 words of extra memory for PDF output out of 10000 (max. 10000000)
 

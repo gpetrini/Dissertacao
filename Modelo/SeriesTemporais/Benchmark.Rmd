@@ -142,7 +142,25 @@ urca::ca.jo(
   #ecdet = "trend", 
   K = p-1, 
   spec = "longrun",
-  dumvar = df[,c("Taxa.de.juros")],
+  #dumvar = df[,c("Taxa.de.juros")],
   type = "trace"
 ) %>% summary()
 ```
+
+# VECM Infla
+
+```{r}
+df <- read.csv("./Dados_yeojohnson.csv", encoding="UTF-8")
+names(df) <- c("Time", "Infla", "gZ", "TaxaP", "Juros")
+df <- na.omit(df[,c("Infla", "gZ", "TaxaP", "Juros")])
+df <- ts(data = df, start = c(1992,03), frequency = 4)
+model <- tsDyn::VECM(data = df[,c("Infla","gZ")], lag = 5, r = 1, exogen = coredata(df[,"Juros"]))
+fevd_gz = data.frame(tsDyn::fevd(model, 20)$gZ)
+fevd_tx = data.frame(tsDyn::fevd(model, 20)$TaxaP)
+model %>%  summary()
+```
+
+```{r}
+fevd(model, 20) %>% plot()
+```
+
