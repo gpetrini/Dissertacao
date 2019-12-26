@@ -27,7 +27,7 @@ $$
 que pode ser aproximado para
 \begin{equation}
 \label{tx_alternativa}
-g_{Z_t} = \phi_{0} - \phi_1\cdot \left(\overline r_{mo_ t} - \dot p_{h_t}\right)
+g_{Z_t} = \phi_{0} + \phi_1\cdot \dot p_{h_t}
 \end{equation}
 em que $\overline r_{mo}$ indica a taxa de juros das hipotecas definido exogenamente, $\dot p_h$ é a inflação de imóveis e $g_Z$ é a taxa de crescimento do investimento residencial.
 Dito isso, é possível reescrever a equação \ref{tx_alternativa} como um sistema de equações:
@@ -35,14 +35,14 @@ Dito isso, é possível reescrever a equação \ref{tx_alternativa} como um sist
 %TODO Equation
 \begin{equation}
 \begin{cases}
-\Delta \dot ph_t = \delta_{1} + \alpha_1(g_{Z_{t-1}} - \phi_0 + \phi_1\cdot \dot ph_{t-1}) + \sum^{N=4}_{i=1}\beta_{1,i}\cdot \Delta g_{Z_{t-i}} +
-\sum^{N=4}_{i=1}\gamma_{1,i}\cdot \Delta \dot ph_{t-i} +\varepsilon_{t,1}
+\Delta \dot p_{h_t} = \delta_{1} + \alpha_1(g_{Z_{t-1}} - \phi_0 - \phi_1\cdot \dot p_{h_{t-1}}) + \sum^{N=4}_{i=1}\beta_{1,i}\cdot \Delta g_{Z_{t-i}} +
+\sum^{N=4}_{i=1}\gamma_{1,i}\cdot \Delta \dot p_{h_{t-i}} + \rho_1\cdot\overline r_{mo} + \varepsilon_{t,1}
 \\
-\Delta g_{Z_{t}} = \delta_{2} + \alpha_2(g_{Z_{t-1}} - \phi_0 + \phi_1\cdot \dot ph_{t-1}) + \sum^{N=4}_{i=1}\beta_{2,i}\cdot \Delta g_{Z_{t-i}} +
-\sum^{N=4}_{i=1}\gamma_{2,i}\cdot \Delta \dot ph_{t-i} +\varepsilon_{t,2}
+\Delta g_{Z_{t}} = \delta_{2} + \alpha_2(g_{Z_{t-1}} - \phi_0 - \phi_1\cdot \dot p_{h_{t-1}}) + \sum^{N=4}_{i=1}\beta_{2,i}\cdot \Delta g_{Z_{t-i}} +
+\sum^{N=4}_{i=1}\gamma_{2,i}\cdot \Delta \dot p_{h_{t-i}} + \rho_2\cdot\overline r_{mo} + \varepsilon_{t,2}
 \end{cases}
 \end{equation}
-em que $\delta_s$ indicam tendência linear nas respectivas séries em nível;
+em que $\delta$ indica tendência linear na relação de cointegração;
 $\alpha_{is}$ são os coeficientes de correção de erro; 
 $\beta_s$ e $\gamma_s$ são coeficientes associados as defasagens de  $g_Z$ e $\dot ph$ respectivamente e; $\varepsilon_s$ são os resíduos.
 Seguindo a literatura do supermultiplicador sraffiano, os resultados esperados a serem testados são:
@@ -51,9 +51,9 @@ Seguindo a literatura do supermultiplicador sraffiano, os resultados esperados a
 	\item $\alpha_1 = 0$: $\dot ph$ exogenamente fraca em relação ao $g_Z$;
 	\item $\alpha_2 < 0$: Inflação causa (no sentido de Granger) investimento residencial;
 	%TODO Checar sinal de alpha2
-	\item $\phi_1 > 0$: $gZ$ e Inflação apresentam uma dinâmica negativa no longo prazo;
+	\item $\phi_1 < 0$: $gZ$ e Inflação apresentam uma dinâmica positiva no longo prazo;
 	\item $\phi_0 < 0$: Demanda por imóveis por motivos não-especulativos e associados a especificidades institucionais é estatisticamente significante e não-negativo;
-	\item $\gamma_{2,is} < 0$: Inflação afeta o investimento residencial negativamente no curto prazo;
+	\item $\gamma_{2,is} > 0$: Inflação afeta o investimento residencial positivamente no curto prazo;
 	\item $\beta_{1,is}$ = 0: Efeito do investimento de $g_Z$ sobre a Inflação não é estatisticamente significante.
 \end{enumerate}
 
@@ -61,6 +61,12 @@ Seguindo a literatura do supermultiplicador sraffiano, os resultados esperados a
 Sendo assim, estima-se um VEC com quatro defasagens cujos resíduos (gráfico \ref{residuos_infla}) não apresenta autocorrelação serial e heterocedasticidade.
 Os gráficos da função resposta ao impulso e decomposição da variância (bla e ble, respectivamente) apresentam resultados semelhantes ao modelo presente no corpo do texto, qual sejam:
 
+\begin{table}[H]
+	\centering
+	\caption{Parâmetros da estimação (VECM Alternativo)}
+	\input{./Fatos_Estilizados/Estimacao_VECM_Infla.tex}
+	\caption*{\textbf{Fonte:} Elaboração própria}
+\end{table}
 
 \begin{figure}[htb]
 	\centering

@@ -1,0 +1,42 @@
+\centering
+\label{Estimacao_Infla}
+\begin{threeparttable}
+	\begin{tabular}{l|llllll}
+		\hline\hline
+		\textbf{Equação: } $\dot p_h$ & \textbf{coef} & \textbf{std err} & \textbf{z} & \textbf{P$> |$z$|$} & \textbf{[0.025} & \textbf{0.975]}  \\
+		\hline
+		\textbf{$\delta_1$}  &   -9.238e-05  &     6.21e-05     &    -1.488  &         0.137        &       -0.000    &     2.93e-05     \\
+		\textbf{$\rho_1$ ($r_{mo}$)}       &      -0.1837  &        0.120     &    -1.530  &         0.126        &       -0.419    &        0.052     \\
+		$\gamma_{1,1} (L_1\, \dot p_h)$ &       0.8641  &        0.105     &     8.223  &         0.000***        &        0.658    &        1.070     \\
+		$\beta_{1,1} (L_1\, g_Z)$       &      -0.0058  &        0.013     &    -0.435  &         0.663        &       -0.032    &        0.020     \\
+		$\gamma_{1,2} (L_2 \dot p_h)$ &      -0.2018  &        0.139     &    -1.451  &         0.147        &       -0.474    &        0.071     \\
+		$\beta_{1,2} (L_2 g_Z)$       &       0.0246  &        0.013     &     1.852  &         0.064*        &       -0.001    &        0.051     \\
+		$\gamma_{1,3} (L_3\, \dot p_h)$ &       0.0860  &        0.140     &     0.615  &         0.539        &       -0.188    &        0.360     \\
+		$\beta_{1,3} (L_3\, g_Z)$       &       0.0144  &        0.013     &     1.068  &         0.285        &       -0.012    &        0.041     \\
+		$\gamma_{1,4} (L_4\, \dot p_h)$ &      -0.1477  &        0.103     &    -1.433  &         0.152        &       -0.350    &        0.054     \\\hline
+		\textbf{Equação: } $g_Z$& \textbf{coef} & \textbf{std err} & \textbf{z} & \textbf{P$> |$z$|$} & \textbf{[0.025} & \textbf{0.975]}  \\
+		\hline
+		\textbf{$\delta_2$}  &      -0.0017  &        0.000     &    -4.492  &         0.000***        &       -0.003    &       -0.001     \\
+		\textbf{$\rho_2$ ($r_{mo}$)}       &      -3.6343  &        0.752     &    -4.835  &         0.000***        &       -5.108    &       -2.161     \\
+		$\gamma_{2,1} (L_1\, \dot p_h)$ &       0.0863  &        0.658     &     0.131  &         0.896        &       -1.203    &        1.376     \\
+		$\beta_{2,1} (L_1\, g_Z)$       &       0.1573  &        0.083     &     1.892  &         0.059*        &       -0.006    &        0.320     \\
+		$\gamma_{2,2} (L_2\, \dot p_h)$ &       1.6319  &        0.871     &     1.874  &         0.061*        &       -0.074    &        3.338     \\
+		$\beta_{2,2} (L_2\, g_Z)$       &      -0.0209  &        0.083     &    -0.251  &         0.802        &       -0.184    &        0.142     \\
+		$\gamma_{2,3} (L_3\, \dot p_h)$ &      -0.9298  &        0.876     &    -1.061  &         0.289        &       -2.647    &        0.788     \\
+		$\beta_{2,3} (L_3\, g_Z)$       &       0.2329  &        0.084     &     2.764  &         0.006***        &        0.068    &        0.398     \\
+		$\gamma_{2,4} (L_4\, \dot p_h)$ &      -0.0900  &        0.646     &    -0.139  &         0.889        &       -1.355    &        1.175     \\
+		$\beta_{2,4} (L_4\,g_Z)$       &      -0.3798  &        0.081     &    -4.706  &         0.000***        &       -0.538    &       -0.222     \\\hline
+		\textbf{Correção de erro}& \textbf{coef} & \textbf{std err} & \textbf{z} & \textbf{P$> |$z$|$} & \textbf{[0.025} & \textbf{0.975]}  \\
+		\hline
+		\textbf{$\alpha_1$} &       0.0127  &        0.008     &     1.554  &         0.120        &       -0.003    &        0.029     \\
+		\textbf{$\alpha_2$} &       0.2450  &        0.051     &     4.772  &         0.000***        &        0.144    &        0.346     \\\hline
+		\textbf{Relação de cointegração}& \textbf{coef} & \textbf{std err} & \textbf{z} & \textbf{P$> |$z$|$} & \textbf{[0.025} & \textbf{0.975]}  \\
+		\hline
+		\textbf{$\phi_{1,1}$} &       1.0000  &            0     &         0  &         0.000***        &        1.000    &        1.000     \\
+		\textbf{$\phi_{1,2}$} &      -0.9026  &        0.181     &    -4.987  &         0.000***        &       -1.257    &       -0.548     \\
+		\textbf{$\phi_0$}  &       1.3371  &        0.311     &     4.301  &         0.000***        &        0.728    &        1.946     \\
+		\hline\hline
+	\end{tabular}
+	%\caption{Det. terms outside the coint. relation & lagged endog. parameters for equation Inflação}
+\footnotesize{(*) Estatisticamente significante a 10\%; (**) Estatisticamente significante a 5\%; (***) Estatisticamente significante a 1\%.}
+\end{threeparttable}
