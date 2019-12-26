@@ -6756,6 +6756,54 @@
       \verb Nikiforos - Some Comments on the Sraffian Supermultiplier Appr.pdf:/home/gpetrini/Zotero/storage/B746UKTZ/Nikiforos - Some Comments on the Sraffian Supermultiplier Appr.pdf:application/pdf
       \endverb
     \endentry
+    \entry{nikolaidi_securitisation_2015}{report}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=3bf345618c6971ebb29e1e68298f036e}{%
+           family={Nikolaidi},
+           familyi={N\bibinitperiod},
+           given={Maria},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {University of Greenwich, Greenwich Political Economy Research Centre}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{3bf345618c6971ebb29e1e68298f036e}
+      \strng{fullhash}{3bf345618c6971ebb29e1e68298f036e}
+      \strng{bibnamehash}{3bf345618c6971ebb29e1e68298f036e}
+      \strng{authorbibnamehash}{3bf345618c6971ebb29e1e68298f036e}
+      \strng{authornamehash}{3bf345618c6971ebb29e1e68298f036e}
+      \strng{authorfullhash}{3bf345618c6971ebb29e1e68298f036e}
+      \field{sortinit}{N}
+      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Securitisation and wage stagnation have been viewed as two main root causes of the global financial crisis. This paper develops a stock-flow consistent model that allows the investigation of the macroeconomic channels through which securitisation and wage stagnation can jointly affect financial fragility. Particular attention is paid to their role in enhancing a borrowing-induced expansion, a housing boom and an appreciation in the prices of mortgage-backed securities that are of temporary nature. The results from simulation experiments provide support to the view that the combination of risky financial practices with wage stagnation can increase the likelihood of financial instability in a macro system.}
+      \field{number}{14078}
+      \field{shorttitle}{Securitisation, wage stagnation and financial fragility}
+      \field{title}{Securitisation, wage stagnation and financial fragility: a stock-flow consistent perspective}
+      \field{type}{techreport}
+      \field{urlday}{1}
+      \field{urlmonth}{8}
+      \field{urlyear}{2019}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Nikolaidi - 2015 - Securitisation, wage stagnation and financial frag.pdf:/home/gpetrini/Zotero/storage/Q3YIJW2I/Nikolaidi - 2015 - Securitisation, wage stagnation and financial frag.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ideas.repec.org/p/gpe/wpaper/14078.html
+      \endverb
+      \verb{url}
+      \verb https://ideas.repec.org/p/gpe/wpaper/14078.html
+      \endverb
+      \keyw{stock-flow consistent modelling,financial fragility,securitisation,wage stagnation}
+    \endentry
     \entry{ofori_testing_2003}{article}{}
       \name{author}{2}{}{%
         {{uniquename=0,uniquepart=base,hash=0047f367ad04ef94d805746063c420b1}{%

@@ -28,64 +28,64 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.2}Autonomia do investimento residencial}{39}{subsection.2.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Gastos aut\IeC {\^o}nomos nos modelos de crescimento}{42}{section.2.3}% 
+\contentsline {section}{\numberline {2.3}Gastos aut\IeC {\^o}nomos nos modelos de crescimento}{44}{section.2.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.1}Um breve mapeamento da fronteira heterodoxa}{43}{subsection.2.3.1}% 
+\contentsline {subsection}{\numberline {2.3.1}Um breve mapeamento da fronteira heterodoxa}{44}{subsection.2.3.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.2}Princ\IeC {\'\i }pio da demanda efetiva no m\IeC {\'e}dio prazo: um paradigma e duas alternativas?}{49}{subsection.2.3.2}% 
+\contentsline {subsection}{\numberline {2.3.2}Princ\IeC {\'\i }pio da demanda efetiva no m\IeC {\'e}dio prazo: um paradigma e duas alternativas?}{51}{subsection.2.3.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Considera\IeC {\c c}\IeC {\~o}es finanais}{53}{section.2.4}% 
+\contentsline {section}{\numberline {2.4}Considera\IeC {\c c}\IeC {\~o}es finanais}{54}{section.2.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\chapternumberline {3}Investimento residencial e taxa pr\IeC {\'o}pria de juros dos im\IeC {\'o}veis: Uma investiga\IeC {\c c}\IeC {\~a}o a partir de um VECM}{54}{chapter.3}% 
+\contentsline {chapter}{\chapternumberline {3}Investimento residencial e taxa pr\IeC {\'o}pria de juros dos im\IeC {\'o}veis: Uma investiga\IeC {\c c}\IeC {\~a}o a partir de um VECM}{56}{chapter.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Modelos de crescimento e os gastos aut\IeC {\^o}nomos: uma revis\IeC {\~a}o emp\IeC {\'\i }rica}{55}{section.3.1}% 
+\contentsline {section}{\numberline {3.1}Modelos de crescimento e os gastos aut\IeC {\^o}nomos: uma revis\IeC {\~a}o emp\IeC {\'\i }rica}{57}{section.3.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Investimento residencial e a lacuna heterodoxa}{57}{section.3.2}% 
+\contentsline {section}{\numberline {3.2}Investimento residencial e a lacuna heterodoxa}{59}{section.3.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.1}Fatos estilizados da economia norte-americana}{57}{subsection.3.2.1}% 
+\contentsline {subsection}{\numberline {3.2.1}Fatos estilizados da economia norte-americana}{59}{subsection.3.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.2}Investimento residencial nos modelos macroeconom\IeC {\'e}tricos}{68}{subsection.3.2.2}% 
+\contentsline {subsection}{\numberline {3.2.2}Investimento residencial nos modelos macroeconom\IeC {\'e}tricos}{70}{subsection.3.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Modelo macroeconom\IeC {\'e}trico}{73}{section.3.3}% 
+\contentsline {section}{\numberline {3.3}Modelo macroeconom\IeC {\'e}trico}{75}{section.3.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Considera\IeC {\c c}\IeC {\~o}es finais: Rumo \IeC {\`a}s simula\IeC {\c c}\IeC {\~o}es}{82}{section.3.4}% 
+\contentsline {section}{\numberline {3.4}Considera\IeC {\c c}\IeC {\~o}es finais: Rumo \IeC {\`a}s simula\IeC {\c c}\IeC {\~o}es}{84}{section.3.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\chapternumberline {4}Modelo SFC}{84}{chapter.4}% 
+\contentsline {chapter}{\chapternumberline {4}Modelo SFC}{86}{chapter.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Metodologia SFC: Uma breve introdu\IeC {\c c}\IeC {\~a}o}{85}{section.4.1}% 
+\contentsline {section}{\numberline {4.1}Metodologia SFC: Uma breve introdu\IeC {\c c}\IeC {\~a}o}{87}{section.4.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Modelo}{88}{section.4.2}% 
+\contentsline {section}{\numberline {4.2}Modelo}{90}{section.4.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Solu\IeC {\c c}\IeC {\~a}o anal\IeC {\'\i }tica}{97}{section.4.3}% 
+\contentsline {section}{\numberline {4.3}Solu\IeC {\c c}\IeC {\~a}o anal\IeC {\'\i }tica}{99}{section.4.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Simula\IeC {\c c}\IeC {\~a}o e choques}{100}{section.4.4}% 
+\contentsline {section}{\numberline {4.4}Simula\IeC {\c c}\IeC {\~a}o e choques}{102}{section.4.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Conclus\IeC {\~o}es preliminares: Rumo aos dados observados}{110}{section.4.5}% 
+\contentsline {section}{\numberline {4.5}Conclus\IeC {\~o}es preliminares: Rumo aos dados observados}{112}{section.4.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\chapternumberline {5}Conclus\IeC {\~a}o}{115}{chapter.5}% 
+\contentsline {chapter}{\chapternumberline {5}Conclus\IeC {\~a}o}{117}{chapter.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Refer\^encias}{118}{section*.52}% 
+\contentsline {chapter}{Refer\^encias}{120}{section*.52}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Ap\IeC {\^e}ndices}{132}{section*.52}% 
+\contentsline {chapter}{Ap\IeC {\^e}ndices}{134}{section*.52}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {appendix}{\chapternumberline {A}Ap\IeC {\^e}ndice estat\IeC {\'\i }stico}{132}{appendix.A}% 
+\contentsline {appendix}{\chapternumberline {A}Ap\IeC {\^e}ndice estat\IeC {\'\i }stico}{134}{appendix.A}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Testes de hip\IeC {\'o}tese}{132}{section.A.1}% 
+\contentsline {section}{\numberline {A.1}Testes de hip\IeC {\'o}tese}{134}{section.A.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}VECM Alternativo: $g_Z$, infla\IeC {\c c}\IeC {\~a}o e juros ex\IeC {\'o}geno}{134}{section.A.2}% 
+\contentsline {section}{\numberline {A.2}VECM Alternativo: $g_Z$, infla\IeC {\c c}\IeC {\~a}o e juros ex\IeC {\'o}geno}{136}{section.A.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {appendix}{\chapternumberline {B}Modelo SFC}{139}{appendix.B}% 
+\contentsline {appendix}{\chapternumberline {B}Modelo SFC}{141}{appendix.B}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.1}\textit {Fraction} e o investimento residencial}{139}{section.B.1}% 
+\contentsline {section}{\numberline {B.1}\textit {Fraction} e o investimento residencial}{141}{section.B.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {B.1.1}Gastos ``despoupadores''}{139}{subsection.B.1.1}% 
+\contentsline {subsection}{\numberline {B.1.1}Gastos ``despoupadores''}{141}{subsection.B.1.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {B.1.2}Investimento residencial}{140}{subsection.B.1.2}% 
+\contentsline {subsection}{\numberline {B.1.2}Investimento residencial}{142}{subsection.B.1.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.2}Simula\IeC {\c c}\IeC {\~o}es}{142}{section.B.2}% 
+\contentsline {section}{\numberline {B.2}Simula\IeC {\c c}\IeC {\~o}es}{144}{section.B.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Anexos}{143}{table.caption.68}% 
+\contentsline {chapter}{Anexos}{145}{table.caption.68}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {appendix}{\chapternumberline {I}Licen\IeC {\c c}a}{143}{appendix.A}% 
+\contentsline {appendix}{\chapternumberline {I}Licen\IeC {\c c}a}{145}{appendix.A}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {I.1}Sobre a licen\IeC {\c c}a dessa obra}{143}{section.A.1}% 
+\contentsline {section}{\numberline {I.1}Sobre a licen\IeC {\c c}a dessa obra}{145}{section.A.1}% 
