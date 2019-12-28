@@ -8991,12 +8991,12 @@
     \endentry
     \entry{zezza_u.s._2008}{article}{}
       \name{author}{1}{}{%
-        {{uniquename=1,uniquepart=given,hash=58199ac284dc74a1d4974fcf1360edbe}{%
+        {{uniquename=0,uniquepart=base,hash=58199ac284dc74a1d4974fcf1360edbe}{%
            family={Zezza},
            familyi={Z\bibinitperiod},
            given={{Gennaro}},
            giveni={G\bibinitperiod},
-           givenun=1}}%
+           givenun=0}}%
       }
       \strng{namehash}{58199ac284dc74a1d4974fcf1360edbe}
       \strng{fullhash}{58199ac284dc74a1d4974fcf1360edbe}
@@ -9037,12 +9037,12 @@
     \endentry
     \entry{arestis_income_2011}{incollection}{}
       \name{author}{1}{}{%
-        {{uniquename=1,uniquepart=given,hash=58199ac284dc74a1d4974fcf1360edbe}{%
+        {{uniquename=0,uniquepart=base,hash=58199ac284dc74a1d4974fcf1360edbe}{%
            family={Zezza},
            familyi={Z\bibinitperiod},
            given={{Gennaro}},
            giveni={G\bibinitperiod},
-           givenun=1}}%
+           givenun=0}}%
       }
       \name{editor}{3}{}{%
         {{hash=75499a30114e2f80e2490b9e90512b74}{%
@@ -9108,59 +9108,6 @@
       \verb{url}
       \verb http://link.springer.com/10.1057/9780230303942_5
       \endverb
-    \endentry
-    \entry{zezza_design_2019}{report}{}
-      \name{author}{2}{}{%
-        {{uniquename=1,uniquepart=given,hash=58199ac284dc74a1d4974fcf1360edbe}{%
-           family={Zezza},
-           familyi={Z\bibinitperiod},
-           given={{Gennaro}},
-           giveni={G\bibinitperiod},
-           givenun=1}}%
-        {{uniquename=1,uniquepart=given,hash=923b1458a85d6c464dd3b4594961d809}{%
-           family={Zezza},
-           familyi={Z\bibinitperiod},
-           given={{Francesco}},
-           giveni={F\bibinitperiod},
-           givenun=1}}%
-      }
-      \list{institution}{1}{%
-        {Levy Economics Institute}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{fe248d4da17cc100baa36504f9a47cc9}
-      \strng{fullhash}{fe248d4da17cc100baa36504f9a47cc9}
-      \strng{bibnamehash}{fe248d4da17cc100baa36504f9a47cc9}
-      \strng{authorbibnamehash}{fe248d4da17cc100baa36504f9a47cc9}
-      \strng{authornamehash}{fe248d4da17cc100baa36504f9a47cc9}
-      \strng{authorfullhash}{fe248d4da17cc100baa36504f9a47cc9}
-      \field{sortinit}{Z}
-      \field{sortinithash}{156173bd08b075d7295bc3e0f4735a04}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{While the literature on theoretical macroeconomic models adopting the stock-flow-consistent (SFC) approach is flourishing, few contributions cover the methodology for building a SFC empirical model for a whole country. Most contributions simply try to feed national accounting data into a theoretical model inspired by Wynne Godley and Marc Lavoie (2007), albeit with different degrees of complexity. In this paper we argue instead that the structure of an empirical SFC model should start from a careful analysis of the specificities of a country's sectoral balance sheets and flow of funds data, given the relevant research question to be addressed. We illustrate our arguments with examples for Greece, Italy, and Ecuador. We also provide some suggestions on how to consistently use the financial and nonfinancial accounts of institutional sectors, showing the link between SFC accounting structures and national accounting rules.}
-      \field{number}{wp\_919}
-      \field{title}{On the {Design} of {Empirical} {Stock}-{Flow}-{Consistent} {Models}}
-      \field{type}{techreport}
-      \field{urlday}{19}
-      \field{urlmonth}{6}
-      \field{urlyear}{2019}
-      \field{year}{2019}
-      \field{urldateera}{ce}
-      \verb{file}
-      \verb Fullext PDF:/home/gpetrini/Zotero/storage/29M9N2Y8/Zezza e Zezza - 2019 - On the Design of Empirical Stock-Flow-Consistent M.pdf:application/pdf;Snapshot:/home/gpetrini/Zotero/storage/DGH636ZG/wp_919.html:text/html
-      \endverb
-      \verb{urlraw}
-      \verb https://ideas.repec.org/p/lev/wrkpap/wp_919.html
-      \endverb
-      \verb{url}
-      \verb https://ideas.repec.org/p/lev/wrkpap/wp_919.html
-      \endverb
-      \keyw{Ecuador,Empirical Stock-Flow-Consistent Models,Greece,Italy}
     \endentry
   \enddatalist
 \endrefsection

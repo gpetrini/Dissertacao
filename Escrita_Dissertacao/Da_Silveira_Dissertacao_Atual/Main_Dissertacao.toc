@@ -30,11 +30,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.3}Gastos aut\IeC {\^o}nomos nos modelos de crescimento}{44}{section.2.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.1}Um breve mapeamento da fronteira heterodoxa}{44}{subsection.2.3.1}% 
+\contentsline {subsection}{\numberline {2.3.1}Um breve mapeamento da fronteira heterodoxa}{45}{subsection.2.3.1}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3.2}Princ\IeC {\'\i }pio da demanda efetiva no m\IeC {\'e}dio prazo: um paradigma e duas alternativas?}{51}{subsection.2.3.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Considera\IeC {\c c}\IeC {\~o}es finanais}{54}{section.2.4}% 
+\contentsline {section}{\numberline {2.4}Considera\IeC {\c c}\IeC {\~o}es finanais}{55}{section.2.4}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\chapternumberline {3}Investimento residencial e taxa pr\IeC {\'o}pria de juros dos im\IeC {\'o}veis: Uma investiga\IeC {\c c}\IeC {\~a}o a partir de um VECM}{56}{chapter.3}% 
 \defcounter {refsection}{0}\relax 
