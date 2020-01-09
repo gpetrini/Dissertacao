@@ -33,10 +33,10 @@ Seja $h$ a propensão marginal a investir, o investimento (induzido) é definido
 $$
 I = h\cdot Y
 $$
-Considerando que a parcela induzida do consumo é determinada pela propensão marginal a consumir\footnote{Neste caso que existem gastos autônomos não criadores de capacidade, o consumo pode não ser totalmente induzido. Além disso, vale a menção de que o componente autônomo $Z$ não se restringe ao consumo e pode ser estendido ao investimento das famílias cujas implicações são analisadas no capitulo \ref{CapModelo}. Por fim, considerando as diversas formas que $Z$ pode assumir, optou-se por introduzi-lo em sua forma mais genérica possível para permitir comparação entre os modelos.}, o produto determinado pela demanda torna-se:
+Considerando que a parcela induzida do consumo é determinada pela participação dos salários  na renda\footnote{Neste caso que existem gastos autônomos não criadores de capacidade, o consumo pode não ser totalmente induzido. Além disso, vale a menção de que o componente autônomo $Z$ não se restringe ao consumo e pode ser estendido ao investimento residencial cujas implicações são analisadas no capitulo \ref{CapModelo}.}, o produto determinado pela demanda torna-se:
 \begin{equation}
 \label{PIBSuper}
-    Y = c\cdot Y + h\cdot Y + Z
+    Y = \omega\cdot Y + h\cdot Y + Z
 \end{equation}
 o que implica:
 \begin{equation}
@@ -89,12 +89,12 @@ com isso, retorna-se a identidade entre poupança e investimento bem como entre 
 Dito isso, resta expor o modelo em termos de crescimento para apresentar o fechamento.
 Tomando a diferença total da equação \ref{PIBSuper}, tem-se:
 $$
-g = c\cdot g + h\cdot g + \Delta h + \frac{Z}{Y}\cdot \overline g_Z
+g = \omega\cdot g + h\cdot g + \Delta h + \frac{Z}{Y}\cdot \overline g_Z
 $$
 em que $Z/Y$ é o inverso do supermultiplicador como definido em \ref{Supermultiplicador} e $g_Z$ é a taxa de crescimento dos gastos autônomos determinada exogenamente. Rearranjando, 
 \begin{equation}
 \label{crescimentosuper}
-g = \frac{\Delta h}{1 - c - h} + \overline g_Z
+g = \frac{\Delta h}{1 - \omega - h} + \overline g_Z
 \end{equation}
 uma vez esgotado o mecanismo de ajuste do estoque de capital, ou seja, quando o grau de utilização é igual ao desejado, não há razões para que a propensão marginal a poupar se altere ($\Delta h = 0$). Desse modo, conclui-se que na posição plenamente ajustada ($u = u_N$) a taxa de crescimento do produto tende à taxa de crescimento dos gastos autônomos:
 
@@ -133,7 +133,7 @@ Vale ressaltar que apesar do Supermultiplicador ser --- nos termos de \textcite{
 	Para isso, retomam a definição de instabilidade de \textcite{hicks_contribution_1972} em que considera um modelo estaticamente estável quando não se afasta do equilíbrio enquanto a estabilidade dinâmica depende da intensidade. Destacam ainda que a estabilidade estática (direção) é condição necessária mas não suficiente para gerar estabilidade dinâmica.
 }, pode ser dinamicamente instável a depender dos parâmetros que dizem respeito ao ajuste da capacidade produtiva. Desse modo, não é só a existência de gastos autônomos que garante a possibilidade de um regime de crescimento \textit{estável} liderado pela demanda, mas também o ajuste gradual da propensão marginal a investir. Basta que, fora de equilíbrio, a propensão marginal a gastar seja menor que a unidade para que o sistema seja dinamicamente estável\footnote{Tal como mencionado no corpor do texto e como será visto no capítulo \ref{CapModelo}, é preciso que o parâmetro $\gamma_u$ seja suficientemente pequeno.}. Assim, atendidas essas condições, a capacidade produtiva irá se ajustar à demanda:
 $$
- \frac{K}{v} = Y_{FC} = Y = \left(\frac{1}{1 - c - h}\right)Z
+ \frac{K}{v}\cdot u_N = Y_{FC}\cdot u_N = Y = \left(\frac{1}{1 - \omega - h}\right)Z
 $$
 A equação acima evidencia que a capacidade produtiva se ajusta à demanda que, como indicado anteriormente, cresce à taxa tendencial dos gastos autônomos. 
 Desse modo, conclui-se que o supermultiplicador sraffiano é um canditado ao modelo a ser selecionado por incluir gastos autônomos não criadores de capacidade --- e este é o caso do investimento residencial\footnote{Esta discussão será mais aprofundada nas seções seguintes.} --- por construção.
