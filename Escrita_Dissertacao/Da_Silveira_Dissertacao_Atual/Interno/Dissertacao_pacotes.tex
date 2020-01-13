@@ -43,39 +43,6 @@
 \addbibresource{Fatos_Estilizados/Biblio.bib}
 
 
-%%%%%%%%%%%%%%%%%%%%% Inicio Origdate
-\DeclareLabeldate{%
-	\field{date}
-	\field{year}
-	\field{eventdate}
-	\field{urldate}
-	\literal{nodate}
-}
-
-\renewbibmacro*{date+extradate}{%
-	\iffieldundef{labelyear}
-	{}
-	{\printtext[parens]{%
-			\iffieldundef{origyear}
-			{}
-			{\printtext[brackets]{\printorigdate}%
-				\setunit{\addspace}}%
-			\iflabeldateisdate
-			{\printdateextra}
-			{\printlabeldateextra}}}}
-
-\renewbibmacro*{cite:labeldate+extradate}{%
-	\iffieldundef{labelyear}
-	{}
-	{\printtext[bibhyperref]{%
-			\iffieldundef{origyear}
-			{}
-			{\printtext[brackets]{\printorigdate}%
-				\setunit{\addspace}}%
-			\printlabeldateextra}}}
-
-%%%%%%%%%%%%%%%%%%%%% Fim Origdate
-
 %%%%%%%%%%%%%%%%%% Usar cites
 \makeatletter
 \renewbibmacro*{cite:init}{%

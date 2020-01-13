@@ -1,10 +1,13 @@
 \section{Solução analítica}
 \label{SecAnalitica}
 
-Apresentada a estrutura do modelo, resta expor a solução analítica de modo que fiquem explicitadas as condições de estabilidade bem como as relações dinâmicas entre as variáveis\footnote{De modo a ter a solução para o modelo mais geral, abandona-se nesta seção a simplificação que $\alpha=1$.}. Para obter o nível da renda de longo prazo, basta substituir \ref{ConsumoTotal}, \ref{_It} em \ref{_Y} para então substituir \ref{_W}, \ref{_If} e considerar $Z = I_h + C_k$ como em \ref{_Z}:
+Apresentada a estrutura do modelo, resta expor a solução analítica de modo que fiquem explicitadas as condições de estabilidade bem como as relações dinâmicas entre as variáveis. 
+Para isso, as equações serão transformadas --- somente nessa seção --- em seu equivalente em tempo contínuo de modo que algumas relações possas em expressas em termos de derivadas parciais.
+Feita esta ressalva, avança-se em direção das condições de estabilidade para então obter algumas razões de longo prazo (indicadas por $^*$)\footnote{O \textit{script} com as etapas realizadas esta disponível sob solicitação.}.
+Para obter o nível da renda de longo prazo, basta substituir \ref{ConsumoTotal}, \ref{_It} em \ref{_Y} para então substituir \ref{_W}, \ref{_If} e considerar $Z = I_h + C_k$ como em \ref{_Z}:
 \begin{equation}
     \label{AnaliticaNivel}
-    Y = \left(\frac{1}{1-\omega - h}\right)Z
+    Y^* = \left(\frac{1}{1-\omega - h}\right)Z
 \end{equation}
 Dito isso, resta apresentar o modelo em termos de crescimento tal como \textcite{freitas_growth_2015}. Partindo contribuição dos componentes da demanda para a variação da renda e resolvendo para a taxa de crescimento, obtém-se
 $$
@@ -21,7 +24,7 @@ u \to u_N \Leftrightarrow g \to g_z
 De modo que a propensão marginal a investir necessária é
 \begin{equation}
 \label{hLP}
-h = \overline g_z\frac{\overline v}{\overline u_N}
+h^* = \overline g_z\frac{\overline v}{\overline u_N}
 \end{equation}
 que, como mostram \textcite{fagundes_role_2017}, explicita a relação positiva entre taxa de investimento das firmas e crescimento. Com isso, substituindo \ref{gLP} nas equações \ref{hLP} e \ref{Aux} é possível construir o seguinte sistema de equações:
 
@@ -70,12 +73,17 @@ $$
 $$
 - \frac{g_Z \gamma_{u} v}{\omega u_N + g_Z v - u_N} < \frac{g_Z}{u_N}
 $$
-reescrevendo, obtém-se
+Portanto, além do termo em parênteses da Eq. \ref{AnaliticaNivel} ser o supermultplicador, fornece as condições necessárias e suficientes para que o modelo seja estável: 
+$$
+%\omega + \frac{g_Z v}{u_N} + \gamma_u\cdot v < 1
+\omega + \frac{g_Z v}{u_N} < 1
+$$
 \begin{equation}
-\omega + \frac{g_Z v}{u_N} + \gamma_u\cdot v < 1
+\omega + h^* < 1
 \end{equation}
-Portanto, além do termo em parênteses da Eq. \ref{AnaliticaNivel} ser o supermultplicador, fornece as condições para que o modelo seja estável: 
-A condição anterior, como em \textcite{freitas_growth_2015}, significa que a propensão marginal a gasta (consumir e investir) seja menor que a unidade, caso contrário, vigora-se a lei de Say.
+A condição anterior, como em \textcite{freitas_growth_2015}, significa que a propensão marginal a gasta (consumir e investir) seja menor que a unidade, caso contrário, 
+%vigora-se a lei de Say.
+o modelo não seria compatível com o PDE, estendido à uma economia em crescimento.
 
 
 %%%%%%%%%%%%%%%%%% Ponte para apêndice
@@ -110,30 +118,51 @@ u = \left(\frac{1}{1-R}\right)\cdot\left(\frac{g_Z\cdot v}{1-\omega- h}\right)\c
 Substituindo as variáveis endógenas de modo a explicitar apenas em termos de parâmetros e variáveis exógenas e resolvendo para o longo prazo e em termos de $k$
 \begin{equation}
 \label{kAnali}
-k = 1 - \frac{v \left(\phi_{0} - \phi_{1} \left(-1 + \frac{rm\cdot(1+\sigma_{mo})}{\dot p_h + 1}\right)\right)}{u_N \left(- \omega + 1\right)}
+k = 1 - \frac{v \left(\phi_{0} - \phi_{1} \left(-1 + \frac{rm\cdot(1+\sigma_{mo})}{\pi + 1}\right)\right)}{u_N \left(- \omega + 1\right)}
 \end{equation}
-cuja forma simplificada é\footnote{O \textit{script} com as etapas realizadas esta disponível sob solicitação.}:
+cuja forma simplificada é\footnote{Etapas para obtenção de $k^*$
+	$$
+	u_t = - \frac{k v \left(\phi_{0} - \phi_{1} \left(-1 + \frac{rm\cdot(1+\sigma_{mo})}{\pi + 1}\right)\right)}{\left(1 - k\right) \left(\omega - 1 + \frac{v \left(\phi_{0} - \phi_{1} \left(-1 + \frac{rm\cdot(1+\sigma_{mo})}{\pi + 1}\right)\right)}{u_N}\right)}
+	$$
+	$$
+	\frac{k}{1 - k} = \frac{u_N \left(- \omega \left(\pi + 1\right) + \pi + 1\right) - v \left(\phi_{0} \left(\pi + 1\right) - \phi_{1} \left(- \pi + rm + \sigma_{mo}\right)\right)}{v \left(\phi_{0} \left(\pi + 1\right) - \phi_{1} \left(- \pi + rm + \sigma_{mo}\right)\right)}
+	$$
+	Por fim, resolvendo para $k$:
+	$$
+	k = \frac{u_N \left(- \omega \left(\pi + 1\right) + \pi + 1\right) - v \left(\phi_{0} \left(\pi + 1\right) - \phi_{1} \left(- \pi + rm + \sigma_{mo}\right)\right)(1-R)}{u_N \left(- \omega \left(\pi + 1\right) + \pi + 1\right)}
+	$$
+simplificando
 $$
-k = 1 - \frac{h^*}{(1 - \omega)}
+k = 1 - \frac{v \left(\phi_{0} - \phi_{1} \left(-1 + \frac{rm\cdot(1+\sigma_{mo})}{\pi + 1}\right)\right)}{u_N \left(- \omega + 1\right)}
 $$
-
-A equação \ref{kAnali} mostra que a participação dos imóveis no estoque de capital total depende 
-positivamente do \textit{spread} bancário ($\sigma_{mo}$) da taxa de juros das hipotecas e 
-negativamente do componente autônomo de $g_z$ ($\phi_0$), da inflação de ativos ($\dot p_h$) e da distribuição dos salários na renda ($\omega$). Formalmente:
+}:
 \begin{equation}
+k^* = 1 - \frac{h^*}{(1 - \omega)}
+\end{equation}
+
+
+Uma vez que as relações entre crescimento e distribuição no supermultiplicador sraffiano está bem estabelecido pela literatura, avança-se em direção da análise das particularidade do presente modelo.
+A equação \ref{kAnali} mostra que a participação dos imóveis no estoque de capital total depende 
+positivamente da taxa de juros (Eq. \ref{partial_rm}) e 
+negativamente do componente autônomo de $g_z$ (Eq \ref{partial_phi0}), da inflação de ativos (Eq \ref{partial_pi}) e da distribuição dos salários na renda (Eq \ref{partial_omega}). Formalmente:
+\begin{equation}
+%TODO Checar solução analítica
+\label{partial_rm}
+\frac{\partial k}{\partial rm} = - \frac{\phi_{1} v \left(\sigma_{mo} + 1\right)}{u_N \left(\pi + 1\right) \left(\omega - 1\right)} > 0
+\end{equation}
+\begin{equation}
+\label{partial_phi0}
 \frac{\partial k}{\partial \phi_0} = \frac{v}{u_N \left(\omega - 1\right)} < 0
 \end{equation}
 \begin{equation}
-\frac{\partial k}{\partial \dot p_h} = \frac{\phi_{1} v \left(rm\cdot(1+\sigma_{mo}) + 1\right)}{u_N \left(\dot p_h + 1\right)^{2} \left(\omega - 1\right)} < 0
+\label{partial_pi}
+\frac{\partial k}{\partial \pi} = \frac{\phi_{1} v \left(rm\cdot(1+\sigma_{mo}) + 1\right)}{u_N \left(\pi + 1\right)^{2} \left(\omega - 1\right)} < 0
 \end{equation}
 \begin{equation}
-\frac{\partial k}{\partial \omega} = - \frac{v \left(\phi_{0} \left(\dot p_h + 1\right) - \phi_{1} \left(- \dot p_h + rm\cdot(1 + \sigma_{mo})\right)\right)}{u_N \left(\dot p_h + 1\right) \left(\omega - 1\right)^{2}} < 0
+\label{partial_omega}
+\frac{\partial k}{\partial \omega} = - \frac{v \left(\phi_{0} \left(\pi + 1\right) - \phi_{1} \left(- \pi + rm\cdot(1 + \sigma_{mo})\right)\right)}{u_N \left(\pi + 1\right) \left(\omega - 1\right)^{2}} < 0
 \end{equation}
-\begin{equation}
-%TODO Checar solução analítica
-\frac{\partial k}{\partial rm} = - \frac{\phi_{1} v \left(\sigma_{mo} + 1\right)}{u_N \left(\dot p_h + 1\right) \left(\omega - 1\right)} > 0
-\end{equation}
-Tais resultados, apesar de contra intuitivos, estão em linha com o supermultiplicador sraffiano uma vez que quanto maior $g_Z$, menor será a participação dos gastos autônomos na renda e que mudanças na distribuição (isto é, alterações no multiplicador) terão efeito nível, alterando apenas a composição dos diferentes tipos de estoque de capital. 
+Tais resultados, apesar de contra intuitivos, estão em linha com o supermultiplicador sraffiano uma vez que quanto maior a taxa de crescimento do investimento residencial, menor será a participação dos gastos autônomos na renda e que mudanças na distribuição (isto é, alterações no multiplicador) terão efeito nível, alterando apenas a composição dos diferentes tipos de estoque de capital. 
 
 
 %NORMAS ESTOQUE FLUXO
@@ -141,13 +170,13 @@ Tais resultados, apesar de contra intuitivos, estão em linha com o supermultipl
 \begin{comment}
 Etapas da solução analítica
 $$
-u_t = - \frac{k v \left(\phi_{0} - \phi_{1} \left(-1 + \frac{rm\cdot(1+\sigma_{mo})}{\dot p_h + 1}\right)\right)}{\left(1 - k\right) \left(\omega - 1 + \frac{v \left(\phi_{0} - \phi_{1} \left(-1 + \frac{rm\cdot(1+\sigma_{mo})}{\dot p_h + 1}\right)\right)}{u_N}\right)}
+u_t = - \frac{k v \left(\phi_{0} - \phi_{1} \left(-1 + \frac{rm\cdot(1+\sigma_{mo})}{\pi + 1}\right)\right)}{\left(1 - k\right) \left(\omega - 1 + \frac{v \left(\phi_{0} - \phi_{1} \left(-1 + \frac{rm\cdot(1+\sigma_{mo})}{\pi + 1}\right)\right)}{u_N}\right)}
 $$
 $$
-\frac{k}{1 - k} = \frac{u_N \left(- \omega \left(\dot p_h + 1\right) + \dot p_h + 1\right) - v \left(\phi_{0} \left(\dot p_h + 1\right) - \phi_{1} \left(- \dot p_h + rm + \sigma_{mo}\right)\right)}{v \left(\phi_{0} \left(\dot p_h + 1\right) - \phi_{1} \left(- \dot p_h + rm + \sigma_{mo}\right)\right)}
+\frac{k}{1 - k} = \frac{u_N \left(- \omega \left(\pi + 1\right) + \pi + 1\right) - v \left(\phi_{0} \left(\pi + 1\right) - \phi_{1} \left(- \pi + rm + \sigma_{mo}\right)\right)}{v \left(\phi_{0} \left(\pi + 1\right) - \phi_{1} \left(- \pi + rm + \sigma_{mo}\right)\right)}
 $$
 Por fim, resolvendo para $k$:
 $$
-k = \frac{u_N \left(- \omega \left(\dot p_h + 1\right) + \dot p_h + 1\right) - v \left(\phi_{0} \left(\dot p_h + 1\right) - \phi_{1} \left(- \dot p_h + rm + \sigma_{mo}\right)\right)(1-R)}{u_N \left(- \omega \left(\dot p_h + 1\right) + \dot p_h + 1\right)}
+k = \frac{u_N \left(- \omega \left(\pi + 1\right) + \pi + 1\right) - v \left(\phi_{0} \left(\pi + 1\right) - \phi_{1} \left(- \pi + rm + \sigma_{mo}\right)\right)(1-R)}{u_N \left(- \omega \left(\pi + 1\right) + \pi + 1\right)}
 $$
 \end{comment}

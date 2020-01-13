@@ -118,7 +118,6 @@
       \strng{authorbibnamehash}{b0fc47959800a45f0c22ee1be6802558}
       \strng{authornamehash}{b0fc47959800a45f0c22ee1be6802558}
       \strng{authorfullhash}{b0fc47959800a45f0c22ee1be6802558}
-      \field{extraname}{1}
       \field{sortinit}{A}
       \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
       \field{extradatescope}{labelyear}
@@ -149,53 +148,6 @@
       \endverb
       \verb{url}
       \verb https://academic.oup.com/cje/article-lookup/doi/10.1093/cje/beu039
-      \endverb
-    \endentry
-    \entry{allain_demographic_2018}{article}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=b0fc47959800a45f0c22ee1be6802558}{%
-           family={Allain},
-           familyi={A\bibinitperiod},
-           given={Olivier},
-           giveni={O\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{b0fc47959800a45f0c22ee1be6802558}
-      \strng{fullhash}{b0fc47959800a45f0c22ee1be6802558}
-      \strng{bibnamehash}{b0fc47959800a45f0c22ee1be6802558}
-      \strng{authorbibnamehash}{b0fc47959800a45f0c22ee1be6802558}
-      \strng{authornamehash}{b0fc47959800a45f0c22ee1be6802558}
-      \strng{authorfullhash}{b0fc47959800a45f0c22ee1be6802558}
-      \field{extraname}{2}
-      \field{sortinit}{A}
-      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Our model is based on a Kaleckian basis, which is enriched by three simple, intuitive hypotheses. Firstly, an unemployment benefits system organizes the distribution of the wage bill between employed and unemployed workers, the latter receiving an amount of money corresponding to the subsistence level. Secondly, only individuals with an income above the subsistence level build savings. The combination of these two hypotheses gives rise to an autonomous consumption expenditure whose rate of growth is given by the demographic rate of growth. As a consequence, the rate of capital accumulation spontaneously converges towards the demographic rate of growth (supermultiplier effect), a dynamics that gives a solution to one of the two Harrodian instability problems. The third hypothesis corresponds to the entrepreneurs’ attempts to adjust investment in order to restore the normal rate of capacity utilization. Whereas such assumption usually generates knife-edge instability, we show here that this instability can be eliminated by the stabilizing properties of the supermultiplier. Moreover, the attempts to adjust investment enable to restore the normal rate of capacity utilization. In summary, the model offers a simple, simultaneous solution to the two Harrodian instability problems.}
-      \field{issn}{0309-166X, 1464-3545}
-      \field{journaltitle}{Cambridge Journal of Economics}
-      \field{title}{Demographic growth, {Harrodian} (in)stability and the supermultiplier}
-      \field{urlday}{28}
-      \field{urlmonth}{12}
-      \field{urlyear}{2018}
-      \field{year}{2018}
-      \field{urldateera}{ce}
-      \verb{doi}
-      \verb 10.1093/cje/bex082
-      \endverb
-      \verb{file}
-      \verb Allain - 2018 - Demographic growth, Harrodian (in)stability and th.pdf:/home/gpetrini/Zotero/storage/SLGIP4CL/Allain - 2018 - Demographic growth, Harrodian (in)stability and th.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://academic.oup.com/cje/advance-article/doi/10.1093/cje/bex082/4835441
-      \endverb
-      \verb{url}
-      \verb https://academic.oup.com/cje/advance-article/doi/10.1093/cje/bex082/4835441
       \endverb
     \endentry
     \entry{alvarez_does_2010}{incollection}{}
@@ -3544,6 +3496,56 @@
       \verb Table of Contents PDF:/home/gpetrini/Zotero/storage/H2BXMCVQ/Gandolfo - 2010 - Economic dynamics.pdf:application/pdf
       \endverb
     \endentry
+    \entry{garegnani_problem_2015}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=217b3b26f2fad258e63b9d4e74d9c12a}{%
+           family={Garegnani},
+           familyi={G\bibinitperiod},
+           given={Pierangelo},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{217b3b26f2fad258e63b9d4e74d9c12a}
+      \strng{fullhash}{217b3b26f2fad258e63b9d4e74d9c12a}
+      \strng{bibnamehash}{217b3b26f2fad258e63b9d4e74d9c12a}
+      \strng{authorbibnamehash}{217b3b26f2fad258e63b9d4e74d9c12a}
+      \strng{authornamehash}{217b3b26f2fad258e63b9d4e74d9c12a}
+      \strng{authorfullhash}{217b3b26f2fad258e63b9d4e74d9c12a}
+      \field{extraname}{1}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{0953-8259, 1465-3982}
+      \field{journaltitle}{Review of Political Economy}
+      \field{number}{2}
+      \field{origyear}{1975}
+      \field{shorttitle}{The {Problem} of {Effective} {Demand} in {Italian} {Economic} {Development}}
+      \field{title}{The {Problem} of {Effective} {Demand} in {Italian} {Economic} {Development}: {On} the {Factors} that {Determine} the {Volume} of {Investment}}
+      \field{urlday}{12}
+      \field{urlmonth}{1}
+      \field{urlyear}{2019}
+      \field{volume}{27}
+      \field{year}{{2015 [1975]}}
+      \field{origdateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{111\bibrangedash 133}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.1080/09538259.2015.1026096
+      \endverb
+      \verb{urlraw}
+      \verb http://www.tandfonline.com/doi/full/10.1080/09538259.2015.1026096
+      \endverb
+      \verb{url}
+      \verb http://www.tandfonline.com/doi/full/10.1080/09538259.2015.1026096
+      \endverb
+    \endentry
     \entry{garegnani_notes_1992}{incollection}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=217b3b26f2fad258e63b9d4e74d9c12a}{%
@@ -3588,7 +3590,7 @@
       \strng{editorbibnamehash}{8e835a87ee16e28c2aeee511a2ed1822}
       \strng{editornamehash}{8e835a87ee16e28c2aeee511a2ed1822}
       \strng{editorfullhash}{8e835a87ee16e28c2aeee511a2ed1822}
-      \field{extraname}{1}
+      \field{extraname}{2}
       \field{sortinit}{G}
       \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
       \field{extradatescope}{labelyear}
@@ -3616,54 +3618,6 @@
       \verb https://doi.org/10.1007/978-1-349-10950-0_3
       \endverb
       \keyw{Capital Accumulation,Capital Stock,Normal Rate,Productive Capacity,Real Wage}
-    \endentry
-    \entry{garegnani_problem_2015}{article}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=217b3b26f2fad258e63b9d4e74d9c12a}{%
-           family={Garegnani},
-           familyi={G\bibinitperiod},
-           given={Pierangelo},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{217b3b26f2fad258e63b9d4e74d9c12a}
-      \strng{fullhash}{217b3b26f2fad258e63b9d4e74d9c12a}
-      \strng{bibnamehash}{217b3b26f2fad258e63b9d4e74d9c12a}
-      \strng{authorbibnamehash}{217b3b26f2fad258e63b9d4e74d9c12a}
-      \strng{authornamehash}{217b3b26f2fad258e63b9d4e74d9c12a}
-      \strng{authorfullhash}{217b3b26f2fad258e63b9d4e74d9c12a}
-      \field{extraname}{2}
-      \field{sortinit}{G}
-      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{issn}{0953-8259, 1465-3982}
-      \field{journaltitle}{Review of Political Economy}
-      \field{number}{2}
-      \field{shorttitle}{The {Problem} of {Effective} {Demand} in {Italian} {Economic} {Development}}
-      \field{title}{The {Problem} of {Effective} {Demand} in {Italian} {Economic} {Development}: {On} the {Factors} that {Determine} the {Volume} of {Investment}}
-      \field{urlday}{12}
-      \field{urlmonth}{1}
-      \field{urlyear}{2019}
-      \field{volume}{27}
-      \field{year}{2015}
-      \field{urldateera}{ce}
-      \field{pages}{111\bibrangedash 133}
-      \range{pages}{23}
-      \verb{doi}
-      \verb 10.1080/09538259.2015.1026096
-      \endverb
-      \verb{urlraw}
-      \verb http://www.tandfonline.com/doi/full/10.1080/09538259.2015.1026096
-      \endverb
-      \verb{url}
-      \verb http://www.tandfonline.com/doi/full/10.1080/09538259.2015.1026096
-      \endverb
     \endentry
     \entry{halevi_notes_2014}{incollection}{}
       \name{author}{1}{}{%
@@ -4141,42 +4095,6 @@
       \verb{url}
       \verb http://www.levyinstitue.org/publications/seven-unsustainable-processes
       \endverb
-    \endentry
-    \entry{godley_macroeconomics_1983}{book}{}
-      \name{author}{2}{}{%
-        {{uniquename=0,uniquepart=base,hash=f6bfabc3bb1587ddfc005f7ede21614c}{%
-           family={Godley},
-           familyi={G\bibinitperiod},
-           given={Wynne},
-           giveni={W\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=84ca5cbf5fc4c907f02bf3b4e31b50bf}{%
-           family={Cripps},
-           familyi={C\bibinitperiod},
-           given={Francis},
-           giveni={F\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{location}{1}{%
-        {New York}%
-      }
-      \list{publisher}{1}{%
-        {Oxford University Press}%
-      }
-      \strng{namehash}{9c8ef4d7dc781ccf853f3ff0ba7ca24e}
-      \strng{fullhash}{9c8ef4d7dc781ccf853f3ff0ba7ca24e}
-      \strng{bibnamehash}{9c8ef4d7dc781ccf853f3ff0ba7ca24e}
-      \strng{authorbibnamehash}{9c8ef4d7dc781ccf853f3ff0ba7ca24e}
-      \strng{authornamehash}{9c8ef4d7dc781ccf853f3ff0ba7ca24e}
-      \strng{authorfullhash}{9c8ef4d7dc781ccf853f3ff0ba7ca24e}
-      \field{sortinit}{G}
-      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Macroeconomics}
-      \field{year}{1983}
     \endentry
     \entry{godley_simple_2007}{article}{}
       \name{author}{2}{}{%
