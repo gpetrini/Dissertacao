@@ -1991,44 +1991,6 @@
       \verb Full Text:/home/gpetrini/Zotero/storage/9D4XGN73/Dallery - 2007 - Kaleckian models of growth and distribution revisi.pdf:application/pdf
       \endverb
     \endentry
-    \entry{dallery_conflicting_2011}{article}{}
-      \name{author}{2}{}{%
-        {{uniquename=0,uniquepart=base,hash=e1f439e8569cc3eccdb235ee250b48a5}{%
-           family={Dallery},
-           familyi={D\bibinitperiod},
-           given={Thomas},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=bbbc67558706275612055a94b7084cd0}{%
-           family={Van\bibnamedelima Treeck},
-           familyi={V\bibinitperiod\bibinitdelim T\bibinitperiod},
-           given={Till},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{aa212565bd61ca5b467a5c71c70f1bca}
-      \strng{fullhash}{aa212565bd61ca5b467a5c71c70f1bca}
-      \strng{bibnamehash}{aa212565bd61ca5b467a5c71c70f1bca}
-      \strng{authorbibnamehash}{aa212565bd61ca5b467a5c71c70f1bca}
-      \strng{authornamehash}{aa212565bd61ca5b467a5c71c70f1bca}
-      \strng{authorfullhash}{aa212565bd61ca5b467a5c71c70f1bca}
-      \field{sortinit}{D}
-      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Review of Political Economy}
-      \field{number}{2}
-      \field{title}{Conflicting claims and equilibrium adjustment processes in a stock-flow consistent macroeconomic model}
-      \field{volume}{23}
-      \field{year}{2011}
-      \field{pages}{189\bibrangedash 211}
-      \range{pages}{23}
-      \verb{file}
-      \verb Full Text:/home/gpetrini/Zotero/storage/LGQX8M7K/Dallery e Van Treeck - 2011 - Conflicting claims and equilibrium adjustment proc.pdf:application/pdf
-      \endverb
-    \endentry
     \entry{davidson_accumulation_1978}{incollection}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=8227560d3f9b05f7cf55c5ec8da7d355}{%
@@ -2155,53 +2117,6 @@
       \field{year}{2019}
       \verb{file}
       \verb Deleidi e Mazzucato - 2019 - Mission-Oriented Innovation Policies A theorical .pdf:/home/gpetrini/Zotero/storage/MTBXZIH8/Deleidi e Mazzucato - 2019 - Mission-Oriented Innovation Policies A theorical .pdf:application/pdf
-      \endverb
-    \endentry
-    \entry{derksen_long_1940}{article}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=fc1a81a4af5585ff2852eef61c15ce55}{%
-           family={Derksen},
-           familyi={D\bibinitperiod},
-           given={J.\bibnamedelimi B.\bibnamedelimi D.},
-           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim D\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{fc1a81a4af5585ff2852eef61c15ce55}
-      \strng{fullhash}{fc1a81a4af5585ff2852eef61c15ce55}
-      \strng{bibnamehash}{fc1a81a4af5585ff2852eef61c15ce55}
-      \strng{authorbibnamehash}{fc1a81a4af5585ff2852eef61c15ce55}
-      \strng{authornamehash}{fc1a81a4af5585ff2852eef61c15ce55}
-      \strng{authorfullhash}{fc1a81a4af5585ff2852eef61c15ce55}
-      \field{sortinit}{D}
-      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{issn}{0012-9682}
-      \field{journaltitle}{Econometrica}
-      \field{number}{2}
-      \field{shorttitle}{Long {Cycles} in {Residential} {Building}}
-      \field{title}{Long {Cycles} in {Residential} {Building}: {An} {Explanation}}
-      \field{urlday}{12}
-      \field{urlmonth}{11}
-      \field{urlyear}{2019}
-      \field{volume}{8}
-      \field{year}{1940}
-      \field{urldateera}{ce}
-      \field{pages}{97\bibrangedash 116}
-      \range{pages}{20}
-      \verb{doi}
-      \verb 10.2307/1907030
-      \endverb
-      \verb{file}
-      \verb JSTOR Full Text PDF:/home/gpetrini/Zotero/storage/VIB9XVTP/Derksen - 1940 - Long Cycles in Residential Building An Explanatio.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://www.jstor.org/stable/1907030
-      \endverb
-      \verb{url}
-      \verb https://www.jstor.org/stable/1907030
       \endverb
     \endentry
     \entry{dos_santos_revisiting_2009}{article}{}
@@ -2531,39 +2446,6 @@
       \endverb
       \keyw{REVISTO,LER}
     \endentry
-    \entry{dutt_growth_1990}{book}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=1c034b52dfa023b69b074711019bf416}{%
-           family={Dutt},
-           familyi={D\bibinitperiod},
-           given={Amitava\bibnamedelima Krishna},
-           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{location}{1}{%
-        {Cambridge ; New York}%
-      }
-      \list{publisher}{1}{%
-        {Cambridge University Press}%
-      }
-      \strng{namehash}{1c034b52dfa023b69b074711019bf416}
-      \strng{fullhash}{1c034b52dfa023b69b074711019bf416}
-      \strng{bibnamehash}{1c034b52dfa023b69b074711019bf416}
-      \strng{authorbibnamehash}{1c034b52dfa023b69b074711019bf416}
-      \strng{authornamehash}{1c034b52dfa023b69b074711019bf416}
-      \strng{authorfullhash}{1c034b52dfa023b69b074711019bf416}
-      \field{extraname}{2}
-      \field{sortinit}{D}
-      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{isbn}{978-0-521-38177-2}
-      \field{title}{Growth, distribution, and uneven development}
-      \field{year}{1990}
-      \keyw{Economic aspects,Economic development,Resource allocation,Technological innovations}
-    \endentry
     \entry{dutt_maturity_2006}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=1c034b52dfa023b69b074711019bf416}{%
@@ -2582,7 +2464,7 @@
       \strng{authorbibnamehash}{1c034b52dfa023b69b074711019bf416}
       \strng{authornamehash}{1c034b52dfa023b69b074711019bf416}
       \strng{authorfullhash}{1c034b52dfa023b69b074711019bf416}
-      \field{extraname}{3}
+      \field{extraname}{2}
       \field{sortinit}{D}
       \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
       \field{extradatescope}{labelyear}
@@ -2634,7 +2516,7 @@
       \strng{authorbibnamehash}{1c034b52dfa023b69b074711019bf416}
       \strng{authornamehash}{1c034b52dfa023b69b074711019bf416}
       \strng{authorfullhash}{1c034b52dfa023b69b074711019bf416}
-      \field{extraname}{4}
+      \field{extraname}{3}
       \field{sortinit}{D}
       \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
       \field{extradatescope}{labelyear}
@@ -3546,79 +3428,6 @@
       \verb http://www.tandfonline.com/doi/full/10.1080/09538259.2015.1026096
       \endverb
     \endentry
-    \entry{garegnani_notes_1992}{incollection}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=217b3b26f2fad258e63b9d4e74d9c12a}{%
-           family={Garegnani},
-           familyi={G\bibinitperiod},
-           given={Pierangelo},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-      }
-      \name{editor}{3}{}{%
-        {{hash=da3dcb0b473e9cd519b2b28d4a11d670}{%
-           family={Halevi},
-           familyi={H\bibinitperiod},
-           given={Joseph},
-           giveni={J\bibinitperiod}}}%
-        {{hash=d38dbe5367bc15edb27f6839b217d664}{%
-           family={Laibman},
-           familyi={L\bibinitperiod},
-           given={David},
-           giveni={D\bibinitperiod}}}%
-        {{hash=94736bf00c988867aa83bc64ae57b058}{%
-           family={Nell},
-           familyi={N\bibinitperiod},
-           given={Edward\bibnamedelima J.},
-           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \list{location}{1}{%
-        {London}%
-      }
-      \list{publisher}{1}{%
-        {Palgrave Macmillan UK}%
-      }
-      \strng{namehash}{217b3b26f2fad258e63b9d4e74d9c12a}
-      \strng{fullhash}{217b3b26f2fad258e63b9d4e74d9c12a}
-      \strng{bibnamehash}{217b3b26f2fad258e63b9d4e74d9c12a}
-      \strng{authorbibnamehash}{217b3b26f2fad258e63b9d4e74d9c12a}
-      \strng{authornamehash}{217b3b26f2fad258e63b9d4e74d9c12a}
-      \strng{authorfullhash}{217b3b26f2fad258e63b9d4e74d9c12a}
-      \strng{editorbibnamehash}{8e835a87ee16e28c2aeee511a2ed1822}
-      \strng{editornamehash}{8e835a87ee16e28c2aeee511a2ed1822}
-      \strng{editorfullhash}{8e835a87ee16e28c2aeee511a2ed1822}
-      \field{extraname}{2}
-      \field{sortinit}{G}
-      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{1. If we were to ask ourselves what determines the speed of capital accumulation and of growth in an economy, we would get two different answers from today’s economics. The first is the traditional one, according to which the community’s decisions to save in conditions of full utilization of resources (defined so as to allow for a normal succession of booms and slumps) will determine the trend of capital accumulation. This trend of capital accumulation, taken together with the growth of population and the development of technical knowledge, will then determine the trend of aggregate output.}
-      \field{booktitle}{Beyond the {Steady} {State}: {A} {Revival} of {Growth} {Theory}}
-      \field{isbn}{978-1-349-10950-0}
-      \field{title}{Some {Notes} for an {Analysis} of {Accumulation}}
-      \field{urlday}{17}
-      \field{urlmonth}{4}
-      \field{urlyear}{2019}
-      \field{year}{1992}
-      \field{urldateera}{ce}
-      \field{pages}{47\bibrangedash 71}
-      \range{pages}{25}
-      \verb{doi}
-      \verb 10.1007/978-1-349-10950-0_3
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1007/978-1-349-10950-0_3
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1007/978-1-349-10950-0_3
-      \endverb
-      \keyw{Capital Accumulation,Capital Stock,Normal Rate,Productive Capacity,Real Wage}
-    \endentry
     \entry{halevi_notes_2014}{incollection}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=2f230b23c32e355ce59f9edd3ff8cfad}{%
@@ -3660,7 +3469,7 @@
       \strng{editorbibnamehash}{8e835a87ee16e28c2aeee511a2ed1822}
       \strng{editornamehash}{8e835a87ee16e28c2aeee511a2ed1822}
       \strng{editorfullhash}{8e835a87ee16e28c2aeee511a2ed1822}
-      \field{extraname}{3}
+      \field{extraname}{2}
       \field{sortinit}{G}
       \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
       \field{extradatescope}{labelyear}
@@ -3874,7 +3683,6 @@
       \field{extraname}{3}
       \field{sortinit}{G}
       \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
-      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -3894,62 +3702,6 @@
       \verb https://econpapers.repec.org/paper/umspapers/2018-18.htm
       \endverb
       \keyw{Capacity Adjustment,Demand-led Growth,Hysteresis,Investment,Supermultiplier}
-    \endentry
-    \entry{girardi_normal_2018}{report}{}
-      \name{author}{2}{}{%
-        {{uniquename=0,uniquepart=base,hash=1dc45538fc8bba9414c9ffb15840498b}{%
-           family={Girardi},
-           familyi={G\bibinitperiod},
-           given={Daniele},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=2f9bd4c18034df22608b6dc96468eae6}{%
-           family={Pariboni},
-           familyi={P\bibinitperiod},
-           given={Riccardo},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{institution}{1}{%
-        {University of Massachusetts Amherst, Department of Economics}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{2aba2a4896026bd0111ba29d06479952}
-      \strng{fullhash}{2aba2a4896026bd0111ba29d06479952}
-      \strng{bibnamehash}{2aba2a4896026bd0111ba29d06479952}
-      \strng{authorbibnamehash}{2aba2a4896026bd0111ba29d06479952}
-      \strng{authornamehash}{2aba2a4896026bd0111ba29d06479952}
-      \strng{authorfullhash}{2aba2a4896026bd0111ba29d06479952}
-      \field{extraname}{4}
-      \field{sortinit}{G}
-      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
-      \field{extradate}{2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{As well-known, the canonical Neo-Kaleckian growth model fails to reconcile actual and normal rates of utilization in equilibrium. Some recent contributions revive an old proposal for solving this problem – making the normal rate of utilization an endogenous variable that converges to the actual utilization rate – justifying it with new, micro-founded premises. We argue that these new justifications for the convergence of normal to actual utilization do not stand closer scrutiny. First, the proposed microeconomic model relies on various restrictive assumptions, some of which are mutually inconsistent. Second, the derivation of the macroeconomic adjustment mechanism from the microeconomic analysis involves a logical leap, that can be justified only by a very arbitrary assumption with little economic justification. Finally, we discuss the way in which this mechanism has been incorporated into the Neo-Kaleckian growth model by proposers of this approach. We show that, even if one puts aside, for the sake of argument, the first two points, the existence of autonomous components of demand is sufficient to invalidate the resulting macroeconomic model.}
-      \field{number}{2018-11}
-      \field{shorttitle}{Normal utilization as the adjusting variable in {Neo}-{Kaleckian} growth models}
-      \field{title}{Normal utilization as the adjusting variable in {Neo}-{Kaleckian} growth models : a critique}
-      \field{type}{techreport}
-      \field{urlday}{20}
-      \field{urlmonth}{12}
-      \field{urlyear}{2018}
-      \field{year}{2018}
-      \field{urldateera}{ce}
-      \verb{file}
-      \verb Fullext PDF:/home/gpetrini/Zotero/storage/6T85LN8Q/Girardi e Pariboni - 2018 - Normal utilization as the adjusting variable in Ne.pdf:application/pdf;Snapshot:/home/gpetrini/Zotero/storage/UKC3RQTB/2018-11.html:text/html
-      \endverb
-      \verb{urlraw}
-      \verb https://ideas.repec.org/p/ums/papers/2018-11.html
-      \endverb
-      \verb{url}
-      \verb https://ideas.repec.org/p/ums/papers/2018-11.html
-      \endverb
-      \keyw{Capacity Utilization,Economic Growth,Neo-Kaleckian model,Normal Rate of Utilization}
     \endentry
     \entry{godley_money_1996}{report}{}
       \name{author}{1}{}{%
@@ -4288,47 +4040,6 @@
       \verb http://gen.lib.rus.ec/book/index.php?md5=47127BE46E2805B86ED39606F46DE670
       \endverb
     \endentry
-    \entry{goes_supermultiplier_2018}{inproceedings}{}
-      \name{author}{3}{}{%
-        {{uniquename=0,uniquepart=base,hash=6dff69fda1d00b0581dc0e1c77f63f0b}{%
-           family={Goes},
-           familyi={G\bibinitperiod},
-           given={Maria\bibnamedelimb Cristina\bibnamedelima Barbieri},
-           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim B\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=fbf62e04221801e78b1304dff026328a}{%
-           family={Moraes},
-           familyi={M\bibinitperiod},
-           given={Vinicius\bibnamedelima Diniz},
-           giveni={V\bibinitperiod\bibinitdelim D\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=e74333422f2a6594f35c6ddcb453ff86}{%
-           family={Gallo},
-           familyi={G\bibinitperiod},
-           given={Ettore},
-           giveni={E\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{e5bea2d9249ee37e517986ef5ee43d46}
-      \strng{fullhash}{e5bea2d9249ee37e517986ef5ee43d46}
-      \strng{bibnamehash}{e5bea2d9249ee37e517986ef5ee43d46}
-      \strng{authorbibnamehash}{e5bea2d9249ee37e517986ef5ee43d46}
-      \strng{authornamehash}{e5bea2d9249ee37e517986ef5ee43d46}
-      \strng{authorfullhash}{e5bea2d9249ee37e517986ef5ee43d46}
-      \field{sortinit}{G}
-      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{month}{5}
-      \field{shorttitle}{The {Supermultiplier} {Model} and the {Role} of {Autonomous} {Demand}}
-      \field{title}{The {Supermultiplier} {Model} and the {Role} of {Autonomous} {Demand}: {An} {Empirical} {Test} for {European} {Countries}}
-      \field{year}{2018}
-      \verb{file}
-      \verb Full Text PDF:/home/gpetrini/Zotero/storage/7INFPRYB/Gallo et al. - 2018 - The Supermultiplier Model and the Role of Autonomo.pdf:application/pdf
-      \endverb
-    \endentry
     \entry{gowans_introducing_2014}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=0e9b2aaa3e97a6bacaacec97871f8e61}{%
@@ -4459,6 +4170,44 @@
       \verb{url}
       \verb https://ideas.repec.org/a/bla/reesec/v25y1997i2p253-270.html
       \endverb
+    \endentry
+    \entry{haluska_growth_2019}{report}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=971613babfa96eed65b6611d25fe3fd2}{%
+           family={Haluska},
+           familyi={H\bibinitperiod},
+           given={Guilherme},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=e1087521d94dd4022b26ab97aebb1b16}{%
+           family={Braga},
+           familyi={B\bibinitperiod},
+           given={Júlia},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=157db2b74ae6c855de546e21f03b1e97}{%
+           family={Summa},
+           familyi={S\bibinitperiod},
+           given={Ricardo},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e5ef89e3c5c0292e8af45c31769c5fd6}
+      \strng{fullhash}{e5ef89e3c5c0292e8af45c31769c5fd6}
+      \strng{bibnamehash}{e5ef89e3c5c0292e8af45c31769c5fd6}
+      \strng{authorbibnamehash}{e5ef89e3c5c0292e8af45c31769c5fd6}
+      \strng{authornamehash}{e5ef89e3c5c0292e8af45c31769c5fd6}
+      \strng{authorfullhash}{e5ef89e3c5c0292e8af45c31769c5fd6}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper constitutes an attempt to test the central hypothesis of the Sraffian Supermultiplier demand-led growth model empirically; videlicet, that the growth of demand induces the share of capacity creating investment in output. By evaluating the relationship between the propensity to invest and the rate of growth of demand for the case of the United States economy in the period from 1985 to 2017, our results provide empirical support for this relation, showing that movements in the output growth rate cause the movements in the induced investment ratio. Other significant result shows that the induced investment share presents a high degree of inertia from on period to another, while the effect of the lagged rate of growth of demand is low but statistically significant, suggesting a tendency for utilization to converge towards some exogenous normal level slowly. This feature, together with other estimated parameters of the model, suggest that the Sraffian Supermultiplier adjustment mechanism has been dynamically stable for the US data in the period under analysis.}
+      \field{title}{Growth, investment share and the stability of the {Sraffian} {Supermultiplier} model in the {United} {States} economy (1985-2017)}
+      \field{type}{techreport}
+      \field{year}{2019}
     \endentry
     \entry{hansen_economic_1939}{article}{}
       \name{author}{1}{}{%
@@ -5462,59 +5211,6 @@
       \verb Lavoie - 2015 - Post-Keynesian economics new foundations.pdf:/home/gpetrini/Zotero/storage/R5VB492V/Lavoie - 2015 - Post-Keynesian economics new foundations.pdf:application/pdf;Table of Contents PDF:/home/gpetrini/Zotero/storage/Z8L27JPR/Lavoie - 2015 - Post-Keynesian economics new foundations.pdf:application/pdf
       \endverb
     \endentry
-    \entry{lavoie_convergence_2016}{article}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=dcd7b0a6002af14d170a5a19365c27f2}{%
-           family={Lavoie},
-           familyi={L\bibinitperiod},
-           given={Marc},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{dcd7b0a6002af14d170a5a19365c27f2}
-      \strng{fullhash}{dcd7b0a6002af14d170a5a19365c27f2}
-      \strng{bibnamehash}{dcd7b0a6002af14d170a5a19365c27f2}
-      \strng{authorbibnamehash}{dcd7b0a6002af14d170a5a19365c27f2}
-      \strng{authornamehash}{dcd7b0a6002af14d170a5a19365c27f2}
-      \strng{authorfullhash}{dcd7b0a6002af14d170a5a19365c27f2}
-      \field{extraname}{4}
-      \field{sortinit}{L}
-      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{Neo-Kaleckian models of growth and distribution have been highly popular among heterodox economists. Two drawbacks of these models have, however, been underlined in the literature: first, the models do not usually converge to their normal rate of capacity utilization; second, the models do not include the Harrodian principle of dynamic instability. Some Sraffian economists have long been arguing that the presence of non-capacity creating autonomous expenditures provides a mechanism that brings back the model to normal rates of capacity utilization, while safeguarding the main Keynesian message and without going back to classical conclusions. The present article provides a very simple proof of this, showing within a neo-Kaleckian model that the Harrodian principle of dynamic instability gets tamed by the presence of autonomous consumer expenditures.}
-      \field{issn}{1467-999X}
-      \field{journaltitle}{Metroeconomica}
-      \field{number}{1}
-      \field{shorttitle}{Convergence {Towards} the {Normal} {Rate} of {Capacity} {Utilization} in {Neo}-{Kaleckian} {Models}}
-      \field{title}{Convergence {Towards} the {Normal} {Rate} of {Capacity} {Utilization} in {Neo}-{Kaleckian} {Models}: {The} {Role} of {Non}-{Capacity} {Creating} {Autonomous} {Expenditures}}
-      \field{urlday}{30}
-      \field{urlmonth}{9}
-      \field{urlyear}{2018}
-      \field{volume}{67}
-      \field{year}{2016}
-      \field{urldateera}{ce}
-      \field{pages}{172\bibrangedash 201}
-      \range{pages}{30}
-      \verb{doi}
-      \verb 10.1111/meca.12109
-      \endverb
-      \verb{file}
-      \verb Lavoie_2016_Convergence Towards the Normal Rate of Capacity Utilization in Neo-Kaleckian.pdf:/home/gpetrini/Zotero/storage/SLX5YKCL/Lavoie_2016_Convergence Towards the Normal Rate of Capacity Utilization in Neo-Kaleckian.pdf:application/pdf;Snapshot:/home/gpetrini/Zotero/storage/FMBZLXPC/meca.html:text/html
-      \endverb
-      \verb{urlraw}
-      \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/meca.12109
-      \endverb
-      \verb{url}
-      \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/meca.12109
-      \endverb
-      \keyw{REVER}
-    \endentry
     \entry{lavoie_origins_2017}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=dcd7b0a6002af14d170a5a19365c27f2}{%
@@ -5530,7 +5226,7 @@
       \strng{authorbibnamehash}{dcd7b0a6002af14d170a5a19365c27f2}
       \strng{authornamehash}{dcd7b0a6002af14d170a5a19365c27f2}
       \strng{authorfullhash}{dcd7b0a6002af14d170a5a19365c27f2}
-      \field{extraname}{5}
+      \field{extraname}{4}
       \field{sortinit}{L}
       \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
       \field{extradatescope}{labelyear}
@@ -5819,40 +5515,6 @@
       \verb http://doi.wiley.com/10.1111/1540-6229.00499
       \endverb
     \endentry
-    \entry{macedo_e_silva_macroeconomia_1999}{book}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=c973d7d3fe02c9d149ed00104a235d82}{%
-           family={Macedo\bibnamedelimb e\bibnamedelima Silva},
-           familyi={M\bibinitperiod\bibinitdelim e\bibinitperiod\bibinitdelim S\bibinitperiod},
-           given={Antonio\bibnamedelima Carlos},
-           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{language}{1}{%
-        {Português}%
-      }
-      \list{location}{1}{%
-        {Petrópolis}%
-      }
-      \list{publisher}{1}{%
-        {Vozes}%
-      }
-      \strng{namehash}{c973d7d3fe02c9d149ed00104a235d82}
-      \strng{fullhash}{c973d7d3fe02c9d149ed00104a235d82}
-      \strng{bibnamehash}{c973d7d3fe02c9d149ed00104a235d82}
-      \strng{authorbibnamehash}{c973d7d3fe02c9d149ed00104a235d82}
-      \strng{authornamehash}{c973d7d3fe02c9d149ed00104a235d82}
-      \strng{authorfullhash}{c973d7d3fe02c9d149ed00104a235d82}
-      \field{sortinit}{M}
-      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{isbn}{978-85-326-2207-5}
-      \field{title}{Macroeconomia {Sem} {Equilibrio}}
-      \field{year}{1999}
-    \endentry
     \entry{macedo_e_silva_peering_2011}{article}{}
       \name{author}{2}{}{%
         {{uniquename=0,uniquepart=base,hash=3558083b07934ace6d710536bd0bbf42}{%
@@ -6126,7 +5788,6 @@
       \strng{authorbibnamehash}{9ea14e828d531d51eb2c223bb856d369}
       \strng{authornamehash}{9ea14e828d531d51eb2c223bb856d369}
       \strng{authorfullhash}{9ea14e828d531d51eb2c223bb856d369}
-      \field{extraname}{1}
       \field{sortinit}{M}
       \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
       \field{extradatescope}{labelyear}
@@ -6156,65 +5817,6 @@
       \verb{url}
       \verb https://academic.oup.com/qje/article-lookup/doi/10.1162/qjec.2009.124.4.1449
       \endverb
-    \endentry
-    \entry{mian_house_2011}{article}{}
-      \name{author}{2}{}{%
-        {{uniquename=0,uniquepart=base,hash=56836bc58f70488000e8ecb3a6725213}{%
-           family={Mian},
-           familyi={M\bibinitperiod},
-           given={Atif},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=115809cbb4152ece23ddb8bd5a0c6fb2}{%
-           family={Sufi},
-           familyi={S\bibinitperiod},
-           given={Amir},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{9ea14e828d531d51eb2c223bb856d369}
-      \strng{fullhash}{9ea14e828d531d51eb2c223bb856d369}
-      \strng{bibnamehash}{9ea14e828d531d51eb2c223bb856d369}
-      \strng{authorbibnamehash}{9ea14e828d531d51eb2c223bb856d369}
-      \strng{authornamehash}{9ea14e828d531d51eb2c223bb856d369}
-      \strng{authorfullhash}{9ea14e828d531d51eb2c223bb856d369}
-      \field{extraname}{2}
-      \field{sortinit}{M}
-      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Borrowing against the increase in home equity by existing homeowners was responsible for a significant fraction of the rise in US household leverage from 2002 to 2006 and the increase in defaults from 2006 to 2008. Instrumental variables estimation shows that homeowners extracted 25 cents for every dollar increase in home equity. Home equity-based borrowing was stronger for younger households and households with low credit scores. The evidence suggests that borrowed funds were used for real outlays. Home equity-based borrowing added \$1.25 trillion in household debt from 2002 to 2008, and accounts for at least 39 percent of new defaults from 2006 to 2008. JEL: D14, R31}
-      \field{issn}{0002-8282}
-      \field{journaltitle}{American Economic Review}
-      \field{month}{8}
-      \field{number}{5}
-      \field{title}{House {Prices}, {Home} {Equity}-{Based} {Borrowing}, and the {US} {Household} {Leverage} {Crisis}}
-      \field{urlday}{11}
-      \field{urlmonth}{11}
-      \field{urlyear}{2019}
-      \field{volume}{101}
-      \field{year}{2011}
-      \field{urldateera}{ce}
-      \field{pages}{2132\bibrangedash 2156}
-      \range{pages}{25}
-      \verb{doi}
-      \verb 10.1257/aer.101.5.2132
-      \endverb
-      \verb{file}
-      \verb Mian e Sufi - 2011 - House Prices, Home Equity-Based Borrowing, and the.pdf:/home/gpetrini/Zotero/storage/QGCYGDHF/Mian e Sufi - 2011 - House Prices, Home Equity-Based Borrowing, and the.pdf:application/pdf;Snapshot:/home/gpetrini/Zotero/storage/7UN89B87/articles.html:text/html
-      \endverb
-      \verb{urlraw}
-      \verb https://www.aeaweb.org/articles?id=10.1257/aer.101.5.2132
-      \endverb
-      \verb{url}
-      \verb https://www.aeaweb.org/articles?id=10.1257/aer.101.5.2132
-      \endverb
-      \keyw{Housing Supply and Markets,Personal Finance}
     \endentry
     \entry{milgate_capital_1982}{book}{}
       \name{author}{1}{}{%
@@ -6334,48 +5936,6 @@
       \field{year}{1997}
       \verb{file}
       \verb Citeseer - Snapshot:/home/gpetrini/Zotero/storage/AZYUNUHI/summary.html:text/html;Mishkin - 1997 - Evaluating FDICIA.pdf:/home/gpetrini/Zotero/storage/IS4CYI8R/Mishkin - 1997 - Evaluating FDICIA.pdf:application/pdf
-      \endverb
-    \endentry
-    \entry{moreira_demanda_2018}{article}{}
-      \name{author}{2}{}{%
-        {{uniquename=0,uniquepart=base,hash=4ec3a17140ac4a28fca484d953e3907a}{%
-           family={Moreira},
-           familyi={M\bibinitperiod},
-           given={Vivian\bibnamedelima Garrido},
-           giveni={V\bibinitperiod\bibinitdelim G\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=8df1ed774cbbdbac66d3fc8dafb0bcd5}{%
-           family={Serrano},
-           familyi={S\bibinitperiod},
-           given={Franklin},
-           giveni={F\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{language}{1}{%
-        {pt}%
-      }
-      \strng{namehash}{c8873ac03345d776779f11c835334541}
-      \strng{fullhash}{c8873ac03345d776779f11c835334541}
-      \strng{bibnamehash}{c8873ac03345d776779f11c835334541}
-      \strng{authorbibnamehash}{c8873ac03345d776779f11c835334541}
-      \strng{authornamehash}{c8873ac03345d776779f11c835334541}
-      \strng{authorfullhash}{c8873ac03345d776779f11c835334541}
-      \field{sortinit}{M}
-      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Economia e Sociedade}
-      \field{number}{2}
-      \field{title}{Demanda efetiva no longo prazo e no processo de acumulação: o debate sraffiano a partir do projeto de {Garegnani} (1962)}
-      \field{volume}{27}
-      \field{year}{2018}
-      \field{dateera}{ce}
-      \field{pages}{30}
-      \range{pages}{1}
-      \verb{file}
-      \verb Moreira e Serrano - Demanda efetiva no longo prazo e no processo de ac.pdf:/home/gpetrini/Zotero/storage/PVBLWP42/Moreira e Serrano - Demanda efetiva no longo prazo e no processo de ac.pdf:application/pdf
       \endverb
     \endentry
     \entry{moreno-brid_mexicos_1999}{article}{}
@@ -6583,59 +6143,6 @@
       \verb https://linkinghub.elsevier.com/retrieve/pii/S0954349X17302606
       \endverb
     \endentry
-    \entry{nikiforos_utilization_2016}{article}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=cf3c29b2dbbf10bef374187e5e795d1b}{%
-           family={Nikiforos},
-           familyi={N\bibinitperiod},
-           given={Michalis},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{cf3c29b2dbbf10bef374187e5e795d1b}
-      \strng{fullhash}{cf3c29b2dbbf10bef374187e5e795d1b}
-      \strng{bibnamehash}{cf3c29b2dbbf10bef374187e5e795d1b}
-      \strng{authorbibnamehash}{cf3c29b2dbbf10bef374187e5e795d1b}
-      \strng{authornamehash}{cf3c29b2dbbf10bef374187e5e795d1b}
-      \strng{authorfullhash}{cf3c29b2dbbf10bef374187e5e795d1b}
-      \field{extraname}{1}
-      \field{sortinit}{N}
-      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{Abstract. This paper examines the ‘utilisation controversy’ around the Kaleckian model of growth and distribution. We show that the Federal Reserve data on cap}
-      \field{issn}{0309-166X}
-      \field{journaltitle}{Cambridge Journal of Economics}
-      \field{note}{Primeira edição de 2012}
-      \field{number}{2}
-      \field{shorttitle}{On the ‘utilisation controversy’}
-      \field{title}{On the ‘utilisation controversy’: a theoretical and empirical discussion of the {Kaleckian} model of growth and distribution}
-      \field{urlday}{22}
-      \field{urlmonth}{4}
-      \field{urlyear}{2019}
-      \field{volume}{40}
-      \field{year}{2016}
-      \field{urldateera}{ce}
-      \field{pages}{437\bibrangedash 467}
-      \range{pages}{31}
-      \verb{doi}
-      \verb 10.1093/cje/beu076
-      \endverb
-      \verb{file}
-      \verb Fullext PDF:/home/gpetrini/Zotero/storage/XR5D53GY/Nikiforos - 2012 - On the Utilization Controversy A Theoretical and .pdf:application/pdf;Nikiforos - 2016 - On the ‘utilisation controversy’ a theoretical an.pdf:/home/gpetrini/Zotero/storage/BGRN7E75/Nikiforos - 2016 - On the ‘utilisation controversy’ a theoretical an.pdf:application/pdf;Snapshot:/home/gpetrini/Zotero/storage/5TKRZSXY/2605022.html:text/html
-      \endverb
-      \verb{urlraw}
-      \verb https://academic.oup.com/cje/article/40/2/437/2605022
-      \endverb
-      \verb{url}
-      \verb https://academic.oup.com/cje/article/40/2/437/2605022
-      \endverb
-    \endentry
     \entry{nikiforos_comments_2018}{report}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=cf3c29b2dbbf10bef374187e5e795d1b}{%
@@ -6657,7 +6164,6 @@
       \strng{authorbibnamehash}{cf3c29b2dbbf10bef374187e5e795d1b}
       \strng{authornamehash}{cf3c29b2dbbf10bef374187e5e795d1b}
       \strng{authorfullhash}{cf3c29b2dbbf10bef374187e5e795d1b}
-      \field{extraname}{2}
       \field{sortinit}{N}
       \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
       \field{extradatescope}{labelyear}
@@ -7048,61 +6554,6 @@
       \verb https://academic.oup.com/cje/article/26/2/275/1684567
       \endverb
     \endentry
-    \entry{palumbo_growth_2003}{article}{}
-      \name{author}{2}{}{%
-        {{uniquename=0,uniquepart=base,hash=9a368eab92232fdb2e826f29d5ba2cd0}{%
-           family={Palumbo},
-           familyi={P\bibinitperiod},
-           given={Antonella},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=cd591206d1fb195ad338feff13927220}{%
-           family={Trezzini},
-           familyi={T\bibinitperiod},
-           given={Attilio},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{363c7d11b0e1d15272ad8b5f6767edfa}
-      \strng{fullhash}{363c7d11b0e1d15272ad8b5f6767edfa}
-      \strng{bibnamehash}{363c7d11b0e1d15272ad8b5f6767edfa}
-      \strng{authorbibnamehash}{363c7d11b0e1d15272ad8b5f6767edfa}
-      \strng{authornamehash}{363c7d11b0e1d15272ad8b5f6767edfa}
-      \strng{authorfullhash}{363c7d11b0e1d15272ad8b5f6767edfa}
-      \field{sortinit}{P}
-      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0967-2567, 1469-5936}
-      \field{journaltitle}{The European Journal of the History of Economic Thought}
-      \field{number}{1}
-      \field{title}{Growth without normal capacity utilization}
-      \field{urlday}{8}
-      \field{urlmonth}{2}
-      \field{urlyear}{2019}
-      \field{volume}{10}
-      \field{year}{2003}
-      \field{urldateera}{ce}
-      \field{pages}{109\bibrangedash 135}
-      \range{pages}{27}
-      \verb{doi}
-      \verb 10.1080/0967256032000043814
-      \endverb
-      \verb{file}
-      \verb Palumbo e Trezzini - 2003 - Growth without normal capacity utilization.pdf:/home/gpetrini/Zotero/storage/6G7EWRWV/Palumbo e Trezzini - 2003 - Growth without normal capacity utilization.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://www.tandfonline.com/doi/full/10.1080/0967256032000043814
-      \endverb
-      \verb{url}
-      \verb https://www.tandfonline.com/doi/full/10.1080/0967256032000043814
-      \endverb
-    \endentry
     \entry{pariboni_household_2016}{report}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=2f9bd4c18034df22608b6dc96468eae6}{%
@@ -7328,106 +6779,6 @@
       \endverb
       \keyw{Principal,REVISTO,LIVRO}
     \endentry
-    \entry{possas_dinamica_1987}{book}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=fe9bedc441b1598e19af04ab17ad8fcb}{%
-           family={Possas},
-           familyi={P\bibinitperiod},
-           given={Mario\bibnamedelima L.},
-           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{language}{1}{%
-        {pt-br}%
-      }
-      \list{location}{1}{%
-        {São Paulo}%
-      }
-      \list{publisher}{1}{%
-        {Brasiliense}%
-      }
-      \strng{namehash}{fe9bedc441b1598e19af04ab17ad8fcb}
-      \strng{fullhash}{fe9bedc441b1598e19af04ab17ad8fcb}
-      \strng{bibnamehash}{fe9bedc441b1598e19af04ab17ad8fcb}
-      \strng{authorbibnamehash}{fe9bedc441b1598e19af04ab17ad8fcb}
-      \strng{authornamehash}{fe9bedc441b1598e19af04ab17ad8fcb}
-      \strng{authorfullhash}{fe9bedc441b1598e19af04ab17ad8fcb}
-      \field{sortinit}{P}
-      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{Compre Dinamica da Economia Capitalista uma Abordagem Teorica, de Mario Luiz Possas, no maior acervo de livros do Brasil. As mais variadas edições, novas, seminovas e usadas pelo melhor preço.}
-      \field{shorttitle}{Livro}
-      \field{title}{Dinamica da {Economia} {Capitalista} uma {Abordagem} {Teorica}}
-      \field{urlday}{14}
-      \field{urlmonth}{11}
-      \field{urlyear}{2019}
-      \field{year}{1987}
-      \field{urldateera}{ce}
-      \verb{file}
-      \verb Snapshot:/home/gpetrini/Zotero/storage/GP8JYFJN/3948267162.html:text/html
-      \endverb
-      \verb{urlraw}
-      \verb https://www.estantevirtual.com.br/livros/mario-luiz-possas/dinamica-da-economia-capitalista-uma-abordagem-teorica/3948267162
-      \endverb
-      \verb{url}
-      \verb https://www.estantevirtual.com.br/livros/mario-luiz-possas/dinamica-da-economia-capitalista-uma-abordagem-teorica/3948267162
-      \endverb
-    \endentry
-    \entry{possas_demanda_1981}{article}{}
-      \name{author}{2}{}{%
-        {{uniquename=0,uniquepart=base,hash=f582e0e5e071954c50209ffef376af39}{%
-           family={Possas},
-           familyi={P\bibinitperiod},
-           given={Mario\bibnamedelima Luiz},
-           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=39de3338a48957bd54ca6728ba922dea}{%
-           family={Baltar},
-           familyi={B\bibinitperiod},
-           given={Paulo\bibnamedelimb E.\bibnamedelimi A.},
-           giveni={P\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim A\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{language}{1}{%
-        {pt-BR}%
-      }
-      \strng{namehash}{f9316393898fb59f2d3ac092194bad87}
-      \strng{fullhash}{f9316393898fb59f2d3ac092194bad87}
-      \strng{bibnamehash}{f9316393898fb59f2d3ac092194bad87}
-      \strng{authorbibnamehash}{f9316393898fb59f2d3ac092194bad87}
-      \strng{authornamehash}{f9316393898fb59f2d3ac092194bad87}
-      \strng{authorfullhash}{f9316393898fb59f2d3ac092194bad87}
-      \field{sortinit}{P}
-      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{A finalidade deste estudo é contribuir para uma avaliação da importância do obra de Kalecki na elucidação do funcionamento do economia capitalista. Sua proposição central desloca, como principal contribuição desse autor, a formulação do princípio da demanda efetiva de um modo claro e propício à explicitação das mecanismos básicos da dinâmica econômica no capitalismo. Para tanto, rejeita-se a interpretação convencional da demanda efetiva que enfatiza o papel do gasto autônomo associado à intervenção do Estado e aos períodos recessivos, para colocá-los numa perspectiva teórica, onde passa a assumir o caráter de princípio geral necessário à refutação da "Lei de Say" e à elaboração de uma teoria dinâmica. Sob este enfoque, o artigo analisa a exposição da demanda efetiva feita por Kalecki, sublinhado o papel que nela tem a distribuição funcional da renda. Segue-se, uma interpretação geral da teoria do ciclo econômico desse autor, particularizada nos modelos de 1933 e 1954. Discute-se, ainda, a validade de uma análise de ciclo ''puro", em oposição à integração entre ciclo e tendência no mesmo quadro teórico. Sugerem-se, por fim, algumas das aplicações dinâmicas abertas pelo uso do esquema kaleckiano de três setores como instrumento analítico.}
-      \field{journaltitle}{Pesquisa de planejamento econômico}
-      \field{number}{1}
-      \field{title}{Demanda efetiva e dinâmica em {Kalecki}}
-      \field{urlday}{14}
-      \field{urlmonth}{11}
-      \field{urlyear}{2019}
-      \field{volume}{11}
-      \field{year}{1981}
-      \field{urldateera}{ce}
-      \field{pages}{107\bibrangedash 160}
-      \range{pages}{54}
-      \verb{file}
-      \verb Full Text PDF:/home/gpetrini/Zotero/storage/58XSTIH6/Possas e Baltar - 1981 - Demanda efetiva e dinâmica em Kalecki.pdf:application/pdf;Snapshot:/home/gpetrini/Zotero/storage/ZLXFSPCZ/6460.html:text/html
-      \endverb
-      \verb{urlraw}
-      \verb http://repositorio.ipea.gov.br/handle/11058/6460
-      \endverb
-      \verb{url}
-      \verb http://repositorio.ipea.gov.br/handle/11058/6460
-      \endverb
-    \endentry
     \entry{poterba_tax_1984}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=8eac1f708dfc6a357a2a2ca1796e3a26}{%
@@ -7508,57 +6859,6 @@
       \verb Robinson (1962).md:/home/gpetrini/Zotero/storage/LJPD7IAN/Robinson (1962).md:text/markdown;Robinson (auth.) - 1962 - Essays in the Theory of Economic Growth.pdf:/home/gpetrini/Zotero/storage/9PGXZS8U/Robinson (auth.) - 1962 - Essays in the Theory of Economic Growth.pdf:application/pdf
       \endverb
       \keyw{REVISTO,LER}
-    \endentry
-    \entry{rognlie_deciphering_2016}{article}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=0b5bd60d6d36d97b1c2ba6e818dc50f2}{%
-           family={Rognlie},
-           familyi={R\bibinitperiod},
-           given={Matthew},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{0b5bd60d6d36d97b1c2ba6e818dc50f2}
-      \strng{fullhash}{0b5bd60d6d36d97b1c2ba6e818dc50f2}
-      \strng{bibnamehash}{0b5bd60d6d36d97b1c2ba6e818dc50f2}
-      \strng{authorbibnamehash}{0b5bd60d6d36d97b1c2ba6e818dc50f2}
-      \strng{authornamehash}{0b5bd60d6d36d97b1c2ba6e818dc50f2}
-      \strng{authorfullhash}{0b5bd60d6d36d97b1c2ba6e818dc50f2}
-      \field{sortinit}{R}
-      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{In the postwar era, developed economies have experienced two substantial trends in the net capital share of aggregate income: a rise during the last several decades, which is well known, and a fall of comparable magnitude that continued until the 1970s, which is less well known. Overall, the net capital share has increased since 1948, but once disaggregated this increase turns out to come entirely from the housing sector: the contribution to net capital income from all other sectors has been zero or slightly negative, as the fall and rise have offset each other. Several influential accounts of the recent rise emphasize the role of increased capital accumulation, but this view is at odds with theory and evidence: it requires empirically improbable elasticities of substitution, and it presumes a correlation between the capital-income ratio and capital share that is not visible in the data. A more limited narrative that stresses scarcity and the increased cost of housing better fits the data. These results are clarified using a new, multisector model of factor shares.}
-      \field{issn}{1533-4465}
-      \field{journaltitle}{Brookings Papers on Economic Activity}
-      \field{number}{1}
-      \field{shorttitle}{Deciphering the {Fall} and {Rise} in the {Net} {Capital} {Share}}
-      \field{title}{Deciphering the {Fall} and {Rise} in the {Net} {Capital} {Share}: {Accumulation} or {Scarcity}?}
-      \field{urlday}{11}
-      \field{urlmonth}{11}
-      \field{urlyear}{2019}
-      \field{volume}{2015}
-      \field{year}{2016}
-      \field{urldateera}{ce}
-      \field{pages}{1\bibrangedash 69}
-      \range{pages}{69}
-      \verb{doi}
-      \verb 10.1353/eca.2016.0002
-      \endverb
-      \verb{file}
-      \verb Rognlie - 2016 - Deciphering the Fall and Rise in the Net Capital S.pdf:/home/gpetrini/Zotero/storage/V724UFF8/Rognlie - 2016 - Deciphering the Fall and Rise in the Net Capital S.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://muse.jhu.edu/content/crossref/journals/brookings_papers_on_economic_activity/v2015/2015.1.rognlie.html
-      \endverb
-      \verb{url}
-      \verb https://muse.jhu.edu/content/crossref/journals/brookings_papers_on_economic_activity/v2015/2015.1.rognlie.html
-      \endverb
     \endentry
     \entry{rowthorn_demand_1981}{book}{}
       \name{author}{1}{}{%
@@ -8010,53 +7310,6 @@
       \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/meca.12230
       \endverb
     \endentry
-    \entry{setterfield_long-run_2017}{report}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=05cdd47106e3673a7858e7e3400a83bc}{%
-           family={Setterfield},
-           familyi={S\bibinitperiod},
-           given={Mark},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{institution}{1}{%
-        {New School for Social Research, Department of Economics}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{05cdd47106e3673a7858e7e3400a83bc}
-      \strng{fullhash}{05cdd47106e3673a7858e7e3400a83bc}
-      \strng{bibnamehash}{05cdd47106e3673a7858e7e3400a83bc}
-      \strng{authorbibnamehash}{05cdd47106e3673a7858e7e3400a83bc}
-      \strng{authornamehash}{05cdd47106e3673a7858e7e3400a83bc}
-      \strng{authorfullhash}{05cdd47106e3673a7858e7e3400a83bc}
-      \field{sortinit}{S}
-      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{We develop a generic Kalecki-Robinson model of growth that, subject to different closures, illustrates the different channels through which the economy can adjust to a change in demand conditions in the long run. The closures are shown to have different implications for the behaviour of the rate of capacity utilization and hence whether and how the economy achieves a “fully-adjusted position” (equalization of the actual and normal rates of capacity utilization). Assuming that the normal rate of capacity utilization is exogenously fixed, it is then shown that variation in the actual capacity utilization rate can nevertheless occur – at least within limits – without triggering “Harrodian instability”. This result emanates from a discontinuity in the investment function that is grounded in Harrod’s own macrodynamics, so that it is ultimately the combination of Harrodian and Kaleckian dynamics that gives rise to long-run variations in the actual rate of capacity utilization in the presence of a fixed normal rate. Aggregate and industry-level US capacity utilization data are then used to calculate possible bands within which the rate of capacity utilization may vary without triggering Harrodian instability. A key finding is that the conditions necessary for the latter appear to be relatively rare.}
-      \field{number}{1704}
-      \field{title}{Long-run variation in capacity utilization in the presence of a fixed normal rate}
-      \field{type}{techreport}
-      \field{urlday}{12}
-      \field{urlmonth}{1}
-      \field{urlyear}{2019}
-      \field{year}{2017}
-      \field{urldateera}{ce}
-      \verb{file}
-      \verb Setterfield - 2017 - Long-run variation in capacity utilization in the .pdf:/home/gpetrini/Zotero/storage/RGPZPGBQ/Setterfield - 2017 - Long-run variation in capacity utilization in the .pdf:application/pdf;Snapshot:/home/gpetrini/Zotero/storage/389VKCUR/1704.html:text/html
-      \endverb
-      \verb{urlraw}
-      \verb https://ideas.repec.org/p/new/wpaper/1704.html
-      \endverb
-      \verb{url}
-      \verb https://ideas.repec.org/p/new/wpaper/1704.html
-      \endverb
-      \keyw{Harrodian instability,Kaleckian growth theory,Normal rate of capacity utilization}
-    \endentry
     \entry{skott_kaldoriansaving_1981}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=7a3f79c18a8c8471ed330097ccf23a15}{%
@@ -8222,57 +7475,6 @@
       \endverb
       \verb{url}
       \verb http://doi.wiley.com/10.1111/j.1467-999X.2010.04111.x
-      \endverb
-    \endentry
-    \entry{skott_autonomous_2017}{article}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=7a3f79c18a8c8471ed330097ccf23a15}{%
-           family={Skott},
-           familyi={S\bibinitperiod},
-           given={Peter},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{7a3f79c18a8c8471ed330097ccf23a15}
-      \strng{fullhash}{7a3f79c18a8c8471ed330097ccf23a15}
-      \strng{bibnamehash}{7a3f79c18a8c8471ed330097ccf23a15}
-      \strng{authorbibnamehash}{7a3f79c18a8c8471ed330097ccf23a15}
-      \strng{authornamehash}{7a3f79c18a8c8471ed330097ccf23a15}
-      \strng{authorfullhash}{7a3f79c18a8c8471ed330097ccf23a15}
-      \field{extraname}{5}
-      \field{sortinit}{S}
-      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Lavoie () introduces autonomous demand in a defense of the (post-) Kaleckian analysis against classical and Harrodian criticisms. This note corrects some errors in Lavoie's analysis, questions the stabilizing potential of autonomous demand, and points out some differences between the two variants of Lavoie's ‘neo-Kaleckian’ model.}
-      \field{issn}{1467-999X}
-      \field{journaltitle}{Metroeconomica}
-      \field{number}{1}
-      \field{title}{Autonomous {Demand} and the {Harrodian} {Criticisms} of the {Kaleckian} {Model}}
-      \field{urlday}{7}
-      \field{urlmonth}{2}
-      \field{urlyear}{2019}
-      \field{volume}{68}
-      \field{year}{2017}
-      \field{urldateera}{ce}
-      \field{pages}{185\bibrangedash 193}
-      \range{pages}{9}
-      \verb{doi}
-      \verb 10.1111/meca.12150
-      \endverb
-      \verb{file}
-      \verb Full Text PDF:/home/gpetrini/Zotero/storage/6T65VQNG/Skott - 2017 - Autonomous Demand and the Harrodian Criticisms of .pdf:application/pdf;Snapshot:/home/gpetrini/Zotero/storage/LC5NGJC8/meca.html:text/html
-      \endverb
-      \verb{urlraw}
-      \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/meca.12150
-      \endverb
-      \verb{url}
-      \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/meca.12150
       \endverb
     \endentry
     \entry{solow_importance_1995}{incollection}{}
@@ -8613,38 +7815,6 @@
       \endverb
       \verb{url}
       \verb https://www.census.gov/construction/chars/pdf/c25ann2017.pdf
-      \endverb
-    \endentry
-    \entry{vianello_pace_1985}{article}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=6b7408e4a93bdc95c8385d359a33a213}{%
-           family={Vianello},
-           familyi={V\bibinitperiod},
-           given={Fernando},
-           giveni={F\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{6b7408e4a93bdc95c8385d359a33a213}
-      \strng{fullhash}{6b7408e4a93bdc95c8385d359a33a213}
-      \strng{bibnamehash}{6b7408e4a93bdc95c8385d359a33a213}
-      \strng{authorbibnamehash}{6b7408e4a93bdc95c8385d359a33a213}
-      \strng{authornamehash}{6b7408e4a93bdc95c8385d359a33a213}
-      \strng{authorfullhash}{6b7408e4a93bdc95c8385d359a33a213}
-      \field{sortinit}{V}
-      \field{sortinithash}{75dd7385c90b2252c3ae853a80ca853b}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Political Economy: Studies in the Surplus Approach}
-      \field{number}{1}
-      \field{title}{The pace of accumulation}
-      \field{volume}{1}
-      \field{year}{1985}
-      \field{pages}{69\bibrangedash 87}
-      \range{pages}{19}
-      \verb{file}
-      \verb Full Text:/home/gpetrini/Zotero/storage/UL67YXSV/Vianello - 1985 - The pace of accumulation.pdf:application/pdf
       \endverb
     \endentry
     \entry{wall_too_2010}{article}{}
