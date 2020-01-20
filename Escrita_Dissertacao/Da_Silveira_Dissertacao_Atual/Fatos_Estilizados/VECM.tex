@@ -6,7 +6,7 @@
 
 O objetivo desta subseção é detalhar a relação entre investimento residencial e a taxa própria de juros dos imóveis desenvolvida por \textcite{teixeira_crescimento_2015} para então expor as hipóteses testadas no modelo econométrico.
 Para evidenciar esta relação, deflaciona-se a taxa de juros hipotecárias pela inflação de imóveis tal como na equação \ref{tx_Propria}.
-O gráfico \ref{gZ_Propria} ilustra como  este deflacionamento é mais adequado do que por um índice geral de preços ---  \textcite[p.~143--146]{fair_macroeconometric_2013} --- para captar a dinâmica do investimento residencial.
+O gráfico \ref{gZ_Propria} ilustra como  este deflacionamento é mais adequado do que por um índice geral de preços ---  como faz \textcite[p.~143--146]{fair_macroeconometric_2013} --- para captar a dinâmica do investimento residencial.
 Destaca-se também que em momentos de especulação (\textit{i.e.} bolha de ativos, neste caso, imóveis) é a inflação destes ativos que domina a dinâmica da taxa própria \cite[p.~53]{teixeira_crescimento_2015}. Sendo assim, quanto menor esta taxa maiores serão os ganhos de capital (em imóveis) por se especular com imóveis.
 Tal dinâmica é evidenciada no gráfico \ref{gZ_Propria} em que a taxa própria se reduziu progressivamente ao longo do \textit{boom} imobiliário (2002-5).
 
@@ -56,7 +56,7 @@ Apesar de lançar luz sobre algumas relações relevantes esta proposição não
 \subsection{Estimação do modelo}
 
 O modelo a ser estimado pretende testar se a inflação de ativos (\textit{i.e.} inflação do preço dos imóveis) contribui para explicar a dinâmica do investimento residencial tal como proposto por \textcite{teixeira_crescimento_2015}. 
-Vale relembrar que a seleção do período analisado decorre de quebras estruturais (ver tabela \ref{structbreak}) associadas às mudanças institucionais no-pós crise dos \textit{savings and loans} (FDIC e FIRREA).
+Vale relembrar que a seleção do período analisado decorre de quebras estruturais (ver tabela \ref{structbreak}) associadas às mudanças institucionais no-pós crise das \textit{savings and loans} (FDIC e FIRREA).
 Dito isso, foram utilizadas séries trimestrais com ajuste sazonal de 1992 a 2019 (ver gráfico \ref{YeoJhonson}) da taxa de juros das hipotecas fixas em trinta anos (MORTGAGE30US, trimestralizada pelo fim do período), investimento residencial (PRFI, em taxa de crescimento) e índice de Case-Shiller (CSUSHPISA, trimestralizada pelo fim do período). 
 
 Por se tratar de taxas de crescimento com ampla volatilidade, aplicou-se a transformação de \textcite{yeo_new_2000} para conter a amplitude das séries decorrente da crise imobiliária. A razão de se utilizar tal procedimento e não a transformação de \textcite{box_analysis_1964} é por não se restringir a valores não-negativos. Em seguida, foram realizados testes de raiz unitária (tabela \ref{unitroot}) bem como o procedimento de \textcite{johansen_estimation_1991} (tabela \ref{Johansen}) e, a um nível de significância de 5\%, conclui-se que as séries são cointegradas e, portanto, um modelo do tipo vetor de correção de erros (VECM) é a melhor forma de estimação para este caso \cite{enders_applied_2014}.
@@ -69,7 +69,7 @@ Por se tratar de taxas de crescimento com ampla volatilidade, aplicou-se a trans
 \input{./Fatos_Estilizados/Johansen.tex}
 
 %TODO Alterar figura
-\begin{figure}[H]
+\begin{figure}[htb]
 	\centering
 	\caption{Séries com transformação de \textcite{yeo_new_2000}}
 	\label{YeoJhonson}
@@ -97,8 +97,14 @@ Dito isso, resta determinar a defasagem utilizada. Pelos critérios de informaç
 	\caption*{\textbf{Fonte:} Survey of Construction (SOC), elaboração própria}
 \end{figure}
 
-Desse modo, uma alternativa é por meio de uma ``teoria prática do futuro'' --- como em \textcite[p.~214]{keynes_general_1937} --- em que o processo decisório para iniciar a construção de um novo imóvel depende de componentes expectacionais/convenções associados as observações passadas.
-De forma a ilustrar tal relação, o gráfico \ref{defasagens} apresenta as variáveis de interesse frente ao \textit{lag} que minimiza os critérios de informação. Esse procedimento permite visualizar se existe alguma relação entre a taxa própria esperada (taxa efetiva defasada) e taxa de crescimento do investimento residencial\footnote{De modo a dar conta de não-linearidades, é apresentada a regressão quadrática entre ambas as variáveis (e o mesmo foi realizado para o gráfico inverso).}. Já a relação inversa, qual seja, da taxa de crescimento para a taxa própria não se verifica uma vez que, como visto, o fluxo de novos imóveis é bastante inferior o estoque de imóveis existente e, portanto, é esperado que tal relação não esteja presente. Em outras palavras, a especulação com o \textit{estoque}  de imóveis gera inflação desses ativos que, por conseguinte, afeta a construção de novos imóveis (\textit{fluxo}) e não o inverso. 
+Desse modo, uma alternativa é por meio de uma ``teoria prática do futuro'' --- como em \textcite[p.~214]{keynes_general_1937} --- em que o processo decisório para iniciar a construção de um novo imóvel depende de componentes expectacionais/convenções associadas às observações passadas.
+De forma a ilustrar tal relação, o gráfico \ref{defasagens} apresenta as variáveis de interesse frente ao \textit{lag} que minimiza os critérios de informação. Esse procedimento permite visualizar se existe alguma relação entre a taxa própria esperada (taxa efetiva defasada) e taxa de crescimento do investimento residencial\footnote{De modo a dar conta de não-linearidades, é apresentada a regressão quadrática entre ambas as variáveis (e o mesmo foi realizado para o gráfico inverso).}. Já a relação inversa, qual seja, da taxa de crescimento para a taxa própria não se verifica uma vez que, como visto, o fluxo de novos imóveis é bastante inferior o estoque de imóveis existente e, portanto, é esperado que tal relação não esteja presente. Em outras palavras, a especulação com o \textit{estoque}  de imóveis gera inflação desses ativos que, por conseguinte, afeta a construção de novos imóveis (\textit{fluxo}) e não o inverso\footnote{
+	Cabe aqui destacar um aspecto particular da formação de preços dos imóveis: escassez de terra. Como consequência, a especulação com residências é, no limite, especulação com a terra (único recurso escasso envolvido em sua produção) e, portanto, é importante para a especulação com o estoque de imóveis. Ao discutir a formação de preços no mercado imobiliário, \textcite[p.~349, grifos adicionados]{leamer_housing_2007} pontua:
+	
+	\begin{citacao}
+	\textit{It’s not the structure that has a volatile price; \textbf{it's the land}. Where there is plenty of buildable land, the response to an increase in demand for homes is mostly to build more, not to increase prices. Where there is little buildable land, the response to an increase in demand for homes is mostly a price increase, sufficient to discourage buyers enough to reequilibrate the supply and demand.}
+	\end{citacao}	
+}. 
 %TODO Referência de terra ser escassa.
 Essa inspeção, portanto, ilustra de forma bastante grosseira tal componente expectacional por meio da menor dispersão entre os pontos no gráfico inferior direito\footnote{Raciocínio semelhante pode ser encontrado em \textcite{girardi_autonomous_2015}}.  
 
@@ -113,21 +119,6 @@ Essa inspeção, portanto, ilustra de forma bastante grosseira tal componente ex
 %TODO Adicionar gráficos com defasagem 2
 
 
-\begin{figure}[H]
-	\centering
-	\caption{Inspeção dos resíduos da estimação}
-	\label{residuos}
-	\includegraphics[height=.4\textheight]{../../Modelo/SeriesTemporais/figs/Residuos_4VECM.png}
-	\caption*{\textbf{Fonte:} Elaboração própria}
-\end{figure}
-
-\begin{table}[htb]
-\centering
-	\caption{Parâmetros da estimação (VECM)}
-\input{./Fatos_Estilizados/Estimacao_VECM.tex}
-\caption*{\textbf{Fonte:} Elaboração própria}
-\end{table}
-
 %TODO Modificar tabela da estimação
 
 Feita esta contextualização teórica da escolha das defasagens,  estima-se um VECM de ordem 4\footnote{Nota-se que tal defasagem, além de ser teoricamente justificada, também gera resíduos não heterocedásticos e sem correlação serial (ver tabela \ref{testes_resduos}).} cujos resíduos são apresentados no gráfico \ref{residuos} e resultados são expostos na tabela \ref{Estimacao}\footnote{Os resultados de todos os testes realizados bem como as rotinas utilizadas estão disponíveis sob solicitação.}.
@@ -136,6 +127,22 @@ Desse modo, a proposição de \textcite{teixeira_crescimento_2015} é corroborad
 Além disso, os coeficientes $\gamma_{2,is}$ estimados são negativos seguindo os resultados esperados (6) do mesmo modo que a demanda por imóveis por motivos não-especulativos ($\phi_0$) é estatisticamente significante (resultado 5).
 Adotando um nível de significância de 5\%, verifica-se que o parâmetro de correção de erro é estatisticamente significante apenas para a equação da taxa de crescimento do investimento residencial. Portanto, $own$ é exogenamente fraca em relação a $g_Z$ enquanto taxa própria Granger-causa $g_Z$, validando os resultado esperados (2) e (3).
 Já as relações de curto prazo entre taxa própria e $g_Z$ (capturadas por $\beta_{1,is}$) não são estatisticamente significantes a 5\% \footnote{O resultado esperado (7) também pode ser confirmado a partir da inspeção da tabela \ref{Estimacao} em que apenas a quarta defasagem da taxa própria é estatisticamente significante nesta equação.}. Em resumo, os resultados obtidos estão em linha com os esperados. 
+
+\begin{table}[H]
+	\centering
+	\caption{Parâmetros da estimação (VECM)}
+	\input{./Fatos_Estilizados/Estimacao_VECM.tex}
+	\caption*{\textbf{Fonte:} Elaboração própria}
+\end{table}
+
+\begin{figure}[H]
+	\centering
+	\caption{Inspeção dos resíduos da estimação}
+	\label{residuos}
+	\includegraphics[height=.4\textheight]{../../Modelo/SeriesTemporais/figs/Residuos_4VECM.png}
+	\caption*{\textbf{Fonte:} Elaboração própria}
+\end{figure}
+
 
 Uma forma de verificar a capacidade explicativa da taxa própria para $g_Z$ é por meio da decomposição da variância da previsão (FEVD) como no gráfico \ref{fevd}\footnote{Também é importante destacar que dado o número de variáveis (duas), a ordenação de Choleski é suficiente para analisar a função resposta ao impulso uma vez que gera uma matriz semelhante a de um VECM estrutural. 
 }. Verifica-se que desde o primeiro trimestre a taxa própria contribui para $g_Z$ enquanto o inverso não é válido. Adicionalmente, é notável que tal contribuição é crescente e maior que 50\% para além do 3º trimestre. Portanto, a taxa própria é explicada principalmente por ela mesma e explica $g_Z$ consideravelmente.
