@@ -60,7 +60,7 @@ $$
 $$
 De modo que a \textit{fraction} seja igual a unidade
 $$
-\frac{\frac{S}{Y}}{s} = 1
+f = \frac{\frac{S}{Y}}{s} = 1
 $$
 A explicação deste resultado decorre pelo investimento residencial ser contabilmente investimento e, portanto, não é um gasto autônomo ``despoupador''. 
 
@@ -72,11 +72,11 @@ Da equação acima, destaca-se que a propensão marginal a consumir é determina
 $$
 \overline \omega + \overline s = 1
 $$
-Desse modo, um aumento na taxa de investimento das famílias implica necessariamente na redução do investimento produtivo:
+Desse modo, um aumento na taxa de crescimento do investimento residencial --- mantida a taxa de investimento total --- implica aumento da propensão marginal a investir plenamente ajustada e subsequente redução da taxa de gastos autônomos
 $$
 \frac{I_t}{Y} = \frac{I_f + I_h}{Y} = s
 $$
-Isso implica que o investimento e a renda crescem a uma mesma taxa e, portanto, não reproduz o fato estilizado da relação positiva entre crescimento e taxa de investimento. Dito isso e retomando a equação \ref{EqGeral}:
+Isso implica que o investimento total e a renda crescem a uma mesma taxa e, portanto, não reproduz o fato estilizado da relação positiva entre crescimento e taxa de investimento. Dito isso e retomando a equação \ref{EqGeral}:
 $$
 \frac{\overline s\cdot \overline u_N}{v} = \overline g_Z = h\frac{\overline u_N}{\overline v}
 $$
@@ -88,7 +88,31 @@ h = \frac{\overline g_Z\cdot \overline u_N}{\overline v}
     \label{Fechamento_Modelo}
 \frac{I_h}{Y} = 1 - \overline\omega - \frac{\overline g_Z\cdot \overline u_N}{\overline v}
 \end{equation}
-Portanto, como o investimento residencial cresce a uma taxa exógena, é a participação dos gastos autônomos que fecha o modelo como indicado pela equação \ref{Fechamento_Modelo}. 
+Portanto, como o investimento residencial cresce a uma taxa exógena, é a participação do próprio investimento residencial que fecha o modelo como indicado pela equação \ref{Fechamento_Modelo}. 
+
+Feitas essas observações, cabe destacar que o modelo apresentado no capítulo \ref{CapModelo} não incorre nesses problemas uma vez que foi adicionado o consumo capitalista autônomo financiado por crédito ($C_k$) que mantem uma proporção fixa em relação aos gastos autônomos totais
+$$
+C_k = \overline R \cdot Z
+$$
+de modo que a relação positiva entre taxa de investimento (total) e crescimento é restabelecida
+$$
+\frac{I_t}{Y} = 1 - \overline \omega - \frac{C_k}{Y}
+$$
+$$
+\frac{I_t}{Y} = 1 - \overline \omega - \frac{\overline R\cdot Z}{Y}
+$$
+$$
+\frac{I_t}{Y} = 1 - \overline \omega - \overline R \cdot (1 - \overline \omega - h^*)
+$$
+$$
+\frac{I_t}{Y} = (1-R)(1 - \overline \omega) + \overline R \cdot h^*
+$$
+$$
+\frac{I_t}{Y} = (1-R)(1 - \overline \omega) + \overline R \cdot \frac{g_Z v}{u_N}
+$$
+$$
+\frac{\partial I_t/Y}{\partial g_Z} = \frac{R}{v}\cdot u_N > 0
+$$
 
 \section{Simulações}
 

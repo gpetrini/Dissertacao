@@ -33,7 +33,7 @@ em que $Y_K$ e $Y_L$ são respectivamente produto de plena capacidade e de pleno
 $$
 Y_K = \frac{1}{\overline v}K_{f_{-1}} \hspace{2.5cm} Y_L = \frac{1}{\overline b}L_{-1}
 $$
-com $v$ e $b$ sendo relações técnicas e $K_f$ e $L$ indicam respectivamente o estoque de capital criador de capacidade ao setor privado e  o trabalho. Tal como é convencional na literatura, supõe-se que o capital é escasso em relação ao trabalho. Nesses termos, o produto potencial é:
+com $v$ e $b$ sendo relações técnicas e $K_f$ e $L$ indicam respectivamente o estoque de capital criador de capacidade ao setor privado e  o trabalho. Tal como é convencional na literatura, supõe-se que o capital é escasso em relação ao trabalho. Nesses termos, o produto potencial máximo, dado pela tecnologia é:
 
 \begin{equation}
 \label{_YFC}
@@ -56,7 +56,7 @@ cuja taxa de variação equivale a
 \Delta u = (g - g_K)\cdot u_{t-1}
 \end{equation}
 %TODO Ver se altera para tempo contínuo
-em que $g$ e $g_K$ são, respectivamente, a taxa de crescimento do produto e da capacidade produtiva já discutidas no capítulo teórico.
+em que $g$ e $g_K$ são, respectivamente, a taxa de crescimento do produto e da capacidade produtiva já discutidas no capítulo \ref{CapTeorico}.
 
 A razão pela qual o capital criador de capacidade se difere do estoque de capital total da economia ($K$) se dá pela inclusão do investimento residencial tão comumente ignorado pela literatura que, como pontuado pelo capítulo anterior, possui implicações importantes para a dinâmica da economia norte-americana. Dito isso, o estoque de capital é dado por:
 
@@ -76,7 +76,7 @@ K = k\cdot K + (1-k)\cdot K
 $$
 que será utilizada para o desenvolvimento da solução analítica.
 
-Neste modelo, tal como na tradição kaleckiana e sraffiana, a distribuição funcional da renda é exógena. Para não recorrer à hipóteses a respeito da estrutura de mercado bem como da determinação de preços das firmas, impõe-se que\footnote{A discussão sobre os determinantes da distribuição da renda foge do escopo desta pesquisa, para tanto, ver \textcite{pivetti_essay_1992}. }:
+Neste modelo, tal como na tradição kaleckiana e sraffiana, a distribuição funcional da renda é exógena. Como a discussão sobre os determinantes da distribuição da renda foge do escopo desta pesquisa, adota-se que a participação dos salários na renda é dada\footnote{Para mais discussões, ver \textcite{pivetti_essay_1992}.}:
 
 \begin{equation}
     \omega = \overline{\omega}
@@ -94,7 +94,7 @@ $$
     W = \omega\cdot Y
 \end{equation}
 
-Por fim, cabe explicitar os ativos financeiros presentes no modelo e como são distribuídos entre os diferentes agentes institucionais. As famílias capitalistas (denotadas pelo subíndice $hk$) acumulam riqueza sob a forma de depósitos à vista ($M$) e imóveis ($K_h$) enquanto contraem empréstimos hipotecários ($MO$) para realizar investimento residencial.
+Por fim, cabe explicitar os ativos financeiros presentes no modelo e como são distribuídos entre os diferentes agentes institucionais (ver tabela \ref{Matriz_Estoques}). As famílias capitalistas (denotadas pelo subíndice $hk$) acumulam riqueza sob a forma de depósitos à vista ($M$) e imóveis ($K_h$) enquanto contraem empréstimos hipotecários ($MO$) para realizar investimento residencial.
 Além disso, parcela do consumo é autônoma ($C_k$) e é financiado por dívida ($L_{hk}$).
 As firmas (denotadas pelo subíndice $f$), por sua vez, financiam o investimento em parte por lucros retidos e o restante por empréstimo ($L_f$). Os bancos, portanto, criam crédito (\textit{ex nihilo}) para então recolher os depósitos, todos remunerados pelas respectivas taxas de juros. 
 Por fim, supõe-se que os trabalhadores gastam o que ganham e, assim, não acumulam ativos reais ou financeiros e tampouco têm acesso a crédito.
@@ -104,6 +104,7 @@ Com isso, é possível explicitar a matriz dos estoques:
 \begin{table}[H]
 \centering
 \caption{Matriz dos estoques}
+\label{Matriz_Estoques}
 \begin{tabular}{lccccc}
 \hline
 \hline
@@ -124,11 +125,12 @@ $\sum$ Riqueza líquida total &---&$NW_{hk}$&$NW_f$&$NW_b$& $+K$\\
 \caption*{\textbf{Fonte:} Elaboração própria}
 \end{table}
 
-Esta matriz mapeia as relações entre os diferentes agentes institucionais e permite explicitar as inter-relações entre lado real e financeiro \cite{dos_santos_revisiting_2010}. Resta explicitar como os fluxos determinam os estoques por meio da matriz de transações correntes e fluxo de fundos que, descritas as hipóteses e equações gerais, auxiliará na especificação de cada setor institucional:
+Esta matriz mapeia as relações entre os diferentes agentes institucionais e permite explicitar as inter-relações entre lado real e financeiro \cite{dos_santos_revisiting_2010}. Resta explicitar como os fluxos determinam os estoques por meio da matriz de transações correntes e fluxo de fundos (tabela \ref{Matriz_Fluxos}) que, descritas as hipóteses e equações gerais, auxiliará na especificação de cada setor institucional:
 
 \begin{table}[H]
 \centering
 \caption{Matriz de transações correntes e fluxo de fundos}
+\label{Matriz_Fluxos}
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{lccccccc}
 \hline
@@ -168,7 +170,7 @@ Variação dos empréstimos     & &$+\Delta L_{hk}$&&$+\Delta L_f$& &$-\Delta L$
 \begin{equation}
     FT = Y - W
 \end{equation}
-Além disso, as firmas retêm uma parcela ($\gamma_F$) dos lucros líquidos de juros ($FU$) para financiar parte do investimento e distribuem o restante para as famílias capitalistas ($FD$):
+Além disso, as firmas retêm uma parcela ($\gamma_F$) dos lucros líquidos de juros ($FU$) para financiar a outra parte do investimento e distribuem o restante para as famílias capitalistas ($FD$):
 
 \begin{equation}
     FU = \gamma_F\cdot (FT - r_l\cdot L_{f_{-1}})
@@ -176,7 +178,7 @@ Além disso, as firmas retêm uma parcela ($\gamma_F$) dos lucros líquidos de j
 \begin{equation}
     FD = (1-\gamma_F)\cdot (FT - r_l\cdot L_{f_{-1}})
 \end{equation}
-Adicionalmente, pelo foco deste modelo recair sobre o mercado imobiliário e não sobre o mercado acionário supõe-se que as firmas são propriedade dos capitalistas mas não possuem capital aberto de modo que suas ações não são negociadas em bolsa de valores.
+%Adicionalmente, pelo foco deste modelo recair sobre o mercado imobiliário e não sobre o mercado acionário supõe-se que as firmas são propriedade dos capitalistas mas não possuem capital aberto de modo que suas ações não são negociadas em bolsa de valores.
 %TODO Repensar forma de representar propriedade acionária na matriz dos estoques.
 
 Como sugerido pelo capítulo \ref{CapTeorico} e seguindo \textcite{serrano_long_1995} e \textcite{serrano_sraffian_2017}, supõe-se que o investimento das firmas é induzido pelo nível de demanda efetiva,
@@ -184,7 +186,7 @@ Como sugerido pelo capítulo \ref{CapTeorico} e seguindo \textcite{serrano_long_
 \label{_If}
     I_f = h\cdot Y
 \end{equation}
-em que $h$ é a propensão marginal a investir. Além disso, adota-se o princípio do ajuste do estoque de capital de modo que as firmas revisam seus planos de investimento de forma que o grau de utilização se ajuste ao normal ($u_N$):
+em que $h$ é a propensão marginal a investir. Além disso, adota-se o princípio do ajuste do estoque de capital de modo que as firmas revisam seus planos de investimento fazendo com que o grau de utilização se ajuste ao normal ($u_N$):
 \begin{equation}
 \label{_h}
     %\dot h = h\cdot \gamma_u\cdot (u - \overline{u}_N)
@@ -207,7 +209,9 @@ Por fim, como pode ser verificado pela tabela de transações correntes, o saldo
 \begin{equation}
     NFW_f = FU - I_f
 \end{equation}
-em que as firmas são devedoras líquidas se o investimento for maior que os lucros retidos. Por definição, se um dos setores é deficitário ao menos um precisa ser superavitário para que a soma dos saldos financeiros líquidos seja nula enquanto a soma do estoque de riqueza financeira seja igual ao estoque de capital da economia. A matriz dos estoques, por sua vez, fornece a riqueza líquida das firmas ($NW_f$):
+em que as firmas são devedoras líquidas se o investimento for maior que os lucros retidos. 
+%Por definição, se um dos setores é deficitário ao menos um precisa ser superavitário para que a soma dos saldos financeiros líquidos seja nula enquanto a soma do estoque de riqueza financeira seja igual ao estoque de capital da economia. 
+A matriz dos estoques, por sua vez, fornece a riqueza líquida das firmas ($NW_f$):
 \begin{equation}
     NW_f = K_f - L_f
 \end{equation}
@@ -318,6 +322,10 @@ Já renda disponível dos capitalistas ($YD_k$) é definida pela soma dos lucros
     \label{EqYD}
     YD_k = FD + \overline r_m\cdot M_{-1} - r_{mo}\cdot MO_{-1} - r_{l}\cdot L_{hk_{-1}}
 \end{equation}
+uma vez que as taxas de juros são iguais ($\sigma_{mo} = \sigma_{l} = 0$), esta equação pode ser reescrita como:
+$$
+    YD_k = FD + \overline r_m\cdot (M_{-1} - \cdot MO_{-1} - \cdot L_{hk_{-1}}
+$$
 A poupança das famílias capitalistas ($S_{hk}$), portanto, é a renda disponível subtraída do consumo:
 
 \begin{equation}
@@ -361,6 +369,7 @@ Por fim, tal como no capítulo anterior, considera-se que a taxa de crescimento 
     I_h = (1 + g_Z)\cdot Ih_{-1}
 \end{equation}
 \begin{equation}
+\label{g_Z_own}
 g_Z = \phi_0 - \phi_1\cdot own
 \end{equation}
 $$

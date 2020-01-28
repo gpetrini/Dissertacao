@@ -39,7 +39,7 @@ Antes de prosseguir, no entanto, cabe destacar que por serem modelos na fronteir
 
 Em linhas gerais, tais modificações nos modelos kaleckianos estão associadas a algumas críticas envolvendo tanto a não convergência ao grau de utilização normal no longo prazo quanto a instabilidade decorrente da endogeinização do componente autônomo do investimento \cites{dallery_kaleckian_2007}{skott_theoretical_2012}{hein_harrodian_2012}.
 A partir da contribuição de \textcite{allain_tackling_2015}, as alterações no modelo canônico têm a inclusão de gastos autônomos como denominador comum.
-Uma vez introduzidos estes gastos, a poupança agregada torna-se
+Uma vez introduzidos estes gastos, a poupança agregada --- assim como no SSM de \textcite{serrano_sraffian_1995} --- torna-se
 $$
 \frac{S}{Y} = s - \frac{Z}{Y}
 $$
@@ -51,9 +51,15 @@ Dito isso, o autor prossegue para o médio prazo\footnote{
 \begin{equation}
 \Delta z = (g_Z - g)\cdot z_{t-1}
 \end{equation}
-Assim, quando a taxa de crescimento efetiva da economia se difere da taxa de crescimento dos gastos autônomos ($g\neq g_Z$)  haverá uma variação na participação dos gastos autônomos ($\Delta z$), impactando a demanda agregada e a poupança. No médio prazo, em que a taxa de crescimento converge a taxa dos gastos autônomos, o mecanismo de ajuste é encerrado e o grau de utilização é dado por:
+No curto ($g_Z = 0$) e médio prazo ($u \neq u_N$), o investimento das firmas não é totalmente induzido ($\gamma \neq 0$) de modo que sua taxa de crescimento é dada por
+$$
+g_I = \gamma + \gamma_u\cdot (u - u_n) = g
+$$
+em que $\gamma$ é expectativa tendencial de crescimento.
+Quando a taxa de crescimento efetiva da economia se difere da taxa de crescimento dos gastos autônomos ($g\neq g_Z$)  haverá uma variação na participação dos gastos autônomos ($\Delta z$), impactando a demanda agregada e a poupança. No médio prazo, em que a taxa de crescimento converge a taxa dos gastos autônomos, o mecanismo de ajuste é encerrado e o grau de utilização é dado por:
 
 \begin{equation}
+\label{u_Allain}
 u = \frac{g_z - \gamma}{\gamma_u} + u_N
 \end{equation}
 Esta equação evidencia que se, e somente se, a expectativa tendencial de crescimento ($\gamma$) for igual à taxa de crescimento dos gastos autônomos, o grau de utilização convergirá ao normal no médio prazo e, portanto, é meramente acidental. No entanto, a convergência do grau de utilização ao normal é uma característica do longo prazo que decorre do princípio de ajuste do estoque de capital em que a taxa de crescimento esperada se adequa aos distanciamentos entre o grau de utilização efetivo e normal. No entanto, para evitar o deflagrar da instabilidade no modelo kaleckiano canônico é necessário que o investimento deixe de ser autônomo: 
@@ -64,11 +70,23 @@ Esta equação evidencia que se, e somente se, a expectativa tendencial de cresc
 em que $\phi$ é um fator de ajuste positivo e suficientemente pequeno\footnote{
 	Além disso, \textcite[p.~14]{allain_tackling_2015} argumenta que a novidade  é o parâmetro  de ajustamento positivo ($\phi > 0$) que além de não implicar na instabilidade Harrodiana, é também condição de estabilidade do modelo.
 }.
-Dito isso e partindo do equilíbrio de médio prazo e supondo um aumento na taxa esperada de crescimento, obtém-se um cenário em que a taxa efetiva de crescimento é maior que a taxa de crescimento dos gastos autônomos. Como consequência, a participação dos gastos autônomos na renda diminui de modo que  a poupança agregada aumenta. Essa redução, por sua vez, tem um efeito negativo tanto sobre a taxa de crescimento efetiva quanto sobre o grau de utilização. Esse processo se esgota com a taxa de crescimento efetiva se ajustando a taxa de crescimento dos gastos autônomos ($g = g_z$) mas com um grau de utilização menor  (equilíbrio de médio prazo reestabelecido). Já no longo prazo, instaura-se o princípio do ajuste do estoque de capital de modo que o grau de utilização converge ao normal ($u \to u_N$) em que: 
+Dito isso e partindo do equilíbrio de médio prazo e supondo um aumento na taxa de crescimento dos gastos autônomos, obtém-se um cenário em que a taxa efetiva de crescimento é maior que a taxa esperada de crescimento. Como consequência, a participação dos gastos autônomos na renda diminui de modo que  a poupança agregada aumenta. Essa redução, por sua vez, tem um efeito negativo tanto sobre a taxa de crescimento efetiva quanto sobre o grau de utilização. Esse processo se esgota com a taxa de crescimento efetiva se ajustando a taxa de crescimento dos gastos autônomos ($g = g_z$) mas com um grau de utilização menor  (equilíbrio de médio prazo reestabelecido). Já no longo prazo, instaura-se o princípio do ajuste do estoque de capital de modo que o grau de utilização converge ao normal ($u \to u_N$) em que: 
 %Em linha com \textcite{fagundes_role_2017}, argumenta-se que no \textbf{longo prazo} os modelos kaleckianos não-convencionais respondem suficientemente bem à convergência do grau de utilização sem incorrer na instabilidade
 $$
 \gamma = g = g_Z \Leftrightarrow u \to u_N
 $$
+Dito isso, cabe destacar os resultados de longo prazo:
+(i) Mudanças na distribuição de renda geram alterações no nível, mas não na taxa de crescimento, eliminado o paradoxo dos custos; 
+(ii) o mesmo vale para alterações na propensão marginal a poupar e o paradoxo da parcimônia; 
+(iii) o grau de utilização converge ao normal e 
+(iv) aumento da taxa de crescimento dos gastos autônomos tem impactos positivos sobre a taxa de acumulação.
+Dado o fechamento do supermultiplicador sraffiano, a convergência do grau de utilização ao nível normal implica a eliminação dos paradoxos kaleckianos em termos de taxas. Além disso, vale destacar que tal convergência decorre de uma das soluções do modelo é a equivalência entre o componente autônomo do investimento e a taxa de crescimento dos gastos autônomos. Como consequência indireta da crítica do supermultiplicador sraffiano, não raro encontram-se modelos kaleckianos (não-convencionais) com convergência ao grau de utilização normal que destacam a manutenção dos resultados canônicos na média:
+	
+	\begin{citacao}
+		Thus, \textbf{on average}, the rate of utilization and the growth rate of the economy are higher than at the starting and terminal points of the traverse. Thus, what these Sraffians are telling us is that more attention should be paid to the average values
+		achieved during the traverse than to the terminal points. \cite[p.~408, grifos adicionados]{lavoie_post-keynesian_2015}
+	\end{citacao}	
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Início Fagundes e Freitas %%%%%%%%%%%%
 Para encerrar essa discussão, é feita uma comparação entre as duas alternativas restantes, qual sejam, kalekiana não-convencional e sraffiana.  Diante disso, existem duas questões importantes em aberto: (i) dadas as hipóteses compartilhadas, qual a distinção fundamental entre ambos os modelos? (ii) dados os objetivos desta investigação, qual modelo a ser adotado? 
 
@@ -78,18 +96,18 @@ O primeiro ponto pode ser respondido de forma mais direta: a principal diferenç
 	\textit{Indeed, the true reason for the lack of balance between capacity and demand in the Oxford theory [Modelos kaleckianos] in the long run is actually much simpler. As we have seen above in this theory, in the long run the level of output adapts itself to the level of aggregate demand. The level of productive capacity, however, cannot adjust to this level of aggregate demand because current capacity has already been determined as the result of previous autonomous investment. Hence it is the idea that investment is \textbf{autonomous} and not \textbf{anything related to oligopoly} or competition that explain the long-run discrepancies between capacity and demand.}
 	\cite[p.~120, grifos adicionados]{serrano_sraffian_1995}
 \end{citacao}
-Por outro lado, se o investimento possuir um componente autônomo, como nos modelos kaleckianos convencionais, a demanda efetiva se ajusta à capacidade produtiva que está definida aprioristicamente:
+Por outro lado, se o investimento possuir um componente autônomo, como nos modelos kaleckianos convencionais, a capacidade produtiva também se torna autônoma de modo que o ajuste entre demanda e oferta recai sobre o grau de utilização:
 \begin{citacao}
 	\textit{Note that from our definition of capacity generating investment expenditures, it follows that when this type of investment is induced, productive capacity is necessarily a consequence of the evolution of effective demand. On the other hand, when capacity generating investment is autonomous it is productive capacity that emerges as a necessary consequence of (autonomous) investment. […] Indeed, the view that capacity of each sector is adjusted to normal level of effectual demand in every long-period position, necessary implies treating the long-period level of capacity generating investment as an endogenous magnitude.} \cite[p.~77]{serrano_sraffian_1995}
 \end{citacao}
 Como mostrado ao longo desta seção, isso deixa de ser o caso nos modelos kaleckianos com investimento induzido no longo prazo.
 
-Para responder a segunda questão, resta esclarecer um possível ponto de estranhamento. O principal objetivo desta pesquisa é investigar os determinantes do ciclo econômico norte americano e desenvolver um modelo que replique alguns dos fatos estilizados. Sendo este o caso, a ênfase na discussão de modelos de longo prazo parece ser desconexa. 
-No entanto, como mencionado na introdução, os modelos elegíveis são aqueles reportam alguns fatos estilizados (\textit{e.g.} relação positiva entre taxa de investimento e crescimento)  no curto, médio e longo prazo.
+Para responder a segunda questão, resta esclarecer um possível ponto de estranhamento. O principal objetivo desta pesquisa é investigar os determinantes do ciclo econômico norte americano e desenvolver um modelo que ajude a esclarecer alguns dos fatos estilizados da economia norte-americana dos anos 1992 a 2019. Sendo este o caso, a ênfase na discussão de modelos de longo prazo parece ser desconexa. 
+No entanto, como mencionado na introdução, os modelos elegíveis são aqueles aderentes a alguns fatos estilizados (\textit{e.g.} relação positiva entre taxa de investimento e crescimento)  no curto, médio e longo prazo.
 Desse modo, optar por modelos que se mostram adequados para o curto e longo prazo, mas não para o médio-prazo se mostra questionável uma vez que a validade dos resultados está restrita a uma certa temporalidade. 
 
 %TODO Rever temporalidade
-Os modelos restantes representam alguns fatos estilizados no curto prazo e na posição plenamente ajustada (equivalente ao ``longuíssimo'' prazo kaleckiano). Resta verificar se o mesmo vale enquanto a propensão marginal a poupar não está ajustada (denominado aqui por  \textbf{médio prazo})\footnote{Esta parte da exposição é inspirada na contribuição de \textcite{fagundes_role_2017} no que diz respeito ao médio prazo.}. 
+Os modelos restantes --- vale lembrar, kaleckiano não-convencional e supermultiplicador sraffiano --- representam alguns fatos estilizados no curto prazo e na posição plenamente ajustada (equivalente ao ``longuíssimo'' prazo kaleckiano). Resta verificar se o mesmo vale enquanto a propensão marginal a poupar não está ajustada (denominado aqui por  \textbf{médio prazo})\footnote{Esta parte da exposição é inspirada na contribuição de \textcite{fagundes_role_2017} no que diz respeito ao médio prazo.}. 
 %TODO Rever se o tratamento de médio prazo está adequado
 %Dito isso, dentre os modelos kaleckianos com gasto autônomo e principio de ajuste do estoque de capital e supermultiplicador sraffiano, resta selecionar aquele reproduza o fato estilizado da relação positiva entre taxa de investimento e taxa de crescimento. 
 Dito isso, seja $i$ a taxa de investimento, $\gamma_A$ a parcela autônoma e $h$ a parcela induzida do investimento (das firmas) de modo que a representar a função de acumulação kaleckiana pode ser reescrita como\footnote{
@@ -137,12 +155,13 @@ Prosseguindo com a exposição e analisando o equilíbrio de \textit{steady grow
 \label{investoFagundes}
 i_{MR} = \frac{h\cdot g_Z}{g_Z - \gamma_A}
 \end{equation}
-Diante deste resultado, \textcite{fagundes_role_2017} argumentam que a inclusão dos gastos autônomos no modelo não garante a convergência do grau de utilização ao normal. Para que tal tendência ocorra, por sua vez, é necessário que a participação da parcela autônoma do investimento convirja a zero ($\gamma_A \to 0$) e isto ocorre no modelo de \textcite{allain_tackling_2015}. 
-No entanto, \textcite{fagundes_role_2017} reportam que de acordo com este modelo, uma economia que cresce a taxas maiores é aquela que apresenta uma menor taxa de investimento que, por sua vez, contraria os fatos estilizados. Supondo, por simplificação, que as variações são infinitesimais, isto pode ser explicitado em termos da equação \ref{investoFagundes} por derivadas parciais:
+Diante deste resultado, \textcite{fagundes_role_2017} argumentam que a inclusão dos gastos autônomos no modelo não garante a convergência do grau de utilização ao normal. Para que tal tendência ocorra, por sua vez, é necessário que a participação da parcela autônoma do investimento convirja a zero ($\gamma_A \to 0$) e isto ocorre, por exemplo, no modelo de  \textcite{lavoie_convergence_2016}. 
+No entanto, \textcite{fagundes_role_2017} reportam que de acordo com este modelo, uma economia que cresce a taxas maiores é aquela que apresenta uma menor taxa de investimento que, por sua vez, o fato estilizado da relação \textbf{positiva} entre taxa de crescimento e  taxa de investimento \cites{braga_investment_2018}{haluska_growth_2019}. Supondo, por simplificação, que as variações são infinitesimais, isto pode ser explicitado em termos da equação \ref{investoFagundes} por derivadas parciais:
 $$
 \frac{\partial i_{MR}}{\partial g_Z} = - \frac{\gamma_A h}{[g_Z - \gamma_A]^2} < 0 \Leftrightarrow \gamma_A > 0
 $$
-Além disso, os autores pontuam um problema de ``dupla indentidade'' nos modelos \textit{à la} \textcite{allain_tackling_2015} decorrente das diferentes condições de equilíbrio, um com e outro sem gastos autônomos, cujos padrões de crescimento são mutualmente excludentes. No primeiro, obtém-se um regime liderado pelo investimento produtivo, mas incapaz de gerar a tendência do grau de utilização ao normal e de destacar a importância dos gastos autônomos ($Z\to 0$). No outro, ocorre o inverso, um regime liderado pelos gastos autônomos ($\gamma_A \to 0$), mas apresenta uma relação negativa entre crescimento e taxa de investimento. Ambos os casos contrariam alguns fatos estilizados. Portanto, a aceitação a conclusão de \textcite[p.~13]{fagundes_role_2017} é imediata:
+Além disso, os autores pontuam um problema de ``dupla indentidade'' nos modelos \textit{à la} \textcite{allain_tackling_2015} decorrente das diferentes condições de equilíbrio, um com e outro sem gastos autônomos, cujos padrões de crescimento são mutualmente excludentes. No primeiro, obtém-se um regime liderado pelo investimento produtivo, mas incapaz de gerar a tendência do grau de utilização ao normal e de destacar a importância dos gastos autônomos ($Z\to 0$). No outro, ocorre o inverso, um regime liderado pelos gastos autônomos ($\gamma_A \to 0$), mas apresenta uma relação negativa entre crescimento e taxa de investimento. Ambos os casos contrariam
+o fato estilizado da convergência ao grau de utilização normal \cite{gahn_empirical_2019} quanto a relação positiva entre crescimento e taxa de investimento \cites{braga_investment_2018}{haluska_growth_2019}. Portanto, a aceitação a conclusão de \textcite[p.~13]{fagundes_role_2017} é imediata:
 
 \begin{citacao}
 	
@@ -170,7 +189,7 @@ $$
 \frac{\partial i_{MR}}{\partial g_Z} = \frac{v}{u} > 0
 $$
 Portanto, a relação negativa entre crescimento e taxa de investimento deixa de existir e isso não é feito às custas da não convergência do grau de utilização ou da relevância dos gastos autônomos no longo prazo. 
-Diante desta discussão, conclui-se que o modelo do SSM não é incompatível para analisar o médio prazo ou restrito ao longo prazo como afirma \textcite{nikiforos_comments_2018}. Com isso, elege-se o supermultiplicador sraffiano como o mais adequado para atender os objetivos desta pesquisa. 
+Diante desta discussão, conclui-se que o modelo do SSM não é incompatível para analisar o médio prazo ou restrito ao longo prazo como afirma \textcite{nikiforos_comments_2018}. Com isso, chega-se a conclusão de que o supermultiplicador sraffiano como o mais adequado para atender os objetivos desta pesquisa. 
 
 
 %TODO TRANSIÇÃO SEÇÃO SEGUINTE
