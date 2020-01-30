@@ -5,9 +5,12 @@
 \label{SecTxPropria}
 
 O objetivo desta subseção é detalhar a relação entre investimento residencial e a taxa própria de juros dos imóveis desenvolvida por \textcite{teixeira_crescimento_2015} para então expor as hipóteses testadas no modelo econométrico.
-Para evidenciar esta relação, deflaciona-se a taxa de juros hipotecárias pela inflação de imóveis tal como na equação \ref{tx_Propria}.
+Para evidenciar esta relação, deflaciona-se a taxa de juros hipotecária pela inflação de imóveis tal como na equação \ref{tx_Propria} retomada abaixo
+$$
+g_{I_h} = \phi_0 + \phi_1\cdot own
+$$
 O gráfico \ref{gZ_Propria} ilustra como  este deflacionamento é mais adequado do que por um índice geral de preços ---  como faz \textcite[p.~143--146]{fair_macroeconometric_2013} --- para captar a dinâmica do investimento residencial.
-Destaca-se também que em momentos de especulação (\textit{i.e.} bolha de ativos, neste caso, imóveis) é a inflação destes ativos que domina a dinâmica da taxa própria \cite[p.~53]{teixeira_crescimento_2015}. Sendo assim, quanto menor esta taxa maiores serão os ganhos de capital (em imóveis) por se especular com imóveis.
+Destaca-se também que em momentos de bolha de imóveis é a inflação destes ativos que domina a dinâmica da taxa própria \cite[p.~53]{teixeira_crescimento_2015}. Sendo assim, quanto menor esta taxa maiores serão os ganhos de capital (em imóveis) por se especular com imóveis.
 Tal dinâmica é evidenciada no gráfico \ref{gZ_Propria} em que a taxa própria se reduziu progressivamente ao longo do \textit{boom} imobiliário (2002-5).
 
 
@@ -16,7 +19,7 @@ Tal dinâmica é evidenciada no gráfico \ref{gZ_Propria} em que a taxa própria
 
 \begin{figure}[H]
 	\centering
-	\caption{Taxa de juros hipotecária deflacionada pelo índice de preços ao consumidor e própria de juros dos imóveis x investimento residencial (1987-2019, média móvel trimestral)}
+	\caption{Taxa de juros hipotecária deflacionada pelo índice de preços ao consumidor e taxa própria de juros dos imóveis x investimento residencial (1987-2019, média móvel trimestral)}
 	\label{gZ_Propria}
 	\includegraphics[width=0.75\textwidth]{../../Dados/Fatos_Estilizados/figs/TxPropria_Investo.png}
 	\caption*{\textbf{Fonte:} U.S. Bureau of Economic Analysis, elaboração própria}
@@ -25,37 +28,66 @@ Tal dinâmica é evidenciada no gráfico \ref{gZ_Propria} em que a taxa própria
 De modo a testar a capacidade explicativa da taxa própria para o investimento residencial, assume-se a seguinte relação de longo prazo tal como em \textcite{teixeira_crescimento_2015}:
 
 \begin{equation}
-g_{Z_t} = \phi_0 - \phi_1\cdot own_t
+g_{I_{h_t}} = \phi_0 - \phi_1\cdot own_t
 \end{equation}
 sendo assim, se as séries forem cointegradas, é possível estimar um VECM nos seguintes termos:
 \begin{equation}
 \begin{cases}
-\Delta own_t = \delta_{1} + \alpha_1(g_{Z_{t-1}} - \phi_0 + \phi_1\cdot own_{t-1}) + \sum^{N=4}_{i=1}\beta_{1,i}\cdot \Delta g_{Z_{t-i}} +
+\Delta own_t = \delta_{1} + \alpha_1(g_{I_{h_{t-1}}} - \phi_0 + \phi_1\cdot own_{t-1}) + \sum^{N=4}_{i=1}\beta_{1,i}\cdot \Delta g_{I_{h_{t-i}}} +
 \sum^{N=4}_{i=1}\gamma_{1,i}\cdot \Delta own_{t-i} +\varepsilon_{t,1}
 \\
-\Delta g_{Z_{t}} = \delta_{2} + \alpha_2(g_{Z_{t-1}} - \phi_0 + \phi_1\cdot own_{t-1}) + \sum^{N=4}_{i=1}\beta_{2,i}\cdot \Delta g_{Z_{t-i}} +
+\Delta g_{Z_{t}} = \delta_{2} + \alpha_2(g_{I_{h_{t-1}}} - \phi_0 + \phi_1\cdot own_{t-1}) + \sum^{N=4}_{i=1}\beta_{2,i}\cdot \Delta g_{I_{h_{t-i}}} +
 \sum^{N=4}_{i=1}\gamma_{2,i}\cdot \Delta own_{t-i} +\varepsilon_{t,2}
 \end{cases}
 \end{equation}
 em que $\delta_s$ indicam tendência linear nas respectivas séries em nível;
 $\alpha_{is}$ são os coeficientes de correção de erro; 
-$\beta_s$ e $\gamma_s$ são coeficientes associados as defasagens de  $g_Z$ e $own$ respectivamente e; $\varepsilon_s$ são os resíduos.
-Seguindo as hipóteses de \textcite{teixeira_crescimento_2015}, os resultados esperados a serem testados são:
-\begin{enumerate}
-	\item $\varepsilon \sim I(0)$: Estacionariedade dos resíduos indica que taxa própria e $g_Z$ são cointegrados, ou seja, apresentam uma dinâmica de longo prazo em comum;
-	\item $\alpha_1 = 0$: $own$ exogenamente fraca em relação ao $g_Z$;
-	\item $\alpha_2 < 0$: Taxa própria causa (no sentido de Granger) investimento residencial;
-	%TODO Checar sinal de alpha2
-	\item $\phi_1 > 0$: $gZ$ e Taxa própria apresentam uma dinâmica negativa no longo prazo;
-	\item $\phi_0 < 0$: Demanda por imóveis por motivos não-especulativos e associados a especificidades institucionais é estatisticamente significante e não-negativo;
-	\item $\gamma_{2,is} < 0$: Taxa própria afeta o investimento residencial negativamente no curto prazo;
-	\item $\beta_{1,is}$ = 0: Efeito do investimento de $g_Z$ sobre a taxa própria não é estatisticamente significante.
-\end{enumerate}
-Apesar de lançar luz sobre algumas relações relevantes esta proposição não foi avaliada por meio da estimação de um modelo macroeconométrico e isso será feito a seguir.
+$\beta_s$ e $\gamma_s$ são coeficientes associados as defasagens de  $g_{I_h}$ e $own$ respectivamente e; $\varepsilon_s$ são os resíduos.
+Seguindo as hipóteses de \textcite{teixeira_crescimento_2015}, os resultados esperados a serem testados estão na tabela \ref{resultados_esperados} abaixo:
+
+
+% Please add the following required packages to your document preamble:
+% \usepackage{graphicx}
+\begin{table}[H]
+	\centering
+	\caption{Resumo dos resultados esperados do modelo macroeconométrico}
+	\label{resultados_esperados}
+	\resizebox{\textwidth}{!}{%
+		\begin{tabular}{l|l|l}
+			\hline\hline
+			\textbf{\begin{tabular}[c]{@{}l@{}}Resultado\\ Esperado\end{tabular}} &
+			\textbf{Significado econométrico} &
+			\textbf{Significado econômico} \\ \hline\hline
+			\textbf{1. $\varepsilon \sim I(0)$} &
+			\begin{tabular}[c]{@{}l@{}}Estacionariedade dos resíduos indica cointegração\end{tabular} &
+			\begin{tabular}[c]{@{}l@{}}Séries apresentam uma dinâmica \\ de longo prazo em comum\end{tabular} \\ \hline
+			\textbf{2. $\alpha_1 = 0$} &
+			\begin{tabular}[c]{@{}l@{}}Variável $own$ exogenamente\\ fraca em relação a $g_{I_h}$\end{tabular} & \begin{tabular}[c]{@{}l@{}} O comportamento dinâmico de $own$ não\\é afetado pelo desvio do equilíbrio no período anterior\end{tabular}
+			\\ \hline
+			\textbf{3. $\alpha_2 < 0$} &
+			\begin{tabular}[c]{@{}l@{}}Taxa própria causa (no sentido de Granger)\\ a taxa de crescimento do investimento residencial\end{tabular} & \begin{tabular}[c]{@{}l@{}} O comportamento dinâmico de $g_{I_h}$ é\\ afetado pelo desvio do equilíbrio no período anterior\end{tabular}
+			\\ \hline
+			\textbf{4. $\phi_1 > 0$} &
+			\begin{tabular}[c]{@{}l@{}}Séries apresentam uma dinâmica\\ negativa no longo prazo\end{tabular} &
+			\begin{tabular}[c]{@{}l@{}}Taxa própria afeta taxa de crescimento\\ do investimento residencial negativamente\end{tabular} \\ \hline
+			\textbf{5. $\phi_0 < 0$} &
+			\begin{tabular}[c]{@{}l@{}}Coeficiente associado a demanda por\\ imóveis por motivos não especulativos é\\ estatistacamente significante\end{tabular} &
+			\begin{tabular}[c]{@{}l@{}}Taxa de crescimento do investimento residencial\\ é determinada positivamente pela demanda por \\ imóveis associada a especificidades institucionais e\\ mudanças demográficas\end{tabular} \\ \hline
+			\textbf{6. $\gamma_{2,is} < 0$} &
+			\begin{tabular}[c]{@{}l@{}}Coeficiente associado a taxa de crescimento\\ do investimento residencial é estatisticamente\\ significante\end{tabular} &
+			\begin{tabular}[c]{@{}l@{}}Taxa própria afeta a taxa de crescimento do investimento\\ residencial negativamente no curto prazo\end{tabular} \\ \hline
+			\textbf{7. $\beta_{1,is} = 0$} &
+			\begin{tabular}[c]{@{}l@{}}Efeito do investimento de $g_{I_h}$ sobre a \\ taxa própria não é estatisticamente significante\end{tabular} &
+			\begin{tabular}[c]{@{}l@{}}Efeito da taxa de crescimento do investimento residencial sobre\\ o preço dos imóveis é desprezível dado que o estoque de imóveis\\ é muito maior que o fluxo de novos imóveis\end{tabular} \\ \hline\hline
+		\end{tabular}%
+	}
+\end{table}
+
+Apesar de lançar luz sobre algumas relações relevantes, a proposição de \textcite{teixeira_crescimento_2015} não foi avaliada por meio da estimação de um modelo macroeconométrico e isso será feito a seguir.
 
 \subsection{Estimação do modelo}
 
-O modelo a ser estimado pretende testar se a inflação de ativos (\textit{i.e.} inflação do preço dos imóveis) contribui para explicar a dinâmica do investimento residencial tal como proposto por \textcite{teixeira_crescimento_2015}. 
+O modelo a ser estimado pretende testar se a inflação de ativos (\textit{i.e.} inflação do preço dos imóveis) contribui para explicar a dinâmica do investimento residencial tal como proposto por \textcite{teixeira_crescimento_2015}\footnote{Os resultados de todos os testes realizados bem como as rotinas utilizadas estão disponíveis sob solicitação.}. 
 Vale relembrar que a seleção do período analisado decorre de quebras estruturais (ver tabela \ref{structbreak}) associadas às mudanças institucionais no-pós crise das \textit{savings and loans} (FDIC e FIRREA).
 Dito isso, foram utilizadas séries trimestrais com ajuste sazonal de 1992 a 2019 (ver gráfico \ref{YeoJhonson}) da taxa de juros das hipotecas fixas em trinta anos (MORTGAGE30US, trimestralizada pelo fim do período), investimento residencial (PRFI, em taxa de crescimento) e índice de Case-Shiller (CSUSHPISA, trimestralizada pelo fim do período). 
 
@@ -78,7 +110,7 @@ Por se tratar de taxas de crescimento com ampla volatilidade, aplicou-se a trans
 \end{figure}
 
 
-Dito isso, resta determinar a defasagem utilizada. Pelos critérios de informação, tanto o primeiro (trimestre) quanto o quarto \textit{lag} são elegíveis (ver tabela \ref{criterios}). Apesar de parcimonioso, a escolha da primeira defasagem não possui respaldo empírico. Se considerar o tempo médio de construção de imóveis desde a aprovação até a conclusão, verifica-se que deve-se incluir \textit{ao menos} o segundo \textit{lag} para incorporar as residências construídas para a venda uma vez que tal motivação só é realizada se concluída a construção (ver figura \ref{meses}). Tal procedimento, no entanto, não é suficiente para determinar a seleção do \textit{lag} a ser utilizado. Dado que o fluxo de novos imóveis é significativamente inferior ao estoque existente, o efeito da variação dos preços se verifica mesmo com as construções não concluídas, ou seja, impacto decorre das residências concluídas anteriormente.  Tal elemento seria captado pela taxa própria \textit{esperada}. No entanto, não há uma série para tal de modo que as defasagens são uma primeira aproximação para a taxa esperada.
+Dito isso, resta determinar a defasagem utilizada. Pelos critérios de informação, tanto o primeiro (trimestre) quanto o quarto \textit{lag} são elegíveis (ver tabela \ref{criterios}). Apesar de parcimonioso, a escolha da primeira defasagem não possui respaldo empírico. Se considerar o tempo médio de construção de imóveis desde a aprovação até a conclusão, verifica-se que deve-se incluir \textit{ao menos} o segundo \textit{lag} para incorporar as residências construídas pela motivação de obter ganhos de capital na revenda que só se realizada uma vez concluída a construção (ver figura \ref{meses}). Tal procedimento, no entanto, não é suficiente para determinar a seleção do \textit{lag} a ser utilizado. Dado que o fluxo de novos imóveis é significativamente inferior ao estoque existente, o efeito da variação dos preços se verifica mesmo com as construções não concluídas, ou seja, o impacto esperado decorre das expectativas em relação à inflação futura.  Tal elemento seria captado pela taxa própria \textit{esperada}. No entanto, não há uma série para tal de modo que as defasagens são uma primeira aproximação para a taxa esperada.
 
 
 \begin{table}[htb]
@@ -97,7 +129,7 @@ Dito isso, resta determinar a defasagem utilizada. Pelos critérios de informaç
 	\caption*{\textbf{Fonte:} Survey of Construction (SOC), elaboração própria}
 \end{figure}
 
-Desse modo, uma alternativa é por meio de uma ``teoria prática do futuro'' --- como em \textcite[p.~214]{keynes_general_1937} --- em que o processo decisório para iniciar a construção de um novo imóvel depende de componentes expectacionais/convenções associadas às observações passadas.
+Desse modo, uma alternativa é por meio de uma ``teoria prática do futuro'' --- como em \textcite[p.~214]{keynes_general_1937} --- em que o processo decisório para comprar um novo imóvel depende de componentes expectacionais/convenções associadas às observações passadas.
 De forma a ilustrar tal relação, o gráfico \ref{defasagens} apresenta as variáveis de interesse frente ao \textit{lag} que minimiza os critérios de informação. Esse procedimento permite visualizar se existe alguma relação entre a taxa própria esperada (taxa efetiva defasada) e taxa de crescimento do investimento residencial\footnote{De modo a dar conta de não-linearidades, é apresentada a regressão quadrática entre ambas as variáveis (e o mesmo foi realizado para o gráfico inverso).}. Já a relação inversa, qual seja, da taxa de crescimento para a taxa própria não se verifica uma vez que, como visto, o fluxo de novos imóveis é bastante inferior o estoque de imóveis existente e, portanto, é esperado que tal relação não esteja presente. Em outras palavras, a especulação com o \textit{estoque}  de imóveis gera inflação desses ativos que, por conseguinte, afeta a construção de novos imóveis (\textit{fluxo}) e não o inverso\footnote{
 	Cabe aqui destacar um aspecto particular da formação de preços dos imóveis: escassez de terra. Como consequência, a especulação com residências é, no limite, especulação com a terra (único recurso escasso envolvido em sua produção) e, portanto, é importante para a especulação com o estoque de imóveis. Ao discutir a formação de preços no mercado imobiliário, \textcite[p.~349, grifos adicionados]{leamer_housing_2007} pontua:
 	
@@ -121,12 +153,12 @@ Essa inspeção, portanto, ilustra de forma bastante grosseira tal componente ex
 
 %TODO Modificar tabela da estimação
 
-Feita esta contextualização teórica da escolha das defasagens,  estima-se um VECM de ordem 4\footnote{Nota-se que tal defasagem, além de ser teoricamente justificada, também gera resíduos não heterocedásticos e sem correlação serial (ver tabela \ref{testes_resduos}).} cujos resíduos são apresentados no gráfico \ref{residuos} e resultados são expostos na tabela \ref{Estimacao}\footnote{Os resultados de todos os testes realizados bem como as rotinas utilizadas estão disponíveis sob solicitação.}.
+Uma vez selecionado o \textit{lag} que minimiza os critérios de informação e feita esta contextualização teórica da escolha das defasagens,  estima-se um VECM de ordem 4\footnote{Nota-se que tal defasagem, além de ser teoricamente justificada, também gera resíduos não heterocedásticos e sem correlação serial (ver tabela \ref{testes_resduos}).} cujos resíduos são apresentados no gráfico \ref{residuos} e resultados são expostos na tabela \ref{Estimacao}.
 Começando pela relação de cointegração, verifica-se que é estatisticamente significante para ambas as equações de modo que as variáveis partilham uma relação (negativa) de longo prazo, ou seja, são cointegradas (fundamentando 1 e 4).
 Desse modo, a proposição de \textcite{teixeira_crescimento_2015} é corroborada por meio do coeficiente $\phi_1> 0$ e estatisticamente significante.
 Além disso, os coeficientes $\gamma_{2,is}$ estimados são negativos seguindo os resultados esperados (6) do mesmo modo que a demanda por imóveis por motivos não-especulativos ($\phi_0$) é estatisticamente significante (resultado 5).
-Adotando um nível de significância de 5\%, verifica-se que o parâmetro de correção de erro é estatisticamente significante apenas para a equação da taxa de crescimento do investimento residencial. Portanto, $own$ é exogenamente fraca em relação a $g_Z$ enquanto taxa própria Granger-causa $g_Z$, validando os resultado esperados (2) e (3).
-Já as relações de curto prazo entre taxa própria e $g_Z$ (capturadas por $\beta_{1,is}$) não são estatisticamente significantes a 5\% \footnote{O resultado esperado (7) também pode ser confirmado a partir da inspeção da tabela \ref{Estimacao} em que apenas a quarta defasagem da taxa própria é estatisticamente significante nesta equação.}. Em resumo, os resultados obtidos estão em linha com os esperados. 
+Adotando um nível de significância de 5\%, verifica-se que o parâmetro de correção de erro é estatisticamente significante apenas para a equação da taxa de crescimento do investimento residencial. Portanto, a variável $own$ é exogenamente fraca em relação a $g_{I_h}$ enquanto taxa própria Granger-causa $g_{I_h}$, validando os resultado esperados (2) e (3).
+Já as relações de curto prazo entre taxa própria e $g_{I_h}$ (capturadas por $\beta_{1,is}$) não são estatisticamente significantes a 5\% \footnote{O resultado esperado (7) também pode ser confirmado a partir da inspeção da tabela \ref{Estimacao} em que apenas a quarta defasagem da taxa própria é estatisticamente significante nesta equação.}. Em resumo, os resultados obtidos estão em linha com os esperados. 
 
 \begin{table}[H]
 	\centering
@@ -144,8 +176,10 @@ Já as relações de curto prazo entre taxa própria e $g_Z$ (capturadas por $\b
 \end{figure}
 
 
-Uma forma de verificar a capacidade explicativa da taxa própria para $g_Z$ é por meio da decomposição da variância da previsão (FEVD) como no gráfico \ref{fevd}\footnote{Também é importante destacar que dado o número de variáveis (duas), a ordenação de Choleski é suficiente para analisar a função resposta ao impulso uma vez que gera uma matriz semelhante a de um VECM estrutural. 
-}. Verifica-se que desde o primeiro trimestre a taxa própria contribui para $g_Z$ enquanto o inverso não é válido. Adicionalmente, é notável que tal contribuição é crescente e maior que 50\% para além do 3º trimestre. Portanto, a taxa própria é explicada principalmente por ela mesma e explica $g_Z$ consideravelmente.
+\input{./Fatos_Estilizados/H0_Residuos.tex}
+
+Uma forma de verificar a capacidade explicativa da taxa própria para $g_{I_h}$ é por meio da decomposição da variância da previsão (FEVD) como no gráfico \ref{fevd}\footnote{Também é importante destacar que dado o número de variáveis (duas), a ordenação de Choleski é suficiente para analisar a função resposta ao impulso uma vez que gera uma matriz semelhante a de um VECM estrutural. 
+}. Verifica-se que desde o primeiro trimestre a taxa própria contribui para $g_{I_h}$ enquanto o inverso não é válido. Adicionalmente, é notável que tal contribuição é crescente e maior que 50\% para além do 3º trimestre. Portanto, a taxa própria é explicada principalmente por ela mesma e explica $g_{I_h}$ consideravelmente.
 
 \begin{figure}[htb]
 	\centering
@@ -156,10 +190,10 @@ Uma forma de verificar a capacidade explicativa da taxa própria para $g_Z$ é p
 \end{figure}
 
 
-Adiante, é apresentado o gráfico da função impulso resposta ortogonalizada --- grosso modo, as conclusões da FEVD se estendem também para os choques --- em que são avaliados os impactos no aumento de um desvio-padrão em uma das variáveis endógenas no primeiro período apenas.
+Adiante, é apresentado o gráfico da função impulso resposta ortogonalizada (gráfico \ref{irf}) --- grosso modo, as conclusões da FEVD se estendem também para os choques --- em que são avaliados os impactos no aumento de um desvio-padrão em uma das variáveis endógenas no primeiro período apenas.
 %TODO Checar
-A partir deste gráfico, verifica-se que o sistema é estável uma vez que os efeitos do aumento de $g_Z$ sobre $g_Z$ é amortecido ao longo do tempo enquanto os efeitos da taxa própria sobre a ela mesma são persistentes mas não explosivos.
-Já os efeitos de $g_Z$ sobre a taxa própria são nulos uma vez que o intervalo de confiança sempre abrange o zero. Por fim, e este é o resultado relevante, dados os objetivos, é o efeito negativo considerável e duradouro da taxa própria sobre $g_Z$, confirmando a tese de \textcite{teixeira_crescimento_2015}.
+A partir deste gráfico, verifica-se que o sistema é estável uma vez que os efeitos do aumento de $g_{I_h}$ sobre $g_{I_h}$ é amortecido ao longo do tempo enquanto os efeitos da taxa própria sobre a ela mesma são persistentes mas não explosivos.
+Já os efeitos de $g_{I_h}$ sobre a taxa própria são nulos uma vez que o intervalo de confiança sempre abrange o zero. Por fim, e este é o resultado relevante, dados os objetivos, é o efeito negativo considerável e duradouro da taxa própria sobre $g_{I_h}$, confirmando a tese de \textcite{teixeira_crescimento_2015}.
 Em resumo, as funções resposta ao impulso indicam que o aumento da taxa de juros das hipotecas (aumento na Taxa Própria) impacta negativamente na taxa de crescimento residencial enquanto o aumento da inflação de ativos implica no inverso. 
 %alinhado com os resultados de \textcite{huang_is_2018} para o longo prazo.
 %podendo estar associado aos gastos com aprimoramento residencial uma vez encerradas as construções (também contabilizado como investimento residencial).
@@ -168,14 +202,14 @@ Em resumo, as funções resposta ao impulso indicam que o aumento da taxa de jur
 \begin{figure}[H]
 	\centering
 	\caption{Função impulso resposta ortogonalizada}
-	\label{fevd}
+	\label{irf}
 	\includegraphics[width=\textwidth]{../../Modelo/SeriesTemporais/figs/Impulso_VECM.png}
 	\caption*{\textbf{Fonte:} Elaboração própria}
 \end{figure}
 
 Dos resultados apresentados acima, verifica-se que a taxa própria de juros dos imóveis tem uma capacidade explicativa significativa. Vale destacar que apesar de amplitude das defasagens selecionadas, o modelo estimado é bastante parcimonioso em termos das variáveis utilizadas. Desse modo, considerando o grau de parcimônia e a robustez dos resultados, conclui-se que é um modelo satisfatório para explicar a taxa de crescimento do investimento residencial. 
 %Diante da qualidade do ajuste, o gráfico \ref{previsao} apresenta a previsão do modelo 4 passos a frente. 
-%Avaliando o últimos resultados disponíveis das contas nacionais e estimativas da taxa própria, verifica-se uma previsão satisfatória uma vez que tanto $g_Z$ reduz quanto a taxa própria aumenta.
+%Avaliando o últimos resultados disponíveis das contas nacionais e estimativas da taxa própria, verifica-se uma previsão satisfatória uma vez que tanto $g_{I_h}$ reduz quanto a taxa própria aumenta.
 
 \begin{comment}
 \begin{figure}[H]
@@ -213,10 +247,10 @@ Dos resultados apresentados acima, verifica-se que a taxa própria de juros dos 
 
 \begin{table}[H]
 \begin{center}
-\caption{Parâmetros para a equação da $g_Z$}	
+\caption{Parâmetros para a equação da $g_{I_h}$}	
 \begin{tabular}{lccclcc}
 \toprule
-\textbf{Equação:} $g_Z$ & \textbf{coef} & \textbf{std err} & \textbf{z} & \textbf{P$> |$z$|$} & \textbf{[0.025} & \textbf{0.975]}  \\
+\textbf{Equação:} $g_{I_h}$ & \textbf{coef} & \textbf{std err} & \textbf{z} & \textbf{P$> |$z$|$} & \textbf{[0.025} & \textbf{0.975]}  \\
 \midrule
 \textbf{$L^1 $ Taxa Própria} &      -0.8392  &        0.553     &    -1.517  &         0.129        &       -1.924    &        0.245     \\
 \textbf{$L^1 $ gZ}           &       0.1290  &        0.090     &     1.435  &         0.151        &       -0.047    &        0.305     \\

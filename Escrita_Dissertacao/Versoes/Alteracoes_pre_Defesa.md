@@ -20,7 +20,9 @@
 #### Dúvidas
 
 - Antiga nota de rodapé 43: Convergência do grau de utilização ao normal --- exceto modelo da Lídia --- é suficiente para que os paradoxos kaleckianos sejam eliminados?
+  - Tirar nota
 - Crítica ao modelo do Hein é suficiente?
+  - Levantar suspeita que pode ter interferência
 - Acha que é necessário escrever a nota de rodapé sobre P&D mesmo sem analisar os modelos que o incluem?
 
 ### Seção investimento residencial

@@ -525,47 +525,6 @@
       \verb https://www.tandfonline.com/doi/full/10.1080/0953825042000183181
       \endverb
     \endentry
-    \entry{atesoglu_balance--payments-constrained_1993}{article}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=56b379c28e862e0236e9315332bd1b02}{%
-           family={Atesoglu},
-           familyi={A\bibinitperiod},
-           given={H.\bibnamedelimi Sonmez},
-           giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{56b379c28e862e0236e9315332bd1b02}
-      \strng{fullhash}{56b379c28e862e0236e9315332bd1b02}
-      \strng{bibnamehash}{56b379c28e862e0236e9315332bd1b02}
-      \strng{authorbibnamehash}{56b379c28e862e0236e9315332bd1b02}
-      \strng{authornamehash}{56b379c28e862e0236e9315332bd1b02}
-      \strng{authorfullhash}{56b379c28e862e0236e9315332bd1b02}
-      \field{sortinit}{A}
-      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{issn}{0160-3477}
-      \field{journaltitle}{Journal of Post Keynesian Economics}
-      \field{number}{4}
-      \field{shorttitle}{Balance-of-{Payments}-{Constrained} {Growth}}
-      \field{title}{Balance-of-{Payments}-{Constrained} {Growth}: {Evidence} from the {United} {States}}
-      \field{urlday}{18}
-      \field{urlmonth}{7}
-      \field{urlyear}{2019}
-      \field{volume}{15}
-      \field{year}{1993}
-      \field{urldateera}{ce}
-      \field{pages}{507\bibrangedash 514}
-      \range{pages}{8}
-      \verb{urlraw}
-      \verb https://www.jstor.org/stable/4538362
-      \endverb
-      \verb{url}
-      \verb https://www.jstor.org/stable/4538362
-      \endverb
-    \endentry
     \entry{baranzini_cambridge_2013}{incollection}{}
       \name{author}{2}{}{%
         {{uniquename=0,uniquepart=base,hash=7b3662fc6c95e33fe718539273266428}{%
@@ -627,42 +586,6 @@
       \verb{url}
       \verb http://www.oxfordhandbooks.com/view/10.1093/oxfordhb/9780195390766.001.0001/oxfordhb-9780195390766-e-015
       \endverb
-    \endentry
-    \entry{barba_rising_2009}{article}{}
-      \name{author}{2}{}{%
-        {{uniquename=0,uniquepart=base,hash=6cc478dc77e77e82070c7186ba574d89}{%
-           family={Barba},
-           familyi={B\bibinitperiod},
-           given={Aldo},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=c6c42785bfd3878a69c0f34188571d19}{%
-           family={Pivetti},
-           familyi={P\bibinitperiod},
-           given={Massimo},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{5c6dcaef368cfd1a4f488db817757099}
-      \strng{fullhash}{5c6dcaef368cfd1a4f488db817757099}
-      \strng{bibnamehash}{5c6dcaef368cfd1a4f488db817757099}
-      \strng{authorbibnamehash}{5c6dcaef368cfd1a4f488db817757099}
-      \strng{authornamehash}{5c6dcaef368cfd1a4f488db817757099}
-      \strng{authorfullhash}{5c6dcaef368cfd1a4f488db817757099}
-      \field{sortinit}{B}
-      \field{sortinithash}{276475738cc058478c1677046f857703}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{The article analyses the rise in household indebtedness from the point of view of its causes and long-run macroeconomic implications. The analysis is focussed on the US case. Differently from life-cycle interpretations of the phenomenon, and from interpretations in terms of erratic deviations of current income flows from their long-run trend, the rising household debt is viewed as the outcome of persistent changes in income distribution and growing income inequalities. Through household debt, low wages appear to have been brought to coexist with relatively high levels of aggregate demand, thus providing the solution to the contradiction between the necessity of high and rising consumption levels, for the growth of the system's actual output, and a framework of antagonistic conditions of distribution which keeps within limits the real income of the vast majority of society. The question of the long-run sustainability of this substitution of loans for wages is finally discussed. Reprinted by permission of Oxford University Press}
-      \field{journaltitle}{Cambridge Journal of Economics}
-      \field{title}{Rising household debt: {Its} causes and macroeconomic implications - {A} long-period analysis}
-      \field{year}{2009}
-      \verb{file}
-      \verb Barba, Pivetti_2009_Rising household debt Its causes and macroeconomic implications - A long-period analysis:/home/gpetrini/Zotero/storage/VUS4HDUH/Barba, Pivetti_2009_Rising household debt Its causes and macroeconomic implications - A long-period analysis.pdf:application/pdf
-      \endverb
-      \keyw{Principal,REVISTO,METADATA}
     \endentry
     \entry{bassanetti_effects_2010}{incollection}{}
       \name{author}{2}{}{%
@@ -753,68 +676,6 @@
       \endverb
       \keyw{consumption,housing,wealth effects}
     \endentry
-    \entry{bertola_balance--payments-constrained_2002}{article}{}
-      \name{author}{3}{}{%
-        {{uniquename=0,uniquepart=base,hash=ff0c74293cf26270cd1d860625fda2c0}{%
-           family={Bértola},
-           familyi={B\bibinitperiod},
-           given={Luis},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=3434d1c3cbcecba998c409d24ede6d07}{%
-           family={Higachi},
-           familyi={H\bibinitperiod},
-           given={Hermes},
-           giveni={H\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=f73dfd52cdf59f9942ae88a9c185ebb4}{%
-           family={Porcile},
-           familyi={P\bibinitperiod},
-           given={Gabriel},
-           giveni={G\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{2e4d488ef9838509905d2796fe8e1ca0}
-      \strng{fullhash}{2e4d488ef9838509905d2796fe8e1ca0}
-      \strng{bibnamehash}{2e4d488ef9838509905d2796fe8e1ca0}
-      \strng{authorbibnamehash}{2e4d488ef9838509905d2796fe8e1ca0}
-      \strng{authornamehash}{2e4d488ef9838509905d2796fe8e1ca0}
-      \strng{authorfullhash}{2e4d488ef9838509905d2796fe8e1ca0}
-      \field{sortinit}{B}
-      \field{sortinithash}{276475738cc058478c1677046f857703}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{The paper offers a time-series test of Thirlwall's Law for Brazil during the 1890-1973 period. The results confirm the existence of a long-run relationship between Brazilian gross domestic product (GDP), terms-of-trade, and world income, as Thirlwall's Law predicts. In addition, an error correction model is estimated, which shows that adjusting toward Thirlwall's Law equilibrium explains a substantial part of total variation of real GDP in the short run.}
-      \field{issn}{0160-3477}
-      \field{journaltitle}{Journal of Post Keynesian Economics}
-      \field{month}{1}
-      \field{number}{1}
-      \field{shorttitle}{Balance-of-payments-constrained growth in {Brazil}}
-      \field{title}{Balance-of-payments-constrained growth in {Brazil}: a test of {Thirlwall}'s {Law}, 1890-1973}
-      \field{urlday}{18}
-      \field{urlmonth}{7}
-      \field{urlyear}{2019}
-      \field{volume}{25}
-      \field{year}{2002}
-      \field{urldateera}{ce}
-      \field{pages}{123\bibrangedash 140}
-      \range{pages}{18}
-      \verb{doi}
-      \verb 10.1080/01603477.2002.11051348
-      \endverb
-      \verb{file}
-      \verb Snapshot:/home/gpetrini/Zotero/storage/TE6AEW34/01603477.2002.html:text/html
-      \endverb
-      \verb{urlraw}
-      \verb https://www.tandfonline.com/doi/abs/10.1080/01603477.2002.11051348
-      \endverb
-      \verb{url}
-      \verb https://www.tandfonline.com/doi/abs/10.1080/01603477.2002.11051348
-      \endverb
-      \keyw{Brazil,Keynesian growth models,Thirlwall\&\#146s Law}
-    \endentry
     \entry{bhaduri_unemployment_1990}{article}{}
       \name{author}{2}{}{%
         {{uniquename=0,uniquepart=base,hash=9c76e730d0a9fbad8915759c828045fc}{%
@@ -863,6 +724,64 @@
       \endverb
       \verb{url}
       \verb https://econpapers.repec.org/article/oupcambje/v_3a14_3ay_3a1990_3ai_3a4_3ap_3a375-93.htm
+      \endverb
+    \endentry
+    \entry{bhering_thirlwall_2019}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=486e2a2b94f0ac8555e1d35d146744ca}{%
+           family={Bhering},
+           familyi={B\bibinitperiod},
+           given={Gustavo},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=8df1ed774cbbdbac66d3fc8dafb0bcd5}{%
+           family={Serrano},
+           familyi={S\bibinitperiod},
+           given={Franklin},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=3ba81991a930dec00f3eb1addd9c1dc0}{%
+           family={Freitas},
+           familyi={F\bibinitperiod},
+           given={Fabio},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{3247ddf6bbc45c0eb45e5acd2167498f}
+      \strng{fullhash}{3247ddf6bbc45c0eb45e5acd2167498f}
+      \strng{bibnamehash}{3247ddf6bbc45c0eb45e5acd2167498f}
+      \strng{authorbibnamehash}{3247ddf6bbc45c0eb45e5acd2167498f}
+      \strng{authornamehash}{3247ddf6bbc45c0eb45e5acd2167498f}
+      \strng{authorfullhash}{3247ddf6bbc45c0eb45e5acd2167498f}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2049-5331, 2049-5323}
+      \field{journaltitle}{Review of Keynesian Economics}
+      \field{number}{4}
+      \field{title}{Thirlwall's law, external debt sustainability, and the balance-of-payments-constrained level and growth rates of output}
+      \field{urlday}{29}
+      \field{urlmonth}{1}
+      \field{urlyear}{2020}
+      \field{volume}{7}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \field{pages}{486\bibrangedash 497}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.4337/roke.2019.04.05
+      \endverb
+      \verb{urlraw}
+      \verb https://www.elgaronline.com/view/journals/roke/7-4/roke.2019.04.05.xml
+      \endverb
+      \verb{url}
+      \verb https://www.elgaronline.com/view/journals/roke/7-4/roke.2019.04.05.xml
       \endverb
     \endentry
     \entry{bibow_financialization_2010}{report}{}
@@ -2065,12 +1984,12 @@
     \endentry
     \entry{duesenberry_income_1949}{book}{}
       \name{author}{1}{}{%
-        {{uniquename=1,uniquepart=given,hash=0874836c3be38fc451db9cc35e04bc03}{%
+        {{uniquename=0,uniquepart=base,hash=293f2b8ea3318902aabca08bb732e9c6}{%
            family={Duesenberry},
            familyi={D\bibinitperiod},
-           given={James},
-           giveni={J\bibinitperiod},
-           givenun=1}}%
+           given={James\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
       }
       \list{language}{1}{%
         {eng}%
@@ -2081,12 +2000,13 @@
       \list{publisher}{1}{%
         {Harvard University Press}%
       }
-      \strng{namehash}{0874836c3be38fc451db9cc35e04bc03}
-      \strng{fullhash}{0874836c3be38fc451db9cc35e04bc03}
-      \strng{bibnamehash}{0874836c3be38fc451db9cc35e04bc03}
-      \strng{authorbibnamehash}{0874836c3be38fc451db9cc35e04bc03}
-      \strng{authornamehash}{0874836c3be38fc451db9cc35e04bc03}
-      \strng{authorfullhash}{0874836c3be38fc451db9cc35e04bc03}
+      \strng{namehash}{293f2b8ea3318902aabca08bb732e9c6}
+      \strng{fullhash}{293f2b8ea3318902aabca08bb732e9c6}
+      \strng{bibnamehash}{293f2b8ea3318902aabca08bb732e9c6}
+      \strng{authorbibnamehash}{293f2b8ea3318902aabca08bb732e9c6}
+      \strng{authornamehash}{293f2b8ea3318902aabca08bb732e9c6}
+      \strng{authorfullhash}{293f2b8ea3318902aabca08bb732e9c6}
+      \field{extraname}{1}
       \field{sortinit}{D}
       \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
       \field{extradatescope}{labelyear}
@@ -2103,12 +2023,12 @@
     \endentry
     \entry{duesenberry_investment_1958}{incollection}{}
       \name{author}{1}{}{%
-        {{uniquename=1,uniquepart=given,hash=293f2b8ea3318902aabca08bb732e9c6}{%
+        {{uniquename=0,uniquepart=base,hash=293f2b8ea3318902aabca08bb732e9c6}{%
            family={Duesenberry},
            familyi={D\bibinitperiod},
            given={James\bibnamedelima S.},
            giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
-           givenun=1}}%
+           givenun=0}}%
       }
       \list{publisher}{1}{%
         {McGraw-Hill}%
@@ -2119,6 +2039,7 @@
       \strng{authorbibnamehash}{293f2b8ea3318902aabca08bb732e9c6}
       \strng{authornamehash}{293f2b8ea3318902aabca08bb732e9c6}
       \strng{authorfullhash}{293f2b8ea3318902aabca08bb732e9c6}
+      \field{extraname}{2}
       \field{sortinit}{D}
       \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
       \field{extradatescope}{labelyear}
@@ -4215,7 +4136,6 @@
       \strng{authorbibnamehash}{d34fbc986b4e6508a74d930fc09c55cf}
       \strng{authornamehash}{d34fbc986b4e6508a74d930fc09c55cf}
       \strng{authorfullhash}{d34fbc986b4e6508a74d930fc09c55cf}
-      \field{extraname}{1}
       \field{sortinit}{H}
       \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
       \field{extradatescope}{labelyear}
@@ -4224,42 +4144,6 @@
       \field{labeltitlesource}{title}
       \field{title}{Capital and {Growth} {Oxford}}
       \field{year}{1965}
-    \endentry
-    \entry{hicks_contribution_1972}{book}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=85ecf7cf2907ea7e9a48ba99d6ef2872}{%
-           family={Hicks},
-           familyi={H\bibinitperiod},
-           given={John},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{language}{1}{%
-        {English}%
-      }
-      \list{location}{1}{%
-        {Oxford}%
-      }
-      \list{publisher}{1}{%
-        {At the Clarendon Press}%
-      }
-      \strng{namehash}{85ecf7cf2907ea7e9a48ba99d6ef2872}
-      \strng{fullhash}{85ecf7cf2907ea7e9a48ba99d6ef2872}
-      \strng{bibnamehash}{85ecf7cf2907ea7e9a48ba99d6ef2872}
-      \strng{authorbibnamehash}{85ecf7cf2907ea7e9a48ba99d6ef2872}
-      \strng{authornamehash}{85ecf7cf2907ea7e9a48ba99d6ef2872}
-      \strng{authorfullhash}{85ecf7cf2907ea7e9a48ba99d6ef2872}
-      \field{extraname}{2}
-      \field{sortinit}{H}
-      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{isbn}{978-0-19-828112-2}
-      \field{note}{OCLC: 604424643}
-      \field{title}{A contribution to the theory of the trade cycle}
-      \field{year}{1950}
     \endentry
     \entry{huang_is_2018}{article}{}
       \name{author}{4}{}{%
@@ -5232,46 +5116,6 @@
       \verb Mandarino - 2018 - Financing of investment and consumption three ess.pdf:/home/gpetrini/Zotero/storage/4HK38NLD/Mandarino - 2018 - Financing of investment and consumption three ess.pdf:application/pdf
       \endverb
     \endentry
-    \entry{mccombie_empirics_1997}{article}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=647ece5b1327aa63c2ff03c4db473fda}{%
-           family={McCombie},
-           familyi={M\bibinitperiod},
-           given={John\bibnamedelimb S.\bibnamedelimi L.},
-           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim L\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{647ece5b1327aa63c2ff03c4db473fda}
-      \strng{fullhash}{647ece5b1327aa63c2ff03c4db473fda}
-      \strng{bibnamehash}{647ece5b1327aa63c2ff03c4db473fda}
-      \strng{authorbibnamehash}{647ece5b1327aa63c2ff03c4db473fda}
-      \strng{authornamehash}{647ece5b1327aa63c2ff03c4db473fda}
-      \strng{authorfullhash}{647ece5b1327aa63c2ff03c4db473fda}
-      \field{sortinit}{M}
-      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0160-3477}
-      \field{journaltitle}{Journal of Post Keynesian Economics}
-      \field{number}{3}
-      \field{title}{On the {Empirics} of {Balance}-of-{Payments}-{Constrained} {Growth}}
-      \field{urlday}{18}
-      \field{urlmonth}{7}
-      \field{urlyear}{2019}
-      \field{volume}{19}
-      \field{year}{1997}
-      \field{urldateera}{ce}
-      \field{pages}{345\bibrangedash 375}
-      \range{pages}{31}
-      \verb{urlraw}
-      \verb https://www.jstor.org/stable/4538541
-      \endverb
-      \verb{url}
-      \verb https://www.jstor.org/stable/4538541
-      \endverb
-    \endentry
     \entry{medici_cointegration_2011}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=2f8bbf2bfdf323d97537aba4187d7bf2}{%
@@ -5419,55 +5263,6 @@
       \field{year}{1997}
       \verb{file}
       \verb Citeseer - Snapshot:/home/gpetrini/Zotero/storage/AZYUNUHI/summary.html:text/html;Mishkin - 1997 - Evaluating FDICIA.pdf:/home/gpetrini/Zotero/storage/IS4CYI8R/Mishkin - 1997 - Evaluating FDICIA.pdf:application/pdf
-      \endverb
-    \endentry
-    \entry{moreno-brid_mexicos_1999}{article}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=57eed134cc0222460bb5771418f11a0f}{%
-           family={Moreno-Brid},
-           familyi={M\bibinithyphendelim B\bibinitperiod},
-           given={Juan\bibnamedelima Carlos},
-           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{57eed134cc0222460bb5771418f11a0f}
-      \strng{fullhash}{57eed134cc0222460bb5771418f11a0f}
-      \strng{bibnamehash}{57eed134cc0222460bb5771418f11a0f}
-      \strng{authorbibnamehash}{57eed134cc0222460bb5771418f11a0f}
-      \strng{authornamehash}{57eed134cc0222460bb5771418f11a0f}
-      \strng{authorfullhash}{57eed134cc0222460bb5771418f11a0f}
-      \field{sortinit}{M}
-      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{This paper applies the basic balance-of-payments constraint model (BPCmodel), developed by A.P. Thirlwall, to the analysis of Mexico's economic growth in 1950-96.With the use of unit-root tests and cointegration analysis it estimates the long-run association between the growth of Mexico's real exports and real output in 1950-96, and selected subperiods. The results tend to show significant and positive cointegration between these two variables, thus giving support to the BPC-model as a relevant hypothesis to explain Mexico's long-term economic growth. Moreover, the findings of cointegration tests for selected subperiods suggest that the slowdown in its economic growth since 1982 is associated with an increase in the long-term income elasticity of imports that made more binding the balance-of-payments constraint on the expansion of domestic output.}
-      \field{issn}{0269-2171}
-      \field{journaltitle}{International Review of Applied Economics}
-      \field{month}{5}
-      \field{number}{2}
-      \field{shorttitle}{Mexico's {Economic} {Growth} and the {Balance} of {Payments} {Constraint}}
-      \field{title}{Mexico's {Economic} {Growth} and the {Balance} of {Payments} {Constraint}: {A} cointegration analysis}
-      \field{urlday}{18}
-      \field{urlmonth}{7}
-      \field{urlyear}{2019}
-      \field{volume}{13}
-      \field{year}{1999}
-      \field{urldateera}{ce}
-      \field{pages}{149\bibrangedash 159}
-      \range{pages}{11}
-      \verb{doi}
-      \verb 10.1080/026921799101634
-      \endverb
-      \verb{file}
-      \verb Snapshot:/home/gpetrini/Zotero/storage/ADXKRISJ/026921799101634.html:text/html
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1080/026921799101634
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1080/026921799101634
       \endverb
     \endentry
     \entry{federal_deposit_insurance_corporation_savings_1997}{incollection}{}
@@ -7387,46 +7182,6 @@
       \endverb
       \verb{url}
       \verb https://academic.oup.com/cje/article/3/4/341/1729922
-      \endverb
-    \endentry
-    \entry{wolf_rising_2010}{article}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=56ab0899ad15a1bac865198fa8c8d363}{%
-           family={Wolf},
-           familyi={W\bibinitperiod},
-           given={Edward\bibnamedelima N.},
-           giveni={E\bibinitperiod\bibinitdelim N\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{56ab0899ad15a1bac865198fa8c8d363}
-      \strng{fullhash}{56ab0899ad15a1bac865198fa8c8d363}
-      \strng{bibnamehash}{56ab0899ad15a1bac865198fa8c8d363}
-      \strng{authorbibnamehash}{56ab0899ad15a1bac865198fa8c8d363}
-      \strng{authornamehash}{56ab0899ad15a1bac865198fa8c8d363}
-      \strng{authorfullhash}{56ab0899ad15a1bac865198fa8c8d363}
-      \field{sortinit}{W}
-      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0036-8237}
-      \field{journaltitle}{Science \& Society}
-      \field{number}{3}
-      \field{title}{Rising {Profitability} and the {Middle} {Class} {Squeeze}}
-      \field{urlday}{20}
-      \field{urlmonth}{12}
-      \field{urlyear}{2019}
-      \field{volume}{74}
-      \field{year}{2010}
-      \field{urldateera}{ce}
-      \field{pages}{429\bibrangedash 449}
-      \range{pages}{21}
-      \verb{urlraw}
-      \verb www.jstor.org/stable/25681252
-      \endverb
-      \verb{url}
-      \verb www.jstor.org/stable/25681252
       \endverb
     \endentry
     \entry{wolfson_irving_1996}{article}{}
