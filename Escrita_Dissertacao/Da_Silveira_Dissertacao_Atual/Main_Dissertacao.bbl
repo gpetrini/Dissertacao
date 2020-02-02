@@ -4145,6 +4145,57 @@
       \field{title}{Capital and {Growth} {Oxford}}
       \field{year}{1965}
     \endentry
+    \entry{hoffmann_distribuicao_2018}{book}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=eb08e625d651cc5a6fcddad8bbb2fbc2}{%
+           family={Hoffmann},
+           familyi={H\bibinitperiod},
+           given={Rodolfo},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=cd54a30c0eea5cb234eaa23ccb5eaf93}{%
+           family={Jesus},
+           familyi={J\bibinitperiod},
+           given={Josimar\bibnamedelima Gonçalves},
+           giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0,
+           prefix={de},
+           prefixi={d\bibinitperiod},
+           prefixun=0}}%
+        {{uniquename=0,uniquepart=base,hash=b09b18a176f0bee520b2b6dc6358ff09}{%
+           family={Botassio},
+           familyi={B\bibinitperiod},
+           given={Diego\bibnamedelima Camargo},
+           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {Português}%
+      }
+      \list{location}{1}{%
+        {São Paulo}%
+      }
+      \list{publisher}{1}{%
+        {EDUSP}%
+      }
+      \strng{namehash}{e6289b75ad44c9cf1792888b8cb3b63b}
+      \strng{fullhash}{e6289b75ad44c9cf1792888b8cb3b63b}
+      \strng{bibnamehash}{e6289b75ad44c9cf1792888b8cb3b63b}
+      \strng{authorbibnamehash}{e6289b75ad44c9cf1792888b8cb3b63b}
+      \strng{authornamehash}{e6289b75ad44c9cf1792888b8cb3b63b}
+      \strng{authorfullhash}{e6289b75ad44c9cf1792888b8cb3b63b}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2}
+      \field{isbn}{978-85-314-0473-3}
+      \field{note}{Versão Preliminar}
+      \field{title}{Distribuicao {De} {Renda}: {Medidas} {De} {Desigualdade} {E} {Pobreza}}
+      \field{year}{2018}
+    \endentry
     \entry{huang_is_2018}{article}{}
       \name{author}{4}{}{%
         {{uniquename=0,uniquepart=base,hash=588d31121311facee378c2df49409106}{%
@@ -5116,6 +5167,56 @@
       \verb Mandarino - 2018 - Financing of investment and consumption three ess.pdf:/home/gpetrini/Zotero/storage/4HK38NLD/Mandarino - 2018 - Financing of investment and consumption three ess.pdf:application/pdf
       \endverb
     \endentry
+    \entry{medeiros_uma_2006}{report}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=34018f871a35a9997b20185bcd31be2f}{%
+           family={Medeiros},
+           familyi={M\bibinitperiod},
+           given={Marcelo},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {IPEA}%
+      }
+      \list{language}{1}{%
+        {pt}%
+      }
+      \list{location}{1}{%
+        {Brasília}%
+      }
+      \strng{namehash}{34018f871a35a9997b20185bcd31be2f}
+      \strng{fullhash}{34018f871a35a9997b20185bcd31be2f}
+      \strng{bibnamehash}{34018f871a35a9997b20185bcd31be2f}
+      \strng{authorbibnamehash}{34018f871a35a9997b20185bcd31be2f}
+      \strng{authornamehash}{34018f871a35a9997b20185bcd31be2f}
+      \strng{authorfullhash}{34018f871a35a9997b20185bcd31be2f}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{Texto para discussão 1202}
+      \field{title}{Uma introdução às representações gráficas da desigualdade de renda}
+      \field{type}{techreport}
+      \field{urlday}{31}
+      \field{urlmonth}{1}
+      \field{urlyear}{2020}
+      \field{year}{2006}
+      \field{urldateera}{ce}
+      \field{pages}{43}
+      \range{pages}{1}
+      \verb{file}
+      \verb Medeiros - TEXTO PARA DISCUSSÃO No 1202.pdf:/home/gpetrini/Zotero/storage/F7TYT5K9/Medeiros - TEXTO PARA DISCUSSÃO No 1202.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://www.ipea.gov.br/portal/images/stories/PDFs/TDs/td_1202.pdf
+      \endverb
+      \verb{url}
+      \verb http://www.ipea.gov.br/portal/images/stories/PDFs/TDs/td_1202.pdf
+      \endverb
+    \endentry
     \entry{medici_cointegration_2011}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=2f8bbf2bfdf323d97537aba4187d7bf2}{%
@@ -5597,7 +5698,6 @@
       \strng{authorbibnamehash}{1d5c10b853cf8e0c03b1c84ff20bb837}
       \strng{authornamehash}{1d5c10b853cf8e0c03b1c84ff20bb837}
       \strng{authorfullhash}{1d5c10b853cf8e0c03b1c84ff20bb837}
-      \field{extraname}{1}
       \field{sortinit}{P}
       \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
       \field{extradatescope}{labelyear}
@@ -5624,159 +5724,6 @@
       \verb https://econpapers.repec.org/bookchap/elgeechap/12814_5f14.htm
       \endverb
       \keyw{Economics and Finance}
-    \endentry
-    \entry{palley_inside_1996}{article}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=d8beed570cc6438dfa9447dc88fcb98e}{%
-           family={Palley},
-           familyi={P\bibinitperiod},
-           given={{Thomas I.}},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{d8beed570cc6438dfa9447dc88fcb98e}
-      \strng{fullhash}{d8beed570cc6438dfa9447dc88fcb98e}
-      \strng{bibnamehash}{d8beed570cc6438dfa9447dc88fcb98e}
-      \strng{authorbibnamehash}{d8beed570cc6438dfa9447dc88fcb98e}
-      \strng{authornamehash}{d8beed570cc6438dfa9447dc88fcb98e}
-      \strng{authorfullhash}{d8beed570cc6438dfa9447dc88fcb98e}
-      \field{extraname}{2}
-      \field{sortinit}{P}
-      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Abstract. This paper presents a Kaleckian model of aggregate demand with inside debt and a generational structure. The model shows how worker borrowing and pop}
-      \field{issn}{0309-166X}
-      \field{journaltitle}{Cambridge Journal of Economics}
-      \field{number}{4}
-      \field{title}{Inside debt, aggregate demand, and the {Cambridge} theory of distribution}
-      \field{urlday}{19}
-      \field{urlmonth}{6}
-      \field{urlyear}{2019}
-      \field{volume}{20}
-      \field{year}{1996}
-      \field{urldateera}{ce}
-      \field{pages}{465\bibrangedash 474}
-      \range{pages}{10}
-      \verb{doi}
-      \verb 10.1093/oxfordjournals.cje.a013627
-      \endverb
-      \verb{file}
-      \verb Full Text PDF:/home/gpetrini/Zotero/storage/36MLLMI7/Palley - 1996 - Inside debt, aggregate demand, and the Cambridge t.pdf:application/pdf;Snapshot:/home/gpetrini/Zotero/storage/4JBVIQMI/1729731.html:text/html
-      \endverb
-      \verb{urlraw}
-      \verb https://academic.oup.com/cje/article/20/4/465/1729731
-      \endverb
-      \verb{url}
-      \verb https://academic.oup.com/cje/article/20/4/465/1729731
-      \endverb
-    \endentry
-    \entry{palley_money_1997}{article}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=d8beed570cc6438dfa9447dc88fcb98e}{%
-           family={Palley},
-           familyi={P\bibinitperiod},
-           given={{Thomas I.}},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{d8beed570cc6438dfa9447dc88fcb98e}
-      \strng{fullhash}{d8beed570cc6438dfa9447dc88fcb98e}
-      \strng{bibnamehash}{d8beed570cc6438dfa9447dc88fcb98e}
-      \strng{authorbibnamehash}{d8beed570cc6438dfa9447dc88fcb98e}
-      \strng{authornamehash}{d8beed570cc6438dfa9447dc88fcb98e}
-      \strng{authorfullhash}{d8beed570cc6438dfa9447dc88fcb98e}
-      \field{extraname}{3}
-      \field{sortinit}{P}
-      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Abstract. This paper extends the Cambridge theory of income distribution to a monetary economy, and explores the implications of fiscal deficits that are money}
-      \field{issn}{0309-166X}
-      \field{journaltitle}{Cambridge Journal of Economics}
-      \field{number}{5}
-      \field{title}{Money, fiscal policy and the {Cambridge} theorem}
-      \field{urlday}{19}
-      \field{urlmonth}{6}
-      \field{urlyear}{2019}
-      \field{volume}{21}
-      \field{year}{1997}
-      \field{urldateera}{ce}
-      \field{pages}{633\bibrangedash 639}
-      \range{pages}{7}
-      \verb{doi}
-      \verb 10.1093/oxfordjournals.cje.a013690
-      \endverb
-      \verb{file}
-      \verb Full Text PDF:/home/gpetrini/Zotero/storage/B4T5VMFU/Palley - 1997 - Money, fiscal policy and the Cambridge theorem.pdf:application/pdf;Snapshot:/home/gpetrini/Zotero/storage/HFBH39A5/1718777.html:text/html
-      \endverb
-      \verb{urlraw}
-      \verb https://academic.oup.com/cje/article/21/5/633/1718777
-      \endverb
-      \verb{url}
-      \verb https://academic.oup.com/cje/article/21/5/633/1718777
-      \endverb
-    \endentry
-    \entry{palley_financial_2002}{article}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=d8beed570cc6438dfa9447dc88fcb98e}{%
-           family={Palley},
-           familyi={P\bibinitperiod},
-           given={{Thomas I.}},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{d8beed570cc6438dfa9447dc88fcb98e}
-      \strng{fullhash}{d8beed570cc6438dfa9447dc88fcb98e}
-      \strng{bibnamehash}{d8beed570cc6438dfa9447dc88fcb98e}
-      \strng{authorbibnamehash}{d8beed570cc6438dfa9447dc88fcb98e}
-      \strng{authornamehash}{d8beed570cc6438dfa9447dc88fcb98e}
-      \strng{authorfullhash}{d8beed570cc6438dfa9447dc88fcb98e}
-      \field{extraname}{4}
-      \field{sortinit}{P}
-      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Abstract. This paper shows how the Cambridge theory of distribution is affected by the nature of financial intermediation. When credit markets are akin to loan}
-      \field{issn}{0309-166X}
-      \field{journaltitle}{Cambridge Journal of Economics}
-      \field{number}{2}
-      \field{title}{Financial institutions and the {Cambridge} theory of distribution}
-      \field{urlday}{19}
-      \field{urlmonth}{6}
-      \field{urlyear}{2019}
-      \field{volume}{26}
-      \field{year}{2002}
-      \field{urldateera}{ce}
-      \field{pages}{275\bibrangedash 277}
-      \range{pages}{3}
-      \verb{doi}
-      \verb 10.1093/cje/26.2.275
-      \endverb
-      \verb{file}
-      \verb Full Text PDF:/home/gpetrini/Zotero/storage/WWS5XYBB/Palley - 2002 - Financial institutions and the Cambridge theory of.pdf:application/pdf;Snapshot:/home/gpetrini/Zotero/storage/SNE5JCIV/1684567.html:text/html
-      \endverb
-      \verb{urlraw}
-      \verb https://academic.oup.com/cje/article/26/2/275/1684567
-      \endverb
-      \verb{url}
-      \verb https://academic.oup.com/cje/article/26/2/275/1684567
-      \endverb
     \endentry
     \entry{pariboni_household_2016}{report}{}
       \name{author}{1}{}{%
@@ -6320,50 +6267,6 @@
       \verb https://academic.oup.com/cpe/article/428995/LONG
       \endverb
     \endentry
-    \entry{serrano_long_1995-1}{article}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=8df1ed774cbbdbac66d3fc8dafb0bcd5}{%
-           family={Serrano},
-           familyi={S\bibinitperiod},
-           given={Franklin},
-           giveni={F\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{8df1ed774cbbdbac66d3fc8dafb0bcd5}
-      \strng{fullhash}{8df1ed774cbbdbac66d3fc8dafb0bcd5}
-      \strng{bibnamehash}{8df1ed774cbbdbac66d3fc8dafb0bcd5}
-      \strng{authorbibnamehash}{8df1ed774cbbdbac66d3fc8dafb0bcd5}
-      \strng{authornamehash}{8df1ed774cbbdbac66d3fc8dafb0bcd5}
-      \strng{authorfullhash}{8df1ed774cbbdbac66d3fc8dafb0bcd5}
-      \field{extraname}{3}
-      \field{sortinit}{S}
-      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
-      \field{extradate}{2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Contributions to Political Economy}
-      \field{number}{0}
-      \field{title}{Long {Period} {Effective} {Demand} and the {Sraffian} {Supermultiplier}}
-      \field{urlday}{12}
-      \field{urlmonth}{1}
-      \field{urlyear}{2019}
-      \field{volume}{14}
-      \field{year}{1995}
-      \field{urldateera}{ce}
-      \field{pages}{67\bibrangedash 90}
-      \range{pages}{24}
-      \verb{file}
-      \verb RePEc Snapshot:/home/gpetrini/Zotero/storage/R6L763PT/v_3a14_3ay_3a1995_3ai_3a0_3ap_3a67-90.html:text/html
-      \endverb
-      \verb{urlraw}
-      \verb https://econpapers.repec.org/article/oupcopoec/v_3a14_3ay_3a1995_3ai_3a0_3ap_3a67-90.htm
-      \endverb
-      \verb{url}
-      \verb https://econpapers.repec.org/article/oupcopoec/v_3a14_3ay_3a1995_3ai_3a0_3ap_3a67-90.htm
-      \endverb
-    \endentry
     \entry{serrano_sraffian_1995}{thesis}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=8df1ed774cbbdbac66d3fc8dafb0bcd5}{%
@@ -6385,10 +6288,10 @@
       \strng{authorbibnamehash}{8df1ed774cbbdbac66d3fc8dafb0bcd5}
       \strng{authornamehash}{8df1ed774cbbdbac66d3fc8dafb0bcd5}
       \strng{authorfullhash}{8df1ed774cbbdbac66d3fc8dafb0bcd5}
-      \field{extraname}{4}
+      \field{extraname}{3}
       \field{sortinit}{S}
       \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
-      \field{extradate}{3}
+      \field{extradate}{2}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -6526,19 +6429,19 @@
            given={Franklin},
            giveni={F\bibinitperiod},
            givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=6ccbaf13cc25889bc807cf1e6e2b70ca}{%
-           family={Wilcox},
+        {{uniquename=0,uniquepart=base,hash=722cc96aaf9310f6f15421aa63267d30}{%
+           family={Willcox},
            familyi={W\bibinitperiod},
            given={Luiz\bibnamedelima Daniel},
            giveni={L\bibinitperiod\bibinitdelim D\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{90ae1d9717eb5f8c442b71d57ce2c2ad}
-      \strng{fullhash}{90ae1d9717eb5f8c442b71d57ce2c2ad}
-      \strng{bibnamehash}{90ae1d9717eb5f8c442b71d57ce2c2ad}
-      \strng{authorbibnamehash}{90ae1d9717eb5f8c442b71d57ce2c2ad}
-      \strng{authornamehash}{90ae1d9717eb5f8c442b71d57ce2c2ad}
-      \strng{authorfullhash}{90ae1d9717eb5f8c442b71d57ce2c2ad}
+      \strng{namehash}{86764bf40a2679bfe6515f069d12e56c}
+      \strng{fullhash}{86764bf40a2679bfe6515f069d12e56c}
+      \strng{bibnamehash}{86764bf40a2679bfe6515f069d12e56c}
+      \strng{authorbibnamehash}{86764bf40a2679bfe6515f069d12e56c}
+      \strng{authornamehash}{86764bf40a2679bfe6515f069d12e56c}
+      \strng{authorfullhash}{86764bf40a2679bfe6515f069d12e56c}
       \field{sortinit}{S}
       \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
       \field{extradatescope}{labelyear}
@@ -6697,37 +6600,6 @@
       \field{title}{The importance of housing and planning in {Latin} {America}}
       \field{year}{1995}
     \endentry
-    \entry{steindl_maturity_1952}{book}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=1f2f9285ee48e77afb12b98b72fbbe29}{%
-           family={Steindl},
-           familyi={S\bibinitperiod},
-           given={Josef},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \list{publisher}{1}{%
-        {NYU Press}%
-      }
-      \strng{namehash}{1f2f9285ee48e77afb12b98b72fbbe29}
-      \strng{fullhash}{1f2f9285ee48e77afb12b98b72fbbe29}
-      \strng{bibnamehash}{1f2f9285ee48e77afb12b98b72fbbe29}
-      \strng{authorbibnamehash}{1f2f9285ee48e77afb12b98b72fbbe29}
-      \strng{authornamehash}{1f2f9285ee48e77afb12b98b72fbbe29}
-      \strng{authorfullhash}{1f2f9285ee48e77afb12b98b72fbbe29}
-      \field{extraname}{1}
-      \field{sortinit}{S}
-      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Maturity and {Stagnation} in {American} {Capitalism}}
-      \field{year}{1952}
-    \endentry
     \entry{steindl_stagnation_1979}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=1f2f9285ee48e77afb12b98b72fbbe29}{%
@@ -6746,7 +6618,6 @@
       \strng{authorbibnamehash}{1f2f9285ee48e77afb12b98b72fbbe29}
       \strng{authornamehash}{1f2f9285ee48e77afb12b98b72fbbe29}
       \strng{authorfullhash}{1f2f9285ee48e77afb12b98b72fbbe29}
-      \field{extraname}{2}
       \field{sortinit}{S}
       \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
       \field{extradatescope}{labelyear}
@@ -7184,57 +7055,6 @@
       \verb https://academic.oup.com/cje/article/3/4/341/1729922
       \endverb
     \endentry
-    \entry{wolfson_irving_1996}{article}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=ddae9b38396708eefc590d2920ac032c}{%
-           family={Wolfson},
-           familyi={W\bibinitperiod},
-           given={{Martin H.}},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{ddae9b38396708eefc590d2920ac032c}
-      \strng{fullhash}{ddae9b38396708eefc590d2920ac032c}
-      \strng{bibnamehash}{ddae9b38396708eefc590d2920ac032c}
-      \strng{authorbibnamehash}{ddae9b38396708eefc590d2920ac032c}
-      \strng{authornamehash}{ddae9b38396708eefc590d2920ac032c}
-      \strng{authorfullhash}{ddae9b38396708eefc590d2920ac032c}
-      \field{sortinit}{W}
-      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{Abstract. The essence of Irving Fisher's debt-deflation theory was an interactive process whereby falling commodity prices increased the debt burden of borrowe}
-      \field{issn}{0309-166X}
-      \field{journaltitle}{Cambridge Journal of Economics}
-      \field{number}{3}
-      \field{shorttitle}{Irving {Fisher}'s debt-deflation theory}
-      \field{title}{Irving {Fisher}'s debt-deflation theory: its relevance to current conditions}
-      \field{urlday}{19}
-      \field{urlmonth}{6}
-      \field{urlyear}{2019}
-      \field{volume}{20}
-      \field{year}{1996}
-      \field{urldateera}{ce}
-      \field{pages}{315\bibrangedash 333}
-      \range{pages}{19}
-      \verb{doi}
-      \verb 10.1093/oxfordjournals.cje.a013618
-      \endverb
-      \verb{file}
-      \verb Full Text PDF:/home/gpetrini/Zotero/storage/N34BJF66/Wolfson - 1996 - Irving Fisher's debt-deflation theory its relevan.pdf:application/pdf;Snapshot:/home/gpetrini/Zotero/storage/GI4GUZYR/1683622.html:text/html
-      \endverb
-      \verb{urlraw}
-      \verb https://academic.oup.com/cje/article/20/3/315/1683622
-      \endverb
-      \verb{url}
-      \verb https://academic.oup.com/cje/article/20/3/315/1683622
-      \endverb
-    \endentry
     \entry{yeo_new_2000}{article}{}
       \name{author}{2}{}{%
         {{uniquename=0,uniquepart=base,hash=2636a05451f0cd30ec26455de28ef642}{%
@@ -7407,6 +7227,7 @@
       \endverb
     \endentry
   \enddatalist
+  \missing{serrano_long_1995-1}
 \endrefsection
 \endinput
 

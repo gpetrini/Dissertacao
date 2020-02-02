@@ -9,7 +9,7 @@ Para obter o nível da renda, basta substituir \ref{ConsumoTotal}, \ref{_It} em 
     \label{AnaliticaNivel}
     Y = \left(\frac{1}{1-\omega - h}\right)Z
 \end{equation}
-Dito isso, resta apresentar o modelo em termos de crescimento tal como \textcite{freitas_growth_2015}. Partindo contribuição dos componentes da demanda para a variação da renda e resolvendo para a taxa de crescimento, obtém-se
+Dito isso, resta apresentar o modelo em termos de crescimento tal como \textcite{freitas_growth_2015}. Partindo da decomposição dos componentes da demanda para a variação da renda e resolvendo para a taxa de crescimento, obtém-se
 $$
 g = g\cdot \omega + \dot h + g\cdot h + g_z\cdot \frac{Z}{Y}
 $$
@@ -17,16 +17,16 @@ $$
 \label{gLP}
     g = \frac{\dot h}{1 - \omega - h} + g_z
 \end{equation}
-Como indicado anteriormente, a propensão marginal a investir se ajusta de acordo com o princípio do ajuste do estoque de capital e, dessa forma, quando o grau de utilização convergir ao normal, a taxa de crescimento da economia tende a taxa de crescimento dos gastos autônomos (neste caso, investimento residencial) definida exogenamente. 
+Como indicado anteriormente, a propensão marginal a investir se ajusta de acordo com o princípio do ajuste do estoque de capital e, dessa forma, quando o grau de utilização convergir ao normal, a taxa de crescimento da economia tende a taxa de crescimento dos gastos autônomos (neste caso, investimento residencial e consumo capitalista). 
 \begin{equation}
 u \to u_N \Leftrightarrow g \to g_z
 \end{equation}
 De modo que a propensão marginal a investir necessária é
 \begin{equation}
 \label{hLP}
-h^* = \overline g_z\frac{\overline v}{\overline u_N}
+h^* = g_z\frac{\overline v}{\overline u_N}
 \end{equation}
-que, como mostram \textcite{fagundes_role_2017}, explicita a relação positiva entre taxa de investimento das firmas e crescimento. Com isso, substituindo \ref{gLP} nas equações \ref{hLP} e \ref{Aux} é possível construir o seguinte sistema de equações para verificar as condições de estabilidade:
+que, como mostram \textcite{fagundes_role_2017}, explicita a relação positiva entre taxa de investimento das firmas e crescimento. Com isso, substituindo \ref{gLP} nas equações \ref{hLP} e \ref{Aux} é possível construir o seguinte sistema de equações para verificar as condições de estabilidade do modelo:
 
 $$
 \begin{cases}
@@ -82,12 +82,12 @@ $$
 \end{equation}
 A condição anterior, como em \textcite{freitas_growth_2015}, significa que a propensão marginal a gastar (consumir e investir) seja menor que a unidade, caso contrário, 
 %vigora-se a lei de Say.
-o modelo não seria compatível com o PDE, estendido à uma economia em crescimento.
+o modelo não seria compatível com o PDE, estendido a uma economia em crescimento.
 
 
 %%%%%%%%%%%%%%%%%% Ponte para apêndice
-
-Tal exposição, no entanto, não se distingue da apresentada por \textcite{freitas_growth_2015} uma vez que formalização é semelhante em que o investimento residencial assume o papel dos gastos autônomos. A principal diferença é que este gasto autônomo também forma o estoque de capital da economia que, diferentemente do capital das firmas, não cria capacidade produtiva. Resta, portanto, explicitar a dinâmica entre estes dois estoques de capital distintos, captados por $k$. A equação que define o grau de utilização da capacidade pode ser reescrita como
+Uma vez que as relações entre crescimento e distribuição no supermultiplicador sraffiano estão bem estabelecidas pela literatura, avança-se em direção da análise das particularidade do presente modelo: presença de dois tipos distintos de estoque de capital.
+Em outras palavras, a principal diferença deste modelo é que um dos gastos autônomos (investimento residencial) também forma o estoque de capital da economia que, diferentemente do capital das firmas, não cria capacidade produtiva. Resta, portanto, explicitar a dinâmica entre estes dois estoques de capital distintos, captados por $k$. A equação que define o grau de utilização da capacidade pode ser reescrita como
 
 $$
 u = \frac{Y\cdot v}{K \cdot (1-k)}
@@ -112,12 +112,13 @@ $$
 u = Y\frac{v}{K_h} \cdot \left(\frac{k}{1-k}\right)
 $$
 \begin{equation}
+\label{etapa_k}
 u = \left(\frac{1}{1-R}\right)\cdot\left(\frac{g_Z\cdot v}{1-\omega- h}\right)\cdot\left(\frac{k}{1-k}\right)
 \end{equation}
-Substituindo as variáveis endógenas de modo a explicitar apenas em termos de parâmetros e variáveis exógenas e resolvendo para o longo prazo e em termos de $k$
+Substituindo as variáveis endógenas na equação \ref{etapa_k} de modo a explicitar $k$ em termos dos parâmetros e  das variáveis exógenas, obtém-se o valor de $k$ na posição plenamente ajustada
 \begin{equation}
 \label{kAnali}
-k = 1 - \frac{v \left(\phi_{0} - \phi_{1} \left(-1 + \frac{rm\cdot(1+\sigma_{mo})}{\pi + 1}\right)\right)}{u_N \left(- \omega + 1\right)}
+k^* = 1 - \frac{v \left(\phi_{0} - \phi_{1} \left(-1 + \frac{rm\cdot(1+\sigma_{mo})}{\pi + 1}\right)\right)}{u_N \left(- \omega + 1\right)}
 \end{equation}
 cuja forma simplificada é\footnote{Etapas para obtenção de $k^*$
 	$$
@@ -139,12 +140,11 @@ $$
 \label{_k_star}
 k^* = 1 - \frac{h^*}{(1 - \omega)}
 \end{equation}
-a equação \ref{_k_star} indica que a participação plenamente ajustada dos imóveis no estoque de capital total da economia depende positivamente da participação dos salários na renda e diminui como decorrência de uma maior taxa de crescimento dos gastos autônomos.
-
-Uma vez que as relações entre crescimento e distribuição no supermultiplicador sraffiano está bem estabelecido pela literatura, avança-se em direção da análise das particularidade do presente modelo: presença de dois tipos distintosde estoque de capital.
-A equação \ref{kAnali} mostra que a participação dos imóveis no estoque de capital total depende 
+a equação \ref{_k_star} acima expressa a participação dos imóveis no estoque de capital total da economia na posição plenamente ajustada, ou seja, a distribuição dos ativos reais da economia entre capacidade produtiva e imóveis. 
+%TODO Grifar
+A partir da equação \ref{kAnali} é possível mostrar que a participação dos imóveis no estoque de capital total depende 
 positivamente da taxa de juros (Eq. \ref{partial_rm}) e 
-negativamente do componente autônomo de $g_z$ (Eq \ref{partial_phi0}), da inflação de ativos (Eq \ref{partial_pi}) e da distribuição dos salários na renda (Eq \ref{partial_omega}). Formalmente:
+negativamente do componente autônomo de $g_{I_h}$ (Eq \ref{partial_phi0}), da inflação de ativos (Eq \ref{partial_pi}) e da distribuição dos salários na renda (Eq \ref{partial_omega}). Formalmente:
 \begin{equation}
 %TODO Checar solução analítica
 \label{partial_rm}
@@ -162,7 +162,11 @@ negativamente do componente autônomo de $g_z$ (Eq \ref{partial_phi0}), da infla
 \label{partial_omega}
 \frac{\partial k}{\partial \omega} = - \frac{v \left(\phi_{0} \left(\pi + 1\right) - \phi_{1} \left(- \pi + rm\cdot(1 + \sigma_{mo})\right)\right)}{u_N \left(\pi + 1\right) \left(\omega - 1\right)^{2}} < 0
 \end{equation}
-Tais resultados, apesar de contra intuitivos, estão em linha com o supermultiplicador sraffiano uma vez que quanto maior a taxa de crescimento do investimento residencial, menor será a participação dos gastos autônomos na renda e que mudanças na distribuição (isto é, alterações no multiplicador) terão efeito nível, alterando apenas a composição dos diferentes tipos de estoque de capital. 
+Antes de prosseguir para as simulações, vale destacar que diminuição da taxa de imóveis no estoque de capital decorrente de um aumento na taxa de crescimento do investimento residencial (reportada nas equações \ref{partial_phi0} e \ref{partial_pi}) está em linha com o supermultiplicador sraffiano uma vez que o
+investimento produtivo cresce temporariamente mais rápido que os gastos autonômos, gerando um efeito nível no estoque de capital.
+Mudanças na distribuição (isto é, alterações no multiplicador), por outro lado, 
+terão efeito nível sobre o produto e, portanto, efeito nivel sobre o estoque de capital, alterando a a composição dos diferentes tipos de estoque de capital (equação \ref{partial_omega}). 
+%TODO Grifar.
 
 
 %NORMAS ESTOQUE FLUXO

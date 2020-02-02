@@ -1,4 +1,5 @@
 \subsection{Modelo de Cambridge}
+\label{Sec_Cambridge}
 
 %TODO Mais contexto
 
@@ -32,28 +33,31 @@ $$
 $$
 \frac{I}{K} = \frac{S}{K}\frac{Y}{Y}\frac{Y_{fc}}{Y_{fc}} = s_k\frac{FT}{K}\frac{Y}{Y}\frac{Y_{fc}}{Y_{fc}}
 $$
-Alterando a equação \ref{EqGeral} e retomando a hipótese da utilização normal do capital ($u=u_N$)
-\footnote{
+Alterando a equação \ref{EqGeral} e retomando a hipótese da utilização normal do capital ($u=u_N$), 
+\begin{equation}
+g = s_k\cdot \frac{(1-\omega)\cdot u_N}{v}
+\end{equation}
+e rearranjando a equação \ref{LucroCambridge} em termos da equação \ref{EqGeral}, obtém-se
+$$
+g = g_K = f\frac{s_k\cdot (1-\omega) \cdot u_N}{v}
+$$
+\begin{equation}
+\label{Fechamento_Cambridge}
+(1-\omega) = \frac{g\cdot v}{s_k\cdot u_N}
+\end{equation}
+
+Enquanto a equação \ref{LucroCambridge} mostra uma relação negativa entre \textit{wage-share} e taxa de lucro, a equação \ref{Fechamento_Cambridge} explicita que a distribuição funcional da renda é a variável de fechamento deste modelo\footnote{
 	Partindo da hipótese de utilização normal do capital, obtém-se a famosa equação de Cambridge
 	\begin{equation}
 	\label{EqCambridge}
 	g = s_k\cdot r
 	\end{equation}
 	Para uma exposição de seus antecedentes e implicações, ver \textcite{bortis_notes_1993}.
-}, 
-\begin{equation}
-g = s_k\cdot \frac{(1-\omega)\cdot u_N}{v}
-\end{equation}
-e rearranjando a Equação \ref{LucroCambridge}, obtém-se
-\begin{equation}
-\label{Fechamento_Cambridge}
-(1-\omega) = \frac{g\cdot v}{s_k\cdot u_N}
-\end{equation}
-Enquanto a equação \ref{LucroCambridge} mostra uma relação negativa entre \textit{wage-share} e taxa de lucro, a equação \ref{Fechamento_Cambridge} explicita que a distribuição funcional da renda é a variável de fechamento deste modelo.  Como consequência, os lucros são positivamente determinados pela acumulação\footnote{
+}.  Como consequência, os lucros são positivamente determinados pela acumulação\footnote{
 	Posteriormente, parte da literatura tem associado esse resultado aos microfundamentos decorrentes da teoria gerencialista da firma em que maiores taxas de crescimento da firma --- como visto, determinadas pelo investimento autônomo --- requerem maiores taxas de lucro, implicando maiores \textit{mark-ups} e uma barreira inflacionária \cite[p.~353]{lavoie_post-keynesian_2015}
 }. 
 %MAIS REFERÊNCIAS
-Em outras palavras, no curto prazo --- preços e salários rígidos --- o produto é determinado pelo investimento (autônomo) via multiplicador enquanto no longo prazo o nível de produto é igual ao seu potencial ($Y = Y_{FC}, \,u=1$) enquanto os preços são flexíveis\footnote{
+Em outras palavras, no curto prazo --- preços e salários rígidos --- o produto é determinado pelo investimento (autônomo) via multiplicador enquanto no longo prazo o nível de produto é igual ao seu potencial ($Y = u_N\cdot Y_{FC},u=u_N$) enquanto os preços são flexíveis\footnote{
 	Neste ponto vale lembrar as distinções entre os principais autores desta família de modelos que, por sua vez, não comprometem o grau de generalidade da análise aqui realizada. 
 	%Enquanto \textcite[5--6]{kaldor_alternative_1955} e \textcite{pasinetti_rate_1962} assumiam que o nível de investimento seria suficiente, no longo prazo, para garantir o pleno-emprego;.
 	A título de exemplo, \textcite{robinson_model_1962} pressupunha --- na ausência de uma barreira inflacionária --- uma política monetária acomodatícia de modo que não existiriam restrições ao financiamento do investimento e, assim, a economia operaria em plena utilização da capacidade.
@@ -68,7 +72,7 @@ accumulation gk that results from the investment decisions of entrepreneurs; thi
 determines the long-period (or normal) income distribution, which thereby
 becomes endogenous and subordinated to the rate of accumulation \cite[p.~158]{cesaratto_neo-kaleckian_2015}
 \end{citacao}
-Desse modo, obtém-se uma relação positiva entre taxa de poupança e crescimento no longo prazo, ou ainda, uma relação negativa entre \textit{wage-share} e taxa de lucro (como explicitado na Eq. \ref{LucroCambridge}) enquanto a relação negativa entre salários reais e taxa de lucro está implícita na equação \ref{LucroCambridge}. Consequentemente, para a garantir o equilíbrio entre demanda e capacidade produtiva associado a uma maior taxa de crescimento é necessário que uma parcela menor da renda seja destinada ao consumo. A importância de explicitar esta causalidade em termos do consumo é que destaca a importância do mecanismo de preços no modelo e a respectiva resolução da instabilidade de Harrod. Como mencionado anteriormente, os preços são mais flexíveis do que os salários por hipótese. Assim, se a taxa crescimento da economia estiver acima da taxa de crescimento da capacidade produtiva, instaura-se um aumento dos preços acima dos salários e opera-se um mecanismo de poupança forçada. O resultado é uma redução dos salários reais e, por definição, aumento da participação dos lucros na renda.  Neste modelo, portanto, é justamente a mudança na distribuição funcional da renda, e consequentemente a propensão marginal a poupar da economia, que promove o ajuste da taxa garantida para a taxa efetiva de crescimento assegurando a estabilidade do modelo.
+Desse modo, obtém-se uma relação positiva entre taxa de poupança e crescimento no longo prazo, ou ainda, uma relação negativa entre \textit{wage-share} e taxa de lucro (como explicitado na Eq. \ref{LucroCambridge}) enquanto a relação negativa entre salários reais e taxa de lucro está implícita na equação \ref{LucroCambridge}. Consequentemente, para a garantir o equilíbrio entre demanda e capacidade produtiva associado a uma maior taxa de crescimento é necessário que uma parcela menor da renda seja destinada ao consumo. A importância de explicitar esta causalidade em termos do consumo é que destaca a importância do mecanismo de preços no modelo e a respectiva resolução da instabilidade de Harrod. Como mencionado anteriormente, os preços são mais flexíveis do que os salários por hipótese. Assim, caso ocorra um aumento da taxa de crescimento do investimento (que determina a taxa de crescimento da economia), instaura-se um aumento dos preços acima dos salários e opera-se um mecanismo de poupança forçada. O resultado é uma redução dos salários reais e, por definição, aumento da participação dos lucros na renda.  Neste modelo, portanto, é justamente a mudança na distribuição funcional da renda, e consequentemente a propensão marginal a poupar da economia, que promove o ajuste da taxa garantida para a taxa efetiva de crescimento assegurando a estabilidade do modelo.
 
 Apesar do modelo de Cambridge recorrer a relação entre acumulação e distribuição como fechamento, argumenta-se aqui que a adequação da capacidade
 produtiva à demanda não precisa lançar mão de tais hipóteses.
@@ -83,8 +87,9 @@ acted as a constraint upon it, imposing a choice between consumption
 and investment and, hence, between wages and profits} \cite[p.~50]{halevi_notes_2014}.
 \end{citacao}
 Desse modo, a igualdade entre poupança e investimento não se dá por variações no produto dada a inelasticidade --- por hipótese --- do produto potencial em relação a demanda.
+
 Se, por outro lado, a elasticidade de ajustamento da capacidade produtiva a demanda for maior no longo prazo --- como argumenta \textcite[p.~62--3]{halevi_notes_2014} ---, o equilíbrio dinâmico entre ambas não precisa supor a endogeneidade da distribuição\footnote{\textcite[p.~158]{cesaratto_neo-kaleckian_2015}, por sua vez, destaca a falta de robustez na relação entre taxas de crescimento mais elevadas e mudanças na distribuição de renda a favor dos lucros.
-	Tais limitações do modelo de Cambridge não devem ser entendidas como uma impossibilidade do crescimento ser \textit{demand-led} no longo prazo.}:
+	Como veremos ao longo do capítulo, tais limitações do modelo de Cambridge não devem ser entendidas como uma impossibilidade do crescimento ser \textit{demand-led} no longo prazo.}:
 
 \begin{citacao}
 	\textit{The elasticity that a capitalist economy is thus shown to have in

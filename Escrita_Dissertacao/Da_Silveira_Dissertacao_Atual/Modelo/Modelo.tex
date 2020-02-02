@@ -64,11 +64,11 @@ A razão pela qual o capital criador de capacidade se difere do estoque de capit
 \label{_K}
     K = K_f + K_h
 \end{equation}
-em que $K_H$ refere ao estoque de imóveis possuído apenas pelos capitalistas. Seja $k$ a participação dos imóveis no estoque de capital total da economia:
+em que $K_h$ refere ao estoque de imóveis possuído apenas pelos capitalistas. Seja $k$ a participação dos imóveis no estoque de capital total da economia:
 
 \begin{equation}
 \label{_tau}
-k = \frac{K_H}{K}    
+k = \frac{K_h}{K}    
 \end{equation}
 é possível representar a equação \ref{_K} de forma alternativa:
 $$
@@ -94,7 +94,7 @@ $$
     W = \omega\cdot Y
 \end{equation}
 
-Por fim, cabe explicitar os ativos financeiros presentes no modelo e como são distribuídos entre os diferentes agentes institucionais (ver tabela \ref{Matriz_Estoques}). As famílias capitalistas (denotadas pelo subíndice $hk$) acumulam riqueza sob a forma de depósitos à vista ($M$) e imóveis ($K_h$) enquanto contraem empréstimos hipotecários ($MO$) para realizar investimento residencial.
+Por fim, cabe explicitar os ativos presentes no modelo e como são distribuídos entre os diferentes agentes institucionais (ver tabela \ref{Matriz_Estoques}). As famílias capitalistas (denotadas pelo subíndice $hk$) acumulam riqueza sob a forma de depósitos à vista ($M$) e imóveis ($K_h$) enquanto contraem empréstimos hipotecários ($MO$) para realizar investimento residencial.
 Além disso, parcela do consumo é autônoma ($C_k$) e é financiado por dívida ($L_{hk}$).
 As firmas (denotadas pelo subíndice $f$), por sua vez, financiam o investimento em parte por lucros retidos e o restante por empréstimo ($L_f$). Os bancos, portanto, criam crédito (\textit{ex nihilo}) para então recolher os depósitos, todos remunerados pelas respectivas taxas de juros. 
 Por fim, supõe-se que os trabalhadores gastam o que ganham e, assim, não acumulam ativos reais ou financeiros e tampouco têm acesso a crédito.
@@ -203,6 +203,14 @@ Adicionalmente, as firmas financiam o investimento que excede os lucros retidos 
 \begin{equation}
     \Delta L_f = I_f - FU
 \end{equation}
+enquanto as taxas de lucros bruta ($r_g$) e líquida ($r_n$) são:
+$$
+r_g = \frac{\pi\cdot u}{v}
+$$
+$$
+r_n = r_g - r_l\cdot\frac{L_{f_{-1}}}{K_f}
+$$
+%TODO: Grifar
 
 Por fim, como pode ser verificado pela tabela de transações correntes, o saldo financeiro líquido das firmas ($NFW_f$) é:
 
@@ -324,7 +332,7 @@ Já renda disponível dos capitalistas ($YD_k$) é definida pela soma dos lucros
 \end{equation}
 uma vez que as taxas de juros são iguais ($\sigma_{mo} = \sigma_{l} = 0$), esta equação pode ser reescrita como:
 $$
-    YD_k = FD + \overline r_m\cdot (M_{-1} - \cdot MO_{-1} - \cdot L_{hk_{-1}}
+    YD_k = FD + \overline r_m\cdot (M_{-1} - \cdot MO_{-1} - \cdot L_{hk_{-1}})
 $$
 A poupança das famílias capitalistas ($S_{hk}$), portanto, é a renda disponível subtraída do consumo:
 
@@ -352,25 +360,31 @@ em que os subscritos $S$ e $D$ denotam oferta e demanda respectivamente. Além d
 \begin{equation}
     \Delta K_{hs} = \Delta K_{hd} = I_{hs} = I_h
 \end{equation}
-Sendo assim, a riqueza líquida deste setor é determinada por
+Sendo assim, a riqueza líquida nominal ($V_{hk}$) e real ($V_{hkr}$) deste setor é determinada por\footnote{
+	Uma vez que só existe inflação de imóveis no modelo, basta deflacionar os imóveis pela sua respectiva inflação para obter a riqueza líquida real das famílias capitalistas.
+}
 \begin{equation}
 V_{hk} = K_{hd}\cdot p_h + M - L_{hk} - MO
 \end{equation}
-Outra hipótese do modelo é de que as famílias se endividam com títulos hipotecários de forma a financiar o investimento residencial. Em outras palavras, o investimento residencial determina parte o estoque de dívida das famílias capitalistas:
+\begin{equation}
+V_{hkr} = K_{hd} + M - L_{hk} - MO
+\end{equation}
+%TODO: Grifar
+Outra hipótese do modelo é de que as famílias se endividam com títulos hipotecários de forma a financiar o investimento residencial. Em outras palavras, o investimento residencial determina parte do estoque de dívida das famílias capitalistas:
 
 \begin{equation}
     \label{EqMO}
     \Delta MO = I_h
 \end{equation}
 
-Por fim, tal como no capítulo anterior, considera-se que a taxa de crescimento do investimento residencial ($g_Z$) é definido pela taxa própria de juros dos imóveis (\textit{own}) tal como apresentado no capítulo \ref{CapTeorico}:
+Por fim, tal como no capítulo anterior, considera-se que a taxa de crescimento do investimento residencial ($g_{I_h}$) é definido pela taxa própria de juros dos imóveis (\textit{own}) tal como apresentado no capítulo \ref{CapTeorico}:
 
 \begin{equation}
-    I_h = (1 + g_Z)\cdot Ih_{-1}
+    I_h = (1 + g_{I_h})\cdot Ih_{-1}
 \end{equation}
 \begin{equation}
 \label{g_Z_own}
-g_Z = \phi_0 - \phi_1\cdot own
+g_{I_h} = \phi_0 - \phi_1\cdot own
 \end{equation}
 $$
 \pi = \frac{\Delta p_h}{p_{h_{t-1}}}

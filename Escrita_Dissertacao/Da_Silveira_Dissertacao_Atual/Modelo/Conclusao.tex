@@ -1,9 +1,9 @@
 \subsection*{Inserindo dados observados: taxa de juros hipotecárias e inflação de imóveis}
 
 Antes de encerrar a discussão do modelo SFC é possível  --- mesmo que de modo preliminar --- avançar em direção a maior aderência ao caso norte-americano recente.
-Para tanto, são incluídos dados da taxa própria observados referente ao período do modelo macroeconométrico estimado no capítulo anterior.
+Para tanto, são incluídos dados observados da taxa própria  referente ao período do modelo macroeconométrico (1992-2019) estimado no capítulo anterior (ver gráfico \ref{YeoJhonson} do capítulo \ref{CapFatos}).
 Neste ponto, cabe destacar os resultados esperados de acordo com 
-alguns dos fatores estilizados reportados no capítulo anterior:
+alguns dos fatos estilizados reportados no capítulo anterior:
 %a literatura do supermultiplicador antes de prosseguir para a inserção dos dados reais:
 
 \begin{enumerate}
@@ -17,20 +17,26 @@ alguns dos fatores estilizados reportados no capítulo anterior:
 %\item Aumento --- seguido de diminuição --- da participação dos imóveis no estoque de capital total da economia.
 \end{enumerate}
 
+
+Uma primeira aproximação é por meio do gráfico \ref{clock_Real} em que são apresentados --- como no gráfico \ref{FigIh_u} do capítulo \ref{CapFatos} --- a taxa de investimento investimento residencial contra grau de utilização (Painel A), a taxa dos gastos autônomos (investimento residencial e consumo capitalista) contra grau de utilização (Painel B) e a taxa de investimento total (firmas e famílias) contra a taxa de crescimento da economia (Painel C).
+Uma breve inspeção deste gráfico explicita a relação cíclica e horária entre participação dos gastos autônomos (tanto investimento residencial isolado quanto somado ao crédito aos capitalistas) e nível de atividade tal como discutido no capítulo anterior e o mesmo pode ser dito a respeito da taxa de investimento residencial e grau de utilização. Já o fato estilizado (1) não apresenta um padrão tão demarcado\footnote{A dificuldade de explicitar um padrão bem demarcado também decorre da volatilidade elevada de um dos eixos (taxa de crescimento) enquanto o outro é menos volátil (taxa de investimento).} uma vez que apresenta uma relação positiva entre taxa de investimento e de crescimento em alguns subperíodos e negativa em outros\footnote{
+	É importante destacar que a relação positiva entre taxa de investimento e taxa de crescimento da economia ocorre --- de um ponto de vista estritamente teórico --- na posição plenamente ajustada. No entanto, uma vez que foram imputados dados observados na simulação, os valores da propensão marginal a investir sempre mudam ($h \neq h^*$) de modo que a posição de longo período (teórica) não é representada nos gráficos \ref{choque_Real} e \ref{choque_RealNorms}.
+	Sendo assim, esta relação é estritamente teórica nos termos desse modelo em particular.
+	%TODO Grifar
+}.
+
+
 \begin{figure}[H]
 	\centering
-	\caption{Taxa de investimento residencial vs Grau de utilização: Inserindo Taxa Própria, taxa de juros hipotecária e inflação de móveis observada}
+	\caption{Representando o ciclo econômico na simulação por meio da inserção da Taxa Própria observada (1992-2019)}
 	\label{clock_Real}
 	\includegraphics[width=\textwidth]{../../Modelo/Versoes/Clock_Real.png}
 	\caption*{\textbf{Fonte:} Elaboração própria}
 \end{figure}
 
-Uma primeira aproximação é por meio do gráfico \ref{clock_Real} em que são apresentados --- como no gráfico \ref{FigIh_u} --- e  os gastos autônomos (somente investimento residencial e total) contra grau de utilização, bem como taxa de investimento total (firmas e famílias) e taxa de crescimento da economia.
-Uma breve inspeção deste gráfico explicita a relação cíclica e horária entre participação dos gastos autônomos (tanto investimento residencial isolado quanto somado ao crédito aos capitalistas) e nível de atividade tal como discutido no capítulo anterior e o mesmo pode ser dito a respeito da taxa de investimento residencial e grau de utilização. Já o fato estilizado (1) não apresenta um padrão tão demarcado\footnote{A dificuldade de explicitar um padrão bem demarcado também decorre da volatilidade elevada de um dos eixos (taxa de crescimento) enquanto o outro é menos volátil (taxa de investimento).} uma vez que apresenta uma relação positiva entre taxa de investimento e de crescimento em alguns subperíodos e negativa em outros.
-
 \begin{figure}[H]
 	\centering
-	\caption{Inserindo taxa de juros hipotecária e inflação de móveis observadas}
+	\caption{Inserindo taxa de juros hipotecária e inflação de móveis observadas (1992-2019)}
 	\label{choque_Real}
 	\includegraphics[width=\textwidth]{../../Modelo/Versoes/Shock_Real.png}
 	\caption*{\textbf{Fonte:} Elaboração própria}
@@ -38,10 +44,11 @@ Uma breve inspeção deste gráfico explicita a relação cíclica e horária en
 
 
 O fato estilizado (2) referente ao grau de utilização é contemplado --- feitas as devidas mediações --- uma vez que o período analisado não corresponde a posição plenamente ajustada e, portanto, desvios no grau de utilização em relação ao normal são ajustados por meio de mudanças na propensão marginal a investir (fato estilizado 6). Por fim, destaca-se o acompanhamento da taxa de crescimento da economia aos gastos autônomos, notadamente investimento residencial. No entanto, não é capaz de replicar o fato estilizado (5) de maior volatilidade do investimento residencial.
+Argumenta-se que tal resultado decorre do grau de simplicidade do presente modelo uma vez que seria necessário incluir outros gastos autônomos que crescem a taxas distintas para que esse efeito seja captado nas simulações.
 
 \begin{figure}[H]
 	\centering
-	\caption{Inserindo taxa de juros hipotecária e inflação de móveis observadas}
+	\caption{Inserindo taxa de juros hipotecária e inflação de móveis observadas (1992-2019)}
 	\label{choque_RealNorms}
 	\includegraphics[width=\textwidth]{../../Modelo/Versoes/Shock_RealNorms.png}
 	\caption*{\textbf{Fonte:} Elaboração própria}
@@ -52,25 +59,20 @@ Por fim, destaca-se a reprodução do fato estilizado (3) em que tanto o comprom
 Vale lembrar que este é um primeiro esforço de confrontar um modelo teórico simulado com investimento residencial frente aos dados observados.
 Além disso, tal procedimento não conta com a calibragem dos parâmetros e esta é uma frente de melhoria que versões futuras desta pesquisa pode seguir.
 No entanto, os problemas decorrentes desta primeira tentativa de mediação entre teoria e empiria não se restrigem à calibragem. 
-Apesar de lançar luz sobre alguns pontos destacados pela teoria, deixa outros em aberto e que devem ser aprimorados preservando as hipóteses do modelo:
-\begin{description}
-	\item[Temporalidade] Normalmente não é feita uma distinção/discussão nos modelos do tipo SFC de simulação sobre o significado econômico das defasagens adotadas. Sendo assim, para que um modelo teórico tenha maior aderência a empiria é preciso repensar o significado da temporalidade de algumas variáveis;
-	\item[Grau de utilização normal] Ao longo desta pesquisa, adotou-se um grau de utilização normal arbitrário (e constante) que, por sua vez, não equivale --- necessariamente --- à média ou à tendência do grau de utilização efetivo. Desse modo, é preciso avançar em direção às formas de incluir tal conceito nos modelos sem que, para isso, seja necessário endogeneizá-lo;
-	%incorrer em imprecisões teóricas nem se restringir a arbitrariedade;
-	\item[Participação dos gastos autônomos] Tal como o grau de utilização normal, a escolha da participação dos gastos autônomos ($R$) também é arbitrária. Se faz necessário investigar formas de endogeneizar tal participação sem incorrer em soluções assintóticas em que a parcela de um dos gastos convirja a zero;
-	\item[Saldo líquido dos setores] Por se tratar de uma economia fechada sem governo, se as famílias forem deficitárias neste modelo as firmas serão necessariamente superavitárias (e o inverso também é válido).
-	Sendo assim, para que esta dualidade não seja a única combinação possível se faz necessário incluir outros setores institucionais. No entanto, versões futuras desta pesquisa irão avançar neste nível de complexidade se acrescentar elementos relevantes tanto para a dinâmica do investimento residencial quanto para as implicações macroeconômicas deste gasto. Caso contrário, tais modificações adicionarão complexidade sem incluir --- necessariamente --- maior esclarecimento;
-	\item[Composição do patrimônio líquido dos bancos] Ao longo deste capítulo adotou-se a hipótese que os bancos não auferem lucros e, por consequência, não acumulam ativos.
-	Sendo assim, tal modelo não consegue reproduzir --- por construção --- razões entre ativos/passivos sobre o patrimônio líquido uma vez que a riqueza (total e financeira) deste setor institucional é nula.
-	Desse modo, para que seja capaz de replicar mudanças na composição do patrimônio líquido dos bancos é preciso que este setor passe a obter lucros que, por sua vez, rompe com as hipóteses aqui adotadas.
-\end{description}
+Apesar de lançar luz sobre alguns pontos destacados pela teoria, deixa outros em aberto e que devem ser aprimorados.
+
+O primeiro deles diz respeito à temporalidade nos modelos do tipo SFC. Normalmente não é feita uma distinção/discussão sobre o significado econômico das defasagens adotadas nas simulações. Sendo assim, para que um modelo teórico tenha maior aderência a empiria é preciso repensar o significado da temporalidade de algumas variáveis. Outro ponto a ser destacado diz respeito à participação dos gastos autônomos. Tal como o grau de utilização normal, a escolha da participação dos gastos autônomos ($R$) também é arbitrária. Se faz necessário investigar formas de endogeneizar tal participação sem incorrer em soluções assintóticas em que a parcela de um dos gastos convirja a zero. Além disso, por se tratar de uma economia fechada sem governo, se as famílias forem deficitárias neste modelo as firmas serão necessariamente superavitárias (e o inverso também é válido).
+Sendo assim, para que esta dualidade não seja a única combinação possível se faz necessário incluir outros setores institucionais. No entanto, versões futuras desta pesquisa irão avançar neste nível de complexidade se acrescentar elementos relevantes tanto para a dinâmica do investimento residencial quanto para as implicações macroeconômicas deste gasto. Caso contrário, tais modificações adicionarão complexidade sem incluir --- necessariamente --- maior esclarecimento.
+Por fim, destaca-se a a necessidade da melhor compreensão da composição do patrimônio líquido dos bancos. Ao longo deste capítulo adotou-se a hipótese que os bancos não auferem lucros e, por consequência, não acumulam ativos.
+Sendo assim, tal modelo não consegue reproduzir --- por construção --- razões entre ativos/passivos sobre o patrimônio líquido uma vez que a riqueza líquida (total e financeira) deste setor institucional é nula.
+Desse modo, para que seja capaz de replicar mudanças na composição do patrimônio líquido dos bancos é preciso que este setor passe a obter lucros que, por sua vez, rompe com as hipóteses aqui adotadas.
 
 \section{Considerações finais}\label{Conclusao_Modelo}
 
 Por mais que algumas questões precisam ser melhor desenvolvidas, pontua-se que 
-esta pesquisa contribuiu para a literatura de crescimento liderado pela demanda do modelo do supermultiplicador sraffiano, levando em consideração o esforço recente de incorporá-lo em um arcabouço contábil do tipo SFC.  A característica específica do modelo aqui apresentado é a inclusão do investimento residencial. A introdução desse gasto teve como objetivo dar conta dos resultados de alguns trabalhos empíricos recentes que mostram a importância do investimento residencial para dinâmica macroeconômica e, como visto anteriormente, nenhum trabalho havia simulado esse gasto específico via taxa própria de juros dos imóveis. 
+esta pesquisa contribuiu para a literatura de crescimento liderado pela demanda do modelo do supermultiplicador sraffiano, levando em consideração o esforço recente de incorporá-lo em um arcabouço contábil do tipo SFC.  A característica específica do modelo aqui apresentado é a inclusão do investimento residencial. A introdução desse gasto teve como objetivo dar conta dos resultados de alguns trabalhos empíricos recentes que mostram a importância do investimento residencial para dinâmica macroeconômica e, como visto anteriormente, nenhum trabalho havia estudado esse gasto específico via taxa própria de juros dos imóveis. 
 
-O modelo reproduz as principais características do supermultiplicador sraffiano: (i) o grau de utilização converge ao grau normal, por meio de variações da propensão marginal a investir das firmas e; (ii) a taxa de crescimento da economia segue a taxa de crescimento dos gastos autônomos --- nesse caso, o investimento residencial. A primeira diferença do  presente modelo é que o estoque de capital fixo da economia passa a ter dois componentes, o capital produtivo das firmas e os imóveis das famílias. 
+O modelo reproduz as principais características do supermultiplicador sraffiano: (i) o grau de utilização converge ao grau normal, por meio de variações da propensão marginal a investir das firmas e; (ii) a taxa de crescimento da economia segue a taxa de crescimento dos gastos autônomos --- nesse caso, investimento residencial e consumo capitalista (ambos crescendo à mesma taxa que o investimento das famílias). A primeira diferença do  presente modelo é que o estoque de capital fixo da economia passa a ter dois componentes, o capital produtivo das firmas e os imóveis das famílias. 
 
 Como visto nas simulações, o principal resultado particular deste modelo é que uma maior taxa de crescimento do investimento residencial tem como consequência uma redução da participação do estoque de imóveis no capital total. Tal resultado, aparentemente contra intuitivo, se deve ao ajuste do estoque de capital das firmas. Para que o grau efetivo de utilização da capacidade convirja ao grau normal, o investimento das firmas precisa temporariamente crescer mais rápido que investimento residencial, alterando, portanto, a relação entre os dois estoques. 
 

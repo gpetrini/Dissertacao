@@ -11,7 +11,8 @@ O objetivo deste apêndice é mostrar que a inclusão de um gasto autônomo não
 
 \subsection{Gastos ``despoupadores''}
 
-Considere que, momentaneamente, os gastos autônomos não criam poupança como o consumo financiado por crédito. 
+Considere, primeiramente, que os gastos autônomos são o consumo financiado por crédito.
+
 $$
 Y = C + I_t + Z
 $$
@@ -25,14 +26,14 @@ C = \omega\cdot Y
 $$
 em que $\omega$ é a participação dos salários na renda. Substituindo na equação anterior,
 $$
-S = (1-\overline \omega)Y - Z \Rightarrow S = s\cdot Y - Z
+S = (1- \omega)Y - Z \Rightarrow S = s\cdot Y - Z
 $$
 Por fim, dividindo a equação anterior pela renda, obtém-se a propensão média a poupar em função dos gastos autônomos:
 \begin{equation}
 \label{_Fraction}
     \frac{S}{Y} = s - \frac{Z}{Y}
 \end{equation}
-A equação \ref{_Fraction} explicita que na presença dos gastos autônomos não criadores de capacidade produtiva, propensão marginal e média a poupar são distintas. No entanto, tal afirmação exige uma qualificação adicional. Tais gastos precisam também não serem geradores de poupança, caso contrário, as propensões a poupar são idênticas e, portanto, a \textit{fraction} é igual a unidade.
+A equação \ref{_Fraction} explicita que na presença dos gastos autônomos não criadores de capacidade produtiva, propensão marginal e média a poupar são distintas. No entanto, tal afirmação exige uma qualificação adicional. Tais gastos precisam ser ``despoupadores'' para se ter esse resultado. Mas seção na seguir, será apresentado o caso de gastos autônomos que geram poupança. 
 
 \subsection{Investimento residencial}
 
@@ -49,7 +50,7 @@ $$
 S = Y - C
 $$
 $$
-S = Y - \overline \omega\cdot Y
+S = Y -  \omega\cdot Y
 $$
 $$
 S = sY
@@ -64,55 +65,57 @@ f = \frac{\frac{S}{Y}}{s} = 1
 $$
 A explicação deste resultado decorre pelo investimento residencial ser contabilmente investimento e, portanto, não é um gasto autônomo ``despoupador''. 
 
-Tal conclusão, no entanto, é problemática por duas razões: (i) diferentemente dos modelos com supermultiplicador apresentados, a \textit{fraction} não é a variável de fechamento; (ii) implica na não replicabilidade do fato estilizado da relação positiva entre crescimento e taxa de investimento. Ambos os pontos podem ser mostrados conjuntamente. Partindo da participação dos componentes da demanda na renda,
+Tal conclusão, no entanto, é problemática por duas razões: (i) diferentemente dos modelos com supermultiplicador apresentados, a \textit{fraction} não é a variável de fechamento; (ii) implica uma relação inversa entre taxa de investimento e crescimento econômico, resultado esse que não encontra sustentação empírica. Ambos os pontos podem ser mostrados conjuntamente. Partindo da participação dos componentes da demanda na renda,
 $$
 \omega + h + \frac{I_h}{Y} = 1
 $$
 Da equação acima, destaca-se que a propensão marginal a consumir é determinada exogenamente e o mesmo vale para a participação do investimento total, ou seja
 $$
-\overline \omega + \overline s = 1
+ \omega +  s = 1
 $$
 Desse modo, um aumento na taxa de crescimento do investimento residencial --- mantida a taxa de investimento total --- implica aumento da propensão marginal a investir plenamente ajustada e subsequente redução da taxa de gastos autônomos
 $$
 \frac{I_t}{Y} = \frac{I_f + I_h}{Y} = s
 $$
-Isso implica que o investimento total e a renda crescem a uma mesma taxa e, portanto, não reproduz o fato estilizado da relação positiva entre crescimento e taxa de investimento. Dito isso e retomando a equação \ref{EqGeral}:
+Dito isso e retomando a equação \ref{EqGeral}:
 $$
-\frac{\overline s\cdot \overline u_N}{v} = \overline g_Z = h\frac{\overline u_N}{\overline v}
+\frac{ s\cdot  u_N}{v} =  g_Z = h\frac{ u_N}{ v}
 $$
 
 \begin{equation}
-h = \frac{\overline g_Z\cdot \overline u_N}{\overline v}
+h = \frac{ g_Z\cdot  u_N}{ v}
 \end{equation}
 \begin{equation}
     \label{Fechamento_Modelo}
-\frac{I_h}{Y} = 1 - \overline\omega - \frac{\overline g_Z\cdot \overline u_N}{\overline v}
+\frac{I_h}{Y} = 1 - \omega - \frac{ g_Z\cdot  u_N}{ v}
 \end{equation}
-Portanto, como o investimento residencial cresce a uma taxa exógena, é a participação do próprio investimento residencial que fecha o modelo como indicado pela equação \ref{Fechamento_Modelo}. 
+Portanto, como o investimento residencial cresce a uma taxa exógena, é a participação do próprio investimento residencial na renda que fecha o modelo como indicado pela equação \ref{Fechamento_Modelo}. 
 
 Feitas essas observações, cabe destacar que o modelo apresentado no capítulo \ref{CapModelo} não incorre nesses problemas uma vez que foi adicionado o consumo capitalista autônomo financiado por crédito ($C_k$) que mantem uma proporção fixa em relação aos gastos autônomos totais
 $$
-C_k = \overline R \cdot Z
+C_k =  R \cdot Z
 $$
 de modo que a relação positiva entre taxa de investimento (total) e crescimento é restabelecida
 $$
-\frac{I_t}{Y} = 1 - \overline \omega - \frac{C_k}{Y}
+\frac{I_t}{Y} = 1 -  \omega - \frac{C_k}{Y}
+$$
+\begin{equation}
+\label{retorno_fraction}
+\frac{I_t}{Y} = 1 -  \omega - \frac{ R\cdot Z}{Y}
+\end{equation}
+$$
+\frac{I_t}{Y} = 1 -  \omega -  R \cdot (1 -  \omega - h^*)
 $$
 $$
-\frac{I_t}{Y} = 1 - \overline \omega - \frac{\overline R\cdot Z}{Y}
+\frac{I_t}{Y} = (1-R)(1 -  \omega) +  R \cdot h^*
 $$
 $$
-\frac{I_t}{Y} = 1 - \overline \omega - \overline R \cdot (1 - \overline \omega - h^*)
-$$
-$$
-\frac{I_t}{Y} = (1-R)(1 - \overline \omega) + \overline R \cdot h^*
-$$
-$$
-\frac{I_t}{Y} = (1-R)(1 - \overline \omega) + \overline R \cdot \frac{g_Z v}{u_N}
+\frac{I_t}{Y} = (1-R)(1 -  \omega) +  R \cdot \frac{g_Z v}{u_N}
 $$
 $$
 \frac{\partial I_t/Y}{\partial g_Z} = \frac{R}{v}\cdot u_N > 0
 $$
+Como pode ser visto na equação \ref{retorno_fraction}, com o gasto autônomo ``despoupador'', retorna-se ao caso em que a fração não é igual à unidade tal como no fechamento do supermultiplicador sraffiano. 
 
 \section{Simulações}
 

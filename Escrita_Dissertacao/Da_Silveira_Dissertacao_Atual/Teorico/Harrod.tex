@@ -1,4 +1,4 @@
-\section{Fechamentos dos modelos heterodoxos de crescimento}
+\section{Fechamentos dos modelos heterodoxos de crescimento}\label{SecFechamentos}
 \subsection{Da instabilidade de Harrod à estabilidade fundamental}
 \label{SecHarrod}
 %TODO Alterar título após modificações
@@ -7,7 +7,7 @@
 As origens da moderna teoria do crescimento econômico devem, em grande parte, às contribuições de \textcite{harrod_essay_1939} em que extrapola o princípio da demanda efetiva formulado por \textcite{keynes_general_1936} para uma economia em crescimento. Tal modelo impôs importantes questões: existe estabilidade do crescimento no longo pra\-zo? É possível equacionar o crescimento da demanda com o crescimento da capacidade produtiva? Se sim, qual variável acomoda essa adequação? A capacidade produtiva se ajusta à demanda ou o inverso? Os modelos de Cambridge, Oxford e supermultiplicador sraffiano responderam essas provocações de formas distintas e serão analisados ao longo desta seção.
 
 Para evitar redundâncias, são apresentadas as hipóteses que permeiam as famílias de modelos aqui avaliadas. 
-A presente exposição prioriza a parcimônia e, portanto, trata-se de uma economia sem relações externas, governo, depreciação e progresso tecnológico cuja produção possui retornos constantes de escala. Além do PDE, o que torna os modelos em questão consistentes é o abandono da substitutibilidade entre capital e trabalho e, portanto, adota-se uma função de produção Leontief em que existem dois possíveis produtos potenciais: plena capacidade ($Y_K$) e pleno emprego ($Y_L$) de modo que o produto potencial ($Y_{FC}$) é determinado por:
+A presente exposição prioriza a parcimônia e, portanto, trata-se de uma economia sem relações externas, governo, depreciação e progresso tecnológico cuja produção possui retornos constantes de escala. Além do PDE, o que torna os modelos em questão consistentes entre si é o abandono da substitutibilidade entre capital e trabalho e, portanto, adota-se uma função de produção Leontief em que existem dois possíveis produtos potenciais: plena capacidade ($Y_K$) e pleno emprego ($Y_L$) de modo que o produto potencial ($Y_{FC}$) é determinado por:
 
 \begin{equation}
     Y_{FC} = \min (Y_K, Y_L)
@@ -20,17 +20,17 @@ Seguindo a literatura, em que o estoque capital ($K$) é o fator escasso, o prod
 em que $v$ é a relação técnica capital-produto potencial. 
 
 
-Considerando as hipóteses anteriores, a determinação do produto pelos componentes da demanda é obtida pela soma do consumo e investimento. Como será visto adiante, a distinção entre os modelos recairá sobre a autonomia (completa ou nula) do investimento das firmas e a existência de gastos autônomos não criadores de capacidade produtiva (denotados por $Z$). De modo a expor o problema deixado por \textcite{harrod_essay_1939}, supõe-se que o consumo é completamente induzido e que não existem gastos ``improdutivos'' ($Z=0$). Assim, o produto determinado pela demanda é dado pelo multiplicador:
+Considerando as hipóteses anteriores, a determinação do produto pelos componentes da demanda é obtida pela soma do consumo e investimento. Como será visto adiante, a distinção entre os modelos recairá sobre a autonomia (completa ou nula) do investimento das firmas e a existência de gastos autônomos não criadores de capacidade produtiva (denotados por $Z$). De modo a expor o problema deixado por \textcite{harrod_essay_1939}, supõe-se que o consumo é completamente induzido e que não existem ``gastos improdutivos autônomos'' ($Z=0$). Assim, o produto determinado pela demanda é dado pelo multiplicador:
 
 \begin{equation}
 \label{Demanda}
 Y = \frac{I}{1-\omega}
 \end{equation}
 em que $\omega$ é o \textit{wage-share} e é idêntico à propensão marginal a consumir da economia\footnote{
-	Para que a propensão marginal a consumir da economia seja idêntica ao \textit{wage-share} é preciso que a propensão marginal a consumir a partir dos salários seja igual ($c_w = 1$) a unidade enquanto a propensão marginal a consumir a partir dos lucros ($P$) seja nula ($c_k = 0$):
+	Para que a propensão marginal a consumir da economia seja idêntica ao \textit{wage-share} é preciso que a propensão marginal a consumir a partir dos salários seja igual  a unidade ($c_w = 1$) enquanto a propensão marginal a consumir a partir dos lucros ($FT$) seja nula ($c_k = 0$):
 	
 	$$
-	c = c_w\cdot \frac{W}{Y} + c_k\cdot \frac{P}{Y}
+	c = c_w\cdot \frac{W}{Y} + c_k\cdot \frac{FT}{Y}
 	$$
 	$$
 	c = 1\cdot \omega + 0\cdot (1-\omega)
@@ -40,17 +40,18 @@ em que $\omega$ é o \textit{wage-share} e é idêntico à propensão marginal a
 	$$
 	
 }.
-Outra hipótese compartilhada entre todos os modelos aqui avaliados é que os trabalhadores não poupam de modo que a propensão marginal a poupar da economia ($s$) é idêntica à propensão marginal a poupar dos capitalistas ($s_k$). 
+Outra hipótese compartilhada entre todos os modelos aqui avaliados é que os trabalhadores não poupam e que a propensão marginal a poupar dos capitalistas é igual a unidade ($s_k = 1$) de modo que a propensão marginal a poupar da economia ($s$) é idêntica ao \textit{profit-share} ($1-\omega$).
+
 Sendo assim, a poupança ($S$) é feita pelos capitalistas a partir dos lucros totais ($FT$):
 $$
-S = s\cdot FT
+S = s_k\cdot FT = s_k\cdot (1-\omega)\cdot Y = s\cdot Y
 $$
-Uma vez que todo o consumo é induzido, a taxa de crescimento da economia ($g$) é determinada pela taxa de investimento ($I$):
+Uma vez que todo o consumo é induzido, a taxa de crescimento da economia ($g$) é determinada pela taxa de crescimento do investimento ($g_I$):
 % TODO: Grifar
 
 \begin{equation}
 \label{crescimento_efetivo}
-	g = \frac{\Delta I}{I_{t-1}}
+	g = g_I =  \frac{\Delta I}{I_{t-1}}
 \end{equation}
 O princípio do acelerador --- neste caso, acelerador rígido e com ajuste completo ---, por sua vez, estabelece que a determinação do investimento decorre das alterações na demanda (efetiva) por meio do princípio de ajuste do estoque de capital:
 $$
@@ -67,7 +68,7 @@ $$
 %    Y = C + I + Z
 %\end{equation}
 A questão que permeia os modelos analisados são as condições para que exista um crescimento equilibrado da demanda (Eq. \ref{Demanda}) e da capacidade produtiva (Eq. \ref{Oferta}). 
-\textcite{harrod_essay_1939} argumenta que a junção do acelerador com o multiplicador permite tratar o Princípio da Demanda Efetiva de forma dinâmica e que esta é a essência do modelo de Harrod cuja equação fundamental pode ser deduzida da identidade entre poupança ($S$) e investimento:
+\textcite{harrod_essay_1939} argumenta que a junção do acelerador com o multiplicador permite tratar o Princípio da Demanda Efetiva de forma dinâmica e que esta é a essência do seu modelo cuja equação fundamental pode ser deduzida da identidade entre poupança ($S$) e investimento:
 
 $$
 s\cdot Y = S \equiv I
@@ -83,7 +84,7 @@ $$
 \label{tx_gk}
     g_K = \frac{s}{v}u
 \end{equation}
-em que $g_K$ é a taxa de acumulação e $u$ é o grau de utilização da capacidade definido por:
+em que $g_K$ é a taxa de crescimento do estoque de capital e $u$ é o grau de utilização da capacidade produtiva definido por:
 $$
 u = \frac{Y}{Y_{FC}}
 $$
@@ -106,7 +107,7 @@ $$
 \frac{\Delta u}{u_{t-1}} = \frac{\Delta Y}{Y_{t-1}} - \frac{\Delta Y_{FC}}{Y_{FC_{t-1}}}
 $$
 e evidencia que para que o grau de utilização se estabilize, é preciso que, no \textit{steady state}, produto e capacidade produtiva cresçam a uma mesma taxa. 
-No entanto, não basta que o grau de utilização se estabilize para obter a equação fundamental de Harrod, mas também que o grau de utilização mantenha-se no nível normal ($u_N$)\footnote{
+Dito isso, para se obter a equação fundamental de Harrod a partir do truísmo expresso na equação \ref{tx_gk}, é preciso supor que o grau de utilização é igual ao normal ($u_N$)\footnote{
 	Ao longo de sua exposição, \textcite{harrod_essay_1939} considera implicitamente que o grau de utilização normal é igual a unidade de modo que sua equação fundamental é expressa nos seguintes termos:
 	$$
 	u_N = 1
@@ -121,27 +122,32 @@ No entanto, não basta que o grau de utilização se estabilize para obter a equ
     \label{Fundamental}
     g_w = \frac{s}{v}u_N
 \end{equation}
-em que $g_w$ é a taxa de crescimento que garante que a demanda e capacidade produtiva cresçam dinamicamente equilibradas. Além disso, pelo grau de utilização estar em seu nível desejado ($u_N$), esta taxa corresponde àquela que os empresários estariam satisfeitos e não haveria razões para alterar seu comportamento e/ou planos de investimento. Em outras palavras, a taxa garantida expressa a taxa de equilíbrio entre oferta e demanda ($g_K$ e $g$, respectivamente). 
+em que $g_w$ é a taxa de crescimento que garante que a demanda e capacidade produtiva cresçam dinamicamente equilibradas. Além disso, pelo grau de utilização estar em seu nível desejado ($u_N$), esta taxa corresponde àquela que os empresários estariam satisfeitos e não haveria razões para alterar seu comportamento e/ou planos de investimento. Em outras palavras, a taxa garantida expressa uma taxa na qual oferta e demanda estão equilibrados e os empresários estão satisfeitos com o grau de utilização da capacidade e sua taxa de acumulação. 
 
-
-Neste modelo, quando a taxa efetiva é maior (menor) que a taxa garantida, o grau de utilização da capacidade é maior (menor) que o normal e isso pode ser apresentado partindo da equação \ref{tx_gk}:
+Neste modelo, quando a taxa efetiva é maior (menor) que a taxa garantida, o grau de utilização da capacidade é maior (menor) que o normal e isso pode ser apresentado a partir da \ref{Fundamental} equação:
 $$
 g_w = \frac{s}{v}\cdot u_N
 $$
 $$
 \frac{s}{v} = \frac{g_w}{u_N}
 $$
+substituindo  $s/v$ em \ref{tx_gk} e considerando
+$$
+g_K = g_I = g
+$$ 
+para então deixar em função da taxa de crescimento do produto
 $$
 g = \frac{g_w}{u_N}\cdot u
 $$
+e, por fim, obter a seguinte relação
 $$
 \frac{g}{g_w} = \frac{u}{u_N}
 $$
-de modo que
+que indica que quando a taxa de crescimento da economia está acima da taxa garantida, o grau de utilização da capacidade serão maior que o normal
 $$
 g > g_w \Rightarrow u > u_N
 $$
-Sendo este o caso, as firmas buscam ampliar a capacidade produtiva com o objetivo que o grau efetivo de utilização da capacidade convirja ao normal. O aumento da taxa de crescimento do investimento tem um impacto imediato na taxa de crescimento da
+Sendo este o caso, as firmas buscam ampliar a capacidade produtiva com o objetivo que o grau efetivo de utilização da capacidade convirja ao normal e, para tanto, elevam a taxa de crescimento do investimento. O aumento da taxa de crescimento do investimento tem um impacto imediato na taxa de crescimento da
 economia e, apenas de depois de alguma defasagem, na taxa de crescimento do estoque de capital. O resultado, portanto, é um grau de utilização da capacidade ainda mais distante do planejado. O problema é justamente que o mecanismo de ajuste do modelo leva a economia cada vez mais distante da sua posição de \textit{steady-state}. A esse processo \textcite{harrod_essay_1939} denomina de instabilidade fundamental. Em outras palavras, quando a taxa de crescimento efetiva difere  da garantida, o grau de utilização efetivo é diferente do normal ($u\neq u_N$) e esta diferença se acentua ao longo tempo.
 
 
@@ -161,7 +167,7 @@ adiante
 The force  of this  argument [Princípio da instabilidade], however, is somewhat \textbf{weakened} when long-range  capital outlay is taken into account.
 \cite[p.~26, grifos adicionados]{harrod_essay_1939}
 \end{citacao}
-Tal possibilidade, como será discutido adiante, sugere que a instabilidade harrodiana pode ser eliminada por meio da autonomia --- com implicações para a propensão marginal e média a poupar ---  de alguns gastos.
+Tal possibilidade, como será discutido adiante, sugere que a instabilidade harrodiana pode ser eliminada por meio da autonomia --- com possíveis implicações para a propensão marginal e média a poupar ---  de alguns gastos.
 No entanto, argumenta-se (na seção \ref{SecSuper}) que tal gasto autônomo não precisar ser necessariamente o investimento criador de capacidade produtiva para que a instabilidade harrodiana seja eliminada.
 Como consequência, tal instabilidade não decorre do princípio de ajuste do estoque de capital \textit{per se}, mas sim, da especificação da propensão marginal (e média) a poupar e da rigidez do acelerador.
 % TODO: Grifar
@@ -181,12 +187,13 @@ Seguindo a exposição de \textcite{serrano_sraffian_1995}, seja $f$ a fração 
 $$
 f = \frac{\frac{S}{Y}}{s}
 $$
-de modo que será igual a unidade quando forem idênticas. 
-Com isso, a equação fundamental de Harrod pode ser rearranjada nos seguintes termos:
+de modo que será igual à unidade quando forem idênticas. 
+Com isso, a equação a taxa de crescimento da capacidade produtiva pode ser rearranjada nos seguintes termos:
+
 
 \begin{equation}
  \label{EqGeral}   
-g_K = g_w = f\frac{s\cdot u_N}{v}
+g_K =  f\frac{s\cdot u}{v}
 \end{equation}
 A equação acima permite comparar os modelos analisados de modo a destacar a variável que garanta, 
 $$
