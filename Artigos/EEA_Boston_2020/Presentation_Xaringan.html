@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Long Run Effective Demand</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Gabriel Petrini" />
+    <meta name="author" content="Lucas Teixeira" />
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Long Run Effective Demand
+## Introducing Residential Investment in a Sraffian Supermultiplier SFC Model
+### Gabriel Petrini
+### Lucas Teixeira
+### <div class="line-block">University of Campinas (Unicamp)</div>
+### February 29th, 2020
+
+---
+
+
+
+
+## Summary
+
+- Empirical motivation
+- Review of the literature: demand-led growth models
+- Stock-Flow Consistent Sraffian Supermutiplier model 
+
+
+**Objective:** Include residential investment in a heterodox demand-led growth model
+
+---
+
+## Empirical Literature
+
+Non-capacity creating autonomous expenditures
+
+- Freitas and Dweck (2013)
+- Braga (2018)
+- Girardi and Pariboni (2016, 2018)
+
+Residential Investment 
+  
+- Green (1997)
+- Leamer (2007)
+- Fiebiger (2018)
+
+???
+
+- Freitas and Dweck present a growth accounting decomposition for the Brazilian economy (1970-2005)
+- Braga (2018) shows evidence that economic growth and firms investment are explained by unproductive expenditures in Brazilian (1962-2015) 
+- Girardi and Pariboni (2016) show that autonomous expenditures do cause long run effects on the growth rate. 
+
+---
+
+
+## Empirical motivation: U.S. Economy
+
+![](./figs/Cycles.png)
+
+???
+
+ The vertical axis represents residential investment-GDP ratio and the horizontal axis represents the rate of capacity utilization as a **proxy for business cycle**.
+ 
+**Recovery:** 
+`$$g_{I_h} &gt; g \Rightarrow \Uparrow \frac{I_h}{Y} \, \text{and}\, \Uparrow u$$`
+
+Firms follow **the capital stock adjustment principle**: 
+
+`$$\Uparrow g_{I_f} \Rightarrow \Uparrow g &gt; g_{I_h} \Rightarrow \Downarrow \frac{I_h}{Y} \, \text{and}\, \Downarrow u$$`
+
+In summary: US business cycles have the pattern "[f]irst homes, then cars,
+and last business equipment"
+
+---
+
+## Literature Review: Alternative Closures
+
+
+**Harrod's question**: which are the conditions for a balanced growth between demand and supply?
+
+Heterodox alternative closures:
+
+- Cambridge
+- Kalecki
+- Sraffian Supermultiplier
+
+???
+
+Harrod's main goal in proceeding this way is to analyze the conditions for **balanced growth between supply and demand**
+
+**Section goal:** analyses the trials to deal with Harrod's problem and verify at what cost they succeeded.
+
+- **Cambridge:** growth rate determines the profit share (1 − ω) — and also the profit rate. Changes in functional distribution of income are the adjustment mechanism of the warranted rate of growth towards the actual one, ensuring the model stability.
+
+- **Kalecki:** 
+
+  + In economies where prevail market structures with oligopolies, prices would
+be rigid even in the long run because of rigid mark-ups.
+  + capacity utilization can be permanently different from the normal/planned one
+
+
+--
+
+![](./figs/Trillema.png)
+
+???
+  
+- **Super:** presents exogenous distribution (as Harrod and Kaleck-
+ian models), normal/planned degree of capacity utilization (as Cambridge16 ) and stability.
+
+  + Feature of the model is the introduction of non-capacity creating autonomous expenditures. **That is the case of housing**.
+  + Greater (smaller) rate of growth of non-capacity creating autonomous
+expenditures will cause a greater (smaller) investment share in output
+
+
+---
+
+## Literature Review: autonomous expenditures
+
+Hybrid neo-Kaleckian models:
+
+- Allain (2015): public expenditures
+- Nah and Lavoie (2017): exports
+
+Sraffian Supermultiplier:
+
+- Pariboni (2016), Mandarino, dos Santos and Macedo e Silva (ROKE, forthcoming): debt-financed consumption
+- Brochier and Macedo e Silva (2019): fully specified SSM-SFC; wealth-financed consumption 
+
+???
+
+**Objective:** Special focus on how they incorporate non-capacity creating autonomous expenditures
+
+- Allain: Gov financed by taxes
+- Nah: Exports  as the main driver of growth
+- Dutt (2006), Palley (2010) and Hein (2012): debt-financed consumption in a Kaleckian way
+- Brochier: The results are at odds with the standard Sraffian Supermultiplier model
+
+  +  produces a wage-led accumulation regime
+  
+**Main conclusion:** it is possible to realize an absence of residential investment-led growth models. We will present a first attempt to fill this gap
+
+---
+
+## Housing in SFC models
+
+![](./figs/Godin.png)
+
+---
+## Balance Sheet Matrix
+
+![](./figs/Stocks.png)
+
+???
+
+
+**Our model is the most parsimonious as possible:** a closed economy without government sector.
+
+**The novelty:**  introduce a second component to investment: residen-
+tial investment
+
+-  two types of real assets
+
+
+---
+## Transaction Flow Matrix and Flow of Funds 
+
+![](./figs/Flows.png)
+
+???
+- Households hold financial wealth as money deposits at banks (M), while finance their residential investment by mortgages (MO).
+
+- Firms investment is fully induced by the level of effective demand, and its growth rate changes accordingly to the **capital stock adjustment principle**.
+
+---
+## Model Structure
+
+$$
+Y =
+`\begin{cases}
+C_{w} =  W \\
+I_{f} = h\cdot Y \hspace{5.25cm} \Delta h = h_{t-1}\cdot\gamma_{u} (u-u_{N})\\
+I_{h} = Z = (1+g_{I_{h}})\cdot I_{h_{t-1}} \hspace{2.5cm} \Delta MO = I_{h}
+\end{cases}`
+$$
+
+--
+
+.pull-left[
+&lt;img src="./figs/Dag.png"&gt;
+]
+
+.pull-right[
+&lt;img src="./figs/DagEstoques.png"&gt;
+]
+
+---
+## Model Solution I
+
+Output level: 
+$$
+Y = \frac{1}{1-\omega - h}\cdot (I_h)
+$$
+
+Out of equilibrium growth rate:
+
+$$
+g = \overline g_{I_h} + \frac{\Delta h}{1-\omega-h}
+$$
+
+
+Equilibrium rate of growth:
+$$
+g = \overline g_{I_h}
+$$
+
+---
+## Model Solution II
+
+Firms investment share:
+$$
+h^* = \frac{g_{I_h}\cdot v}{u_N}
+$$
+Share of firms capital on total capital:
+
+$$
+\frac{K_f}{K} = \frac{h^*}{(1 - \omega)}
+$$
+
+---
+## Numerical Simulations: increase of `\(g_Z\)`
+
+![](./figs/Shock_1.png)
+
+???
+
+Firms revise their investment plans accordingly to capital stock adjustment principle and **gradually increase their marginal propensity to invest**, causing **output to temporarily grow faster than residential investment**. 
+
+`$$\Uparrow h \to g &gt; g_{I_h}$$`
+
+- greater investment share of output;
+- residential investment growth rate causes a reduction of housing
+share in total capital 
+
+---
+## Numerical Simulations: increase of `\(\omega\)`
+
+![](./figs/Shock_2.png)
+???
+- effects are just temporarily, because the rate of growth of residential investment does not change 
+- has a permanent effect on **firms' capital share** of total capital
+
+  + The increase of the wage has a level effect on output and on
+output capacity, without affecting residential investment
+
+**Increase in interest rate:** The only effect is a reduction
+of households savings due to payments of interest on mortgages increasing more than interests on deposits received.
+---
+## Final Remarks
+
+ - Our model preserves Sraffian Supermultipier main results 
+
+- Increase of the wage-share does not increase long run growth rate
+
+  + No paradox of costs
+
+- A greater rate of growth of residential investment reduces houses share of total capital
+
+- Further research: to investigate the determinants of residential investment 
+
+---
+## Main References
+
+
+Brochier &amp; Macedo e Silva (2018): A supermultiplier Stock-Flow Consistent model: the "return" of the paradoxes of thrift and costs in the long run? 
+
+Leamer (2007): Housing **IS** the Business Cycle
+
+Serrano (1995): Long Period Effective Demand and the Sraffian Supermultiplier
+
+Teixeira (2015): Crescimento liderado pela demanda na economia norte-americana nos anos 2000: uma análise a partir do supermultiplicador sraffiano com inflação de ativos
+
+---
+
+class: center, inverse, middle
+
+
+# Thank you!
+# Muito Obrigado!
+---
+## Next steps
+
+- Including housing bubbles
+
+$$
+g_{I_h} = \phi_0 - \phi_1\cdot \overbrace{\left(\frac{1+r_mo}{1 + \dot p_h} - 1\right)}^{\text{own}}
+$$
+
+
+- Split between two classes and including more autonomous expenditures
+
+$$
+Z = I_h + C_k
+$$
+
+- Estimating a time series model (VEC)
+
+$$
+g_{I_h} \sim \text{own}
+$$
+
+- Inputing real data (own observable series) in the model
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="libs/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function(time) {
+  var d2 = function(number) {
+    return ('0' + number).slice(-2); // left-pad 0 to minutes/seconds
+  },
+
+  time_format = function(total) {
+    var secs = Math.abs(total) / 1000;
+    var h = Math.floor(secs / 3600);
+    var m = Math.floor(secs % 3600 / 60);
+    var s = Math.round(secs % 60);
+    var res = d2(m) + ':' + d2(s);
+    if (h > 0) res = h + ':' + res;
+    return res;  // [hh:]mm:ss
+  },
+
+  slide_number_div = function(i) {
+    return document.getElementsByClassName('remark-slide-number').item(i);
+  },
+
+  current_page_number = function(i) {
+    return slide_number_div(i).firstChild.textContent;  // text "i / N"
+  };
+
+  var timer = document.createElement('span'); timer.id = 'slide-time-left';
+  var time_left = time, k = slideshow.getCurrentSlideIndex(),
+      last_page_number = current_page_number(k);
+
+  setInterval(function() {
+    time_left = time_left - 1000;
+    timer.innerHTML = ' ' + time_format(time_left);
+    if (time_left < 0) timer.style.color = 'red';
+  }, 1000);
+
+  slide_number_div(k).appendChild(timer);
+
+  slideshow.on('showSlide', function(slide) {
+    var i = slide.getSlideIndex(), n = current_page_number(i);
+    // reset timer when a new slide is shown and the page number is changed
+    if (last_page_number !== n) {
+      time_left = time; last_page_number = n;
+      timer.innerHTML = ' ' + time_format(time); timer.style.color = null;
+    }
+    slide_number_div(i).appendChild(timer);
+  });
+})(60000);
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

@@ -17,7 +17,7 @@ $$
 \label{gLP}
     g = \frac{\dot h}{1 - \omega - h} + g_z
 \end{equation}
-Como indicado anteriormente, a propensão marginal a investir se ajusta de acordo com o princípio do ajuste do estoque de capital e, dessa forma, quando o grau de utilização convergir ao normal, a taxa de crescimento da economia tende a taxa de crescimento dos gastos autônomos (neste caso, investimento residencial e consumo capitalista). 
+Como indicado anteriormente, a propensão marginal a investir se ajusta de acordo com o princípio do ajuste do estoque de capital e, dessa forma, quando o grau de utilização convergir ao normal, a taxa de crescimento da economia tende a taxa de crescimento dos gastos autônomos (neste caso, investimento residencial e consumo capitalista): 
 \begin{equation}
 u \to u_N \Leftrightarrow g \to g_z
 \end{equation}
@@ -64,7 +64,7 @@ uma vez que $\gamma_u$ e $u_N$ são necessariamente positivos, basta que a condi
 own < \frac{\phi_0}{\phi_1}
 \end{equation}
 
-Além disso, se o sistema é estável em torno do equilíbrio de longo prazo, o grau de utilização deve convergir. Partindo da Eq. \ref{Aux}, é preciso que a seguinte condição seja atentida:
+Além disso, se o sistema é estável em torno do equilíbrio de longo prazo, o grau de utilização deve convergir. Partindo da Eq. \ref{Aux}, é preciso que a seguinte condição seja atendida:
 $$
 \frac{\partial g}{\partial u} < \frac{\partial g_K}{\partial u}
 $$
@@ -78,7 +78,7 @@ $$
 %\omega + \frac{g_Z v}{u_N} < 1
 $$
 \begin{equation}
-\omega + h^* < 1
+\omega + h^*+ \gamma_u\cdot v < 1
 \end{equation}
 A condição anterior, como em \textcite{freitas_growth_2015}, significa que a propensão marginal a gastar (consumir e investir) seja menor que a unidade, caso contrário, 
 %vigora-se a lei de Say.
@@ -86,7 +86,7 @@ o modelo não seria compatível com o PDE, estendido a uma economia em crescimen
 
 
 %%%%%%%%%%%%%%%%%% Ponte para apêndice
-Uma vez que as relações entre crescimento e distribuição no supermultiplicador sraffiano estão bem estabelecidas pela literatura, avança-se em direção da análise das particularidade do presente modelo: presença de dois tipos distintos de estoque de capital.
+Uma vez que as relações entre crescimento e distribuição no supermultiplicador sraffiano estão bem estabelecidas pela literatura, avança-se em direção da análise das particularidades do presente modelo: presença de dois tipos distintos de estoque de capital.
 Em outras palavras, a principal diferença deste modelo é que um dos gastos autônomos (investimento residencial) também forma o estoque de capital da economia que, diferentemente do capital das firmas, não cria capacidade produtiva. Resta, portanto, explicitar a dinâmica entre estes dois estoques de capital distintos, captados por $k$. A equação que define o grau de utilização da capacidade pode ser reescrita como
 
 $$
@@ -163,9 +163,9 @@ negativamente do componente autônomo de $g_{I_h}$ (Eq \ref{partial_phi0}), da i
 \frac{\partial k}{\partial \omega} = - \frac{v \left(\phi_{0} \left(\pi + 1\right) - \phi_{1} \left(- \pi + rm\cdot(1 + \sigma_{mo})\right)\right)}{u_N \left(\pi + 1\right) \left(\omega - 1\right)^{2}} < 0
 \end{equation}
 Antes de prosseguir para as simulações, vale destacar que diminuição da taxa de imóveis no estoque de capital decorrente de um aumento na taxa de crescimento do investimento residencial (reportada nas equações \ref{partial_phi0} e \ref{partial_pi}) está em linha com o supermultiplicador sraffiano uma vez que o
-investimento produtivo cresce temporariamente mais rápido que os gastos autonômos, gerando um efeito nível no estoque de capital.
-Mudanças na distribuição (isto é, alterações no multiplicador), por outro lado, 
-terão efeito nível sobre o produto e, portanto, efeito nivel sobre o estoque de capital, alterando a a composição dos diferentes tipos de estoque de capital (equação \ref{partial_omega}). 
+investimento produtivo cresce temporariamente mais rápido que os gastos autônomos, gerando um efeito nível no estoque de capital.
+Mudanças na distribuição (isto é, alterações no supermultiplicador), por outro lado, 
+terão efeito nível sobre o produto e, portanto, efeito nível sobre o estoque de capital, alterando a composição dos diferentes tipos de estoque de capital (equação \ref{partial_omega}). 
 %TODO Grifar.
 
 

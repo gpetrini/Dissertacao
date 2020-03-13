@@ -846,7 +846,7 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{editor}
       \field{labeltitlesource}{title}
-      \field{title}{Rethinking {Macroeconomic} {Policy}}
+      \field{title}{Evolution or Revolution? Rethinking Macroeconomic Policy after the Great Recession}
       \field{year}{2017}
     \endentry
     \entry{setterfield_distribution_2002}{incollection}{}
@@ -4099,7 +4099,7 @@
       \field{journaltitle}{Metroeconomica}
       \field{number}{1}
       \field{shorttitle}{{HARRODIAN} {INSTABILITY} {AND} {THE} ‘{NORMAL} {RATE}’ {OF} {CAPACITY} {UTILIZATION} {IN} {KALECKIAN} {MODELS} {OF} {DISTRIBUTION} {AND} {GROWTH}-{A} {SURVEY}}
-      \field{title}{{HARRODIAN} {INSTABILITY} {AND} {THE} ‘{NORMAL} {RATE}’ {OF} {CAPACITY} {UTILIZATION} {IN} {KALECKIAN} {MODELS} {OF} {DISTRIBUTION} {AND} {GROWTH}-{A} {SURVEY}: {Harrodian} {Instability} in {Kaleckian} {Models}}
+      \field{title}{{Harrodian} {instability} {and} {the} '{normal} {rate}’ {of} {capacity} {utilization} {in} {kaleckian} {models} {of} {distribution} {and} {growth}-{A} {survey}: {Harrodian} {Instability} in {Kaleckian} {Models}}
       \field{urlday}{28}
       \field{urlmonth}{12}
       \field{urlyear}{2018}
@@ -6248,7 +6248,7 @@
       \field{issn}{1464-3588, 0277-5921}
       \field{journaltitle}{Contributions to Political Economy}
       \field{number}{1}
-      \field{title}{{LONG} {PERIOD} {EFFECTIVE} {DEMAND} {AND} {THE} {SRAFFIAN} {SUPERMULTIPLIER}}
+      \field{title}{{Long} {Period} {Effective} {Demand} {and} {the} {Sraffian} {Supermultiplier}}
       \field{urlday}{20}
       \field{urlmonth}{12}
       \field{urlyear}{2018}
@@ -7227,7 +7227,6 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{serrano_long_1995-1}
 \endrefsection
 \endinput
 

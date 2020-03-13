@@ -1,7 +1,8 @@
 \section{Modelo}
 \label{SecModelo}
 
-Por padrão, as variáveis exógenas, $j$ diga-se, serão indicadas por $\overline{j}$ enquanto os parâmetros serão denotados por letras gregas. Além disso, as equações não numeradas são apenas etapas algébricas enquanto as numeradas estão presentes nas rotinas utilizadas. Por fim, vale a menção de que os códigos deste modelo estão disponíveis e foram escritos em \textit{python} com o uso do pacote \textit{pysolve3}\footnote{
+Por padrão, as variáveis exógenas, $j$ diga-se, serão indicadas por $\overline{j}$ enquanto os parâmetros serão denotados por letras gregas. Além disso, as equações não numeradas são apenas etapas algébricas enquanto as numeradas estão presentes nas rotinas utilizadas. Por fim, vale a menção de que os códigos deste modelo são abertos\footnote{Disponível em \url{https://github.com/gpetrini/Dissertacao/blob/master/Modelo/Versoes/CapitalistConsumption.ipynb}
+} e foram escritos em \textit{python} com o uso do pacote \textit{pysolve3}\footnote{
 	Disponível em \url{https://github.com/gpetrini/pysolve3}.
 } que foi desenvolvido ao longo desta pesquisa.
 
@@ -64,7 +65,7 @@ A razão pela qual o capital criador de capacidade se difere do estoque de capit
 \label{_K}
     K = K_f + K_h
 \end{equation}
-em que $K_h$ refere ao estoque de imóveis possuído apenas pelos capitalistas. Seja $k$ a participação dos imóveis no estoque de capital total da economia:
+em que $K_h$ se refere ao estoque de imóveis possuído apenas pelos capitalistas. Seja $k$ a participação dos imóveis no estoque de capital total da economia:
 
 \begin{equation}
 \label{_tau}
@@ -272,7 +273,7 @@ Por fim, da matriz dos estoques obtém-se o estoque de riqueza líquida dos banc
 
 \subparagraph*{Trabalhadores}
 
-Supõe-se que, dada a distribuição de renda, os trabalhadores não poupam, ou sejam, gastam ($C_w$) o que ganham ($W$)
+Supõe-se que, dada a distribuição de renda, os trabalhadores não poupam, ou seja, gastam ($C_w$) o que ganham ($W$)
 \begin{equation}
 C_w = W
 \end{equation}
@@ -334,6 +335,7 @@ uma vez que as taxas de juros são iguais ($\sigma_{mo} = \sigma_{l} = 0$), esta
 $$
     YD_k = FD + \overline r_m\cdot (M_{-1} - \cdot MO_{-1} - \cdot L_{hk_{-1}})
 $$
+
 A poupança das famílias capitalistas ($S_{hk}$), portanto, é a renda disponível subtraída do consumo:
 
 \begin{equation}
@@ -377,7 +379,7 @@ Outra hipótese do modelo é de que as famílias se endividam com títulos hipot
     \Delta MO = I_h
 \end{equation}
 
-Por fim, tal como no capítulo anterior, considera-se que a taxa de crescimento do investimento residencial ($g_{I_h}$) é definido pela taxa própria de juros dos imóveis (\textit{own}) tal como apresentado no capítulo \ref{CapTeorico}:
+Por fim, considera-se que a taxa de crescimento do investimento residencial ($g_{I_h}$) é definida pela taxa própria de juros dos imóveis (\textit{own}) tal como apresentado no capítulo \ref{CapTeorico}:
 
 \begin{equation}
     I_h = (1 + g_{I_h})\cdot Ih_{-1}

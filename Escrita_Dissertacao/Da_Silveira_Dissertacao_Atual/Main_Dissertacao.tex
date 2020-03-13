@@ -103,16 +103,13 @@ sumario=tradicional,
 %\includepdf{Dissertacao_ficha-catalografica}
 % ---
 
-% --- Inserir a ficha catalogr\'{a}fica ---
-%\includepdf{ficha_catalografica.pdf}
+
 
 % --- Para a vers\~{a}o final, delete as linhas abaixo e insira a linha do \includepdf
 \begin{fichacatalografica}
-	\vspace*{\fill}
 	\begin{center}
-		\textsc{Inclua aqui o pdf com a ficha catalogr\'{a}fica fornecida pela BAE.}
+\includepdf{/dados/Dissertacao/Homologacao/Ficha-Catalografica-Protocolo-579684102.pdf}
 	\end{center}
-\vspace*{\fill}
 	% --- --- ---
 	%\includepdf{ficha-catalografica.pdf}
 \end{fichacatalografica}
@@ -126,7 +123,6 @@ sumario=tradicional,
 %\includepdf{Dissertacao_folha-de-aprovacao}
 	
 	% --- Inserir folha de aprova\c{c}\~{a}o ---
-	%\includepdf{folha_de_assinaturas_oficial.pdf}
 	
 	% Isto \'{e} um exemplo de Folha de aprova\c{c}\~{a}o, elemento obrigat\'{o}rio da NBR
 	% 14724/2011 (se\c{c}\~{a}o 4.2.1.3). Voc\^{e} pode utilizar este modelo at\'{e} a aprova\c{c}\~{a}o
@@ -138,16 +134,13 @@ sumario=tradicional,
 %                                   FOLHA DE ASSINATURAS
 %==================================================================================================
 \newpage
-\vspace*{\fill}
 \begin{center}
-	\textsc{Inclua aqui a folha de assinaturas.}
+	\includepdf{/dados/Dissertacao/Homologacao/Folha_Assinaturas.pdf}
 \end{center}
-\vspace*{\fill}
 \newpage
 % --- --- ---
 %\includepdf[pagecommand={\thispagestyle{plain}}]{folha-assinaturas.pdf}	
-%\cleardoublepage
-\newpage
+%\newpage
 
 %==================================================================================================
 %                                   DEDICATÓRIA
@@ -162,7 +155,7 @@ sumario=tradicional,
 	\vspace*{\fill}
 	\centering
 	\noindent
-	\textit{Dedico esta tese \`{a} todo mundo.}
+	\textit{Pela comunidade, para a comunidade}
 	\vspace*{\fill}
 \end{dedicatoria}
 %\setcounter{page}{}
@@ -174,10 +167,7 @@ sumario=tradicional,
 %\input{Dissertacao_agradecimentos}
 %% --- Agradecimentos ---
 \begin{agradecimentos}
-	Escreva seus agradecimentos.
-	
-	
-	\lipsum[1-3]
+
 \end{agradecimentos}
 
 %
@@ -189,7 +179,7 @@ sumario=tradicional,
 
 Esta dissertação investiga a relação entre investimento residencial, inflação de ativos e dinâmica macroeconômica no médio prazo com base no caso americano no pós-desregulamentação financeira (1992-2019).
 No primeiro capítulo, é feita uma revisão da literatura dos modelos de crescimento liderados pela demanda, elencando o supermultiplicador sraffiano (SSM) como o mais pertinente para atender os objetivos desta pesquisa.
-No capítulo seguinte, avança-se em direção da discussão empírica e é estimado um modelo vetor de correção de erros (VECM) para testar a capacidade explicativa da taxa de juros real dos imóveis.
+No capítulo seguinte, avança-se em direção da discussão empírica e é estimado um modelo vetor de correção de erros (VECM) para testar a capacidade explicativa da taxa própria de juros dos imóveis.
 No terceiro capítulo, é simulado um modelo \textit{Stock-Flow Consistent} com supermultiplicador sraffiano (SSM-SFC) com inflação de ativos em que se
 prioriza a parcimônia de modo a representar uma economia fechada e sem governo com famílias trabalhadoras e capitalistas em que somente estas últimas têm acesso a crédito para financiar tanto o consumo quanto o investimento residencial.
 A especificidade deste modelo é a existência do estoque de capital das firmas (criador de capacidade produtiva) e das famílias
@@ -201,7 +191,7 @@ Conclui-se que a taxa própria de juros dos imóveis explica a taxa de crescimen
 
 \vspace{\onelineskip}
 
-\noindent\textbf{Palavras-chaves}: 
+\noindent\textbf{Palavras-chave}: 
 	Supermultiplicador Sraffiano; 
 	Investimento residencial; 
 	Taxa própria de juros; 
@@ -282,10 +272,10 @@ Conclui-se que a taxa própria de juros dos imóveis explica a taxa de crescimen
 %==================================================================================================
 % FIXME Comentar a linha abaixo de não for apresentar as
 % abreviações e siglas utilizadas.
-\input{Interno/Dissertacao_abreviacoes}
-\addcontentsline{toc}{chapter}{Lista de Abreviaturas e Siglas}
+%\input{Interno/Dissertacao_abreviacoes}
+%\addcontentsline{toc}{chapter}{Lista de Abreviaturas e Siglas}
 %\cleardoublepage
-\newpage
+%\newpage
 %
 %==================================================================================================
 %                                   SÍMBOLOS
@@ -311,6 +301,7 @@ Conclui-se que a taxa própria de juros dos imóveis explica a taxa de crescimen
 % As paginas com o conteúdo da tese são numeradas com algoritmos arábicos.
 %\mainmatter
 % TODO Corrigir numeração romana antes da dissertação
+
 %
 %==================================================================================================
 %                                   CAPÍTULOS DA DISSERTAÇÃO

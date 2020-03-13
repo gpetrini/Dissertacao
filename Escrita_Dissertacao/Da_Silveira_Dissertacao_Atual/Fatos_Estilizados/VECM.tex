@@ -7,7 +7,7 @@
 O objetivo desta subseção é detalhar a relação entre investimento residencial e a taxa própria de juros dos imóveis desenvolvida por \textcite{teixeira_crescimento_2015} para então expor as hipóteses testadas no modelo econométrico.
 Para evidenciar esta relação, deflaciona-se a taxa de juros hipotecária pela inflação de imóveis tal como na equação \ref{tx_Propria} retomada abaixo
 $$
-g_{I_h} = \phi_0 + \phi_1\cdot own
+g_{I_h} = \phi_0 - \phi_1\cdot own
 $$
 O gráfico \ref{gZ_Propria} ilustra como  este deflacionamento é mais adequado do que por um índice geral de preços ---  como faz \textcite[p.~143--146]{fair_macroeconometric_2013} --- para captar a dinâmica do investimento residencial.
 Destaca-se também que em momentos de bolha de imóveis é a inflação destes ativos que domina a dinâmica da taxa própria \cite[p.~53]{teixeira_crescimento_2015}. Sendo assim, quanto menor esta taxa maiores serão os ganhos de capital (em imóveis) por se especular com imóveis.
@@ -81,14 +81,15 @@ Seguindo as hipóteses de \textcite{teixeira_crescimento_2015}, os resultados es
 			\begin{tabular}[c]{@{}l@{}}Efeito da taxa de crescimento do investimento residencial sobre\\ o preço dos imóveis é desprezível dado que o estoque de imóveis\\ é muito maior que o fluxo de novos imóveis\end{tabular} \\ \hline\hline
 		\end{tabular}%
 	}
+\caption*{\textbf{Fonte:} Elaboração própria}
 \end{table}
 
 Apesar de lançar luz sobre algumas relações relevantes, a proposição de \textcite{teixeira_crescimento_2015} não foi avaliada por meio da estimação de um modelo macroeconométrico e isso será feito a seguir.
 
 \subsection{Estimação do modelo}
 
-O modelo a ser estimado pretende testar se a inflação de ativos (\textit{i.e.} inflação do preço dos imóveis) contribui para explicar a dinâmica do investimento residencial tal como proposto por \textcite{teixeira_crescimento_2015}\footnote{Os resultados de todos os testes realizados bem como as rotinas utilizadas estão disponíveis sob solicitação.}. 
-Vale relembrar que a seleção do período analisado decorre de quebras estruturais (ver tabela \ref{structbreak}) associadas às mudanças institucionais no-pós crise das \textit{savings and loans} (FDIC e FIRREA).
+O modelo a ser estimado pretende testar se a inflação de ativos (\textit{i.e.} inflação do preço dos imóveis) contribui para explicar a dinâmica do investimento residencial tal como proposto por \textcite{teixeira_crescimento_2015}\footnote{As rotinas utilizadas estão disponíveis sob solicitação.}. 
+Vale relembrar que a seleção do período analisado decorre de quebras estruturais (ver tabela \ref{structbreak}) associadas às mudanças institucionais no pós-crise das \textit{savings and loans} (FDIC e FIRREA).
 Dito isso, foram utilizadas séries trimestrais com ajuste sazonal de 1992 a 2019 (ver gráfico \ref{YeoJhonson}) da taxa de juros das hipotecas fixas em trinta anos (MORTGAGE30US, trimestralizada pelo fim do período), investimento residencial (PRFI, em taxa de crescimento) e índice de Case-Shiller (CSUSHPISA, trimestralizada pelo fim do período). 
 
 Por se tratar de taxas de crescimento com ampla volatilidade, aplicou-se a transformação de \textcite{yeo_new_2000} para conter a amplitude das séries decorrente da crise imobiliária. A razão de se utilizar tal procedimento e não a transformação de \textcite{box_analysis_1964} é por não se restringir a valores não-negativos. Em seguida, foram realizados testes de raiz unitária (tabela \ref{unitroot}) bem como o procedimento de \textcite{johansen_estimation_1991} (tabela \ref{Johansen}) e, a um nível de significância de 5\%, conclui-se que as séries são cointegradas e, portanto, um modelo do tipo vetor de correção de erros (VECM) é a melhor forma de estimação para este caso \cite{enders_applied_2014}.
@@ -160,7 +161,7 @@ Uma vez selecionado o \textit{lag} que minimiza os critérios de informação e 
 Começando pela relação de cointegração, verifica-se que é estatisticamente significante para ambas as equações de modo que as variáveis partilham uma relação (negativa) de longo prazo, ou seja, são cointegradas (fundamentando os pontos 1 e 4 da tabela \ref{resultados_esperados}).
 Desse modo, a proposição de \textcite{teixeira_crescimento_2015} é corroborada por meio do coeficiente $\phi_1> 0$ e estatisticamente significante.
 Além disso, os coeficientes $\gamma_{2,is}$ estimados são negativos seguindo os resultados esperados (6) do mesmo modo que a demanda por imóveis por motivos não-especulativos ($\phi_0$) é estatisticamente significante (resultado 5).
-Adotando um nível de significância de 5\%, verifica-se que o parâmetro de correção de erro é estatisticamente significante apenas para a equação da taxa de crescimento do investimento residencial. Portanto, a variável $own$ é exogenamente fraca em relação a $g_{I_h}$ enquanto taxa própria Granger-causa $g_{I_h}$, validando os resultado esperados (2) e (3).
+Adotando um nível de significância de 5\%, verifica-se que o parâmetro de correção de erro é estatisticamente significante apenas para a equação da taxa de crescimento do investimento residencial. Portanto, a variável $own$ é exogenamente fraca em relação a $g_{I_h}$ enquanto taxa própria Granger-causa $g_{I_h}$, validando os resultados esperados (2) e (3).
 Já as relações de curto prazo entre taxa própria e $g_{I_h}$ (capturadas por $\beta_{1,is}$) não são estatisticamente significantes a 5\% \footnote{O resultado esperado (7) também pode ser confirmado a partir da inspeção da tabela \ref{Estimacao} em que apenas a quarta defasagem da taxa própria é estatisticamente significante nesta equação.}. Portanto, os resultados obtidos estão em linha com os esperados e podem ser resumidos nos seguintes termos: taxa própria de juros dos imóveis determina a --- mas não é determinada pela --- taxa de crescimento do investimento residencial e estas variáveis apresentam uma relação negativa de longo prazo.
 
 \begin{table}[H]
@@ -195,7 +196,7 @@ Uma forma de verificar a capacidade explicativa da taxa própria para $g_{I_h}$ 
 
 Adiante, é apresentado o gráfico da função impulso resposta ortogonalizada (gráfico \ref{irf}) --- grosso modo, as conclusões da FEVD se estendem também para os choques --- em que são avaliados os impactos no aumento de um desvio-padrão em uma das variáveis endógenas no primeiro período apenas.
 %TODO Checar
-A partir deste gráfico, verifica-se que o sistema é estável uma vez que os efeitos do aumento de $g_{I_h}$ sobre $g_{I_h}$ é amortecido ao longo do tempo enquanto os efeitos da taxa própria sobre a ela mesma são persistentes mas não explosivos.
+A partir deste gráfico, verifica-se que o sistema é estável uma vez que os efeitos do aumento de $g_{I_h}$ sobre $g_{I_h}$ é amortecido ao longo do tempo enquanto os efeitos da taxa própria sobre a ela mesma são persistentes, mas não explosivos.
 Já os efeitos de $g_{I_h}$ sobre a taxa própria são nulos uma vez que o intervalo de confiança sempre abrange o zero. Por fim, e este é o resultado relevante, dados os objetivos, é o efeito negativo considerável e duradouro da taxa própria sobre $g_{I_h}$, confirmando a tese de \textcite{teixeira_crescimento_2015}.
 Em resumo, as funções resposta ao impulso indicam que o aumento da taxa de juros das hipotecas (aumento na Taxa Própria) impacta negativamente na taxa de crescimento residencial enquanto o aumento da inflação de ativos implica no inverso. 
 %alinhado com os resultados de \textcite{huang_is_2018} para o longo prazo.
