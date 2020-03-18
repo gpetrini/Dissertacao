@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.6.22)  13 MAR 2020 11:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.6.22)  17 MAR 2020 20:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3060,13 +3060,13 @@ o.tex [111] [112
 
 
 ]
-Overfull \hbox (2.02068pt too wide) in paragraph at lines 328--328
+Overfull \hbox (2.02068pt too wide) in paragraph at lines 336--336
 [][]$[]$\T1/ptm/m/n/12 . \T1/ptm/b/n/12 Ins-ti-tu-ti-ons, Beha-vi-our and Eco-n
 o-mic The-ory: A Con-tri-bu-tion to Classical-Keynesian
  []
 
 [116] [117] [118] [119] [120] [121] [122]
-Overfull \hbox (0.5758pt too wide) in paragraph at lines 328--328
+Overfull \hbox (0.5758pt too wide) in paragraph at lines 336--336
 [][]$[]$\T1/ptm/m/n/12 . The role of au-to-no-mous de-mand growth in a neo-Kale
 ckian conflicting-claims fra-mework'.
  []
@@ -3075,10 +3075,9 @@ ckian conflicting-claims fra-mework'.
 (./Modelo/Apendice_Fraction.tex [126
 
 
-] [127] [128]
-(../../Modelo/Versoes/table.tex)) [129] (./cc-by-sa.texpdfTeX warning (ext4): d
-estination with the same identifier (name{appendix.A}) has been already used, d
-uplicate ignored
+] [127] (../../Modelo/Versoes/table.tex))
+[128] [129] (./cc-by-sa.texpdfTeX warning (ext4): destination with the same ide
+ntifier (name{appendix.A}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.1 \chapter{Licença}
@@ -3109,15 +3108,15 @@ AED: lastpage setting LastPage
 \tf@lot=\write10
 \openout10 = `Main_Dissertacao.lot'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 367.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 367.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 375.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 375.
 (./Main_Dissertacao.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 367.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 367.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 375.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 375.
 Package logreq Info: Writing requests to 'Main_Dissertacao.run.xml'.
 \openout1 = `Main_Dissertacao.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 367.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 375.
  ) 
 Here is how much of TeX's memory you used:
  51179 strings out of 492609
@@ -3146,7 +3145,7 @@ texlive/2019/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/20
 19/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2019/texmf-
 dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts
 /type1/urw/times/utmri8a.pfb>
-Output written on Main_Dissertacao.pdf (136 pages, 10173500 bytes).
+Output written on Main_Dissertacao.pdf (136 pages, 10173975 bytes).
 PDF statistics:
  2428 PDF objects out of 2487 (max. 8388607)
  2164 compressed objects within 22 object streams
