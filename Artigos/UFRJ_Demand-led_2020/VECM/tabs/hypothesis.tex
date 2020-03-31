@@ -1,0 +1,44 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{graphicx}
+\begin{table}[H]
+	\centering
+	\caption{Summary of expected results of the macroeconometric model}
+	\label{resultados_esperados}
+	\resizebox{\textwidth}{!}{%
+		\begin{tabular}{l|l|l}
+			\hline\hline
+			\textbf{\begin{tabular}[c]{@{}l@{}}Expected\\ Result\end{tabular}} &
+			\textbf{Econometric Meaning} &
+			\textbf{Economic Meaning} \\ \hline\hline
+			\textbf{1. $\varepsilon \sim I(0)$} &
+			\begin{tabular}[c]{@{}l@{}} Stationary residuals indicates cointegration relationship\end{tabular} &
+			\begin{tabular}[c]{@{}l@{}} Series share a common\\long-run trend\end{tabular} \\ \hline
+			\textbf{2. $\alpha_1 = 0$} &
+			\begin{tabular}[c]{@{}l@{}} $own$ is weakly exogenous\\ compered to $g_{I_h}$\end{tabular} & \begin{tabular}[c]{@{}l@{}} 
+				$own$ dynamics is not affected\\by previous equilibrium deviation\end{tabular}
+			\\ \hline
+			\textbf{3. $\alpha_2 < 0$} &
+			\begin{tabular}[c]{@{}l@{}}Own interest rate Granger-causes\\
+				residential investment growth rate\end{tabular} & \begin{tabular}[c]{@{}l@{}} $g_{I_h}$ dynamics is not affected\\ by previous equilibrium deviation\end{tabular}
+			\\ \hline
+			\textbf{4. $\phi_1 > 0$} &
+			\begin{tabular}[c]{@{}l@{}}Series share a common\\negative long-run relationship\end{tabular} &
+			\begin{tabular}[c]{@{}l@{}}Own interest rate affects\\residential investment growth rate negatively\end{tabular} \\ \hline
+			\textbf{5. $\phi_0 < 0$} &
+			\begin{tabular}[c]{@{}l@{}}
+			Real estate demand for non-speculation\\reasons is statistically significant
+			\end{tabular} &
+			\begin{tabular}[c]{@{}l@{}}
+				Real estate demand associated with\\institutional particularities and demographic\\ changes affects residential investment\\growth rate positively\end{tabular} \\ \hline
+			\textbf{6. $\gamma_{2,is} < 0$} &
+			\begin{tabular}[c]{@{}l@{}}Residential investment growth rate\\coefficient is statistically significant\end{tabular} &
+			\begin{tabular}[c]{@{}l@{}}Own interest rate affects\\$g_{I_h}$ in the short-run\end{tabular} \\ \hline
+			\textbf{7. $\beta_{1,is} = 0$} &
+			\begin{tabular}[c]{@{}l@{}}
+				$g_{I_h}$ effects over own interest\\ rate is not statistically significant\end{tabular} &
+			\begin{tabular}[c]{@{}l@{}}
+				$g_{I_h}$ effects over own interest\\ rate is negligible since dwellings stock is much\\bigger than residential investment (flow)\end{tabular} \\ \hline\hline
+		\end{tabular}%
+	}
+\caption*{\textbf{Source:} Authors' elaboration}
+\end{table}

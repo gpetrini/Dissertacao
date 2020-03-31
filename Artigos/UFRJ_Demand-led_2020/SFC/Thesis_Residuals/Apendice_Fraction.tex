@@ -1,0 +1,129 @@
+\titleformat{\chapter}[display]{\normalfont\huge}{\appendixname{} \thechapter}{20pt}{\bfseries\huge}
+\chapter{Modelo SFC}
+\label{Append_Fraction}
+%TODO Gráfico sensibilidade
+%TODO Desenvolvimento solução de k
+
+
+\section{\textit{Fraction} e o investimento residencial}
+
+O objetivo deste apêndice é mostrar que a inclusão de um gasto autônomo não criador de capacidade produtiva ao setor privado não é condição suficiente para que a propensão marginal ($s$) e média a poupar ($S/Y$) sejam distintas. Tal como no corpo do texto, seja $Y$ a renda, $C$ o consumo induzido, $I_t$ o investimento total e $Z$ os gastos autônomos que serão distintos em cada uma das seções subsequentes.
+
+\subsection{Gastos ``despoupadores''}
+
+Considere, primeiramente, que os gastos autônomos são o consumo financiado por crédito.
+
+$$
+Y = C + I_t + Z
+$$
+Partindo da identidade contábil entre investimento e poupança
+$$
+S = Y - C - Z
+$$
+Para o caso mais simplificado em que a propensão marginal a consumir a partir dos salários é igual à unidade de modo que o consumo induzido é dado por
+$$
+C = \omega\cdot Y
+$$
+em que $\omega$ é a participação dos salários na renda. Substituindo na equação anterior,
+$$
+S = (1- \omega)Y - Z \Rightarrow S = s\cdot Y - Z
+$$
+Por fim, dividindo a equação anterior pela renda, obtém-se a propensão média a poupar em função dos gastos autônomos:
+\begin{equation}
+\label{_Fraction}
+    \frac{S}{Y} = s - \frac{Z}{Y}
+\end{equation}
+A equação \ref{_Fraction} explicita que na presença dos gastos autônomos não criadores de capacidade produtiva, propensão marginal e média a poupar são distintas. No entanto, tal afirmação exige uma qualificação adicional. Tais gastos precisam ser ``despoupadores'' para se ter esse resultado. Na seguir, será apresentado o caso de gastos autônomos que geram poupança. 
+
+\subsection{Investimento residencial}
+
+Seguindo os mesmos procedimentos, mas com os gastos autônomos sendo agora o investimento residencial enquanto o consumo volta a ser totalmente induzido. Com isso, o investimento da economia é composto por duas parcelas, o investimento das firmas ($I_f$) e das famílias ($I_h = Z$):
+$$
+I_t = I_f + I_h
+$$
+De modo que a renda é determinada por:
+$$
+Y = C + I_f + Z
+$$
+Mais uma vez, partindo da identidade entre poupança e investimento
+$$
+S = Y - C
+$$
+$$
+S = Y -  \omega\cdot Y
+$$
+$$
+S = sY
+$$
+Dividindo a equação anterior pela renda, obtém-se que a propensão média e marginal a poupar são idênticas
+$$
+\frac{S}{Y} = s = \frac{I_t}{Y}
+$$
+De modo que a \textit{fraction} seja igual à unidade
+$$
+f = \frac{\frac{S}{Y}}{s} = 1
+$$
+A explicação deste resultado decorre pelo investimento residencial ser contabilmente investimento e, portanto, não é um gasto autônomo ``despoupador''. 
+
+Tal conclusão, no entanto, é problemática uma vez que, diferentemente dos modelos com supermultiplicador apresentados, a \textit{fraction} não é a variável de fechamento. Isso pode ser indicado a partir da participação dos componentes da demanda na renda,
+$$
+\omega + h + \frac{I_h}{Y} = 1
+$$
+Da equação acima, destaca-se que a propensão marginal a consumir é determinada exogenamente e o mesmo vale para a participação do investimento total, ou seja
+$$
+ \omega +  s = 1
+$$
+Desse modo, um aumento na taxa de crescimento do investimento residencial --- mantida a taxa de investimento total --- implica aumento da propensão marginal a investir plenamente ajustada e subsequente redução da taxa de gastos autônomos
+$$
+\frac{I_t}{Y} = \frac{I_f + I_h}{Y} = s
+$$
+Dito isso e retomando a equação \ref{EqGeral}:
+$$
+\frac{ s\cdot  u_N}{v} =  g_Z = h\frac{ u_N}{ v}
+$$
+
+\begin{equation}
+h = \frac{ g_Z\cdot  u_N}{ v}
+\end{equation}
+\begin{equation}
+    \label{Fechamento_Modelo}
+\frac{I_h}{Y} = 1 - \omega - \frac{ g_Z\cdot  u_N}{ v}
+\end{equation}
+Portanto, como o investimento residencial cresce a uma taxa exógena, é a participação do próprio investimento residencial na renda que fecha o modelo como indicado pela equação \ref{Fechamento_Modelo}. 
+
+Feitas essas observações, cabe destacar que o modelo apresentado no capítulo \ref{CapModelo} não incorre nesses problemas uma vez que foi adicionado o consumo capitalista autônomo financiado por crédito ($C_k$) que mantém uma proporção fixa em relação aos gastos autônomos totais
+$$
+C_k =  R \cdot Z
+$$
+de modo que a relação positiva entre taxa de investimento (total) e crescimento é restabelecida
+$$
+\frac{I_t}{Y} = 1 -  \omega - \frac{C_k}{Y}
+$$
+\begin{equation}
+\label{retorno_fraction}
+\frac{I_t}{Y} = 1 -  \omega - \frac{ R\cdot Z}{Y}
+\end{equation}
+$$
+\frac{I_t}{Y} = 1 -  \omega -  R \cdot (1 -  \omega - h^*)
+$$
+$$
+\frac{I_t}{Y} = (1-R)(1 -  \omega) +  R \cdot h^*
+$$
+$$
+\frac{I_t}{Y} = (1-R)(1 -  \omega) +  R \cdot \frac{g_Z v}{u_N}
+$$
+$$
+\frac{\partial I_t/Y}{\partial g_Z} = \frac{R}{v}\cdot u_N > 0
+$$
+Como pode ser visto na equação \ref{retorno_fraction}, com o gasto autônomo ``despoupador'', retorna-se ao caso em que a fração não é igual à unidade tal como no fechamento do supermultiplicador sraffiano. 
+
+\section{Simulações}
+
+
+\begin{table}[H]
+	\centering
+	\caption{Parâmetros das simulações}
+	\label{Resumo_Simulacao}
+	\input{../../Modelo/Versoes/table.tex}
+	\caption*{\textbf{Fonte:} Elaboração própria}
+\end{table}

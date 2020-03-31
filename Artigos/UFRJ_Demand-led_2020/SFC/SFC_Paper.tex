@@ -1,0 +1,71 @@
+%\input{simple_template.tex}
+\input{fancy_template.tex}
+
+\usepackage{epstopdf}% To incorporate .eps illustrations using PDFLaTeX, etc.
+\epstopdfsetup{suffix=}
+\usepackage{graphicx}
+\usepackage{multirow}
+\usepackage{tablefootnote}
+\usepackage{threeparttable}
+\usepackage{booktabs}
+\usepackage{float}
+%% The amssymb package provides various useful mathematical symbols
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}%deve ser usado utf8 ao invés de latin1
+\usepackage[american]{babel}
+\usepackage{setspace}
+\usepackage{amssymb}
+\usepackage{amsmath}% http://ctan.org/pkg/amsmath
+\usepackage{mathptmx}% Times New Roman
+\usepackage{url}
+\usepackage{caption}
+\usepackage{indentfirst}
+\usepackage{csquotes}
+\usepackage{lipsum}
+\usepackage[titletoc,title]{appendix}
+%\usepackage{chngcntr} % change counter for appendix
+
+\usepackage{tikz}
+\usetikzlibrary{through,calc}
+
+
+\addbibresource{ref.bib}
+
+
+\title{Untitled}
+
+\begin{document}
+	
+\maketitle
+
+\begin{abstract}
+	\lipsum[3-4]
+
+	\noindent\textbf{Keywords:} .
+\end{abstract}
+
+% Textual
+
+%TODO Add Apostrophe after author citation
+
+\input{Introduction.tex}
+%\input{SFC.tex}
+\input{Conclusion.tex}
+
+\section*{Acknowledgments}
+
+\noindent We are grateful to  Lídia Brochier, Carolina Baltar, Franklin Serrano, Cecon/Unicamp and UFRJ Macroeconomic discussion groups for useful comments and suggestions on earlier drafts of this article. All remaining errors are, of course, our own.
+
+\section*{Disclosure statement}
+
+\noindent No potential conflict of interest was reported by the authors.
+
+
+\printbibliography{}
+
+\begin{appendix}
+	\input{Appendix_A.tex}
+\end{appendix}
+
+\end{document}

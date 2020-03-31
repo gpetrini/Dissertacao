@@ -18,6 +18,23 @@ english,			% idioma adicional para hifeniza\c{c}\~{a}o
 brazil,				% o \'{u}ltimo idioma \'{e} o principal do documento
 sumario=tradicional,
 ]{abntex2}
+
+% access at the internals of the class, with care
+%\makeatletter
+%\renewcommand\frontmatter{%
+%	\cleardoublepage
+%	\@mainmatterfalse
+%	\let\ps@plain\ps@empty
+%	\pagestyle{empty}%
+%}
+%\renewcommand{\mainmatter}{%
+%	\cleardoublepage
+%	\@mainmattertrue
+%	\let\ps@plain\bookps@plain
+%	\pagestyle{headings}%
+%}
+%\let\bookps@plain\ps@plain
+%\makeatother
 %==================================================================================================
 %                                   PACOTES
 %==================================================================================================
@@ -106,13 +123,17 @@ sumario=tradicional,
 
 
 % --- Para a vers\~{a}o final, delete as linhas abaixo e insira a linha do \includepdf
+
 \begin{fichacatalografica}
+	\nopagebreak
 	\begin{center}
-\includepdf{/dados/Dissertacao/Homologacao/Ficha-Catalografica-Protocolo-579684102.pdf}
+\includepdf[pagecommand={\thispagestyle{empty}}, page=1]{/dados/Dissertacao/Homologacao/Ficha-Catalografica-Protocolo-579684102.pdf}
 	\end{center}
 	% --- --- ---
 	%\includepdf{ficha-catalografica.pdf}
+	\nopagebreak
 \end{fichacatalografica}
+	\nopagebreak
 %==================================================================================================
 %                                   FOLHA DE APROVAÇÃO
 %==================================================================================================
@@ -133,11 +154,21 @@ sumario=tradicional,
 %==================================================================================================
 %                                   FOLHA DE ASSINATURAS
 %==================================================================================================
-\newpage
-\begin{center}
-	\includepdf{/dados/Dissertacao/Homologacao/Folha_Assinaturas.pdf}
-\end{center}
-\newpage
+	\nopagebreak
+\begin{folhadeaprovacao}
+	\nopagebreak
+	\begin{center}
+		\includepdf[pagecommand={\thispagestyle{empty}},page=1]{/dados/Dissertacao/Homologacao/Folha_Assinaturas.pdf}
+	\end{center}
+	% --- --- ---
+	%\includepdf{ficha-catalografica.pdf}
+	\nopagebreak
+\end{folhadeaprovacao}
+
+%\begin{center}
+%	\nopagebreak
+%	\includepdf{/dados/Dissertacao/Homologacao/Folha_Assinaturas.pdf}
+%\end{center}
 % --- --- ---
 %\includepdf[pagecommand={\thispagestyle{plain}}]{folha-assinaturas.pdf}	
 %\newpage
@@ -208,11 +239,12 @@ Conclui-se que a taxa própria de juros dos imóveis explica a taxa de crescimen
 
 \newpage
 \begin{otherlanguage*}{english}
+	\thispagestyle{empty}
 	\begin{center}{\ABNTEXchapterfont\huge Abstract}\end{center}
 	
 	This thesis investigates the relationship between residential investment, asset inflation, and medium-term macroeconomic dynamics based on the US post-deregulation case  (1992-2019). 
 	The first chapter presents a review of demand-led growth models, choosing the Sraffian supermultiplier (SSM) as the best one to achieve the objectives of this research. 
-	In the following chapter, we move towards the empirical discussion and estimate an vector error correction model (VECM) to test the explanatory capacity of real interest rate of real estate. 
+	In the following chapter, we move towards the empirical discussion and estimate a vector error correction model (VECM) to test the explanatory capacity of real interest rate of real estate. 
 	In the third chapter, a Sraffian Supermultiplier Stock-Flow Consistent model (SSM-SFC) with asset inflation is simulated prioritizing parsimony to represent a closed and without government economy with working and capitalist households in which only the latter have access to credit to finance both consumption and dwellings. 
 	The specificity of this model is the existence of firms' (capacity creating) and households' capital stock  whose participation of the latter is reduced given an increase in the growth rate of residential investment. 
 	Additionally, some observed data are introduced to simulate economic cycles. 
@@ -241,20 +273,12 @@ Conclui-se que a taxa própria de juros dos imóveis explica a taxa de crescimen
 %% ---
 
 %==================================================================================================
-%                                   ÍNDICE
-%==================================================================================================
-\tableofcontents*
-%\cleardoublepage
-\newpage
-%
-%
-%
-%==================================================================================================
 %                                   LISTA DE ILUSTRAÇÕES
 %==================================================================================================
 \pdfbookmark[0]{\listfigurename}{lof}
 \listoffigures*
 \addcontentsline{toc}{chapter}{Lista de Ilustrações}
+\thispagestyle{empty}
 %\cleardoublepage
 \newpage
 %% ---
@@ -265,6 +289,7 @@ Conclui-se que a taxa própria de juros dos imóveis explica a taxa de crescimen
 \pdfbookmark[0]{\listtablename}{lot}
 \listoftables*
 \addcontentsline{toc}{chapter}{Lista de Tabelas}
+\thispagestyle{empty}
 %\cleardoublepage
 \newpage
 %% ---
@@ -273,6 +298,7 @@ Conclui-se que a taxa própria de juros dos imóveis explica a taxa de crescimen
 %                                   LISTA DE VARIÁVEIS
 %==================================================================================================
 \input{Interno/Dissertacao_Variaveis}
+\thispagestyle{empty}
 \addcontentsline{toc}{chapter}{Lista de Variáveis}
 
 %==================================================================================================
@@ -310,6 +336,17 @@ Conclui-se que a taxa própria de juros dos imóveis explica a taxa de crescimen
 %\mainmatter
 % TODO Corrigir numeração romana antes da dissertação
 
+%==================================================================================================
+%                                   ÍNDICE
+%==================================================================================================
+
+\tableofcontents*
+\thispagestyle{empty}
+%\cleardoublepage
+%
+%
+%
+
 %
 %==================================================================================================
 %                                   CAPÍTULOS DA DISSERTAÇÃO
@@ -317,11 +354,10 @@ Conclui-se que a taxa própria de juros dos imóveis explica a taxa de crescimen
 % ---- ELEMENTOS TEXTUAIS ----
 \mainmatter
 \cleardoublepage\pagenumbering{arabic}
-\setcounter{page}{14}
+\setcounter{page}{18}
 \input{Introducao/Quali.tex}
 \input{Teorico/Teorico.tex}
 \input{Fatos_Estilizados/Fatos.tex}
-%\input{Modelo/Modelo.tex}
 \input{Modelo/ModeloSimples.tex}
 \input{Conclusao/Conclusao.tex}
 

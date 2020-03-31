@@ -1,0 +1,24 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+% \usepackage{graphicx}
+\begin{table}[H]
+\centering
+\caption{Testes de hipóteses sobre os resíduos do modelo alternativo}
+\label{testes_resduos}
+	\begin{threeparttable}
+\begin{tabular}{l|c|c|c}
+\hline
+\multicolumn{2}{l|}{} & \textbf{Estatística} & \textbf{p-valor} \\ \hline
+\textbf{Autocorrelação serial}\tnote{a} & Sistema & 56.84 & 0.063 \\ \hline
+\multirow{2}{*}{\textbf{Homocedasticidade}\tnote{b}} & $\dot p_h$ & 2.324 & 0.131 \\ \cline{2-4} 
+ & $g_Z$ & 0.916 & 0.341 \\ \hline
+\textbf{Normalidade}\tnote{c} & Sistema & 55.82 & 0.000 \\ \hline
+\end{tabular}%
+\begin{tablenotes}\footnotesize
+	\item [a] Teste de Portmanteau ajustado para até o 15º \textit{lag}. H0: autorocorrelação serial até o \textit{lag} selecionado é zero.
+	\item [b] Teste ARCH-LM. H0: Resíduos são homocedásticos.
+	\item [c] Teste de Jarque-Bera. H0: Resíduos provém de uma distribuição normal.
+\end{tablenotes}
+\end{threeparttable}
+\caption*{\textbf{Fonte:} Elaboração própria}
+\end{table}

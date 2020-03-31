@@ -1,0 +1,51 @@
+
+\begin{figure}[htb]
+	\caption{Resumo esquemático da Metodologia SFC}
+	\label{Resuminho}
+	\centering
+	\begin{tikzpicture}
+	[node distance = 1cm, auto,font=\footnotesize,
+	% STYLES
+	every node/.style={node distance=3cm},
+	% The comment style is used to describe the characteristics of each force
+	comment/.style={rectangle, inner sep= 5pt, text width=4cm, node distance=0.25cm, font=\scriptsize\sffamily},
+	% The force style is used to draw the forces' name
+	force/.style={rectangle, draw, fill=black!10, inner sep=5pt, text width=4cm, text badly centered, minimum height=1.2cm, font=\bfseries\footnotesize\sffamily}] 
+	
+	% Draw forces
+	\node [force] (rivalry) {Hipóteses};
+	\node [force, above of=rivalry, fill=red!70] (substitutes) {Equações comportamentais};
+	\node [force, text width=3cm, dashed, left=1.5cm of substitutes,fill=blue!50] (state) {Metodologia SFC};
+	\node [force, left=1cm of rivalry] (suppliers) {Estrutura contábil};
+	\node [comment, below=0.25 of suppliers] (comment-suppliers) {Relação entre lado real \\e financeiro};
+	\node [force, right=1cm of rivalry] (users) {Solução};
+	\node [force, right=1cm of substitutes, dashed, fill=purple!50 ] (PK) {Modelo \\ SFC};
+	%	\node [force, below of=rivalry] (entrants) {Threat of new entrants};
+	
+	%%%%%%%%%%%%%%%
+	% Change data from here
+	
+	% RIVALRY
+	\node [comment, below=0.25 of rivalry] (comment-rivalry) {Cambridge/New Cambridge\\
+		Kaleckiano\\
+		\textbf{Supermultiplicador Sraffiano}};
+	
+	
+	\node [comment, below=0.25 of users] {Analítico\\
+		\textbf{Simulação}};
+	
+	
+	% Draw the links between forces
+	\path[->,thick] 
+	(rivalry) edge (substitutes)
+	(suppliers) edge (rivalry)
+%	(rivalry) edge (users)
+	(state) edge (substitutes)
+	(state) edge (suppliers)
+	(substitutes) edge (PK)
+	(PK) edge (users);
+	
+	\end{tikzpicture}
+	 
+	\caption*{\textbf{Fonte:} Elaboração própria}
+\end{figure}

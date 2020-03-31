@@ -1,0 +1,51 @@
+\section{Considerações finais: Rumo às simulações}
+\label{Conclucao_Empirica}
+
+%TODO RETOMADA IMPORTÂNCIA DO INVESTIMENTO RESIDENCIAL
+
+%Como destacado anteriormente, parte da fronteira dos modelos de crescimento liderados pela demanda lança luz sobre os gastos autônomos. 
+%Por mais que o SSM não estabeleça quais são os gastos autônomos não criadores de capacidade produtiva --- e sim que o investimento das firmas é induzido --- concluiu-se, no capítulo \ref{CapTeorico}, que este modelo é o mais adequado para incorporar o investimento imobiliário.
+Ao longo deste capítulo, buscaram-se as formas de determinar --- de um ponto de vista empírico --- o investimento residencial compatíveis com o supermultiplicador srrafiano que, como visto no capítulo \ref{CapTeorico}, é o fechamento mais adequado para incorporar o investimento imobiliário.
+No entanto, ao analisar os modelos empíricos que partem explicitamente do SSM, verificou-se uma ausência de trabalhos envolvendo exclusivamente o investimento residencial. 
+Diante desta lacuna empírica, ajustou-se um VECM para estimar os determinantes do investimento residencial a partir da taxa própria de juros dos imóveis desenvolvida por \textcite{teixeira_crescimento_2015}. Realizado o ajuste, conclui-se que: 
+(i) taxa própria e taxa de crescimento do investimento residencial ($g_{I_h}$) apresentam uma relação comum de longo prazo; 
+(ii) os efeitos de $g_{I_h}$ sobre a Taxa Própria são pouco significativos tanto em relação às funções resposta ao impulso quanto à decomposição para a variância da previsão (FEVD) e;
+(iii) a taxa própria afeta negativamente $g_{I_h}$ é o principal componente para a FEVD. 
+%e; (iv) as previsões estão alinhadas com a direção dos últimos dados disponíveis (primeiro trimestre de 2019). 
+Destaca-se ainda a ausência de correlação residual e de heterocedasticidade. Além disso, pontua-se que os resultados obtidos são bastante satisfatórios dada a parcimônia no número de variáveis utilizadas.
+
+Resta contrastar os resultados com os obtidos por \textcite{arestis_residential_2015}. Mais uma vez, vale notar que uma das hipóteses dos autores é de que o investimento residencial é induzido uma vez que depende da renda disponível. No entanto, os próprios autores encontram que tais resultados não são estatisticamente significantes no curto ou longo prazo para os Estados Unidos (e Grã-Bretanha) e, portanto, a comparação é possível. Além disso, concluem que a taxa nominais de juros das hipotecas não são relevantes para determinar o investimento residencial, ou seja, conclusão oposta ao do presente trabalho. Apesar disso, alguns resultados do modelo apresentado estão alinhados com \textcite{arestis_residential_2015} uma vez que também encontram que o principal determinante para o investimento residencial no caso norte-americano é o preço dos imóveis. Portanto, a presente investigação se difere por: (i) considerar o investimento residencial enquanto gasto autônomo em relação à renda; (ii) destacar a importância da taxa de juros das hipotecas e; (iii) captar a dinâmica da especulação a partir da inflação de ativos por meio da taxa própria de juros dos imóveis.  
+
+Dito isso, é importante reposicionar tais resultados como parte de uma investigação mais ampla.
+Enquanto o primeiro capítulo selecionou o modelo teórico a ser seguido, o presente capítulo pontuou a importância do investimento residencial para a dinâmica macroeconômica norte-americana assim como validou empiricamente a capacidade explicativa da taxa própria de juros dos imóveis.
+Sendo assim, para atingir os objetivos pretendidos será elaborado um modelo teórico por simulação em que serão feitos alguns choques que vão em linha com os fatos estilizados aqui apresentados, qual sejam:
+(i) popularização dos imóveis e aumento da demanda por casas por motivos não necessariamente especulativos;
+(ii) aumento do preço dos imóveis e;
+(iii) redução da participação dos salários na renda no pós-década de 80 e;
+(iv) aumento do endividamento das famílias através de um choque na taxa de juros.
+Portanto, cabe ao capítulo seguinte reunir as discussões feitas até então.
+
+
+% TODO LACUNA PREÇOS E PONTE PARA CAPÍTULO SEGUINTE
+
+\begin{comment}
+
+Compreendida a importância do \textit{volume} de investimento residencial, resta investigar como a literatura explica a formação do preço dos imóveis.
+De um lado, testa-se se tais preços seguem ou não os fundamentos macroeconômicos \cites{holly_house_1997}{andrews_real_2010}. 
+De outro, verifica-se a importância de assimetrias e heterogeneidade na formação de expectativas na formação de bolhas especulativas. Dentre os estudos que analisam a relação entre preço dos imóveis e os fundamentos, destaca-se aqueles que enfatizam\footnote{Vale também a menção de \textcite{de_bandt_international_2010} em que analisam o efeito contágio do preço dos imóveis e concluem que mudanças nos EUA implicam em choques unidirecionais aos outros paíse.}:
+(i) distribuição de renda \cites{green_economic_2014}{ozmen_impact_2019}, intergeracionalidade e demografia  \cites{campbell_long_1963}{fleming_review_1966}; 
+(ii) custos de produção e oferta de imóvies \cites{ayuso_house_2006}{glaeser_housing_2008}{krakstad_long-run_2015} 
+(iii) taxa de juros, rigidez e riscos \cites{li_cyclical_2004}{miller_impact_2005}{li_house_2018}; 
+(iv) efeitos riqueza \cites{case_comparing_2001}{vadas_modelling_2004}{chauvin_wealth_2010}{bassanetti_effects_2010}{arrondel_housing_2010}{sastre_assessment_2010}{fleischmann_real_2019}; 
+(v) emprego \cites{miller_impact_2005}{pan_long-run_2016}{liu_land_2013}. 
+
+Há também aqueles que destacam a influência de 
+quebras estruturais \cite{miles_bubbles_2015} e a 
+heterogeneidade dos agentes, seja na 
+interação \cites{wang_over-confidence_2000}{wang_overbuilding:_2000}{hardman_neighbors_2004} ou na 
+formação das expectativas \cites{burnside_understanding_2016}{ascari_booms_2018}. 
+No entanto, como destaca \textcite{leung_macroeconomics_2004}, o \textit{housing economics} apresentado anteriormente tem omitido as relações macroeconômicas, ou melhor, ``\textit{In the traditional approach, there is no nationwide housing market, but a compendium of segmented markets}'' \cite[p.335]{arestis_u.s._2008}. Desse modo, tais abordagens fogem do escopo deste trabalho e devem ser adequadas a uma estrutura macroeconômica. 
+
+Nesse sentido, o trabalho de \textcite{arestis_economic_2019} lança luz sobre algumas variáveis importantes na determinação do preço dos imóveis. Ajustando um modelo ARDL com vetor de cointegração, os autores concluem que a renda disponível real é o principal determinante do preço dos imóveis para os países analisados. Apesar de estatisticamente significante, tal elasticidade-preço renda disponível é menor   (seja no curto ou longo prazo) para o caso estadunidense dentre os países estudados.
+Desse modo, se a bolha imobiliária atingiu níveis sem precedentes nos Estados Unidos, quão razoável é um parâmetro menor se comparado com os demais países? Ou melhor, existem outros determinantes mais significantes para o preço dos imóveis que não a renda disponível real? Dito isso, cabe ao capítulo seguinte esclarecer: se a taxa própria de juros dos imóveis explica a taxa de crescimento residencial por meio da inflação de ativos, como endogeinizar o preço dos imóveis?
+\end{comment}

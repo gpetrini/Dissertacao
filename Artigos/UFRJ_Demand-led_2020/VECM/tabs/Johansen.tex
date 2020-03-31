@@ -1,0 +1,28 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+% \usepackage{graphicx}
+\begin{table}[h]
+\centering
+\caption{Cointegration test}
+\label{Johansen}
+\begin{threeparttable}
+%\resizebox{\textwidth}{!}{%
+\begin{tabular}{l|l|c|c}
+\hline
+ \hline
+\multirow{2}{*}{\textbf{Model specification}} & \multirow{2}{*}{\textbf{Hypothesis}} & \multicolumn{2}{c}{\textbf{Johansen Procedure\tnote{a}}} \\ \cline{3-4} 
+ &  & \multicolumn{1}{c|}{Statistic} & critical value (5\%) \\ \hline
+\multirow{3}{*}{\textbf{$g_{I_h}$, Own interest rate}} & $r = 0$ &22.51&19.96\\
+ & $r = 1^*$ &2.91&9.24\\\hline	
+\multirow{4}{*}{\textbf{$g_{I_h}$, Inflation and Mortgage interest rate}} & $r = 0$ &46.05&34.91\\
+ & $r = 1^*$ &15.08&19.96\\
+ & $r = 2$ &6.44&9.24\\\hline
+\multirow{3}{*}{\textbf{$g_{I_h}$, Inflation and exogenous  mortgages interest rate}} & $r = 0$ &36.88& 19.96\\ 
+ & $r = 1^*$ &7.87&9.24\\ 
+  \hline
+\end{tabular}%
+%}
+\footnotesize{(a) Using trace test with constant for the 5th lag (according to AIC criteria). (*) Indicates the selected rank that implies cointegration.}
+\end{threeparttable}
+\caption*{\textbf{Source:} Authors' elaboration}
+\end{table}

@@ -153,6 +153,7 @@
 \newcommand{\resumoname}{Resumo} 
 \newcommand{\listadesiglasname}{Lista de abreviaturas e siglas}
 \newcommand{\listadesimbolosname}{Lista de s\'imbolos}
+\newcommand{\listadevariaveis}{Lista de vari\'aveis}
 \newcommand{\fontename}{Fonte}
 \newcommand{\notaname}{Nota}
 %
@@ -462,7 +463,7 @@
 \cftinsertcode{A}{\renewcommand{\cftchapteraftersnum}{\hfill\textendash\hfill}}
 
 % No caso de Sumario (TOC) tradicional
-\ifthenelse{\boolean{ABNTEXsumario-tradicional}}{}{} % essa linha não faz nada,
+\ifthenelse{\boolean{ABNTEXsumario-tradicional}}{}{\thispagestyle{empty}} % essa linha não faz nada,
                                                      % mas se houver necessidade de alterar o comportamento
                                                      % do sumário tradicional altere aqui.
 
@@ -647,6 +648,7 @@
 % Cabecalho do inicio do capitulo
 \makepagestyle{abntchapfirst}
 \makeoddhead{abntchapfirst}{}{}{\ABNTEXfontereduzida\thepage}
+\makeevenhead{abntchapfirst}{}{}{\ABNTEXfontereduzida\thepage}
 % ---
 
 % ---
@@ -658,7 +660,6 @@
   \aliaspagestyle{part}{empty}
 }
 \renewcommand{\frontmatter}{\pretextual} 
-
 % por default, inicializa o documento com elementos \pretextuais
 \AtBeginDocument{\pretextual}
 % ---
@@ -761,12 +762,11 @@
 % Ficha catalografica (Dados internacionais de
 % catalogação-na-publicacao)
 \newenvironment{fichacatalografica}{%
+	\nopagebreak
     \thispagestyle{empty}
-    \begin{SingleSpacing}
-      \ABNTEXfontereduzida
-}{%   
-    \end{SingleSpacing}%
-}%
+    \ABNTEXfontereduzida
+    \par\nobreak
+}
 % ---
 
 % ---
@@ -778,16 +778,20 @@
 
 % ---
 % Folha de aprovacao - NBR 14724/2011 - 4.2.1.3
-\newenvironment{folhadeaprovacao}[1][\folhadeaprovacaoname]{%
-   \clearpage%
-   \PRIVATEbookmarkthis{#1}%
-   \begin{Spacing}{1.0}
-}{\end{Spacing}\PRIVATEclearpageifneeded}   
-% ---
+\newenvironment{folhadeaprovacao}{%
+	\nopagebreak
+	\thispagestyle{empty}
+	\begin{SingleSpacing}
+		\ABNTEXfontereduzida
+	}{%   
+	\end{SingleSpacing}%
+	\nopagebreak
+}%
 
 % ---
 % Dedicatoria
 \newenvironment{dedicatoria}[1][]{%
+	\thispagestyle{empty}
    \ifthenelse{\equal{#1}{}}{%
     \PRIVATEbookmarkthis{\dedicatorianame}
     }{\pretextualchapter{#1}}
@@ -797,6 +801,7 @@
 % ---
 % Agradecimentos
 \newenvironment{agradecimentos}[1][\agradecimentosname]{%
+	\thispagestyle{empty}
    \pretextualchapter{#1}
   }{\PRIVATEclearpageifneeded}
 % ---
@@ -804,6 +809,7 @@
 % ---
 % Epigrafe
 \newenvironment{epigrafe}[1][]{%
+	\thispagestyle{empty}
    \ifthenelse{\equal{#1}{}}{%
     \PRIVATEbookmarkthis{\epigraphname}
     }{\pretextualchapter{#1}}
@@ -832,6 +838,7 @@
 }
 
 \newenvironment{resumo}[1][\resumoname]{%
+	\thispagestyle{empty}
    \PRIVATEbookmarkthis{#1}
    \renewcommand{\abstractnamefont}{\chaptitlefont}
    \renewcommand{\abstractname}{\ABNTEXchapterupperifneeded{#1}}
@@ -839,6 +846,7 @@
   }{\end{abstract}\PRIVATEclearpageifneeded}
   
 \newenvironment{resumoumacoluna}[1][\resumoname]{%
+	\thispagestyle{empty}
    \PRIVATEbookmarkthis{#1}
    \renewcommand{\abstractnamefont}{\chaptitlefont}
    \renewcommand{\abstractname}{\ABNTEXchapterupperifneeded{#1}}
@@ -869,6 +877,14 @@
 % ---
 
 
+\newenvironment{variaveis}{%
+	\pretextualchapter{\listadevariaveis}
+	\thispagestyle{empty}
+	\begin{symbols}
+	}{%
+	\end{symbols}
+	\clearpage
+}
 
 % ------------------------------------------------------------------------
 % ------------------------------------------------------------------------
@@ -961,7 +977,7 @@
 
 % ------------------------------------------------------------------------
 % ------------------------------------------------------------------------
-% Comandos e ambientes de editoracao CITACAO, ALINEA, INCISO, ASSINATURA
+% Comandos e ambientes de editoracao CITACAO, ALINEA, INCISO, TURA
 % ------------------------------------------------------------------------
 % ------------------------------------------------------------------------
 
@@ -1061,8 +1077,8 @@
 %   página no caso de estar no modo twoside. Util para imprimir a Ficha
 %   Bibliografica. Porem, se estiver no modo oneside, a versao sem estrela
 %   é identica.
-\newenvironment{folhaderosto}[1][\folhaderostoname]{\clearpage\PRIVATEbookmarkthis{#1}}{\cleardoublepage}
-\newenvironment{folhaderosto*}[1][\folhaderostoname]{\clearpage\PRIVATEbookmarkthis{#1}}{\newpage}%
+\newenvironment{folhaderosto}[1][\folhaderostoname]{\thispagestyle{empty}\PRIVATEbookmarkthis{#1}}{}
+\newenvironment{folhaderosto*}[1][\folhaderostoname]{\PRIVATEbookmarkthis{#1}}{}%
 
 % ---
 % Conteudo padrao da Folha de Rosto
