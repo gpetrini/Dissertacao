@@ -1,85 +1,85 @@
-\changetocdepth {4}
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\changetocdepth {4}
 \babel@toc {brazil}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Lista de Ilustra\IeC {\c c}\IeC {\~o}es}{xi}{section*.6}% 
+\contentsline {chapter}{Lista de Ilustrações}{xi}{section*.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Lista de Tabelas}{xii}{section*.6}% 
+\contentsline {chapter}{Lista de Tabelas}{xii}{section*.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Lista de Vari\IeC {\'a}veis}{xvi}{chapter*.7}% 
+\contentsline {chapter}{Lista de Variáveis}{xvi}{chapter*.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\chapternumberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{18}{chapter.1}% 
+\contentsline {chapter}{\chapternumberline {1}Introdução}{18}{chapter.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\chapternumberline {2}Modelos de crescimento liderados pela demanda: diferentes fechamentos e o papel dos gastos aut\IeC {\^o}nomos}{23}{chapter.2}% 
+\contentsline {chapter}{\chapternumberline {2}Modelos de crescimento liderados pela demanda: diferentes fechamentos e o papel dos gastos autônomos}{23}{chapter.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Fechamentos dos modelos heterodoxos de crescimento}{23}{section.2.1}% 
+\contentsline {section}{\numberline {2.1}Fechamentos dos modelos heterodoxos de crescimento}{23}{section.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.1}Apresentando a instabilidade de Harrod}{23}{subsection.2.1.1}% 
+\contentsline {subsection}{\numberline {2.1.1}Apresentando a instabilidade de Harrod}{23}{subsection.2.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.2}Modelo de Cambridge}{29}{subsection.2.1.2}% 
+\contentsline {subsection}{\numberline {2.1.2}Modelo de Cambridge}{29}{subsection.2.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.3}Modelo(s) kaleckiano(s)}{32}{subsection.2.1.3}% 
+\contentsline {subsection}{\numberline {2.1.3}Modelo(s) kaleckiano(s)}{32}{subsection.2.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.4}Supermultiplicador Sraffiano}{34}{subsection.2.1.4}% 
+\contentsline {subsection}{\numberline {2.1.4}Supermultiplicador Sraffiano}{34}{subsection.2.1.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.5}Comparando os modelos kaleckianos n\IeC {\~a}o-convencionais com o supermultiplicador sraffiano}{38}{subsection.2.1.5}% 
+\contentsline {subsection}{\numberline {2.1.5}Comparando os modelos kaleckianos não-convencionais com o supermultiplicador sraffiano}{38}{subsection.2.1.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Gastos aut\IeC {\^o}nomos nos modelos de crescimento}{45}{section.2.2}% 
+\contentsline {section}{\numberline {2.2}Gastos autônomos nos modelos de crescimento}{45}{section.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}Um breve mapeamento da fronteira heterodoxa}{45}{subsection.2.2.1}% 
+\contentsline {subsection}{\numberline {2.2.1}Um breve mapeamento da fronteira heterodoxa}{45}{subsection.2.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}Investimento residencial nos modelos macroecon\IeC {\^o}micos}{47}{subsection.2.2.2}% 
+\contentsline {subsection}{\numberline {2.2.2}Investimento residencial nos modelos macroeconômicos}{47}{subsection.2.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Considera\IeC {\c c}\IeC {\~o}es finais}{52}{section.2.3}% 
+\contentsline {section}{\numberline {2.3}Considerações finais}{52}{section.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\chapternumberline {3}Investimento residencial e taxa pr\IeC {\'o}pria de juros dos im\IeC {\'o}veis: Uma investiga\IeC {\c c}\IeC {\~a}o a partir de um VECM}{54}{chapter.3}% 
+\contentsline {chapter}{\chapternumberline {3}Investimento residencial e taxa própria de juros dos imóveis: Uma investigação a partir de um VECM}{54}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Gastos aut\IeC {\^o}nomos: breve revis\IeC {\~a}o da literatura emp\IeC {\'\i }rica}{55}{section.3.1}% 
+\contentsline {section}{\numberline {3.1}Gastos autônomos: breve revisão da literatura empírica}{55}{section.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Investimento residencial e din\IeC {\^a}mica macroecon\IeC {\^o}mica}{57}{section.3.2}% 
+\contentsline {section}{\numberline {3.2}Investimento residencial e dinâmica macroeconômica}{57}{section.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.1}Fatos estilizados da economia norte-americana}{57}{subsection.3.2.1}% 
+\contentsline {subsection}{\numberline {3.2.1}Fatos estilizados da economia norte-americana}{57}{subsection.3.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.2}Investimento residencial nos modelos macroeconom\IeC {\'e}tricos}{65}{subsection.3.2.2}% 
+\contentsline {subsection}{\numberline {3.2.2}Investimento residencial nos modelos macroeconométricos}{65}{subsection.3.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Modelo macroeconom\IeC {\'e}trico}{69}{section.3.3}% 
+\contentsline {section}{\numberline {3.3}Modelo macroeconométrico}{69}{section.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.1}Investimento residencial e a taxa pr\IeC {\'o}pria de juros dos im\IeC {\'o}veis}{69}{subsection.3.3.1}% 
+\contentsline {subsection}{\numberline {3.3.1}Investimento residencial e a taxa própria de juros dos imóveis}{69}{subsection.3.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.2}Estima\IeC {\c c}\IeC {\~a}o do modelo}{71}{subsection.3.3.2}% 
+\contentsline {subsection}{\numberline {3.3.2}Estimação do modelo}{71}{subsection.3.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Considera\IeC {\c c}\IeC {\~o}es finais: Rumo \IeC {\`a}s simula\IeC {\c c}\IeC {\~o}es}{82}{section.3.4}% 
+\contentsline {section}{\numberline {3.4}Considerações finais: Rumo às simulações}{82}{section.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\chapternumberline {4}Investimento residencial e bolha de ativos em um modelo SFC com supermultiplicador sraffiano}{84}{chapter.4}% 
+\contentsline {chapter}{\chapternumberline {4}Investimento residencial e bolha de ativos em um modelo SFC com supermultiplicador sraffiano}{84}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Metodologia SFC: Uma breve introdu\IeC {\c c}\IeC {\~a}o}{85}{section.4.1}% 
+\contentsline {section}{\numberline {4.1}Metodologia SFC: Uma breve introdução}{85}{section.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Modelo}{88}{section.4.2}% 
+\contentsline {section}{\numberline {4.2}Modelo}{88}{section.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Solu\IeC {\c c}\IeC {\~a}o anal\IeC {\'\i }tica}{97}{section.4.3}% 
+\contentsline {section}{\numberline {4.3}Solução analítica}{97}{section.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Simula\IeC {\c c}\IeC {\~a}o e choques}{100}{section.4.4}% 
+\contentsline {section}{\numberline {4.4}Simulação e choques}{100}{section.4.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Considera\IeC {\c c}\IeC {\~o}es finais}{114}{section.4.5}% 
+\contentsline {section}{\numberline {4.5}Considerações finais}{114}{section.4.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\chapternumberline {5}Conclus\IeC {\~a}o}{116}{chapter.5}% 
+\contentsline {chapter}{\chapternumberline {5}Conclusão}{116}{chapter.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Refer\^encias}{119}{section*.55}% 
+\contentsline {chapter}{Refer\^encias}{119}{section*.58}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Ap\IeC {\^e}ndices}{130}{section*.55}% 
+\contentsline {chapter}{Apêndices}{130}{section*.58}%
 \defcounter {refsection}{0}\relax 
-\contentsline {appendix}{\chapternumberline {A}Modelo SFC}{130}{appendix.A}% 
+\contentsline {appendix}{\chapternumberline {A}Modelo SFC}{130}{appendix.A}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}\textit {Fraction} e o investimento residencial}{130}{section.A.1}% 
+\contentsline {section}{\numberline {A.1}\textit {Fraction} e o investimento residencial}{130}{section.A.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.1.1}Gastos ``despoupadores''}{130}{subsection.A.1.1}% 
+\contentsline {subsection}{\numberline {A.1.1}Gastos ``despoupadores''}{130}{subsection.A.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.1.2}Investimento residencial}{131}{subsection.A.1.2}% 
+\contentsline {subsection}{\numberline {A.1.2}Investimento residencial}{131}{subsection.A.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}Simula\IeC {\c c}\IeC {\~o}es}{133}{section.A.2}% 
+\contentsline {section}{\numberline {A.2}Simulações}{133}{section.A.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Anexos}{134}{table.caption.56}% 
+\contentsline {chapter}{Anexos}{134}{table.caption.59}%
 \defcounter {refsection}{0}\relax 
-\contentsline {appendix}{\chapternumberline {I}Licen\IeC {\c c}a}{134}{appendix.A}% 
+\contentsline {appendix}{\chapternumberline {I}Licença}{134}{appendix.A}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {I.1}Sobre a licen\IeC {\c c}a dessa obra}{134}{section.A.1}% 
+\contentsline {section}{\numberline {I.1}Sobre a licença dessa obra}{134}{section.A.1}%

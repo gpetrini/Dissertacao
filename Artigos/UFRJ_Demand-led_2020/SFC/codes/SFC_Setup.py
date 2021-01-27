@@ -29,21 +29,23 @@ end = datetime(2018, 12, 31)
 ################## Model Class ################
 
 def model(
-    alpha = 1,
+    alpha = 0.5,
     gamma_F = 0.08,
-    gamma_u = 0.01,
-    g_Z = 0.05,
-    omega = 0.4,
+    gamma_u = 0.09,
+    g_Z = 0.025,
+    omega = 0.5,
     rm = 0.01,
     spread_l = 0,
     spread_mo = 0,
     un = 0.8,
-    v = 2.5,
-    phi_0 = 0.02,
+    v = 1.2,
+    phi_0 = 0.025,
     phi_1 = 0.1,
     infla = 0.0,
     phparam=1.0,
     R = 0.7,
+    real = -1,
+    gC = 0.025
 ):
   """
   phparam: 1.0 means no inflation
@@ -59,7 +61,7 @@ def model(
   model.var('FU', desc='Retained profits')
   model.var('gk', desc='Capital growth rate')
   model.var('g_Z', desc='Autonomous grouth rate')
-  model.var('h', desc='Marginal propensity to invest (non-residential)', default=0.06)
+  model.var('h', desc='Marginal propensity to invest (non-residential)', default=0.03)
   model.var('I_t', desc='Investment', default = 100) # 200
   model.var('I_f', desc='Non-residential investment') # 100
   model.var('I_h', desc='Residential investment', default = 100) # 100
@@ -112,9 +114,10 @@ def model(
   model.param('phi_1', desc='Housing investment sensitivity to own interest rate', default = phi_1)
   model.param('R', desc='Autonomous ratio', default=R)
   model.param('infla', desc='infla value', default = infla)
+  model.param('gC', desc='Autonomous consumption growth rate', default = gC)
+  model.param('real', desc='Real data flag. True > 0. False < 0', default = real)  
   
   # General equations
-  model.add('Y = C + I_t') # Eq1
   model.add('C = Cw + Ck')
   model.add('I_t = I_f + I_h') # Eq2
   model.add('Yk = K_f(-1)/v') # Eq 4
@@ -124,6 +127,7 @@ def model(
   model.add('Knom = K_HD*ph + K_f') # Eq 8 
   model.add('K = K_HD + K_f') # Eq 8 
   model.add('Z = I_h + Ck') # Eq 9
+  model.add('Y = C + I_t') # Eq1
   
   # Workers equations
   model.add('Cw = alpha*W') # Eq 14
@@ -133,7 +137,8 @@ def model(
     
   # Capitalist equations
   model.add('YDk = FD + rm*M_h(-1) - rmo*MO(-1) - rl*Lk(-1)')
-  model.add('Ck = R*Z')
+  
+  model.add('Ck = if_true(real>0)*(1+gC)*Ck(-1) + if_true(real<0)*R*Z')
   model.add('S_hk = YDk - Ck') # Eq 11
   model.add('d(MO) = I_h') # Eq 12
   model.add('d(Lk) = Ck')
@@ -367,7 +372,8 @@ def sobol(
     bound = np.linspace(0,1,101),
     time = 10,
     skip = 10,
-    filename="Sobol.eps"
+    filename="Sobol.eps",
+    var = "u"
 ):
     t2 = datetime.now()
     bound = bound
@@ -379,7 +385,7 @@ def sobol(
             base = model()
             base.set_values({param:bound[i]})
             try:
-                empty_list[i] = np.log(SolveSFC(base,time=time+skip)["u"][skip:].std())
+                empty_list[i] = np.log(SolveSFC(base,time=time+skip)[var][skip:].std())
             except Exception as e:
                 empty_list[i] = np.infty
                 pass
@@ -395,7 +401,7 @@ def sobol(
         lw = 2.5
     )
     ax.ticklabel_format(useOffset=False)
-    ax.set_ylabel("$\log(std(i))$")
+    ax.set_ylabel(f"$\log(std({var}))$")
     ax.set_xlabel("Parameters")
     ax.legend(loc='center left', bbox_to_anchor=(1, 0.5))
 
